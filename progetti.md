@@ -16,6 +16,18 @@ Ogni nuovo progetto:
    - `SINTESI.md` — cos'è, cosa fa, come si usa (non tecnico)
    - `APPUNTI.md` — note operative, workaround, decisioni
 
+### Quando creare un nuovo progetto
+
+Crea un nuovo progetto solo quando:
+- **Ambito distinto** dai progetti esistenti (non è una sotto-area di un progetto attivo)
+- **Configurazione dedicata** necessaria (agent, prompt, tool specifici)
+- **Ciclo di vita autonomo** (può essere sviluppato, testato, manutenuto separatamente)
+
+**Non creare** un nuovo progetto se:
+- È una feature/estensione di un progetto esistente (aggiungi in `TODO.md` del progetto)
+- È un task temporaneo o one-off (usa `myJob` o progetto pertinente)
+- Condivide >70% del contesto con un progetto esistente (estendi quello esistente)
+
 ---
 
 ## Progetti attivi

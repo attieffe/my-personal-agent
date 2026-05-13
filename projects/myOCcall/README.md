@@ -4,7 +4,7 @@ Progetto per integrare OpenClaw con chiamate video (Teams, Meet, Zoom) al fine d
 
 ## Obiettivo
 
-Consentire a Ralf di entrare in una call come partecipante silenzioso, catturare l'audio via sistema virtuale, trascriverlo con Whisper e restituire un riassunto strutturato.
+Consentire a AttiBot di entrare in una call come partecipante silenzioso, catturare l'audio via sistema virtuale, trascriverlo con Whisper e restituire un riassunto strutturato.
 
 ## Struttura
 
@@ -23,12 +23,15 @@ myOCcall/
 
 ## Stato attuale
 
-- [x] Analisi fattibilità
-- [x] Verifica infrastruttura audio (assente, da installare)
-- [x] Installazione PulseAudio + ffmpeg
-- [x] Configurazione null sink (`virtual_out` + `virtual_out.monitor`)
-- [x] Test cattura audio con ffmpeg — OK
-- [x] Script avvio `scripts/start-audio.sh` + autostart in `.bashrc`
-- [ ] Verifica routing audio browser → virtual sink
-- [ ] Integrazione Whisper
-- [ ] Pipeline completa end-to-end
+- [x] Infrastruttura audio completa (PulseAudio + ffmpeg)
+- [x] Script pipeline implementati (start, stop, monitor, post-call)
+- [x] Join automatico Google Meet implementato
+- [x] Segmentazione audio 300s + trascrizione multi-segmento
+- [x] Flow post-call: Whisper + SINTESI.md + Telegram
+- [ ] Test end-to-end con call reale (in corso)
+- [ ] Join automatico Zoom/Teams
+- [ ] Speaker diarization
+
+**Prossimi passi:** Test completo con chiamata reale, verifica invio Telegram, implementazione altre piattaforme.
+
+**Documentazione:** Vedi [TODO.md](TODO.md) per task aperti e [PIPELINE_TEMPLATE.md](PIPELINE_TEMPLATE.md) per checklist operativa.

@@ -99,7 +99,7 @@ import pathlib, re, sys
 meta = pathlib.Path(sys.argv[1])
 status = sys.argv[2]
 text = meta.read_text()
-text = re.sub(r'^- \*\*Trascrizione:\*\*.*$', f'- **Trascrizione:** {status}', text, count=0, flags=re.MULTILINE)
+text = re.sub(r'^- \*\*Trascrizione:\*\*.*$', f'- **Trascrizione:** {status}', text, count=1, flags=re.MULTILINE)
 meta.write_text(text)
 PY
     echo "ERRORE: trascrizione non abbastanza valida ($QUALITY_STATUS)" >&2
@@ -111,7 +111,7 @@ python3 - "$META" <<'PY'
 import pathlib, re, sys
 meta = pathlib.Path(sys.argv[1])
 text = meta.read_text()
-text = re.sub(r'^- \*\*Trascrizione:\*\*.*$', '- **Trascrizione:** trascrizione.txt [✓ generata]', text, count=0, flags=re.MULTILINE)
+text = re.sub(r'^- \*\*Trascrizione:\*\*.*$', '- **Trascrizione:** trascrizione.txt [✓ generata]', text, count=1, flags=re.MULTILINE)
 meta.write_text(text)
 PY
 

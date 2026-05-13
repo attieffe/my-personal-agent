@@ -8,7 +8,7 @@
 | Audio virtuale | PulseAudio null sink | Dispositivo audio virtuale su server headless |
 | Cattura audio | ffmpeg (PulseAudio monitor) | Registra l'audio della call in chunk |
 | Trascrizione | OpenAI Whisper API | Converte audio → testo |
-| Riassunto | Claude (Ralf) | Elabora il testo e produce il riassunto |
+| Riassunto | Claude (AttiBot) | Elabora il testo e produce il riassunto |
 
 ## Flusso
 

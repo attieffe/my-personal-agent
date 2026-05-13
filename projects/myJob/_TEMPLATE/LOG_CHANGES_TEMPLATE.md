@@ -9,7 +9,7 @@
 
 ## Esempio
 - **2026-05-13**
-  - **Autore**: Ralf
+  - **Autore**: AttiBot
   - **Cosa**: creato template progetto e convenzioni naming
   - **Impatto**: più chiarezza per nuovi progetti
   - **Link/file**: `CONVENZIONI_NAMING.md`

@@ -1,9 +1,11 @@
 # PIPELINE — myOCcall
 
+> **Reference documentation** — Questo file descrive il flow completo del sistema. Per la **checklist operativa** da seguire in ogni singola call, vedi [PIPELINE_TEMPLATE.md](PIPELINE_TEMPLATE.md) (da copiare nella cartella della call).
+
 Definizione operativa di cosa fa il sistema durante e dopo una call attiva.
 
 > **Regole operative:**
-> - Il join e tutta la pipeline vengono eseguiti dalla **sessione dedicata myOCcall**, non dalla sessione principale (Ralf).
+> - Il join e tutta la pipeline vengono eseguiti dalla **sessione dedicata myOCcall**, non dalla sessione principale (AttiBot).
 > - **Modello da usare per l'implementazione:** `claude-opus-4-7` (Opus 4.7)
 > - La **webcam è sempre spenta/nascosta** — nessun output video visibile agli altri partecipanti.
 > - Il nome visualizzato nella call è sempre **"Attilio F."**

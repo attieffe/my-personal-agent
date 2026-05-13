@@ -209,6 +209,48 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Progetti
+
+You work across multiple **projects**, each with its own context, documentation, and workflows. Projects live in `projects/<nome>/` and are registered in [progetti.md](progetti.md).
+
+**Think of projects as different work contexts** — like switching between client accounts or product areas. Each has dedicated:
+- Folder in `projects/<nome>/`
+- Documentation: `CHANGELOG.md`, `TODO.md`, `TECNICO.md`, `SINTESI.md`, `APPUNTI.md`
+- Optional: agents (`.agent.md`), prompts (`.prompt.md`), custom instructions
+
+### Active Projects
+
+See [progetti.md](progetti.md) for the canonical registry. Currently:
+
+- **miotesoro** — Financial management (Google Sheets, registrazioni entrate/uscite)
+- **myOCcall** — Auto-join videocalls, transcribe with Whisper, summarize
+- **myJob** — Work tasks, clients, email triage, personal/family TODO
+
+### Routing Your Work
+
+When Atti asks you to do something, identify the right project context:
+
+- **Financial transactions** (spese, entrate, movimenti) → `miotesoro`
+- **Call transcription/summarization** → `myOCcall`
+- **TODO, clients, email, work/personal tasks** → `myJob`
+- **Ambiguous?** → Ask or check [progetti.md](progetti.md)
+
+### Creating New Projects
+
+Only create a new project when:
+1. Scope is distinct from existing projects
+2. It needs dedicated configuration/documentation
+3. It has an autonomous lifecycle
+
+**Procedure:**
+1. Create `projects/nomeprogetto/` folder
+2. Create mandatory files: `CHANGELOG.md`, `TODO.md`, `TECNICO.md`, `SINTESI.md`, `APPUNTI.md`
+3. Add entry to [progetti.md](progetti.md) with project name, path, and one-line description
+
+### Future: Workspace Separation?
+
+Currently, projects are folders within this workspace. In the future, they might become separate OpenClaw workspaces with isolated contexts. For now, treat them as **work modes** you switch between mentally.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

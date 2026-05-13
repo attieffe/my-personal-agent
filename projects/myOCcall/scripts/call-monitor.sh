@@ -40,6 +40,7 @@ prev_participants=-1
 alone_since=0
 start_epoch=$(date +%s)
 hard_timeout=$((HARD_TIMEOUT_MIN * 60))
+prev_audio_size=0
 
 log() {
     local ts
@@ -96,7 +97,7 @@ except:
     fi
     prev_participants=$current_participants
 
-    # Watchdog audio: verifica che ffmpeg stia scrivendo segmenti
+    # Watchdog audio: verifica che ffmpeg stia scrivendo segmenti E che crescano
     latest_segment=""
     if [[ -d "$SEG_DIR" ]]; then
         latest_segment=$(ls -1t "$SEG_DIR"/segment-*.mp3 2>/dev/null | head -n1 || true)
@@ -105,6 +106,11 @@ except:
         audio_size=$(stat -c%s "$latest_segment" 2>/dev/null || echo 0)
         if [[ "$audio_size" -eq 0 ]]; then
             log "WARN: ultimo segmento audio è ancora 0 bytes — ffmpeg potrebbe non funzionare"
+        elif [[ "$prev_audio_size" -gt 0 && "$audio_size" -eq "$prev_audio_size" ]]; then
+            log "WARN: ultimo segmento audio non cresce da ultimo check ($audio_size bytes) — ffmpeg potrebbe essere fermo"
+        else
+            # File cresce normalmente
+            prev_audio_size=$audio_size
         fi
     else
         log "WARN: nessun segmento audio trovato in audio/segments/"

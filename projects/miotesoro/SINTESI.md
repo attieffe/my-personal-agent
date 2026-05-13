@@ -13,8 +13,8 @@ Copilot AI per la gestione finanziaria personale di Atti. Permette di registrare
 
 ## Come si usa
 
-1. Di' a Ralf cosa vuoi registrare (es. "ho speso 45€ al supermercato Esselunga")
-2. Ralf verifica, categorizza e chiede conferma se c'è ambiguità
+1. Di' a AttiBot cosa vuoi registrare (es. "ho speso 45€ al supermercato Esselunga")
+2. AttiBot verifica, categorizza e chiede conferma se c'è ambiguità
 3. Con la tua conferma, registra sul foglio corretto
 4. Ti conferma la registrazione avvenuta
 

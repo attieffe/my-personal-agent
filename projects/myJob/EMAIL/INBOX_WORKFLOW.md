@@ -1,23 +1,70 @@
 # Workflow Inbox (EMAIL)
 
 ## Obiettivo
-Trasformare le mail in azioni operative tracciate nei file del progetto.
+Trasformare le email in azioni operative tracciate nei file del progetto, con analisi intelligente basata su mittente, contesto e matching con task esistenti.
 
-## Passi
-1. **Inbox scan**: raggruppo mail non lette in “richieste”.
-2. **Triage**:
-   - COLZANI (AS400 o sviluppi interni)
-   - GET_ME_DIGITAL (WordPress)
-   - SINAPPS (WordPress)
-   - DIRETTI (clienti diretti)
-   - EMAIL generiche (info operative)
-3. **Creazione/aggiornamento**:
-   - se manca: creo cartella progetto/cliente usando template
-   - se esiste: aggiungo note in `TODO.md` e voce su `CHANGELOG.md`
-4. **Sintesi per te**: messaggio **non tecnico, ma sintetico** in questo formato:
-   - `Nuovo check email.`
-   - `Email nuove trovate: <N>`
-   - `Email in attesa di definizione: <xxx> (da iterazioni precedenti)`
+## Analisi Multi-Livello
+
+Ogni email viene analizzata seguendo questa priorità:
+
+1. **Istruzioni di Attilio** (se l'email viene da lui)
+   - Cerco istruzioni esplicite: "Segna nella mia TODO", "Mia todolist", "da discutere con [NOME]"
+   - Le sue indicazioni hanno priorità assoluta
+
+2. **Mittente** (chi ha scritto l'email)
+   - Se Attilio inoltra, identifico il mittente originale
+   - Consulto `INTERLOCUTORS.md` per capire chi è (ruolo, società, progetti tipici)
+   - Cross-reference con `COLZANI/GLOSSARIO.md` per società del gruppo
+
+3. **Dominio e Società**
+   - Email `@gruppocolzani.it` → area COLZANI, ma verifico società specifica (SPORTIT, COLZANI SRL, ecc.)
+   - Altri domini → verifico se cliente diretto, partner o fornitore
+
+4. **Oggetto** (cosa dice il subject)
+   - Cerco in `email_threads.md` se è continuazione di thread esistente
+   - Pattern ticket: "OP#" + numero (Capgemini)
+   - Keyword progetti: "GCAT", "InPost", "Shopify", "AS400", ecc.
+
+5. **Contenuto** (corpo email)
+   - Keyword tecniche e progetti
+   - Nomi persone del team
+   - Reference a task esistenti
+
+## Categorizzazione Aree
+
+- **COLZANI**: Gruppo Colzani e società correlate (SPORTIT SRL, COLZANI SRL, BRICOSPORT, ecc.)
+  - Sotto-aree: TEAM (Alessandro, Fabio), CONSULENTI (Marco Di Stefano AS400), AS400
+- **GET_ME_DIGITAL**: Cliente WordPress
+- **SINAPPS**: Cliente WordPress  
+- **DIRETTI**: Clienti diretti (Ballabio Cucine, Croce Bianca Genovese, Davide Rizzi, ecc.)
+- **EMAIL**: Categoria generale per email non categorizzabili
+
+## Matching TODO Esistenti
+
+**Prima di proporre un nuovo task**, il sistema:
+1. Cerca nei file TODO dell'area pertinente
+2. Match basato su: keyword progetto, ticket reference, persona assegnata, società
+3. Se trova match con confidence >70% → propone **aggiornamento** invece di nuovo task
+4. Se confidence <70% → propone entrambe le opzioni e chiede conferma
+
+## Creazione/Aggiornamento File
+
+- Se cliente/progetto manca: propongo creazione cartella usando template
+- Se esiste: propongo aggiunta in TODO.md e voce in CHANGELOG.md
+- **Nessuna modifica automatica**: tutto richiede conferma esplicita
+
+## Formato Recap per Attilio
+
+Per ogni email in sospeso invio messaggio in questo formato:
+
+**📧 Email da [Mittente Nome] ([Contesto])**
+- **Oggetto**: [subject]
+- **Area/Società**: [es. COLZANI - SPORTIT SRL]
+- **Sintesi**: [2-3 righe cosa dice e cosa serve fare]
+- **Azione proposta**: [dettaglio azione con riferimento file/riga se aggiornamento]
+
+**NO tecnicismi**: niente UID, JSON, nomi script Python, riferimenti file di log.
+**Linguaggio naturale** orientato all'azione.
 
 ## Regole operative
 - Dopo il download, le mail vanno marcate come **lette**.
@@ -38,6 +85,16 @@ Trasformare le mail in azioni operative tracciate nei file del progetto.
   - chiarimento prima di agire
 
 ## Output
-- nessun invio automatico esterno
-- tutto tracciato su file in workspace
-- l'esito del task cron va notificato nella chat Telegram da cui è partito il task
+
+- Nessun invio automatico esterno
+- Tutto tracciato su file in workspace
+- Notifica nella chat Telegram da cui è partito il check
+- Formato messaggio: chiaro, orientato all'azione, senza tecnicismi
+
+## File di Riferimento
+
+Consultare per maggiori dettagli:
+- `TRIAGE_RULES.md` — regole complete di categorizzazione
+- `INTERLOCUTORS.md` — database mittenti abituali
+- `COLZANI/GLOSSARIO.md` — società e brand Gruppo Colzani
+- `templates/telegram_recap.md` — formato messaggi Telegram

@@ -185,6 +185,14 @@
   },
   "active": "fdd16a080895e4cc",
   "lastOpenFiles": [
+    "projects/myOCcall/docs/AGENT_RUNBOOK.md",
+    "projects/myJob/EMAIL/templates/telegram_recap.md",
+    "projects/myOCcall/PIPELINE_TEMPLATE.md",
+    "projects/myJob/EMAIL/templates",
+    "projects/myJob/EMAIL/TRIAGE_RULES.md",
+    "projects/myJob/EMAIL/INTERLOCUTORS.md",
+    "projects/myJob/COLZANI/GLOSSARIO.md",
+    "MEMORY.md",
     "projects/myJob/DIRETTI/Unioncucine/03_deliverables/README.md",
     "projects/myJob/DIRETTI/Unioncucine/02_communications/EMAIL_THREAD_INDEX.md",
     "projects/myJob/DIRETTI/Unioncucine/01_meetings/MEETING_LOG.md",
@@ -206,20 +214,12 @@
     "projects/myJob/DIRETTI/Studio_Paladini/03_deliverables",
     "projects/myJob/DIRETTI/Studio_Paladini/01_meetings",
     "projects/myJob/DIRETTI/Studio_Paladini/00_index.md",
-    "projects/myJob/DIRETTI/Studio_Paladini",
     "projects/myJob/DIRETTI/Studio_Legale_Condello/02_communications/EMAIL_THREAD_INDEX.md",
     "projects/myJob/DIRETTI/Studio_Legale_Condello/03_deliverables/README.md",
     "projects/myJob/DIRETTI/Studio_Legale_Condello/01_meetings/MEETING_LOG.md",
     "projects/myJob/DIRETTI/Studio_Legale_Condello/README.md",
     "projects/myJob/DIRETTI/Studio_Legale_Condello/CHANGELOG.md",
     "projects/myJob/DIRETTI/Studio_Legale_Condello/00_index.md",
-    "projects/myJob/DIRETTI/Silvia_Migliaccio/02_communications/EMAIL_THREAD_INDEX.md",
-    "projects/myJob/DIRETTI/Silvia_Migliaccio/03_deliverables/README.md",
-    "projects/myJob/DIRETTI/Silvia_Migliaccio/01_meetings/MEETING_LOG.md",
-    "projects/myJob/DIRETTI/Silvia_Migliaccio/README.md",
-    "projects/myJob/DIRETTI/Silvia_Migliaccio/CHANGELOG.md",
-    "projects/myJob/DIRETTI/Silvia_Migliaccio/00_index.md",
-    "projects/myJob/DIRETTI/Davide_Rizzi/02_communications/EMAIL_THREAD_INDEX.md",
-    "projects/myJob/DIRETTI/Davide_Rizzi/03_deliverables/README.md"
+    "projects/myJob/DIRETTI/Silvia_Migliaccio/02_communications/EMAIL_THREAD_INDEX.md"
   ]
 }
