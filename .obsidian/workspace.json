@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "progetti.md",
+                "file": "projects/myJob/COLZANI/TEAM/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "progetti"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "progetti.md",
+                "file": "projects/myJob/COLZANI/TEAM/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a progetti"
+              "title": "Riferimenti a README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "progetti.md",
+                "file": "projects/myJob/COLZANI/TEAM/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da progetti"
+              "title": "Collegamenti in uscita da README"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "progetti.md",
+                "file": "projects/myJob/COLZANI/TEAM/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di progetti"
+              "title": "Struttura di README"
             }
           }
         ]
@@ -185,14 +185,32 @@
   },
   "active": "fdd16a080895e4cc",
   "lastOpenFiles": [
+    "projects/myJob/COLZANI/README.md",
+    "projects/myJob/COLZANI/IT_MANAGER.md",
+    "projects/myJob/COLZANI/GLOSSARIO.md",
+    "projects/myJob/COLZANI/CHANGELOG.md",
+    "projects/myJob/COLZANI/TEAM/ALessandro_TODO.md",
+    "projects/myJob/COLZANI/CONSULENTI/README.md",
+    "projects/myJob/COLZANI/AS400/README.md",
+    "TOOLS.md",
+    "projects/myJob/EMAIL/README.md.bak",
+    "SOUL.md",
+    "progetti.md",
+    "MEMORY.md",
+    "IDENTITY.md",
+    "HEARTBEAT.md",
+    "AGENTS.md",
+    "projects/myJob/EMAIL/scripts/update_interlocutors.py",
+    "projects/myJob/EMAIL/scripts/match_todos.py",
+    "projects/myJob/EMAIL/scripts",
+    "memory/2026-05-13-2248.md",
+    "memory/~syncthing~2026-05-13-2248.md.tmp",
     "projects/myOCcall/docs/AGENT_RUNBOOK.md",
     "projects/myJob/EMAIL/templates/telegram_recap.md",
     "projects/myOCcall/PIPELINE_TEMPLATE.md",
     "projects/myJob/EMAIL/templates",
     "projects/myJob/EMAIL/TRIAGE_RULES.md",
     "projects/myJob/EMAIL/INTERLOCUTORS.md",
-    "projects/myJob/COLZANI/GLOSSARIO.md",
-    "MEMORY.md",
     "projects/myJob/DIRETTI/Unioncucine/03_deliverables/README.md",
     "projects/myJob/DIRETTI/Unioncucine/02_communications/EMAIL_THREAD_INDEX.md",
     "projects/myJob/DIRETTI/Unioncucine/01_meetings/MEETING_LOG.md",
@@ -202,24 +220,6 @@
     "projects/myJob/DIRETTI/Unioncucine/02_communications",
     "projects/myJob/DIRETTI/Unioncucine/90_archive",
     "projects/myJob/DIRETTI/Unioncucine/01_meetings",
-    "projects/myJob/DIRETTI/Unioncucine/00_index.md",
-    "projects/myJob/DIRETTI/Unioncucine",
-    "projects/myJob/DIRETTI/Studio_Paladini/02_communications/EMAIL_THREAD_INDEX.md",
-    "projects/myJob/DIRETTI/Studio_Paladini/03_deliverables/README.md",
-    "projects/myJob/DIRETTI/Studio_Paladini/01_meetings/MEETING_LOG.md",
-    "projects/myJob/DIRETTI/Studio_Paladini/README.md",
-    "projects/myJob/DIRETTI/Studio_Paladini/CHANGELOG.md",
-    "projects/myJob/DIRETTI/Studio_Paladini/90_archive",
-    "projects/myJob/DIRETTI/Studio_Paladini/02_communications",
-    "projects/myJob/DIRETTI/Studio_Paladini/03_deliverables",
-    "projects/myJob/DIRETTI/Studio_Paladini/01_meetings",
-    "projects/myJob/DIRETTI/Studio_Paladini/00_index.md",
-    "projects/myJob/DIRETTI/Studio_Legale_Condello/02_communications/EMAIL_THREAD_INDEX.md",
-    "projects/myJob/DIRETTI/Studio_Legale_Condello/03_deliverables/README.md",
-    "projects/myJob/DIRETTI/Studio_Legale_Condello/01_meetings/MEETING_LOG.md",
-    "projects/myJob/DIRETTI/Studio_Legale_Condello/README.md",
-    "projects/myJob/DIRETTI/Studio_Legale_Condello/CHANGELOG.md",
-    "projects/myJob/DIRETTI/Studio_Legale_Condello/00_index.md",
-    "projects/myJob/DIRETTI/Silvia_Migliaccio/02_communications/EMAIL_THREAD_INDEX.md"
+    "projects/myJob/DIRETTI/Unioncucine/00_index.md"
   ]
 }
