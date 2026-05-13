@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-13T14:58:26.708Z",
+  "entries": {
+    "memory:memory/2026-05-12.md:1:8": {
+      "key": "memory:memory/2026-05-12.md:1:8",
+      "path": "memory/2026-05-12.md",
+      "startLine": 1,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "# 2026-05-12 - Prima configurazione Telegram con AttiEffe. - L'utente ha scelto per me il nome **Ralf**. - Identità desiderata: ingegnere informatico, un po' simpatico, preciso e sicuro di sé. - Lingua preferita: italiano. - Interesse immediato: configurare Claude Code.",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5833972603082657,
+      "maxScore": 0.36417687237262725,
+      "firstRecalledAt": "2026-05-12T12:40:13.987Z",
+      "lastRecalledAt": "2026-05-13T14:58:26.708Z",
+      "queryHashes": [
+        "89f182950b78",
+        "e869a20556c0"
+      ],
+      "recallDays": [
+        "2026-05-12",
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "prima",
+        "configurazione",
+        "telegram",
+        "attieffe",
+        "l'utente",
+        "scelto",
+        "per",
+        "nome"
+      ]
+    },
+    "memory:memory/2026-05-13.md:1:5": {
+      "key": "memory:memory/2026-05-13.md:1:5",
+      "path": "memory/2026-05-13.md",
+      "startLine": 1,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "## 2026-05-13 00:12 CEST - Miotesoro vendor mapping / timezone - Atti ha confermato nuovi mapping vendor per Miotesoro: Acqua & Sapone → Supermercati vari; Osteria del gelato → Uscite; Alperia → Corrente se circa 90/100€, altrimenti tipicamente Gas; OVS e D115 Carugo → abbigliamento bimbi; Corsico Hfb → IKEA/arredamento; Pepco Cantù e Max Factory → Supermercati vari; Shopsi Srl → NaturaSì/Alimenti qualità. - Regola da ricordare: per campi data/ora di creazione e modifica usare sempre timezone italiano Europe/Rome, non UTC (altrimenti Atti vede 2 ore prima in estate).",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.45532769858837124,
+      "maxScore": 0.45532769858837124,
+      "firstRecalledAt": "2026-05-12T22:14:34.891Z",
+      "lastRecalledAt": "2026-05-12T22:14:34.891Z",
+      "queryHashes": [
+        "4b2611b0369d"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "90/100",
+        "ikea/arredamento",
+        "naturasì/alimenti",
+        "data/ora",
+        "europe/rome",
+        "cest",
+        "miotesoro",
+        "vendor"
+      ]
+    },
+    "memory:memory/2026-05-13.md:1:6": {
+      "key": "memory:memory/2026-05-13.md:1:6",
+      "path": "memory/2026-05-13.md",
+      "startLine": 1,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "## 2026-05-13 00:12 CEST - Miotesoro vendor mapping / timezone - Atti ha confermato nuovi mapping vendor per Miotesoro: Acqua & Sapone → Supermercati vari; Osteria del gelato → Uscite; Alperia → Corrente se circa 90/100€, altrimenti tipicamente Gas; OVS e D115 Carugo → abbigliamento bimbi; Corsico Hfb → IKEA/arredamento; Pepco Cantù e Max Factory → Supermercati vari; Shopsi Srl → NaturaSì/Alimenti qualità. - Regola da ricordare: per campi data/ora di creazione e modifica usare sempre timezone italiano Europe/Rome, non UTC (altrimenti Atti vede 2 ore prima in estate). - Correzione: il primo intervento aveva aggiornato solo i file locali di mapping, non il Google Sheet. Dopo ricontrollo, aggi",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.7439260004202726,
+      "maxScore": 0.7982362726990448,
+      "firstRecalledAt": "2026-05-12T22:19:52.203Z",
+      "lastRecalledAt": "2026-05-13T14:58:26.708Z",
+      "queryHashes": [
+        "550075f78d52",
+        "5d262be89ff7",
+        "e869a20556c0"
+      ],
+      "recallDays": [
+        "2026-05-12",
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "90/100",
+        "ikea/arredamento",
+        "naturasì/alimenti",
+        "data/ora",
+        "europe/rome",
+        "cest",
+        "miotesoro",
+        "vendor"
+      ]
+    }
+  }
+}

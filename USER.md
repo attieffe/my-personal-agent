@@ -1,9 +1,9 @@
 # USER.md - About Your Human
 
 - **Name:** AttiEffe
-- **What to call them:** AttiEffe, finché non mi indica un nome diverso.
+- **What to call them:** Atti
 - **Pronouns:**
-- **Timezone:** Da confermare.
+- **Timezone:** Europe/Rome (UTC+1 inverno, UTC+2 estate)
 - **Notes:** Parla italiano. Vuole un assistente chiamato Ralf: ingegnere informatico, un po' simpatico, preciso e sicuro di sé.
 
 ## Context

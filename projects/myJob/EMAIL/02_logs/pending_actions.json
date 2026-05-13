@@ -1,0 +1,22 @@
+{
+  "pending": [
+    {
+      "uid": "7",
+      "proposal": "Mail 'I: inpost e numero di telefono' (thread risposta di Alessandro a UID precedente). Alessandro ha già preso in carico: proporrei aggiornamento del TODO esistente in Alessandro_TODO.md aggiungendo nota che la risposta/controllo continua e di cosa si è fatto finora (nessun nuovo scope).",
+      "actionType": "update_existing_task",
+      "target": "projects/myJob/COLZANI/TEAM/ALessandro_TODO.md (ALessandro_TODO — InPost: mappatura meta → numero telefono)",
+      "emlToBeDefined": "projects/myJob/EMAIL/01_to-be-defined/msg_4_20260513_153434.eml",
+      "needsConfirmation": true,
+      "proposedAt": "2026-05-13T17:34:00Z"
+    },
+    {
+      "uid": "6",
+      "proposal": "Mail 'I: Capgemini - OP# 02698455 - Canone NAV-Ls retail-AddOn...' con testo 'Segna nella mia TODO personale ma in una sottosezione da discutere con STEFANO COLZANI'. Proposta: aggiungere una voce in 'Mia todolist (Atti / Attilio)' in README.md, sotto una sottosezione 'da discutere con Stefano', con riferimento a OP# 02698455 e indicazione 'canone NAV-Ls retail-AddOn Capgemini 2026-2027' (nuovo scope per Attilio).",
+      "actionType": "create_new_todo_for_attilio",
+      "target": "projects/myJob/COLZANI/TEAM/README.md (Mia todolist (Atti / Attilio) → sottosezione da discutere con Stefano)",
+      "emlToBeDefined": "projects/myJob/EMAIL/01_to-be-defined/msg_5_20260513_153434.eml",
+      "needsConfirmation": true,
+      "proposedAt": "2026-05-13T17:34:00Z"
+    }
+  ]
+}
