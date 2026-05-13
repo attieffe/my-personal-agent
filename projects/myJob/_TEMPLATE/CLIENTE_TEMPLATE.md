@@ -1,6 +1,6 @@
 # Template Cliente (diretti)
 
-Copia questo contenuto in `README.md` di una cartella cliente dentro `DIRETTI/CLIENTI/...`.
+Copia questo contenuto in `README.md` di una cartella cliente dentro `DIRETTI/...`.
 
 ## Anagrafica
 - **Nome cliente**: 

@@ -9,5 +9,5 @@ Area per l’agenzia **Sinapps** (progetti e sviluppo WordPress).
 - **Luca Proserpio** (fa sviluppo su progetti diversi)
 
 ## Struttura
-- `PROGETTI/`: sottocartelle per i progetti
+- [[PROGETTI/README|PROGETTI]]: sottocartelle per i progetti
 - `CHANGELOG.md`: aggiornamenti del ramo

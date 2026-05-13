@@ -1,7 +1,7 @@
 # WORKFLOWS.md — flussi e convenzioni
 
 ## A) Avviare un nuovo cliente (DIRETTI)
-1. Crea/duplica la cartella `DIRETTI/CLIENTI/<Cliente>`.
+1. Crea/duplica la cartella `DIRETTI/<Cliente>`.
 2. Riempie `00_index.md` con:
    - descrizione breve
    - obiettivi

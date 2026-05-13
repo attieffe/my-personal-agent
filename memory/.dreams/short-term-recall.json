@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-13T14:58:26.708Z",
+  "updatedAt": "2026-05-13T21:55:01.142Z",
   "entries": {
     "memory:memory/2026-05-12.md:1:8": {
       "key": "memory:memory/2026-05-12.md:1:8",
@@ -9,16 +9,17 @@
       "endLine": 8,
       "source": "memory",
       "snippet": "# 2026-05-12 - Prima configurazione Telegram con AttiEffe. - L'utente ha scelto per me il nome **Ralf**. - Identità desiderata: ingegnere informatico, un po' simpatico, preciso e sicuro di sé. - Lingua preferita: italiano. - Interesse immediato: configurare Claude Code.",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.5833972603082657,
+      "totalScore": 0.8812208324670792,
       "maxScore": 0.36417687237262725,
       "firstRecalledAt": "2026-05-12T12:40:13.987Z",
-      "lastRecalledAt": "2026-05-13T14:58:26.708Z",
+      "lastRecalledAt": "2026-05-13T21:55:01.142Z",
       "queryHashes": [
         "89f182950b78",
-        "e869a20556c0"
+        "e869a20556c0",
+        "3dc90d61d26b"
       ],
       "recallDays": [
         "2026-05-12",

@@ -11,5 +11,5 @@ Area per l’agenzia **Get Me Digital** (progetti e sviluppo WordPress).
 - **Cristina** (responsabile amministrativa, governata da Andrea)
 
 ## Struttura
-- `PROGETTI/`: sottocartelle per i progetti
+- [[PROGETTI/README|PROGETTI]]: sottocartelle per i progetti
 - `CHANGELOG.md`: aggiornamenti del ramo

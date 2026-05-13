@@ -22,18 +22,21 @@ Ogni nuovo progetto:
 
 ### miotesoro (myMoney)
 **Cartella:** `projects/miotesoro/`
+**Documentazione:** [[projects/miotesoro/SINTESI|Sintesi]] | [[projects/miotesoro/TECNICO|Tecnico]] | [[projects/miotesoro/TODO|TODO]] | [[projects/miotesoro/APPUNTI|Appunti]]
 **Cos'è:** Copilot AI per la gestione finanziaria personale di Atti. Registra entrate e uscite su due fogli Google Sheets (PERSONALE e CASA) con validazione automatica, controllo duplicati e integrità partita doppia. L'agente categorizza i movimenti automaticamente e non registra nulla senza conferma o senza esito positivo del revisore.
 
 ---
 
 ### myOCcall
 **Cartella:** `projects/myOCcall/`
+**Documentazione:** [[projects/myOCcall/README|README]] | [[projects/myOCcall/SINTESI|Sintesi]] | [[projects/myOCcall/TECNICO|Tecnico]] | [[projects/myOCcall/TODO|TODO]]
 **Cos'è:** Sistema per entrare automaticamente in videochiamate (Google Meet, Zoom, Teams) come partecipante silenzioso, catturare l'audio via PulseAudio null sink, trascriverlo con Whisper (OpenAI) e produrre un riassunto strutturato da inviare ad Atti via Telegram. Attualmente in sviluppo — infrastruttura audio completata, pipeline end-to-end da completare.
 
 ---
 
 ### myJob
 **Cartella:** `projects/myJob/`
+**Specifiche:** [[projects/myJob/README|README]]
 **Cos'è:** Progetto di gestione miei task lavorativi e non. Quindi quando si parta di TODO list generiche, Clienti, azioni legate alla famiglia, a lavori, o attività non meglio specificate tendenzialmente finiscono qui
 
 ---
