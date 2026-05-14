@@ -185,17 +185,18 @@
   },
   "active": "047bd5dc5eabf905",
   "lastOpenFiles": [
-    "projects/myOCcall/data/20260514 1613 teams/audio/segments/~syncthing~segment-0025.mp3.tmp",
+    "projects/myOCcall/data/20260514 1610 teams/audio/segments/~syncthing~segment-0027.mp3.tmp",
+    "projects/myOCcall/data/20260514 1604 teams/audio/segments/~syncthing~segment-0028.mp3.tmp",
+    "projects/myOCcall/data/20260514 1613 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
+    "projects/myOCcall/data/20260514 1606 teams/audio/segments/segment-0028.mp3",
+    "projects/myOCcall/data/20260514 1606 teams/audio/segments/~syncthing~segment-0027.mp3.tmp",
+    "projects/myOCcall/data/20260514 1610 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
+    "projects/myOCcall/data/20260514 1610 teams/audio/segments/segment-0027.mp3",
     "projects/myOCcall/data/20260514 1606 teams/audio/segments/segment-0027.mp3",
-    "projects/myOCcall/data/20260514 1606 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
     "projects/myOCcall/data/20260514 1610 teams/audio/segments/segment-0026.mp3",
-    "projects/myOCcall/data/20260514 1604 teams/audio/segments/~syncthing~segment-0027.mp3.tmp",
-    "projects/myOCcall/data/20260514 1610 teams/audio/segments/~syncthing~segment-0025.mp3.tmp",
-    "projects/myOCcall/data/20260514 1604 teams/audio/segments/segment-0027.mp3",
-    "projects/myOCcall/data/20260514 1604 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
-    "projects/myOCcall/data/20260514 1613 teams/audio/segments/segment-0025.mp3",
-    "projects/myOCcall/data/20260514 1613 teams/audio/segments/~syncthing~segment-0024.mp3.tmp",
-    "projects/myOCcall/data/20260514 1606 teams/audio/segments/~syncthing~segment-0025.mp3.tmp",
+    "projects/myOCcall/data/20260514 1606 teams/audio/segments",
+    "projects/myOCcall/data/20260514 1606 teams/audio",
+    "projects/myOCcall/data/20260514 1604 teams - carichi società/HUMAN.MD",
     "projects/myJob/INSTRUCTIONS_GENERALI.md",
     "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
     "projects/myJob/COLZANI/PERSONALI/README.md",
@@ -219,7 +220,6 @@
     "AGENTS.md",
     "memory/2026-05-13-2248.md",
     "projects/myOCcall/docs/AGENT_RUNBOOK.md",
-    "projects/myJob/EMAIL/templates/telegram_recap.md",
-    "projects/myOCcall/PIPELINE_TEMPLATE.md"
+    "projects/myJob/EMAIL/templates/telegram_recap.md"
   ]
 }

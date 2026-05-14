@@ -95,20 +95,33 @@
 ### 5.2 — Sintesi
 
 - [ ] Verificare se esiste `HUMAN.md` nella cartella call
-  - [ ] Se sì: leggere e preparare fusione nel riassunto
+  - [ ] Se sì: leggere prima di scrivere qualsiasi cosa
+  - [ ] Se Atti ha fornito note verbali/testuali durante o dopo la call → archiviarle in `HUMAN.MD` prima di generare
 - [ ] `SINTESI.md` generata con template strutturato:
   - [ ] Info call (piattaforma, URL, orari, durata)
   - [ ] Cronistoria sintetica (join browser, segmenti, variazioni partecipanti)
+  - [ ] Partecipanti presenti con **nomi espliciti** (se disponibili da trascrizione, DOM, META.md o HUMAN.MD); distinzione tra "presente confermato" e "citato"
   - [ ] Contesto e inizio riunione
   - [ ] Argomenti trattati
-  - [ ] Decisioni prese
-  - [ ] Partecipanti presenti + durata approssimativa di partecipazione se ricostruibile
+  - [ ] Considerazioni e pareri emersi (opinioni, preoccupazioni, valutazioni espresse; distinte dalle decisioni formali)
+  - [ ] Decisioni prese (confrontate e integrate con HUMAN.MD se presente)
   - [ ] Estratto trascrizione (solo frasi utili; escludere battute, commenti, parti non comprese)
-  - [ ] **Se `HUMAN.md` presente**: sezione "Note di Atti" con gli appunti manuali fusi/integrati nella sintesi
+  - [ ] **Se `HUMAN.MD` presente**: sezione "Note di Attilio" con gli appunti manuali fusi/integrati; le note di HUMAN.MD prevalgono sull'interpretazione automatica in caso di discrepanza
   - [ ] `META.md` aggiornato: sintesi ✓
 - [ ] Titolo breve dedotto dalla sintesi e usato per rinominare la cartella call (`YYYYMMDD HHMM platform - titolo/`)
 
-### 5.3 — Invio
+### 5.3 — Conferma IT (prima dell'invio)
+
+> Questo step viene eseguito interattivamente con Atti prima di inviare la sintesi via Telegram.
+
+- [ ] Estratte le **azioni in carico all'area IT** emerse dalla SINTESI (sviluppi, integrazioni, strumenti da costruire)
+- [ ] Proposta di assegnazione o revisione presentata ad Atti per ciascuna azione IT
+- [ ] Aggiunto a TODO personale di Atti: voce "Revisiona SINTESI [titolo call]"
+  - Call COLZANI → `projects/myJob/COLZANI/PERSONALI/README.md`
+  - Call sfera privata/casa → `projects/myJob/ATTILIO_A_CASA/01_todo_riassuntivo.md`
+  - Contesto ambiguo → `projects/myJob/DA_DEFINIRE.md`
+
+### 5.4 — Invio
 
 - [ ] SINTESI.md inviata ad Atti via Telegram
 - [ ] Se invio fallisce → salvata in `sintesi-pending-send.txt`

@@ -4,6 +4,7 @@
 - Ferie team IT: argomento già discusso, in attesa di risposta da Alessandro e Fabio
 - **[URGENTE]** Capire integrazione marketplace e Apes Lab con Giordano Vignati e Mattia Ballabio (Global Trading / E-Commerce Zone)
 - APES MARKETPLACE: next step parlare con Stefano (riutilizzare il flusso esistente, non rifare da zero) — sintesi call: [Rinnovo Shippy Pro - Attilio Giordano Giorgio](../../../myOCcall/data/20260514%201408%20teams%20-%20rinnovo%20shippy%20pro%20-%20attilio%20giordano%20giorgio/SINTESI.md)
+- **[DA FARE]** Revisiona SINTESI "Carichi Società" (2026-05-14) e conferma assegnazioni IT (giacenza WMS in Excel, strumento spedizioni parziali Giorgio, sistema ALERT) — vedi [[SINTESI|SINTESI carichi società]]
 - dire ad Ale di segnalare a Paolo Meneghelli (fix InPost telefono — in testing)
 - **[ATTIVO]** Progetto scissione BricoSport / SportIt SRL — dettagli in [Microsoft Loop](https://colzani.sharepoint.com/:fl:/g/contentstorage/CSP_82dff8a4-12f8-4664-87f4-317138d6e005/IQCSm90XFRkXQLQRL-BPQYUwAUj7WZ4xU0JCgZS2OzrmQTY?e=FcXCly&nav=cz0lMkZjb250ZW50c3RvcmFnZSUyRkNTUF84MmRmZjhhNC0xMmY4LTQ2NjQtODdmNC0zMTcxMzhkNmUwMDUmZD1iJTIxcFBqZmd2Z1NaRWFIOURGeE9OYmdCYTRLWktZenRyNVBweWtBWEhVN2VmN1lOeHlXVVlIUVRyRzVzWkhHREgwYiZmPTAxQ0pJQUFFRVNUUE9ST0ZJWkM1QUxJRUpQNEJIVURCSlEmYz0lMkYmYT1Mb29wQXBwJnA9JTQwZmx1aWR4JTJGbG9vcC1wYWdlLWNvbnRhaW5lcg%3D%3D)
 - Rispondere a Silvio per dominio sportit.es [da fare]

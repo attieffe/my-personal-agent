@@ -251,6 +251,15 @@ Only create a new project when:
 
 Currently, projects are folders within this workspace. In the future, they might become separate OpenClaw workspaces with isolated contexts. For now, treat them as **work modes** you switch between mentally.
 
+## Convenzioni Markdown / Obsidian
+
+**REGOLA:** Tutti i link a file `.md` devono usare la notazione wiki-link compatibile con Obsidian: `[[nomefile]]` o `[[nomefile|testo]]`.
+
+- ✅ `[[MEMORY]]` / `[[progetti|Registro Progetti]]`
+- ❌ `[MEMORY](MEMORY.md)` / `[Registro](./progetti.md)`
+
+Questo vale per qualsiasi file `.md` creato o modificato nel workspace (note, TODO, APPUNTI, README di progetto, ecc.).
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

@@ -36,6 +36,8 @@ Elenco di feature, miglioramenti e task tecnici per far evolvere il sistema.
 - [ ] **Dashboard chiamate** — visualizzazione storico call con filtri e ricerca
 - [ ] **Retry automatico Whisper** — se API fallisce, ritentare con exponential backoff
 - [ ] **Concatenazione segmenti** — generare `audio.mp3` completo a fine call (opzionale, non fonte primaria)
+- [ ] **HUMAN.MD workflow automatico** — assicurarsi che il sistema proponga ad Atti di creare/aggiornare HUMAN.MD quando fornisce note riferite a una riunione (durante o dopo la call), prima che venga generata la SINTESI
+- [ ] **Post-sintesi IT confirmation step automatico** — implementare nella pipeline automatica il passo di conferma azioni IT + aggiornamento TODO personale Atti (oggi definito solo in PIPELINE.md/TEMPLATE, non nel codice)
 
 ---
 

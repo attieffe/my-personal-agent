@@ -26,3 +26,14 @@ Usa prefissi numerici a due cifre per ordinare:
 ## 5) Email
 - Gli export email vanno in `EMAIL/00_inbox/` o `EMAIL/01_sent/`.
 - I thread vanno indicizzati in `EMAIL/02_logs/email_threads.md` (per rintracciare cosa c’è senza aprire tutto).
+## 6) Routing TODO personale di Attilio
+Quando il sistema (es. myOCcall post-sintesi) deve aggiungere un TODO personale ad Attilio, usare questo routing:
+
+| Contesto dell'attività | File di destinazione |
+|------------------------|----------------------|
+| Lavoro COLZANI (IT, gestione, operativo) | `COLZANI/PERSONALI/README.md` (sezione TODOLIST) |
+| Sfera privata / casa / personale | `ATTILIO_A_CASA/01_todo_riassuntivo.md` |
+| Clienti diretti / extra Colzani | `ATTILIO_A_CASA/lavori_a_casa/42_clienti_diretti.md` |
+| Contesto non identificabile con certezza | Appendere a `DA_DEFINIRE.md` nella root di myJob (creare se non esiste) |
+
+Regola pratica: se non sai con certezza a quale "mondo" appartiene un task, mettilo in `DA_DEFINIRE.md` per revisione manuale successiva.

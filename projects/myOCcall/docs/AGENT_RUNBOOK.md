@@ -105,7 +105,14 @@ Al termine della call, verifica:
 - [ ] `audio/manifest.tsv` generato
 - [ ] Almeno 1 segmento `status=valid`
 - [ ] `trascrizione.txt` creato (>10 parole, non ripetitivo, con timestamp utili)
-- [ ] `SINTESI.md` generato con contenuto valido e decisioni utili
+- [ ] **Se Atti ha fornito note sulla call → archiviate in `HUMAN.MD` prima di generare la SINTESI**
+- [ ] `SINTESI.md` generata con contenuto valido e struttura completa:
+  - Nomi partecipanti espliciti (presenti confermati vs citati)
+  - Argomenti trattati + considerazioni e pareri emersi
+  - Decisioni prese (integrate con HUMAN.MD se presente)
+  - Sezione "Note di Attilio" se HUMAN.MD presente
+- [ ] Azioni IT estratte dalla SINTESI e presentate ad Atti per conferma/assegnazione
+- [ ] TODO personale di Atti aggiornato ("Revisiona SINTESI [titolo]") nel file corretto (COLZANI/PERSONALI, ATTILIO_A_CASA, o DA_DEFINIRE)
 - [ ] Partecipanti e cronistoria ricostruiti per quanto possibile
 - [ ] Invio Telegram riuscito (o `sintesi-pending-send.txt` creato)
 
@@ -238,6 +245,8 @@ head -20 trascrizione.txt       # ispeziona contenuto
 
 - [ ] `PIPELINE.md` nella cartella call completamente spuntata
 - [ ] `META.md` aggiornato con tutti i timestamp
-- [ ] `SINTESI.md` generata e inviata (o pending salvato)
+- [ ] `SINTESI.md` generata con struttura completa (partecipanti, argomenti, considerazioni, decisioni, note Atti)
+- [ ] Azioni IT presentate ad Atti e TODO personale aggiornato
+- [ ] Sintesi inviata ad Atti (o pending salvato)
 - [ ] Nessun processo ffmpeg/browser ancora attivo (`ps aux | grep -E 'ffmpeg|chromium'`)
 - [ ] Messaggio di conferma inviato ad Atti

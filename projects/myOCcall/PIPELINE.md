@@ -97,14 +97,25 @@ _(anomalie, problemi tecnici, osservazioni)_
 14. Avviare **Whisper** su tutti i segmenti validi nel manifest → salvare output per segmento in `transcripts/`
 15. Aggregare tutte le trascrizioni ordinate in `trascrizione.txt`
 16. Aggiornare `META.md`: trascrizione completa/parziale/fallita
-17. Generare **SINTESI.md** dalla trascrizione solo se supera i controlli minimi:
-    - Contesto e argomenti principali
-    - Decisioni prese
-    - Per parlante (se diarization disponibile)
-    - Orari join/leave di tutti i partecipanti
-    - **Se esiste `HUMAN.md`**: fondere le note di Atti nella sintesi come sezione "Note di Atti" e usarle per arricchire/correggere il contenuto automatico
+17. Generare **SINTESI.md** dalla trascrizione solo se supera i controlli minimi. La sintesi deve includere obbligatoriamente:
+    - **Info call:** piattaforma, URL, orari join/leave, durata
+    - **Partecipanti:** nomi espliciti di chi ha partecipato (ricavati da trascrizione, DOM, META.md o HUMAN.MD). Se un nome non è verificabile con certezza, indicarlo come "citato" vs "presente confermato". Non scrivere solo "bot registratore" se ci sono partecipanti reali.
+    - **Contesto e inizio riunione**
+    - **Argomenti trattati**
+    - **Considerazioni e pareri emersi:** opinioni, preoccupazioni, valutazioni espresse dai partecipanti durante la discussione (distinte dalle decisioni formali)
+    - **Decisioni prese:** solo quelle effettivamente deliberate, da confrontare e integrare con `HUMAN.MD` se presente
+    - **Se esiste `HUMAN.md`:** leggere il file prima di scrivere la sintesi; fondere le note come sezione "Note di Attilio" e usarle per arricchire/correggere il contenuto automatico (le note di HUMAN.MD prevalgono sull'interpretazione automatica in caso di discrepanza)
+    - **Estratto trascrizione** (frasi utili; escludere boilerplate e parti incomprensibili)
+    > **Regola HUMAN.MD:** Se Atti ti fornisce note riferite a questa riunione (durante o dopo la call), chiedile di archiviarle in `HUMAN.MD` nella cartella della call prima che tu generi la SINTESI. Questo garantisce che vengano fuse correttamente.
 18. Aggiornare `META.md`: sintesi ✓
 19. Deducere un titolo breve dalla sintesi e rinominare la cartella call in `YYYYMMDD HHMM <platform> - <titolo>/`
+19b. **Conferma IT post-SINTESI:** Prima di inviare via Telegram, presentare ad Atti:
+    - Elenco delle **azioni in carico all'area IT** emerse dalla sintesi (es. sviluppi, integrazioni, strumenti da costruire)
+    - Proposta di assegnazione o revisione per ciascuna azione
+    - Aggiungere a TODO personale di Atti la voce "Revisiona SINTESI [titolo call]", instradando nel file corretto:
+      - Call COLZANI → `projects/myJob/COLZANI/PERSONALI/README.md` (sezione TODOLIST)
+      - Call sfera privata/casa → `projects/myJob/ATTILIO_A_CASA/01_todo_riassuntivo.md`
+      - Contesto non identificabile → appendere a `projects/myJob/DA_DEFINIRE.md` (creare se non esiste)
 20. Inviare `SINTESI.md` ad Atti via Telegram
 
 ---
