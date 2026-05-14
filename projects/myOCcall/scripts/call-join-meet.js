@@ -197,6 +197,7 @@ function nowRome() {
   // --- Aggiorna META.md con timestamp di join effettivo ---
   const joinTime = nowRome();
   await updateMeta(metaPath, 'Bot join', `${joinTime} (Europe/Rome)`);
+  await updateMeta(metaPath, 'bot_join_epoch_ms', String(Date.now()));
   console.log(`[meet] Join confermato: ${joinTime}`);
 
   // Scrivi anche il path del call_dir in un file per il monitoring
@@ -208,6 +209,61 @@ function nowRome() {
   console.log('[meet] In-call — in ascolto...');
 
   const statusFile = path.join(callDir, 'browser-status.json');
+
+  // --- Speaker attribution: rileva chi parla ogni 2s ---
+  const speakerLog = path.join(callDir, 'speaker-events.jsonl');
+  let lastSpeaker = null;
+
+  const speakerLoop = setInterval(async () => {
+    try {
+      const result = await page.evaluate(() => {
+        // Strategia 1: data-is-speaking direttamente su tile
+        const speakingTile = document.querySelector('[data-is-speaking="true"]');
+        if (speakingTile) {
+          const name = speakingTile.querySelector('[jsname="B2TKfd"]')?.textContent?.trim()
+                    || speakingTile.querySelector('[jsname="r0x6Zb"]')?.textContent?.trim();
+          if (name) return { name, source: 'data-is-speaking' };
+        }
+
+        // Strategia 2: tile con speaking indicator figlio
+        for (const tile of document.querySelectorAll('[data-participant-id]')) {
+          if (tile.querySelector('[data-is-speaking="true"]')) {
+            const name = tile.querySelector('[jsname="B2TKfd"]')?.textContent?.trim()
+                      || tile.querySelector('[jsname="r0x6Zb"]')?.textContent?.trim();
+            if (name) return { name, source: 'tile-child-speaking' };
+          }
+        }
+
+        // Strategia 3: main/spotlight tile (escludi se è il bot stesso)
+        const main = document.querySelector('[data-is-main-video="true"]');
+        if (main) {
+          const name = main.querySelector('[jsname="B2TKfd"]')?.textContent?.trim()
+                    || main.querySelector('[jsname="r0x6Zb"]')?.textContent?.trim();
+          if (name) return { name, source: 'main-video' };
+        }
+
+        // Strategia 4: speaker delle caption (se abilitate)
+        const captionSpeaker = document.querySelector('[jsname="wWt0nb"]')
+                            || document.querySelector('[data-speaker-name]');
+        const name4 = captionSpeaker?.textContent?.trim();
+        if (name4) return { name: name4, source: 'caption' };
+
+        return null;
+      });
+
+      if (result && result.name !== lastSpeaker) {
+        const event = {
+          epoch_ms: Date.now(),
+          speaker: result.name,
+          source: result.source,
+          event: 'start',
+        };
+        fs.appendFileSync(speakerLog, JSON.stringify(event) + '\n');
+        lastSpeaker = result.name;
+        console.log(`[meet] Speaker: ${result.name} (${result.source})`);
+      }
+    } catch { /* ignora errori DOM transienti */ }
+  }, 2000);
 
   const statusLoop = setInterval(async () => {
     try {
@@ -231,6 +287,7 @@ function nowRome() {
   // Gestione segnali per shutdown pulito
   const shutdown = async (signal) => {
     console.log(`[meet] Ricevuto ${signal} — chiusura browser`);
+    clearInterval(speakerLoop);
     clearInterval(statusLoop);
     try {
       // Prova a cliccare "Abbandona" prima di chiudere

@@ -54,6 +54,8 @@ if [ ! -f "$MANIFEST" ]; then
     exit 4
 fi
 
+ATTRIBUTED="$CALL_DIR/trascrizione_attribuita.md"
+
 echo "→ Trascrizione segmenti via Whisper…"
 if ! "$SCRIPT_DIR/call-transcribe-segments.sh" "$CALL_DIR"; then
     python3 - "$META" <<'PY'
@@ -115,6 +117,19 @@ text = re.sub(r'^- \*\*Trascrizione:\*\*.*$', '- **Trascrizione:** trascrizione.
 meta.write_text(text)
 PY
 
+# ---- Speaker attribution overlay ----
+if [ -f "$SCRIPT_DIR/call-speaker-overlay.py" ]; then
+    echo "→ Speaker attribution overlay…"
+    if python3 "$SCRIPT_DIR/call-speaker-overlay.py" "$CALL_DIR"; then
+        echo "✓ trascrizione_attribuita.md pronta"
+    else
+        echo "[WARN] Speaker overlay fallito, uso trascrizione semplice" >&2
+        ATTRIBUTED=""
+    fi
+else
+    ATTRIBUTED=""
+fi
+
 # ---- Generazione SINTESI.md (template strutturato) ----
 PLATFORM=$(grep -m1 -E '^- \*\*Piattaforma:\*\*' "$META" | sed -E 's/^- \*\*Piattaforma:\*\* //' | xargs || echo "—")
 URL=$(grep -m1 -E '^- \*\*URL:\*\*' "$META" | sed -E 's/^- \*\*URL:\*\* //' | xargs || echo "—")
@@ -124,6 +139,14 @@ DURATION=$(grep -m1 -E '^- \*\*Durata:\*\*' "$META" | sed -E 's/^- \*\*Durata:\*
 
 WORDS=$(wc -w < "$TRANSCRIPT" | xargs)
 PREVIEW=$(head -c 800 "$TRANSCRIPT")
+
+if [ -n "$ATTRIBUTED" ] && [ -f "$ATTRIBUTED" ]; then
+    SPEAKER_SECTION=$(head -c 3000 "$ATTRIBUTED")
+    ATTRIBUTED_NOTE="trascrizione_attribuita.md [✓ generata]"
+else
+    SPEAKER_SECTION="_(speaker-events.jsonl non disponibile o overlay fallito)_"
+    ATTRIBUTED_NOTE="—"
+fi
 
 cat > "$SINTESI" <<EOF
 # Sintesi call — $PLATFORM — $NOW_FULL (Europe/Rome)
@@ -135,6 +158,7 @@ cat > "$SINTESI" <<EOF
 - **Bot leave:** $LEAVE
 - **Durata:** $DURATION
 - **Parole trascritte:** $WORDS
+- **Trascrizione attribuita:** $ATTRIBUTED_NOTE
 
 ## Contesto e inizio riunione
 _(da compilare manualmente o tramite LLM a partire dalla trascrizione)_
@@ -146,14 +170,14 @@ _(elenco puntato)_
 _(elenco puntato)_
 
 ## Dettaglio per parlante
-_(richiede speaker diarization — TODO)_
+$SPEAKER_SECTION
 
 ## Estratto trascrizione (primi 800 caratteri)
 \`\`\`
 $PREVIEW
 \`\`\`
 
-> Trascrizione completa in \`trascrizione.txt\`.
+> Trascrizione completa in \`trascrizione.txt\`. Trascrizione attribuita in \`trascrizione_attribuita.md\`.
 EOF
 
 # Aggiorna META: sintesi ✓

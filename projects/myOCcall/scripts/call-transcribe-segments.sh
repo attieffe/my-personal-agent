@@ -41,6 +41,7 @@ fi
 
 mkdir -p "$TRANSCRIPT_DIR"
 : > "$OUT"
+: > "$TRANSCRIPT_DIR/transcript-events.jsonl"
 
 valid_seen=0
 transcribed_ok=0
@@ -48,7 +49,7 @@ failed=0
 
 transcribe_segment() {
     local seg_path="$1"
-    local seg_out="$2"
+    local seg_json="$2"
     local http_body="$3"
 
     local http_code
@@ -57,16 +58,14 @@ transcribe_segment() {
         -H "Authorization: Bearer $OPENAI_API_KEY" \
         -F "model=whisper-1" \
         -F "language=it" \
-        -F "response_format=text" \
+        -F "response_format=verbose_json" \
         -F "file=@$seg_path")
 
     if [ "$http_code" != "200" ]; then
-        echo "HTTP $http_code" > "$seg_out"
-        cat "$http_body" >> "$seg_out" 2>/dev/null || true
         return 1
     fi
 
-    mv "$http_body" "$seg_out"
+    mv "$http_body" "$seg_json"
     return 0
 }
 
@@ -80,8 +79,9 @@ while IFS=$'\t' read -r index file start_sec duration_sec size_bytes max_volume_
     valid_seen=$((valid_seen + 1))
     seg_name="segment-${index}.mp3"
     seg_path="$CALL_DIR/$file"
+    seg_json="$TRANSCRIPT_DIR/segment-${index}.json"
     seg_txt="$TRANSCRIPT_DIR/segment-${index}.txt"
-    tmp_body="$CALL_DIR/.whisper-${index}.txt"
+    tmp_body="$CALL_DIR/.whisper-${index}.json"
 
     if [ ! -s "$seg_path" ]; then
         echo "segment missing: $seg_path" > "$seg_txt"
@@ -89,7 +89,34 @@ while IFS=$'\t' read -r index file start_sec duration_sec size_bytes max_volume_
         continue
     fi
 
-    if transcribe_segment "$seg_path" "$seg_txt" "$tmp_body"; then
+    if transcribe_segment "$seg_path" "$seg_json" "$tmp_body"; then
+        # Estrai testo plain e genera transcript-events.jsonl
+        python3 - "$seg_json" "$seg_txt" "${start_sec:-0}" "$index" "$TRANSCRIPT_DIR" <<'PY'
+import json, sys
+from pathlib import Path
+
+seg_json_path, seg_txt_path, seg_start_str, idx, transcript_dir = sys.argv[1:]
+seg_start = float(seg_start_str or '0')
+events_file = Path(transcript_dir) / 'transcript-events.jsonl'
+
+try:
+    d = json.loads(Path(seg_json_path).read_text())
+    Path(seg_txt_path).write_text(d.get('text', '').strip())
+    with events_file.open('a') as f:
+        for seg in d.get('segments', []):
+            text = seg.get('text', '').strip()
+            if not text:
+                continue
+            event = {
+                'call_start_sec': round(seg_start + seg.get('start', 0.0), 3),
+                'call_end_sec':   round(seg_start + seg.get('end',   0.0), 3),
+                'text': text,
+                'segment_index': int(idx),
+            }
+            f.write(json.dumps(event, ensure_ascii=False) + '\n')
+except Exception as e:
+    print(f'[WARN] transcript-events: {e}', file=sys.stderr)
+PY
         transcribed_ok=$((transcribed_ok + 1))
     else
         failed=$((failed + 1))

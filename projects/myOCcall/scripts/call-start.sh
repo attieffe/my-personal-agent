@@ -116,6 +116,7 @@ nohup ffmpeg -hide_banner -loglevel warning -nostdin -y \
     >"$LOGFILE" 2>&1 &
 
 FFMPEG_PID=$!
+FFMPEG_START_EPOCH_MS=$(date +%s%3N)
 echo "$FFMPEG_PID" > "$PIDFILE"
 
 # Piccolo wait per verificare che ffmpeg sia ancora vivo dopo l'avvio
@@ -135,6 +136,7 @@ fi
     echo "## Tecnico"
     echo "- **ffmpeg PID:** $FFMPEG_PID"
     echo "- **ffmpeg start:** $NOW_HM (Europe/Rome)"
+    echo "- **ffmpeg_start_epoch_ms:** $FFMPEG_START_EPOCH_MS"
     echo "- **PulseAudio source:** $PULSE_SOURCE"
 } >> "$META"
 
