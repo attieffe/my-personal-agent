@@ -3,7 +3,7 @@
 Brainstorming sul futuro del progetto MioTesoro come prodotto distribuibile.
 
 **Nota:** L'implementazione operativa attuale è in [[projects/miotesoro]] (Google Sheet + agente AI).
-Questo file è il brainstorming sulle idee di *evoluzione e distribuzione*.
+Questo file raccoglie le idee di *evoluzione e distribuzione*. Esiste già un'analisi approfondita in una sessione Claude separata — da integrare qui.
 
 **Aggiunto:** 2026-05-14
 
@@ -11,74 +11,84 @@ Questo file è il brainstorming sulle idee di *evoluzione e distribuzione*.
 
 ## Stato attuale
 
-MioTesoro è **già operativo per uso personale**:
-- Collegato a Google Sheet (PERSONALE e CASA)
-- Alimentato tramite messaggi all'agente
-- Funziona bene per Atti
+MioTesoro è **già operativo per uso personale di Atti**:
+- Collegato a Google Sheet (fogli PERSONALE e CASA)
+- Alimentato tramite messaggi all'agente AI
+- Include una **componente previsionale**: permette di censire entrate e uscite future (tasse incluse) per rispondere a domande tipo "posso permettermi le vacanze ad agosto?"
+- Il Google Sheet è una soluzione funzionante ma con limiti tecnici — considerata "palliativa" rispetto a una vera web app
 
 ---
 
-## Visione futura: distribuire il progetto
+## Target ipotizzato
 
-L'idea è portare MioTesoro ad altri utenti. Esistono tre direzioni principali.
+| Segmento | Bisogno principale |
+|---|---|
+| **Famiglie con figli** | Capire chi ha speso cosa tra conti diversi (cointestato, personale, partner) |
+| **Freelance / P.IVA** | Cash flow alto ma irregolare, tasse future da anticipare |
+| **Persone con forte controllo** | Amano monitorare, tracciare, avere il quadro completo |
 
----
+**Caratteristica comune:** muovono una quantità significativa di denaro e vogliono averlo sotto controllo.
 
-### Opzione A: Web App
-
-Creare una vera web app per la gestione delle finanze personali.
-
-**Vantaggio:** esperienza utente fluida, multi-device nativo, condivisione familiare facile.
-
-**Dubbio critico — Privacy:**
-Le persone sono disposte a mettere i dati delle proprie finanze (tutti i movimenti, tutti i conti) su un servizio terzo?
-- Dati sensibili per definizione
-- Anche se crittografati, il dato "passa" da un server altrui
-- Potrebbe essere un blocco psicologico/reale per molti utenti
+**Escluso by design:** utenti con redditi non dichiarati — non è un target, è un rischio.
 
 ---
 
-### Opzione B: Dato in mano all'utente (Local/Own Cloud)
+## Differenziatore chiave
 
-Lasciare il dato completamente in controllo dell'utente, usando il suo storage personale (Dropbox, Google Drive, iCloud, ecc.).
-
-**Vantaggio:** massima privacy, nessun dato a terzi.
-
-**Svantaggi:**
-- Multi-device difficile da gestire
-- Condivisione con familiare (es. moglie/marito) complicata
-- Setup più complesso per l'utente medio
+La **componente previsionale** è il vero vantaggio competitivo rispetto alle app di tracking standard (Spendee, Money Manager, YNAB):
+- Non solo "quanto ho speso" ma "quanto spenderò"
+- Pre-censimento tasse future
+- Risposta a domande decisionali concrete ("posso permettermi X?")
 
 ---
 
-### Opzione C: Agente preskillato su Google Sheet
+## Le tre opzioni di distribuzione
 
-Invece di una web app, dare all'utente un **agente AI già configurato** che lavora direttamente sul suo Google Sheet personale.
+### Opzione A: Web App completa (massimi servizi)
 
-**Vantaggio:**
-- Il dato resta nel Google Sheet dell'utente (già conosciuto, già fidato)
-- Multi-device via Google (già risolto)
-- Condivisione familiare via Google (già risolta)
-- Nessuna infrastruttura da mantenere lato prodotto
+App web con tutte le funzionalità. Dato su database esterno (server del prodotto).
 
-**Sfida:**
-- Come "distribuire" l'agente? Setup guidato? Template?
-- Personalizzazione per diversi piani dei conti
-- Supporto e aggiornamenti
+**Pro:** UX fluida, multi-device nativo, condivisione familiare, piena potenza tecnologica.
+
+**Contro:** dato finanziario su server altrui — possibile blocco psicologico/reale per alcuni utenti.
 
 ---
 
-## Domande aperte
+### Opzione B: Massima privacy (dato solo dell'utente)
 
-1. Qual è il vero blocco: privacy, complessità di setup, o costo?
-2. C'è un mercato per un agente AI finanziario su Google Sheet?
-3. Opzione A e C sono mutuamente esclusive o complementari (freemium: Sheet gratis, web app pro)?
-4. Esistono già competitor simili?
+Nessun server esterno. Dato in mano all'utente tramite storage personale (Dropbox, Google Drive, iCloud).
+
+**Pro:** privacy totale, nessun dato terzi.
+
+**Contro:** multi-device complicato, condivisione familiare complicata, setup tecnico elevato.
+
+---
+
+### Opzione C: Via di mezzo (web app su Google Sheets dell'utente)
+
+Web app che si collega al Google Sheet dell'utente tramite API. Il dato resta nel Google dell'utente, ma l'interfaccia è una vera app.
+
+**Pro:** privacy accettabile (dato su Google dell'utente, già fidato), multi-device e condivisione familiare già risolti da Google.
+
+**Contro:** performance limitate, vincoli tecnologici di Google Sheets come backend, evolvibilità ridotta nel tempo.
+
+---
+
+## Ostacolo critico identificato: onboarding
+
+Indipendentemente dall'opzione scelta, il **setup iniziale** è il punto di rottura principale:
+- Censire il piano dei conti
+- Collegare i conti
+- Inserire le uscite fiscali previste
+- Capire la logica previsionale
+
+Chi non lo supera, abbandona. Da progettare con attenzione.
 
 ---
 
 ## Prossimi passi
 
-- [ ] Raccogliere più appunti/documenti già esistenti su queste idee
-- [ ] Valutare se fare un piccolo sondaggio su disponibilità a condividere dati finanziari
-- [ ] Esplorare modelli di distribuzione agenti AI (OpenClaw e non)
+- [ ] Integrare l'analisi già fatta nella sessione Claude separata
+- [ ] **Somministrare il questionario di validazione** → vedi [[questionario_validazione]]
+- [ ] Valutare competitor con componente previsionale
+- [ ] Decidere quale opzione perseguire sulla base dei feedback raccolti
