@@ -39,8 +39,10 @@ Questo template definisce il formato dei messaggi che il sistema invia su Telegr
 **Cosa dice**: 
 {SINTESI_2_3_RIGHE}
 
-**Azione che propongo**:
+**Azione che propongo** ({CONFIDENZA}%):
 {AZIONE_DETTAGLIATA}
+
+📎 [Leggi email originale]({LINK_EMAIL})
 
 ---
 ```
@@ -103,6 +105,33 @@ Esempi:
 - ✅ "Attilio chiede di segnare nella sua TODO personale, in una sottosezione da discutere con Stefano Colzani, il canone NAV-Ls retail Capgemini per il 2026-2027 (ticket OP# 02698455)."
 - ❌ "Email contiene informazioni su ticket Capgemini e richiesta di update JSON file pending_actions."
 
+#### {CONFIDENZA}
+Percentuale di confidenza (0–100) che l'azione proposta sia quella giusta.
+
+Fattori che la abbassano:
+- Email ambigua o soggetto poco chiaro
+- Mittente non in `INTERLOCUTORS.md`
+- Più azioni possibili ugualmente plausibili
+- Inoltro con thread complesso da interpretare
+- Istruzioni di Attilio non esplicite
+
+Fattori che la alzano:
+- Istruzione esplicita di Attilio ("segna nella mia TODO")
+- Mittente noto + progetto già tracciato
+- Thread chiaro con task già censito
+- Keyword univoche di progetto/area
+
+Esempio: `85` → "Azione che propongo (85%):"
+
+#### {LINK_EMAIL}
+Link al file `.eml` dell'email originale nel workspace.
+
+Formato: percorso relativo al file in `00_inbox/` o `01_to-be-defined/`.
+
+Esempio: `projects/myJob/EMAIL/00_inbox/msg_8_20260514_173431.eml`
+
+Su Telegram il link viene mostrato come testo cliccabile che apre il file locale (o percorso copiabile).
+
 #### {AZIONE_DETTAGLIATA}
 Azione proposta con dettagli operativi.
 
@@ -161,8 +190,10 @@ Ti serve sapere: è correlata a qualche task in corso oppure è una richiesta nu
 **Cosa dice**: 
 Alessandro ha risposto sulla questione InPost. Conferma che sta verificando il mapping del numero di telefono nel feed per Meta. Dice che serve ancora tempo per completare i controlli e che ti aggiornerà quando avrà finito.
 
-**Azione che propongo**:
+**Azione che propongo (78%)**:
 Aggiornare il task di Alessandro "InPost: mappatura meta → numero telefono" aggiungendo nota che la verifica è in corso e che serve ancora tempo.
+
+📎 [Leggi email originale](projects/myJob/EMAIL/00_inbox/msg_7_20260514_170012.eml)
 
 ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -175,9 +206,11 @@ Aggiornare il task di Alessandro "InPost: mappatura meta → numero telefono" ag
 **Cosa dice**:
 Attilio ha ricevuto comunicazione da Capgemini sul canone NAV-Ls retail per il 2026-2027 (ticket OP# 02698455). Nel testo specifica: "Segna nella mia TODO personale ma in una sottosezione da discutere con STEFANO COLZANI".
 
-**Azione che propongo**:
+**Azione che propongo (95%)**:
 Creare nuovo task nella tua TODO personale, in una nuova sottosezione "Da discutere con Stefano":
 "Canone NAV-Ls retail Capgemini 2026-2027 - OP# 02698455"
+
+📎 [Leggi email originale](projects/myJob/EMAIL/00_inbox/msg_8_20260514_173431.eml)
 
 ━━━━━━━━━━━━━━━━━━━━━━
 

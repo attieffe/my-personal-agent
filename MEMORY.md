@@ -61,6 +61,7 @@ EMAIL/            → gestione IMAP myjob@ingeniosolution.it
 - Workflow: `00_inbox/` → `01_to-be-defined/` → triage
 - File `INBOX_WORKFLOW.md` con regole operative
 - Format notifica: `Nuovo check email. Email nuove: N. Email in attesa: xxx`
+- Quando sintetizzo azioni da fare, aggiungo sempre un link al contenuto originale della email e una % di confidenza sull’azione proposta; la useremo come metrica da migliorare prima dell’automatico.
 
 ### Modelli AI
 - Default globale: **Claude Sonnet 4.6**

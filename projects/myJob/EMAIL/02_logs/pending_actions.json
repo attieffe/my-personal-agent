@@ -1,5 +1,19 @@
 {
-  "generated_at": "2026-05-14T12:34:00Z",
-  "processed_uids": ["5"],
-  "proposals": []
+  "generated_at": "2026-05-14T17:34:00Z",
+  "processed_uids": ["8"],
+  "proposals": [
+    {
+      "uid": "8",
+      "eml": "msg_8_20260514_173431.eml",
+      "mittente": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>",
+      "oggetto": "I: Attenzione errori bloccanti nella coda processi NAV",
+      "tipo": "mia_todo",
+      "analisi": "Inoltro di notifica automatica NAV (Codeunit 50016 - Close sales & purchase Order, Error counter: 5, procedura bloccata per troppi riavvii). Attilio aggiunge esplicitamente 'COLZANI mia todo: VERIFICA TASK BLOCCATO DI NAV NATURA ERRORE'.",
+      "azione_proposta": "Aggiungere task nella sezione 'Mia todolist (Atti / Attilio)' in projects/myJob/COLZANI/TEAM/README.md",
+      "testo_task": "[ ] VERIFICA TASK BLOCCATO DI NAV — Codeunit 50016 (Close sales & purchase Order), Error counter: 5, procedura bloccata per troppi riavvii consecutivi (14/05/2026)",
+      "file_target": "projects/myJob/COLZANI/TEAM/README.md",
+      "richiede_conferma": true,
+      "status": "pending"
+    }
+  ]
 }

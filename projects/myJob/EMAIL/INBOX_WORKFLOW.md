@@ -60,11 +60,35 @@ Per ogni email in sospeso invio messaggio in questo formato:
 **📧 Email da [Mittente Nome] ([Contesto])**
 - **Oggetto**: [subject]
 - **Area/Società**: [es. COLZANI - SPORTIT SRL]
-- **Sintesi**: [2-3 righe cosa dice e cosa serve fare]
-- **Azione proposta**: [dettaglio azione con riferimento file/riga se aggiornamento]
+- **Cosa dice**: [2-3 righe cosa dice e cosa serve fare]
+- **Azione proposta ([X]%)**: [dettaglio azione con riferimento file/riga se aggiornamento]
+- **📎 [Leggi email originale]** → link al file `.eml` in workspace
 
 **NO tecnicismi**: niente UID, JSON, nomi script Python, riferimenti file di log.
 **Linguaggio naturale** orientato all'azione.
+
+## Confidenza Azione Proposta
+
+Per ogni azione proposta indicare una **percentuale di confidenza** (es. 85%) che rappresenta quanto sono sicuro che l'azione sia quella giusta.
+
+**Abbassa la confidenza:**
+- Email ambigua o soggetto poco chiaro
+- Mittente sconosciuto (non in INTERLOCUTORS.md)
+- Più azioni ugualmente plausibili
+- Inoltro con thread complesso
+- Istruzioni di Attilio non esplicite
+
+**Alza la confidenza:**
+- Istruzione esplicita di Attilio (es. "segna nella mia TODO")
+- Mittente noto + progetto già tracciato
+- Thread chiaro con task già censito
+- Keyword univoche di progetto/area
+
+**Obiettivo a lungo termine:** quando Attilio sarà soddisfatto delle assegnazioni, darà il via all'elaborazione automatica. La % aiuta a calibrare il processo.
+
+## Link Email Originale
+
+Per ogni email proposta includere il percorso al file `.eml` originale in workspace (`00_inbox/` o `01_to-be-defined/`). Questo consente ad Attilio di leggere il contenuto completo se vuole verificare il triage prima di confermare.
 
 ## Regole operative
 - Dopo il download, le mail vanno marcate come **lette**.

@@ -54,6 +54,8 @@ Add whatever helps you do your job. This is your cheat sheet.
   - Dopo il giro, leggo `projects/myJob/EMAIL/02_logs/incoming_untriaged.md` e riassumo UID trovati.
   - Se ci sono email già gestite in altri file, segnalo che risultano ancora in “untriaged” (il cron può solo importare/accodare e non ripulire automaticamente).
   - Per ogni email “da fare”: propongo qui su Telegram la scelta (es. TODO/assegnazioni/spostamenti/archiviazione) e aspetto la tua conferma prima di modificare file o assegnare task.
+  - Quando sintetizzo azioni da fare o note operative, includo sempre un link al contenuto originale della email e una % di confidenza sull’azione proposta.
+  - Finché non mi dici di procedere in automatico, tratto la confidenza come metrica da affinare con le tue correzioni.
   - L’esito del task cron va notificato **in questa stessa chat Telegram**.
   - Caso tipico: **GCAT Ecommerce** (UID 3, oggetto “I: GCAT Ecommerce”) contiene richiesta “Segna nella mia todolist …” → la devo mettere nella sezione **“Mia todolist (Atti / Attilio)”** (file `projects/myJob/COLZANI/TEAM/README.md`) e non in quella di Alessandro, perché “mia todolist” = tua.
   - In chat lavorativa myJob ti chiamo sempre **Attilio**.
