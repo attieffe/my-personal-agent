@@ -2,6 +2,8 @@
 
 Note operative, workaround e configurazioni specifiche per piattaforma.
 
+- Quando Atti dice “registrazione CALL”, si intende sempre il progetto **myOCcall**.
+
 ---
 
 ## PulseAudio — workaround critici

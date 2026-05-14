@@ -44,6 +44,8 @@ Elenco di feature, miglioramenti e task tecnici per far evolvere il sistema.
 - [ ] **Gestione errori PulseAudio** — fallire esplicitamente se virtual_out.monitor non esiste al join
 - [ ] **Timeout Whisper** — evitare hang infinito su segmenti corrotti
 - [ ] **Validazione URL** — bloccare URL malformati prima del join
+- [ ] **Indagare join multipli nella stessa call** — capire perché l’agente è entrato più volte nella call e come evitare re-join duplicati
+- [ ] **Indagare browser morto con ffmpeg ancora attivo** — capire perché il browser è terminato mentre la registrazione audio è continuata
 
 ---
 
