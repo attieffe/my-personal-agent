@@ -25,6 +25,11 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 - `trash` > `rm` (recoverable beats gone forever)
 - Email inoltrate: mittente rilevante = **ultimo nella catena**, non il forwarder
 
+### Struttura Idee vs Implementazione
+- **Idee/brainstorming progetti** → `projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/` (indice + una cartella per idea)
+- **Implementazione operativa** → `projects/<nomeprogetto>/` (il progetto vero e proprio)
+- Ogni idea in `idee_progetti/` può linkare al progetto `projects/` corrispondente quando esiste già un'implementazione
+
 ### Routing Organizzativo myJob
 - **REGOLA FERREA:** `COLZANI/` ≠ `ATTILIO_A_CASA/`
 - Clienti diretti, agenzie, famiglia, impegni personali → **MAI in COLZANI**

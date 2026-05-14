@@ -57,6 +57,16 @@ Capire se su Telegram è possibile gestire le multisessioni in modo più intelli
 
 ---
 
+### 6. 🏗️ Projects → Agenti separati
+
+I progetti attualmente definiti come cartelle in `projects/` dovrebbero evolvere in **agenti separati** (workspace distinti con contesto, identità e permessi propri).
+
+**Motivazione:** ogni progetto (miotesoro, myOCcall, myJob) ha logica, dati e contesto talmente diversi da giustificare un agente dedicato anziché una cartella condivisa.
+
+**Stato:** idea emersa durante brainstorming — da esplorare come OpenClaw supporta workspace multipli.
+
+---
+
 ## Note
 
 - Lista volutamente grezza — da affinare nel tempo

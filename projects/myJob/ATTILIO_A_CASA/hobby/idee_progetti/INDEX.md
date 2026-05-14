@@ -19,3 +19,4 @@ Area dedicata a idee e progetti futuri ancora da esplorare — non progetti già
 |---|---|---|
 | [[padel_tracker_statistiche/README\|Padel — Tracker statistiche post-partita]] | 💡 Idea grezza | 2026-05-14 |
 | [[openclaw_ottimizzazioni/README\|OpenClaw — Ottimizzazioni e sviluppo futuro]] | 💡 Idea grezza | 2026-05-14 |
+| [[miotesoro_futuro/README\|MioTesoro — Evoluzione futura e distribuzione]] | 🔍 Da analizzare | 2026-05-14 |
