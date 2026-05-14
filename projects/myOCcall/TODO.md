@@ -9,8 +9,19 @@ Elenco di feature, miglioramenti e task tecnici per far evolvere il sistema.
 ## Setup & Piattaforme
 
 - [ ] **Join automatico Google Meet** — test end-to-end con call reale (C1.6)
-- [ ] **Join automatico Zoom** — implementare browser flow (C2)
-- [ ] **Join automatico Teams** — implementare browser flow (C3)
+- [ ] **Join automatico Zoom** — `call-join-zoom.js` (vedi `docs/PLATFORM_ANALYSIS_ZOOM_TEAMS.md`)
+  - [ ] Verificare compatibilità Playwright headless con anti-bot Zoom (potrebbe servire Xvfb)
+  - [ ] Mappare pre-join flow: campo nome, dialog "Join by Computer Audio", lobby
+  - [ ] Identificare selettori DOM speaker (tile attivo, lista partecipanti) — test su call reale
+  - [ ] Implementare `call-join-zoom.js` con stessa interfaccia di `call-join-meet.js`
+  - [ ] Test end-to-end: join → audio → trascrizione → speaker attribution
+
+- [ ] **Join automatico Teams** — `call-join-teams.js` (vedi `docs/PLATFORM_ANALYSIS_ZOOM_TEAMS.md`)
+  - [ ] Mappare pre-join flow Teams web (guest join, `data-tid="prejoin-join-button"`)
+  - [ ] Identificare selettori speaker (Teams usa `data-tid` stabili — vantaggio)
+  - [ ] Implementare `call-join-teams.js` con stessa interfaccia di `call-join-meet.js`
+  - [ ] Test end-to-end: join → audio → trascrizione → speaker attribution
+
 - [ ] **Configurazione credenziali** — account Google/Microsoft per le piattaforme
 
 ---
