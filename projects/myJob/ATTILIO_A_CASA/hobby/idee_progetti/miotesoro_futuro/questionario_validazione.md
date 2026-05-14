@@ -4,7 +4,23 @@ Questionario da somministrare a un campione di amici/conoscenti per validare int
 
 **Obiettivo:** capire bisogno percepito, disponibilità a investire tempo, e sensibilità alla privacy.
 
-**Formato suggerito:** Google Form (semplice, anonimo, 5 minuti).
+**Formato suggerito:** Google Form (semplice, anonimo, 5–8 minuti).
+
+---
+
+## Introduzione (testo da mostrare all'inizio del form)
+
+> **Gestire le proprie finanze personali è più difficile di quanto sembri.**
+>
+> Non perché i conti siano complicati — ma perché richiede disciplina continua: sapere dove vanno i soldi ogni mese, capire quanto si spende davvero per la famiglia, anticipare le grandi uscite future (tasse, vacanze, imprevisti) prima che arrivino.
+>
+> La maggior parte delle persone ha un'idea approssimativa della propria situazione finanziaria. Pochi hanno un quadro preciso.
+>
+> Stiamo esplorando l'idea di uno strumento che aiuti a farlo in modo semplice — non solo a tracciare il passato, ma a capire il futuro: "a fine anno, con tutto quello che so già che spenderò, quanti soldi avrò?"
+>
+> Per funzionare bene, uno strumento del genere richiede un cambio di mentalità: **tracciare tutto**. Ogni entrata, ogni uscita. I pagamenti digitali vengono quasi da soli; i contanti e la moneta possono essere approssimati. Ma chi vuole un quadro reale deve essere disposto a questo impegno.
+>
+> Questo questionario ci aiuta a capire se l'idea ha senso, per chi, e in che forma. Non ci sono risposte giuste o sbagliate — ci interessa la tua opinione onesta. Ci vogliono circa 5–8 minuti.
 
 ---
 
