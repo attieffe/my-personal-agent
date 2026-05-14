@@ -73,8 +73,19 @@ case "$PLATFORM" in
         echo "$BROWSER_PID" > "$CALL_DIR/browser.pid"
         log "Browser avviato (PID $BROWSER_PID)"
         ;;
-    zoom|teams)
-        log "ERRORE: platform $PLATFORM non ancora implementata"
+    teams)
+        BROWSER_SCRIPT="$SCRIPT_DIR/call-join-teams.js"
+        if [[ ! -f "$BROWSER_SCRIPT" ]]; then
+            log "ERRORE: script browser non trovato: $BROWSER_SCRIPT"
+            exit 3
+        fi
+        node "$BROWSER_SCRIPT" "$CALL_DIR" "$URL" &
+        BROWSER_PID=$!
+        echo "$BROWSER_PID" > "$CALL_DIR/browser.pid"
+        log "Browser Teams avviato (PID $BROWSER_PID)"
+        ;;
+    zoom)
+        log "ERRORE: platform zoom non ancora implementata"
         exit 3
         ;;
     *)

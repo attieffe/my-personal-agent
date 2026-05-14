@@ -16,11 +16,12 @@ Elenco di feature, miglioramenti e task tecnici per far evolvere il sistema.
   - [ ] Implementare `call-join-zoom.js` con stessa interfaccia di `call-join-meet.js`
   - [ ] Test end-to-end: join → audio → trascrizione → speaker attribution
 
-- [ ] **Join automatico Teams** — `call-join-teams.js` (vedi `docs/PLATFORM_ANALYSIS_ZOOM_TEAMS.md`)
-  - [ ] Mappare pre-join flow Teams web (guest join, `data-tid="prejoin-join-button"`)
-  - [ ] Identificare selettori speaker (Teams usa `data-tid` stabili — vantaggio)
-  - [ ] Implementare `call-join-teams.js` con stessa interfaccia di `call-join-meet.js`
-  - [ ] Test end-to-end: join → audio → trascrizione → speaker attribution
+- [ ] **Join automatico Teams** — `call-join-teams.js` implementato, da testare
+  - [x] Mappare pre-join flow Teams web (guest join, selettori `data-tid`)
+  - [x] Identificare selettori speaker (4 strategie: roster aria-label, data-is-speaking, stage name, speaking border)
+  - [x] Implementare `call-join-teams.js` con stessa interfaccia di `call-join-meet.js`
+  - [x] `call-orchestrate.sh` aggiornato per platform=teams
+  - [ ] **TEST su call reale** — verificare pre-join flow e selettori speaker DOM
 
 - [ ] **Configurazione credenziali** — account Google/Microsoft per le piattaforme
 
