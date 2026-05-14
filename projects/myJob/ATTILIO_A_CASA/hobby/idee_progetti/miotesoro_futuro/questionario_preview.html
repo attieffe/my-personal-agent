@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MioTesoro — Sondaggio</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f0f4f8;
+    color: #1a202c;
+    min-height: 100vh;
+  }
+
+  .header {
+    background: linear-gradient(135deg, #1a365d 0%, #2d6a4f 100%);
+    color: white;
+    padding: 48px 24px 64px;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
+
+  .header .subtitle {
+    font-size: 1rem;
+    opacity: 0.8;
+    max-width: 480px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+
+  .card-container {
+    max-width: 680px;
+    margin: -32px auto 48px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .intro-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-left: 4px solid #2d6a4f;
+  }
+
+  .intro-card p {
+    line-height: 1.7;
+    color: #4a5568;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+  }
+
+  .intro-card p:last-child { margin-bottom: 0; }
+
+  .intro-card strong { color: #1a365d; }
+
+  .section-card {
+    background: white;
+    border-radius: 16px;
+    padding: 28px 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+
+  .section-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ebf4ff;
+    color: #2b6cb0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  .question {
+    margin-bottom: 28px;
+  }
+
+  .question:last-child { margin-bottom: 0; }
+
+  .question-text {
+    font-size: 0.975rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .option {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 16px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    background: white;
+  }
+
+  .option:hover {
+    border-color: #2d6a4f;
+    background: #f0fff4;
+  }
+
+  .option input[type="radio"],
+  .option input[type="checkbox"] {
+    margin-top: 2px;
+    accent-color: #2d6a4f;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+
+  .option label {
+    font-size: 0.9rem;
+    color: #4a5568;
+    cursor: pointer;
+    line-height: 1.4;
+  }
+
+  .highlight-card {
+    border-left: 4px solid #e53e3e;
+    background: #fff5f5;
+  }
+
+  .highlight-card .section-label {
+    background: #fff5f5;
+    color: #c53030;
+  }
+
+  .privacy-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .privacy-option {
+    padding: 16px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .privacy-option:hover {
+    border-color: #2d6a4f;
+    background: #f0fff4;
+  }
+
+  .privacy-option-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+
+  .privacy-option-header input {
+    accent-color: #2d6a4f;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+
+  .privacy-option-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #2d3748;
+  }
+
+  .privacy-option-desc {
+    font-size: 0.83rem;
+    color: #718096;
+    line-height: 1.5;
+    padding-left: 26px;
+  }
+
+  .open-question textarea {
+    width: 100%;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    color: #4a5568;
+    resize: vertical;
+    min-height: 80px;
+    transition: border-color 0.15s;
+    outline: none;
+  }
+
+  .open-question textarea:focus {
+    border-color: #2d6a4f;
+  }
+
+  .meta-note {
+    font-size: 0.8rem;
+    color: #a0aec0;
+    text-align: center;
+    padding: 0 16px 32px;
+  }
+
+  .badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .badge-key { background: #fef3c7; color: #92400e; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>💰 Le tue finanze personali</h1>
+  <p class="subtitle">Un breve sondaggio per capire come le persone gestiscono i propri soldi — e cosa potrebbe aiutarle di più.</p>
+</div>
+
+<div class="card-container">
+
+  <!-- INTRO -->
+  <div class="intro-card">
+    <p><strong>Gestire le proprie finanze è più difficile di quanto sembri.</strong></p>
+    <p>Non perché i conti siano complicati — ma perché richiede disciplina: sapere dove vanno i soldi ogni mese, capire quanto si spende davvero, anticipare le grandi uscite future (tasse, vacanze, imprevisti) prima che arrivino.</p>
+    <p>La maggior parte delle persone ha un'idea <em>approssimativa</em> della propria situazione. Pochi hanno un quadro preciso.</p>
+    <p>Stiamo esplorando l'idea di uno strumento che aiuti a farlo — non solo a tracciare il passato, ma a capire il futuro: <strong>"con tutto quello che so già che spenderò, quanti soldi avrò a fine anno?"</strong></p>
+    <p>Ci vogliono circa 5 minuti. Non ci sono risposte giuste o sbagliate.</p>
+  </div>
+
+  <!-- SEZIONE 1 -->
+  <div class="section-card">
+    <div class="section-label">📋 Sezione 1 — Contesto personale</div>
+
+    <div class="question">
+      <div class="question-text">1. Quanto è importante per te tenere traccia delle tue finanze personali?</div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q1" id="q1a"><label for="q1a">Per niente importante</label></div>
+        <div class="option"><input type="radio" name="q1" id="q1b"><label for="q1b">Poco importante</label></div>
+        <div class="option"><input type="radio" name="q1" id="q1c"><label for="q1c">Abbastanza importante</label></div>
+        <div class="option"><input type="radio" name="q1" id="q1d"><label for="q1d">Molto importante — lo faccio già in qualche modo</label></div>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-text">2. Gestisci le finanze insieme a un partner o alla tua famiglia?</div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q2" id="q2a"><label for="q2a">No, gestisco tutto da solo</label></div>
+        <div class="option"><input type="radio" name="q2" id="q2b"><label for="q2b">Sì, ma in modo informale — non tracciamo molto</label></div>
+        <div class="option"><input type="radio" name="q2" id="q2c"><label for="q2c">Sì, e cerchiamo di tenerle organizzate</label></div>
+        <div class="option"><input type="radio" name="q2" id="q2d"><label for="q2d">Sì, e abbiamo già un sistema strutturato</label></div>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-text">3. Hai entrate variabili o irregolari? (es. freelance, P.IVA, bonus, affitti)</div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q3" id="q3a"><label for="q3a">No, stipendio fisso mensile</label></div>
+        <div class="option"><input type="radio" name="q3" id="q3b"><label for="q3b">Sì, qualche entrata variabile</label></div>
+        <div class="option"><input type="radio" name="q3" id="q3c"><label for="q3c">Sì, la maggior parte delle mie entrate è variabile</label></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEZIONE 2 -->
+  <div class="section-card">
+    <div class="section-label">🔮 Sezione 2 — Guardare avanti</div>
+
+    <div class="question">
+      <div class="question-text">4. Ti è mai capitato di chiederti "posso permettermi questa spesa?" senza avere una risposta chiara?</div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q4" id="q4a"><label for="q4a">Mai</label></div>
+        <div class="option"><input type="radio" name="q4" id="q4b"><label for="q4b">Raramente</label></div>
+        <div class="option"><input type="radio" name="q4" id="q4c"><label for="q4c">Spesso</label></div>
+        <div class="option"><input type="radio" name="q4" id="q4d"><label for="q4d">È uno dei miei problemi principali</label></div>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-text">5. Pianifichi in anticipo le grandi uscite future? (tasse, assicurazioni, vacanze, rate)</div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q5" id="q5a"><label for="q5a">No, affronto le spese quando arrivano</label></div>
+        <div class="option"><input type="radio" name="q5" id="q5b"><label for="q5b">A volte, per le spese più grosse</label></div>
+        <div class="option"><input type="radio" name="q5" id="q5c"><label for="q5c">Sì, cerco di anticiparle quasi tutte</label></div>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-text">6. Quanto sarebbe utile uno strumento che ti dica: <em>"tenuto conto di tutto, a fine anno avrai X euro disponibili"?</em> <span class="badge badge-key">Domanda chiave</span></div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q6" id="q6a"><label for="q6a">Non mi interessa</label></div>
+        <div class="option"><input type="radio" name="q6" id="q6b"><label for="q6b">Sarebbe comodo ma non fondamentale</label></div>
+        <div class="option"><input type="radio" name="q6" id="q6c"><label for="q6c">Sarebbe molto utile</label></div>
+        <div class="option"><input type="radio" name="q6" id="q6d"><label for="q6d">È qualcosa che cerco attivamente e non ho trovato</label></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEZIONE 3 -->
+  <div class="section-card">
+    <div class="section-label">⏱ Sezione 3 — Tempo e impegno</div>
+
+    <div class="question">
+      <div class="question-text">7. Quante ore al mese saresti disposto a dedicare alla gestione attiva delle tue finanze?</div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q7" id="q7a"><label for="q7a">Zero — dovrebbe essere automatico al 100%</label></div>
+        <div class="option"><input type="radio" name="q7" id="q7b"><label for="q7b">Meno di 1 ora</label></div>
+        <div class="option"><input type="radio" name="q7" id="q7c"><label for="q7c">1–3 ore</label></div>
+        <div class="option"><input type="radio" name="q7" id="q7d"><label for="q7d">Più di 3 ore, se ne vale la pena</label></div>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-text">8. Quante ore saresti disposto a investire nella <strong>configurazione iniziale</strong> di uno strumento del genere? <span class="badge badge-key">Domanda chiave</span></div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q8" id="q8a"><label for="q8a">Nessuna — deve funzionare subito, senza setup</label></div>
+        <div class="option"><input type="radio" name="q8" id="q8b"><label for="q8b">Meno di 1 ora</label></div>
+        <div class="option"><input type="radio" name="q8" id="q8c"><label for="q8c">1–3 ore con una guida</label></div>
+        <div class="option"><input type="radio" name="q8" id="q8d"><label for="q8d">Più di 3 ore, se poi funziona davvero bene</label></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEZIONE 4 -->
+  <div class="section-card highlight-card">
+    <div class="section-label">🔒 Sezione 4 — Privacy e tecnologia</div>
+
+    <div class="question">
+      <div class="question-text">9. Per uno strumento che gestisce i tuoi dati finanziari, quale scenario ti convince di più? <span class="badge badge-key">Domanda chiave</span></div>
+      <div class="privacy-options">
+        <div class="privacy-option">
+          <div class="privacy-option-header">
+            <input type="radio" name="q9" id="q9a">
+            <span class="privacy-option-title">🚀 Massimi servizi</span>
+          </div>
+          <div class="privacy-option-desc">App completa con tutte le funzionalità. I tuoi dati sono su un server sicuro del servizio — come avviene con la tua banca online o Google Drive.</div>
+        </div>
+        <div class="privacy-option">
+          <div class="privacy-option-header">
+            <input type="radio" name="q9" id="q9b">
+            <span class="privacy-option-title">🛡 Massima privacy</span>
+          </div>
+          <div class="privacy-option-desc">I dati restano solo tuoi (sul tuo telefono o cloud personale). Alcune funzionalità potrebbero essere limitate o meno comode.</div>
+        </div>
+        <div class="privacy-option">
+          <div class="privacy-option-header">
+            <input type="radio" name="q9" id="q9c">
+            <span class="privacy-option-title">⚖️ Via di mezzo</span>
+          </div>
+          <div class="privacy-option-desc">I dati restano nel tuo Google Drive / Google Sheets. L'app ci si collega per mostrarti tutto in modo ordinato. Buona privacy, ma qualche limitazione tecnica.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-text">10. Saresti più o meno disposto a usare questo strumento sapendo che un'intelligenza artificiale analizza i tuoi dati finanziari per darti suggerimenti?</div>
+      <div class="options">
+        <div class="option"><input type="radio" name="q10" id="q10a"><label for="q10a">Meno disposto — preferirei niente AI sui miei dati</label></div>
+        <div class="option"><input type="radio" name="q10" id="q10b"><label for="q10b">Neutro — non cambia nulla per me</label></div>
+        <div class="option"><input type="radio" name="q10" id="q10c"><label for="q10c">Più disposto — l'AI aggiunge valore</label></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEZIONE 5 -->
+  <div class="section-card">
+    <div class="section-label">💬 Sezione 5 — Domanda libera</div>
+
+    <div class="question open-question">
+      <div class="question-text">11. C'è qualcosa che ti ha sempre impedito di usare un'app per le finanze personali, o che ti ha fatto smettere di usarne una?</div>
+      <textarea placeholder="Scrivi qui la tua risposta (facoltativo)..."></textarea>
+    </div>
+  </div>
+
+  <p class="meta-note">Sondaggio anonimo · Nessun dato personale raccolto · Solo per ricerca</p>
+
+</div>
+
+</body>
+</html>
