@@ -68,8 +68,11 @@ Questo documento cataloga le diverse società e brand del Gruppo Colzani per fac
   - ecommercezone
   - tataway
 - **Referenti**: 
+  - **Giordano Vignati** — Commerciale E-Commerce Zone (responsabile commerciale marketplace)
+  - **Mattia Ballabio** — Responsabile operativo marketplace, E-Commerce Zone
 - **Progetti/Sistemi**: 
-- **Note**: 
+  - Integrazione marketplace e Apes Lab (in fase di definizione con Attilio)
+- **Note**: Ragione sociale di riferimento per E-Commerce Zone è Global Trading
 
 ### RISTOBRIANZA
 - **Tipologia**: Ristorazione
@@ -105,6 +108,8 @@ Quando un'email menziona:
 - **"Stefano Colzani"** o **"CTO"** → livello decisionale alto, GRUPPO COLZANI
 - **"OP#"** seguito da numero → ticket Capgemini o sistema ticketing interno
 - **"NAV-Ls"**, **"Capgemini"** → canoni/licensing software gestionale
+- **"Global Trading"**, **"E-Commerce Zone"**, **"ecommercezone"** → entità Global Trading; referenti Giordano Vignati (commerciale) / Mattia Ballabio (operativo)
+- **"Apes Lab"** → sistema/integrazione marketplace in capo a Global Trading
 
 ---
 
@@ -115,4 +120,4 @@ Questo file viene aggiornato quando:
 - Si identificano nuovi referenti o progetti associati
 - Si scoprono pattern di riconoscimento utili per il triage
 
-**Ultima modifica**: 2026-05-14 (inizializzazione)
+**Ultima modifica**: 2026-05-14 — aggiunti Giordano Vignati e Mattia Ballabio (Global Trading / E-Commerce Zone)
