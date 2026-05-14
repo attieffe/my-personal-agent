@@ -39,6 +39,24 @@ Un workspace/agente con profilo da sviluppatore, da collegare alle repository Gi
 
 ---
 
+### 4. 👥 Distribuzione multi-utente
+
+Esplorare la possibilità di dare OpenClaw "in mano" a più persone — utilizzo condiviso o distribuito.
+
+**Stato:** area ancora tutta da esplorare, non è chiaro se e come sia fattibile.
+
+**Prossimo passo:** leggere articoli/documentazione sull'argomento prima di trarre conclusioni.
+
+---
+
+### 5. 🔀 Multisessioni Telegram più intelligenti
+
+Capire se su Telegram è possibile gestire le multisessioni in modo più intelligente rispetto all'approccio attuale.
+
+**Domanda aperta:** esistono pattern migliori (topic, bot separati, account distinti) per separare contesti senza perdere praticità?
+
+---
+
 ## Note
 
 - Lista volutamente grezza — da affinare nel tempo
