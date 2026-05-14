@@ -34,7 +34,7 @@ Questo documento cataloga le diverse società e brand del Gruppo Colzani per fac
 - **Progetti/Sistemi**: 
   - Integrazione GCAT Ecommerce
   - Progetto miglioramento/automatismo carichi da dashboard web (con Marco Colzani)
-- **Note**: Vedi TODO in `TEAM/README.md` — Mia todolist (Atti / Attilio)
+- **Note**: Vedi TODO in `PERSONALI/README.md` — Mia todolist (Atti / Attilio)
 
 ### SPORTIT SRL
 - **Tipologia**: E-commerce

@@ -1,3 +1,4 @@
 # ATTILIO_A_CASA — indice
 
-- Vedi: `README.md` (todolist generale “Attilio” da fare a casa)
+- Vedi: `README.md` (hub)
+- Riepilogo: `01_todo_riassuntivo.md`

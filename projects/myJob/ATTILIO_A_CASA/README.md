@@ -1,31 +1,39 @@
-# Attilio — todolist generale da fare a casa (extra Colzani + personale)
+# Attilio — todolist generale da fare a casa (hub)
 
 > **Regola prioritaria (anti-mix):** se in chat mi chiedi “A CASA” (o “a casa”),
 > devo lavorare **solo** su questa cartella (`ATTILIO_A_CASA`) e su eventuali backlog dei **clienti diretti**.
 > **Non** devo cercare o modificare nulla in `COLZANI`.
 
 ## Scopo
-Tutto ciò che vuoi/puoi lavorare **quando sei libero e a casa**, ma che:
-- **non** rientra nella todolist di `COLZANI`,
-- è comunque nella **tua sfera lavorativa extra Colzani**,
-- e può includere anche **cose personali**.
+Questa cartella è la tua “sfera personale + lavori a casa”.
 
-## TODOLIST
+- **Tempo libero / personale / hobby / regali / vacanze**
+- **Lavori da casa**: extra Colzani + clienti diretti (oltre a eventuale infrastruttura personale)
+
+## TODOLIST (regola anti-mix)
 > Regola: i TODO che aggiungi a livello “Attilio” per un **cliente** vanno anche inseriti nel backlog/requests della **cartella di competenza** (cliente diretto in `DIRETTI/*` oppure progetto/ramo in `GET_ME_DIGITAL/PROGETTI/*`).
 
-### Extra Colzani (lavoro)
-- attivare iubenda su `lachiavedivoltacomo.com` (WordPress) — cliente: Silvia Migliaccio
-- cliente CEAM (tramite agenzia Get Me Digital): sistemare errore 403 di accesso tra alcuni paesi stranieri
+## Dove guardare (file principali)
+- **Riepilogo “tutte le cose personali”**: `01_todo_riassuntivo.md`
 
-### Clienti diretti (lavoro)
-- Davide Rizzi:
-  - creazione automatica articoli da attributi con costruzione prezzi e descrizione
-  - generazione impegni per prodotto diretto, prodotto lavorato, e lavorazione iterativa (taglio+produzione)
+### Tempo libero & personale
+- `personale_tempo_libero/10_cose_da_comprare.md`
+- `personale_tempo_libero/11_luoghi_vacanza.md`
+- `personale_tempo_libero/12_note_personali.md`
 
-### Personale
-- [ ] andare in myJob Todo a casa
-- [ ] chiedere al tennis di spostare la **lezione di tennis** del 29/5/26
-- [ ] acquistare materassi
-- [ ] registrare costi **Ingenio Solution (mia s.a.s. l)** per **chiusura anno 2025** — definire checklist “generiche” da usare a fine anno (e inserirle nel TODO di Ingenio in myJob)
-- [ ] documenti per dichiarazione redditi — vedi checklist: `checklist_dichiarazione_redditi_famiglia.md`
-- [ ] sentire mio fratello Eric per rimborso spese detratte
+### Regali
+- `regali/20_regali_chiara.md`
+- `regali/21_regali_bambini.md`
+
+### Hobby
+- `hobby/30_computer.md`
+- `hobby/31_chitarra.md`
+- `hobby/32_paddle.md`
+
+### Lavori a casa
+- `lavori_a_casa/40_infrastruttura_personale.md`
+- `lavori_a_casa/41_extra_colzani.md`
+- `lavori_a_casa/42_clienti_diretti.md`
+
+### Checklist extra (già esistente)
+- `checklist_dichiarazione_redditi_famiglia.md`
