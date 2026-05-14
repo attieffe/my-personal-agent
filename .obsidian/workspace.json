@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/README.md",
+                "file": "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/questionario_validazione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "questionario_validazione"
             }
           }
         ]
@@ -185,17 +185,34 @@
   },
   "active": "047bd5dc5eabf905",
   "lastOpenFiles": [
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/README.md",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/questionario_validazione.md",
+    "projects/myJob/ATTILIO_A_CASA/hobby/30_computer.md",
+    "projects/myJob/ATTILIO_A_CASA/personale_tempo_libero/11_luoghi_vacanza.md",
+    "projects/myJob/ATTILIO_A_CASA/personale_tempo_libero/10_cose_da_comprare.md",
+    "projects/myJob/ATTILIO_A_CASA/lavori_a_casa/42_clienti_diretti.md",
+    "projects/myJob/ATTILIO_A_CASA/lavori_a_casa/41_extra_colzani.md",
+    "projects/myJob/ATTILIO_A_CASA/lavori_a_casa/40_infrastruttura_personale.md",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/INDEX.md",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/padel_tracker_statistiche/README.md",
+    "projects/myJob/ATTILIO_A_CASA/hobby/32_paddle.md",
+    "projects/myJob/ATTILIO_A_CASA/regali/20_regali_chiara.md",
+    "projects/myJob/ATTILIO_A_CASA/regali/21_regali_bambini.md",
+    "projects/myJob/ATTILIO_A_CASA/README.md",
+    "projects/myJob/ATTILIO_A_CASA/01_todo_riassuntivo.md",
+    "projects/myJob/ATTILIO_A_CASA/00_index.md",
+    "TOOLS.md",
+    "projects/myJob/README.md",
+    "cristina_rizzetto_taccuino.mp3",
+    "tts_colzani_mia_todo.mp3",
+    "tts_stefano_sospeso.mp3",
+    "tts_extra_colzani.mp3",
     "projects/myOCcall/data/20260514 1610 teams/audio/segments/~syncthing~segment-0027.mp3.tmp",
     "projects/myOCcall/data/20260514 1604 teams/audio/segments/~syncthing~segment-0028.mp3.tmp",
     "projects/myOCcall/data/20260514 1613 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
     "projects/myOCcall/data/20260514 1606 teams/audio/segments/segment-0028.mp3",
     "projects/myOCcall/data/20260514 1606 teams/audio/segments/~syncthing~segment-0027.mp3.tmp",
     "projects/myOCcall/data/20260514 1610 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
-    "projects/myOCcall/data/20260514 1610 teams/audio/segments/segment-0027.mp3",
-    "projects/myOCcall/data/20260514 1606 teams/audio/segments/segment-0027.mp3",
-    "projects/myOCcall/data/20260514 1610 teams/audio/segments/segment-0026.mp3",
-    "projects/myOCcall/data/20260514 1606 teams/audio/segments",
-    "projects/myOCcall/data/20260514 1606 teams/audio",
     "projects/myOCcall/data/20260514 1604 teams - carichi società/HUMAN.MD",
     "projects/myJob/INSTRUCTIONS_GENERALI.md",
     "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
@@ -203,23 +220,6 @@
     "projects/myJob/COLZANI/TEAM/README.md",
     "projects/myJob/COLZANI/CHANGELOG.md",
     "projects/myJob/COLZANI/GLOSSARIO.md",
-    "projects/myJob/COLZANI/IT_MANAGER.md",
-    "TOOLS.md",
-    "projects/myOCcall/data/20260514 1604 teams - carichi società/SINTESI.md",
-    "projects/myOCcall/data/20260514 1604 teams - carichi società/trascrizione_attribuita.md",
-    "projects/myOCcall/data/20260514 1604 teams - carichi società/META.md",
-    "projects/myJob/COLZANI/README.md",
-    "projects/myJob/COLZANI/TEAM/ALessandro_TODO.md",
-    "projects/myJob/COLZANI/CONSULENTI/README.md",
-    "projects/myJob/COLZANI/AS400/README.md",
-    "SOUL.md",
-    "progetti.md",
-    "MEMORY.md",
-    "IDENTITY.md",
-    "HEARTBEAT.md",
-    "AGENTS.md",
-    "memory/2026-05-13-2248.md",
-    "projects/myOCcall/docs/AGENT_RUNBOOK.md",
-    "projects/myJob/EMAIL/templates/telegram_recap.md"
+    "projects/myJob/COLZANI/IT_MANAGER.md"
   ]
 }
