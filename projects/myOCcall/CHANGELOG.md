@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Pianificato
+- Speaker attribution v1 per Google Meet: cattura active speaker dal DOM, timeline `speaker-events.jsonl`, Whisper con timestamp JSON, overlay testo↔parlante e generazione `trascrizione_attribuita.md`.
+
 ### In corso
 - Installazione Chromium (richiede sudo) per completare Step 3
 - Integrazione Whisper API

@@ -60,3 +60,21 @@ Verifica che l'audio arrivi: `ffmpeg -f pulse -i virtual_out.monitor -t 4 -filte
 ## Chunking audio per Whisper
 
 Se la call è lunga, dividere il file audio in chunk da max 25MB prima di inviare a Whisper.
+
+---
+
+## Speaker attribution — decisione tecnica v1
+
+Decisione: per attribuire “chi ha detto cosa” non puntiamo prima alla diarization pura da voce, ma a una **timeline active speaker** ricavata dal DOM di Meet/Teams e poi sovrapposta ai timestamp della trascrizione.
+
+Pipeline prevista:
+
+1. Durante la call, un monitor osserva il DOM e salva gli eventi active speaker in `speaker-events.jsonl`.
+2. Ogni evento deve contenere almeno: `wall_ts`, `call_sec`, `speaker_name`, `event`, `source`, `confidence`.
+3. I chunk audio restano la fonte primaria: `audio/manifest.tsv` conserva `start_sec` e `duration_sec` per ogni segmento.
+4. Whisper deve produrre anche timestamp per frase/segmento, quindi va affiancato al `.txt` un output JSON per chunk.
+5. Post-call: si genera una timeline normalizzata `transcript-events.jsonl` con `call_start_sec`, `call_end_sec`, `text`, `segment_file`.
+6. Overlay: ogni frase viene assegnata al parlante con massimo overlap temporale nella timeline DOM.
+7. Output finale: `trascrizione_attribuita.md`, poi uso nella sezione “Dettaglio per parlante” di `SINTESI.md`.
+
+Nota: chiamarla “speaker attribution via active speaker timeline” è più preciso di “speaker diarization”, perché non identifica il parlante solo dalla voce ma sfrutta i segnali della piattaforma.

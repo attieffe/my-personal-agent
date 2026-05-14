@@ -20,4 +20,3 @@
   - inserire utente che fa il carico
   - fortificare carico per magazzino: selezione prodotto unica, niente prezzo, togliere S da saldato, label "Sto caricando", riepilogo solo quantità caricata
   - carico parziale: nuova videata ordine parzialmente aperto con S
-

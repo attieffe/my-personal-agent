@@ -17,7 +17,7 @@ Elenco di feature, miglioramenti e task tecnici per far evolvere il sistema.
 
 ## Feature & Miglioramenti
 
-- [ ] **Speaker diarization** — identificare chi parla quando (attribuzione interventi per parlante in SINTESI.md)
+- [ ] **Attribuzione parlante via active speaker timeline** — identificare chi parla quando usando eventi DOM Meet/Teams + timestamp audio/Whisper (attribuzione interventi per parlante in SINTESI.md)
 - [ ] **Skill OpenClaw dedicata** — `call-summarizer` con SKILL.md per invocare l'agente con semplice comando
 - [ ] **Riconoscimento automatico piattaforma** — parsing URL per determinare meet/zoom/teams
 - [ ] **Dashboard chiamate** — visualizzazione storico call con filtri e ricerca
@@ -75,6 +75,18 @@ Elenco di feature, miglioramenti e task tecnici per far evolvere il sistema.
 ## Implementazione in Corso
 
 > Task tecnici specifici attualmente in sviluppo. Spostare in "Completato" quando finiti.
+
+- [ ] **Piano sviluppo: speaker attribution v1 (Meet first)**
+  - [ ] Analizzare DOM Google Meet durante una call reale e identificare selettori/attributi affidabili per active speaker (lampadina/bordo/aria-label/stato tile)
+  - [ ] Salvare una timeline `speaker-events.jsonl` con eventi normalizzati: `wall_ts`, `call_sec`, `speaker_name`, `event=start|end|switch`, `source=meet_dom`, `confidence`
+  - [ ] Allineare clock: registrare in `META.md` `recording_start_wall_ts`, `ffmpeg_start_wall_ts`, `bot_join_wall_ts` e usare `call_sec` come tempo canonico relativo alla registrazione
+  - [ ] Estendere `audio/manifest.tsv` con timestamp assoluti/relativi già presenti (`start_sec`, `duration_sec`) e verificare che rappresentino l'offset reale rispetto a inizio registrazione
+  - [ ] Cambiare trascrizione Whisper da `response_format=text` a JSON/verbose JSON con segment timestamps, salvando `transcripts/segment-XXXX.json` oltre al `.txt`
+  - [ ] Generare `transcripts/transcript-events.jsonl` con eventi normalizzati: `call_start_sec`, `call_end_sec`, `text`, `segment_file`, `whisper_confidence/opzionale`
+  - [ ] Implementare overlay `speaker-events.jsonl` ↔ `transcript-events.jsonl`: assegnare ogni frase al parlante con overlap temporale maggiore, con fallback `Sconosciuto`/`Ambiguo`
+  - [ ] Produrre `trascrizione_attribuita.md` con formato `[HH:MM:SS] Nome: testo`
+  - [ ] Aggiornare `call-post.sh` e `SINTESI.md` per usare la trascrizione attribuita nel “Dettaglio per parlante”
+  - [ ] Testare casi difficili: due persone che parlano sopra, cambio speaker rapido, DOM senza nome visibile, captions disattivate, audio silenzioso
 
 - [x] **Segmentazione audio 300s** (H1-H5)
   - [x] call-start.sh registra segmenti in `audio/segments/`

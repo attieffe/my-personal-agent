@@ -29,6 +29,7 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 - **REGOLA FERREA:** `COLZANI/` ≠ `ATTILIO_A_CASA/`
 - Clienti diretti, agenzie, famiglia, impegni personali → **MAI in COLZANI**
 - TODO cliente aggiornato → **SEMPRE aggiornare anche TODO Attilio a casa** quando pertinente
+- **Parole chiave per non sbagliare:** `COLZANI/` = **lavoro/cliente** (TEAM, AS400, CONSULENTI) → **sempre** nel lavoro; `Personale` = **hobby/tempo libero/casa** → **mai** in `COLZANI/`
 
 ---
 

@@ -19,7 +19,7 @@ Link call + orario fine previsto
   → ffmpeg cattura da virtual_out.monitor → MP3/WAV
   → monitoraggio partecipanti (exit se tutti usciti, o timeout orario fine)
   → Whisper trascrive l'audio grezzo (NON la trascrizione della piattaforma)
-  → speaker diarization: attribuzione interventi per parlante (via attivazione microfono)
+  → speaker attribution: timeline active speaker dal DOM + timestamp Whisper/audio
   → AttiBot produce riassunto strutturato (contesto, argomenti, decisioni, chi-dice-cosa)
   → invio a Atti via Telegram
 ```
@@ -27,7 +27,7 @@ Link call + orario fine previsto
 ## Regole di comportamento (requisiti funzionali)
 
 - **Fonte audio:** sempre audio grezzo catturato localmente. Mai basarsi sulle trascrizioni live di Meet/Zoom/Teams (inaffidabili, perdono accenti e sovrapposizioni).
-- **Speaker diarization:** identificare chi parla tramite attivazione microfono; attribuire ogni intervento al parlante corretto nella sintesi.
+- **Speaker attribution:** identificare chi parla tramite timeline active speaker ricavata dal DOM Meet/Teams; sovrapporre questi eventi ai timestamp dei chunk audio e della trascrizione Whisper per attribuire ogni intervento al parlante corretto nella sintesi.
 - **Output:** sintesi strutturata, NON trascrizione verbatim. Formato:
   - Contesto e inizio riunione
   - Argomenti trattati

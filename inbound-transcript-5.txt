@@ -1,0 +1,1 @@
+Sì, ma prima di riavviarlo, dimmi, quando riavvii il gateway, che cosa significa? Si perdono le sessioni? Si ripartono da capo? Riavvii il server? Riavvii l'istanza di OpenCloud? Cosa vuol dire riavviare il gateway?
