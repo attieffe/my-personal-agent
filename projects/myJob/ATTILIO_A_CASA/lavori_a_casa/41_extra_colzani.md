@@ -1,5 +1,8 @@
 # Lavori a casa — Extra Colzani
 
+## Domini Colzani
+- [ ] **[URGENTE]** Rinnovo dominio **enoart** → [[../../COLZANI/PERSONALI/README|COLZANI PERSONALI (link)]]
+
 ## WordPress / domini
 - [ ] Attivare iubenda su `lachiavedivoltacomo.com` (WordPress) — cliente: Silvia Migliaccio
 

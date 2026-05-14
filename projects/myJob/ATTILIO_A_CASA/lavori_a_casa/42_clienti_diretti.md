@@ -1,4 +1,8 @@
-# Lavori a casa — Clienti diretti
+# Lavori a casa — Clienti diretti + Agenzie (lavoro da casa)
+
+## Sinapps
+
+- [ ] Verificare la segnalazione di **Andrea Migliavacca** sul progetto **BlankOne** → vedi anche [[SINAPPS/README]]
 
 ## Davide Rizzi
 - [ ] Creazione automatica articoli da attributi con costruzione prezzi e descrizione

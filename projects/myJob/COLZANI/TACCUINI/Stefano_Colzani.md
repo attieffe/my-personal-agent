@@ -9,6 +9,7 @@
 - [ ] **proporre nuova gestione prelievi** gestiti da OBW — `[da proporre — richiede tempo]`
 - [ ] **richiesta GIGI wms corrieri via email** — capire cosa fare con corrieri che hanno già tracciato → **SMEUP** — `[da chiarire]`
 - [ ] **kit, omar triplicheranno** — capire come usare Alessandro — `[da discutere]` → vedi anche [[Andrea_Colzani|taccuino Andrea Colzani]]
+- [ ] **Claude for Small Business (Anthropic)** — Andrea ha citato il processo kit: valutare se/come questo servizio CI può essere utile in quel contesto → [link](https://share.google/Prtwo2O0OCHGzItuO) — `[da discutere]`
 
 ## TODO / Azioni concordate
 

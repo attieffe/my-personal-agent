@@ -1,6 +1,7 @@
 # PERSONALI (Atti / Attilio) — COLZANI
 
 ## TODOLIST
+- **[URGENTE]** Rinnovo dominio **enoart** → [[../../ATTILIO_A_CASA/lavori_a_casa/41_extra_colzani|TODO lavoro a casa (link)]]
 - Ferie team IT: argomento già discusso, in attesa di risposta da Alessandro e Fabio
 - **[URGENTE]** Capire integrazione marketplace e Apes Lab con Giordano Vignati e Mattia Ballabio (Global Trading / E-Commerce Zone)
 - APES MARKETPLACE: next step parlare con Stefano (riutilizzare il flusso esistente, non rifare da zero) — sintesi call: [Rinnovo Shippy Pro - Attilio Giordano Giorgio](../../../myOCcall/data/20260514%201408%20teams%20-%20rinnovo%20shippy%20pro%20-%20attilio%20giordano%20giorgio/SINTESI.md)

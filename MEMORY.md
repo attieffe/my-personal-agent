@@ -30,6 +30,7 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 - Clienti diretti, agenzie, famiglia, impegni personali → **MAI in COLZANI**
 - TODO cliente aggiornato → **SEMPRE aggiornare anche TODO Attilio a casa** quando pertinente
 - **Parole chiave per non sbagliare:** `COLZANI/` = **lavoro/cliente** (TEAM, AS400, CONSULENTI) → **sempre** nel lavoro; `Personale` = **hobby/tempo libero/casa** → **mai** in `COLZANI/`
+- **Sinapps e GET_ME_DIGITAL = lavoro da CASA**, non da Colzani → TODO agenzie va in `ATTILIO_A_CASA/lavori_a_casa/42_clienti_diretti.md` + file agenzia (link bidirezionale)
 
 ---
 
