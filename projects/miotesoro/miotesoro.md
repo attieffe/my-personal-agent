@@ -11,6 +11,14 @@ I dettagli estesi sono nelle docs linkate sotto.
 - Regole operative e allineamento PERSONALE→CASA: `memory/repo/registrazione-regole-critiche.md`
 - Mappature vendor/categorie: `memory/repo/vendor-mapping.md`
 
+## Naming convention varianti
+- `mio-tesoro-file` → versione full privacy, file-based
+- `mio-tesoro-paas` → versione full service
+- `mio-tesoro-cloud` → versione ibrida sul cloud personale, base dati da definire (Drive o Sheet)
+- `mio-tesoro-sheet` → gestione totale su Google Sheet, senza webapp HTML
+
+Usare sempre questi nomi quando si parla delle quattro idee/proposte.
+
 ## Auto-aggiornamento (obbligatorio)
 Ogni volta che Atti insegna una regola nuova, una correzione o un mapping confermato durante una sessione su questo progetto, aggiornarla immediatamente in `miotesoro.md` o nel file di riferimento corretto (`docs/`, `memory/repo/`). Non aspettare fine sessione.
 

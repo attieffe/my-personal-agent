@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/questionario_validazione.md",
+                "file": "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/openclaw_ottimizzazioni/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "questionario_validazione"
+              "title": "README"
             }
           }
         ]
@@ -185,8 +185,19 @@
   },
   "active": "047bd5dc5eabf905",
   "lastOpenFiles": [
-    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/README.md",
     "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/questionario_validazione.md",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/~syncthing~questionario_validazione.md.tmp",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/~syncthing~README.md.tmp",
+    "memory/~syncthing~2026-05-14.md.tmp",
+    "memory/2026-05-14-2311.md",
+    "memory/~syncthing~2026-05-14-2311.md.tmp",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/~syncthing~questionario_preview.html.tmp",
+    "projects/miotesoro/~syncthing~APPUNTI.md.tmp",
+    "projects/miotesoro/~syncthing~TECNICO.md.tmp",
+    "projects/miotesoro/~syncthing~TODO.md.tmp",
+    "projects/miotesoro/~syncthing~SINTESI.md.tmp",
+    "projects/miotesoro/docs/~syncthing~CHANGELOG.md.tmp",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/README.md",
     "projects/myJob/ATTILIO_A_CASA/hobby/30_computer.md",
     "projects/myJob/ATTILIO_A_CASA/personale_tempo_libero/11_luoghi_vacanza.md",
     "projects/myJob/ATTILIO_A_CASA/personale_tempo_libero/10_cose_da_comprare.md",
@@ -203,23 +214,11 @@
     "projects/myJob/ATTILIO_A_CASA/00_index.md",
     "TOOLS.md",
     "projects/myJob/README.md",
-    "cristina_rizzetto_taccuino.mp3",
-    "tts_colzani_mia_todo.mp3",
-    "tts_stefano_sospeso.mp3",
-    "tts_extra_colzani.mp3",
-    "projects/myOCcall/data/20260514 1610 teams/audio/segments/~syncthing~segment-0027.mp3.tmp",
-    "projects/myOCcall/data/20260514 1604 teams/audio/segments/~syncthing~segment-0028.mp3.tmp",
-    "projects/myOCcall/data/20260514 1613 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
-    "projects/myOCcall/data/20260514 1606 teams/audio/segments/segment-0028.mp3",
-    "projects/myOCcall/data/20260514 1606 teams/audio/segments/~syncthing~segment-0027.mp3.tmp",
-    "projects/myOCcall/data/20260514 1610 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
     "projects/myOCcall/data/20260514 1604 teams - carichi società/HUMAN.MD",
     "projects/myJob/INSTRUCTIONS_GENERALI.md",
     "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
     "projects/myJob/COLZANI/PERSONALI/README.md",
     "projects/myJob/COLZANI/TEAM/README.md",
-    "projects/myJob/COLZANI/CHANGELOG.md",
-    "projects/myJob/COLZANI/GLOSSARIO.md",
-    "projects/myJob/COLZANI/IT_MANAGER.md"
+    "projects/myJob/COLZANI/CHANGELOG.md"
   ]
 }

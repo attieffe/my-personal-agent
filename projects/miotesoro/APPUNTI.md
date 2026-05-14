@@ -23,3 +23,14 @@ Il token è nel file `.env` nella cartella del progetto. Non cercarlo in variabi
 ## Agente revisore
 
 L'agente revisore in `agents/revisore-registrazioni.agent.md` va sempre coinvolto prima di qualsiasi append. Non saltarlo mai, anche per registrazioni "ovvie".
+
+## Naming convention varianti
+
+Decisione attuale sulle idee/proposte:
+
+- `mio-tesoro-file` = full privacy
+- `mio-tesoro-paas` = full service
+- `mio-tesoro-cloud` = ibrida sul cloud personale (base dati da definire)
+- `mio-tesoro-sheet` = gestione totale su Google Sheet, senza webapp HTML
+
+Da qui in poi usare solo questi nomi nei riferimenti interni.

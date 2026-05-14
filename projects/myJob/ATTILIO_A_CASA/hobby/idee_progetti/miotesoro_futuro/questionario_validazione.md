@@ -106,13 +106,16 @@ Questionario da somministrare a un campione di amici/conoscenti per validare int
 **13.** ⭐ Per uno strumento che gestisce i tuoi dati finanziari, quale scenario ti convince di più?
 
 - [ ] **🚀 Funzionalità all'avanguardia, con best practice di sicurezza**
-  App completa: statistiche avanzate, utility di supporto, multi-dispositivo, multi-utente, massime performance. Aggiornamenti automatici. Dati conservati sul server del fornitore, protetti secondo gli standard di sicurezza adottati da tutte le applicazioni analoghe (banking, cloud, e-mail).
+  `mio-tesoro-paas` — app completa: statistiche avanzate, utility di supporto, multi-dispositivo, multi-utente, massime performance. Aggiornamenti automatici. Dati conservati sul server del fornitore.
 
 - [ ] **🛡 Massima privacy — controllo totale sul dato**
-  I dati restano esclusivamente sui tuoi dispositivi e file fisici. Nessun dato esce dai tuoi sistemi. Funzionalità avanzate molto limitate, nessun accesso contemporaneo da più dispositivi, statistiche base. Aggiornamenti manuali.
+  `mio-tesoro-file` — i dati restano esclusivamente sui tuoi dispositivi e file fisici. Nessun dato esce dai tuoi sistemi. Funzionalità avanzate molto limitate, nessun accesso contemporaneo da più dispositivi, statistiche base. Aggiornamenti manuali.
 
 - [ ] **⚖️ Compromesso tra privacy e funzionalità**
-  Dati salvati in un ambiente cloud a te intestato (es. Google Drive, OneDrive, iCloud), di cui controlli i permessi concessi all'applicazione. Multi-dispositivo e multi-utente possibili, accettando alcuni compromessi sulle performance.
+  `mio-tesoro-cloud` — dati salvati in un ambiente cloud a te intestato (es. Google Drive, OneDrive, iCloud), di cui controlli i permessi concessi all'applicazione. Multi-dispositivo e multi-utente possibili, accettando alcuni compromessi sulle performance.
+
+- [ ] **📄 Gestione totale su Google Sheet**
+  `mio-tesoro-sheet` — tutto su Google Sheet, senza webapp HTML. Soluzione semplice, molto concreta, ma con UX e automazioni più limitate.
 
 **14.** Prenderesti di buon grado l'opportunità di integrare l'intelligenza artificiale per velocizzare le operazioni quotidiane?
 - [ ] Sì, assolutamente — mi piacerebbe che l'AI proponesse in automatico le categorie di spesa, imparando dalle mie regole e dai miei comportamenti passati
@@ -135,3 +138,15 @@ Questionario da somministrare a un campione di amici/conoscenti per validare int
 - Evitare di presentarlo come "il mio progetto" per non influenzare le risposte
 - Raccogliere anche dati demografici minimi: fascia d'età, tipo di lavoro
 - **Domande più discriminanti:** 4, 9, 10, 12, 13 (segnate con ⭐)
+
+## Note di costruzione
+
+- Il questionario è stato pensato per restare sotto i 5 minuti e usare un tono neutro.
+- Struttura a 5 sezioni: profilo, bisogno percepito, disciplina, privacy/tecnologia, domanda libera.
+- Le domande con ⭐ sono quelle più utili per segmentare interesse reale e compatibilità con il prodotto.
+- La domanda 13 serve a mappare le quattro direzioni canoniche del progetto:
+  - `mio-tesoro-file`
+  - `mio-tesoro-paas`
+  - `mio-tesoro-cloud`
+  - `mio-tesoro-sheet`
+- Il preview HTML è solo una resa visiva del questionario, non la fonte canonica delle domande.

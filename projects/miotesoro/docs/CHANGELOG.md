@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2026-05-14
+
+### Naming convention varianti mio-tesoro
+- Stabiliti i nomi canonici per le quattro idee/proposte:
+  - `mio-tesoro-file` → full privacy
+  - `mio-tesoro-paas` → full service
+  - `mio-tesoro-cloud` → cloud personale ibrido
+  - `mio-tesoro-sheet` → gestione totale su Google Sheet, senza webapp HTML
+- Aggiornati i riferimenti principali nei documenti del progetto per usare i nuovi nomi.
+
 ## 2026-05-13
 
 ### Aggiornamento vendor mapping e timezone operativo

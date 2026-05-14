@@ -24,6 +24,13 @@ memory/repo/
   vendor-mapping.md        ← copia operativa del mapping
 ```
 
+## Varianti architetturali
+
+- `mio-tesoro-file` → full privacy, file-based
+- `mio-tesoro-paas` → full service
+- `mio-tesoro-cloud` → cloud personale ibrido, con base dati ancora da scegliere
+- `mio-tesoro-sheet` → Google Sheet come base unica, senza webapp HTML
+
 ## Flusso registrazione
 
 1. Ricezione dati da Atti

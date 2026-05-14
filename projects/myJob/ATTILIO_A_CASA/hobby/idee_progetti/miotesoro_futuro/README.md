@@ -92,3 +92,14 @@ Chi non lo supera, abbandona. Da progettare con attenzione.
 - [ ] **Somministrare il questionario di validazione** → vedi [[questionario_validazione]]
 - [ ] Valutare competitor con componente previsionale
 - [ ] Decidere quale opzione perseguire sulla base dei feedback raccolti
+
+## Costruzione del questionario
+
+- Questionario breve, anonimo, ~5 minuti
+- 5 sezioni: profilo, bisogno, disciplina, privacy/tecnologia, domanda libera
+- Domande chiave segnate con ⭐ per separare interesse reale da curiosità generica
+- Opzioni finali allineate alle quattro varianti canoniche:
+  - `mio-tesoro-file`
+  - `mio-tesoro-paas`
+  - `mio-tesoro-cloud`
+  - `mio-tesoro-sheet`

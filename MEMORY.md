@@ -11,6 +11,9 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 
 ## 🎯 Lezioni Critiche
 
+### mio-tesoro — Naming varianti
+- Nomi canonici delle proposte: `mio-tesoro-file` (full privacy), `mio-tesoro-paas` (full service), `mio-tesoro-cloud` (cloud personale ibrido), `mio-tesoro-sheet` (Google Sheet senza webapp HTML)
+
 ### Date e Timezone
 - **SEMPRE usare `Europe/Rome`** per campi data/ora creazione/modifica
 - **MAI UTC** (offset di 2 ore in estate causa confusione per Atti)

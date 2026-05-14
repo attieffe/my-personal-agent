@@ -11,6 +11,12 @@ Copilot AI per la gestione finanziaria personale di Atti. Permette di registrare
 - Mantiene la coerenza tra il foglio PERSONALE e quello CASA
 - Applica categorie automaticamente in base al venditore/merchant
 
+## Varianti progettuali
+- `mio-tesoro-file`: full privacy, file-based
+- `mio-tesoro-paas`: full service
+- `mio-tesoro-cloud`: ibrida sul cloud personale, base dati ancora da decidere
+- `mio-tesoro-sheet`: gestione totale su Google Sheet, senza webapp HTML
+
 ## Come si usa
 
 1. Di' a AttiBot cosa vuoi registrare (es. "ho speso 45€ al supermercato Esselunga")
