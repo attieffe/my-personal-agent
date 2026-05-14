@@ -19,14 +19,17 @@ Ogni call produce una cartella dedicata in `data/`:
 
 ```
 projects/myOCcall/data/
-  YYYYMMDD HHMM <platform>/   ← es. "20260513 1224 meet"
+  YYYYMMDD HHMM <platform> - <titolo>/   ← es. "20260513 1224 meet - rinnovo shippypro"
     META.md                    ← metadati call (aggiornato in tempo reale)
+    HUMAN.md                   ← note manuali di Atti (opzionale, fuse nella sintesi)
     audio/segments/*.mp3       ← segmenti audio ffmpeg da 300s
     audio/manifest.tsv         ← indice + validazione segmenti audio
     transcripts/*.txt          ← trascrizioni per segmento
     trascrizione.txt           ← output Whisper aggregato (fase post-call)
     SINTESI.md                 ← riassunto strutturato finale (fase post-call)
 ```
+
+> **HUMAN.md** — file opzionale che Atti può creare e aggiornare durante o dopo la call con appunti, contesto, nomi dei partecipanti, decisioni osservate, cose da non dimenticare. Se presente, viene fuso nella SINTESI.md come sezione dedicata e usato per arricchire/correggere il riassunto automatico.
 
 > Procedura audio/trascrizione autorevole: vedere `PROCEDURA_AUDIO_TRASCRIZIONE.md`.
 > La pipeline non deve più dipendere da un singolo `audio.mp3` come input primario di Whisper.
@@ -99,8 +102,10 @@ _(anomalie, problemi tecnici, osservazioni)_
     - Decisioni prese
     - Per parlante (se diarization disponibile)
     - Orari join/leave di tutti i partecipanti
+    - **Se esiste `HUMAN.md`**: fondere le note di Atti nella sintesi come sezione "Note di Atti" e usarle per arricchire/correggere il contenuto automatico
 18. Aggiornare `META.md`: sintesi ✓
-19. Inviare `SINTESI.md` ad Atti via Telegram
+19. Deducere un titolo breve dalla sintesi e rinominare la cartella call in `YYYYMMDD HHMM <platform> - <titolo>/`
+20. Inviare `SINTESI.md` ad Atti via Telegram
 
 ---
 

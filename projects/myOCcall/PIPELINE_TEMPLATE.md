@@ -94,6 +94,8 @@
 
 ### 5.2 — Sintesi
 
+- [ ] Verificare se esiste `HUMAN.md` nella cartella call
+  - [ ] Se sì: leggere e preparare fusione nel riassunto
 - [ ] `SINTESI.md` generata con template strutturato:
   - [ ] Info call (piattaforma, URL, orari, durata)
   - [ ] Cronistoria sintetica (join browser, segmenti, variazioni partecipanti)
@@ -102,7 +104,9 @@
   - [ ] Decisioni prese
   - [ ] Partecipanti presenti + durata approssimativa di partecipazione se ricostruibile
   - [ ] Estratto trascrizione (solo frasi utili; escludere battute, commenti, parti non comprese)
+  - [ ] **Se `HUMAN.md` presente**: sezione "Note di Atti" con gli appunti manuali fusi/integrati nella sintesi
   - [ ] `META.md` aggiornato: sintesi ✓
+- [ ] Titolo breve dedotto dalla sintesi e usato per rinominare la cartella call (`YYYYMMDD HHMM platform - titolo/`)
 
 ### 5.3 — Invio
 
