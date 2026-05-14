@@ -87,6 +87,12 @@ EMAIL/            → gestione IMAP myjob@ingeniosolution.it
 ### Workflow TODO
 - Cliente diretto → aggiornare sia file cliente che `ATTILIO_A_CASA/README.md`
 - Progetto agenzia (es. CEAM) → cartella agenzia (`GET_ME_DIGITAL/`), non `DIRETTI/`
+- Per i file personali di myJob vuole una riorganizzazione migliore: separare chiaramente lavoro Colzani, casa/tempo libero, hobby e checklist operative.
+- Checklist padel da censire: borsone, bibita, fascia braccio/spalla, orologio.
+- Vuole anche una checklist padel separata per cose da ricordare prima di partita/torneo/allenamento, con data e ora di inserimento per ogni voce.
+- Voci già dette per la checklist padel mentale: vibora con palla davanti, impugnatura continental, palla profonda che rimbalza dopo la linea; se è lontano dalla rete, a volte usare palla lenta per riconquistarla invece di tirare sempre forte.
+- Vuole aggiungere una routine di allenamento individuale padel per dare continuità a smash, 3, volée, smorzata, risposta di rovescio, vibora e altri colpi.
+- Nella checklist di concentrazione/preparazione partita padel vuole includere anche: provare i rovesci piatti forti.
 
 ### Sessioni Telegram
 - Stessa chat = stesso contesto (no reset automatico)
