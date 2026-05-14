@@ -3,8 +3,8 @@
 ## TODOLIST
 - **[URGENTE]** Definire ferie del team con Alessandro e Fabio
 - **[URGENTE]** Capire integrazione marketplace e Apes Lab con Giordano Vignati e Mattia Ballabio (Global Trading / E-Commerce Zone)
+- APES MARKETPLACE: next step parlare con Stefano (riutilizzare il flusso esistente, non rifare da zero)
 - dire ad Ale di segnalare a Paolo Meneghelli (fix InPost telefono — in testing)
-- Canone NAV-Ls retail Capgemini 2026-2027 (OP# 02698455) [da discutere con Stefano Colzani]
 - Rispondere a Silvio per dominio sportit.es [da fare]
 - carichi warehouse SRL
 - sku jarno convertiti dare esempio

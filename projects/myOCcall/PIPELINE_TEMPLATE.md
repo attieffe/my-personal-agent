@@ -38,7 +38,7 @@
 **Script:** `call-join-meet.js <call_dir> <url>` (o equivalente per zoom/teams)
 
 - [ ] Browser aperto su URL call
-- [ ] Webcam disabilitata (nessun video trasmesso)
+- [ ] Webcam disabilitata / input video disattivato (nessun video trasmesso)
 - [ ] Microfono disabilitato (nessun audio trasmesso)
 - [ ] Nome visualizzato: **"Attilio F."**
 - [ ] Click "Partecipa" / join eseguito
@@ -54,6 +54,7 @@
 
 - [ ] Polling partecipanti attivo (`browser-status.json` aggiornato)
 - [ ] Log entrate/uscite in `META.md` con timestamp
+- [ ] Log cronologia call completo disponibile o ricostruibile: join browser, start/end segmenti, ingressi/uscite, partecipanti esterni
 - [ ] Watchdog audio: segmenti MP3 crescono nel tempo
 - [ ] Exit condition monitorata: solo bot per > 2 minuti → trigger exit
 - [ ] Hard timeout 4h configurato (sicurezza anti-hang)
@@ -95,11 +96,13 @@
 
 - [ ] `SINTESI.md` generata con template strutturato:
   - [ ] Info call (piattaforma, URL, orari, durata)
+  - [ ] Cronistoria sintetica (join browser, segmenti, variazioni partecipanti)
   - [ ] Contesto e inizio riunione
   - [ ] Argomenti trattati
   - [ ] Decisioni prese
-  - [ ] Estratto trascrizione (primi 800 caratteri)
-- [ ] `META.md` aggiornato: sintesi ✓
+  - [ ] Partecipanti presenti + durata approssimativa di partecipazione se ricostruibile
+  - [ ] Estratto trascrizione (solo frasi utili; escludere battute, commenti, parti non comprese)
+  - [ ] `META.md` aggiornato: sintesi ✓
 
 ### 5.3 — Invio
 

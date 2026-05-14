@@ -14,8 +14,10 @@ Per ogni call, il sistema deve:
 3. creare un manifest dei segmenti;
 4. trascrivere **tutti** i segmenti validi, in ordine;
 5. unire le trascrizioni in `trascrizione.txt`;
-6. fallire in modo esplicito se nessun segmento valido è disponibile;
-7. non usare mai automaticamente un file audio “di fallback” se non supera i controlli minimi.
+6. raccogliere e/o ricostruire una cronistoria della call con orari e partecipanti;
+7. sintetizzare solo i contenuti utili, tralasciando battute, commenti marginali o frasi non comprese;
+8. fallire in modo esplicito se nessun segmento valido è disponibile;
+9. non usare mai automaticamente un file audio “di fallback” se non supera i controlli minimi.
 
 ## Decisione tecnica
 
@@ -112,6 +114,15 @@ Status ammessi:
 - `corrupt` — ffprobe/ffmpeg non riesce a leggerlo;
 - `missing` — atteso ma assente.
 
+Il manifest deve permettere di ricostruire almeno:
+
+- orario di start/fine di ogni segmento;
+- nome file del segmento;
+- durata;
+- eventuale stato del segmento.
+
+Se i metadati non vengono raccolti in tempo reale, vanno recuperati dai log disponibili e riportati poi in un file MD finale di cronistoria.
+
 ## Validazione segmenti
 
 Per ogni segmento:
@@ -186,6 +197,18 @@ La pipeline DEVE:
 - **Trascrizione:** completa/parziale/fallita
 ```
 
+## Cronistoria call
+
+Quando possibile, la call deve lasciare anche una cronistoria ricostruibile con:
+
+- orario di join del browser;
+- orario di start/end di ogni segmento audio;
+- ingressi/uscite partecipanti;
+- partecipanti esterni/bot con nome o etichetta rilevata;
+- note sui punti non chiari o non compresi.
+
+Queste informazioni possono stare in `META.md` se sono poche, oppure in log strutturati da convertire poi in `MD` a fine call.
+
 ## Flusso operativo aggiornato
 
 ### Fase 1 — Pre-join
@@ -231,3 +254,11 @@ Nella run analizzata, `audio-call-only.mp3` era il file corretto mentre `audio.m
 Con la nuova procedura, `audio-call-only.mp3` non deve essere un caso speciale manuale: la sorgente corretta deve confluire direttamente nei segmenti `audio/segments/segment-XXXX.mp3`.
 
 Se resta necessario produrre un file unico, va generato dopo la call concatenando i segmenti validi, non usato come input primario per la pipeline.
+### Sintesi finale
+
+La sintesi finale deve:
+
+- riportare le decisioni prese;
+- riportare i partecipanti e, se ricostruibile, se hanno partecipato a tutta la sessione o solo a una parte;
+- escludere o accorpare frasi che sembrano battute, commenti marginali o testo non compreso;
+- basarsi sui timestamp audio anche se mancano metadati più ricchi.

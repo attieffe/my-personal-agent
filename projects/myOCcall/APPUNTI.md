@@ -63,6 +63,11 @@ Verifica che l'audio arrivi: `ffmpeg -f pulse -i virtual_out.monitor -t 4 -filte
 
 Se la call è lunga, dividere il file audio in chunk da max 25MB prima di inviare a Whisper.
 
+## Cronistoria call
+
+- Per ogni call, cercare di salvare o ricostruire: join browser, start/end segmenti, ingressi/uscite, bot/esterni e nomi rilevati.
+- Se i metadati mancano, usare i timestamp audio disponibili e segnare la lacuna per approfondimento in sessione dedicata (MEET e TEAMS).
+
 ---
 
 ## Speaker attribution — decisione tecnica v1

@@ -11,6 +11,7 @@
 #
 # Uso: call-orchestrate.sh meet https://meet.google.com/xxx-yyyy-zzz
 #      call-orchestrate.sh meet https://... --no-post   (salta fase post-call)
+#      call-orchestrate.sh teams https://... --force    (aggira cooldown anti-duplicato)
 #
 # Exit code: 0 OK, 1 parametri, 2 errore critico, 3 platform non supportata
 
@@ -28,6 +29,8 @@ PLATFORM="$1"
 URL="$2"
 NO_POST=0
 if [[ "${3:-}" == "--no-post" ]]; then NO_POST=1; fi
+FORCE=0
+if [[ "${3:-}" == "--force" || "${4:-}" == "--force" ]]; then FORCE=1; fi
 
 log() {
     local ts
@@ -35,7 +38,28 @@ log() {
     echo "[$ts] [orchestrate] $*"
 }
 
+if [[ "$PLATFORM" == "teams" && "$FORCE" -eq 0 ]]; then
+    STATE_FILE="$SCRIPT_DIR/../data/.last-teams-run"
+    NOW_EPOCH=$(date +%s)
+    if [[ -f "$STATE_FILE" ]]; then
+        # formato: epoch|url
+        IFS='|' read -r LAST_EPOCH LAST_URL < "$STATE_FILE" || true
+        if [[ -n "${LAST_EPOCH:-}" && -n "${LAST_URL:-}" && "$LAST_URL" == "$URL" ]]; then
+            AGE=$((NOW_EPOCH - LAST_EPOCH))
+            if [[ "$AGE" -lt 600 ]]; then
+                log "ERRORE: Teams già rilanciato da ${AGE}s per lo stesso URL. Usa --force se vuoi forzare il retry."
+                exit 2
+            fi
+        fi
+    fi
+fi
+
 log "Avvio orchestratore — platform=$PLATFORM url=$URL"
+
+if [[ "$PLATFORM" == "teams" ]]; then
+    mkdir -p "$SCRIPT_DIR/../data"
+    printf '%s|%s\n' "$(date +%s)" "$URL" > "$SCRIPT_DIR/../data/.last-teams-run"
+fi
 
 # ---- Fase 1: init cartella + avvio ffmpeg ----
 log "Fase 1 — init call e avvio registrazione"

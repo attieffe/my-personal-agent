@@ -21,6 +21,7 @@ Elenco di feature, miglioramenti e task tecnici per far evolvere il sistema.
   - [x] Identificare selettori speaker (4 strategie: roster aria-label, data-is-speaking, stage name, speaking border)
   - [x] Implementare `call-join-teams.js` con stessa interfaccia di `call-join-meet.js`
   - [x] `call-orchestrate.sh` aggiornato per platform=teams
+  - [x] Disabilitare sempre l'input video/webcam nel join
   - [ ] **TEST su call reale** — verificare pre-join flow e selettori speaker DOM
 
 - [ ] **Configurazione credenziali** — account Google/Microsoft per le piattaforme
@@ -46,6 +47,16 @@ Elenco di feature, miglioramenti e task tecnici per far evolvere il sistema.
 - [ ] **Validazione URL** — bloccare URL malformati prima del join
 - [ ] **Indagare join multipli nella stessa call** — capire perché l’agente è entrato più volte nella call e come evitare re-join duplicati
 - [ ] **Indagare browser morto con ffmpeg ancora attivo** — capire perché il browser è terminato mentre la registrazione audio è continuata
+
+## Metadati & Cronistoria call
+
+- [ ] **Approfondire in sessione apposita la raccolta cronologica della call** — sia per MEET che per TEAMS
+  - [ ] registrare orario di join del browser
+  - [ ] registrare start/end di ogni segmento con nome file
+  - [ ] raccogliere eventi partecipanti (ingressi/uscite)
+  - [ ] distinguere partecipanti esterni / bot / nomi rilevati
+  - [ ] ricomporre la cronistoria completa della call da metadati o log strutturati
+- [ ] **Capire perché in questa run non sono stati raccolti metadati sufficienti** — definire dove salvarli (META.md e/o log dedicati) e come portarli poi in file MD
 
 ---
 

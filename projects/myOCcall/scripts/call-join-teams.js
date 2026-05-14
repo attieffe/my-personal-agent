@@ -44,6 +44,13 @@ const SELECTORS = {
     'a:has-text("Continue on this browser")',
   ],
 
+  // Overlay Teams: continua senza audio/video
+  continueWithoutAudioVideo: [
+    'button:has-text("Continua senza audio o video")',
+    'button:has-text("Continue without audio or video")',
+    '[data-tid="prejoin-continue-without-audio-video-button"]',
+  ],
+
   // Pre-join: campo nome (ospite senza account)
   nameField: [
     '[data-tid="prejoin-display-name"]',
@@ -131,6 +138,42 @@ async function trySelectors(page, selectors, timeout = 8000) {
   return null;
 }
 
+async function detectJoinState(page, prejoinUrl) {
+  const joinBtnVisible = await page.locator('button[data-tid="prejoin-join-button"], [data-tid="prejoin-join-button"]').count().catch(() => 0);
+  const url = page.url();
+
+  const dom = await page.evaluate(() => {
+    const text = (document.body && document.body.innerText) ? document.body.innerText : '';
+    const hasHangup = !!document.querySelector(
+      '[data-tid="hangup-button"], [data-tid="callingButton-hangup"], [aria-label*="Abbandona"], [aria-label*="Leave"]'
+    );
+    const hasCallChrome = !!document.querySelector(
+      '[aria-label*="Chat"], [aria-label*="Persone"], [aria-label*="People"], [aria-label*="Reazioni"], [aria-label*="Raise hand"], [aria-label*="Alza la mano"]'
+    );
+    return {
+      text,
+      hasHangup,
+      hasCallChrome,
+      hasRoster: !!document.querySelector('[data-tid*="roster-tile"], [data-participant-id]'),
+      hasLobbyText: /attesa|waiting|sala di attesa|stiamo aspettando/i.test(text),
+    };
+  }).catch(() => ({ text: '', hasHangup: false, hasCallChrome: false, hasRoster: false, hasLobbyText: false }));
+
+  if (dom.hasHangup || dom.hasCallChrome || dom.hasRoster) {
+    return { joined: true, reason: dom.hasHangup ? 'hangup-button' : dom.hasCallChrome ? 'call-chrome' : 'roster' };
+  }
+
+  if (url !== prejoinUrl && joinBtnVisible === 0) {
+    return { joined: true, reason: 'post-join-url-change' };
+  }
+
+  if (dom.hasLobbyText && joinBtnVisible === 0) {
+    return { joined: true, reason: 'lobby-transition' };
+  }
+
+  return { joined: false, reason: 'prejoin-or-unknown' };
+}
+
 // Aggiunge parametri all'URL per ridurre prompt "apri app"
 function teamsUrlBypassApp(url) {
   try {
@@ -173,8 +216,6 @@ function teamsUrlBypassApp(url) {
       // Audio PulseAudio
       '--alsa-output-device=pulse',
       '--disable-features=WebRtcHideLocalIpsWithMdns',
-      '--use-fake-device-for-media-stream',
-      '--use-fake-ui-for-media-stream',
     ],
   });
 
@@ -196,6 +237,7 @@ function teamsUrlBypassApp(url) {
   const navUrl = teamsUrlBypassApp(teamsUrl);
   console.log(`[teams] Navigazione a ${navUrl}`);
   await page.goto(navUrl, { waitUntil: 'domcontentloaded', timeout: PREJOIN_TIMEOUT });
+  const prejoinUrl = page.url();
   await sleep(3000);
 
   // --- Bypass "Apri app Teams" ---
@@ -240,6 +282,14 @@ function teamsUrlBypassApp(url) {
 
   await sleep(1500);
 
+  // --- Chiudi eventuale overlay audio/video e continua ---
+  const continueNoAv = await trySelectors(page, SELECTORS.continueWithoutAudioVideo, 3000);
+  if (continueNoAv) {
+    await continueNoAv.click({ force: true });
+    console.log('[teams] Continuo senza audio o video');
+    await sleep(2000);
+  }
+
   // --- Clicca "Partecipa" ---
   const joinBtn = await trySelectors(page, SELECTORS.joinButton, 15000);
   if (!joinBtn) {
@@ -247,18 +297,21 @@ function teamsUrlBypassApp(url) {
     await browser.close();
     process.exit(2);
   }
-  await joinBtn.click();
+  await joinBtn.click({ force: true });
   console.log('[teams] Cliccato "Partecipa"');
 
   // --- Attendi conferma in-call (potrebbe passare per lobby) ---
   console.log(`[teams] Attesa conferma in-call (max ${LOBBY_TIMEOUT / 1000}s)...`);
   try {
-    // Attende che compaia un elemento solo visibile in-call (pulsante "Abbandona")
     let found = false;
     const deadline = Date.now() + LOBBY_TIMEOUT;
     while (Date.now() < deadline) {
-      const indicator = await trySelectors(page, SELECTORS.inCallIndicator, 3000);
-      if (indicator) { found = true; break; }
+      const state = await detectJoinState(page, prejoinUrl);
+      if (state.joined) {
+        console.log(`[teams] Stato call rilevato: ${state.reason}`);
+        found = true;
+        break;
+      }
       await sleep(2000);
     }
     if (!found) {

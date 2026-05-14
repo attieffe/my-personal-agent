@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-14T13:19:25.321Z",
+  "updatedAt": "2026-05-14T14:04:22.344Z",
   "entries": {
     "memory:memory/2026-05-12.md:1:8": {
       "key": "memory:memory/2026-05-12.md:1:8",
@@ -108,18 +108,19 @@
       "endLine": 38,
       "source": "memory",
       "snippet": "- usa overlap temporale per assegnare parlante a ogni frase - produce `trascrizione_attribuita.md` formato `[HH:MM:SS] Nome: testo` 5. **`call-post.sh`** — chiama overlay dopo trascrizione, include parlanti in SINTESI.md ## Da fare prossima sessione myOCcall - **TEST su call reale** (priorità alta) — verificare selettori DOM Meet, affinare se non matchano - Retry Whisper con backoff - Alert audio silenzioso - Skill `call-summarizer` - Riconoscimento piattaforma da URL",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.343279179930687,
+      "totalScore": 1.7137549698352812,
       "maxScore": 0.4015976220369339,
       "firstRecalledAt": "2026-05-14T12:14:54.182Z",
-      "lastRecalledAt": "2026-05-14T13:19:25.321Z",
+      "lastRecalledAt": "2026-05-14T14:04:22.344Z",
       "queryHashes": [
         "6289bd27e157",
         "86824f6e9960",
         "208c472a2b19",
-        "2f80670ac3c3"
+        "2f80670ac3c3",
+        "7fc56f13132a"
       ],
       "recallDays": [
         "2026-05-14"
@@ -142,16 +143,17 @@
       "endLine": 33,
       "source": "memory",
       "snippet": "# Sessione 2026-05-14 — myOCcall Speaker Attribution v1 ## Cosa abbiamo fatto ### Revisione TODO myOCcall - Atti ha chiesto di vedere i task aperti del progetto myOCcall - Priorità concordata: **Speaker Attribution v1** su Google Meet, poi affinamento summarizer ### Implementazione Speaker Attribution v1 Commit: `1ae2646` — tutti i file in `projects/myOCcall/scripts/` **Modifiche:** 1. **`call-start.sh`** — aggiunge `ffmpeg_start_epoch_ms` (epoch Unix ms) a META.md per allineamento clock 2. **`call-join-meet.js`** — speaker monitoring ogni 2s con 4 strategie DOM Meet in cascata: - `[data-is-speaking=\"true\"]` diretto sul tile - tile figlio con `data-is-speaking` - `[data-is-mai",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.6407640397548675,
-      "maxScore": 0.33833326101303096,
+      "totalScore": 1.0081619679927825,
+      "maxScore": 0.367397928237915,
       "firstRecalledAt": "2026-05-14T12:15:43.689Z",
-      "lastRecalledAt": "2026-05-14T12:17:35.733Z",
+      "lastRecalledAt": "2026-05-14T14:04:22.344Z",
       "queryHashes": [
         "86824f6e9960",
-        "208c472a2b19"
+        "208c472a2b19",
+        "7fc56f13132a"
       ],
       "recallDays": [
         "2026-05-14"

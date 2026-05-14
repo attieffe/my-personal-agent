@@ -32,6 +32,7 @@ Come agente myOCcall, il tuo compito è:
 - Cartella call creata in `data/YYYYMMDD HHMM platform/`
 - File `PIPELINE.md` (checklist) nella cartella call
 - Audio registrato in segmenti da 300s
+- Cronistoria call ricostruibile (join browser, segmenti, partecipanti)
 - Trascrizione completa in `trascrizione.txt`
 - Sintesi strutturata in `SINTESI.md`
 - Invio sintesi ad Atti via Telegram
@@ -103,8 +104,9 @@ Ogni 60s, aggiorna la `PIPELINE.md` della call:
 Al termine della call, verifica:
 - [ ] `audio/manifest.tsv` generato
 - [ ] Almeno 1 segmento `status=valid`
-- [ ] `trascrizione.txt` creato (>10 parole, non ripetitivo)
-- [ ] `SINTESI.md` generato con contenuto valido
+- [ ] `trascrizione.txt` creato (>10 parole, non ripetitivo, con timestamp utili)
+- [ ] `SINTESI.md` generato con contenuto valido e decisioni utili
+- [ ] Partecipanti e cronistoria ricostruiti per quanto possibile
 - [ ] Invio Telegram riuscito (o `sintesi-pending-send.txt` creato)
 
 **Messaggio di conferma ad Atti:**
@@ -178,6 +180,14 @@ head -20 trascrizione.txt       # ispeziona contenuto
 1. Verificare che i segmenti audio contengano effettivamente parlato (non silenzio)
 2. Controllare `audio/manifest.tsv` — tutti i segmenti validi?
 3. Se audio OK ma trascrizione sbagliata → possibile errore Whisper, segnalare ad Atti
+
+### Metadati mancanti o incompleti
+
+**Sintomo:** non si riesce a ricostruire join browser, ingressi/uscite o start/end segmenti.
+
+**Comportamento atteso:** procedere comunque con trascrizione audio e poi sintetizzare usando i timestamp disponibili.
+
+**Fix futuro:** approfondire in una sessione apposita per MEET e TEAMS come salvare metadati o log strutturati da convertire in cronistoria MD.
 
 ### Browser Crash Durante Call
 
