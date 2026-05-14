@@ -63,7 +63,9 @@ EMAIL/            → gestione IMAP myjob@ingeniosolution.it
 ### myJob — Email IMAP Workflow
 - Cron **ogni ora** (solo lettura UNSEEN)
 - Notifica esiti in **chat Telegram** (formato non tecnico, sintetico)
-- Workflow: `00_inbox/` → `01_to-be-defined/` → triage
+- Workflow: `00_inbox/` → `incoming_untriaged.md` (proposta) → conferma Atti → azione eseguita → `90_archive/`
+- **REGOLA POST-CONFERMA:** dopo che Atti conferma un’azione e la si esegue → email in `90_archive/`, rimossa da `incoming_untriaged.md`, link all’eml archiviato nel task creato
+- Non devono mai restare email in `incoming_untriaged.md` con azione già eseguita
 - File `INBOX_WORKFLOW.md` con regole operative
 - Format notifica: `Nuovo check email. Email nuove: N. Email in attesa: xxx`
 - Quando sintetizzo azioni da fare, aggiungo sempre un link al contenuto originale della email e una % di confidenza sull’azione proposta; la useremo come metrica da migliorare prima dell’automatico.

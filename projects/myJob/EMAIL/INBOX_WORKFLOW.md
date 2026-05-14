@@ -90,9 +90,31 @@ Per ogni azione proposta indicare una **percentuale di confidenza** (es. 85%) ch
 
 Per ogni email proposta includere il percorso al file `.eml` originale in workspace (`00_inbox/` o `01_to-be-defined/`). Questo consente ad Attilio di leggere il contenuto completo se vuole verificare il triage prima di confermare.
 
+## Ciclo di vita di un’email
+
+```
+IMAP (UNSEEN)
+    ↓ download
+00_inbox/           ← email appena scaricate
+    ↓ triage
+incoming_untriaged.md  ← proposta ad Attilio (con % confidenza)
+    ↓ conferma di Attilio
+[esegui azione: crea/aggiorna task con link all’email]
+    ↓ azione eseguita
+90_archive/         ← email spostata qui (stato definitivo)
+incoming_untriaged.md ← voce rimossa
+```
+
+**Regola fondamentale post-conferma:** una volta che Attilio ha confermato l’azione e l’azione è stata eseguita, l’email:
+1. Viene spostata da `00_inbox/` a `90_archive/`
+2. Viene rimossa da `incoming_untriaged.md`
+3. Nel task creato/aggiornato viene aggiunto un riferimento al file `.eml` archiviato (`90_archive/msgXXX.eml`)
+
+Non devono mai restare email in `incoming_untriaged.md` con azione già eseguita.
+
 ## Regole operative
 - Dopo il download, le mail vanno marcate come **lette**.
-- Le mail appena arrivate vanno spostate in `01_to-be-defined` finché Attilio non conferma l’azione.
+- Le mail appena arrivate restano in `00_inbox/` e vengono registrate in `incoming_untriaged.md` finché Attilio non conferma l’azione.
 - Il triage deve distinguere:
   - **nuovo scope**
   - **continuazione di task esistente**

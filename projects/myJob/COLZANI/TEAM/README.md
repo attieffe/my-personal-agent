@@ -25,6 +25,7 @@
 
 ## Mia todolist (Atti / Attilio)
 Vedi: [[PERSONALI/README|PERSONALI]]
+- [ ] VERIFICA TASK BLOCCATO DI NAV — Codeunit 50016 (Close sales & purchase Order), Error counter: 5, procedura bloccata per troppi riavvii consecutivi (14/05/2026) — 📎 `EMAIL/90_archive/msg_8_20260514_173431.eml`
 
 ## Ritmo di lavoro
 - (es. meeting settimanale, check mensile, ecc.)
