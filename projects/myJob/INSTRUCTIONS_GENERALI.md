@@ -32,3 +32,12 @@ Ogni area ha un `CHANGELOG.md`. Ogni modifica rilevante deve entrare lì con:
 
 ## “Email per me” (myjob@ingeniosolution.it)
 Quando vuoi iniziare davvero, creiamo insieme il flusso: ingresso → triage → ticket/progetto → aggiornamento dei file.
+## Regole taccuini e TODO (tutti gli ambiti)
+
+Queste regole si applicano a qualsiasi taccuino o TODO, sia in COLZANI che in tutti gli altri rami (DIRETTI, GET_ME_DIGITAL, SINAPPS, personale, ecc.).
+
+- **Stato di avanzamento obbligatorio**: ogni voce (taccuino o TODO) include uno stato esplicito, es. `[da definire]`, `[in corso]`, `[bloccato]`, `[approvato]`, `[accantonato]`, ecc. Se non determinabile dal contesto, usare `[da definire]`.
+- **Scadenze**: se è indicata una data di follow-up o review, riportarla con il prefisso ⏰.
+- **Argomenti multi-persona**: se un argomento coinvolge più persone, va aggiunto nei taccuini di **tutti** gli interessati con link reciproci in formato Obsidian (`[[nomefile|label]]`), incluso il backlink.
+- **Propagazione aggiornamenti**: ad ogni aggiornamento di una voce TODO o taccuino, **verificare i link collegati** e aggiornarli di conseguenza. Non aggiornare mai una sola estremità di un link bidirezionale.
+- **Link TODO ↔ taccuino**: quando una voce in un taccuino coincide o si sovrappone a un task nella TODO personale, i due file devono referenziarsi reciprocamente con link Obsidian.

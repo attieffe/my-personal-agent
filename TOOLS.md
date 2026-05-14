@@ -36,6 +36,7 @@ Things like:
 - **Provider:** OpenAI TTS (`tts-1`)
 - **Voce default:** `nova` (scelta da Atti)
 - **Lingua:** italiano
+- Quando trasmetti un file in TTS ad esempio su Whatsapp o Telegram cancellalo poi direttamente dal tuo file system tanto ormai è trasmesso ed è inutile mantenerlo.
 
 ## Why Separate?
 

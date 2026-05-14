@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "08cb2048634dcace",
+        "id": "43106721158e284d",
         "type": "tabs",
         "children": [
           {
-            "id": "fdd16a080895e4cc",
+            "id": "047bd5dc5eabf905",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/COLZANI/TEAM/README.md",
+                "file": "projects/myJob/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 431.5
   },
   "right": {
     "id": "02882e6c64d20094",
@@ -183,43 +183,43 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "fdd16a080895e4cc",
+  "active": "047bd5dc5eabf905",
   "lastOpenFiles": [
-    "projects/myJob/COLZANI/README.md",
-    "projects/myJob/COLZANI/IT_MANAGER.md",
-    "projects/myJob/COLZANI/GLOSSARIO.md",
+    "projects/myOCcall/data/20260514 1613 teams/audio/segments/~syncthing~segment-0025.mp3.tmp",
+    "projects/myOCcall/data/20260514 1606 teams/audio/segments/segment-0027.mp3",
+    "projects/myOCcall/data/20260514 1606 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
+    "projects/myOCcall/data/20260514 1610 teams/audio/segments/segment-0026.mp3",
+    "projects/myOCcall/data/20260514 1604 teams/audio/segments/~syncthing~segment-0027.mp3.tmp",
+    "projects/myOCcall/data/20260514 1610 teams/audio/segments/~syncthing~segment-0025.mp3.tmp",
+    "projects/myOCcall/data/20260514 1604 teams/audio/segments/segment-0027.mp3",
+    "projects/myOCcall/data/20260514 1604 teams/audio/segments/~syncthing~segment-0026.mp3.tmp",
+    "projects/myOCcall/data/20260514 1613 teams/audio/segments/segment-0025.mp3",
+    "projects/myOCcall/data/20260514 1613 teams/audio/segments/~syncthing~segment-0024.mp3.tmp",
+    "projects/myOCcall/data/20260514 1606 teams/audio/segments/~syncthing~segment-0025.mp3.tmp",
+    "projects/myJob/INSTRUCTIONS_GENERALI.md",
+    "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
+    "projects/myJob/COLZANI/PERSONALI/README.md",
+    "projects/myJob/COLZANI/TEAM/README.md",
     "projects/myJob/COLZANI/CHANGELOG.md",
+    "projects/myJob/COLZANI/GLOSSARIO.md",
+    "projects/myJob/COLZANI/IT_MANAGER.md",
+    "TOOLS.md",
+    "projects/myOCcall/data/20260514 1604 teams - carichi società/SINTESI.md",
+    "projects/myOCcall/data/20260514 1604 teams - carichi società/trascrizione_attribuita.md",
+    "projects/myOCcall/data/20260514 1604 teams - carichi società/META.md",
+    "projects/myJob/COLZANI/README.md",
     "projects/myJob/COLZANI/TEAM/ALessandro_TODO.md",
     "projects/myJob/COLZANI/CONSULENTI/README.md",
     "projects/myJob/COLZANI/AS400/README.md",
-    "TOOLS.md",
-    "projects/myJob/EMAIL/README.md.bak",
     "SOUL.md",
     "progetti.md",
     "MEMORY.md",
     "IDENTITY.md",
     "HEARTBEAT.md",
     "AGENTS.md",
-    "projects/myJob/EMAIL/scripts/update_interlocutors.py",
-    "projects/myJob/EMAIL/scripts/match_todos.py",
-    "projects/myJob/EMAIL/scripts",
     "memory/2026-05-13-2248.md",
-    "memory/~syncthing~2026-05-13-2248.md.tmp",
     "projects/myOCcall/docs/AGENT_RUNBOOK.md",
     "projects/myJob/EMAIL/templates/telegram_recap.md",
-    "projects/myOCcall/PIPELINE_TEMPLATE.md",
-    "projects/myJob/EMAIL/templates",
-    "projects/myJob/EMAIL/TRIAGE_RULES.md",
-    "projects/myJob/EMAIL/INTERLOCUTORS.md",
-    "projects/myJob/DIRETTI/Unioncucine/03_deliverables/README.md",
-    "projects/myJob/DIRETTI/Unioncucine/02_communications/EMAIL_THREAD_INDEX.md",
-    "projects/myJob/DIRETTI/Unioncucine/01_meetings/MEETING_LOG.md",
-    "projects/myJob/DIRETTI/Unioncucine/README.md",
-    "projects/myJob/DIRETTI/Unioncucine/CHANGELOG.md",
-    "projects/myJob/DIRETTI/Unioncucine/03_deliverables",
-    "projects/myJob/DIRETTI/Unioncucine/02_communications",
-    "projects/myJob/DIRETTI/Unioncucine/90_archive",
-    "projects/myJob/DIRETTI/Unioncucine/01_meetings",
-    "projects/myJob/DIRETTI/Unioncucine/00_index.md"
+    "projects/myOCcall/PIPELINE_TEMPLATE.md"
   ]
 }
