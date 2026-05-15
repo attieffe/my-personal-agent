@@ -20,7 +20,7 @@ I dettagli estesi sono nelle docs linkate sotto.
 Usare sempre questi nomi quando si parla delle quattro idee/proposte.
 
 ## Auto-aggiornamento (obbligatorio)
-Ogni volta che Atti insegna una regola nuova, una correzione o un mapping confermato durante una sessione su questo progetto, aggiornarla immediatamente in `miotesoro.md` o nel file di riferimento corretto (`docs/`, `memory/repo/`). Non aspettare fine sessione.
+Ogni volta che Atti insegna una regola nuova, una correzione o un mapping confermato durante una sessione su questo progetto, aggiornarla immediatamente in `miotesoro-sheet-agent.md` o nel file di riferimento corretto (`docs/`, `memory/repo/`). Non aspettare fine sessione.
 
 ## Ambito progetto
 - Il progetto gestisce due fogli Google Sheets distinti:
@@ -64,7 +64,7 @@ Ogni volta che Atti insegna una regola nuova, una correzione o un mapping confer
 - Registrare solo dopo conferma utente sui casi dubbi.
 
 ## Accesso API Google Sheets
-- Usare API REST v4 con token OAuth2 dal percorso fisso: `.env` (relativo alla cartella `miotesoro/`)
+- Usare API REST v4 con token OAuth2 dal percorso fisso: `.env` (relativo alla cartella `miotesoro-sheet-agent/`)
 - Non cercare token in variabili d'ambiente o percorsi home.
 - Se 401: eseguire refresh token (vedi runbook sezione 5) e riprovare.
 
@@ -83,4 +83,4 @@ Regole chiave:
   1. Aggiornare `docs/CHANGELOG.md`.
   2. Aggiornare `memory/repo/vendor-mapping.md` solo con mapping confermati.
   3. Rimuovere regole duplicate/spostate in docs specialistiche.
-  4. Verificare che `miotesoro.md` resti sintetico e senza dettagli ridondanti.
+  4. Verificare che `miotesoro-sheet-agent.md` resti sintetico e senza dettagli ridondanti.

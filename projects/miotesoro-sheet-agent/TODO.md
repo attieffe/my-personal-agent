@@ -1,4 +1,4 @@
-# TODO — miotesoro (myMoney)
+# TODO — miotesoro-sheet-agent (myMoney)
 
 ## In corso
 - [ ] Completare mappatura vendor/categorie

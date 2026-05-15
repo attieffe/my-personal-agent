@@ -1,4 +1,4 @@
-# Changelog — miotesoro (myMoney)
+# Changelog — miotesoro-sheet-agent (myMoney)
 
 Storico modifiche del progetto. Versione dettagliata in `docs/CHANGELOG.md`.
 

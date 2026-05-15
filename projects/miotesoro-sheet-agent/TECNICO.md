@@ -4,7 +4,7 @@
 
 - **Modello AI:** Claude Sonnet 4.6
 - **Dati:** Google Sheets v4 API (REST + OAuth2)
-- **Token auth:** file `.env` nella cartella `miotesoro/` (percorso relativo)
+- **Token auth:** file `.env` nella cartella `miotesoro-sheet-agent/` (percorso relativo)
 - **Fogli target:**
   - PERSONALE: `1LiZNaKhL2UO3UDoSBOrTeaGHD30JQdIB7_BShisB0vQ`
   - CASA: `10O6jkcSvsUH8sVls-pJ2SWUymk71U3y_NtjmHktHKyg`
@@ -12,7 +12,7 @@
 ## Architettura
 
 ```
-miotesoro.md              ← istruzioni core dell'agente (sempre caricato)
+miotesoro-sheet-agent.md              ← istruzioni core dell'agente (sempre caricato)
 agents/
   revisore-registrazioni.agent.md  ← agente validazione pre-append
 docs/

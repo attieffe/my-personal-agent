@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2026-05-15
+
+### Nuova regola confermata — Portafoglio Amazon ↔ Entrate VT
+- Confermato da Atti che gli incassi su `Portafoglio|Ptf|Amazon` si chiudono di solito con `Entrate|Vt|Vt`.
+- Aggiornati `docs/vendor-mapping.md` e `memory/repo/vendor-mapping.md` con la contropartita ricorrente.
+
+### Registrazione entrata VT Amazon — 12/05/2026 (PERSONALE)
+- **2 righe inserite** in `Movimenti` (righe 110-111), id `6z2qjo`:
+  - `Portafoglio|Ptf|Amazon` | `€ 30,00` | nota `yuri`
+  - `Entrate|Vt|Vt` | `-€ 30,00` | nota `yuri`
+- Formule K-W copiate dalla riga precedente via `CopyPasteRequest`
+
 ## 2026-05-14
 
 ### Naming convention varianti mio-tesoro

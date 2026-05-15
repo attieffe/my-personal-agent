@@ -36,6 +36,12 @@ Validare sempre il conto contro il foglio target: alcuni mapping sotto sono spec
 | Max Factory | Spese\|Prima necessità\|Supermercati vari | Confermato da Atti: supermercati vari |
 | D115 Carugo | Spese\|Cura persona\|Abbigliamento | Abbigliamento bimbi; esempio 05/05 -€38,02; usare questo conto, non Istruzione |
 
+## Contropartite ricorrenti
+
+| Caso | Contropartita | Note |
+|------|---------------|------|
+| Portafoglio\|Ptf\|Amazon | Entrate\|Vt\|Vt | Incassi VT: di solito il Portafoglio Amazon si chiude con entrata VT |
+
 ## Note
 - Le operazioni Colzani hanno spesso già righe "Previsto" pre-inserite → aggiornare a "Eseguito" + data corretta
 - Boom Di Veggian Sarae è ambiguo: chiedere sempre all'utente se Pasto o Conto Casa

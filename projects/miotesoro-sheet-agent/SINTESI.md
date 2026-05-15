@@ -26,5 +26,5 @@ Copilot AI per la gestione finanziaria personale di Atti. Permette di registrare
 
 ## File di riferimento
 
-- Istruzioni operative complete: `miotesoro.md`
+- Istruzioni operative complete: `miotesoro-sheet-agent.md`
 - Come fare una registrazione passo-passo: `docs/REGISTRAZIONE-RUNBOOK.md`

@@ -14,14 +14,14 @@ Esegui una revisione periodica della governance del repository per l'ambito indi
 - Lasciare una struttura chiara: core + runbook + memoria operativa.
 
 ## Fonti da usare
-- `miotesoro.md`
+- `miotesoro-sheet-agent.md`
 - `docs/REGISTRAZIONE-RUNBOOK.md`
 - `docs/CHANGELOG.md`
 - `memory/repo/vendor-mapping.md`
 - `agents/revisore-registrazioni.agent.md`
 
 ## Regole di revisione
-1. Conserva in `miotesoro.md` solo guardrail always-on.
+1. Conserva in `miotesoro-sheet-agent.md` solo guardrail always-on.
 2. Sposta i dettagli operativi nel runbook.
 3. Mantieni in memory solo regole confermate e mapping consolidati.
 4. Se modifichi procedure, aggiorna `docs/CHANGELOG.md`.
