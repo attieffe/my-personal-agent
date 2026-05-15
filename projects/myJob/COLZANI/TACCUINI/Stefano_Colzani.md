@@ -4,7 +4,7 @@
 
 - [ ] Integrazione **APES MARKETPLACE**: riutilizzare il flusso esistente, non rifare da zero. — `[da definire]`
 - [ ] **costing GLOBAL QLIK** — `[da definire]` → vedi anche [[../PERSONALI/README|TODO → costificazione prodotti AS400]]
-- [ ] **dev4side** — call conoscitiva col loro CEO — `[da pianificare]`
+- [ ] **dev4side** — progetto sistemistico in corso (AD fix, DC upgrade, Entra ID sync) → `[attivo]` — vedi [[../PROGETTI/dev4side_adeguamento_sistemistico/README|README progetto]] · [[../PROGETTI/dev4side_adeguamento_sistemistico/TODO|TODO]]
 - [ ] **NAV BC enhanced plan** — sviluppi con IA, migrazione tool — `[da definire]`
 - [ ] **proporre nuova gestione prelievi** gestiti da OBW — `[da proporre — richiede tempo]`
 - [ ] **richiesta GIGI wms corrieri via email** — capire cosa fare con corrieri che hanno già tracciato → **SMEUP** — `[da chiarire]`

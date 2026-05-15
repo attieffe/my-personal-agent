@@ -3,6 +3,39 @@
 ## Obiettivo
 Trasformare le email in azioni operative tracciate nei file del progetto, con analisi intelligente basata su mittente, contesto e matching con task esistenti.
 
+Il sistema supporta **più caselle email** (inbox), ciascuna con il proprio contesto e regole di routing. Tutte le inbox condividono lo stesso algoritmo (`_system/`), ma hanno knowledge e dati separati (`inboxes/[nome]/`).
+
+## Architettura Multi-Inbox
+
+```
+email-injection/
+├── _system/                    ← ALGORITMO (condiviso, modifiche esplicite)
+│   ├── FLOW.md                 ← questo file
+│   ├── analyze_email.prompt.md
+│   ├── process_outcome.prompt.md
+│   ├── companion_schema.md
+│   ├── INBOXES_REGISTRY.md     ← registro inbox attive
+│   └── inbox_template/         ← template per nuove inbox
+│
+├── _knowledge/                 ← CONOSCENZA CONDIVISA (cross-inbox)
+│   └── INTERLOCUTORS.md
+│
+└── inboxes/                    ← UNA CARTELLA PER INBOX
+    └── [nome]/
+        ├── inbox.config.md     ← configurazione (contesto, credenziali, aree)
+        ├── TRIAGE_RULES.md     ← regole routing inbox-specifiche
+        ├── ROUTING_RULES.md    ← regole apprese dagli errori
+        ├── email_threads.md    ← thread noti
+        ├── 00_inbox/           ← email scaricate
+        ├── 01_to-be-defined/   ← in attesa di conferma
+        │   ├── INDEX.md
+        │   ├── [nome].eml
+        │   └── [nome].md       ← companion analysis
+        └── 90_archive/         ← archivio definitivo
+```
+
+Per aggiungere una nuova inbox: vedi `INBOXES_REGISTRY.md`.
+
 ## Analisi Multi-Livello
 
 
@@ -17,7 +50,7 @@ pulire l'email da FIRME eventuali.
 
 2. **Mittente** (chi ha scritto l'email)
    - Se Attilio inoltra, identifico il mittente originale
-   - Consulto `INTERLOCUTORS.md` per capire chi è (ruolo, società, progetti tipici)
+   - Consulto `_knowledge/INTERLOCUTORS.md` per capire chi è (ruolo, società, progetti tipici)
    - Cross-reference con `COLZANI/GLOSSARIO.md` per società del gruppo
 
 3. **Dominio e Società**
@@ -25,7 +58,7 @@ pulire l'email da FIRME eventuali.
    - Altri domini → verifico se cliente diretto, partner o fornitore
 
 4. **Oggetto** (cosa dice il subject)
-   - Cerco in `email_threads.md` se è continuazione di thread esistente
+   - Cerco in `_knowledge/email_threads.md` se è continuazione di thread esistente
    - Pattern ticket: "OP#" + numero (Capgemini)
    - Keyword progetti: "GCAT", "InPost", "Shopify", "AS400", ecc.
 5. **Contenuto** (corpo email)
@@ -100,22 +133,28 @@ Per ogni email proposta includere il percorso al file `.eml` originale in worksp
 ```
 IMAP (UNSEEN)
     ↓ download
-00_inbox/           ← email appena scaricate
-    ↓ triage
-incoming_untriaged.md  ← proposta ad Attilio (con % confidenza)
-    ↓ conferma di Attilio
-[esegui azione: crea/aggiorna task con link all’email]
-    ↓ azione eseguita
-90_archive/         ← email spostata qui (stato definitivo)
-incoming_untriaged.md ← voce rimossa
+00_inbox/                 ← email appena scaricate
+    ↓ analyze_email.prompt.md
+01_to-be-defined/
+    ├── [nome].eml        ← email in attesa di conferma
+    ├── [nome].md         ← companion con analisi, log ricerca, proposta
+    └── INDEX.md          ← registro vivo di tutte le email pendenti
+    ↓ proposta ad Attilio (con confidence_routing% / confidence_action%)
+    ↓ conferma o rettifica di Attilio
+    ↓ process_outcome.prompt.md
+90_archive/
+    ├── [nome].eml        ← email archiviata
+    └── [nome].md         ← companion con outcome compilato
+01_to-be-defined/INDEX.md ← voce rimossa
 ```
 
-**Regola fondamentale post-conferma:** una volta che Attilio ha confermato l’azione e l’azione è stata eseguita, l’email:
-1. Viene spostata da `00_inbox/` a `90_archive/`
-2. Viene rimossa da `incoming_untriaged.md`
-3. Nel task creato/aggiornato viene aggiunto un riferimento al file `.eml` archiviato (`90_archive/msgXXX.eml`)
+**Regola fondamentale post-conferma:** una volta che Attilio ha confermato o rettificato:
+1. L'azione viene eseguita (task creato/aggiornato con ref al `.eml` archiviato)
+2. `.eml` e companion `.md` vengono spostati in `90_archive/`
+3. La voce viene rimossa da `01_to-be-defined/INDEX.md`
+4. Se proposta non adeguata: motivazione registrata in `_knowledge/ROUTING_RULES.md`
 
-Non devono mai restare email in `incoming_untriaged.md` con azione già eseguita.
+Non devono mai restare email in `01_to-be-defined/` con azione già eseguita.
 
 ## Regole operative
 - Dopo il download, le mail vanno marcate come **lette**.
@@ -124,7 +163,7 @@ Non devono mai restare email in `incoming_untriaged.md` con azione già eseguita
   - **nuovo scope**
   - **continuazione di task esistente**
   - **inoltro/notifica di attività già presa in carico**
-- In caso di inoltro, cercare sempre il task già censito e proporre **aggiornamento** invece di un nuovo TODO.
+- In caso di inoltro, cercare il task nel layer `_knowledge/` (TODO files reali) — non inferire dalla storia del thread embedded nell'email.
 - Nessuna azione definitiva senza conferma di Attilio.
 - Nei riepiloghi/proposte non serve riportare l’UID: serve invece il **mittente reale dell’ultima mail nel thread**.
 - Se Attilio inoltra una mail, considerare il mittente dell’ultima email inoltrata, non il forwarder, come riferimento principale.
@@ -144,8 +183,18 @@ Non devono mai restare email in `incoming_untriaged.md` con azione già eseguita
 
 ## File di Riferimento
 
-Consultare per maggiori dettagli:
-- `TRIAGE_RULES.md` — regole complete di categorizzazione
-- `INTERLOCUTORS.md` — database mittenti abituali
+**Layer _system/** (algoritmo — modifiche esplicite di Attilio):
+- `_system/FLOW.md` — questo file
+- `_system/analyze_email.prompt.md` — prompt analisi email
+- `_system/process_outcome.prompt.md` — prompt archiviazione e feedback
+- `_system/companion_schema.md` — schema fisso companion .md
+
+**Layer _knowledge/** (conoscenza — auto-aggiornata dal sistema):
+- `_knowledge/TRIAGE_RULES.md` — mapping domini/aree (config esplicita)
+- `_knowledge/ROUTING_RULES.md` — regole apprese dagli errori
+- `_knowledge/INTERLOCUTORS.md` — database mittenti abituali
+- `_knowledge/email_threads.md` — thread noti
+
+**Altro**:
 - `COLZANI/GLOSSARIO.md` — società e brand Gruppo Colzani
 - `templates/telegram_recap.md` — formato messaggi Telegram

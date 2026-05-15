@@ -51,18 +51,35 @@ Regola pratica: se non sai con certezza a quale "mondo" appartiene un task, mett
 
 ## 8) Stati TODO — ogni task deve avere uno stato esplicito
 
-Ogni task nei file TODO deve riportare **sempre** uno stato. Stati ammessi:
+Ogni task nei file TODO deve riportare **sempre** uno stato. Esistono due formati:
 
-| Stato | Markdown | Significato |
-|-------|----------|-------------|
-| Aperto | `[ ]` | Da fare, nessun blocco |
-| Urgente | `[ ]` + tag `[URGENTE]` | Da fare con priorità alta |
-| In corso | `[-]` o tag `[IN_CORSO]` | Avviato, non concluso |
-| In attesa | `[~]` o tag `[ATTESA]` | Bloccato su risposta/evento esterno |
-| Chiuso | `[x]` | Completato — poi spostare in ARCHIVIATI.md |
-| Annullato | `[x]` + tag `[ANNULLATO]` | Non più rilevante |
+**Formato A — compatto** · usato in: `TODO.md`, `TODO_GENERALE.md`, `01_todo_riassuntivo.md`
+→ riga unica: `- [stato] [TAG] Titolo — dettaglio · ref: [[link]]`
 
-Regola pratica: se aggiungi un task senza stato esplicito, il sistema deve richiedere chiarimento o assegnare `[ ]` (aperto) come default.
+**Formato B — card** · usato in: `TEAM/Fabio_TODO.md`, `TEAM/Alessandro_TODO.md`
+→ sezione H2 con campo `- **Stato**: [stato]` e sub-bullet opzionali per log/storia
+
+---
+
+### Stati base (checkbox — validi in entrambi i formati)
+
+| Checkbox | Significato |
+|----------|-------------|
+| `[ ]` | Aperto / da fare |
+| `[-]` | In corso / assegnato / attivo |
+| `[~]` | In attesa (risposta, evento, sblocco esterno) |
+| `[x]` | Chiuso → spostare in ARCHIVIATI.md |
+
+### Tag opzionali aggiuntivi (in coda al checkbox)
+
+| Tag | Significato |
+|-----|-------------|
+| `[URGENTE]` | Priorità alta |
+| `[DELEGATO]` | Assegnato e gestito da altri |
+| `[DA-DISCUTERE]` | Da valutare/approvare prima di procedere |
+| `[ANNULLATO]` | Non più rilevante — usare insieme a `[x]` |
+
+Regola pratica: se aggiungi un task senza stato esplicito, assegna `[ ]` (aperto) come default.
 
 ## 9) Censimento persone e ruoli → GLOSSARIO
 

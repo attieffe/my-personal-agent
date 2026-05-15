@@ -5,10 +5,9 @@
 - **Owner**: Alessandro Franzin
 - **Richiesta (fonte)**: email UID 2 — “I: inpost e numero di telefono”
 - **File email**: `../../../EMAIL/00_inbox/msg_2_20260513_144509.eml`
-
-### Stato
-- **2026-05-13**: task risolto da Alessandro — ora in **testing**
-- Prossimo step: Alessandro segnala a Paolo Meneghelli l’esito del testing
+- **Stato**: [-] in-corso
+  - 2026-05-13: risolto da Alessandro — ora in testing
+  - Prossimo step: Alessandro segnala a Paolo Meneghelli l'esito del testing
 
 ### Cosa fare
 1. Analizzare la configurazione `sportit_shopify` per verificare se il **telefono** venga preso dai *meta* specifici (e non solo dai campi standard).
@@ -25,15 +24,15 @@
 ## Tyre24 — fatture
 
 - **Owner**: Alessandro Franzin
-
-### Stato
-- concluso, in attesa per fatture
+- **Stato**: [~] in-attesa
+  - concluso, in attesa per fatture
 
 ---
 
 ## Fatturazione elettronica Shopify
 
 - **Owner**: Alessandro Franzin
+- **Stato**: [ ] da fare
 
 ### Cosa fare
 1. Inserire progressivo case-insensitive
@@ -45,15 +44,15 @@
 ## CD Korda
 
 - **Owner**: Alessandro Franzin
-
-### Stato
-- assegnato, in attesa whitelist (update 2026-05-13)
+- **Stato**: [~] in-attesa
+  - assegnato, in attesa whitelist (update 2026-05-13)
 
 ---
 
 ## Weroad — template fattura
 
 - **Owner**: Alessandro Franzin
+- **Stato**: [ ] da fare
 - **Note**: spiegato da Fabio
 
 ---
@@ -61,6 +60,7 @@
 ## Stat ordini con grafici raccolti
 
 - **Owner**: Alessandro Franzin
+- **Stato**: [ ] da fare
 
 ### Cosa fare
 1. Dato puntuale aggregato spedizione
@@ -72,9 +72,8 @@
 
 - **Owner**: Alessandro Franzin
 - **Richiesta (fonte)**: vocale Attilio — 2026-05-14 mattina
-
-### Stato
-- **2026-05-14**: da assegnare / iniziare
+- **Stato**: [ ] da fare
+  - 2026-05-14: da assegnare / iniziare
 
 ### Cosa fare
 1. Integrare le **API fatture Amazon** (Amazon invoice API) nel sistema.
@@ -89,9 +88,8 @@
 
 - **Owner**: Alessandro Franzin
 - **Richiesta (fonte)**: vocale Attilio — 2026-05-14 mattina
-
-### Stato
-- **2026-05-14**: task da assegnare / iniziare
+- **Stato**: [ ] da fare
+  - 2026-05-14: da assegnare / iniziare
 
 ### Cosa fare
 1. Inserire/implementare l'**autenticazione** nel dominio `ws.sportit.com`.

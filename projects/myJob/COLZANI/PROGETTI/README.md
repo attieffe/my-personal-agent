@@ -12,6 +12,15 @@ Indice generale dei progetti/filoni di lavoro di COLZANI.
 |---|---|---|
 | KIT SOCIETA' | Ottimizzazioni carichi / WMS / alert | [[kit_societa/README\|README]] · [[kit_societa/TODO\|TODO]] · [[kit_societa/CHANGELOG\|CHANGELOG]] |
 | COLZANI SRL - Dashboard carichi web | Miglioramento automatismo carichi da dashboard web | [[dashboard_carichi_web/README\|README]] · [[dashboard_carichi_web/TODO\|TODO]] · [[dashboard_carichi_web/CHANGELOG\|CHANGELOG]] |
+| DEV4SIDE — Adeguamento Sistemistico Domini Aziendali | Fix AD + DC upgrade WS2012→WS2025 + Entra ID sync — 3gg T&M (IT-D4S/1472) | [[dev4side_adeguamento_sistemistico/README\|README]] · [[dev4side_adeguamento_sistemistico/TODO\|TODO]] |
+
+## Progetti archiviati
+
+> Progetti completati. Cartelle mantenute per storico/documentazione.
+
+| Progetto | Descrizione | Data chiusura |
+|---|---|---|
+| — | — | — |
 
 ## Aree di supporto
 

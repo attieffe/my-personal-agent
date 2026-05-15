@@ -45,8 +45,10 @@ class TodoMatcher:
         if area == "COLZANI":
             # Cerca in COLZANI/TEAM, COLZANI/CONSULENTI, ecc.
             search_paths = [
+                self.colzani_path / "TODO.md",
+                self.colzani_path / "TEAM" / "Fabio_TODO.md",
+                self.colzani_path / "TEAM" / "Alessandro_TODO.md",
                 self.colzani_path / "TEAM" / "README.md",
-                self.colzani_path / "TEAM" / "ALessandro_TODO.md",
                 self.colzani_path / "CONSULENTI" / "README.md",
                 self.colzani_path / "README.md",
             ]
@@ -220,6 +222,14 @@ class TodoMatcher:
         
         # Ordina per score decrescente
         matches.sort(key=lambda x: x[1], reverse=True)
+
+        # Cap confidence_action a 0.50 se nessun TODO trovato nei file reali.
+        # La storia del thread embedded nel corpo email NON costituisce prova
+        # di un TODO esistente — solo una corrispondenza fisica nei file vale.
+        if not matches:
+            # Segnala al caller che non è stato trovato nulla: il caller deve
+            # cappare confidence_action a 0.50 indipendentemente da altre fonti.
+            pass  # matches è già vuota — il caller riceve lista vuota = nessun match
         
         return matches
     

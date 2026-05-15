@@ -84,22 +84,64 @@ def extract_preview(msg):
     return preview
 
 
+def load_inbox_config(inbox_dir_root: str, inbox_name: str) -> dict:
+    """
+    Legge inbox.config.md e ritorna un dict con i path operativi per questa inbox.
+    Parsing minimale: estrae i valori dalla sezione 'Credenziali IMAP' e 'Cartelle Operative'.
+    """
+    config_path = os.path.join(inbox_dir_root, 'inboxes', inbox_name, 'inbox.config.md')
+    if not os.path.exists(config_path):
+        raise FileNotFoundError(f"inbox.config.md non trovato: {config_path}")
+
+    cfg = {}
+    with open(config_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            # Parsing righe tipo: `chiave: valore`
+            if ':' in line and not line.startswith('#') and not line.startswith('```'):
+                k, _, v = line.partition(':')
+                cfg[k.strip()] = v.strip()
+
+    base = inbox_dir_root
+    inbox_name_folder = os.path.join(base, 'inboxes', inbox_name)
+
+    return {
+        'credentials_key': cfg.get('credentials_key', 'IMAP_MYJOB'),
+        'inbox_dir':       os.path.join(inbox_name_folder, '00_inbox'),
+        'state_path':      os.path.join(inbox_name_folder, '02_logs', 'imap_state.json'),
+        'untriaged_log':   os.path.join(inbox_name_folder, '02_logs', 'incoming_untriaged.md'),
+        'logs_dir':        os.path.join(inbox_name_folder, '02_logs'),
+    }
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--mode', choices=['preview'], default='preview')
+    ap.add_argument('--inbox', default='myjob',
+                    help='Nome inbox da processare (cartella in inboxes/)')
     args = ap.parse_args()
 
-    base = os.path.dirname(__file__)
+    base = os.path.dirname(os.path.abspath(__file__))
     cred_path = os.path.join(base, '.imap_credentials.env')
-    state_path = os.path.join(base, '02_logs', 'imap_state.json')
-    inbox_dir = os.path.join(base, '00_inbox')
-    untriaged_log = os.path.join(base, '02_logs', 'incoming_untriaged.md')
+
+    # Carica config inbox
+    inbox_cfg = load_inbox_config(base, args.inbox)
+    cred_key   = inbox_cfg['credentials_key']
+    state_path = inbox_cfg['state_path']
+    inbox_dir  = inbox_cfg['inbox_dir']
+    untriaged_log = inbox_cfg['untriaged_log']
+
+    # Assicura che le cartelle esistano
+    os.makedirs(inbox_dir, exist_ok=True)
+    os.makedirs(os.path.dirname(state_path), exist_ok=True)
 
     env = load_env(cred_path)
-    host = env['IMAP_HOST']
-    port = int(env['IMAP_PORT'])
-    user = env['IMAP_USER']
-    password = env['IMAP_PASS']
+    # Supporta sia chiavi specifiche per inbox (IMAP_MYJOB_HOST) sia chiave generica (IMAP_HOST)
+    prefix = cred_key + '_'
+    host     = env.get(prefix + 'HOST')     or env.get('IMAP_HOST')
+    port     = int(env.get(prefix + 'PORT') or env.get('IMAP_PORT', 993))
+    user     = env.get(prefix + 'USER')     or env.get('IMAP_USER')
+    password = env.get(prefix + 'PASS')     or env.get('IMAP_PASS')
 
     state = load_state(state_path)
     processed = set(str(x) for x in state.get('processed_uids', []))
@@ -188,6 +230,7 @@ def main():
 
     # Print a short summary to stdout for cron logs
     print(json.dumps({
+        'inbox': args.inbox,
         'new_unseen_found': len(uids),
         'new_processed': len(processed_now),
         'processed_uids': processed_now,
