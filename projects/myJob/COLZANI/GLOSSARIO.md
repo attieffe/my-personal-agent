@@ -34,14 +34,15 @@ Questo documento cataloga le diverse società e brand del Gruppo Colzani per fac
 - **Progetti/Sistemi**: 
   - Integrazione GCAT Ecommerce
   - Progetto miglioramento/automatismo carichi da dashboard web (con Marco Colzani)
-- **Note**: Vedi TODO in `PERSONALI/README.md` — Mia todolist (Atti / Attilio)
+- **Note**: Vedi TODO in `PERSONALI/README.md` — Mia todolist (Attilio)
 
 ### SPORTIT SRL
 - **Tipologia**: E-commerce
 - **Ambito**: Sport, retail online
 - **Referenti**: 
-  - Alessandro (sviluppatore team interno)
+  - Alessandro Franzin (sviluppatore team interno)
   - Fabio (sistemista)
+  - **Neda Bazzana** (contabilità — condivisa con GET ME DIGITAL e BRICOSPORT SRL)
 - **Progetti/Sistemi**: 
   - Shopify
   - Feed Lotrek
@@ -54,10 +55,11 @@ Questo documento cataloga le diverse società e brand del Gruppo Colzani per fac
   - Amazon invoice API
 - **Note**: Molti task assegnati ad Alessandro
 
-### BRICOSPORT
-- **Tipologia**: 
-- **Ambito**: 
+### BRICOSPORT SRL
+- **Tipologia**: E-commerce / retail
+- **Ambito**: Sport/outdoor (brand correlato a SPORTIT)
 - **Referenti**: 
+  - **Neda Bazzana** (contabilità — condivisa con GET ME DIGITAL e SPORTIT SRL)
 - **Progetti/Sistemi**: 
 - **Note**: 
 
@@ -110,6 +112,7 @@ Quando un'email menziona:
 - **"NAV-Ls"**, **"Capgemini"** → canoni/licensing software gestionale
 - **"Global Trading"**, **"E-Commerce Zone"**, **"ecommercezone"** → entità Global Trading; referenti Giordano Vignati (commerciale) / Mattia Ballabio (operativo)
 - **"Apes Lab"** → sistema/integrazione marketplace in capo a Global Trading
+- **"Neda"** o **"Neda Bazzana"** → contabilità GET ME DIGITAL / SPORTIT SRL / BRICOSPORT SRL
 
 ---
 
@@ -120,4 +123,4 @@ Questo file viene aggiornato quando:
 - Si identificano nuovi referenti o progetti associati
 - Si scoprono pattern di riconoscimento utili per il triage
 
-**Ultima modifica**: 2026-05-14 — aggiunti Giordano Vignati e Mattia Ballabio (Global Trading / E-Commerce Zone)
+**Ultima modifica**: 2026-05-15 — aggiunta Neda Bazzana (contabilità GET ME DIGITAL / SPORTIT SRL / BRICOSPORT SRL); integrati Alessandro Franzin e Fabio in SPORTIT SRL

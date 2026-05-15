@@ -4,7 +4,7 @@
 Gestire gli sviluppi digitali per il Gruppo Colzani, coordinando team interno e consulenti.
 
 ## Referenti (da tenere sempre aggiornati)
-- **Owner**: AttiEffe
+- **Owner**: Attilio
 - **Fabio** (sistemista)
 - **Alessandro** (sviluppatore)
 - **Marco Di Stefano** (AS400)

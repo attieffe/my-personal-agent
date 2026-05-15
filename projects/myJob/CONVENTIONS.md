@@ -48,3 +48,35 @@ Regola pratica: se non sai con certezza a quale "mondo" appartiene un task, mett
   - stato finale (`chiuso`, `risolto`, `annullato`, ecc.)
   - note/contesto utile
 - I file backlog devono contenere solo task ancora aperti.
+
+## 8) Stati TODO — ogni task deve avere uno stato esplicito
+
+Ogni task nei file TODO deve riportare **sempre** uno stato. Stati ammessi:
+
+| Stato | Markdown | Significato |
+|-------|----------|-------------|
+| Aperto | `[ ]` | Da fare, nessun blocco |
+| Urgente | `[ ]` + tag `[URGENTE]` | Da fare con priorità alta |
+| In corso | `[-]` o tag `[IN_CORSO]` | Avviato, non concluso |
+| In attesa | `[~]` o tag `[ATTESA]` | Bloccato su risposta/evento esterno |
+| Chiuso | `[x]` | Completato — poi spostare in ARCHIVIATI.md |
+| Annullato | `[x]` + tag `[ANNULLATO]` | Non più rilevante |
+
+Regola pratica: se aggiungi un task senza stato esplicito, il sistema deve richiedere chiarimento o assegnare `[ ]` (aperto) come default.
+
+## 9) Censimento persone e ruoli → GLOSSARIO
+
+Ogni volta che emerge una persona con ruolo, titolo o afferenza a un'entità:
+- Va censita nel file glossario/referenti del contesto corretto (vedi tabella sotto)
+- Includere sempre: nome completo, ruolo, entità di afferenza, eventuali cross-link ad altri contesti
+
+| Contesto persona | File di censimento |
+|------------------|-------------------|
+| Gruppo Colzani (SPORTIT, BRICOSPORT, COLZANI SRL, ecc.) | `COLZANI/GLOSSARIO.md` |
+| GET ME DIGITAL | `FREELANCE/GET_ME_DIGITAL/README.md` (sezione Referenti) |
+| SINAPPS | `FREELANCE/SINAPPS/README.md` (sezione Referenti) |
+| Clienti diretti | `FREELANCE/DIRETTI/<cliente>/README.md` |
+| Personale / famiglia | `PERSONALE/README.md` |
+| Trasversale a più contesti | Censire in **tutti** i contesti coinvolti con cross-link |
+
+Regola pratica: "Neda Bazzana lavora per GMD + SPORTIT + BRICOSPORT" → la aggiungo in GLOSSARIO.md (sezioni SPORTIT + BRICOSPORT) **e** in GET_ME_DIGITAL/README.md.

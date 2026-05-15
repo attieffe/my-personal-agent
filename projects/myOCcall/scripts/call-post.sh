@@ -117,6 +117,16 @@ text = re.sub(r'^- \*\*Trascrizione:\*\*.*$', '- **Trascrizione:** trascrizione.
 meta.write_text(text)
 PY
 
+# ---- Pulizia audio: cancella MP3 segmenti ora che la trascrizione è ok ----
+AUDIO_DIR="$CALL_DIR/audio/segments"
+if [ -d "$AUDIO_DIR" ]; then
+    MP3_COUNT=$(find "$AUDIO_DIR" -name "*.mp3" | wc -l)
+    if [ "$MP3_COUNT" -gt 0 ]; then
+        find "$AUDIO_DIR" -name "*.mp3" -delete
+        echo "✓ cancellati $MP3_COUNT file MP3 da audio/segments/"
+    fi
+fi
+
 # ---- Speaker attribution overlay ----
 if [ -f "$SCRIPT_DIR/call-speaker-overlay.py" ]; then
     echo "→ Speaker attribution overlay…"

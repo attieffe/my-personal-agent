@@ -71,7 +71,7 @@
 ## AMAZON invoice API
 
 - **Owner**: Alessandro Franzin
-- **Richiesta (fonte)**: vocale Atti — 2026-05-14 mattina
+- **Richiesta (fonte)**: vocale Attilio — 2026-05-14 mattina
 
 ### Stato
 - **2026-05-14**: da assegnare / iniziare
@@ -88,7 +88,7 @@
 ## 2026-05-14 — Autenticazione dominio ws.sportit.com
 
 - **Owner**: Alessandro Franzin
-- **Richiesta (fonte)**: vocale Atti — 2026-05-14 mattina
+- **Richiesta (fonte)**: vocale Attilio — 2026-05-14 mattina
 
 ### Stato
 - **2026-05-14**: task da assegnare / iniziare

@@ -1,5 +1,7 @@
 # Checklist — costi per chiusura anno 2025 (Ingenio Solution)
 
+> 📌 TODO: [[myJob/TODO_GENERALE]] — `[ingenio · amministrazione]`
+
 > Checklist generica, da usare ogni fine anno, ma qui impostata per l’anno **2025**.
 
 ## Sezione 1 — Documenti di costo

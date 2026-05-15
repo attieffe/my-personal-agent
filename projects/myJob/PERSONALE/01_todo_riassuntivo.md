@@ -15,7 +15,12 @@
 - [ ] Sentire mio fratello Eric per rimborso spese detratte — vedi `personale_tempo_libero/12_note_personali.md`
 - [ ] Documenti dichiarazione redditi — vedi `checklist_dichiarazione_redditi_famiglia.md`
 
+## 3) Automobili
+- [ ] Organizzarsi per fare la **revisione auto** — vedi `automobili/`
+- [ ] **Verificare gonfiaggio gomme** — da fare la prima volta che vado a Paderno a giocare e ho tempo
+
 ## 2) Lavori “a casa” (extra Colzani + clienti diretti)
 - [ ] Casa / infrastruttura personale (NAS + Synology Foto) — vedi `lavori_a_casa/40_infrastruttura_personale.md`
 - [ ] Extra Colzani — vedi `lavori_a_casa/41_extra_colzani.md`
+- [ ] KIT SOCIETA' — inserire giacenza WMS + link in file Excel → vedi anche [[../COLZANI/PROGETTI/kit_societa/README|progetto KIT SOCIETA']] · [[../COLZANI/TODO|TODO Attilio]]
 - [ ] Clienti diretti — vedi `lavori_a_casa/42_clienti_diretti.md`

@@ -1,2 +1,10 @@
 # incoming_untriaged — email in attesa di censimento/azione
 # (al momento: nessuna in sospeso)
+
+---
+UID: 9
+Date: Fri, 15 May 2026 07:32:24 +0000
+From: Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>
+Subject: GESTIONE RESA BANCALI - GLS ITALIA - ORIDNARE TESTINA STAMPA
+EML: 00_inbox/msg_9_20260515_073446.eml
+Preview: Da mettere task assegnato a fabio [grafico-gruppo] Ing. Attilio Fiumanò IT Manager Gruppo Colzani S.r.l. Via Pacini, 24 - 20831 Seregno (MB) - ITALY Tel. +39 0362 26571 E-mail. attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it> Le informazioni contenute in questo messaggio sono da considerarsi strettamente riservate e confidenziali, dirette esclusivamente al destinatario indicato, unico soggetto autorizzato alla lettura, alla copiatura e, sotto la propria responsabilità, alla diffusione. Qualora non foste i destinatari, Vi informiamo che è assolutamente vietata qualsiasi forma di riproduzione o diffusione; siete pregati di eliminare il messaggio, inviando gentilmente comunicazione al seguente indirizzo: info@gruppocolzani.it<mailto:info@gruppocolzani.it>. The inf…

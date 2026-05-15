@@ -7,7 +7,7 @@ Area per l’agenzia **Get Me Digital** (progetti e sviluppo WordPress).
 - **Mario** (grafica/design)
 - **Paolo** (ADV Specialist, anche socio)
 - **Stefano** e **Andrea** (altri soci)
-- **Neda** (contabile, governance amministrativa)
+- **Neda Bazzana** (contabilità — GET ME DIGITAL, SPORTIT SRL, BRICOSPORT SRL)
 - **Cristina** (responsabile amministrativa, governata da Andrea)
 
 ## Struttura

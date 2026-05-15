@@ -24,3 +24,13 @@
 
 ### Stato
 - da fare
+
+---
+
+## Installare sistema casse Shopify
+
+- **Owner**: Fabio (sistemista)
+
+### Stato
+- assegnato
+- **Scadenza**: 20/05
