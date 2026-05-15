@@ -5,12 +5,12 @@
     "eml": "projects/myJob/EMAIL/01_to-be-defined/msg_9_20260515_073446.eml",
     "from_real": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it> (inoltra richiesta originale di Carlo Casella)",
     "subject": "GESTIONE RESA BANCALI - GLS ITALIA - ORIDNARE TESTINA STAMPA",
-    "type": "nuovo scope / task assegnato",
-    "analysis": "Non è una semplice nota: Attilio scrive “Da mettere task assegnato a fabio”. Il thread inoltrato contiene richiesta di Carlo Casella: problemi con testine stampante termica postazioni manuali, ordinare una o due testine di ricambio. Ho cercato nei task myJob/COLZANI e non ho trovato task esistente su GLS/testine/bancali/Fabio.",
+    "type": "continuazione / inoltro",
+    "analysis": "Non è un nuovo scope: il messaggio di Attilio inoltra il thread già noto ‘GESTIONE RESA BANCALI - GLS ITALIA’. La parte operativa nuova è la richiesta di Carlo Casella sulle testine della stampante termica; la frase ‘Da mettere task assegnato a fabio’ indica che va aggiornato il task già censito, non duplicato.",
     "proposed_target_file": "projects/myJob/COLZANI/TEAM/README.md",
-    "proposed_action": "Aggiungere un task assegnato a Fabio: “Ordinare 1–2 testine di ricambio per stampante termica postazioni manuali; problema etichette poco leggibili segnalato da GLS/Carlo Casella nel thread GESTIONE RESA BANCALI - GLS ITALIA”.",
+    "proposed_action": "Aggiornare il task esistente del thread GLS con una sotto-attività assegnata a Fabio: verificare e ordinare 1–2 testine di ricambio per la stampante termica delle postazioni manuali, perché le etichette risultano poco leggibili.",
     "requires_confirmation": true,
-    "confidence": 0.86,
+    "confidence": 0.93,
     "status": "pending_confirmation"
   }
 ]

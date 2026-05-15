@@ -5,6 +5,7 @@ Questa cartella raccoglie lavoro e documentazione in modo coerente (niente file 
 ## Struttura generale
 - `COLZANI/*` → contenuti interni/tecnici per area
 - `ATTILIO_A_CASA/*` → todolist personale “Attilio” da fare a casa (extra Colzani + personale)
+- `FREELANCE/*` → hub lavori freelance, prospect e sviluppo business
 - `DIRETTI/*` → clienti diretti
 - `GET_ME_DIGITAL/PROGETTI/*` → progetti
 - `SINAPPS/PROGETTI/*` → progetti
@@ -13,6 +14,7 @@ Questa cartella raccoglie lavoro e documentazione in modo coerente (niente file 
 ## Aree di lavoro
 
 - **[[ATTILIO_A_CASA/00_index|Todolist personale "a casa"]]** — task extra Colzani + personali
+- **[[FREELANCE/README|Freelance]]** — hub lavori freelance e sviluppo business
 - **[[COLZANI/README|Colzani]]** — IT Manager e coordinamento
 - **[[DIRETTI/README|Clienti diretti]]** — sviluppo web, consulenza, gestionali
 - **[[EMAIL/README|Email]]** — gestione inbox myjob@ingeniosolution.it

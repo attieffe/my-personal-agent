@@ -5,7 +5,11 @@ Trasformare le email in azioni operative tracciate nei file del progetto, con an
 
 ## Analisi Multi-Livello
 
+
 Ogni email viene analizzata seguendo questa priorità:
+
+Attività preliminare con modello IA:
+pulire l'email da FIRME eventuali.
 
 1. **Istruzioni di Attilio** (se l'email viene da lui)
    - Cerco istruzioni esplicite: "Segna nella mia TODO", "Mia todolist", "da discutere con [NOME]"
@@ -24,12 +28,13 @@ Ogni email viene analizzata seguendo questa priorità:
    - Cerco in `email_threads.md` se è continuazione di thread esistente
    - Pattern ticket: "OP#" + numero (Capgemini)
    - Keyword progetti: "GCAT", "InPost", "Shopify", "AS400", ecc.
-
 5. **Contenuto** (corpo email)
    - Keyword tecniche e progetti
    - Nomi persone del team
    - Reference a task esistenti
 
+6. **Destinatari** (indirizzi in "A" - "CC")
+   - Se Attilio inoltra, identifico i destinatari e copia conoscenza della email originale
 ## Categorizzazione Aree
 
 - **COLZANI**: Gruppo Colzani e società correlate (SPORTIT SRL, COLZANI SRL, BRICOSPORT, ecc.)

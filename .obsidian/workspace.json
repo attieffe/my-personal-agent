@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/COLZANI/TACCUINI/Andrea_Colzani.md",
+                "file": "projects/myJob/COLZANI/TODO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Andrea_Colzani"
+              "title": "TODO"
+            }
+          },
+          {
+            "id": "52f7ee6f9e23b305",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/email-injection/INBOX_WORKFLOW.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INBOX_WORKFLOW"
+            }
+          },
+          {
+            "id": "9cf29070ad8aa3e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/myJob/COLZANI/GLOSSARIO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GLOSSARIO"
+            }
+          },
+          {
+            "id": "ce5bfb08614ba0fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/myJob/COLZANI/PROGETTI/kit_societa/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,43 +226,43 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "047bd5dc5eabf905",
+  "active": "52f7ee6f9e23b305",
   "lastOpenFiles": [
+    "projects/myJob/EMAIL/02_logs/~syncthing~pending_actions.json.tmp",
+    "projects/myJob/COLZANI/GLOSSARIO.md",
+    "projects/email-injection/INBOX_WORKFLOW.md",
+    "projects/email-injection/IMAP_TEMPLATE.md",
+    "projects/email-injection/02_logs/incoming_untriaged.md",
+    "projects/myJob/FREELANCE/SVILUPPI_BUSINESS.md",
+    "projects/myJob/COLZANI/TEAM/Alessandro_TODO.md",
+    "projects/myJob/~syncthing~README.md.tmp",
+    "projects/myJob/FREELANCE/README.md",
+    "projects/myJob/FREELANCE/CHANGELOG.md",
+    "projects/myJob/FREELANCE/~syncthing~SVILUPPI_BUSINESS.md.tmp",
+    "projects/myJob/~syncthing~CHANGELOG.md.tmp",
+    "projects/myJob/FREELANCE/~syncthing~README.md.tmp",
+    "projects/myJob/FREELANCE/~syncthing~CHANGELOG.md.tmp",
+    "memory/2026-05-15-0834.md",
+    "projects/email-injection/02_logs/~syncthing~imap_state.json.tmp",
+    "memory/~syncthing~2026-05-15-0834.md.tmp",
+    "projects/myJob/COLZANI/TODO.md",
+    "projects/myJob/COLZANI/PROGETTI/kit_societa/README.md",
+    "projects/myJob/PERSONALE/~syncthing~01_todo_riassuntivo.md.tmp",
+    "projects/myJob/FREELANCE/SINAPPS/~syncthing~README.md.tmp",
+    "projects/myJob/COLZANI/TACCUINI/Andrea_Colzani.md",
+    "memory/2026-05-15-0823.md",
+    "memory/~syncthing~2026-05-15-0823.md.tmp",
     "projects/myJob/COLZANI/PROGETTI/dashboard_carichi_web/TODO.md",
     "projects/myJob/COLZANI/PROGETTI/dashboard_carichi_web/README.md",
     "projects/myJob/COLZANI/PROGETTI/dashboard_carichi_web/CHANGELOG.md",
-    "projects/myJob/COLZANI/PROGETTI/dashboard_carichi_web",
     "projects/myJob/COLZANI/PROGETTI/carichi_dashboard/CHANGELOG.md",
     "projects/myJob/COLZANI/PROGETTI/carichi_dashboard/TODO.md",
     "projects/myJob/COLZANI/PROGETTI/carichi_dashboard/README.md",
-    "projects/myJob/COLZANI/PROGETTI/carichi_dashboard",
-    "projects/myJob/COLZANI/TEAM/~syncthing~Fabio_TODO.md.tmp",
-    "projects/myJob/COLZANI/TACCUINI/~syncthing~Andrea_Colzani.md.tmp",
     "projects/myOCcall/data/20260514 1604 teams - carichi società/SINTESI.md",
-    "projects/myJob/COLZANI/PROGETTI/kit_societa/README.md",
     "projects/myJob/COLZANI/PROGETTI/kit_societa/TODO.md",
     "projects/myJob/COLZANI/PROGETTI/kit_societa/CHANGELOG.md",
-    "projects/myJob/COLZANI/~syncthing~TODO.md.tmp",
-    "projects/myJob/PERSONALE/~syncthing~01_todo_riassuntivo.md.tmp",
-    "projects/myJob/COLZANI/PROGETTI/kit_societa/~syncthing~README.md.tmp",
     "projects/myJob/COLZANI/PROGETTI/kit_societa/00_index.md",
-    "projects/myJob/COLZANI/PROGETTI/kit_societa/~syncthing~CHANGELOG.md.tmp",
-    "projects/myJob/COLZANI/PROGETTI/kit_societa/~syncthing~TODO.md.tmp",
-    "projects/myJob/COLZANI/PROGETTI/kit_societa/~syncthing~00_index.md.tmp",
     "memory/2026-05-15-0743.md",
-    "projects/myJob/COLZANI/TODO.md",
-    "projects/myJob/COLZANI/PROGETTI/README.md",
-    "projects/myJob/COLZANI/TACCUINI/Marco_Colzani.md",
-    "memory/2026-05-15-0736.md",
-    "projects/myJob/COLZANI/README.md",
-    "memory/2026-05-15-0733.md",
-    "projects/myJob/COLZANI/GLOSSARIO.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/41_extra_colzani.md",
-    "projects/myJob/COLZANI/TODO_COLZANI.md",
-    "projects/myJob/COLZANI/IT_MANAGER.md",
-    "memory/2026-05-15-0722.md",
-    "memory/2026-05-15-0719.md",
-    "projects/myJob/COLZANI/TEAM/README.md",
-    "projects/myJob/COLZANI/PERSONALI/README.md"
+    "projects/myJob/COLZANI/PROGETTI/README.md"
   ]
 }

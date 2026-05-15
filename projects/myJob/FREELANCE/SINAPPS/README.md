@@ -9,6 +9,7 @@ Area per l’agenzia **Sinapps** (progetti e sviluppo WordPress).
 - **Luca Proserpio** (fa sviluppo su progetti diversi)
 
 ## TODO / Backlog
+- [ ] Sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedere anche `PROGETTI/README.md`
 
 ## ARCHIVIATI
 
