@@ -117,6 +117,9 @@ Questionario da somministrare a un campione di amici/conoscenti per validare int
 - [ ] **📄 Gestione totale su Google Sheet**
   `mio-tesoro-sheet` — tutto su Google Sheet, senza webapp HTML. Soluzione semplice, molto concreta, ma con UX e automazioni più limitate.
 
+- [ ] **🗄 Il mio database, sul mio account**
+  `mio-tesoro-mydata` — crei un account gratuito su un servizio DB (es. Turso, Supabase) e lo colleghi all'app. I dati restano nel tuo account, non sul server del prodotto. Multi-dispositivo e query veloci, con un minimo di setup tecnico iniziale.
+
 **14.** Prenderesti di buon grado l'opportunità di integrare l'intelligenza artificiale per velocizzare le operazioni quotidiane?
 - [ ] Sì, assolutamente — mi piacerebbe che l'AI proponesse in automatico le categorie di spesa, imparando dalle mie regole e dai miei comportamenti passati
 - [ ] In parte — la userei per importare automaticamente gli estratti conto dalla mia banca, ma non le darei accesso ai miei comportamenti di acquisto
@@ -144,9 +147,10 @@ Questionario da somministrare a un campione di amici/conoscenti per validare int
 - Il questionario è stato pensato per restare sotto i 5 minuti e usare un tono neutro.
 - Struttura a 5 sezioni: profilo, bisogno percepito, disciplina, privacy/tecnologia, domanda libera.
 - Le domande con ⭐ sono quelle più utili per segmentare interesse reale e compatibilità con il prodotto.
-- La domanda 13 serve a mappare le quattro direzioni canoniche del progetto:
+- La domanda 13 serve a mappare le cinque direzioni canoniche del progetto:
   - `mio-tesoro-file`
   - `mio-tesoro-paas`
   - `mio-tesoro-cloud`
   - `mio-tesoro-sheet`
+  - `mio-tesoro-mydata` *(aggiunto 2026-05-15)*
 - Il preview HTML è solo una resa visiva del questionario, non la fonte canonica delle domande.

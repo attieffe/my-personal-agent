@@ -42,9 +42,10 @@ La **componente previsionale** è il vero vantaggio competitivo rispetto alle ap
 
 ---
 
-## Le tre opzioni di distribuzione
+## Le opzioni di distribuzione
 
 ### Opzione A: Web App completa (massimi servizi)
+→ variante canonica: `mio-tesoro-paas`
 
 App web con tutte le funzionalità. Dato su database esterno (server del prodotto).
 
@@ -55,22 +56,90 @@ App web con tutte le funzionalità. Dato su database esterno (server del prodott
 ---
 
 ### Opzione B: Massima privacy (dato solo dell'utente)
+→ variante canonica: `mio-tesoro-file`
 
-Nessun server esterno. Dato in mano all'utente tramite storage personale (Dropbox, Google Drive, iCloud).
+Nessun server esterno. Dato in mano all'utente tramite storage personale (Dropbox, Google Drive, iCloud). Il file (JSON/CSV/SQLite) viene caricato intero nella webapp a runtime, tutto gira in memoria sul browser.
 
-**Pro:** privacy totale, nessun dato terzi.
+**Pro:** privacy totale, nessun dato terzi, il file è apribile/modificabile fuori dalla app (Excel, Numbers, qualsiasi editor).
 
-**Contro:** multi-device complicato, condivisione familiare complicata, setup tecnico elevato.
+**Contro:** multi-device complicato, condivisione familiare complicata, nessuna query server-side (filtri/aggregazioni fatti in JS).
 
 ---
 
 ### Opzione C: Via di mezzo (web app su Google Sheets dell'utente)
+→ variante canonica: `mio-tesoro-sheet`
 
 Web app che si collega al Google Sheet dell'utente tramite API. Il dato resta nel Google dell'utente, ma l'interfaccia è una vera app.
 
 **Pro:** privacy accettabile (dato su Google dell'utente, già fidato), multi-device e condivisione familiare già risolti da Google.
 
 **Contro:** performance limitate, vincoli tecnologici di Google Sheets come backend, evolvibilità ridotta nel tempo.
+
+---
+
+### Opzione D: DB in proprietà del cliente (ibrida avanzata)
+→ variante canonica: `mio-tesoro-mydata`
+
+**Idea emersa il 2026-05-15.**
+
+L'utente porta il proprio DB — o ne crea uno gratuito a suo nome — e lo collega alla webapp. Il dato resta nell'account del cliente, non sul server del prodotto. La webapp usa SQL vero: query filtrate, indici, aggregazioni lato server.
+
+È la via di mezzo tra `mio-tesoro-paas` (tutto nostro) e `mio-tesoro-file` (tutto suo, ma solo file): qui il cliente ha un vero database, con query efficienti, ma ne è il proprietario/amministratore.
+
+#### Opzioni DB praticabili
+
+**Turso** (SQLite edge)
+- DB SQLite distribuito su edge, gratuito fino a ~500 MB e limiti generosi
+- Il cliente crea il proprio account Turso, fornisce URL + token
+- Query SQL complete, indici, JOIN
+- Latenza bassa ovunque (CDN globale)
+- Non modificabile "a mano" senza client dedicato
+- Ideale se si vuole SQLite senza gestire infrastruttura
+
+**Supabase** (PostgreSQL managed)
+- PostgreSQL completo, account gratuito per progetti personali
+- Il cliente crea il proprio progetto Supabase, fornisce URL + API key
+- Tutto il potere di Postgres: query avanzate, indici, funzioni, RLS (row level security)
+- Dashboard web per vedere/modificare i dati direttamente
+- Ottimo se si prevede crescita o complessità (es. multi-utente familiare con permessi)
+- Più "pesante" da configurare rispetto a Turso
+
+**PocketBase** (self-hosted)
+- Un singolo binario Go che gira su un server/VPS del cliente
+- Database SQLite embedded, admin UI inclusa
+- Il cliente deve avere un server (anche un Raspberry Pi, un VPS a 5€/mese)
+- Massima autonomia, zero costi ricorrenti se ha già il server
+- Setup più tecnico, non adatto a utenti non smanettoni
+
+**SQLite come file su cloud** (ibrido Opzione B/D)
+- File `.db` SQLite salvato su Google Drive / Dropbox / iCloud
+- La webapp lo scarica, lo apre con `sql.js` (SQLite in WebAssembly), esegue query in locale
+- Ha SQL vero ma tutto gira nel browser — nessun server
+- Rischio concorrenza (due tab aperte = conflitti), ma per uso personale va benissimo
+- Nessun account extra da creare, usa storage già in uso dall'utente
+
+#### Confronto rapido
+
+| Soluzione | Query SQL | Multi-device | Setup | Costo cliente | Dato dove |
+|---|---|---|---|---|---|
+| Turso | ✅ server-side | ✅ | Basso | Gratis (entro limiti) | Cloud Turso (account suo) |
+| Supabase | ✅ server-side | ✅ | Medio | Gratis (entro limiti) | Cloud Supabase (account suo) |
+| PocketBase | ✅ server-side | ✅ | Alto | VPS ~5€/mese | Server suo |
+| SQLite su cloud | ✅ in-browser | ✅ con sync file | Basso | Gratis | Drive/Dropbox/iCloud |
+
+#### Pro e contro della variante
+
+**Pro:**
+- Il dato è nell'account del cliente, non nostro — privacy forte come `mio-tesoro-file`
+- Query SQL vere, efficienti anche con anni di storico
+- Multi-device e condivisione familiare possibili
+- Gratis o quasi per l'utente finale
+
+**Contro:**
+- Onboarding più tecnico: il cliente deve creare un account DB e incollare credenziali
+- Dipendenza da un servizio terzo (Turso/Supabase) anche se "intestato" al cliente
+- Aggiornamenti schema (migrazioni) più complessi da gestire
+- Se l'utente perde le credenziali, rischia di perdere i dati
 
 ---
 

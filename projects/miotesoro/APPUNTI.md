@@ -28,9 +28,12 @@ L'agente revisore in `agents/revisore-registrazioni.agent.md` va sempre coinvolt
 
 Decisione attuale sulle idee/proposte:
 
-- `mio-tesoro-file` = full privacy
-- `mio-tesoro-paas` = full service
+- `mio-tesoro-file` = full privacy — file (JSON/CSV/SQLite) su storage personale, tutto in-browser
+- `mio-tesoro-paas` = full service — DB sul server del prodotto, UX completa
 - `mio-tesoro-cloud` = ibrida sul cloud personale (base dati da definire)
 - `mio-tesoro-sheet` = gestione totale su Google Sheet, senza webapp HTML
+- `mio-tesoro-mydata` = DB in proprietà del cliente (Turso, Supabase, PocketBase, SQLite su Drive) — SQL vero, multi-device, dato nell'account del cliente non nostro
 
 Da qui in poi usare solo questi nomi nei riferimenti interni.
+
+Per dettagli su `mio-tesoro-mydata` e confronto tra DB → [[idee_progetti/miotesoro_futuro/README]]

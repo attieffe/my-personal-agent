@@ -9,6 +9,7 @@
 - [ ] Regali per i bambini (Alessandro e Alice) — vedi `regali/21_regali_bambini.md`
 - [ ] Hobby: tenere aggiornati i file per computer/chitarra/paddle — vedi [[hobby/32_paddle|paddle]]
 - [ ] Chiedere a Mariano Sporzarena se posso farmi fare fattura per allenamenti/attività di paddle (es. Serie D; capire se si può passare come ristorante) — vedi [[hobby/32_paddle|paddle]]
+- [ ] Chiedere a **Luca Benzoni** (Mariano Sports Arena) se c'è un link al campionato — vuole già esserci iscritto/partecipare (2026-05-15)
 - [ ] Chiedere al tennis di spostare la lezione del 29/5/26 — vedi `personale_tempo_libero/12_note_personali.md`
 - [ ] Registrare costi **Ingenio Solution** per **chiusura anno 2025** — vedi `personale_tempo_libero/12_note_personali.md`
 - [ ] Sentire mio fratello Eric per rimborso spese detratte — vedi `personale_tempo_libero/12_note_personali.md`
