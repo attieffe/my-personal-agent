@@ -27,7 +27,7 @@
             }
           },
           {
-            "id": "58b37ddc91301a87",
+            "id": "714f4f324ace160a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "capcut",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
               "title": "Segnalibri"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,8 +204,19 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "58b37ddc91301a87",
+  "active": "714f4f324ace160a",
   "lastOpenFiles": [
+    "memory/2026-05-15-1900.md",
+    "memory/~syncthing~2026-05-15-1900.md.tmp",
+    "projects/condominio/trascrizione_riunione_raw.txt",
+    "projects/condominio/~syncthing~trascrizione_riunione_raw.txt.tmp",
+    "projects/condominio",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "neotvhd.co.uk.md",
+    "projects/myJob/PERSONALE/hobby/33_videoediting.md",
+    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/README.md",
+    "progetti.md",
+    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/~syncthing~README.md.tmp",
     "memory/2026-05-15-1646.md",
     "memory/~syncthing~2026-05-15-1646.md.tmp",
     "memory/2026-05-15-1637.md",
@@ -215,12 +227,6 @@
     "projects/myJob/PERSONALE/istruzione/scuole/sant_ambrogio.md",
     "projects/myJob/PERSONALE/istruzione/scuole/00_index.md",
     "projects/myJob/PERSONALE/istruzione/scuole/~syncthing~sant_ambrogio.md.tmp",
-    "projects/myJob/PERSONALE/istruzione/~syncthing~00_index.md.tmp",
-    "projects/myJob/PERSONALE/istruzione/scuole/~syncthing~00_index.md.tmp",
-    "projects/myJob/PERSONALE/istruzione/scuole",
-    "projects/myJob/PERSONALE/istruzione",
-    "projects/myJob/PERSONALE/~syncthing~00_index.md.tmp",
-    "projects/myJob/PERSONALE/~syncthing~README.md.tmp",
     "memory/2026-05-15-1624.md",
     "memory/2026-05-15-1620.md",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/ANALISI-CLOUD.md",
@@ -235,11 +241,6 @@
     "projects/miotesoro-sheet-agent/APPUNTI.md",
     "projects/miotesoro-sheet-agent/agents/distributore-utenti.agent.md",
     "projects/miotesoro-sheet-agent/prompts/revisione-governance-periodica.prompt.md",
-    "projects/miotesoro-sheet-agent/memory/repo/vendor-mapping.md",
-    "projects/miotesoro-sheet-agent/TODO.md",
-    "projects/miotesoro-sheet-agent/miotesoro-sheet-agent.md",
-    "memory/2026-05-15-1515.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/DECISIONS.md",
-    "projects/miotesoro/docs/DECISIONS.md"
+    "projects/miotesoro-sheet-agent/memory/repo/vendor-mapping.md"
   ]
 }
