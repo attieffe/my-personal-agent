@@ -19,7 +19,7 @@
 - [ ] Organizzarsi per fare la **revisione auto** — vedi `automobili/`
 - [ ] **Verificare gonfiaggio gomme** — da fare la prima volta che vado a Paderno a giocare e ho tempo
 
-## 2) Lavori “a casa” (extra Colzani + clienti diretti)
+## 2) Lavori “a casa” (no Colzani + clienti diretti)
 - [ ] Casa / infrastruttura personale (NAS + Synology Foto) — vedi `lavori_a_casa/40_infrastruttura_personale.md`
 - [ ] Extra Colzani — vedi `lavori_a_casa/41_extra_colzani.md`
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi `../FREELANCE/SINAPPS/README.md`

@@ -19,6 +19,15 @@
 ### [personale · sport · tennis]
 - [ ] Spostare lezione del 29/5/26
 
+### [personale · infrastruttura · backup]
+- [ ] Creare taccuini markdown dedicati alla documentazione dei backup:
+  - backup personale (PC, dati personali)
+  - backup NAS
+  - backup clienti
+  - backup OpenClaw
+  - backup ambiente TV
+  → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
+
 ### [personale · famiglia · fiscale]
 - [ ] Sentire fratello Eric → rimborso spese detratte
 - [ ] Raccogliere documenti dichiarazione redditi → [[PERSONALE/checklist_dichiarazione_redditi_famiglia]]

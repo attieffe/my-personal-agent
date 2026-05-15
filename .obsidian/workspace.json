@@ -8,40 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "40b5990df6500164",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "projects/myJob/PERSONALE/hobby/33_videoediting.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Riferimenti a 33_videoediting"
-            }
-          },
-          {
             "id": "714f4f324ace160a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/PERSONALE/hobby/33_videoediting.md",
+                "file": "progetti.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "33_videoediting"
+              "title": "progetti"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "capcut",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +74,7 @@
               "title": "Segnalibri"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,41 +185,41 @@
   },
   "active": "714f4f324ace160a",
   "lastOpenFiles": [
+    "projects/myJob/PERSONALE/lavori_a_casa/40_infrastruttura_personale.md",
+    "projects/myJob/PERSONALE/lavori_a_casa/42_clienti_diretti.md",
+    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md",
+    "projects/myJob/PERSONALE/01_todo_riassuntivo.md",
+    "projects/myJob/PERSONALE/00_index.md",
+    "projects/myJob/PERSONALE/checklist_dichiarazione_redditi_famiglia.md",
+    "projects/myJob/PERSONALE/hobby/33_videoediting.md",
+    "memory/2026-05-15-0957.md",
+    "memory/2026-05-15-0619.md",
+    "MEMORY.md",
+    "K4G.md",
+    "lista_acquisti.mp3",
+    "neotvhd.co.uk.md",
+    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "projects/myJob/PERSONALE/lavori_a_casa/~syncthing~40_infrastruttura_personale.md.tmp",
     "memory/2026-05-15-1946.md",
     "memory/~syncthing~2026-05-15-1946.md.tmp",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "memory/2026-05-15-1900.md",
     "memory/~syncthing~2026-05-15-1900.md.tmp",
     "projects/condominio/trascrizione_riunione_raw.txt",
     "projects/condominio/~syncthing~trascrizione_riunione_raw.txt.tmp",
     "projects/condominio",
-    "neotvhd.co.uk.md",
-    "projects/myJob/PERSONALE/hobby/33_videoediting.md",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/README.md",
     "progetti.md",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/~syncthing~README.md.tmp",
     "memory/2026-05-15-1646.md",
-    "memory/~syncthing~2026-05-15-1646.md.tmp",
     "memory/2026-05-15-1637.md",
-    "memory/~syncthing~2026-05-15-1637.md.tmp",
     "memory/2026-05-15-1626.md",
-    "memory/~syncthing~2026-05-15-1626.md.tmp",
     "projects/myJob/PERSONALE/istruzione/00_index.md",
     "projects/myJob/PERSONALE/istruzione/scuole/sant_ambrogio.md",
     "projects/myJob/PERSONALE/istruzione/scuole/00_index.md",
     "memory/2026-05-15-1624.md",
     "memory/2026-05-15-1620.md",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/ANALISI-CLOUD.md",
-    "projects/miotesoro-sheet-agent/docs/CHANGELOG.md",
-    "projects/miotesoro-sheet-agent/TECNICO.md",
-    "projects/miotesoro-sheet-agent/SINTESI.md",
-    "projects/miotesoro-sheet-agent/docs/REGISTRAZIONE-RUNBOOK.md",
-    "projects/miotesoro-sheet-agent/agents/revisore-registrazioni.agent.md",
-    "projects/miotesoro-sheet-agent/CHANGELOG.md",
-    "projects/miotesoro-sheet-agent/memory/repo/registrazione-regole-critiche.md",
-    "projects/miotesoro-sheet-agent/docs/vendor-mapping.md",
-    "projects/miotesoro-sheet-agent/APPUNTI.md",
-    "projects/miotesoro-sheet-agent/agents/distributore-utenti.agent.md"
+    "projects/miotesoro-sheet-agent/docs/CHANGELOG.md"
   ]
 }
