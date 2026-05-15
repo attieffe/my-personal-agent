@@ -10,7 +10,9 @@ Area per l’agenzia **Sinapps** (progetti e sviluppo WordPress).
 
 ## TODO / Backlog
 
-- [ ] Verificare la segnalazione di **Andrea Migliavacca** sul progetto **BlankOne** (aggiunto 2026-05-14)
+## ARCHIVIATI
+
+- [[ARCHIVIATI|Archivio task chiusi]]
 
 ## Struttura
 - [[PROGETTI/README|PROGETTI]]: sottocartelle per i progetti

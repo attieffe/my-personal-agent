@@ -8,17 +8,7 @@ Area dedicata alle idee su come evolvere OpenClaw (AttiBot) nel tempo.
 
 ## Lista grezza idee
 
-### 1. 📬 Topic Telegram multipli nel gruppo esistente
-
-Creare vari topic Telegram dentro il gruppo già esistente, in modo da avere:
-- Sessioni multiple già separate
-- Contesti predefiniti in partenza (es. un topic per myJob, uno per miotesoro, uno per uso generale, ecc.)
-
-**Vantaggio:** praticità senza dover creare nuovi workspace/agenti.
-
----
-
-### 2. 👩 Workspace per Chiara
+### 1. 👩 Workspace per Chiara
 
 Creare un agente/workspace separato da dare a Chiara (moglie), per farle prendere dimestichezza con OpenClaw.
 
@@ -26,7 +16,7 @@ Creare un agente/workspace separato da dare a Chiara (moglie), per farle prender
 
 ---
 
-### 3. 🧑‍💻 Profilo sviluppatore con integrazione Git
+### 2. 🧑‍💻 Profilo sviluppatore con integrazione Git
 
 Un workspace/agente con profilo da sviluppatore, da collegare alle repository Git esistenti.
 
@@ -39,7 +29,7 @@ Un workspace/agente con profilo da sviluppatore, da collegare alle repository Gi
 
 ---
 
-### 4. 👥 Distribuzione multi-utente
+### 3. 👥 Distribuzione multi-utente
 
 Esplorare la possibilità di dare OpenClaw "in mano" a più persone — utilizzo condiviso o distribuito.
 
@@ -49,7 +39,7 @@ Esplorare la possibilità di dare OpenClaw "in mano" a più persone — utilizzo
 
 ---
 
-### 5. 🔀 Multisessioni Telegram più intelligenti
+### 4. 🔀 Multisessioni Telegram più intelligenti
 
 Capire se su Telegram è possibile gestire le multisessioni in modo più intelligente rispetto all'approccio attuale.
 
@@ -57,13 +47,23 @@ Capire se su Telegram è possibile gestire le multisessioni in modo più intelli
 
 ---
 
-### 6. 🏗️ Projects → Agenti separati
+### 5. 🏗️ Projects → Agenti separati
 
 I progetti attualmente definiti come cartelle in `projects/` dovrebbero evolvere in **agenti separati** (workspace distinti con contesto, identità e permessi propri).
 
 **Motivazione:** ogni progetto (miotesoro, myOCcall, myJob) ha logica, dati e contesto talmente diversi da giustificare un agente dedicato anziché una cartella condivisa.
 
 **Stato:** idea emersa durante brainstorming — da esplorare come OpenClaw supporta workspace multipli.
+
+---
+
+### 6. ⏱️ Auto-inserimento ore lavorate on demand
+
+Creare un flusso che inserisca automaticamente le ore lavorate nei file di consuntivazione, quando richiesto on demand.
+
+**Obiettivo:** ridurre l’attrito nella compilazione delle ore e velocizzare l’aggiornamento dei consuntivi.
+
+**Da definire:** fonte dati, formato file, regole di compilazione e modalità di conferma prima della scrittura.
 
 ---
 

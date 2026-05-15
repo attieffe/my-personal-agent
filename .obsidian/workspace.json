@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/openclaw_ottimizzazioni/README.md",
+                "file": "projects/myJob/ATTILIO_A_CASA/checklist_dichiarazione_redditi_famiglia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "checklist_dichiarazione_redditi_famiglia"
             }
           }
         ]
@@ -185,18 +185,27 @@
   },
   "active": "047bd5dc5eabf905",
   "lastOpenFiles": [
+    "projects/myJob/ATTILIO_A_CASA/01_todo_riassuntivo.md",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/openclaw_ottimizzazioni/~syncthing~README.md.tmp",
+    "projects/myJob/ATTILIO_A_CASA/00_index.md",
+    "projects/myJob/SINAPPS/README.md",
+    "memory/2026-05-14-2343.md",
+    "memory/~syncthing~2026-05-14-2343.md.tmp",
+    "projects/myJob/SINAPPS/~syncthing~README.md.tmp",
+    "projects/myJob/SINAPPS/~syncthing~CHANGELOG.md.tmp",
+    "projects/myJob/SINAPPS/~syncthing~ARCHIVIATI.md.tmp",
+    "projects/myJob/SINAPPS/PROGETTI/README.md",
+    "projects/myJob/CONVENTIONS.md",
+    "projects/myJob/SINAPPS/CHANGELOG.md",
+    "projects/myJob/SINAPPS/ARCHIVIATI.md",
+    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/openclaw_ottimizzazioni/README.md",
+    "projects/myJob/~syncthing~CHANGELOG.md.tmp",
+    "projects/myJob/~syncthing~CONVENTIONS.md.tmp",
+    "projects/myJob/~syncthing~README.md.tmp",
+    "projects/myJob/EMAIL/02_logs/~syncthing~imap_state.json.tmp",
     "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/questionario_validazione.md",
     "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/~syncthing~questionario_validazione.md.tmp",
-    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/~syncthing~README.md.tmp",
-    "memory/~syncthing~2026-05-14.md.tmp",
     "memory/2026-05-14-2311.md",
-    "memory/~syncthing~2026-05-14-2311.md.tmp",
-    "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/~syncthing~questionario_preview.html.tmp",
-    "projects/miotesoro/~syncthing~APPUNTI.md.tmp",
-    "projects/miotesoro/~syncthing~TECNICO.md.tmp",
-    "projects/miotesoro/~syncthing~TODO.md.tmp",
-    "projects/miotesoro/~syncthing~SINTESI.md.tmp",
-    "projects/miotesoro/docs/~syncthing~CHANGELOG.md.tmp",
     "projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/miotesoro_futuro/README.md",
     "projects/myJob/ATTILIO_A_CASA/hobby/30_computer.md",
     "projects/myJob/ATTILIO_A_CASA/personale_tempo_libero/11_luoghi_vacanza.md",
@@ -210,15 +219,6 @@
     "projects/myJob/ATTILIO_A_CASA/regali/20_regali_chiara.md",
     "projects/myJob/ATTILIO_A_CASA/regali/21_regali_bambini.md",
     "projects/myJob/ATTILIO_A_CASA/README.md",
-    "projects/myJob/ATTILIO_A_CASA/01_todo_riassuntivo.md",
-    "projects/myJob/ATTILIO_A_CASA/00_index.md",
-    "TOOLS.md",
-    "projects/myJob/README.md",
-    "projects/myOCcall/data/20260514 1604 teams - carichi società/HUMAN.MD",
-    "projects/myJob/INSTRUCTIONS_GENERALI.md",
-    "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
-    "projects/myJob/COLZANI/PERSONALI/README.md",
-    "projects/myJob/COLZANI/TEAM/README.md",
-    "projects/myJob/COLZANI/CHANGELOG.md"
+    "TOOLS.md"
   ]
 }

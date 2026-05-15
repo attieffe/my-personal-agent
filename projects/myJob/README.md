@@ -9,6 +9,7 @@ Questa cartella raccoglie lavoro e documentazione in modo coerente (niente file 
 - `GET_ME_DIGITAL/PROGETTI/*` → progetti
 - `SINAPPS/PROGETTI/*` → progetti
 - `EMAIL/*` → export/log email
+- `*/ARCHIVIATI.md` → task chiusi del relativo contesto
 ## Aree di lavoro
 
 - **[[ATTILIO_A_CASA/00_index|Todolist personale "a casa"]]** — task extra Colzani + personali

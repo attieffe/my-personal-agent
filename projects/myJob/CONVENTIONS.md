@@ -37,3 +37,14 @@ Quando il sistema (es. myOCcall post-sintesi) deve aggiungere un TODO personale 
 | Contesto non identificabile con certezza | Appendere a `DA_DEFINIRE.md` nella root di myJob (creare se non esiste) |
 
 Regola pratica: se non sai con certezza a quale "mondo" appartiene un task, mettilo in `DA_DEFINIRE.md` per revisione manuale successiva.
+
+## 7) Archiviazione task chiusi
+- Ogni contesto/radice operativa deve avere un file `ARCHIVIATI.md`.
+- Quando un TODO si chiude, va rimosso dal backlog aperto e spostato in `ARCHIVIATI.md` del contesto giusto.
+- Nel record di archivio indicare sempre almeno:
+  - cliente/progetto
+  - titolo del task
+  - `data_chiusura` in formato `YYYY-MM-DD`
+  - stato finale (`chiuso`, `risolto`, `annullato`, ecc.)
+  - note/contesto utile
+- I file backlog devono contenere solo task ancora aperti.
