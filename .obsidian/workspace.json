@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/COLZANI/GLOSSARIO.md",
+                "file": "projects/myJob/PERSONALE/hobby/33_videoediting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GLOSSARIO"
+              "title": "33_videoediting"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "capcu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Segnalibri"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,6 +200,7 @@
   },
   "active": "714f4f324ace160a",
   "lastOpenFiles": [
+    "projects/myJob/COLZANI/GLOSSARIO.md",
     "projects/myJob/FREELANCE/STUDIO_VISUAL/README.md",
     "projects/myJob/FREELANCE/STUDIO_VISUAL/CHANGELOG.md",
     "projects/myJob/COLZANI/PROGETTI/README.md",
@@ -233,7 +235,6 @@
     "projects/myJob/PERSONALE/lavori_a_casa/42_clienti_diretti.md",
     "projects/myJob/CONVENTIONS.md",
     "projects/myJob/CONVENZIONI_NAMING.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/40_infrastruttura_personale.md"
+    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md"
   ]
 }
