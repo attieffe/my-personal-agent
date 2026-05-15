@@ -2,7 +2,7 @@
 
 Brainstorming sul futuro del progetto MioTesoro come prodotto distribuibile.
 
-**Nota:** L'implementazione operativa attuale è in [[projects/miotesoro]] (Google Sheet + agente AI).
+**Nota:** L'implementazione operativa attuale è in [[projects/miotesoro-sheet-agent]] (Google Sheet + agente AI).
 Questo file raccoglie le idee di *evoluzione e distribuzione*. Esiste già un'analisi approfondita in una sessione Claude separata — da integrare qui.
 
 **Aggiunto:** 2026-05-14

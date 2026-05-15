@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-14T23:31:54.143Z",
+  "updatedAt": "2026-05-15T15:00:41.916Z",
   "entries": {
     "memory:memory/2026-05-12.md:1:8": {
       "key": "memory:memory/2026-05-12.md:1:8",
@@ -74,23 +74,25 @@
       "endLine": 6,
       "source": "memory",
       "snippet": "## 2026-05-13 00:12 CEST - Miotesoro vendor mapping / timezone - Atti ha confermato nuovi mapping vendor per Miotesoro: Acqua & Sapone → Supermercati vari; Osteria del gelato → Uscite; Alperia → Corrente se circa 90/100€, altrimenti tipicamente Gas; OVS e D115 Carugo → abbigliamento bimbi; Corsico Hfb → IKEA/arredamento; Pepco Cantù e Max Factory → Supermercati vari; Shopsi Srl → NaturaSì/Alimenti qualità. - Regola da ricordare: per campi data/ora di creazione e modifica usare sempre timezone italiano Europe/Rome, non UTC (altrimenti Atti vede 2 ore prima in estate). - Correzione: il primo intervento aveva aggiornato solo i file locali di mapping, non il Google Sheet. Dopo ricontrollo, aggi",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.106743883911789,
+      "totalScore": 2.4639550386111146,
       "maxScore": 0.7982362726990448,
       "firstRecalledAt": "2026-05-12T22:19:52.203Z",
-      "lastRecalledAt": "2026-05-14T23:31:54.143Z",
+      "lastRecalledAt": "2026-05-15T15:00:41.916Z",
       "queryHashes": [
         "550075f78d52",
         "5d262be89ff7",
         "e869a20556c0",
-        "596ba1ef7ce4"
+        "596ba1ef7ce4",
+        "728e2f1454a5"
       ],
       "recallDays": [
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ],
       "conceptTags": [
         "90/100",

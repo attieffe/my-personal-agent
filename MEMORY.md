@@ -121,7 +121,7 @@ Pass: [in .env privato]
 ```
 
 ### Miotesoro — Vendor Mapping Critici
-File: `projects/miotesoro/docs/vendor-mapping.md` + Google Sheet CASA/PERSONALE
+File: `projects/miotesoro-sheet-agent/docs/vendor-mapping.md` + Google Sheet CASA/PERSONALE
 
 Mapping frequenti:
 - Acqua & Sapone → Supermercati vari
@@ -153,7 +153,7 @@ I **progetti** sono contesti di lavoro separati con documentazione dedicata in `
 
 ### Progetti Attivi
 
-**miotesoro** (`projects/miotesoro/`)  
+**miotesoro-sheet-agent** (`projects/miotesoro-sheet-agent/`)  
 Copilot AI per gestione finanziaria personale. Registra entrate/uscite su Google Sheets (PERSONALE e CASA) con validazione automatica, controllo duplicati, integrità partita doppia.  
 → Usare per: registrazioni finanziarie, movimenti bancari, categorizzazione spese
 
@@ -167,7 +167,7 @@ Gestione task lavorativi e personali. Include: clienti (COLZANI, GMD, Sinapps, d
 
 ### Routing Richieste
 
-- **"Registra spesa/entrata"** → miotesoro
+- **"Registra spesa/entrata"** → miotesoro-sheet-agent
 - **"Trascrivi questa call"** → myOCcall
 - **"TODO" / "cliente X" / "email"** → myJob
 - **Dubbio?** → Chiedere o consultare [progetti.md](progetti.md)

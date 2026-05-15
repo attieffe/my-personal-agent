@@ -222,7 +222,7 @@ You work across multiple **projects**, each with its own context, documentation,
 
 See [progetti.md](progetti.md) for the canonical registry. Currently:
 
-- **miotesoro** — Financial management (Google Sheets, registrazioni entrate/uscite)
+- **miotesoro-sheet-agent** — Financial management (Google Sheets, registrazioni entrate/uscite)
 - **myOCcall** — Auto-join videocalls, transcribe with Whisper, summarize
 - **myJob** — Work tasks, clients, email triage, personal/family TODO
 
@@ -230,7 +230,7 @@ See [progetti.md](progetti.md) for the canonical registry. Currently:
 
 When Atti asks you to do something, identify the right project context:
 
-- **Financial transactions** (spese, entrate, movimenti) → `miotesoro`
+- **Financial transactions** (spese, entrate, movimenti) → `miotesoro-sheet-agent`
 - **Call transcription/summarization** → `myOCcall`
 - **TODO, clients, email, work/personal tasks** → `myJob`
 - **Ambiguous?** → Ask or check [progetti.md](progetti.md)

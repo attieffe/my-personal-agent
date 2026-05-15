@@ -32,9 +32,9 @@ Crea un nuovo progetto solo quando:
 
 ## Progetti attivi
 
-### miotesoro (myMoney)
-**Cartella:** `projects/miotesoro/`
-**Documentazione:** [[projects/miotesoro/SINTESI|Sintesi]] | [[projects/miotesoro/TECNICO|Tecnico]] | [[projects/miotesoro/TODO|TODO]] | [[projects/miotesoro/APPUNTI|Appunti]]
+### miotesoro-sheet-agent (myMoney)
+**Cartella:** `projects/miotesoro-sheet-agent/`
+**Documentazione:** [[projects/miotesoro-sheet-agent/SINTESI|Sintesi]] | [[projects/miotesoro-sheet-agent/TECNICO|Tecnico]] | [[projects/miotesoro-sheet-agent/TODO|TODO]] | [[projects/miotesoro-sheet-agent/APPUNTI|Appunti]]
 **Cos'è:** Copilot AI per la gestione finanziaria personale di Atti. Registra entrate e uscite su due fogli Google Sheets (PERSONALE e CASA) con validazione automatica, controllo duplicati e integrità partita doppia. L'agente categorizza i movimenti automaticamente e non registra nulla senza conferma o senza esito positivo del revisore.
 
 ---

@@ -205,14 +205,8 @@
   },
   "active": "58b37ddc91301a87",
   "lastOpenFiles": [
-    "memory/2026-05-15-1620.md",
-    "memory/~syncthing~2026-05-15-1620.md.tmp",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/~syncthing~ANALISI-CLOUD.md.tmp",
-    "~syncthing~AGENTS.md.tmp",
-    "~syncthing~progetti.md.tmp",
-    "~syncthing~MEMORY.md.tmp",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/ANALISI-CLOUD.md",
+    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/~syncthing~ANALISI-CLOUD.md.tmp",
     "projects/miotesoro-sheet-agent/docs/CHANGELOG.md",
     "projects/miotesoro-sheet-agent/TECNICO.md",
     "projects/miotesoro-sheet-agent/SINTESI.md",
@@ -231,6 +225,11 @@
     "projects/miotesoro-sheet-agent/memory/repo/~syncthing~vendor-mapping.md.tmp",
     "projects/miotesoro-sheet-agent/memory/repo/~syncthing~registrazione-regole-critiche.md.tmp",
     "projects/miotesoro-sheet-agent/prompts/~syncthing~revisione-governance-periodica.prompt.md.tmp",
+    "projects/miotesoro-sheet-agent/memory/repo",
+    "projects/miotesoro-sheet-agent/docs/~syncthing~vendor-mapping.md.tmp",
+    "projects/miotesoro-sheet-agent/docs/~syncthing~REGISTRAZIONE-RUNBOOK.md.tmp",
+    "projects/miotesoro-sheet-agent/docs/~syncthing~CHANGELOG.md.tmp",
+    "projects/miotesoro-sheet-agent/agents/~syncthing~revisore-registrazioni.agent.md.tmp",
     "memory/2026-05-15-1515.md",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/DECISIONS.md",
     "projects/miotesoro/docs/DECISIONS.md",
@@ -240,6 +239,7 @@
     "projects/myJob/PERSONALE/hobby/34_videogame.md",
     "projects/myJob/PERSONALE/hobby/33_videoediting.md",
     "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md",
-    "K4G.md"
+    "K4G.md",
+    "projects/myJob/PERSONALE/hobby/30_computer.md"
   ]
 }
