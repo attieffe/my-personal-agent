@@ -2,3 +2,4 @@
 
 - Vedi: `README.md` (hub)
 - Riepilogo: `01_todo_riassuntivo.md`
+- Istruzione: `istruzione/00_index.md`

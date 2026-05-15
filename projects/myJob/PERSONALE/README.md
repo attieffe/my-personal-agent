@@ -21,6 +21,9 @@ Questa cartella è la tua “sfera personale + lavori a casa”.
 - `personale_tempo_libero/11_luoghi_vacanza.md`
 - `personale_tempo_libero/12_note_personali.md`
 
+### Istruzione
+- `istruzione/00_index.md`
+
 ### Regali
 - `regali/20_regali_chiara.md`
 - `regali/21_regali_bambini.md`

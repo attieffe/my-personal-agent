@@ -85,6 +85,27 @@ Creare un indirizzo email dedicato al contesto Colzani e collegarlo a Microsoft 
 
 - [ ] Leggere post Reddit: **OpenClaw per più utenti — come gestirlo in sicurezza**
   → https://www.reddit.com/r/openclaw/comments/1s8o4g1/openclaw_is_great_for_1_user_running_it_safely/
+---
+
+### 9. 📅 Agente Fusione Calendari
+
+Agente OpenClaw per raccogliere e fondere più calendari/agende personali, integrando regole e preferenze definite da Atti.
+
+**Obiettivo:** avere una visione unificata degli impegni, arricchita da considerazioni personali (priorità, regole di scheduling, preferenze) che l'agente conosce e applica.
+
+**Architettura prevista (pattern _system / _knowledge):**
+- `_system/` — algoritmo e flusso (prompt, logica di fusione, regole generali)
+- `_knowledge/` — considerazioni e preferenze di Atti (scritte a mano o annotate via OpenClaw), regole specifiche di calendar management
+
+**Da esplorare:**
+- Quali calendari/agende collegare (Google Calendar? Apple Calendar? altro?)
+- Come esprimere le regole e le preferenze in modo leggibile e manutenibile
+- Modalità di interazione (riassunto mattutino? notifiche? query on demand?)
+
+**Aggiunto:** 2026-05-15
+
+---
+
 ## Note
 
 - Lista volutamente grezza — da affinare nel tempo
