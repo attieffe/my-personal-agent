@@ -67,6 +67,21 @@ Creare un flusso che inserisca automaticamente le ore lavorate nei file di consu
 
 ---
 
+### 7. 📧 Email dedicata per COLZANI + integrazione TEAMS
+
+Creare un indirizzo email dedicato al contesto Colzani e collegarlo a Microsoft Teams.
+
+**Obiettivo:** separare la comunicazione lavorativa Colzani dalla mailbox personale/professionale, con accesso diretto da Teams.
+
+**Da definire:**
+- Dominio/provider per la nuova email
+- Configurazione account Teams (aziendale Colzani o profilo separato)
+- Come gestire la ricezione in OpenClaw (IMAP/OAuth)
+
+**Aggiunto:** 2026-05-15
+
+---
+
 ## Note
 
 - Lista volutamente grezza — da affinare nel tempo

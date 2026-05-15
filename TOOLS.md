@@ -44,6 +44,38 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## Best Practice: Separazione Algoritmo / Dati
+
+**Ogni tool o automazione deve separare fisicamente due layer:**
+
+### `_system/` — Algoritmo (pseudo-fisso)
+- Prompt, flow, schemi, regole di funzionamento
+- Cambia solo su richiesta esplicita — è il "codice"
+- Non contiene nomi di persone, aziende, contesti specifici
+- Portabile: funziona su qualsiasi istanza con dati diversi
+
+### `_knowledge/` o cartella dedicata — Dati e Autoapprendimento
+- Regole apprese dagli errori (`ROUTING_RULES.md`)
+- Contatti e interlocutori (`INTERLOCUTORS.md`)
+- Contesto di dominio (`TRIAGE_RULES.md`, thread noti, ecc.)
+- Si aggiorna autonomamente nel tempo — è il "training data"
+- Può essere svuotato e ricostruito senza toccare l'algoritmo
+
+### Perché conta
+- Puoi resettare la knowledge senza perdere il motore
+- Puoi portare l'algoritmo su un nuovo progetto con dati diversi
+- Gli errori di triage migliorano i dati, non rompono il codice
+- Separa chiaramente chi tocca cosa: tu tocchi `_system/`, il sistema aggiorna `_knowledge/`
+
+### Regola pratica
+> Quando crei un nuovo tool: chiediti — *"questa informazione cambierà nel tempo per autoapprendimento?"*
+> - SÌ → va in `_knowledge/` (o equivalente nella struttura del tool)
+> - NO → va in `_system/`
+
+**Esempio applicato**: `projects/email-injection/` — vedi `_system/FLOW.md` per riferimento.
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
 
 ## Cron jobs (mio promemoria)
