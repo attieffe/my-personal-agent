@@ -26,19 +26,18 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 ### Sicurezza Operativa
 - **MAI azioni distruttive** senza permesso esplicito
 - `trash` > `rm` (recoverable beats gone forever)
-- Email inoltrate: mittente rilevante = **ultimo nella catena**, non il forwarder
 
 ### Struttura Idee vs Implementazione
-- **Idee/brainstorming progetti** → `projects/myJob/ATTILIO_A_CASA/hobby/idee_progetti/` (indice + una cartella per idea)
+- **Idee/brainstorming progetti** →[idee_progetti](projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/INDEX) (indice + una cartella per idea)
 - **Implementazione operativa** → `projects/<nomeprogetto>/` (il progetto vero e proprio)
-- Ogni idea in `idee_progetti/` può linkare al progetto `projects/` corrispondente quando esiste già un'implementazione
+- Ogni idea in [idee_progetti](projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/INDEX)  può linkare al progetto `projects/` corrispondente quando esiste già un'implementazione
 
 ### Routing Organizzativo myJob
-- **REGOLA FERREA:** `COLZANI/` ≠ `ATTILIO_A_CASA/`
+- **REGOLA FERREA:** `COLZANI/` ≠ `PERSONALE/` (ex ATTILIO_A_CASA — NON usare più il vecchio alias)
 - Clienti diretti, agenzie, famiglia, impegni personali → **MAI in COLZANI**
-- TODO cliente aggiornato → **SEMPRE aggiornare anche TODO Attilio a casa** quando pertinente
-- **Parole chiave per non sbagliare:** `COLZANI/` = **lavoro/cliente** (TEAM, AS400, CONSULENTI) → **sempre** nel lavoro; `Personale` = **hobby/tempo libero/casa** → **mai** in `COLZANI/`
-- **Sinapps e GET_ME_DIGITAL = lavoro da CASA**, non da Colzani → TODO agenzie va in `ATTILIO_A_CASA/lavori_a_casa/42_clienti_diretti.md` + file agenzia (link bidirezionale)
+- TODO cliente [AGENZIA o DIRETTO] aggiornato → **SEMPRE aggiornare anche TODO Attilio a casa** quando pertinente
+- **Parole chiave per non sbagliare:** `COLZANI/` = **lavoro/cliente** (TEAM, AS400, CONSULENTI); `PERSONALE/` = **hobby/tempo libero/casa**
+- **Sinapps e GET_ME_DIGITAL = lavoro da CASA** → TODO agenzie va in `FREELANCE/<AGENZIA>/README.md` (sezione TODO/Backlog) + registro in `PERSONALE/lavori_a_casa/41_clienti_agenzie.md`
 
 ---
 
@@ -55,13 +54,19 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 ### myJob — Struttura Progetti
 ```
 COLZANI/          → cliente principale (TEAM, AS400, CONSULENTI)
-GET_ME_DIGITAL/   → agenzia (progetti in PROGETTI/)
-SINAPPS/          → agenzia
-DIRETTI/CLIENTI/  → clienti diretti (es. Davide Rizzi, Silvia Migliaccio)
-ATTILIO_A_CASA/   → personale/famiglia
+FREELANCE/
+  GET_ME_DIGITAL/ → agenzia (socio dal 2017 — riunioni settimanali)
+  SINAPPS/        → agenzia T PROJECT SRL (Marco Viganò) — BLANCONE, GOSETUPS, NANOSILK
+  NEWU_SRL/       → agenzia (dal 2023 — landing page + QR, Plenitude)
+  STUDIO_VISUAL/  → collaborazione occasionale (Mario Maglie)
+  DIRETTI/        → clienti diretti freelance
+PERSONALE/        → personale/famiglia (alias storico: ATTILIO_A_CASA — non usare più)
 INGENIO_SOLUTION/ → società di Atti (non cliente)
 EMAIL/            → gestione IMAP myjob@ingeniosolution.it
 ```
+
+Registro agenzie: `PERSONALE/lavori_a_casa/41_clienti_agenzie.md`  
+Convenzione creazione nuova agenzia: `CONVENTIONS.md` sezione 10
 
 ### myJob — Email IMAP Workflow
 - Cron **ogni ora** (solo lettura UNSEEN)
@@ -95,8 +100,8 @@ EMAIL/            → gestione IMAP myjob@ingeniosolution.it
 - Telegram: diretto e collaborativo, no fumo
 
 ### Workflow TODO
-- Cliente diretto → aggiornare sia file cliente che `ATTILIO_A_CASA/README.md`
-- Progetto agenzia (es. CEAM) → cartella agenzia (`GET_ME_DIGITAL/`), non `DIRETTI/`
+- Cliente diretto → aggiornare sia file cliente che `PERSONALE/README.md`
+- Progetto agenzia (es. CEAM) → cartella agenzia (`FREELANCE/GET_ME_DIGITAL/`), non `DIRETTI/`
 - Per i file personali di myJob vuole una riorganizzazione migliore: separare chiaramente lavoro Colzani, casa/tempo libero, hobby e checklist operative.
 - Checklist padel da censire: borsone, bibita, fascia braccio/spalla, orologio.
 - Vuole anche una checklist padel separata per cose da ricordare prima di partita/torneo/allenamento, con data e ora di inserimento per ogni voce.

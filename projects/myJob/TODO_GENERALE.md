@@ -30,7 +30,7 @@
 
 ### [personale · famiglia · fiscale]
 - [ ] Sentire fratello Eric → rimborso spese detratte
-- [ ] Raccogliere documenti dichiarazione redditi → [[PERSONALE/checklist_dichiarazione_redditi_famiglia]]
+- [ ] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
 
 ### [personale · automobili]
 - [ ] Organizzarsi per revisione auto → [[PERSONALE/automobili/BMW_X1_2020]]

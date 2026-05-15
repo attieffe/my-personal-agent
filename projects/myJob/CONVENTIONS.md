@@ -31,12 +31,15 @@ Quando il sistema (es. myOCcall post-sintesi) deve aggiungere un TODO personale 
 
 | Contesto dell'attività | File di destinazione |
 |------------------------|----------------------|
-| Lavoro COLZANI (IT, gestione, operativo) | `COLZANI/PERSONALI/README.md` (sezione TODOLIST) |
-| Sfera privata / casa / personale | `ATTILIO_A_CASA/01_todo_riassuntivo.md` |
-| Clienti diretti / extra Colzani | `ATTILIO_A_CASA/lavori_a_casa/42_clienti_diretti.md` |
-| Contesto non identificabile con certezza | Appendere a `DA_DEFINIRE.md` nella root di myJob (creare se non esiste) |
+| Lavoro COLZANI (IT, gestione, operativo) | [[COLZANI/PERSONALI/README]] (sezione TODOLIST) |
+| Sfera privata / casa / personale | [[PERSONALE/01_todo_riassuntivo]] |
+| Clienti diretti / extra Colzani | [[PERSONALE/lavori_a_casa/42_clienti_diretti]] |
+| Agenzie freelance (task operativi) | `FREELANCE/<AGENZIA>/README.md` (sezione TODO/Backlog) |
+| Contesto non identificabile con certezza | [[DA_DEFINIRE]] nella root di myJob (creare se non esiste) |
 
-Regola pratica: se non sai con certezza a quale "mondo" appartiene un task, mettilo in `DA_DEFINIRE.md` per revisione manuale successiva.
+> **Nota path**: la cartella `PERSONALE/` era storicamente chiamata `ATTILIO_A_CASA/` — usare sempre `PERSONALE/` nei link.
+
+Regola pratica: se non sai con certezza a quale "mondo" appartiene un task, mettilo in [[DA_DEFINIRE]] per revisione manuale successiva.
 
 ## 7) Archiviazione task chiusi
 - Ogni contesto/radice operativa deve avere un file `ARCHIVIATI.md`.
@@ -89,11 +92,53 @@ Ogni volta che emerge una persona con ruolo, titolo o afferenza a un'entità:
 
 | Contesto persona | File di censimento |
 |------------------|-------------------|
-| Gruppo Colzani (SPORTIT, BRICOSPORT, COLZANI SRL, ecc.) | `COLZANI/GLOSSARIO.md` |
-| GET ME DIGITAL | `FREELANCE/GET_ME_DIGITAL/README.md` (sezione Referenti) |
-| SINAPPS | `FREELANCE/SINAPPS/README.md` (sezione Referenti) |
-| Clienti diretti | `FREELANCE/DIRETTI/<cliente>/README.md` |
-| Personale / famiglia | `PERSONALE/README.md` |
+| Gruppo Colzani (SPORTIT, BRICOSPORT, COLZANI SRL, ecc.) | [[COLZANI/GLOSSARIO]] |
+| GET ME DIGITAL | [[FREELANCE/GET_ME_DIGITAL/README]] (sezione Referenti) |
+| SINAPPS | [[FREELANCE/SINAPPS/README]] (sezione Referenti) |
+| NEWU SRL | [[FREELANCE/NEWU_SRL/README]] (sezione Referenti) |
+| STUDIO VISUAL | [[FREELANCE/STUDIO_VISUAL/README]] (sezione Referenti) |
+| Clienti diretti | `FREELANCE/DIRETTI/<cliente>/README.md` (sezione Referenti) |
+| Personale / famiglia | [[PERSONALE/README]] |
 | Trasversale a più contesti | Censire in **tutti** i contesti coinvolti con cross-link |
 
 Regola pratica: "Neda Bazzana lavora per GMD + SPORTIT + BRICOSPORT" → la aggiungo in GLOSSARIO.md (sezioni SPORTIT + BRICOSPORT) **e** in GET_ME_DIGITAL/README.md.
+
+---
+
+## 10) Agenzie FREELANCE — struttura e censimento
+
+Ogni agenzia con cui si collabora ha una cartella dedicata in `FREELANCE/<NOME_AGENZIA>/`.
+
+### Agenzie registrate
+
+| Agenzia | Cartella | Attiva dal |
+|---------|----------|-----------|
+| GET ME DIGITAL SRL | [[FREELANCE/GET_ME_DIGITAL/README\|FREELANCE/GET_ME_DIGITAL/]] | 2017 |
+| SINAPPS (T PROJECT SRL) | [[FREELANCE/SINAPPS/README\|FREELANCE/SINAPPS/]] | ~2018 |
+| NEWU SRL | [[FREELANCE/NEWU_SRL/README\|FREELANCE/NEWU_SRL/]] | 2023 |
+| STUDIO VISUAL | [[FREELANCE/STUDIO_VISUAL/README\|FREELANCE/STUDIO_VISUAL/]] | — |
+
+### Regola: censimento nuova agenzia
+
+Quando si aggiunge una nuova agenzia:
+
+1. **Crea la cartella** `FREELANCE/<NOME_AGENZIA>/`
+2. **Crea `README.md`** con: ragione sociale, contesto/storia collaborazione, referenti, link struttura
+3. **Crea `CHANGELOG.md`** con data di inizializzazione
+4. **Crea `PROGETTI/README.md`** con convenzione naming (`PROJ-<Agenzia>-<slug>-<YYYYMMDD>`) e link al template `_TEMPLATE/PROGETTO_TEMPLATE.md`
+5. **Aggiungi riga** alla tabella sopra con wiki-link all'area workspace
+6. **Aggiorna [[PERSONALE/lavori_a_casa/41_clienti_agenzie]]** con la nuova sezione agenzia
+7. **Censisci i referenti** secondo la tabella sezione 9
+
+### Struttura minima di ogni cartella agenzia
+
+```
+FREELANCE/<AGENZIA>/
+  README.md          ← anagrafica, referenti, TODO/backlog, link struttura
+  CHANGELOG.md       ← log modifiche del ramo
+  ARCHIVIATI.md      ← task chiusi (creare quando serve il primo)
+  PROGETTI/
+    README.md        ← convenzione naming + lista progetti attivi
+    PROJ-<Agenzia>-<slug>-<YYYYMMDD>/
+      README.md      ← scheda progetto (usa _TEMPLATE/PROGETTO_TEMPLATE.md)
+```

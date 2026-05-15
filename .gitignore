@@ -1,2 +1,3 @@
 # Audio files from myOCcall recordings
 projects/myOCcall/**/*.mp3
+.stFolder/*

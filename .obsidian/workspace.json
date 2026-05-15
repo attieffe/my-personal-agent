@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "progetti.md",
+                "file": "projects/myJob/COLZANI/GLOSSARIO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "progetti"
+              "title": "GLOSSARIO"
+            }
+          },
+          {
+            "id": "1d739f574412ba1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/INDEX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INDEX"
             }
           }
         ]
@@ -185,41 +199,41 @@
   },
   "active": "714f4f324ace160a",
   "lastOpenFiles": [
-    "projects/myJob/PERSONALE/lavori_a_casa/40_infrastruttura_personale.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/42_clienti_diretti.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md",
+    "projects/myJob/FREELANCE/STUDIO_VISUAL/README.md",
+    "projects/myJob/FREELANCE/STUDIO_VISUAL/CHANGELOG.md",
+    "projects/myJob/COLZANI/PROGETTI/README.md",
+    "projects/myJob/FREELANCE/CHANGELOG.md",
+    "projects/myJob/FREELANCE/README.md",
+    "projects/myJob/FREELANCE/SVILUPPI_BUSINESS.md",
+    "projects/myJob/FREELANCE/GET_ME_DIGITAL/README.md",
+    "projects/myJob/FREELANCE/GET_ME_DIGITAL/PROGETTI/README.md",
+    "projects/myJob/FREELANCE/GET_ME_DIGITAL/01_meetings/MEETING_LOG.md",
+    "projects/myJob/FREELANCE/SINAPPS/ARCHIVIATI.md",
+    "projects/myJob/FREELANCE/NEWU_SRL/PROGETTI/README.md",
+    "MEMORY.md.tmp.37704.116fa58f6e62",
+    "MEMORY.md.tmp.37704.506aa462e5bf",
+    "MEMORY.md.tmp.37704.76015e43e567",
+    "projects/myJob/CONVENTIONS.md.tmp.37704.005608c2d2be",
+    "projects/myJob/CONVENTIONS.md.tmp.37704.4f044eca6d6e",
+    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md.tmp.37704.21074bf8cf51",
     "projects/myJob/PERSONALE/01_todo_riassuntivo.md",
+    "projects/myJob/FREELANCE/GET_ME_DIGITAL/README.md.tmp.37704.7e6df5daad48",
+    "CLAUDE.md",
+    "CLAUDE.md.tmp.37704.dd76e450c2af",
+    "projects/myJob/FREELANCE/STUDIO_VISUAL/CHANGELOG.md.tmp.37704.29bf7213b259",
+    "projects/myJob/FREELANCE/STUDIO_VISUAL",
+    "projects/myJob/FREELANCE/NEWU_SRL/CHANGELOG.md",
+    "projects/myJob/FREELANCE/NEWU_SRL/README.md",
+    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-nanosilk-20250101/README.md",
+    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-gosetups-20240101/README.md",
+    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-blancone-20240101/README.md",
+    "projects/myJob/PERSONALE/README.md",
+    "projects/myJob/PERSONALE/fisco/checklist_dichiarazione_redditi_famiglia.md",
     "projects/myJob/PERSONALE/00_index.md",
-    "projects/myJob/PERSONALE/checklist_dichiarazione_redditi_famiglia.md",
-    "projects/myJob/PERSONALE/hobby/33_videoediting.md",
-    "memory/2026-05-15-0957.md",
-    "memory/2026-05-15-0619.md",
-    "MEMORY.md",
-    "K4G.md",
-    "lista_acquisti.mp3",
-    "neotvhd.co.uk.md",
-    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "projects/myJob/PERSONALE/lavori_a_casa/~syncthing~40_infrastruttura_personale.md.tmp",
-    "memory/2026-05-15-1946.md",
-    "memory/~syncthing~2026-05-15-1946.md.tmp",
-    "memory/2026-05-15-1900.md",
-    "memory/~syncthing~2026-05-15-1900.md.tmp",
-    "projects/condominio/trascrizione_riunione_raw.txt",
-    "projects/condominio/~syncthing~trascrizione_riunione_raw.txt.tmp",
-    "projects/condominio",
-    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/README.md",
-    "progetti.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/~syncthing~README.md.tmp",
-    "memory/2026-05-15-1646.md",
-    "memory/2026-05-15-1637.md",
-    "memory/2026-05-15-1626.md",
-    "projects/myJob/PERSONALE/istruzione/00_index.md",
-    "projects/myJob/PERSONALE/istruzione/scuole/sant_ambrogio.md",
-    "projects/myJob/PERSONALE/istruzione/scuole/00_index.md",
-    "memory/2026-05-15-1624.md",
-    "memory/2026-05-15-1620.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/ANALISI-CLOUD.md",
-    "projects/miotesoro-sheet-agent/docs/CHANGELOG.md"
+    "projects/myJob/PERSONALE/lavori_a_casa/42_clienti_diretti.md",
+    "projects/myJob/CONVENTIONS.md",
+    "projects/myJob/CONVENZIONI_NAMING.md",
+    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md",
+    "projects/myJob/PERSONALE/lavori_a_casa/40_infrastruttura_personale.md"
   ]
 }
