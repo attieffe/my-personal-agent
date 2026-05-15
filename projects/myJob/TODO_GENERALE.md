@@ -13,7 +13,7 @@
 ## TO-DO ATTIVI
 
 ### [personale · sport · paddle]
-- [ ] Chiedere a Mariano Sporzarena fattura allenamenti (capire se passa come ristorante) → [[PERSONALE/hobby/32_paddle]]
+- [ ] Chiedere a Mariano Sporzarena fattura allenamenti (capire se passa come ristorante) → [[32_padel]]
 - [ ] Chiedere a Luca Benzoni (Mariano Sports Arena) link al campionato (2026-05-15)
 
 ### [personale · sport · tennis]

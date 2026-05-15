@@ -1,5 +1,5 @@
 # KIT SOCIETA' — indice
 
-- [[README|README progetto]]
+- [[projects/myJob/COLZANI/PROGETTI/kit_societa/README|README progetto]]
 - [[TODO|TODO progetto]]
 - [[CHANGELOG|CHANGELOG]]

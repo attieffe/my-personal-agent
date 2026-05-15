@@ -1,6 +1,6 @@
 # SVILUPPI BUSINESS
 
-[[README|← Torna al hub Freelance]]
+[[projects/myJob/FREELANCE/README|← Torna al hub Freelance]]
 
 ## Stato
 - Stato: in valutazione

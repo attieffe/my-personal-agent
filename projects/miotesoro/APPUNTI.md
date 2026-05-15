@@ -36,4 +36,4 @@ Decisione attuale sulle idee/proposte:
 
 Da qui in poi usare solo questi nomi nei riferimenti interni.
 
-Per dettagli su `mio-tesoro-mydata` e confronto tra DB → [[idee_progetti/miotesoro_futuro/README]]
+Per dettagli su `mio-tesoro-mydata` e confronto tra DB → [[projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/README]]

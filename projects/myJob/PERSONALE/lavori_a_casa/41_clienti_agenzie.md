@@ -1,6 +1,6 @@
-# Lavori a casa — extra Colzani e agenzie
+# Lavori a casa — Agenzie e clienti miei privati
 
-Task legati ad agenzie, clienti extra-Colzani, o lavori da casa non riconducibili a `COLZANI/`.
+Task legati ad agenzie, lavori diretti clienti extra-Colzani, o lavori da casa non riconducibili a `COLZANI/`.
 
 ---
 
@@ -8,11 +8,9 @@ Task legati ad agenzie, clienti extra-Colzani, o lavori da casa non riconducibil
 
 - [ ] **[URGENTE] Rinnovo dominio enoart** — scadenza: 22/05/2026
   - Verificare scadenza e rinnovare il dominio `enoart` (o la variante registrata)
-  - Stato: aperto
-
-- [ ] Informata Neda Bazzana — data segnalazione: 2026-05-15, scadenza: 22/05/2026
-  - Registrare conferma che Neda Bazzana è stata informata
-  - Stato: aperto (da confermare/chiudere)
+		  - Stato: aperto- [ ] Informata Neda Bazzana — data segnalazione: 2026-05-15, scadenza: 22/05/2026
+		  - Registrare conferma che Neda Bazzana è stata informata
+		  - Stato: aperto (da confermare/chiudere)
 
 ---
 

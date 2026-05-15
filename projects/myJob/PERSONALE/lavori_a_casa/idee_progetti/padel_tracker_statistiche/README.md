@@ -55,7 +55,7 @@ Dopo ogni partita, il sistema chiede all'utente come è andata, raccogliendo una
 
 ## Collegamento a progetti esistenti
 
-- [[../../32_paddle|Hobby Paddle]] — progetto di base con calendario Playtomic → ICS
+- [[32_padel|Hobby Paddle]] — progetto di base con calendario Playtomic → ICS
 
 ---
 
