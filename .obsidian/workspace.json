@@ -199,6 +199,12 @@
   },
   "active": "714f4f324ace160a",
   "lastOpenFiles": [
+    "projects/email-injection/IMAP_TEMPLATE.md",
+    "projects/email-injection/README.md",
+    "projects/myJob/EMAIL/02_logs/~syncthing~pending_actions.json.tmp",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
+    "projects/myJob/COLZANI/PROGETTI/kit_societa/README.md",
     "memory/2026-05-16-0815.md",
     "memory/~syncthing~2026-05-16-0815.md.tmp",
     "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/01_meetings/MEETING_LOG.md",
@@ -210,15 +216,12 @@
     "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/README.md",
     "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/~syncthing~README.md.tmp",
     "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~pending_actions.json.tmp",
-    "projects/email-injection/inboxes/myjob/01_to-be-defined/msg_10_20260516_073530.eml",
     "projects/myOCcall/_system/data/20260516 0921 teams/META.md",
     "memory/2026-05-16-0712-2.md",
     "memory/2026-05-16-0712.md",
     "projects/myOCcall/_system/data/20260516 0908 teams/META.md",
     "memory/2026-05-16-0706.md",
     "projects/myJob/COLZANI/TODO.md",
-    "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
     "projects/myJob/COLZANI/TODO_COLZANI.md",
     "projects/myJob/FREELANCE/GET_ME_DIGITAL/01_meetings/MEETING_LOG.md",
     "projects/myJob/FREELANCE/GET_ME_DIGITAL/01_meetings/AGENDA_APERTA.md",
@@ -231,9 +234,6 @@
     "projects/myJob/COLZANI/GLOSSARIO.md",
     "projects/myJob/FREELANCE/STUDIO_VISUAL/README.md",
     "projects/myJob/FREELANCE/STUDIO_VISUAL/CHANGELOG.md",
-    "projects/myJob/COLZANI/PROGETTI/README.md",
-    "projects/myJob/FREELANCE/CHANGELOG.md",
-    "projects/myJob/FREELANCE/README.md",
-    "projects/myJob/FREELANCE/SVILUPPI_BUSINESS.md"
+    "projects/myJob/COLZANI/PROGETTI/README.md"
   ]
 }
