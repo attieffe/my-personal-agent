@@ -20,6 +20,7 @@ Questa cartella è la tua “sfera personale + lavori a casa”.
 - `personale_tempo_libero/10_cose_da_comprare.md`
 - `personale_tempo_libero/11_luoghi_vacanza.md`
 - `personale_tempo_libero/12_note_personali.md`
+- `personale_tempo_libero/13_gite_bambini.md`
 
 ### Istruzione
 - `istruzione/00_index.md`

@@ -10,7 +10,7 @@
 _Aggiungere voci con data inserimento. Ripassare prima di ogni partita/allenamento._
 
 - [2026-05-16] Nel riscaldamento: sbloccare subito i colpi forti di **diritto e rovescio**
-- [2026-05-16] **Diritto topspin** che scende subito dopo il nastro (cicchita) — in uscita di parete: aspettare che la palla scenda per trarre in inganno gli avversari _(consiglio maestro Francisco)_
+- [2026-05-16] **Diritto topspin** che scende subito dopo il nastro — in uscita di parete: aspettare che la palla scenda per trarre in inganno gli avversari _(consiglio maestro Francisco)_
 - [2026-05-16] Concentrarsi su **volée piatte di rovescio**
 - [2026-05-16] **Vibora lunga con effetto** (non tagliata corta) — colpirla **davanti** quando scende
 - [2026-05-14] **Vibora con palla davanti** (non aspettare che passi)
@@ -31,4 +31,5 @@ _Colpi da tenere in allenamento continuo:_
 - Smorzata
 - Risposta di rovescio
 - Vibora
-- Diritto topspin (cicchita)
+- Diritto topspin
+- Chiquita
