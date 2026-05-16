@@ -19,5 +19,6 @@ Area per l’agenzia **GET ME DIGITAL SRL** — società digitale di cui Attilio
 
 ## Struttura
 - [[PROGETTI/README|PROGETTI]]: sottocartelle per i progetti
-- [[01_meetings/MEETING_LOG|Riunioni]]: agenda e storico meeting settimanali
+- [[01_meetings/AGENDA_APERTA|Agenda aperta]]: punti aperti e ricorrenti da portare in riunione
+- [[01_meetings/MEETING_LOG|Resoconti riunioni]]: storico e note delle riunioni settimanali (template incluso)
 - `CHANGELOG.md`: aggiornamenti del ramo
