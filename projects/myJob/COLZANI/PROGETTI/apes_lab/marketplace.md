@@ -1,0 +1,9 @@
+- [ ] Integrazione **APES MARKETPLACE**: riutilizzare il flusso esistente, non rifare da zero. — `[da definire]`
+	- [ ] vendere online quali prodotti (SOLO APES in BRICOSPORT quindi merce che è aseregno in magazzino colzani, oppure tutti i prodotti anche presenti a modena - questi art non sono nella nostra anagrafica ERP)
+	- [ ] listino di vendita dovrebbe essere quello del sito shopify di apes
+	- [ ] scheda prodotta presa da.
+	- [ ] Step decisi sono:
+		- [ ] scarichiamo anagrafica shopify per importare scheda prodotto
+		- [ ] i prezzi si governano su NAV bricosport come altri prodotti
+		- [ ] transitare prodotti da shopify
+		- [ ] Chiarire

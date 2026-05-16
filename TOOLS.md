@@ -76,6 +76,17 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## Convenzioni archiviazione dati
+### Files e allegati non .MD
+
+- I file gestiti nel workspace diversi dai file .MD ma collegati a informazioni in file MD vanno in [[_attachments/static/]]
+- i file gestiti nel workspace ai fini tecnici di download/upload lavorazioni temporanee o transitorie vanno gestiti in [[_attachments/temp/]]
+
+### Utility IA
+- script Python, JS, bash, powershell e similari da conservare perchè riutilizzabili vanno archiviati in [[_utility/static]]
+- - script Python, JS, bash, powershell e similari da usare on the fly, temporaneamente, per singole attività, vanno depositati in [[_utility/temp]]
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
 
 ## Cron jobs (mio promemoria)
