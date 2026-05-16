@@ -13,6 +13,7 @@ Indice generale dei progetti/filoni di lavoro di COLZANI.
 | KIT SOCIETA' | Ottimizzazioni carichi / WMS / alert | [[kit_societa/README\|README]] · [[kit_societa/TODO\|TODO]] · [[kit_societa/CHANGELOG\|CHANGELOG]] |
 | COLZANI SRL - Dashboard carichi web | Miglioramento automatismo carichi da dashboard web | [[dashboard_carichi_web/README\|README]] · [[dashboard_carichi_web/TODO\|TODO]] · [[dashboard_carichi_web/CHANGELOG\|CHANGELOG]] |
 | DEV4SIDE — Adeguamento Sistemistico Domini Aziendali | Fix AD + DC upgrade WS2012→WS2025 + Entra ID sync — 3gg T&M (IT-D4S/1472) | [[dev4side_adeguamento_sistemistico/README\|README]] · [[dev4side_adeguamento_sistemistico/TODO\|TODO]] |
+| GESTIONE FISCALE MAGAZZINO | Stampa libro giornale magazzino NAV/AS400, procedure resi, movimenti .4 | [[gestione_fiscale_magazzino/README\|README]] · [[gestione_fiscale_magazzino/01_meetings/MEETING_LOG\|Meeting Log]] |
 
 ## Progetti archiviati
 

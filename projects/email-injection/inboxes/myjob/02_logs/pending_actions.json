@@ -1,5 +1,19 @@
 {
-  "generated_at": "2026-05-14T21:08:00Z",
-  "processed_uids": [],
-  "proposals": []
+  "generated_at": "2026-05-16T07:35:00Z",
+  "processed_uids": ["10"],
+  "proposals": [
+    {
+      "uid": "10",
+      "eml": "inboxes/myjob/01_to-be-defined/msg_10_20260516_073530.eml",
+      "date": "2026-05-16T06:42:00Z",
+      "from": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>",
+      "to": "Alessandro Franzin <alessandro.franzin@gruppocolzani.it>",
+      "subject": "amazon api invoice",
+      "type": "nuovo scope / assegnazione ad Alessandro",
+      "analysis": "Attilio incarica Alessandro di approfondire le API Amazon Vendor (invoice). Non è una notifica di lavoro già preso in carico — è una nuova richiesta da aggiungere al TODO di Alessandro. Attilio mette in CC anche Mattia (non censito) per eventuali integrazioni.",
+      "proposed_action": "Aggiungere task nel TODO di Alessandro Franzin: 'Approfondimento Amazon Vendor API (invoice) — ricerca tecnica su come integrarsi con le API legate a ordini/spedizioni Amazon vendor'. File target: projects/myJob/COLZANI/TEAM/README.md sezione TODO Alessandro.",
+      "status": "pending_confirmation",
+      "confidence": 0.90
+    }
+  ]
 }
