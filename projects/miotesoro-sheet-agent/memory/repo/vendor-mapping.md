@@ -36,6 +36,8 @@ Validare sempre il conto contro il foglio target: alcuni mapping sotto sono spec
 | Max Factory | Spese\|Prima necessità\|Supermercati vari | Confermato da Atti: supermercati vari |
 | D115 Carugo | Spese\|Cura persona\|Abbigliamento | Abbigliamento bimbi; esempio 05/05 -€38,02; usare questo conto, non Istruzione |
 
+| Vendita oggetti usati (mobili, arredi) | Entrate\|Vendite\|Usato | CASA — nuovo conto creato 16/05/2026; cash tipicamente in prelievo Chiara |
+
 ## Contropartite ricorrenti
 
 | Caso | Contropartita | Note |

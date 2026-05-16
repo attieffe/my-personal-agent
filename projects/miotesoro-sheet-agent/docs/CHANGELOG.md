@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 2026-05-16
+
+### Nuovo conto CASA — Entrate|Vendite|Usato
+- Creato nuovo conto `Entrate|Vendite|Usato` nel foglio CASA (riga 126 di Conti).
+
+### Registrazione vendite usato — 16/05/2026 (CASA)
+- **4 righe inserite** in `Movimenti` (righe 3275-3278):
+  - id `9cky4e`: `Entrate|Vendite|Usato` -€40 + `Entrate|Chiara|Prelievo` +€40 | nota: fasciatoio usato
+  - id `t08xi4`: `Entrate|Vendite|Usato` -€50 + `Entrate|Chiara|Prelievo` +€50 | nota: sdraio usato
+- Cash tenuto da Chiara. Formule K-S copiate.
+
 ## 2026-05-15
 
 ### Nuova regola confermata — Portafoglio Amazon ↔ Entrate VT
