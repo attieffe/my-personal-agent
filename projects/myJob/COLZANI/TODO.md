@@ -17,6 +17,7 @@
 - [ ] Approfondire costo strano WeRoad
 - [ ] COLZANI SRL — Integrazione GCAT Ecommerce · ref: [[TACCUINI/Stefano_Colzani|Taccuino Stefano]]
 - [ ] [DA-DISCUTERE] COLZANI SRL — Dashboard carichi web · ref: [[PROGETTI/dashboard_carichi_web/README|COLZANI SRL - Dashboard carichi web]]
-- [ ] **Adiuto — frontalini + aggiornamento software** — gestione frontalini e adeguamento nuova versione; TO-BE: processo definito e operativo — `[da avviare post-approvazione]` · ref: [[TACCUINI/Cristina_Rizzetto|Taccuino Cristina]] · [[TACCUINI/Stefano_Colzani|decisione 9/5/26]]
+- [ ] **Adiuto — frontalini** => ripartiamo con le attività con l'obiettivo di migrare le società di NAV
+- [ ] Adiuto aggiornamento software** — gestione frontalini e adeguamento nuova versione; TO-BE: processo definito e operativo — `[da avviare post-approvazione]` · ref: [[TACCUINI/Cristina_Rizzetto|Taccuino Cristina]] · [[TACCUINI/Stefano_Colzani|decisione 9/5/26]]
 - [ ] [URGENTE] VERIFICA TASK BLOCCATO NAV — Codeunit 50016 (Close sales & purchase Order), Error counter: 5, bloccata per troppi riavvii consecutivi · Scadenza: 2026-05-14 · ref: `EMAIL/90_archive/msg_8_20260514_173431.eml`
 

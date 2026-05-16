@@ -4,7 +4,7 @@
 ## Argomenti Aperti
 
 - [ ] Integrazione **APES MARKETPLACE**: riutilizzare il flusso esistente, non rifare da zero. — `[da definire]`
-	- [ ] vendere online 
+	- [ ] vendere online quali prodotti (SOLO APES in BRICOSPORT quindi merce che è aseregno in magazzino colzani, oppure tutti i prodotti anche presenti a modena - questi art non sono nella nostra anagrafica ERP)
 	- [ ] listino di vendita dovrebbe essere quello del sito shopify di apes
 	- [ ] scheda prodotta presa da.
 	- [ ] Step decisi sono:
