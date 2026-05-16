@@ -51,6 +51,18 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 - Stack: PulseAudio + ffmpeg + null sink (`virtual_out`) + Whisper API
 - Path call: `/home/openclaw/.openclaw/workspace/projects/myOCcall/data/YYYYMMDD HHMM <platform>/`
 
+### myJob — Routing TODO ⚠️ LEGGERE PRIMA DI QUALSIASI OPERAZIONE SU TODO
+**REGOLA:** Prima di aggiungere/modificare qualsiasi task in myJob, leggere `projects/myJob/ROUTING.md`.
+Contiene la mappa completa dei file TODO per contesto e la regola di dichiarazione preventiva obbligatoria.
+
+Routing rapido:
+- Task Colzani → `projects/myJob/COLZANI/TODO.md`
+- Task freelance/ingenio → `projects/myJob/TODO_GENERALE.md`
+- Task personali/hobby/famiglia → `projects/myJob/PERSONALE/01_todo_riassuntivo.md`
+- Task Alessandro → `projects/myJob/COLZANI/TEAM/Alessandro_TODO.md`
+- **Se ambiguo → CHIEDERE AD ATTI prima di scrivere**
+- **MAI toccare file in `_TEMPLATE/`** per task reali
+
 ### myJob — Struttura Progetti
 ```
 COLZANI/          → cliente principale (TEAM, AS400, CONSULENTI)
