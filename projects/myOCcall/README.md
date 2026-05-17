@@ -6,16 +6,26 @@ Progetto per integrare OpenClaw con chiamate video (Teams, Meet, Zoom) al fine d
 
 Consentire a AttiBot di entrare in una call come partecipante silenzioso, catturare l'audio via sistema virtuale, trascriverlo con Whisper e restituire un riassunto strutturato.
 
+## Agenti
+
+| Agente | File | Ruolo |
+|--------|------|-------|
+| **Orchestrator** | `agents/myoccall-orchestrator.agent.md` | Entry point — riceve richiesta da Atti e coordina le fasi |
+| **Join** | `agents/myoccall-join.agent.md` | Fasi 1–4: audio setup, join browser, monitoring, exit |
+| **Summarize** | `agents/myoccall-summarize.agent.md` | Fase 5: trascrizione, speaker attribution, SINTESI, Telegram |
+
+**Come invocare:** scrivi ad Atti Bot "Entra in questa call Meet: \<url\>" — l'Orchestrator gestisce il resto.
+
 ## Struttura
 
 ```
 myOCcall/
 ├── README.md                        — questo file
 ├── CHANGELOG.md                     — versioni e modifiche
-├── PIPELINE.md                      — flow completo del sistema (reference)
-├── PIPELINE_TEMPLATE.md             — checklist da copiare per ogni call
-├── PROCEDURA_AUDIO_TRASCRIZIONE.md  — procedura autorevole per audio e trascrizione
-├── SINTESI.md                       — panoramica requisiti funzionali del progetto
+├── agents/                          — agenti formali OpenClaw
+│   ├── myoccall-orchestrator.agent.md  — entry point principale
+│   ├── myoccall-join.agent.md          — fase join + monitoring
+│   └── myoccall-summarize.agent.md     — fase post-call + sintesi
 ├── APPUNTI.md                       — note operative e workaround
 ├── TODO.md                          — task aperti e miglioramenti
 ├── data/                            — una cartella per ogni call registrata

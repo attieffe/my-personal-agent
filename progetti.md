@@ -46,6 +46,13 @@ Crea un nuovo progetto solo quando:
 
 ---
 
+### myAgenda
+**Cartella:** `projects/myAgenda/`
+**Documentazione:** [[projects/myAgenda/README|README]]
+**Cos'è:** Utility di schedulazione personale. Legge i calendari reali di Atti (file .ics da più fonti) e le sue preferenze personali (vincoli temporali, priorità, orari figli) e propone slot ottimali quando chiesto. Agente: `myagenda.agent.md`. Calendari e preferenze da completare con Atti.
+
+---
+
 ### myJob
 **Cartella:** `projects/myJob/`
 **Specifiche:** [[projects/myJob/README|README]]
