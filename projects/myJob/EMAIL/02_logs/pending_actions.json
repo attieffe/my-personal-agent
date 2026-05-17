@@ -54,5 +54,19 @@
     "requires_confirmation": true,
     "confidence": 0.97,
     "status": "pending_confirmation"
+  },
+  {
+    "uid": "16",
+    "created_at": "2026-05-16T08:42:00Z",
+    "eml": "projects/email-injection/inboxes/myjob/01_to-be-defined/msg_10_20260516_073530.eml",
+    "from_real": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>",
+    "subject": "amazon api invoice",
+    "type": "continuazione",
+    "analysis": "Non è un nuovo scope: Attilio sta aggiornando la TODO già esistente di Alessandro Franzin su Amazon invoice API. La mail chiede un approfondimento tecnico sul mondo Amazon Vendor e una proposta di integrazione nel flow.",
+    "proposed_target_file": "projects/myJob/COLZANI/TEAM/Alessandro_TODO.md",
+    "proposed_action": "Aggiornare la voce esistente ‘AMAZON invoice API’ con un richiamo alla mail del 2026-05-16: approfondimento tecnico su API Amazon Vendor / invoice API e proposta di integrazione nel flow.",
+    "requires_confirmation": true,
+    "confidence": 0.97,
+    "status": "pending_confirmation"
   }
 ]

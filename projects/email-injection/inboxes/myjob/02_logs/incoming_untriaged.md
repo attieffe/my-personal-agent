@@ -32,3 +32,11 @@ From: Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>
 Subject: modifica report per liquidazione iva Nav
 EML: inboxes/myjob/00_inbox/msg_11_20260516_103535.eml
 Preview: Decisione: mettiamo in todo attilio/COLZANI: mandare a capgemini richiesta per modifica report. Ricordarsi che dando la possibilità di cambiare la data FINE rispetto a quella proposta il sistema non deve mai permette di fare "Registra" [grafico-gruppo] Ing. Attilio Fiumanò IT Manager Gruppo Colzani S.r.l. Via Pacini, 24 - 20831 Seregno (MB) - ITALY Tel. +39 0362 26571 E-mail. attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it> Le informazioni contenute in questo messaggio sono da considerarsi strettamente riservate e confidenziali, dirette esclusivamente al destinatario indicato, unico soggetto autorizzato alla lettura, alla copiatura e, sotto la propria responsabilità, alla diffusione. Qualora non foste i destinatari, Vi informiamo che è assolutamente vietata qu…
+
+---
+UID: 16
+Date: Sun, 17 May 2026 11:57:34 -0700
+From: Google <no-reply@google.com>
+Subject: Information about your new Google Account
+EML: inboxes/myjob/00_inbox/msg_16_20260517_203536.eml
+Preview: Hi Atti, Welcome to Google. Your new account comes with access to Google products, apps and services. Confirm your options are right for you Review and change your privacy and security options. Showing ads is the primary way we fund our services. Learn more <https://c.gle/AOExmq0czFaLLqRrC30v4BiuJVJhRMlx96opDUe2mjzpQzz__l1fGlUheETA1KJeYFHc0GwhPq_12_GiHrOkXjR-hwnPa1irY1RP2hKHw9x9ZkYiCiPR9Z50s-JhJZtpOcnX_KQXGQCfV1TzDUoLXSnW_Lmx7g4LIbqSeRTQkZMOOnX-LZ5rASaN_DV1xfaYxhkZ12ZvQm-DUQji3PylamxNW0NotftgpFzG61TxmFtOLeXuh5Ts8OJI> about our use of data for advertising. Confirm <https://c.gle/AOExmq1rEJj9pPA3-dJgJU311c5iZWkGo2rMUZjN515WGo6Wvzpo9vRYR5aXb9TDKcJm1s2-KMPAVTAvJCgnI5La3heReURWGII04ro5GIikUFjWvS71QN7yl0rgvIAWrHulOxkzj4bz-dZe-QMHKCIousnLrEKMFY08ELRPIva7Yel_erxwZNeqn8xbGLiRpHK2GlmmfB…
