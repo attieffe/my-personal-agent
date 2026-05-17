@@ -13,8 +13,6 @@
 ## TO-DO ATTIVI
 
 ### [personale · sport · paddle]
-- [ ] Chiedere a Mariano Sporzarena fattura allenamenti (capire se passa come ristorante) → [[32_padel]]
-- [ ] Chiedere a Luca Benzoni (Mariano Sports Arena) link al campionato (2026-05-15)
 
 ### [personale · sport · tennis]
 - [ ] Spostare lezione del 29/5/26
@@ -35,6 +33,9 @@
 ### [personale · automobili]
 - [ ] Organizzarsi per revisione auto → [[PERSONALE/automobili/BMW_X1_2020]]
 - [ ] Verificare gonfiaggio gomme (prima volta a Paderno con tempo disponibile)
+
+### [freelance · agenzia · get me digital]
+- [~] **CEAM** — blocchi geografici IP (errore 403 da paesi esteri) — in attesa risposta NetSense (provider hosting) → [[FREELANCE/GET_ME_DIGITAL/PROGETTI/PROJ-GetMeDigital-ceam-20260513/README|CEAM progetto]]
 
 ### [ingenio · amministrazione]
 - [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]

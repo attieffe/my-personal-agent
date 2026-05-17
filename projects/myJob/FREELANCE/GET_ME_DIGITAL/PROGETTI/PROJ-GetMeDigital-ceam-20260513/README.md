@@ -26,7 +26,7 @@
 - Fix funzionante dell’accesso (403) per gli IP/paesi coinvolti
 
 ## TODO / Backlog
-- [ ] sistemare errore 403 di accesso tra alcuni paesi stranieri
+- [~] sistemare errore 403 di accesso tra alcuni paesi stranieri — **in attesa risposta NetSense** (provider hosting) per capire se possono intervenire (2026-05-17)
 
 ## Decisioni
 -
