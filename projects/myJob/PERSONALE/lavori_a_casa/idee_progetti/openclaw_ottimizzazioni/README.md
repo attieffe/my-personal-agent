@@ -106,6 +106,17 @@ Agente OpenClaw per raccogliere e fondere più calendari/agende personali, integ
 
 ---
 
+### 10. 📲 Monitoraggio chat Telegram specifiche + ricerca contenuti
+
+Verificare se OpenClaw può monitorare chat Telegram specifiche e cercare contenuti condivisi dalle persone.
+
+**Da approfondire:**
+- Se è possibile farlo senza bot, usando un account Telegram reale autorizzato
+- Accesso via QR / sessione Telegram per leggere i messaggi
+- Limiti tecnici, privacy e modalità di indicizzazione/ricerca
+
+---
+
 ## Note
 
 - Lista volutamente grezza — da affinare nel tempo

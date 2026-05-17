@@ -111,6 +111,14 @@ Convenzione creazione nuova agenzia: `CONVENTIONS.md` sezione 10
 - No UID nei riepiloghi, solo: mittente reale + azione proposta
 - Telegram: diretto e collaborativo, no fumo
 
+### MyAgenda — Slot liberi
+- Quando Atti chiede uno slot libero, deve specificare se la verifica è per una call o per una città specifica.
+- Se è una call, il luogo di partenza non conta molto.
+- Se è una città specifica, devo considerare anche spostamenti e durata degli eventi successivi.
+- Per slot nel calendario Colzani: parto dagli orari base Colzani, li incrocio col calendario Colzani e propongo solo slot interni a quegli orari, evitando eventi già presenti.
+- Per slot personali: considero solo i giorni/slot dedicati al personale, ignorando gli orari Colzani e le attività già previste altrove.
+- In generale, per attività lavorative l'orario di inizio di default difficilmente può andare oltre le 18.
+
 ### Workflow TODO
 - Cliente diretto → aggiornare sia file cliente che `PERSONALE/README.md`
 - Progetto agenzia (es. CEAM) → cartella agenzia (`FREELANCE/GET_ME_DIGITAL/`), non `DIRETTI/`

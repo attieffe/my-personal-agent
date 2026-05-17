@@ -11,6 +11,7 @@
 - [ ] Chiedere al tennis di spostare la lezione del 29/5/26 — vedi `personale_tempo_libero/12_note_personali.md`
 - [ ] Registrare costi **Ingenio Solution** per **chiusura anno 2025** — vedi `personale_tempo_libero/12_note_personali.md`
 - [ ] Sentire mio fratello Eric per rimborso spese detratte — vedi `personale_tempo_libero/12_note_personali.md`
+- [ ] **Rispondere a Eric (fratello)** — aggiunto 2026-05-17
 - [ ] Documenti dichiarazione redditi — vedi `checklist_dichiarazione_redditi_famiglia.md`
 - [ ] **Verificare ticket, licenza, cup, cut**
 
