@@ -26,5 +26,33 @@
     "requires_confirmation": true,
     "confidence": 0.97,
     "status": "pending_confirmation"
+  },
+  {
+    "uid": "11",
+    "created_at": "2026-05-16T10:18:13Z",
+    "eml": "projects/email-injection/inboxes/myjob/00_inbox/msg_11_20260516_103535.eml",
+    "from_real": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>",
+    "subject": "modifica report per liquidazione iva Nav",
+    "type": "continuazione / decisione",
+    "analysis": "È la prosecuzione del thread NAV/IVA già noto: Attilio chiude il dubbio precedente e decide di aprire la richiesta a Capgemini per la modifica del report. Non è un nuovo scope, ma un aggiornamento del task esistente legato alla liquidazione IVA NAV.",
+    "proposed_target_file": "projects/myJob/COLZANI/TODO.md",
+    "proposed_action": "Aggiornare il task esistente su liquidazione IVA NAV con la decisione di aprire richiesta a Capgemini; mantenere il vincolo che, se cambia la data FINE, il sistema non deve consentire 'Registra'.",
+    "requires_confirmation": true,
+    "confidence": 0.95,
+    "status": "pending_confirmation"
+  },
+  {
+    "uid": "12",
+    "created_at": "2026-05-16T10:21:41Z",
+    "eml": "projects/email-injection/inboxes/myjob/00_inbox/msg_12_20260516_103535.eml",
+    "from_real": "Attilio Fiumanò <it@gruppocolzani.freshservice.com>",
+    "subject": "Fwd: Risposta al ticket: Colzani SPA errore grave liquidazione IVA",
+    "type": "continuazione / inoltro",
+    "analysis": "È un inoltro del ticket Freshservice già collegato al problema NAV/IVA di Cristina Rizzetto. Il mittente reale è Attilio, che chiede di aggiungerlo ai suoi IMPORTANTI: va censito come aggiornamento/nota del problema già esistente, non come duplicato.",
+    "proposed_target_file": "projects/myJob/COLZANI/TODO.md",
+    "proposed_action": "Aggiornare la voce esistente sui problemi NAV/IVA con la segnalazione di Cristina: calcolo liquidazione IVA ignora le vendite extraUE/non imponibili art. 8 e richiede verifica urgente.",
+    "requires_confirmation": true,
+    "confidence": 0.97,
+    "status": "pending_confirmation"
   }
 ]
