@@ -1,0 +1,2789 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+X-WR-CALNAME:Calendario
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:China Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DESCRIPTION:Incontro Colzani Spa (Argomenti Active Directory - Awareness)\n
+ Partecipa con Google Meet - Hai ricevuto un invito da Diego Nova a parteci
+ pare all'evento Incontro Colzani Spa (Argomenti Active Directory - Awarene
+ ss) il giorno lunedì 20 apr 2026 ⋅ 11:15AM – 12:15PM (Ora dell’Euro
+ pa centrale -\n\nL’evento è stato aggiornato\nModifiche: allegati\n\n<h
+ ttps://meet.google.com/dnw-ewao-oax?hs=224>\nPartecipa con Google Meet\nLi
+ nk della riunione\nmeet.google.com/dnw-ewao-oax<https://meet.google.com/dn
+ w-ewao-oax?hs=224>\nPartecipa tramite telefono\n(IT) +39 02 3046 1728<tel:
+ +39-02-3046-1728%3B850962756%23>\nPIN: 850962756\n\nAltri numeri di telefo
+ no<https://tel.meet/dnw-ewao-oax?pin=2901204660774&hs=0>\nAllegati\nMODIFI
+ CATO\n[https://drive-thirdparty.googleusercontent.com/32/type/application/
+ vnd.google-apps.document]\nAppunti di Gemini<https://docs.google.com/docum
+ ent/d/1BY4ko1tiC2z2O7_Rz-6AD_wmngVROS07dJ4eZvrUJCU/edit?usp=meet_tnfm_cale
+ ndar>\nQuando\nlunedì 20 apr 2026 ⋅ 11:15AM – 12:15PM (Ora dell’Eur
+ opa centrale - Roma)\nInvitati\nDiego Nova<mailto:diego.nova@smeup.com> - 
+ organizzatore\nEnrico Giacomin<mailto:enrico.giacomin@smeup.com>\nSimone Z
+ abberoni<mailto:simone.zabberoni@smeup.com>\nalessandra.bruno@colzanispa.i
+ t<mailto:alessandra.bruno@colzanispa.it>\nattilio.fiumano@gruppocolzani.it
+ <mailto:attilio.fiumano@gruppocolzani.it>\nprogrammatori@colzani.net<mailt
+ o:programmatori@colzani.net>\nstefano.colzani@colzanispa.it<mailto:stefano
+ .colzani@colzanispa.it>\nVisualizza le informazioni di tutti gli invitati<
+ https://calendar.google.com/calendar/event?action=VIEW&eid=MmNvY2lybWYxZ3R
+ ybmEyajhkbDAyMTcyNXQgYXR0aWxpby5maXVtYW5vQGdydXBwb2NvbHphbmkuaXQ&tok=MjAjZ
+ GllZ28ubm92YUBzbWV1cC5jb20xZDBiNTI4ZjdlZmI2ZTA4MTkxYmVlZDQ5ZGNmNWZhMzRlY2V
+ jYmYx&ctz=Europe%2FRome&hl=it&es=0>\nRispondi per attilio.fiumano@gruppoco
+ lzani.it<mailto:attilio.fiumano@gruppocolzani.it>\n<https://calendar.googl
+ e.com/calendar/event?action=RESPOND&eid=MmNvY2lybWYxZ3RybmEyajhkbDAyMTcyNX
+ QgYXR0aWxpby5maXVtYW5vQGdydXBwb2NvbHphbmkuaXQ&rst=1&tok=MjAjZGllZ28ubm92YU
+ BzbWV1cC5jb20xZDBiNTI4ZjdlZmI2ZTA4MTkxYmVlZDQ5ZGNmNWZhMzRlY2VjYmYx&ctz=Eur
+ ope%2FRome&hl=it&es=0>\nSì\n<https://calendar.google.com/calendar/event?a
+ ction=RESPOND&eid=MmNvY2lybWYxZ3RybmEyajhkbDAyMTcyNXQgYXR0aWxpby5maXVtYW5v
+ QGdydXBwb2NvbHphbmkuaXQ&rst=2&tok=MjAjZGllZ28ubm92YUBzbWV1cC5jb20xZDBiNTI4
+ ZjdlZmI2ZTA4MTkxYmVlZDQ5ZGNmNWZhMzRlY2VjYmYx&ctz=Europe%2FRome&hl=it&es=0>
+ \nNo\n<https://calendar.google.com/calendar/event?action=RESPOND&eid=MmNvY
+ 2lybWYxZ3RybmEyajhkbDAyMTcyNXQgYXR0aWxpby5maXVtYW5vQGdydXBwb2NvbHphbmkuaXQ
+ &rst=3&tok=MjAjZGllZ28ubm92YUBzbWV1cC5jb20xZDBiNTI4ZjdlZmI2ZTA4MTkxYmVlZDQ
+ 5ZGNmNWZhMzRlY2VjYmYx&ctz=Europe%2FRome&hl=it&es=0>\nForse\n<https://calen
+ dar.google.com/calendar/event?action=VIEW&eid=MmNvY2lybWYxZ3RybmEyajhkbDAy
+ MTcyNXQgYXR0aWxpby5maXVtYW5vQGdydXBwb2NvbHphbmkuaXQ&tok=MjAjZGllZ28ubm92YU
+ BzbWV1cC5jb20xZDBiNTI4ZjdlZmI2ZTA4MTkxYmVlZDQ5ZGNmNWZhMzRlY2VjYmYx&ctz=Eur
+ ope%2FRome&hl=it&es=0>\nAltre opzioni\n\nInvito da Google Calendar<https:/
+ /calendar.google.com/calendar/>\n\nHai ricevuto questa email perché parte
+ cipi all’evento.\n\nSe inoltri questo invito potresti consentire al dest
+ inatario di inviare una risposta all'organizzatore\, di essere aggiunto al
+ l'elenco degli invitati oppure di invitare altre persone indipendentemente
+  dallo stato dell'invito o ancora di modificare la tua risposta. Scopri di
+  più<https://support.google.com/calendar/answer/37135#forwarding>\n
+UID:2cocirmf1gtrna2j8dl021725t@google.com
+SUMMARY:Incontro Colzani Spa (Argomenti Active Directory - Awareness)
+DTSTART;TZID=W. Europe Standard Time:20260420T111500
+DTEND;TZID=W. Europe Standard Time:20260420T121500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:https://meet.google.com/dnw-ewao-oax
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nMicrosoft Teams meeting\nJoin: https://teams.microsof
+ t.com/meet/376525673574716?p=mmrgMHC0SO6vReGQib\nMeeting ID: 376 525 673 5
+ 74 716\nPasscode: iN77yw9N\n________________________________\nNeed help?<h
+ ttps://aka.ms/JoinTeamsMeeting?omkt=en-US> | System reference<https://team
+ s.microsoft.com/l/meetup-join/19%3ameeting_NjIxNWNhNTYtMzk0OC00OTEzLWExZjg
+ tY2MxMzhkZmU0MzVm%40thread.v2/0?context=%7b%22Tid%22%3a%2276a2ae5a-9f00-4f
+ 6b-95ed-5d33d77c4d61%22%2c%22Oid%22%3a%226ed4441d-120f-48b7-beca-5b7a5c853
+ efd%22%7d>\nJoin on a video conferencing device\nTenant key: teams@vc.capg
+ emini.com\nVideo ID: 122 929 390 15\nMore info<https://pexip.me/teams/vc.c
+ apgemini.com/12292939015?flag=hide-skype&flag=hide-qr>\nFor organizers: Me
+ eting options<https://teams.microsoft.com/meetingOptions/?organizerId=6ed4
+ 441d-120f-48b7-beca-5b7a5c853efd&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c
+ 4d61&threadId=19_meeting_NjIxNWNhNTYtMzk0OC00OTEzLWExZjgtY2MxMzhkZmU0MzVm@
+ thread.v2&messageId=0&language=en-US>\nCapgemini internal video device can
+  connect by dialing Video ID\, External users can refer to “More Info" f
+ or dialing instructions.\n________________________________________________
+ ________________________________\n\n\n____________________________________
+ _________\nFrom: Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>\nSent
+ : Tuesday\, April 21\, 2026 3:16 PM\nTo: IMERTI\, CARMELO NICOLA <carmelo-
+ nicola.imerti@capgemini.com>\nCc: Stefano Colzani <stefano.colzani@colzani
+ spa.it>\; Cristina Rizzetto <cristina.rizzetto@colzani.net>\; FRANCO\, ALE
+ SSANDRO SABATO <alessandro.a.franco@capgemini.com>\nSubject: RE: Rinnovo C
+ anone NAV 2025/2026 - Richiesta conferma o disdetta - OP# 02499537\n\nThis
+  mail has been sent from an external source. Do not reply to it\, or open 
+ any links/attachments unless you are sure of the sender's identity.\n\n\nB
+ uongiorno\,\n\nStefano non è disponibile posso farlo io\, ore 9.30?\n\nse
+  ok mandate pure invito\n\ngrazie\n\nIng. Attilio Fiumanò\n\nIl 21 Apr 20
+ 26 10:15\, "IMERTI\, CARMELO NICOLA" <carmelo-nicola.imerti@capgemini.com<
+ mailto:carmelo-nicola.imerti@capgemini.com>> ha scritto:\nCiao Attilio\, c
+ iao a tutti\,\npossiamo fissare per favore per domani una call breve per s
+ marcare il tema licenza ?\n\nper noi OK full day domani\n\ngrazie\ncarmelo
+ \n[cid:image001.png@01DCD1A2.0F7ADE90]\nCapgemini Italy | Milano\nMob: +39
+  366 603 7823\nwww.capgemini.com<http://www.capgemini.com/>\n\n[cid:image0
+ 02.png@01DCD1A2.0F7ADE90]\n\n\n\nFrom: Attilio Fiumanò <attilio.fiumano@g
+ ruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it>>\nSent: Thursday\
+ , April 16\, 2026 12:41 PM\nTo: FRANCO\, ALESSANDRO SABATO <alessandro.a.f
+ ranco@capgemini.com<mailto:alessandro.a.franco@capgemini.com>>\nCc: Cristi
+ na Rizzetto <cristina.rizzetto@colzani.net<mailto:cristina.rizzetto@colzan
+ i.net>>\; IMERTI\, CARMELO NICOLA <carmelo-nicola.imerti@capgemini.com<mai
+ lto:carmelo-nicola.imerti@capgemini.com>>\; Stefano Colzani <stefano.colza
+ ni@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\; SPEZIA\, DAVID A
+ NGELO ROY <david.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\
+ nSubject: R: Rinnovo Canone NAV 2025/2026 - Richiesta conferma o disdetta 
+ - OP# 02499537\n\nThis mail has been sent from an external source. Do not 
+ reply to it\, or open any links/attachments unless you are sure of the sen
+ der's identity.\n\n\nCiao Alessandro\,\n\nvolevo sapere se avete fatto deg
+ li avanzamenti per quei due punti di cui abbiamo parlato\, così possiamo 
+ fare le nostre valutazioni.\n\nSe poi hai 10 minuti volevo chiederti un ch
+ iarimento tecnico su un eventuale migrazione a BC on prem\, per provare a 
+ sondare con te una possibile strada e capire se fondata tecnicamente.\n\nG
+ razie\n[grafico-gruppo]\n\nIng. Attilio Fiumanò\nIT Manager\n\nGruppo Col
+ zani S.r.l.\nVia Pacini\, 24 – 20831 Seregno (MB) – ITALY\nTel. +39 03
+ 62 26571\nE-mail. attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@
+ gruppocolzani.it>\n\nLe informazioni contenute in questo messaggio sono da
+  considerarsi strettamente riservate e confidenziali\, dirette esclusivame
+ nte al destinatario indicato\, unico soggetto autorizzato alla lettura\, a
+ lla copiatura e\, sotto la propria responsabilità\, alla diffusione.\nQua
+ lora non foste i destinatari\, Vi informiamo che è assolutamente vietata 
+ qualsiasi forma di riproduzione o diffusione\; siete pregati di eliminare 
+ il messaggio\, inviando gentilmente comunicazione al seguente indirizzo: i
+ nfo@gruppocolzani.it<mailto:info@gruppocolzani.it>.\nThe information conta
+ ined in this message is strictly privileged and confidential and is solely
+  destined to the addressee(s) identified above\, who can read\, copy and\,
+  under his  own responsibility\, disseminate such information.\nIf you are
+  not the addressee(s)\, we inform you that any copying or dissemination is
+  strictly forbidden\; please\, erase this message and contact immediately 
+ the sender: info@gruppocolzani.it<mailto:info@gruppocolzani.it>\n\nDa: FRA
+ NCO\, ALESSANDRO SABATO <alessandro.a.franco@capgemini.com<mailto:alessand
+ ro.a.franco@capgemini.com>>\nInviato: venerdì 10 aprile 2026 11:41\nA: IM
+ ERTI\, CARMELO NICOLA <carmelo-nicola.imerti@capgemini.com<mailto:carmelo-
+ nicola.imerti@capgemini.com>>\; Stefano Colzani <stefano.colzani@colzanisp
+ a.it<mailto:stefano.colzani@colzanispa.it>>\; SPEZIA\, DAVID ANGELO ROY <d
+ avid.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\nCc: Cristin
+ a Rizzetto <cristina.rizzetto@colzani.net<mailto:cristina.rizzetto@colzani
+ .net>>\; Attilio Fiumanò <attilio.fiumano@gruppocolzani.it<mailto:attilio
+ .fiumano@gruppocolzani.it>>\nOggetto: R: Rinnovo Canone NAV 2025/2026 - Ri
+ chiesta conferma o disdetta - OP# 02499537\n\nCiao Nuccio\n    per
+  me lunedì alle 10.30 è OK!\n\n\nCiao\nAlessandro\n\n___________________
+ _____________________________\n\n\n\nAlessandro Franco\n\nManaging Consult
+ ant | Microsoft Dynamics NAV\n\n\n\nCapgemini Italy| Milan\n\nMob.: +39 33
+ 5 6629877\n\nalessandro.a.franco@capgemini.com<mailto:alessandro.a.franco@
+ capgemini.com>\n\nwww.capgemini.com<http://www.capgemini.com/>\n\n\n\nCapg
+ emini Italia | Viale Teodorico 29 – 20149 Milano (Mi)\n\n[cid:image004.g
+ if@01DCD1A2.0F7ADE90][cid:image005.png@01DCD1A2.0F7ADE90]\n\n_____________
+ ___________________________________\n\nConnect with Capgemini:\n[cid:image
+ 006.png@01DCD1A2.0F7ADE90]<https://www.capgemini.com/insights-and-resource
+ s/blogs>[cid:image007.png@01DCD1A2.0F7ADE90]<https://www.twitter.com/capge
+ mini>[cid:image008.png@01DCD1A2.0F7ADE90]<https://www.facebook.com/capgemi
+ ni> [cid:image009.png@01DCD1A2.0F7ADE90] <https://www.linkedin.com/company
+ /capgemini>  [cid:image010.png@01DCD1A2.0F7ADE90] <https://www.youtube.com
+ /capgeminimedia>  [cid:image011.png@01DCD1A2.0F7ADE90] <https://www.slides
+ hare.net/capgemini>  [cid:image012.png@01DCD1A2.0F7ADE90] <https://plus.go
+ ogle.com/+CapgeminiGlobal>\n\n\n\nPlease consider the environment and do n
+ ot print this email unless absolutely necessary.\n\nCapgemini encourages e
+ nvironmental awareness.\n\n\n\n________________________________\nDa: IMERT
+ I\, CARMELO NICOLA <carmelo-nicola.imerti@capgemini.com<mailto:carmelo-nic
+ ola.imerti@capgemini.com>>\nInviato: venerdì 10 aprile 2026 11:27\nA: Ste
+ fano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzani@colzani
+ spa.it>>\; FRANCO\, ALESSANDRO SABATO <alessandro.a.franco@capgemini.com<m
+ ailto:alessandro.a.franco@capgemini.com>>\; SPEZIA\, DAVID ANGELO ROY <dav
+ id.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\nCc: Cristina 
+ Rizzetto <cristina.rizzetto@colzani.net<mailto:cristina.rizzetto@colzani.n
+ et>>\; Attilio Fiumanò <attilio.fiumano@gruppocolzani.it<mailto:attilio.f
+ iumano@gruppocolzani.it>>\nOggetto: RE: Rinnovo Canone NAV 2025/2026 - Ric
+ hiesta conferma o disdetta - OP# 02499537\n\n\nPer me ok Stefano\,\n\n\n\n
+ @FRANCO\, ALESSANDRO SABATO<mailto:alessandro.a.franco@capgemini.com> / @S
+ PEZIA\, DAVID ANGELO ROY<mailto:david.spezia@capgemini.com> per voi ok Lun
+ edi ore 10:30 ?\n\n\n\nGrazie a tutti\n\n\n\n[cid:image013.png@01DCD1A2.0F
+ 7ADE90]\n\nCapgemini Italy | Milano\n\nMob: +39 366 603 7823\n\nwww.capgem
+ ini.com<http://www.capgemini.com/>\n\n\n\n[cid:image014.jpg@01DCD1A2.0F7AD
+ E90]\n\n\n\n\n\n\n\nFrom: Stefano Colzani <stefano.colzani@colzanispa.it<m
+ ailto:stefano.colzani@colzanispa.it>>\nSent: Friday\, April 10\, 2026 11:1
+ 6 AM\nTo: IMERTI\, CARMELO NICOLA <carmelo-nicola.imerti@capgemini.com<mai
+ lto:carmelo-nicola.imerti@capgemini.com>>\nCc: Cristina Rizzetto <cristina
+ .rizzetto@colzani.net<mailto:cristina.rizzetto@colzani.net>>\; Attilio Fiu
+ manò <attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolza
+ ni.it>>\; FRANCO\, ALESSANDRO SABATO <alessandro.a.franco@capgemini.com<ma
+ ilto:alessandro.a.franco@capgemini.com>>\; SPEZIA\, DAVID ANGELO ROY <davi
+ d.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\nSubject: R: Ri
+ nnovo Canone NAV 2025/2026 - Richiesta conferma o disdetta - OP# 02499537\
+ n\n\n\nThis mail has been sent from an external source. Do not reply to it
+ \, or open any links/attachments unless you are sure of the sender's ident
+ ity.\n\n\n\nciao nicola\, lunedì alle 1030?\n\n\n\nmercoledì parto per l
+ 'estero e ho solo incastri complessi..\n\ngiusto 30 min\n\n_______________
+ _________________\n\nDa: IMERTI\, CARMELO NICOLA <carmelo-nicola.imerti@ca
+ pgemini.com<mailto:carmelo-nicola.imerti@capgemini.com>>\nInviato: venerd
+ ì 10 aprile 2026 10:46\nA: Stefano Colzani <stefano.colzani@colzanispa.it
+ <mailto:stefano.colzani@colzanispa.it>>\nCc: Cristina Rizzetto <cristina.r
+ izzetto@colzani.net<mailto:cristina.rizzetto@colzani.net>>\; Attilio Fiuma
+ nò <attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani
+ .it>>\; FRANCO\, ALESSANDRO SABATO <alessandro.a.franco@capgemini.com<mail
+ to:alessandro.a.franco@capgemini.com>>\; SPEZIA\, DAVID ANGELO ROY <david.
+ spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\nOggetto: RE: Rin
+ novo Canone NAV 2025/2026 - Richiesta conferma o disdetta - OP# 02499537\n
+ \n\n\nCiao Stefano\,\n\nproporrei un meeting di chiarimenti a voce in modo
+  da smarcare tutti i punti economici e tecnici.\n\n\n\nSettimana prossima 
+ quando potresti/potreste per favore ?\n\n\n\nPer noi va gia bene Lunedi e 
+ Martedi\n\n\n\nGrazie\n\nCarmelo\n\n\n\n\n\nFrom: Stefano Colzani <stefano
+ .colzani@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nSent: Frida
+ y\, April 10\, 2026 7:54 AM\nTo: IMERTI\, CARMELO NICOLA <carmelo-nicola.i
+ merti@capgemini.com<mailto:carmelo-nicola.imerti@capgemini.com>>\nCc: Cris
+ tina Rizzetto <cristina.rizzetto@colzani.net<mailto:cristina.rizzetto@colz
+ ani.net>>\; Attilio Fiumanò <attilio.fiumano@gruppocolzani.it<mailto:atti
+ lio.fiumano@gruppocolzani.it>>\; FRANCO\, ALESSANDRO SABATO <alessandro.a.
+ franco@capgemini.com<mailto:alessandro.a.franco@capgemini.com>>\; SPEZIA\,
+  DAVID ANGELO ROY <david.spezia@capgemini.com<mailto:david.spezia@capgemin
+ i.com>>\nSubject: Re: Rinnovo Canone NAV 2025/2026 - Richiesta conferma o 
+ disdetta - OP# 02499537\n\n\n\nThis mail has been sent from an external so
+ urce. Do not reply to it\, or open any links/attachments unless you are su
+ re of the sender's identity.\n\n\n\nCiao Nicola\n\n\n\nHo ancora delle dom
+ ande:\n\n  *   Rispetto alla roadmap Microsoft le versioni on prem di bc s
+ ono confermate per almeno 3 anni?\n\n  *   Non capisco come invece si calc
+ olerebbe il costo licenza nelle versioni cloud visto che hanno un modello 
+ di pricing totalmente diverso. Me lo spieghi? Gli sconti di cui parli sono
+  rispetto al canone standard? Dammi un ordine di grandezza e per quanto te
+ mpo è garantito.\n\n\n\nPer noi questo costo è diventato insostenibile. 
+ Cosa potete fare per agevolarci?\n\n\n\nGrazie\n\n\n\nInviato da Outlook p
+ er Android<https://aka.ms/AAb9ysg>\n\n\n\n________________________________
+ \n\nDa: IMERTI\, CARMELO NICOLA <carmelo-nicola.imerti@capgemini.com<mailt
+ o:carmelo-nicola.imerti@capgemini.com>>\nInviato: Giovedì\, Aprile 9\, 20
+ 26 3:01:19 PM\nA: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:st
+ efano.colzani@colzanispa.it>>\nCc: Cristina Rizzetto <cristina.rizzetto@co
+ lzani.net<mailto:cristina.rizzetto@colzani.net>>\; Attilio Fiumanò <attil
+ io.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it>>\; FR
+ ANCO\, ALESSANDRO SABATO <alessandro.a.franco@capgemini.com<mailto:alessan
+ dro.a.franco@capgemini.com>>\; SPEZIA\, DAVID ANGELO ROY <david.spezia@cap
+ gemini.com<mailto:david.spezia@capgemini.com>>\nOggetto: RE: Rinnovo Canon
+ e NAV 2025/2026 - Richiesta conferma o disdetta - OP# 02499537\n\n\n\nBuon
+ asera Stefano\,\n\n\n\nattendo suo riscontro per i due punti sotto:\n\n\n\
+ n  *   Eventuale upgrade licenze\n  *   Conferma pagamento canone di manut
+ enzione (entro il 20 Aprile come indicato sotto in giallo)\n\n\n\ngrazie\,
+  saluti\n\n\n\n[cid:image015.png@01DCD1A2.0F7ADE90]\n\nCapgemini Italy | M
+ ilano\n\nMob: +39 366 603 7823\n\nwww.capgemini.com<http://www.capgemini.c
+ om/>\n\n\n\n[cid:image014.jpg@01DCD1A2.0F7ADE90]\n\n\n\n\n\n\n\nFrom: IMER
+ TI\, CARMELO NICOLA\nSent: Tuesday\, March 31\, 2026 6:21 PM\nTo: 'Stefano
+  Colzani' <stefano.colzani@colzanispa.it<mailto:stefano.colzani@colzanispa
+ .it>>\nCc: SPEZIA\, DAVID ANGELO ROY <david.spezia@capgemini.com<mailto:da
+ vid.spezia@capgemini.com>>\; Cristina Rizzetto <cristina.rizzetto@colzani.
+ net<mailto:cristina.rizzetto@colzani.net>>\; Attilio Fiumanò <attilio.fiu
+ mano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it>>\; FRANCO\,
+  ALESSANDRO SABATO <alessandro.a.franco@capgemini.com<mailto:alessandro.a.
+ franco@capgemini.com>>\; BARBERIS\, SIMONA <simona.barberis@capgemini.com<
+ mailto:simona.barberis@capgemini.com>>\nSubject: RE: Rinnovo Canone NAV 20
+ 25/2026 - Richiesta conferma o disdetta - OP# 02499537\n\n\n\nBuonasera St
+ efano\,\n\n\n\nIl costo di una licenza Full è pari a 3.102 € cadauna (u
+ na-tantum)\, pertanto 5 licenze verrebbero a costare 15.510 € (una-tantu
+ m).\n\n\n\nSi aggiunge il canone annuo di 3.567\,30 € che corrisponde al
+  23% di 15.510 €.\n\n\n\nTutti gli importi e percentuali citati sopra\, 
+ corrispondono ai prezzi/quote da listino Microsoft del Marzo 2026.\n\n\n\n
+ Saluti\n\ncarmelo\n\n\n\n\n\nFrom: Stefano Colzani <stefano.colzani@colzan
+ ispa.it<mailto:stefano.colzani@colzanispa.it>>\nSent: Tuesday\, March 31\,
+  2026 8:11 AM\nTo: IMERTI\, CARMELO NICOLA <carmelo-nicola.imerti@capgemin
+ i.com<mailto:carmelo-nicola.imerti@capgemini.com>>\nCc: SPEZIA\, DAVID ANG
+ ELO ROY <david.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\; 
+ FRANCO\, ALESSANDRO SABATO <alessandro.a.franco@capgemini.com<mailto:aless
+ andro.a.franco@capgemini.com>>\; BARBERIS\, SIMONA <simona.barberis@capgem
+ ini.com<mailto:simona.barberis@capgemini.com>>\; Cristina Rizzetto <cristi
+ na.rizzetto@colzani.net<mailto:cristina.rizzetto@colzani.net>>\; Attilio F
+ iumanò <attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocol
+ zani.it>>\nSubject: R: Rinnovo Canone NAV 2025/2026 - Richiesta conferma o
+  disdetta - OP# 02499537\n\n\n\nThis mail has been sent from an external s
+ ource. Do not reply to it\, or open any links/attachments unless you are s
+ ure of the sender's identity.\n\n\n\nbuongiorno Nicola\,\n\n\n\nsi ci mand
+ i link.\n\n\n\nper l'aggiunta licenze\, quanto costa un pacchetto da 5 o 1
+ 0 utenze concorrenziali aggiuntive?\n\n________________________________\n\
+ nDa: IMERTI\, CARMELO NICOLA <carmelo-nicola.imerti@capgemini.com<mailto:c
+ armelo-nicola.imerti@capgemini.com>>\nInviato: lunedì 30 marzo 2026 16:26
+ \nA: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzani
+ @colzanispa.it>>\nCc: SPEZIA\, DAVID ANGELO ROY <david.spezia@capgemini.co
+ m<mailto:david.spezia@capgemini.com>>\; FRANCO\, ALESSANDRO SABATO <alessa
+ ndro.a.franco@capgemini.com<mailto:alessandro.a.franco@capgemini.com>>\; B
+ ARBERIS\, SIMONA <simona.barberis@capgemini.com<mailto:simona.barberis@cap
+ gemini.com>>\; Cristina Rizzetto <cristina.rizzetto@colzani.net<mailto:cri
+ stina.rizzetto@colzani.net>>\; Attilio Fiumanò <attilio.fiumano@gruppocol
+ zani.it<mailto:attilio.fiumano@gruppocolzani.it>>\nOggetto: RE: Rinnovo Ca
+ none NAV 2025/2026 - Richiesta conferma o disdetta - OP# 02499537\n\n\n\nB
+ uongiorno Stefano\,\n\n\n\nl’annullamento del canone di manutenzione non
+  darebbe più la facoltà di modificare la licenza (es. aggiunta/diminuzio
+ ne utenti\, tabelle\, oggetti\, ecc.) e non sarebbe tantomeno possibile la
+  migrazione a BC\, sia onpreme sia in cloud. Tuttavia NAV sarà completame
+ nte utilizzabile.\n\n\n\nPer il secondo punto\, certamente\, avendo il can
+ one di manutenzione attivo non viene “riacquistato” nulla ma solamente
+  migrato a nuova versione BC (onpreme). Per la migrazione in Cloud oltretu
+ tto vi sono promozioni triennali in corso attraverso le quali vengono appl
+ icati interessanti sconti.\n\n\n\nIn merito\, stiamo organizzando un webin
+ ar in Aprile che riguarda proprio la migrazione in Cloud. Eventualmente le
+  inviamo il link per l’iscrizione qualora foste interessati. Nel caso\, 
+ possiamo comunque organizzare un incontro per eventuali delucidazioni circ
+ a la sua richiesta sotto.\n\n\n\nInfine Stefano\, la pregherei solo di una
+  cortesia: nel caso voleste disdire il canone\, ho assolutamente necessit
+ à di saperlo al massimo entro il 20 Aprile 2026 in modo io informi Micros
+ oft\n\n\n\nNel contempo\, allego informazioni licenza ricevute da Ls Retai
+ l con visibilità in rosso del canone al 23% del prossimo rinnovo al 1 Mag
+ gio 2026 e pari a 29.123\,42 €\n\n[cid:image016.jpg@01DCD1A2.0F7ADE90]\n
+ \n\n\nAttendo sue\, grazie\, saluti\n\n\n\n[cid:image017.png@01DCD1A2.0F7A
+ DE90]\n\nCapgemini Italy | Milano\n\nMob: +39 366 603 7823\n\nwww.capgemin
+ i.com<http://www.capgemini.com/>\n\n\n\n[cid:image018.jpg@01DCD1A2.0F7ADE9
+ 0]\n\n\n\n\n\n\n\nFrom: Stefano Colzani <stefano.colzani@colzanispa.it<mai
+ lto:stefano.colzani@colzanispa.it>>\nSent: Saturday\, March 28\, 2026 11:5
+ 3 AM\nTo: IMERTI\, CARMELO NICOLA <carmelo-nicola.imerti@capgemini.com<mai
+ lto:carmelo-nicola.imerti@capgemini.com>>\nCc: SPEZIA\, DAVID ANGELO ROY <
+ david.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\; FRANCO\, 
+ ALESSANDRO SABATO <alessandro.a.franco@capgemini.com<mailto:alessandro.a.f
+ ranco@capgemini.com>>\; BARBERIS\, SIMONA <simona.barberis@capgemini.com<m
+ ailto:simona.barberis@capgemini.com>>\; Cristina Rizzetto <cristina.rizzet
+ to@colzani.net<mailto:cristina.rizzetto@colzani.net>>\; Attilio Fiumanò <
+ attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it>>
+ \nSubject: R: Rinnovo Canone NAV 2025/2026 - Richiesta conferma o disdetta
+  - OP# 02499537\n\n\n\nThis mail has been sent from an external source. Do
+  not reply to it\, or open any links/attachments unless you are sure of th
+ e sender's identity.\n\n\n\nBuongiorno Carmelo\,\n\n\n\nstiamo valutando p
+ er il futuro di annullare l'enhancement plan.\n\n\n\na riguardo chiedo le 
+ seguenti informazioni:\n\n  *   se avessimo bisogno di aggiungere degli ut
+ enti rispetti a 45 concorrenziali attuali\, come e quanto costerebbe? c'en
+ tra con l'enhancement plan o no?\n\n  *   ai tempi si parlava che questo p
+ iano evitava l'eventuale riacquisto di licenze in caso di migrazione a nuo
+ ve versioni di nav. questo è ancora vero oppure con BC non ci sarebbe nes
+ sun benificio?\n\n\n\ngrazie\,\n\nstefano\n\n_____________________________
+ ___\n\nDa: Imerti\, Carmelo Nicola <carmelo-nicola.imerti@capgemini.com<ma
+ ilto:carmelo-nicola.imerti@capgemini.com>>\nInviato: martedì 17 giugno 20
+ 25 08:53\nA: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano
+ .colzani@colzanispa.it>>\nCc: Spezia\, David Angelo Roy <david.spezia@capg
+ emini.com<mailto:david.spezia@capgemini.com>>\; Franco\, Alessandro <aless
+ andro.a.franco@capgemini.com<mailto:alessandro.a.franco@capgemini.com>>\; 
+ Barberis\, Simona <simona.barberis@capgemini.com<mailto:simona.barberis@ca
+ pgemini.com>>\; Cristina Rizzetto <cristina.rizzetto@colzani.net<mailto:cr
+ istina.rizzetto@colzani.net>>\nOggetto: RE: Rinnovo Canone NAV 2025/2026 -
+  Richiesta conferma o disdetta - OP# 02499537\n\n\n\nBuongiorno stefano\n\
+ nLa ringrazio.\n\n\n\nSaluti\n\ncarmelo\n\n\n\nFrom: Stefano Colzani <stef
+ ano.colzani@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nSent: ma
+ rtedì 17 giugno 2025 08:29\nTo: Imerti\, Carmelo Nicola <carmelo-nicola.i
+ merti@capgemini.com<mailto:carmelo-nicola.imerti@capgemini.com>>\nCc: Spez
+ ia\, David Angelo Roy <david.spezia@capgemini.com<mailto:david.spezia@capg
+ emini.com>>\; Franco\, Alessandro <alessandro.a.franco@capgemini.com<mailt
+ o:alessandro.a.franco@capgemini.com>>\; Barberis\, Simona <simona.barberis
+ @capgemini.com<mailto:simona.barberis@capgemini.com>>\; Cristina Rizzetto 
+ <cristina.rizzetto@colzani.net<mailto:cristina.rizzetto@colzani.net>>\nSub
+ ject: R: Rinnovo Canone NAV 2025/2026 - Richiesta conferma o disdetta - OP
+ # 02499537\n\n\n\nThis mail has been sent from an external source. Do not 
+ reply to it\, or open any links/attachments unless you are sure of the sen
+ der's identity.\n\n\n\nBuongiorno eccolo\n\n\n\nDa: Imerti\, Carmelo Nicol
+ a <carmelo-nicola.imerti@capgemini.com<mailto:carmelo-nicola.imerti@capgem
+ ini.com>>\nInviato: lunedì 16 giugno 2025 17:55\nA: Stefano Colzani <stef
+ ano.colzani@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\; Cristin
+ a Rizzetto <cristina.rizzetto@colzani.net<mailto:cristina.rizzetto@colzani
+ .net>>\nCc: Spezia\, David Angelo Roy <david.spezia@capgemini.com<mailto:d
+ avid.spezia@capgemini.com>>\; Franco\, Alessandro <alessandro.a.franco@cap
+ gemini.com<mailto:alessandro.a.franco@capgemini.com>>\; Barberis\, Simona 
+ <simona.barberis@capgemini.com<mailto:simona.barberis@capgemini.com>>\nOgg
+ etto: RE: Rinnovo Canone NAV 2025/2026 - Richiesta conferma o disdetta - O
+ P# 02499537\n\n\n\nBuonasera\,\n\nè possibile per favore avere offerta fi
+ rmata ?\n\n\n\nGrazie\, saluti\n\n\n\nCarmelo Imerti\n\n\n\nCapgemini Ital
+ y | Milano\n\nMob: + 39 366 603 7823\n\nwww.capgemini.com<http://www.capge
+ mini.com/>\n\n\n\n[cid:image002.png@01DCD1A2.0F7ADE90]\n\n\n\nFrom: Imerti
+ \, Carmelo Nicola\nSent: martedì 3 giugno 2025 09:30\nTo: Stefano Colzani
+  <stefano.colzani@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nCc
+ : Cristina Rizzetto <cristina.rizzetto@colzani.net<mailto:cristina.rizzett
+ o@colzani.net>>\; Spezia\, David Angelo Roy <david.spezia@capgemini.com<ma
+ ilto:david.spezia@capgemini.com>>\; Franco\, Alessandro <alessandro.a.fran
+ co@capgemini.com<mailto:alessandro.a.franco@capgemini.com>>\; Barberis\, S
+ imona <simona.barberis@capgemini.com<mailto:simona.barberis@capgemini.com>
+ >\nSubject: RE: Rinnovo Canone NAV 2025/2026 - Richiesta conferma o disdet
+ ta - OP# 02499537\n\n\n\nBuongiorno Stefano\,\n\nallego offerta sistemata 
+ come da suo suggerimento.\n\n\n\nIn attesa suo riscontro\, ringrazio\n\n\n
+ \nCarmelo Imerti\n\n\n\nCapgemini Italy | Milano\n\nMob: + 39 366 603 7823
+ \n\nwww.capgemini.com<http://www.capgemini.com/>\n\n\n\n[cid:image002.png@
+ 01DCD1A2.0F7ADE90]\n\n\n\nFrom: Stefano Colzani <stefano.colzani@colzanisp
+ a.it<mailto:stefano.colzani@colzanispa.it>>\nSent: sabato 31 maggio 2025 1
+ 0:02\nTo: Imerti\, Carmelo Nicola <carmelo-nicola.imerti@capgemini.com<mai
+ lto:carmelo-nicola.imerti@capgemini.com>>\nCc: Cristina Rizzetto <cristina
+ .rizzetto@colzani.net<mailto:cristina.rizzetto@colzani.net>>\; Spezia\, Da
+ vid Angelo Roy <david.spezia@capgemini.com<mailto:david.spezia@capgemini.c
+ om>>\; Franco\, Alessandro <alessandro.a.franco@capgemini.com<mailto:aless
+ andro.a.franco@capgemini.com>>\; Barberis\, Simona <simona.barberis@capgem
+ ini.com<mailto:simona.barberis@capgemini.com>>\nSubject: R: Rinnovo Canone
+  NAV 2025/2026 - Richiesta conferma o disdetta - OP# 02499537\n\n\n\nThis 
+ mail has been sent from an external source. Do not reply to it\, or open a
+ ny links/attachments unless you are sure of the sender's identity.\n\n\n\n
+ Buongiorno Imerti\,\n\n\n\nla descrizione all’interno dell’offerta non
+  è corretta. All’interno lei indica “canone licenze LS retail”.\n\n
+ \n\nIl canone di manutenzione è in primis legato alle licenze MICROSOFT d
+ i NAV e non ad LS retail e basta.\n\n\n\nLS retail è a parte.\n\n\n\nSugg
+ erisco quindi di scrivere “Canone licenze Microsoft NAV con Ls retail”
+ \n\n\n\nPerfavore sistemate il contenuto\n\n\n\nGrazie\,\n\nstefano\n\n\n\
+ n\n\n\n\nDa: Imerti\, Carmelo Nicola <carmelo-nicola.imerti@capgemini.com<
+ mailto:carmelo-nicola.imerti@capgemini.com>>\nInviato: venerdì 30 maggio 
+ 2025 12:35\nA: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefa
+ no.colzani@colzanispa.it>>\nCc: Cristina Rizzetto <cristina.rizzetto@colza
+ ni.net<mailto:cristina.rizzetto@colzani.net>>\; Spezia\, David Angelo Roy 
+ <david.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\; Franco\,
+  Alessandro <alessandro.a.franco@capgemini.com<mailto:alessandro.a.franco@
+ capgemini.com>>\; Barberis\, Simona <simona.barberis@capgemini.com<mailto:
+ simona.barberis@capgemini.com>>\nOggetto: RE: Rinnovo Canone NAV 2025/2026
+  - Richiesta conferma o disdetta - OP# 02499537\n\n\n\nBuongiorno\,\n\nper
+  favore chiedo riscontro per offerta allegata.\n\n\n\nGrazie\n\n\n\nCarmel
+ o Imerti\n\n\n\nCapgemini Italy | Milano\n\nMob: + 39 366 603 7823\n\nwww.
+ capgemini.com<http://www.capgemini.com/>\n\n\n\n[cid:image002.png@01DCD1A2
+ .0F7ADE90]\n\n\n\nFrom: Imerti\, Carmelo Nicola\nSent: lunedì 19 maggio 2
+ 025 14:30\nTo: 'Stefano Colzani' <stefano.colzani@colzanispa.it<mailto:ste
+ fano.colzani@colzanispa.it>>\nCc: 'Cristina Rizzetto' <cristina.rizzetto@c
+ olzani.net<mailto:cristina.rizzetto@colzani.net>>\; Spezia\, David Angelo 
+ Roy <david.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\; Fran
+ co\, Alessandro <alessandro.a.franco@capgemini.com<mailto:alessandro.a.fra
+ nco@capgemini.com>>\; Barberis\, Simona <simona.barberis@capgemini.com<mai
+ lto:simona.barberis@capgemini.com>>\nSubject: RE: Rinnovo Canone NAV 2025/
+ 2026 - Richiesta conferma o disdetta - OP# 02499537\n\n\n\nBuongiorno\,\n\
+ nchiedo per favore riscontro\, grazie\n\n\n\nsaluti\n\n\n\nCarmelo Imerti\
+ n\n\n\nCapgemini Italy | Milano\n\nMob: + 39 366 603 7823\n\nwww.capgemini
+ .com<http://www.capgemini.com/>\n\n\n\n[cid:image002.png@01DCD1A2.0F7ADE90
+ ]\n\n\n\nFrom: Imerti\, Carmelo Nicola\nSent: lunedì 12 maggio 2025 09:32
+ \nTo: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzan
+ i@colzanispa.it>>\nCc: Cristina Rizzetto <cristina.rizzetto@colzani.net<ma
+ ilto:cristina.rizzetto@colzani.net>>\; Spezia\, David Angelo Roy <david.sp
+ ezia@capgemini.com<mailto:david.spezia@capgemini.com>>\; Franco\, Alessand
+ ro <alessandro.a.franco@capgemini.com<mailto:alessandro.a.franco@capgemini
+ .com>>\; Barberis\, Simona <simona.barberis@capgemini.com<mailto:simona.ba
+ rberis@capgemini.com>>\nSubject: RE: Rinnovo Canone NAV 2025/2026 - Richie
+ sta conferma o disdetta - OP# 02499537\n\n\n\nBuongiorno\,\n\nmi scuso\, e
+ ccolo in allegato.\n\n\n\nGrazie\, saluti\n\ncarmelo\n\n\n\nFrom: Stefano 
+ Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzani@colzanispa.i
+ t>>\nSent: sabato 10 maggio 2025 10:14\nTo: Imerti\, Carmelo Nicola <carme
+ lo-nicola.imerti@capgemini.com<mailto:carmelo-nicola.imerti@capgemini.com>
+ >\nCc: Spezia\, David Angelo Roy <david.spezia@capgemini.com<mailto:david.
+ spezia@capgemini.com>>\; Franco\, Alessandro <alessandro.a.franco@capgemin
+ i.com<mailto:alessandro.a.franco@capgemini.com>>\; Barberis\, Simona <simo
+ na.barberis@capgemini.com<mailto:simona.barberis@capgemini.com>>\; Cristin
+ a Rizzetto <cristina.rizzetto@colzani.net<mailto:cristina.rizzetto@colzani
+ .net>>\nSubject: R: Rinnovo Canone NAV 2025/2026 - Richiesta conferma o di
+ sdetta - OP# 02499537\n\n\n\nThis mail has been sent from an external sour
+ ce. Do not reply to it\, or open any links/attachments unless you are sure
+  of the sender's identity.\n\n\n\nBuongiorno mi manca allegato\n\n\n\nDa: 
+ Imerti\, Carmelo Nicola <carmelo-nicola.imerti@capgemini.com<mailto:carmel
+ o-nicola.imerti@capgemini.com>>\nInviato: mercoledì 7 maggio 2025 16:58\n
+ A: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzani@c
+ olzanispa.it>>\; Cristina Rizzetto <cristina.rizzetto@colzani.net<mailto:c
+ ristina.rizzetto@colzani.net>>\nCc: Spezia\, David Angelo Roy <david.spezi
+ a@capgemini.com<mailto:david.spezia@capgemini.com>>\; Franco\, Alessandro 
+ <alessandro.a.franco@capgemini.com<mailto:alessandro.a.franco@capgemini.co
+ m>>\; Barberis\, Simona <simona.barberis@capgemini.com<mailto:simona.barbe
+ ris@capgemini.com>>\nOggetto: RE: Rinnovo Canone NAV 2025/2026 - Richiesta
+  conferma o disdetta - OP# 02499537\n\n\n\nBuonasera\,\n\ncome promesso in
+  precedente mail\, allego offerta relativa Rinnovo Canone Ls Retail-Capgem
+ ini 2025-2026 con una lieve limatura sul canone NAV. Invariato il canone A
+ ddOn FE Capgemini.\n\n\n\nChiedo per favore riscontro in tempi brevi in qu
+ anto il canone ha scadenza in Maggio\n\n\n\nGrazie\, Saluti\n\n\n\nCarmelo
+  Imerti\n\n\n\nCapgemini Italy | Milano\n\nMob: + 39 366 603 7823\n\nwww.c
+ apgemini.com<http://www.capgemini.com/>\n\n\n\n[cid:image002.png@01DCD1A2.
+ 0F7ADE90]\n\n\n\nFrom: Imerti\, Carmelo Nicola\nSent: mercoledì 7 maggio 
+ 2025 10:06\nTo: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stef
+ ano.colzani@colzanispa.it>>\; Cristina Rizzetto <cristina.rizzetto@colzani
+ .net<mailto:cristina.rizzetto@colzani.net>>\nCc: Spezia\, David Angelo Roy
+  <david.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\; Franco\
+ , Alessandro <alessandro.a.franco@capgemini.com<mailto:alessandro.a.franco
+ @capgemini.com>>\; Barberis\, Simona <simona.barberis@capgemini.com<mailto
+ :simona.barberis@capgemini.com>>\nSubject: RE: Rinnovo Canone NAV 2025/202
+ 6 - Richiesta conferma o disdetta\n\n\n\nBuongiorno\,\n\nperdoni ma non ho
+  capito la domanda. In che senso aumenta tutto ?\n\n\n\nPosso provare a li
+ mare qualcosa ma poche centinaia di euro.\n\n\n\nSaluti\n\ncarmelo\n\n\n\n
+ From: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzan
+ i@colzanispa.it>>\nSent: martedì 6 maggio 2025 18:31\nTo: Imerti\, Carmel
+ o Nicola <carmelo-nicola.imerti@capgemini.com<mailto:carmelo-nicola.imerti
+ @capgemini.com>>\; Cristina Rizzetto <cristina.rizzetto@colzani.net<mailto
+ :cristina.rizzetto@colzani.net>>\nCc: Spezia\, David Angelo Roy <david.spe
+ zia@capgemini.com<mailto:david.spezia@capgemini.com>>\; Franco\, Alessandr
+ o <alessandro.a.franco@capgemini.com<mailto:alessandro.a.franco@capgemini.
+ com>>\; Barberis\, Simona <simona.barberis@capgemini.com<mailto:simona.bar
+ beris@capgemini.com>>\nSubject: Re: Rinnovo Canone NAV 2025/2026 - Richies
+ ta conferma o disdetta\n\n\n\nThis mail has been sent from an external sou
+ rce. Do not reply to it\, or open any links/attachments unless you are sur
+ e of the sender's identity.\n\n\n\nBuongiorno\n\n\n\n\n\nSeppur ls retail 
+ aumenta\, che noi peraltro usiamo pochissimo\, perché aumenta tutto ?\n\n
+ \n\nSent from mobile\n\n________________________________\n\nFrom: Imerti\,
+  Carmelo Nicola <carmelo-nicola.imerti@capgemini.com<mailto:carmelo-nicola
+ .imerti@capgemini.com>>\nSent: Friday\, May 2\, 2025 5:16:26 PM\nTo: Stefa
+ no Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzani@colzanisp
+ a.it>>\; Cristina Rizzetto <cristina.rizzetto@colzani.net<mailto:cristina.
+ rizzetto@colzani.net>>\nCc: Spezia\, David Angelo Roy <david.spezia@capgem
+ ini.com<mailto:david.spezia@capgemini.com>>\; Franco\, Alessandro <alessan
+ dro.a.franco@capgemini.com<mailto:alessandro.a.franco@capgemini.com>>\; Ba
+ rberis\, Simona <simona.barberis@capgemini.com<mailto:simona.barberis@capg
+ emini.com>>\nSubject: RE: Rinnovo Canone NAV 2025/2026 - Richiesta conferm
+ a o disdetta\n\n\n\nBuongiorno\,\n\nchiedo per favore conferma rinnovo can
+ one NAV come da indicazioni sotto.\n\n\n\nGrazie\, Saluti\n\n\n\nCarmelo I
+ merti\n\n\n\nCapgemini Italy | Milano\n\nMob: + 39 366 603 7823\n\nwww.cap
+ gemini.com<http://www.capgemini.com/>\n\n\n\n[cid:image002.png@01DCD1A2.0F
+ 7ADE90]\n\n\n\n\n\n\n\nFrom: Imerti\, Carmelo Nicola\nSent: martedì 1 apr
+ ile 2025 16:14\nTo: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:
+ stefano.colzani@colzanispa.it>>\nCc: Cristina Rizzetto <cristina.rizzetto@
+ colzani.net<mailto:cristina.rizzetto@colzani.net>>\; Spezia\, David Angelo
+  Roy <david.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\; Fra
+ nco\, Alessandro <alessandro.a.franco@capgemini.com<mailto:alessandro.a.fr
+ anco@capgemini.com>>\; Barberis\, Simona <simona.barberis@capgemini.com<ma
+ ilto:simona.barberis@capgemini.com>>\nSubject: RE: Rinnovo Canone NAV 2025
+ /2026 - Richiesta conferma o disdetta\n\n\n\nBuongiorno\,\n\n\n\ndal 1 Ott
+ obre 2024\, Ls Retail ha aumentato la percentuale del canone di manutenzio
+ ne\, dal 19% al 22%. Il vostro caso\, nonchè la vostra licenza\, rientra 
+ nel caso indicato dalla freccia rossa. Allego pdf notifica Ls Retail.\n\n\
+ n\n[cid:image019.png@01DCD1A2.0F7ADE90]\n\n\n\nGrazie\, saluti\n\n\n\nCarm
+ elo Imerti\n\n\n\nCapgemini Italy | Milano\n\nMob: + 39 366 603 7823\n\nww
+ w.capgemini.com<http://www.capgemini.com/>\n\n\n\n[cid:image002.png@01DCD1
+ A2.0F7ADE90]\n\n\n\n\n\n\n\nFrom: Stefano Colzani <stefano.colzani@colzani
+ spa.it<mailto:stefano.colzani@colzanispa.it>>\nSent: venerdì 28 marzo 202
+ 5 16:07\nTo: Imerti\, Carmelo Nicola <carmelo-nicola.imerti@capgemini.com<
+ mailto:carmelo-nicola.imerti@capgemini.com>>\nCc: Spezia\, David Angelo Ro
+ y <david.spezia@capgemini.com<mailto:david.spezia@capgemini.com>>\; Franco
+ \, Alessandro <alessandro.a.franco@capgemini.com<mailto:alessandro.a.franc
+ o@capgemini.com>>\; Barberis\, Simona <simona.barberis@capgemini.com<mailt
+ o:simona.barberis@capgemini.com>>\; Cristina Rizzetto <cristina.rizzetto@c
+ olzani.net<mailto:cristina.rizzetto@colzani.net>>\nSubject: R: Rinnovo Can
+ one NAV 2025/2026 - Richiesta conferma o disdetta\n\n\n\nThis mail has bee
+ n sent from an external source. Do not reply to it\, or open any links/att
+ achments unless you are sure of the sender's identity.\n\n\n\nBuongiorno\,
+ \n\n\n\ndobbiamo procedere ma non mi torna la cifra..\n\nera 23k\n\n\n\nDa
+ : Imerti\, Carmelo Nicola <carmelo-nicola.imerti@capgemini.com<mailto:carm
+ elo-nicola.imerti@capgemini.com>>\nInviato: giovedì 27 marzo 2025 11:07\n
+ A: Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzani@c
+ olzanispa.it>>\; Cristina Rizzetto <cristina.rizzetto@colzani.net<mailto:c
+ ristina.rizzetto@colzani.net>>\nCc: Spezia\, David Angelo Roy <david.spezi
+ a@capgemini.com<mailto:david.spezia@capgemini.com>>\; Franco\, Alessandro 
+ <alessandro.a.franco@capgemini.com<mailto:alessandro.a.franco@capgemini.co
+ m>>\; Barberis\, Simona <simona.barberis@capgemini.com<mailto:simona.barbe
+ ris@capgemini.com>>\nOggetto: Rinnovo Canone NAV 2025/2026 - Richiesta con
+ ferma o disdetta\n\n\n\nBuongiorno\,\n\nchiedo per favore conferma o disde
+ tta relativamente il canone di manutenzione della licenza NAV – account 
+ nr 6740829.\n\n\n\nDi seguito il prospetto della licenza con l’ammontare
+  del canone con competenza 28.05.2025 – 27.05.2026\, pari a 27.906\,32 
+ €\n\n\n\n[cid:image020.jpg@01DCD1A2.0F7ADE90]\n\n\n\nIn attesa vostro ri
+ scontro\, ringrazio.\n\n\n\nSaluti\n\n\n\nCarmelo Imerti\n\n\n\nCapgemini 
+ Italy | Milano\n\nMob: + 39 366 603 7823\n\nwww.capgemini.com<http://www.c
+ apgemini.com/>\n\n\n\n[cid:image002.png@01DCD1A2.0F7ADE90]\n\n\n\n\n\nThis
+  message contains information that may be privileged or confidential and i
+ s the property of the Capgemini Group. It is intended only for the person 
+ to whom it is addressed. If you are not the intended recipient\, you are n
+ ot authorized to read\, print\, retain\, copy\, disseminate\, distribute\,
+  or use this message or any part thereof. If you receive this message in e
+ rror\, please notify the sender immediately and delete all copies of this 
+ message.\n\n\n
+UID:040000008200E00074C5B7101A82E00800000000F096B30EA2D1DC01000000000000000
+ 0100000005E20695BA6EBE746849EA1AABB157903
+SUMMARY:Rinnovo Canone NAV 2025/2026 - Richiesta conferma o disdetta - OP# 
+ 02499537
+DTSTART;TZID=W. Europe Standard Time:20260422T093000
+DTEND;TZID=W. Europe Standard Time:20260422T100000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa da computer o 
+ app per dispositivi mobili\nFai clic qui per partecipare alla riunione<htt
+ ps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI2OTQzOTEtNWFkYi00MW
+ IzLTlkY2UtMDQ1OGNiNTBiZWIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b2
+ 2-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-
+ ace53496a591%22%7d>\nAltre informazioni<https://aka.ms/JoinTeamsMeeting> |
+  Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId=
+ 2a30d864-0aef-499b-81c5-ace53496a591&tenantId=c5691b22-ef6d-4f6e-9142-9721
+ f26f6c6b&threadId=19_meeting_YTI2OTQzOTEtNWFkYi00MWIzLTlkY2UtMDQ1OGNiNTBiZ
+ WIz@thread.v2&messageId=0&language=it-IT>\n_______________________________
+ _________________________________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000006069D14D629FD701000000000000000
+ 0100000001816D03612FADA45949D80D5845D53C1
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260422T123000
+SUMMARY:cda GMD (no andrea - no stefano )
+DTSTART;TZID=W. Europe Standard Time:20260422T123000
+DTEND;TZID=W. Europe Standard Time:20260422T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:169
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:169
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa da computer o 
+ app per dispositivi mobili\nFai clic qui per partecipare alla riunione<htt
+ ps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI2OTQzOTEtNWFkYi00MW
+ IzLTlkY2UtMDQ1OGNiNTBiZWIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b2
+ 2-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-
+ ace53496a591%22%7d>\nAltre informazioni<https://aka.ms/JoinTeamsMeeting> |
+  Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId=
+ 2a30d864-0aef-499b-81c5-ace53496a591&tenantId=c5691b22-ef6d-4f6e-9142-9721
+ f26f6c6b&threadId=19_meeting_YTI2OTQzOTEtNWFkYi00MWIzLTlkY2UtMDQ1OGNiNTBiZ
+ WIz@thread.v2&messageId=0&language=it-IT>\n_______________________________
+ _________________________________________________\n\n
+RRULE:FREQ=WEEKLY;UNTIL=20261111T113000Z;INTERVAL=1;BYDAY=WE;WKST=MO
+EXDATE;TZID=W. Europe Standard Time:20260722T123000,20260729T123000
+UID:040000008200E00074C5B7101A82E008000000006069D14D629FD701000000000000000
+ 0100000001816D03612FADA45949D80D5845D53C1
+SUMMARY:cda GMD
+DTSTART;TZID=W. Europe Standard Time:20260422T123000
+DTEND;TZID=W. Europe Standard Time:20260422T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:80
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:80
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000F6CAE0B740A7DC01000000000000000
+ 010000000ADD3189F0897F34F8D3EB19C4020FEAE
+SUMMARY:ferie Alessandro franzin
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260504
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E00800000000D0754E696BC7DC01000000000000000
+ 0100000009877366D7FD29D47B20BF72EFD7FEE83
+SUMMARY:stacco corrente GEST - via Milano
+DTSTART;TZID=W. Europe Standard Time:20260423T080000
+DTEND;TZID=W. Europe Standard Time:20260423T083000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Colzani GEST Sala server
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E008000000000032CE7F6BC7DC01000000000000000
+ 01000000099FD1842ADED6F4DA90BEDE405BEFE20
+SUMMARY:stacco corrente COLZANI SRL e VIA COMINA
+DTSTART;TZID=W. Europe Standard Time:20260423T120000
+DTEND;TZID=W. Europe Standard Time:20260423T130000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa da computer\, 
+ app per dispositivi mobili o dispositivo della stanza\nFai clic qui per pa
+ rtecipare alla riunione<https://teams.microsoft.com/l/meetup-join/19%3amee
+ ting_ZmQ1MmZjY2YtMWEyZi00YzNiLTkzOGYtMzNlMDcxMjk0Yzk2%40thread.v2/0?contex
+ t=%7b%22Tid%22%3a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a
+ %22c1300714-c07b-487d-8df4-8e432858879a%22%7d>\nID riunione: 361 072 676 4
+ 74\nPasscode: FZoBcW\nScarica Teams<https://www.microsoft.com/en-us/micros
+ oft-teams/download-app> | Partecipa sul Web<https://www.microsoft.com/micr
+ osoft-teams/join-a-meeting>\nAltre informazioni<https://aka.ms/JoinTeamsMe
+ eting> | Opzioni riunione<https://teams.microsoft.com/meetingOptions/?orga
+ nizerId=c1300714-c07b-487d-8df4-8e432858879a&tenantId=c5691b22-ef6d-4f6e-9
+ 142-9721f26f6c6b&threadId=19_meeting_ZmQ1MmZjY2YtMWEyZi00YzNiLTkzOGYtMzNlM
+ DcxMjk0Yzk2@thread.v2&messageId=0&language=it-IT>\n_______________________
+ _________________________________________________________\n
+RRULE:FREQ=WEEKLY;UNTIL=20261112T150000Z;INTERVAL=1;BYDAY=TH;WKST=MO
+EXDATE;TZID=W. Europe Standard Time:20260723T160000,20260730T160000,2026081
+ 3T160000
+UID:040000008200E00074C5B7101A82E0080000000006FC7B2529A4D901000000000000000
+ 01000000023A953E1887970428458703A00591DCF
+SUMMARY:IT SRL
+DTSTART;TZID=W. Europe Standard Time:20260423T160000
+DTEND;TZID=W. Europe Standard Time:20260423T180000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:39
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:39
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/371415571283842?p=5Tg6LN87Jve54v1nsP\nID riunione: 3
+ 71 415 571 283 842\nPasscode: Hm6zy6XR\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGNmNzYxOGU
+ tZGMwYS00OWJlLWFiNTEtZjQwY2ZmNmYzNWIx%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%22c1300714-c07b
+ -487d-8df4-8e432858879a%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=c1300714-c07b-487d-8
+ df4-8e432858879a&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_OGNmNzYxOGUtZGMwYS00OWJlLWFiNTEtZjQwY2ZmNmYzNWIx@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n
+RRULE:FREQ=WEEKLY;UNTIL=20261022T140000Z;INTERVAL=1;BYDAY=TH;WKST=MO
+EXDATE;TZID=W. Europe Standard Time:20260723T160000,20260730T160000,2026081
+ 3T160000
+UID:040000008200E00074C5B7101A82E00800000000CD93AD2733C8DC01000000000000000
+ 0100000004DD608F4CFD62C47B14351AD94C06531
+SUMMARY:Nuova procedura carichi WEB
+DTSTART;TZID=W. Europe Standard Time:20260423T160000
+DTEND;TZID=W. Europe Standard Time:20260423T170000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/393404665157381?p=tSWGVbpQD84UeEiMu8\nID riunione: 3
+ 93 404 665 157 381\nPasscode: 2wX3kE3v\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmJkMDBlZDQ
+ tZGM1OC00OGJlLWEyYzUtNjJhNWM2OTVlZjJm%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%22c1300714-c07b
+ -487d-8df4-8e432858879a%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=c1300714-c07b-487d-8
+ df4-8e432858879a&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_NmJkMDBlZDQtZGM1OC00OGJlLWEyYzUtNjJhNWM2OTVlZjJm@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n
+UID:040000008200E00074C5B7101A82E00800000000E5E6FE43F7D1DC01000000000000000
+ 0100000009971AA438A850341A864BC42C6244EC6
+SUMMARY:Q ricambi
+DTSTART;TZID=China Standard Time:20260423T230000
+DTEND;TZID=China Standard Time:20260423T233000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E00800000000F0600BAB6BC7DC01000000000000000
+ 0100000002C741363D1EFE5489943DA9E3E82D333
+SUMMARY:stacco corrente bricosport
+DTSTART;TZID=W. Europe Standard Time:20260429T080000
+DTEND;TZID=W. Europe Standard Time:20260429T083000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Bricosport Srl
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n________________________________\nFrom: Attilio Fiumanò <att
+ ilio.fiumano@gruppocolzani.it>\nSent: Monday\, 20 April 2026 06:47:07\nTo:
+  Viviana Galluzzo <viviana.galluzzo@dev4side.com>\nCc: Stefano Colzani <st
+ efano.colzani@colzanispa.it>\; Emanuele Rossi <emanuele.rossi@dev4side.com
+ >\; roberto.bertolotti@bloomedge.it <roberto.bertolotti@bloomedge.it>\; Ma
+ rco Lodini <marco.lodini@dev4side.com>\; Carlo Rossi <carlo.rossi@bloomedg
+ e.it>\; Fabio Sireci <programmatori@colzani.net>\nSubject: R: Migrazione u
+ tenti Active Directory\n\nAlcune persone che hanno ricevuto questo messagg
+ io non ricevono spesso messaggi di posta elettronica da attilio.fiumano@gr
+ uppocolzani.it. Scopri perché è importante<https://aka.ms/LearnAboutSend
+ erIdentification>\n\nBuongiorno a tutti\,\n\n\n\nsono Attilio Fiumanò\, I
+ T Manager del Gruppo Colzani.\n\n\n\nMi inserisco nella comunicazione su i
+ ndicazione di Stefano\, aggiungendo con me il mio collega sistemista Fabio
+  Sireci.\n\n\n\nDovendo fare noi operativamente la call indicata\, opterem
+ mo per mercoledì 29 alle 10.\n\n\n\nCi date conferma?\n\n\n\ngrazie\n\n\n
+ \n[grafico-gruppo]\n\n\n\nIng. Attilio Fiumanò\n\nIT Manager\n\n\n\nGrupp
+ o Colzani S.r.l.\n\nVia Pacini\, 24 – 20831 Seregno (MB) – ITALY\n\nTe
+ l. +39 0362 26571\n\nE-mail. attilio.fiumano@gruppocolzani.it<mailto:attil
+ io.fiumano@gruppocolzani.it>\n\n\n\nLe informazioni contenute in questo me
+ ssaggio sono da considerarsi strettamente riservate e confidenziali\, dire
+ tte esclusivamente al destinatario indicato\, unico soggetto autorizzato a
+ lla lettura\, alla copiatura e\, sotto la propria responsabilità\, alla d
+ iffusione.\n\nQualora non foste i destinatari\, Vi informiamo che è assol
+ utamente vietata qualsiasi forma di riproduzione o diffusione\; siete preg
+ ati di eliminare il messaggio\, inviando gentilmente comunicazione al segu
+ ente indirizzo: info@gruppocolzani.it<mailto:info@gruppocolzani.it>.\n\nTh
+ e information contained in this message is strictly privileged and confide
+ ntial and is solely destined to the addressee(s) identified above\, who ca
+ n read\, copy and\, under his  own responsibility\, disseminate such infor
+ mation.\n\nIf you are not the addressee(s)\, we inform you that any copyin
+ g or dissemination is strictly forbidden\; please\, erase this message and
+  contact immediately the sender: info@gruppocolzani.it<mailto:info@gruppoc
+ olzani.it>\n\n\n\n________________________________\n\nFrom: Viviana Galluz
+ zo <viviana.galluzzo@dev4side.com<mailto:viviana.galluzzo@dev4side.com>>\n
+ Sent: Friday\, April 17\, 2026 6:32:29 PM\nTo: Stefano Colzani <stefano.co
+ lzani@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nCc: Emanuele R
+ ossi <emanuele.rossi@dev4side.com<mailto:emanuele.rossi@dev4side.com>>\; R
+ oberto Bertolotti <roberto.bertolotti@bloomedge.it<mailto:roberto.bertolot
+ ti@bloomedge.it>>\; Marco Lodini <marco.lodini@dev4side.com<mailto:marco.l
+ odini@dev4side.com>>\; Carlo Rossi <carlo.rossi@bloomedge.it<mailto:carlo.
+ rossi@bloomedge.it>>\nSubject: R: Migrazione utenti Active Directory\n\n\n
+ \nNon ricevi spesso messaggi di posta elettronica da viviana.galluzzo@dev4
+ side.com<mailto:viviana.galluzzo@dev4side.com>. Scopri perché è importan
+ te<https://aka.ms/LearnAboutSenderIdentification>\n\nBuongiorno a tutti\,\
+ n\n\n\nGrazie Carlo per l'introduzione\, e piacere di conoscerla Stefano. 
+ Come anticipava Carlo io e i miei colleghi Emanuele e Marco del dipartimen
+ to Infra & Security\, saremmo felici di organizzare un meeting per porvi a
+ lcune domande utili a chiarirci lo stato dell'arte.\n\n\n\nLe propongo alc
+ une disponibilità:\n\n  *   Martedi 21 alle 10 o 12\n  *   Martedi 28 all
+ e 15\n  *   Mercoledi 29 alle 10\n\n\n\nAspettiamo le sue disponibilità p
+ er inoltrare l'invito.\n\n\n\nGrazie e Saluti\n\n\n\n\n\nViviana Galluzzo\
+ n\nSales Specialist\n\nVia Fabio Filzi 5\, Milan\, Italy\n\nPhone: +39 02 
+ 8128 1378\n\nwww.dev4side.com<https://www.dev4side.com/>\n\nwww.intranet.a
+ i<https://www.intranet.ai/>\n\n[cid:image003.png@01DCD0A2.431FA920]\n\n\n\
+ n[cid:image004.png@01DCD0A2.431FA920]<https://outlook-sdf.office.com/bookw
+ ithme/user/0fa6bef34b104a35a3b926fcb2931a24@dev4side.com?anonymous&ep=bwmE
+ mailSignature>\n\nPrenota un orario per la riunione con me<https://outlook
+ -sdf.office.com/bookwithme/user/0fa6bef34b104a35a3b926fcb2931a24@dev4side.
+ com?anonymous&ep=bwmEmailSignature>\n\n________________________________\n\
+ nDa: Carlo Rossi <carlo.rossi@bloomedge.it<mailto:carlo.rossi@bloomedge.it
+ >>\nInviato: giovedì 16 aprile 2026 17:09\nA: Stefano Colzani <stefano.co
+ lzani@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nCc: Emanuele R
+ ossi <emanuele.rossi@dev4side.com<mailto:emanuele.rossi@dev4side.com>>\; V
+ iviana Galluzzo <viviana.galluzzo@dev4side.com<mailto:viviana.galluzzo@dev
+ 4side.com>>\; Roberto Bertolotti <roberto.bertolotti@bloomedge.it<mailto:r
+ oberto.bertolotti@bloomedge.it>>\nOggetto: Migrazione utenti Active Direct
+ ory\n\n\n\nBuon pomeriggio Stefano\,\n\n\n\nti riepilogo via mail quello c
+ he volevo anticiparti al telefono.\n\n\n\nPer quanto riguarda il tema migr
+ azione utenti Active Directory ho coinvolto un ex collega Microsoft\, Eman
+ uele Rossi\, che oggi lavora in Dev4Side<https://www.dev4side.com/>.\n\n\n
+ \nHo spiegato ad Emanuele la vostra esigenza e siamo giunti alla conclusio
+ ne che prima di formulare un piano di azione sulla fattibilità della rich
+ iesta è necessario fare un meeting di approfondimento per rilevare una se
+ rie di informazioni che ci diano una visione più chiara del contesto.\n\n
+ \n\nEssendo questo un tema che esula dalle nostre competenze suggerirei di
+  gestire l’ingaggio direttamente con Emanuele e Viviana Galluzzo\, Sales
+  Manager di Dev4Side.\n\nNoi rimarremmo nel loop a disposizione e a suppor
+ to laddove ve ne fosse la necessità.\n\n\n\nSentiamoci pure quando puoi\,
+ \n\ngrazie e buona serata\,\n\n\n\nCarlo\n--\n\nCarlo Rossi\n\nCEO\n\n[cid
+ :image005.png@01DCD0A2.431FA920]\nBloomedge\n\nVia Lodovico Montegani 23 -
+  20141 Milano\nM: +39 331 63 266 33| email: carlo.rossi@bloomedge.it<mailt
+ o:carlo.rossi@bloomedge.it>\nwww.bloomedge.it<http://www.bloomedge.it/>\n\
+ n\n\nFollow us on Linkedin<https://www.linkedin.com/company/99929567/admin
+ /dashboard/>\n\n\n\n______________________________________________________
+ __________________________\nRiunione di Microsoft Teams\nPartecipa a: http
+ s://teams.microsoft.com/meet/315375563917738?p=ZEHxCpP3LqawlLrLMx\nID riun
+ ione: 315 375 563 917 738\nPasscode: 3Rh6kH34\n___________________________
+ _____\nServe aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferime
+ nto di sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_MThj
+ NjNiNmUtZGMwYi00ZTg1LWIyNjgtM2RkMjlhMGI0NDBh%40thread.v2/0?context=%7b%22T
+ id%22%3a%227e5f4e90-c792-4b0d-9646-db99c9acea28%22%2c%22Oid%22%3a%22bcdd7b
+ 4e-346e-4ce6-aac7-996b5d503f74%22%7d>\nConnettiti telefonicamente\n+39 02 
+ 3056 5471\,\,592117238#<tel:+390230565471\,\,592117238#> Italia\, Milano\n
+ Trova un numero locale<https://dialin.teams.microsoft.com/c7add67e-9356-42
+ ee-92bd-430329dbb155?id=592117238>\nID conferenza telefonica: 592 117 238#
+ \nPer gli organizzatori: Opzioni riunione<https://teams.microsoft.com/meet
+ ingOptions/?organizerId=bcdd7b4e-346e-4ce6-aac7-996b5d503f74&tenantId=7e5f
+ 4e90-c792-4b0d-9646-db99c9acea28&threadId=19_meeting_MThjNjNiNmUtZGMwYi00Z
+ Tg1LWIyNjgtM2RkMjlhMGI0NDBh@thread.v2&messageId=0&language=it-IT> | Reimpo
+ sta PIN di accesso<https://dialin.teams.microsoft.com/usp/pstnconferencing
+ >\n_______________________________________________________________________
+ _________\n
+UID:040000008200E00074C5B7101A82E008000000005D97AB2A95D0DC01000000000000000
+ 010000000667FA07054F41047A0AC303856483C26
+SUMMARY:Colzani|Dev4side: Migrazione utenti Active Directory
+DTSTART;TZID=W. Europe Standard Time:20260429T100000
+DTEND;TZID=W. Europe Standard Time:20260429T110000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa da computer o 
+ app per dispositivi mobili\nFai clic qui per partecipare alla riunione<htt
+ ps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI2OTQzOTEtNWFkYi00MW
+ IzLTlkY2UtMDQ1OGNiNTBiZWIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b2
+ 2-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-
+ ace53496a591%22%7d>\nAltre informazioni<https://aka.ms/JoinTeamsMeeting> |
+  Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId=
+ 2a30d864-0aef-499b-81c5-ace53496a591&tenantId=c5691b22-ef6d-4f6e-9142-9721
+ f26f6c6b&threadId=19_meeting_YTI2OTQzOTEtNWFkYi00MWIzLTlkY2UtMDQ1OGNiNTBiZ
+ WIz@thread.v2&messageId=0&language=it-IT>\n_______________________________
+ _________________________________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000006069D14D629FD701000000000000000
+ 0100000001816D03612FADA45949D80D5845D53C1
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260429T123000
+SUMMARY:cda GMD
+DTSTART;TZID=W. Europe Standard Time:20260429T123000
+DTEND;TZID=W. Europe Standard Time:20260429T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:80
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:80
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/39573671472970?p=JDlCp4u6hAzntYFhRq\nID riunione: 39
+ 5 736 714 729 70\nPasscode: 9Vk3Rq2y\n________________________________\nSe
+ rve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di si
+ stema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzQ2YTM5MTMtM
+ DNiNC00NzIxLTlhODctNjg1ZThhNDRkNDE5%40thread.v2/0?context=%7b%22Tid%22%3a%
+ 22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%228e2a637e-25b0-4
+ d95-8b0a-a650fc404e63%22%7d>\nPer gli organizzatori: Opzioni riunione<http
+ s://teams.microsoft.com/meetingOptions/?organizerId=8e2a637e-25b0-4d95-8b0
+ a-a650fc404e63&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19_m
+ eeting_MzQ2YTM5MTMtMDNiNC00NzIxLTlhODctNjg1ZThhNDRkNDE5@thread.v2&messageI
+ d=0&language=it-IT>\n_____________________________________________________
+ ___________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000008061B1822FAADC01000000000000000
+ 010000000D54C5EC03810504A8679C1E5BF1C0421
+SUMMARY:GMD approvazione bilancio 2025
+DTSTART;TZID=W. Europe Standard Time:20260429T123000
+DTEND;TZID=W. Europe Standard Time:20260429T130000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E00800000000F0B866831AD3DC01000000000000000
+ 010000000B24737A555BA244BB9F685B18B38191B
+SUMMARY:stacco corrente colzani spa per prove messa a terra
+DTSTART;TZID=W. Europe Standard Time:20260429T130000
+DTEND;TZID=W. Europe Standard Time:20260429T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:colzani spa
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E008000000008D09AF8DD0C8DC01000000000000000
+ 010000000143003A6880188459AEF51F9DE6777CF
+SUMMARY:Annullata: Incontro per setup valutazione AI con Simone Caiazzo (da
+  sergio e angelo)
+DTSTART;TZID=W. Europe Standard Time:20260430T140000
+DTEND;TZID=W. Europe Standard Time:20260430T150000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION:in presenza
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000CD93AD2733C8DC01000000000000000
+ 0100000004DD608F4CFD62C47B14351AD94C06531
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260430T160000
+SUMMARY:Annullata: Nuova procedura carichi WEB
+DTSTART;TZID=W. Europe Standard Time:20260430T160000
+DTEND;TZID=W. Europe Standard Time:20260430T170000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/320232508225278?p=ntB3TbUqPmp38MjYWC\nID riunione: 3
+ 20 232 508 225 278\nPasscode: sG3nU94r\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZmYWY1Y2I
+ tNWUxMy00ZTk0LWE3NzMtMmFkOWYyMzQzMzNl%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%2264c99d1b-e6c2
+ -42c7-9ef6-9f7205b5ed50%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=64c99d1b-e6c2-42c7-9
+ ef6-9f7205b5ed50&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_MzZmYWY1Y2ItNWUxMy00ZTk0LWE3NzMtMmFkOWYyMzQzMzNl@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000B03D64A69BD8DC01000000000000000
+ 010000000C13AF5895DE2DF4BA93D6ABC56348361
+SUMMARY:Apprendistato 1^ livello Scuola Paolo Borsa - Junior IT
+DTSTART;TZID=W. Europe Standard Time:20260504T163000
+DTEND;TZID=W. Europe Standard Time:20260504T170000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/381770342198427?p=ABptyPN77hHXt46I5S\nID riunione: 3
+ 81 770 342 198 427\nPasscode: Q6XH7zR9\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODE0Zjk0NjQ
+ tMWQxZS00YTQyLWFlN2MtYWMwNTUwMjg2Nzcw%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%2221a35351-9176
+ -47ef-9ca1-3681b3a47430%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=21a35351-9176-47ef-9
+ ca1-3681b3a47430&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_ODE0Zjk0NjQtMWQxZS00YTQyLWFlN2MtYWMwNTUwMjg2Nzcw@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000C002B99A7DD8DC01000000000000000
+ 01000000019FC68056EFBA54983EA36035CBEF541
+SUMMARY:Shippy - Global Trading
+DTSTART;TZID=W. Europe Standard Time:20260505T153000
+DTEND;TZID=W. Europe Standard Time:20260505T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:2
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:2
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E00800000000D09CFA3167CBDC01000000000000000
+ 010000000442763C72EE4E04793D91356172F03BD
+SUMMARY:FIERA NETCOMM
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:OOF
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E008000000006069D14D629FD701000000000000000
+ 0100000001816D03612FADA45949D80D5845D53C1
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260506T123000
+SUMMARY:Annullata: cda GMD
+DTSTART;TZID=W. Europe Standard Time:20260506T123000
+DTEND;TZID=W. Europe Standard Time:20260506T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:167
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:167
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/369902051101258?p=LWyYh18x8gyOTQ5lY1\nID riunione: 3
+ 69 902 051 101 258\nPasscode: 3pN6ua9d\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzA1NzVkNzc
+ tZWVlNC00MWQzLTg5MGQtZGE1MDkwNTgyZDQw%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%2249d79f86-354c
+ -4818-880b-edf1dcb4b11a%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=49d79f86-354c-4818-8
+ 80b-edf1dcb4b11a&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_NzA1NzVkNzctZWVlNC00MWQzLTg5MGQtZGE1MDkwNTgyZDQw@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n\n
+UID:040000008200E00074C5B7101A82E0080000000050BB3551BDDBDC01000000000000000
+ 010000000C711DE35F171B9489BE75367DAA597ED
+SUMMARY:no corrente sala server gest
+DTSTART;TZID=W. Europe Standard Time:20260507T074500
+DTEND;TZID=W. Europe Standard Time:20260507T081500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n\n\n
+UID:040000008200E00074C5B7101A82E00800000000605200E773DCDC01000000000000000
+ 010000000058CB7F9D4571D4BBB5794F9A6C24620
+SUMMARY:allineamento modifiche ordersender
+DTSTART;TZID=W. Europe Standard Time:20260507T090000
+DTEND;TZID=W. Europe Standard Time:20260507T093000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/342081780046696?p=UjFSjatwDobEeTS5Nw\nID riunione: 3
+ 42 081 780 046 696\nPasscode: Bw2na2Yu\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTVmZWZlOTU
+ tMDYzZi00NDIxLWJiMmItZjIwMmQyMjM3NmEx%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%2249d79f86-354c
+ -4818-880b-edf1dcb4b11a%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=49d79f86-354c-4818-8
+ 80b-edf1dcb4b11a&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_MTVmZWZlOTUtMDYzZi00NDIxLWJiMmItZjIwMmQyMjM3NmEx@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n
+UID:040000008200E00074C5B7101A82E008000000001372770F8DD8DC01000000000000000
+ 010000000B14EC0757804D24DB6F597334CAD71DC
+SUMMARY:presentazione Get Me Digital - sito web "Vela e motori"
+DTSTART;TZID=W. Europe Standard Time:20260508T100000
+DTEND;TZID=W. Europe Standard Time:20260508T110000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/320065022326337?p=v9wrWtReQXZ0zATmk5\nID riunione: 3
+ 20 065 022 326 337\nPasscode: 5Mi9Rx2R\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2E5YjQyMDQ
+ tYjlhZC00YTY4LWI5ZGEtNmYxMjNhMTdkZjdm%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%228e2a637e-25b0
+ -4d95-8b0a-a650fc404e63%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=8e2a637e-25b0-4d95-8
+ b0a-a650fc404e63&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_M2E5YjQyMDQtYjlhZC00YTY4LWI5ZGEtNmYxMjNhMTdkZjdm@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n\n
+UID:040000008200E00074C5B7101A82E0080000000020DFA37907DFDC01000000000000000
+ 01000000062A1658EC921994886F3712EE70E7225
+SUMMARY:Sindaci e magazzino SPA analisi per lunedi
+DTSTART;TZID=W. Europe Standard Time:20260509T100000
+DTEND;TZID=W. Europe Standard Time:20260509T103000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n\n___________________________________________________________
+ _____________________\nRiunione di Microsoft Teams\nPartecipa a: https://t
+ eams.microsoft.com/meet/35152151766712?p=xoZufIhqC1xxiYkRzX\nID riunione: 
+ 351 521 517 667 12\nPasscode: Bv3f6En2\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWVkNzUzZWM
+ tODIwNC00NjRjLTliY2YtMTY0NDkxY2ZlMWIz%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%228c4bbbb6-2143
+ -4135-845d-bd757ed21ba7%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=8c4bbbb6-2143-4135-8
+ 45d-bd757ed21ba7&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_OWVkNzUzZWMtODIwNC00NjRjLTliY2YtMTY0NDkxY2ZlMWIz@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n
+RRULE:FREQ=WEEKLY;UNTIL=20261114T093000Z;INTERVAL=1;BYDAY=SA;WKST=MO
+EXDATE;TZID=W. Europe Standard Time:20260530T103000,20260725T103000,2026080
+ 1T103000,20260808T103000,20260815T103000,20260829T103000
+UID:040000008200E00074C5B7101A82E008000000006B65CB22148DDC01000000000000000
+ 01000000040FDE563809B624485F13F417AF8B04A
+SUMMARY:allineamento sviluppi vari
+DTSTART;TZID=W. Europe Standard Time:20260509T103000
+DTEND;TZID=W. Europe Standard Time:20260509T113000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nMicrosoft Teams Serve aiuto?<https://aka.ms/JoinTeams
+ Meeting?omkt=it-IT>\nPartecipa alla riunione ora<https://teams.microsoft.c
+ om/l/meetup-join/19%3ameeting_ZGYyNzkxZDktM2Y2Zi00Mzg1LWIyNTMtNWY3YTE3ZTNi
+ ZDIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b22-ef6d-4f6e-9142-9721f
+ 26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-ace53496a591%22%7d>\nI
+ D riunione: 372 990 997 973 9\nPasscode: gc7xG6R5\n_______________________
+ _________\nPer gli organizzatori: Opzioni riunione<https://teams.microsoft
+ .com/meetingOptions/?organizerId=2a30d864-0aef-499b-81c5-ace53496a591&tena
+ ntId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19_meeting_ZGYyNzkxZDkt
+ M2Y2Zi00Mzg1LWIyNTMtNWY3YTE3ZTNiZDIz@thread.v2&messageId=0&language=it-IT>
+ \n________________________________________________________________________
+ ________\n\n
+RRULE:FREQ=WEEKLY;UNTIL=20261114T133000Z;INTERVAL=1;BYDAY=SA;WKST=MO
+EXDATE;TZID=W. Europe Standard Time:20260516T143000,20260523T143000,2026053
+ 0T143000,20260613T143000,20260704T143000,20260725T143000,20260801T143000,2
+ 0260815T143000,20260829T143000
+UID:040000008200E00074C5B7101A82E0080000000010953CBB3FC9D501000000000000000
+ 01000000011182E165F74B24D81BAAE6CDB71D756
+SUMMARY:informatica con attilio
+DTSTART;TZID=W. Europe Standard Time:20260509T143000
+DTEND;TZID=W. Europe Standard Time:20260509T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:152
+LOCATION:ufficio andrea
+X-MICROSOFT-CDO-APPT-SEQUENCE:152
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/396515165750778?p=jnLGYxqh1rJs6OiR9H\nID riunione: 3
+ 96 515 165 750 778\nPasscode: c4d2pZ6B\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2VlOTAwMmM
+ tOTViYy00MDQ0LWE0YzktOGNiNDlmNzk3NmJj%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%2249d79f86-354c
+ -4818-880b-edf1dcb4b11a%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=49d79f86-354c-4818-8
+ 80b-edf1dcb4b11a&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_Y2VlOTAwMmMtOTViYy00MDQ0LWE0YzktOGNiNDlmNzk3NmJj@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000D0122206A0DFDC01000000000000000
+ 0100000005CFC1A2FF741624A96AD521DF25C26EA
+SUMMARY:revisione costificazione nav
+DTSTART;TZID=W. Europe Standard Time:20260511T104500
+DTEND;TZID=W. Europe Standard Time:20260511T114500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n\n\n_________________________________________________________
+ _______________________\nRiunione di Microsoft Teams\nPartecipa a: https:/
+ /teams.microsoft.com/meet/337101826149938?p=v4uUx0tzzI8yKnMi3P\nID riunion
+ e: 337 101 826 149 938\nPasscode: Ma79GH3T\n______________________________
+ __\nServe aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento
+  di sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjYyYjg
+ xNjMtYmQ3NC00NGNjLWJjNmUtZmNhNGQyMWZmMGU3%40thread.v2/0?context=%7b%22Tid%
+ 22%3a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%22f3548dca-
+ 0849-4ed7-b38a-33fa7d2dffbe%22%7d>\nPer gli organizzatori: Opzioni riunion
+ e<https://teams.microsoft.com/meetingOptions/?organizerId=f3548dca-0849-4e
+ d7-b38a-33fa7d2dffbe&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadI
+ d=19_meeting_NjYyYjgxNjMtYmQ3NC00NGNjLWJjNmUtZmNhNGQyMWZmMGU3@thread.v2&me
+ ssageId=0&language=it-IT>\n_______________________________________________
+ _________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000E181F19143E1DC01000000000000000
+ 010000000418444B78C1B6C4190D8F0F69F951410
+SUMMARY:Weroad pdf
+DTSTART;TZID=W. Europe Standard Time:20260511T153000
+DTEND;TZID=W. Europe Standard Time:20260511T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Ciao Attilio\,\n\nperfetto\, ecco qua l’invito\, ci sentiamo 
+ mercoledì\, buona giornata!\n\nCiao\,\nEmanuele\n________________________
+ ________________________________________________________\nMicrosoft Teams 
+ meeting\nJoin: https://teams.microsoft.com/meet/38292682037899?p=VbWBbj5Ue
+ a1ahemTKm\nMeeting ID: 382 926 820 378 99\nPasscode: MK6p3D4a\n___________
+ _____________________\nNeed help?<https://aka.ms/JoinTeamsMeeting?omkt=en-
+ US> | System reference<https://teams.microsoft.com/l/meetup-join/19%3ameet
+ ing_YWZhZGY2MTEtNTY3Zi00MWUzLWJjZWQtYzA3NDg2Njg1NmZi%40thread.v2/0?context
+ =%7b%22Tid%22%3a%227e5f4e90-c792-4b0d-9646-db99c9acea28%22%2c%22Oid%22%3a%
+ 22117e5401-5e37-4ea4-a332-cc6b4ed6e220%22%7d>\nDial in by phone\n+39 02 30
+ 56 5471\,\,116899729#<tel:+390230565471\,\,116899729> Italy\, Milan\nFind 
+ a local number<https://dialin.teams.microsoft.com/c7add67e-9356-42ee-92bd-
+ 430329dbb155?id=116899729>\nPhone conference ID: 116 899 729#\nFor organiz
+ ers: Meeting options<https://teams.microsoft.com/meetingOptions/?organizer
+ Id=117e5401-5e37-4ea4-a332-cc6b4ed6e220&tenantId=7e5f4e90-c792-4b0d-9646-d
+ b99c9acea28&threadId=19_meeting_YWZhZGY2MTEtNTY3Zi00MWUzLWJjZWQtYzA3NDg2Nj
+ g1NmZi@thread.v2&messageId=0&language=en-US> | Reset dial-in PIN<https://d
+ ialin.teams.microsoft.com/usp/pstnconferencing>\n_________________________
+ _______________________________________________________\n\n\n_____________
+ ________________________________\nFrom: Attilio Fiumanò <attilio.fiumano@
+ gruppocolzani.it>\nSent: Saturday\, 9 May 2026 09:15\nTo: Emanuele Rossi <
+ emanuele.rossi@dev4side.com>\nCc: Fabio Sireci <programmatori@colzani.net>
+ \; Stefano Colzani <stefano.colzani@colzanispa.it>\; Marco Lodini <marco.l
+ odini@dev4side.com>\; Marco Dallera <marco.dallera@dev4side.com>\nSubject:
+  R: Offerta DEV4SIDE – Troubleshooting e Assessment Active Directory\n\n
+ Ciao Emanuele\,\n\ndirei mercoledì 13 ore 15.\n\nMandi tu invito? grazie\
+ n\ngrazie\n\n[grafico-gruppo]\n\nIng. Attilio Fiumanò\nIT Manager\n\nGrup
+ po Colzani S.r.l.\nVia Pacini\, 24 – 20831 Seregno (MB) – ITALY\nTel. 
+ +39 0362 26571\nE-mail. attilio.fiumano@gruppocolzani.it<mailto:attilio.fi
+ umano@gruppocolzani.it>\n\nLe informazioni contenute in questo messaggio s
+ ono da considerarsi strettamente riservate e confidenziali\, dirette esclu
+ sivamente al destinatario indicato\, unico soggetto autorizzato alla lettu
+ ra\, alla copiatura e\, sotto la propria responsabilità\, alla diffusione
+ .\nQualora non foste i destinatari\, Vi informiamo che è assolutamente vi
+ etata qualsiasi forma di riproduzione o diffusione\; siete pregati di elim
+ inare il messaggio\, inviando gentilmente comunicazione al seguente indiri
+ zzo: info@gruppocolzani.it<mailto:info@gruppocolzani.it>.\nThe information
+  contained in this message is strictly privileged and confidential and is 
+ solely destined to the addressee(s) identified above\, who can read\, copy
+  and\, under his  own responsibility\, disseminate such information.\nIf y
+ ou are not the addressee(s)\, we inform you that any copying or disseminat
+ ion is strictly forbidden\; please\, erase this message and contact immedi
+ ately the sender: info@gruppocolzani.it<mailto:info@gruppocolzani.it>\n\nD
+ a: Emanuele Rossi <emanuele.rossi@dev4side.com<mailto:emanuele.rossi@dev4s
+ ide.com>>\nInviato: venerdì 8 maggio 2026 12:25\nA: Attilio Fiumanò <att
+ ilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it>>\nC
+ c: Fabio Sireci <programmatori@colzani.net<mailto:programmatori@colzani.ne
+ t>>\; Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzan
+ i@colzanispa.it>>\; Marco Lodini <marco.lodini@dev4side.com<mailto:marco.l
+ odini@dev4side.com>>\; Marco Dallera <marco.dallera@dev4side.com<mailto:ma
+ rco.dallera@dev4side.com>>\nOggetto: RE: Offerta DEV4SIDE – Troubleshoot
+ ing e Assessment Active Directory\n\nCiao Attilio\,\n\neccomi qua\, per in
+ iziare con l’attività ti propongo i seguenti slot:\n\n\n  *   Mercoled
+ ì 13 maggio dalle 15:00 alle 16:00\n  *   Mercoledì 20 maggio dalle 10:0
+ 0 alle 11:00\n  *   Giovedì 21 maggio dalle 10:00 alle 11:00\n\nTi antici
+ po che sicuramente avremo bisogno di accedere all’infrastruttura tramite
+  VPN e sarà anche necessario un account di dominio amministrativo\, per q
+ uanto riguarda invece un’eventuale VM di servizio\, lo valuteremo in cor
+ so d’opera.\n\nResto in attesa di un vostro riscontro per inviarvi l’a
+ ppuntamento Teams.\n\nGrazie mille e buona giornata.\n\nCiao\,\nEmanuele\n
+ \nEmanuele Rossi\nInfrastructure & Security Manager\nVia Fabio Filzi 5\, M
+ ilan\, Italy\nPhone: +39 02 83439531\nwww.dev4side.com<https://www.dev4sid
+ e.com/>\nwww.intranet.ai<https://www.intranet.ai/>\n [cid:image002.png@01D
+ CE128.712E6680]\n\n\n\nFrom: Marco Dallera <marco.dallera@dev4side.com<mai
+ lto:marco.dallera@dev4side.com>>\nSent: Thursday\, 7 May 2026 11:43\nTo: A
+ ttilio Fiumanò <attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@g
+ ruppocolzani.it>>\nCc: Viviana Galluzzo <viviana.galluzzo@dev4side.com<mai
+ lto:viviana.galluzzo@dev4side.com>>\; Emanuele Rossi <emanuele.rossi@dev4s
+ ide.com<mailto:emanuele.rossi@dev4side.com>>\; Marco Lodini <marco.lodini@
+ dev4side.com<mailto:marco.lodini@dev4side.com>>\; Fabio Sireci <programmat
+ ori@colzani.net<mailto:programmatori@colzani.net>>\; Stefano Colzani <stef
+ ano.colzani@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nSubject:
+  Re: Offerta DEV4SIDE – Troubleshooting e Assessment Active Directory\n\
+ nGrazie Attilio\,\nPerfetto!\nA questo punto lascio la palla a Emanuele\, 
+ che ti contatterà quanto prima.\n\nBuona giornata a tutti.\n\n\n[Marco Da
+ llera]\n\nMarco Dallera\nSales Specialist\nSales\n+390281282751\n[linkedin
+ ]<https://app.signitic.com/l/bGZqaERQcGpJQk41azR6RWkrQzRnUT09-eFZMaExNZWZG
+ QjMvaVVJaDArTTl6Zz09>\n[youtube]<https://app.signitic.com/l/bGZqaERQcGpJQk
+ 41azR6RWkrQzRnUT09-VHU5ZDFDM3h6QXJ6Qm9jSUVjb2Ftdz09>\n\n\n\n______________
+ __________________\nFrom: Attilio Fiumanò <attilio.fiumano@gruppocolzani.
+ it<mailto:attilio.fiumano@gruppocolzani.it>>\nSent: Thursday\, May 07\, 20
+ 26 11:37\nTo: Marco Dallera <marco.dallera@dev4side.com<mailto:marco.dalle
+ ra@dev4side.com>>\nCc: Viviana Galluzzo <viviana.galluzzo@dev4side.com<mai
+ lto:viviana.galluzzo@dev4side.com>>\; Emanuele Rossi <emanuele.rossi@dev4s
+ ide.com<mailto:emanuele.rossi@dev4side.com>>\; Marco Lodini <marco.lodini@
+ dev4side.com<mailto:marco.lodini@dev4side.com>>\; Fabio Sireci <programmat
+ ori@colzani.net<mailto:programmatori@colzani.net>>\; Stefano Colzani <stef
+ ano.colzani@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nSubject:
+  R: Offerta DEV4SIDE – Troubleshooting e Assessment Active Directory\n\n
+ \nBuongiorno Marco\,\n\n\n\nallego proposta siglata digitalmente da Stefan
+ o Colzani.\n\n\n\nGrazie\n\n\n\n[grafico-gruppo]\n\n\n\nIng. Attilio Fiuma
+ nò\n\nIT Manager\n\n\n\nGruppo Colzani S.r.l.\n\nVia Pacini\, 24 – 2083
+ 1 Seregno (MB) – ITALY\n\nTel. +39 0362 26571\n\nE-mail. attilio.fiumano
+ @gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it>\n\n\n\nLe infor
+ mazioni contenute in questo messaggio sono da considerarsi strettamente ri
+ servate e confidenziali\, dirette esclusivamente al destinatario indicato\
+ , unico soggetto autorizzato alla lettura\, alla copiatura e\, sotto la pr
+ opria responsabilità\, alla diffusione.\n\nQualora non foste i destinatar
+ i\, Vi informiamo che è assolutamente vietata qualsiasi forma di riproduz
+ ione o diffusione\; siete pregati di eliminare il messaggio\, inviando gen
+ tilmente comunicazione al seguente indirizzo: info@gruppocolzani.it<mailto
+ :info@gruppocolzani.it>.\n\nThe information contained in this message is s
+ trictly privileged and confidential and is solely destined to the addresse
+ e(s) identified above\, who can read\, copy and\, under his  own responsib
+ ility\, disseminate such information.\n\nIf you are not the addressee(s)\,
+  we inform you that any copying or dissemination is strictly forbidden\; p
+ lease\, erase this message and contact immediately the sender: info@gruppo
+ colzani.it<mailto:info@gruppocolzani.it>\n\n\n\nDa: Marco Dallera <marco.d
+ allera@dev4side.com<mailto:marco.dallera@dev4side.com>>\nInviato: giovedì
+  7 maggio 2026 10:00\nA: Attilio Fiumanò <attilio.fiumano@gruppocolzani.i
+ t<mailto:attilio.fiumano@gruppocolzani.it>>\nCc: Viviana Galluzzo <viviana
+ .galluzzo@dev4side.com<mailto:viviana.galluzzo@dev4side.com>>\; Emanuele R
+ ossi <emanuele.rossi@dev4side.com<mailto:emanuele.rossi@dev4side.com>>\; M
+ arco Lodini <marco.lodini@dev4side.com<mailto:marco.lodini@dev4side.com>>\
+ ; Fabio Sireci <programmatori@colzani.net<mailto:programmatori@colzani.net
+ >>\; Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzani
+ @colzanispa.it>>\nOggetto: Re: Offerta DEV4SIDE – Troubleshooting e Asse
+ ssment Active Directory\n\n\n\nBuongiorno Attilio\,\n\nperfetto\, grazie p
+ er il riscontro e per la disponibilità sulla pianificazione.\n\n\n\nIn at
+ tesa dell’emissione del PO\, volevo chiederti se nel frattempo fosse pos
+ sibile procedere con una conferma formale tramite la firma dell’offerta\
+ , così da poterci organizzare internamente e partire quanto prima con le 
+ attività.\n\n\n\nRimaniamo ovviamente allineati sull’avvio dell’iter 
+ amministrativo in parallelo e\, nel frattempo\, Emanuele prenderà contatt
+ i con voi quanto prima per coordinare operativamente i prossimi passi.\n\n
+ \n\nGrazie e a presto\,\n\nMarco\n\n\n\n\n\n[Marco Dallera]\n\nMarco Da
+ llera\nSales Specialist\nSales\n+390281282751\n\n[linkedin]<https://app.si
+ gnitic.com/l/bGZqaERQcGpJQk41azR6RWkrQzRnUT09-eFZMaExNZWZGQjMvaVVJaDArTTl6
+ Zz09>\n\n[youtube]<https://app.signitic.com/l/bGZqaERQcGpJQk41azR6RWkrQzRn
+ UT09-VHU5ZDFDM3h6QXJ6Qm9jSUVjb2Ftdz09>\n\n\n\n\n\n________________________
+ ________\n\nFrom: Attilio Fiumanò <attilio.fiumano@gruppocolzani.it<mailt
+ o:attilio.fiumano@gruppocolzani.it>>\nSent: Thursday\, May 7\, 2026 09:15\
+ nTo: Marco Dallera <marco.dallera@dev4side.com<mailto:marco.dallera@dev4si
+ de.com>>\nCc: Viviana Galluzzo <viviana.galluzzo@dev4side.com<mailto:vivia
+ na.galluzzo@dev4side.com>>\; Emanuele Rossi <emanuele.rossi@dev4side.com<m
+ ailto:emanuele.rossi@dev4side.com>>\; Marco Lodini <marco.lodini@dev4side.
+ com<mailto:marco.lodini@dev4side.com>>\; Fabio Sireci <programmatori@colza
+ ni.net<mailto:programmatori@colzani.net>>\; Stefano Colzani <stefano.colza
+ ni@colzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nSubject: R: Offer
+ ta DEV4SIDE – Troubleshooting e Assessment Active Directory\n\n\n\nBuong
+ iorno Marco\,\n\n\n\nmentre parte l’iter amministrativo per la conferma 
+ dell’offerta\, in merito alla schedulazione potremmo partire già dalla 
+ settimana prossima.\n\n\n\nSeguiremmo insieme io e Fabio\, io sono disponi
+ bile:\n\nlunedì\, mercoledì o giovedì di settimana prossima – adeguo 
+ un po’ gli orari alle vostre disponibilità\n\nlunedì\, mercoledì matt
+ ina\, giovedì mattina – della settimana successiva\n\n\n\nEventualmente
+  i martedì o venerdì Fabio potrebbe comunque supportarvi se dovete colle
+ garvi in autonomia o fare domande operative.\n\n\n\nQualora servisse\, com
+ e immagino\, vi daremmo accesso tramite VPN mediante OpenVpn\, in modo che
+  possiate vedere ciò che serve.\n\n\n\nUnica nota tecnica: se serve alles
+ tire macchine virtuali “di servizio” per fare il mestiere ci serve sbl
+ occare prima le risorse sul pannello Aruba (tendenzialmente si sbloccano i
+ n qualche ora dalla richiesta). Lo dico al fine di arrivare preparati al m
+ omento degli incontri e call per ridurre gli “sprechi” di tempo.\n\n\n
+ \nFateci sapere\n\n\n\ngrazie\n\n\n\n[grafico-gruppo]\n\n\n\nIng. Attilio 
+ Fiumanò\n\nIT Manager\n\n\n\nGruppo Colzani S.r.l.\n\nVia Pacini\, 24 –
+  20831 Seregno (MB) – ITALY\n\nTel. +39 0362 26571\n\nE-mail. attilio.fi
+ umano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it>\n\n\n\nLe 
+ informazioni contenute in questo messaggio sono da considerarsi strettamen
+ te riservate e confidenziali\, dirette esclusivamente al destinatario indi
+ cato\, unico soggetto autorizzato alla lettura\, alla copiatura e\, sotto 
+ la propria responsabilità\, alla diffusione.\n\nQualora non foste i desti
+ natari\, Vi informiamo che è assolutamente vietata qualsiasi forma di rip
+ roduzione o diffusione\; siete pregati di eliminare il messaggio\, inviand
+ o gentilmente comunicazione al seguente indirizzo: info@gruppocolzani.it<m
+ ailto:info@gruppocolzani.it>.\n\nThe information contained in this message
+  is strictly privileged and confidential and is solely destined to the add
+ ressee(s) identified above\, who can read\, copy and\, under his  own resp
+ onsibility\, disseminate such information.\n\nIf you are not the addressee
+ (s)\, we inform you that any copying or dissemination is strictly forbidde
+ n\; please\, erase this message and contact immediately the sender: info@g
+ ruppocolzani.it<mailto:info@gruppocolzani.it>\n\n\n\nDa: Marco Dallera <ma
+ rco.dallera@dev4side.com<mailto:marco.dallera@dev4side.com>>\nInviato: mer
+ coledì 6 maggio 2026 12:40\nA: Attilio Fiumanò <attilio.fiumano@gruppoco
+ lzani.it<mailto:attilio.fiumano@gruppocolzani.it>>\nCc: Viviana Galluzzo <
+ viviana.galluzzo@dev4side.com<mailto:viviana.galluzzo@dev4side.com>>\; Ema
+ nuele Rossi <emanuele.rossi@dev4side.com<mailto:emanuele.rossi@dev4side.co
+ m>>\; Marco Lodini <marco.lodini@dev4side.com<mailto:marco.lodini@dev4side
+ .com>>\; Fabio Sireci <programmatori@colzani.net<mailto:programmatori@colz
+ ani.net>>\; Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.
+ colzani@colzanispa.it>>\nOggetto: Re: Offerta DEV4SIDE – Troubleshooting
+  e Assessment Active Directory\n\n\n\nNon ricevi spesso messaggi di posta 
+ elettronica da marco.dallera@dev4side.com<mailto:marco.dallera@dev4side.co
+ m>. Scopri perché è importante<https://aka.ms/LearnAboutSenderIdentifica
+ tion>\n\nBuongiorno Attilio\,\n\nTi ringraziamo per il riscontro e per la 
+ fiducia accordata.\n\nConfermiamo che\, ai fini dell’avvio delle attivit
+ à\, fa fede l’offerta già condivisa\, che rialleghiamo per comodità.\
+ n\n\n\nPer procedere\, è sufficiente riceverla firmata oppure\, in altern
+ ativa\, il vostro ordine di acquisto.\n\nNel frattempo restiamo a disposiz
+ ione per pianificare insieme le tempistiche di avvio delle attività.\n\n\
+ n\nUn cordiale saluto\,\nMarco\n\n\n\n[Marco Dallera]\n\nMarco Dallera\nSa
+ les Specialist\nSales\n+390281282751\n\n[linkedin]<https://app.signitic.co
+ m/l/bGZqaERQcGpJQk41azR6RWkrQzRnUT09-eFZMaExNZWZGQjMvaVVJaDArTTl6Zz09>\n\n
+ [youtube]<https://app.signitic.com/l/bGZqaERQcGpJQk41azR6RWkrQzRnUT09-VHU5
+ ZDFDM3h6QXJ6Qm9jSUVjb2Ftdz09>\n\n\n\n\n\n\n\n_____________________________
+ ___\n\nFrom: Attilio Fiumanò <attilio.fiumano@gruppocolzani.it<mailto:att
+ ilio.fiumano@gruppocolzani.it>>\nSent: Wednesday\, May 6\, 2026 12:06\nTo:
+  Marco Dallera <marco.dallera@dev4side.com<mailto:marco.dallera@dev4side.c
+ om>>\nCc: Viviana Galluzzo <viviana.galluzzo@dev4side.com<mailto:viviana.g
+ alluzzo@dev4side.com>>\; Emanuele Rossi <emanuele.rossi@dev4side.com<mailt
+ o:emanuele.rossi@dev4side.com>>\; Marco Lodini <marco.lodini@dev4side.com<
+ mailto:marco.lodini@dev4side.com>>\; Fabio Sireci <programmatori@colzani.n
+ et<mailto:programmatori@colzani.net>>\; Stefano Colzani <stefano.colzani@c
+ olzanispa.it<mailto:stefano.colzani@colzanispa.it>>\nSubject: R: Offerta D
+ EV4SIDE – Troubleshooting e Assessment Active Directory\n\n\n\nBuongiorn
+ o Marco\,\n\n\n\nabbiamo valutato la vostra proposta e siamo lieti di pote
+ r confermare l’approccio da voi proposto.\n\nPossiamo organizzarci al pi
+ ù presto nelle prossime settimane\, per noi prima lo facciamo meglio è.\
+ n\n\n\nCosa serve per procedere?\n\n\n\nDa un punto di vista amministrativ
+ o i dati da usare sono i seguenti:\n\nGruppo Colzani srl\n\nvia Pacini\, 2
+ 4 - 20831 Seregno (MB)\n\nP.iva 05835940965\n\n\n\ngrazie\n\n[grafico-grup
+ po]\n\n\n\nIng. Attilio Fiumanò\n\nIT Manager\n\n\n\nGruppo Colzani S.r.l
+ .\n\nVia Pacini\, 24 – 20831 Seregno (MB) – ITALY\n\nTel. +39 0362 265
+ 71\n\nE-mail. attilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@grup
+ pocolzani.it>\n\n\n\nLe informazioni contenute in questo messaggio sono da
+  considerarsi strettamente riservate e confidenziali\, dirette esclusivame
+ nte al destinatario indicato\, unico soggetto autorizzato alla lettura\, a
+ lla copiatura e\, sotto la propria responsabilità\, alla diffusione.\n\nQ
+ ualora non foste i destinatari\, Vi informiamo che è assolutamente vietat
+ a qualsiasi forma di riproduzione o diffusione\; siete pregati di eliminar
+ e il messaggio\, inviando gentilmente comunicazione al seguente indirizzo:
+  info@gruppocolzani.it<mailto:info@gruppocolzani.it>.\n\nThe information c
+ ontained in this message is strictly privileged and confidential and is so
+ lely destined to the addressee(s) identified above\, who can read\, copy a
+ nd\, under his  own responsibility\, disseminate such information.\n\nIf y
+ ou are not the addressee(s)\, we inform you that any copying or disseminat
+ ion is strictly forbidden\; please\, erase this message and contact immedi
+ ately the sender: info@gruppocolzani.it<mailto:info@gruppocolzani.it>\n\n\
+ n\nDa: Marco Dallera <marco.dallera@dev4side.com<mailto:marco.dallera@dev4
+ side.com>>\nInviato: martedì 5 maggio 2026 09:11\nA: Attilio Fiumanò <at
+ tilio.fiumano@gruppocolzani.it<mailto:attilio.fiumano@gruppocolzani.it>>\;
+  Fabio Sireci <programmatori@colzani.net<mailto:programmatori@colzani.net>
+ >\; Stefano Colzani <stefano.colzani@colzanispa.it<mailto:stefano.colzani@
+ colzanispa.it>>\nCc: Viviana Galluzzo <viviana.galluzzo@dev4side.com<mailt
+ o:viviana.galluzzo@dev4side.com>>\; Emanuele Rossi <emanuele.rossi@dev4sid
+ e.com<mailto:emanuele.rossi@dev4side.com>>\; Marco Lodini <marco.lodini@de
+ v4side.com<mailto:marco.lodini@dev4side.com>>\nOggetto: RE: Offerta DEV4SI
+ DE – Troubleshooting e Assessment Active Directory\n\n\n\nNon ricevi spe
+ sso messaggi di posta elettronica da marco.dallera@dev4side.com<mailto:mar
+ co.dallera@dev4side.com>. Scopri perché è importante<https://aka.ms/Lear
+ nAboutSenderIdentification>\n\nBuongiorno Attilio\,\ncome procede la valut
+ azione dell'offerta? volevo confermarti che siamo pronti a partire e per q
+ uestioni organizzative volevo capire con Voi quando potevamo schedulare l'
+ inizio del delivery se era tutto ok . Ovviamente se servissero ulteriori a
+ pprofondimenti o passaggi siamo super disponibili.\n\na disposizione\nun c
+ aro Saluto\n\nMarco\n\n\n\nMarco Dallera\nSales Specialist\nVia Fabio F
+ ilzi 5\, Milan\, Italy\n\nwww.dev4side.com<https://c2bc3395-62fd-47bc-8393
+ -c02647e0f6bc.pipedrive.email/c/9410gp5wkd/zyre0n6894/my79j1q546/0?redirec
+ tUrl=https%3A%2F%2Fwww.dev4side.com%2F&hash=MCG_LqCPWJxJqjW79yB4BpdzbHdBOY
+ QfeKgSdPCdJ7E>\nwww.intranet.ai<https://c2bc3395-62fd-47bc-8393-c02647e0f6
+ bc.pipedrive.email/c/9410gp5wkd/zyre0n6894/my79j1q546/1?redirectUrl=https%
+ 3A%2F%2Fwww.intranet.ai%2F&hash=y4YHY5oGRx4c5oYczb07GEC0zV33Fo16hRSXBwqe8_
+ k>\n\n[cid:image006.png@01DCE128.712E6680]\n\n\n\nMarco Dallera <marco.dal
+ lera@dev4side.com<mailto:marco.dallera@dev4side.com>> 30 aprile alle 14:59
+  ha scritto:\n\nCiao Attilio\,\n\nCome da accordi intercorsi ti condivido 
+ in allegato la nostra proposta per le attività di troubleshooting e asses
+ sment dell’infrastruttura Active Directory a Voi dedicata.\n\nL’interv
+ ento prevede:\n\n•    3 giornate in modalità Time & Material\, finalizz
+ ate alla diagnosi e risoluzione della problematica che impedisce il join a
+ l dominio\n\n  *   Analisi dello stato dell’ambiente AD e identificazion
+ e della causa root\n  *   Possibile avvio di attività di modernizzazione 
+ dell’infrastruttura (upgrade Domain Controller)\, compatibilmente con i 
+ tempi\n  *   Raccolta informazioni per definire una roadmap evolutiva post
+ -intervento\n\nIl corrispettivo complessivo per l’attività è pari a 
+ € 1.740\,00 (IVA esclusa)\n\nResto a disposizione per eventuali chiarime
+ nti o approfondimenti.\nIn caso di esito positivo\, possiamo pianificare r
+ apidamente l’avvio delle attività.\n\nUn cordiale saluto\,\n\nMarco\n\n
+ \n\nMarco Dallera\nSales Specialist\nVia Fabio Filzi 5\, Milan\, Italy\nPh
+ one: +39 02 81282751\n\nwww.dev4side.com<https://c2bc3395-62fd-47bc-8393-c
+ 02647e0f6bc.pipedrive.email/c/9410gp5wkd/zyre0n6894/my79j1q546/2?redirectU
+ rl=https%3A%2F%2Fwww.dev4side.com%2F&hash=MCG_LqCPWJxJqjW79yB4BpdzbHdBOYQf
+ eKgSdPCdJ7E>\nwww.intranet.ai<https://c2bc3395-62fd-47bc-8393-c02647e0f6bc
+ .pipedrive.email/c/9410gp5wkd/zyre0n6894/my79j1q546/3?redirectUrl=https%3A
+ %2F%2Fwww.intranet.ai%2F&hash=y4YHY5oGRx4c5oYczb07GEC0zV33Fo16hRSXBwqe8_k>
+ \n\n[cid:image007.png@01DCE128.712E6680]\n\n\n\n[https://outlook.office.co
+ m/mail/drafts/id/AAkALgAAAAAAHYQDEapmEc2byACqAC%2FEWg0AtqJXE8bAsEOkJn3poEx
+ CHgAAHWOy0QAA?nativeVersion=1.2026.421.500]\n
+UID:040000008200E00074C5B7101A82E0080000000030536A7028E1DC01000000000000000
+ 0100000003334E3E19805AB4ABBD3B1730A4572F9
+SUMMARY:Offerta DEV4SIDE – Troubleshooting e Assessment Active Directory
+DTSTART;TZID=W. Europe Standard Time:20260513T150000
+DTEND;TZID=W. Europe Standard Time:20260513T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+RRULE:FREQ=WEEKLY;UNTIL=20261111T230000Z;INTERVAL=1;BYDAY=TH;WKST=MO
+UID:040000008200E00074C5B7101A82E00800000000B0CAAE4E20DEDC01000000000000000
+ 0100000001E45BA8C2D793746B9A8B9BEE8B6C9B9
+SUMMARY:fabio smart
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E00800000000109129ECB4E2DC01000000000000000
+ 0100000009EBF7064AEC5F2429E43E0F136670EB6
+SUMMARY:assente mattina
+DTSTART;TZID=W. Europe Standard Time:20260514T083000
+DTEND;TZID=W. Europe Standard Time:20260514T130000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:OOF
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/394344151671966?p=Y18Wwj0lLy3Jfe7thN\nID riunione: 3
+ 94 344 151 671 966\nPasscode: Pp6cL7AC\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTI4MGI5Yzg
+ tOWM2NC00OGVkLTkwZmUtMDczY2FiYzk1YzVi%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%2221a35351-9176
+ -47ef-9ca1-3681b3a47430%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=21a35351-9176-47ef-9
+ ca1-3681b3a47430&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_OTI4MGI5YzgtOWM2NC00OGVkLTkwZmUtMDczY2FiYzk1YzVi@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000003063FF4C24E1DC01000000000000000
+ 01000000055A86D7574E4754F96307D707D864373
+SUMMARY:shippy pro analisi offerta
+DTSTART;TZID=W. Europe Standard Time:20260514T140000
+DTEND;TZID=W. Europe Standard Time:20260514T143000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/329092404545340?p=0WjEkgYWCxmJNDAhzg\nID riunione: 3
+ 29 092 404 545 340\nPasscode: vn2xU7oB\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2Q2N2RjODk
+ tZWVlMi00MmVjLThlMmEtNTJjZDYzNmJlNzMx%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef
+ -499b-81c5-ace53496a591%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=2a30d864-0aef-499b-8
+ 1c5-ace53496a591&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_Y2Q2N2RjODktZWVlMi00MmVjLThlMmEtNTJjZDYzNmJlNzMx@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n
+UID:040000008200E00074C5B7101A82E00800000000B08DD7F2B4DFDC01000000000000000
+ 0100000002762F165FA950E459BFEFF04E2950A14
+SUMMARY:allineamento su società sportive
+DTSTART;TZID=W. Europe Standard Time:20260514T160000
+DTEND;TZID=W. Europe Standard Time:20260514T165000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:2
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:2
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000CD93AD2733C8DC01000000000000000
+ 0100000004DD608F4CFD62C47B14351AD94C06531
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260514T160000
+SUMMARY:Annullata: Nuova procedura carichi WEB
+DTSTART;TZID=W. Europe Standard Time:20260514T160000
+DTEND;TZID=W. Europe Standard Time:20260514T170000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:2
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:2
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E0080000000006FC7B2529A4D901000000000000000
+ 01000000023A953E1887970428458703A00591DCF
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260514T160000
+SUMMARY:Annullata: IT SRL
+DTSTART;TZID=W. Europe Standard Time:20260514T160000
+DTEND;TZID=W. Europe Standard Time:20260514T180000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:92
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:92
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E0080000000020BB84FCB4E2DC01000000000000000
+ 0100000009EBF7064AEC5F2429E43E0F136670EB6
+SUMMARY:presente  mattina
+DTSTART;TZID=W. Europe Standard Time:20260515T083000
+DTEND;TZID=W. Europe Standard Time:20260515T130000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:OOF
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/390110904197039?p=iebzzQAjl5ITFbXO6K\nID riunione: 3
+ 90 110 904 197 039\nPasscode: S5uf6Wx9\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTUyNDRhNDE
+ tNWFkZC00ZDRmLTkwMGItZWYwZDAxYzJiOTFh%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%228e2a637e-25b0
+ -4d95-8b0a-a650fc404e63%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=8e2a637e-25b0-4d95-8
+ b0a-a650fc404e63&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_NTUyNDRhNDEtNWFkZC00ZDRmLTkwMGItZWYwZDAxYzJiOTFh@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000203B46A760E1DC01000000000000000
+ 0100000001CA490166DEA1B4E9AFF2A0DBB0851A2
+SUMMARY:Osservazioni Collegio Sindacale sul magazzino e contabilità di mag
+ azzino
+DTSTART;TZID=W. Europe Standard Time:20260516T090000
+DTEND;TZID=W. Europe Standard Time:20260516T100000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:definire regole per margine errato qlikview global\n\nAdiuto\ni
+ va\nfatturazione amazon singola\nrichieste nav\ntyre24\ngestione vendor sp
+ a per semplificazione operatività\n
+UID:040000008200E00074C5B7101A82E008000000006B65CB22148DDC01000000000000000
+ 01000000040FDE563809B624485F13F417AF8B04A
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260516T103000
+SUMMARY:allineamento sviluppi vari
+DTSTART;TZID=W. Europe Standard Time:20260516T103000
+DTEND;TZID=W. Europe Standard Time:20260516T113000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:12
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:12
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/380624540497072?p=rA90u0NPZn5CfGqxIK\nID riunione: 3
+ 80 624 540 497 072\nPasscode: np28iD2f\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzNmNDcxOGQ
+ tZDgxMi00MDZhLWJjOGItM2Y3ZmJiMDA2M2E5%40thread.v2/0?context=%7b%22Tid%22%3
+ a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%2249d79f86-354c
+ -4818-880b-edf1dcb4b11a%22%7d>\nPer gli organizzatori: Opzioni riunione<ht
+ tps://teams.microsoft.com/meetingOptions/?organizerId=49d79f86-354c-4818-8
+ 80b-edf1dcb4b11a&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19
+ _meeting_MzNmNDcxOGQtZDgxMi00MDZhLWJjOGItM2Y3ZmJiMDA2M2E5@thread.v2&messag
+ eId=0&language=it-IT>\n___________________________________________________
+ _____________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000005C79AB1AE5DC01000000000000000
+ 010000000E57DDE3B5FD43C4B9338F83DE7DAEEFD
+SUMMARY:incontro per movimenti di magazzino
+DTSTART;TZID=W. Europe Standard Time:20260518T100000
+DTEND;TZID=W. Europe Standard Time:20260518T110000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/373662541231839?p=AdCiejvMvVUcXuKtst\nID riunione: 3
+ 73 662 541 231 839\nPasscode: s9hQ9o5F\n________________________________\n
+ Serve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di 
+ sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGJiMTZkYzg
+ tMzBiMC00ZmRmLWFiOTItM2ZjMmI4MTUwMmQ3%40thread.v2/0?context=%7b%22Tid%22%3
+ a%227e5f4e90-c792-4b0d-9646-db99c9acea28%22%2c%22Oid%22%3a%220ff33d84-c3fd
+ -4331-8b12-fab08bad7b2b%22%7d>\nConnettiti telefonicamente\n+39 02 3056 54
+ 71\,\,315653561#<tel:+390230565471\,\,315653561#> Italia\, Milano\nTrova u
+ n numero locale<https://dialin.teams.microsoft.com/c7add67e-9356-42ee-92bd
+ -430329dbb155?id=315653561>\nID conferenza telefonica: 315 653 561#\nPer g
+ li organizzatori: Opzioni riunione<https://teams.microsoft.com/meetingOpti
+ ons/?organizerId=0ff33d84-c3fd-4331-8b12-fab08bad7b2b&tenantId=7e5f4e90-c7
+ 92-4b0d-9646-db99c9acea28&threadId=19_meeting_MGJiMTZkYzgtMzBiMC00ZmRmLWFi
+ OTItM2ZjMmI4MTUwMmQ3@thread.v2&messageId=0&language=it-IT> | Reimposta PIN
+  di accesso<https://dialin.teams.microsoft.com/usp/pstnconferencing>\n____
+ __________________________________________________________________________
+ __\n\n\n________________________________\nLe informazioni\, i dati e le no
+ tizie contenute nella presente comunicazione e i relativi allegati sono di
+  natura privata e come tali possono essere riservate e sono\, comunque\, d
+ estinate esclusivamente ai destinatari indicati in epigrafe. La diffusione
+ \, distribuzione e/o la copia del documento trasmesso da parte di qualsias
+ i soggetto diverso dal destinatario è proibita\, sia ai sensi dell’art.
+  616 c.p.\, sia ai sensi del Regolamento Europeo n. 679/2016 (G.D.P.R.). S
+ e avete ricevuto questo messaggio per errore\, vi preghiamo di distruggerl
+ o e di darcene immediata comunicazione anche inviando un messaggio di rito
+ rno all’indirizzo e-mail del mittente.\n\nThis e-mail (including attachm
+ ents) is intended only for the recipient(s) named above. It may contain co
+ nfidential or privileged information and should not be read\, copied or ot
+ herwise used by any other person. If you are not the named recipient\, ple
+ ase contact the sender and delete the e-mail from your system. Rif. Reg. U
+ E. 2016/679.\n
+UID:040000008200E00074C5B7101A82E00800000000281E48ED50E4DC01000000000000000
+ 01000000093DAB9CE26BE7846BFE223D260FE7A8A
+SUMMARY:Sincronizzazione utenti
+DTSTART;TZID=W. Europe Standard Time:20260518T110000
+DTEND;TZID=W. Europe Standard Time:20260518T120000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION:Riunione Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+RRULE:FREQ=WEEKLY;UNTIL=20261116T230000Z;INTERVAL=1;BYDAY=TU;WKST=MO
+EXDATE;TZID=W. Europe Standard Time:20260602T000000
+UID:040000008200E00074C5B7101A82E0080000000090FFC97320DEDC01000000000000000
+ 01000000099C51658B955B34A95E544FCBBB267BC
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260514T000000
+SUMMARY:alessandro smart
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Configurare microsito\nImportare report da MATTIA su OBW\nRegis
+ trare corrispettivi fino al 15/4\n________________________________________
+ ________________________________________\nRiunione di Microsoft Teams\nPar
+ tecipa a: https://teams.microsoft.com/meet/336669779549396?p=pt8EFOUaw2Dk9
+ S1Ez3\nID riunione: 336 669 779 549 396\nPasscode: 3dj967Vp\n_____________
+ ___________________\nServe aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-
+ IT> | Riferimento di sistema<https://teams.microsoft.com/l/meetup-join/19%
+ 3ameeting_M2U4M2NiZmMtNmQ0My00Y2I1LThiYWYtNTFiMDBiNzQ0Zjg3%40thread.v2/0?c
+ ontext=%7b%22Tid%22%3a%22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%
+ 22%3a%2249d79f86-354c-4818-880b-edf1dcb4b11a%22%7d>\nPer gli organizzatori
+ : Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId
+ =49d79f86-354c-4818-880b-edf1dcb4b11a&tenantId=c5691b22-ef6d-4f6e-9142-972
+ 1f26f6c6b&threadId=19_meeting_M2U4M2NiZmMtNmQ0My00Y2I1LThiYWYtNTFiMDBiNzQ0
+ Zjg3@thread.v2&messageId=0&language=it-IT>\n______________________________
+ __________________________________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000C0A9B1D6BCC2DC01000000000000000
+ 0100000000225B338004B674CBADE057F22E3AF77
+SUMMARY:prove registrazione partita iva tedesca
+DTSTART;TZID=W. Europe Standard Time:20260520T140000
+DTEND;TZID=W. Europe Standard Time:20260520T150000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa da computer o 
+ app per dispositivi mobili\nFai clic qui per partecipare alla riunione<htt
+ ps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI2OTQzOTEtNWFkYi00MW
+ IzLTlkY2UtMDQ1OGNiNTBiZWIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b2
+ 2-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-
+ ace53496a591%22%7d>\nAltre informazioni<https://aka.ms/JoinTeamsMeeting> |
+  Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId=
+ 2a30d864-0aef-499b-81c5-ace53496a591&tenantId=c5691b22-ef6d-4f6e-9142-9721
+ f26f6c6b&threadId=19_meeting_YTI2OTQzOTEtNWFkYi00MWIzLTlkY2UtMDQ1OGNiNTBiZ
+ WIz@thread.v2&messageId=0&language=it-IT>\n_______________________________
+ _________________________________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000006069D14D629FD701000000000000000
+ 0100000001816D03612FADA45949D80D5845D53C1
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260527T123000
+SUMMARY:cda GMD
+DTSTART;TZID=W. Europe Standard Time:20260527T123000
+DTEND;TZID=W. Europe Standard Time:20260527T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:80
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:80
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:E’ richiesta presenza dalle 13.20 per iniziare con la session
+ e alle 13.30\n\nPartecipanti necessari: tutti coloro che lavorano in negoz
+ io.\n\nIo ho scritto questo elenco:\nAnna\, Alice (x2)\, Simone\, Denis\, 
+ Paolo M\, Mara\, Ettore\n\nSe mancasse qualcuno o fosse cambiato qualche n
+ ome fatemelo sapere perché dovrò preparare le utenze necessarie.\n\ngraz
+ ie\n
+UID:040000008200E00074C5B7101A82E00800000000E0D8F5D2C9DFDC01000000000000000
+ 0100000007613E6053976D043B0FBB8DAB5BBA0B6
+SUMMARY:Formazione cassa shopify
+DTSTART;TZID=W. Europe Standard Time:20260528T132000
+DTEND;TZID=W. Europe Standard Time:20260528T150500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION:SportIT Seregno
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E0080000000000B8A4140EDEDC01000000000000000
+ 010000000C95CC53F03154D43995A1EA0A3358394
+SUMMARY:fabio assente per intervento dente
+DTSTART;TZID=W. Europe Standard Time:20260528T140000
+DTEND;TZID=W. Europe Standard Time:20260528T183000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E0080000000090778CD7B4E2DC01000000000000000
+ 0100000001F2A3E40423567408FE55E3C647BE5DE
+SUMMARY:ferie attilio
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260603
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E00800000000E0A9C8280EDEDC01000000000000000
+ 010000000C95CC53F03154D43995A1EA0A3358394
+SUMMARY:fabio probabilmente assente per dente
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Controllo utenti Exchange\n
+RRULE:FREQ=MONTHLY;UNTIL=20260901T063000Z;INTERVAL=3;BYMONTHDAY=1
+UID:040000008200E00074C5B7101A82E00800000000D0F3A0C00EB6D701000000000000000
+ 010000000927F43D65429874B82E16791F25866A6
+SUMMARY:controllo utenti exchange
+DTSTART;TZID=W. Europe Standard Time:20260601T083000
+DTEND;TZID=W. Europe Standard Time:20260601T090000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa da computer o 
+ app per dispositivi mobili\nFai clic qui per partecipare alla riunione<htt
+ ps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI2OTQzOTEtNWFkYi00MW
+ IzLTlkY2UtMDQ1OGNiNTBiZWIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b2
+ 2-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-
+ ace53496a591%22%7d>\nAltre informazioni<https://aka.ms/JoinTeamsMeeting> |
+  Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId=
+ 2a30d864-0aef-499b-81c5-ace53496a591&tenantId=c5691b22-ef6d-4f6e-9142-9721
+ f26f6c6b&threadId=19_meeting_YTI2OTQzOTEtNWFkYi00MWIzLTlkY2UtMDQ1OGNiNTBiZ
+ WIz@thread.v2&messageId=0&language=it-IT>\n_______________________________
+ _________________________________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000006069D14D629FD701000000000000000
+ 0100000001816D03612FADA45949D80D5845D53C1
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260610T123000
+SUMMARY:cda GMD
+DTSTART;TZID=W. Europe Standard Time:20260610T123000
+DTEND;TZID=W. Europe Standard Time:20260610T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:80
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:80
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+RRULE:FREQ=YEARLY;UNTIL=20260627T220000Z;INTERVAL=1;BYDAY=-1SU;BYMONTH=6
+UID:040000008200E00074C5B7101A82E008000000003099C16A8D99D701000000000000000
+ 010000000BAB17789D23CCF478F6C4C235B795F52
+SUMMARY:backup annuale AS GO SAVE 21
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Colzani Gest
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E0080000000020D94306B5E2DC01000000000000000
+ 0100000007038FC6190F9A74B8B6F09E456D712A7
+SUMMARY:attilio ferie
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260803
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:OOF
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa a: https://tea
+ ms.microsoft.com/meet/38694608361455?p=Q4C1VcBj1Fac1NJJ8Q\nID riunione: 38
+ 6 946 083 614 55\nPasscode: 2bi2wB2G\n________________________________\nSe
+ rve aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di si
+ stema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxYjNiMzItO
+ WM2ZC00M2EzLWI3ODItN2NkZTAzMDE5Mzhm%40thread.v2/0?context=%7b%22Tid%22%3a%
+ 22c5691b22-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%2249d79f86-354c-4
+ 818-880b-edf1dcb4b11a%22%7d>\nPer gli organizzatori: Opzioni riunione<http
+ s://teams.microsoft.com/meetingOptions/?organizerId=49d79f86-354c-4818-880
+ b-edf1dcb4b11a&tenantId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19_m
+ eeting_Y2MxYjNiMzItOWM2ZC00M2EzLWI3ODItN2NkZTAzMDE5Mzhm@thread.v2&messageI
+ d=0&language=it-IT>\n_____________________________________________________
+ ___________________________\n\n
+UID:040000008200E00074C5B7101A82E0080000000070FAD19EF294DC01000000000000000
+ 010000000849F48F85AF8BD4096A6BCD92FE433AF
+SUMMARY:scadenza chiavi API VOC
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa da computer o 
+ app per dispositivi mobili\nFai clic qui per partecipare alla riunione<htt
+ ps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI2OTQzOTEtNWFkYi00MW
+ IzLTlkY2UtMDQ1OGNiNTBiZWIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b2
+ 2-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-
+ ace53496a591%22%7d>\nAltre informazioni<https://aka.ms/JoinTeamsMeeting> |
+  Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId=
+ 2a30d864-0aef-499b-81c5-ace53496a591&tenantId=c5691b22-ef6d-4f6e-9142-9721
+ f26f6c6b&threadId=19_meeting_YTI2OTQzOTEtNWFkYi00MWIzLTlkY2UtMDQ1OGNiNTBiZ
+ WIz@thread.v2&messageId=0&language=it-IT>\n_______________________________
+ _________________________________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000006069D14D629FD701000000000000000
+ 0100000001816D03612FADA45949D80D5845D53C1
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260805T123000
+SUMMARY:cda GMD
+DTSTART;TZID=W. Europe Standard Time:20260805T123000
+DTEND;TZID=W. Europe Standard Time:20260805T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:80
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:80
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nMicrosoft Teams Serve aiuto?<https://aka.ms/JoinTeams
+ Meeting?omkt=it-IT>\nPartecipa alla riunione ora<https://teams.microsoft.c
+ om/l/meetup-join/19%3ameeting_ZGYyNzkxZDktM2Y2Zi00Mzg1LWIyNTMtNWY3YTE3ZTNi
+ ZDIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b22-ef6d-4f6e-9142-9721f
+ 26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-ace53496a591%22%7d>\nI
+ D riunione: 372 990 997 973 9\nPasscode: gc7xG6R5\n_______________________
+ _________\nPer gli organizzatori: Opzioni riunione<https://teams.microsoft
+ .com/meetingOptions/?organizerId=2a30d864-0aef-499b-81c5-ace53496a591&tena
+ ntId=c5691b22-ef6d-4f6e-9142-9721f26f6c6b&threadId=19_meeting_ZGYyNzkxZDkt
+ M2Y2Zi00Mzg1LWIyNTMtNWY3YTE3ZTNiZDIz@thread.v2&messageId=0&language=it-IT>
+ \n________________________________________________________________________
+ ________\n\n
+UID:040000008200E00074C5B7101A82E0080000000010953CBB3FC9D501000000000000000
+ 01000000011182E165F74B24D81BAAE6CDB71D756
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260808T143000
+SUMMARY:informatica con attilio
+DTSTART;TZID=W. Europe Standard Time:20260808T143000
+DTEND;TZID=W. Europe Standard Time:20260808T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:152
+LOCATION:ufficio andrea
+X-MICROSOFT-CDO-APPT-SEQUENCE:152
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E00800000000E0734A68B5E2DC01000000000000000
+ 0100000003474579645315B48B15920DD2227B017
+SUMMARY:ferie
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260818
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n
+UID:040000008200E00074C5B7101A82E0080000000070D5796EF7E2DC01000000000000000
+ 010000000DF9BF0EFFAC9474CB36BA3ABA04FB0E8
+SUMMARY:non disponibile
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260830
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:OOF
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nRiunione di Microsoft Teams\nPartecipa da computer o 
+ app per dispositivi mobili\nFai clic qui per partecipare alla riunione<htt
+ ps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI2OTQzOTEtNWFkYi00MW
+ IzLTlkY2UtMDQ1OGNiNTBiZWIz%40thread.v2/0?context=%7b%22Tid%22%3a%22c5691b2
+ 2-ef6d-4f6e-9142-9721f26f6c6b%22%2c%22Oid%22%3a%222a30d864-0aef-499b-81c5-
+ ace53496a591%22%7d>\nAltre informazioni<https://aka.ms/JoinTeamsMeeting> |
+  Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId=
+ 2a30d864-0aef-499b-81c5-ace53496a591&tenantId=c5691b22-ef6d-4f6e-9142-9721
+ f26f6c6b&threadId=19_meeting_YTI2OTQzOTEtNWFkYi00MWIzLTlkY2UtMDQ1OGNiNTBiZ
+ WIz@thread.v2&messageId=0&language=it-IT>\n_______________________________
+ _________________________________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000006069D14D629FD701000000000000000
+ 0100000001816D03612FADA45949D80D5845D53C1
+RECURRENCE-ID;TZID=W. Europe Standard Time:20260909T123000
+SUMMARY:cda GMD
+DTSTART;TZID=W. Europe Standard Time:20260909T123000
+DTEND;TZID=W. Europe Standard Time:20260909T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260517T181656Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:80
+LOCATION:Riunione di Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:80
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+END:VCALENDAR

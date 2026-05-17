@@ -6,8 +6,13 @@ Questa cartella contiene i file `.ics` con gli eventi reali di Atti.
 
 | File | Fonte | Contenuto |
 |------|-------|-----------|
-| *(da definire)* | *(Atti lo specifica)* | *(es. lavoro Colzani)* |
-| *(da definire)* | *(Atti lo specifica)* | *(es. personale/famiglia)* |
+| `colzani_attilio.ics` | Outlook Colzani (feed iCal pubblico) | Calendario di lavoro Colzani |
+| *(da aggiungere)* | *(Atti lo specifica)* | *(es. personale/famiglia)* |
+
+## Feed iCal (per aggiornamento manuale o automatico)
+
+- **Colzani:** `https://outlook.office365.com/owa/calendar/7fb3457027034844b5d50b48e2bec69c@gruppocolzani.it/f25283ccce134adabf48798ad0fffa6915049710397185913243/S-1-8-3933509339-3548900094-466301827-3675311127/reachcalendar.ics`
+  Riscaricare con: `curl -L -o calendars/colzani_attilio.ics "<URL sopra>"`
 
 ## Come esportare da Google Calendar
 
