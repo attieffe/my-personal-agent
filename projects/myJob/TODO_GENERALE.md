@@ -34,6 +34,9 @@
 - [ ] Organizzarsi per revisione auto → [[PERSONALE/automobili/BMW_X1_2020]]
 - [ ] Verificare gonfiaggio gomme (prima volta a Paderno con tempo disponibile)
 
+### [personale · networking · luca benzoni]
+- [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
+
 ### [freelance · agenzia · get me digital]
 - [~] **CEAM** — blocchi geografici IP (errore 403 da paesi esteri) — in attesa risposta NetSense (provider hosting) → [[FREELANCE/GET_ME_DIGITAL/PROGETTI/PROJ-GetMeDigital-ceam-20260513/README|CEAM progetto]]
 
