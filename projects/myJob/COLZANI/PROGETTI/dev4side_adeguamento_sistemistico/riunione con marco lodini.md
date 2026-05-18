@@ -22,7 +22,8 @@
 	- nostro ambiente sembra predisposto
 
 
-- [ ] EDR antivirus comportamentale
+- [ ] EDR antivirus comportamentale (controlla accessi di memoria non autorizzati o altre cose)
+	- [ ] un po pesante e invadente sopratutto per gli sviluppatori
 
 Upgrade di sistema:
 Chiedere ad ADIUTO requisito di LDAP, marco ci manda specifica da chiedere

@@ -183,8 +183,9 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "d2add8721c4c5b31",
+  "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "projects/email-injection/02_logs/~syncthing~pending_actions.json.tmp",
     "projects/myJob/COLZANI/PROGETTI/dev4side_adeguamento_sistemistico/TODO.md",
     "projects/myJob/COLZANI/PROGETTI/dev4side_adeguamento_sistemistico/riunione con marco lodini.md",
@@ -193,7 +194,6 @@
     "projects/myAgenda/preferences/vincoli.md",
     "projects/myAgenda/calendars/README.md",
     "projects/myJob/COLZANI/TODO.md",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "projects/myAgenda/telegram.md",
     "projects/myAgenda/~syncthing~telegram.md.tmp",
     "projects/myAgenda/scripts/~syncthing~padel_checker.py.tmp",
