@@ -17,7 +17,8 @@
 - [ ] Rispondere a Silvio per dominio sportit.es
 
 - [ ] Carichi warehouse SRL · ref: [[TACCUINI/Stefano_Colzani|Taccuino Stefano]]
-- [ ] 
+	- [ ] 18/05/2026 segnalati a marco bug su DATA CARICO, STAMPA CARICO (non vedo in p1), apache
+
 - [ ] Costificazione prodotti AS400 — attesa conferma passaggio costi · ref: [[TACCUINI/Stefano_Colzani|Taccuino Stefano]]
 	- [ ] ecommerce lasciamo margine calcolato sul gruppo come oggi
 	- [ ] marketplace: 
