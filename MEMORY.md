@@ -110,6 +110,7 @@ Convenzione creazione nuova agenzia: `CONVENTIONS.md` sezione 10
 - Email myJob: messaggi **non tecnici, sintetici**
 - No UID nei riepiloghi, solo: mittente reale + azione proposta
 - Telegram: diretto e collaborativo, no fumo
+- Quando invio routine padel via cron, la formatto in modo **Telegram-friendly** (non flat file)
 
 ### MyAgenda — Slot liberi
 - Quando Atti chiede uno slot libero, deve specificare se la verifica è per una call o per una città specifica.
@@ -128,6 +129,7 @@ Convenzione creazione nuova agenzia: `CONVENTIONS.md` sezione 10
 - Voci già dette per la checklist padel mentale: vibora con palla davanti, impugnatura continental, palla profonda che rimbalza dopo la linea; se è lontano dalla rete, a volte usare palla lenta per riconquistarla invece di tirare sempre forte.
 - Vuole aggiungere una routine di allenamento individuale padel per dare continuità a smash, 3, volée, smorzata, risposta di rovescio, vibora e altri colpi.
 - Nella checklist di concentrazione/preparazione partita padel vuole includere anche: provare i rovesci piatti forti.
+- La routine padel inviata via cron va riformattata per Telegram, non incollata come file grezzo.
 
 ### Sessioni Telegram
 - Stessa chat = stesso contesto (no reset automatico)

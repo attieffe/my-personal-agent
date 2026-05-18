@@ -1,5 +1,6 @@
 - [ ] Integrazione **APES MARKETPLACE**: riutilizzare il flusso esistente, non rifare da zero. — `[da definire]`
 	- [ ] vendere online prodotti SOLO MARCHIO APESLAB in BRICOSPORT quindi merce che è a seregno in magazzino SPORTIT , ~~oppure tutti i prodotti anche presenti a modena - questi art non sono nella nostra anagrafica ERP)~~
-	- [ ] listino di vendita dovrebbe essere quello del sito shopify di apes
-	- [ ] scheda prodotto presa da esportazione SHOPIFY, e adeguata importandola in FILEMAKER riutilizzando template usato per IMPORT Shimano [mattia si cfr con paolo]
-		
+	- [ ] listino di vendita desiderato lo gestiamo con i LISTINI ECOMMERCE di NAV e flusso standard [usare logiche standard di aggiornamento prezzi prodotti]
+	- [ ] scheda prodotto FM fatta importando prodotti da esportazione SHOPIFY, e adeguata importandola in FILEMAKER riutilizzando template usato per IMPORT Shimano [mattia si cfr con paolo]
+	- [ ] immaginiamo che su shopify verranno poi messi come bozza per non venderli su SportIT.Com
+	- [ ] I prodotti verranno FATTURATI da BRICOSPORT a GLOBAL trading nel flusso di prelievo ordini tradizionale

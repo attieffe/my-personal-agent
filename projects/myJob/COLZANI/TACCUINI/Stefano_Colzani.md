@@ -3,6 +3,10 @@
 
 ## Argomenti Aperti
 
+
+- [ ] **dev4side** — progetto sistemistico in corso (AD fix, DC upgrade, Entra ID sync) → `[attivo]` — vedi [[../PROGETTI/dev4side_adeguamento_sistemistico/README|README progetto]] · [[../PROGETTI/dev4side_adeguamento_sistemistico/TODO|TODO]]
+	- [ ] decidere se usare ENTRA ID o CONTROLLER DOMINIO NOSTRO per GPO
+- [ ] **statistiche spedizioni** mostrare dashboard https://ws.sportit.com/colzani-api/?r=ricerca_ordini
 - [ ] Report **Registro IVA SPA** - discusso 16/05/2026
 - [ ] **Fatture Amazon Vendor API** fare fattura raggruppata obiettivo, andiamo verso la strada di farlo dal momento dell'xml - discusso 16/05/2026
 - [ ] Integrazione **APES MARKETPLACE**: [vedi appunti](projects/myJob/COLZANI/PROGETTI/apes_lab/marketplace) - discusso 16/05/2026
@@ -15,7 +19,6 @@
 ## In corso
 
 
-- [ ] **dev4side** — progetto sistemistico in corso (AD fix, DC upgrade, Entra ID sync) → `[attivo]` — vedi [[../PROGETTI/dev4side_adeguamento_sistemistico/README|README progetto]] · [[../PROGETTI/dev4side_adeguamento_sistemistico/TODO|TODO]]
 ## Argomenti futuri
 
 - [ ] **NAV BC migrazione aziendale a NAV BC** — sviluppi con IA, migrazione tool. Prossima azione potrebbe farcelo installare. Da chi? — `[da definire]`

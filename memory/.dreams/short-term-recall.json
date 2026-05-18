@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-18T08:57:16.742Z",
+  "updatedAt": "2026-05-18T14:32:01.974Z",
   "entries": {
     "memory:memory/2026-05-12.md:1:8": {
       "key": "memory:memory/2026-05-12.md:1:8",
@@ -9,21 +9,23 @@
       "endLine": 8,
       "source": "memory",
       "snippet": "# 2026-05-12 - Prima configurazione Telegram con AttiEffe. - L'utente ha scelto per me il nome **AttiBot**. - Identità desiderata: ingegnere informatico, un po' simpatico, preciso e sicuro di sé. - Lingua preferita: italiano. - Interesse immediato: configurare Claude Code.",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.8812208324670792,
+      "totalScore": 1.1783274322748185,
       "maxScore": 0.36417687237262725,
       "firstRecalledAt": "2026-05-12T12:40:13.987Z",
-      "lastRecalledAt": "2026-05-13T21:55:01.142Z",
+      "lastRecalledAt": "2026-05-18T14:32:01.974Z",
       "queryHashes": [
         "89f182950b78",
         "e869a20556c0",
-        "3dc90d61d26b"
+        "3dc90d61d26b",
+        "fff5657d94a7"
       ],
       "recallDays": [
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-18"
       ],
       "conceptTags": [
         "prima",
