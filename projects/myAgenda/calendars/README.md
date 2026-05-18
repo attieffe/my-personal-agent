@@ -1,40 +1,22 @@
-# Calendari — istruzioni
+# Calendari — fonti live e calendario proposte
 
-Questa cartella contiene i file `.ics` con gli eventi reali di Atti.
+## Fonti live (da recuperare sempre via curl, mai scaricare)
 
-## File attesi
+| Nome | URL | Contenuto |
+|------|-----|-----------|
+| Colzani (Outlook) | `https://outlook.office365.com/owa/calendar/7fb3457027034844b5d50b48e2bec69c@gruppocolzani.it/f25283ccce134adabf48798ad0fffa6915049710397185913243/S-1-8-3933509339-3548900094-466301827-3675311127/reachcalendar.ics` | Calendario lavoro Colzani |
+| Personale Gmail | `https://calendar.google.com/calendar/ical/ing.fiumano%40gmail.com/private-1e6a7d3bbd7c548786476f11207ad71f/basic.ics` | Tutti gli impegni personali di Atti |
+| Padel Playtomic | `https://ingsoftware.it/ingsoftware/playtomic-ical/ical.php?auth=5uof_dBSABKnWtNZdQP9nm4yOkmlEM8gkCTRAsYS7ZT3lYqu__uuQiB22Sd5JJvBbdlqaP-9AsjcP0LpKdVgS5VGbCwtu19wQrA&asd=1` | Partite padel prenotate su Playtomic |
 
-| File | Fonte | Contenuto |
-|------|-------|-----------|
-| `colzani_attilio.ics` | Outlook Colzani (feed iCal pubblico) | Calendario di lavoro Colzani |
-| *(da aggiungere)* | *(Atti lo specifica)* | *(es. personale/famiglia)* |
+**Regola:** usare sempre il link live via `curl -L "<URL>"`. Non salvare mai i dati come file statico — diventano subito obsoleti.
 
-## Feed iCal (per aggiornamento manuale o automatico)
+## Calendario proposte — myAgenda OC
 
-- **Colzani:** `https://outlook.office365.com/owa/calendar/7fb3457027034844b5d50b48e2bec69c@gruppocolzani.it/f25283ccce134adabf48798ad0fffa6915049710397185913243/S-1-8-3933509339-3548900094-466301827-3675311127/reachcalendar.ics`
-  Riscaricare con: `curl -L -o calendars/colzani_attilio.ics "<URL sopra>"`
+Calendario Google su cui l'agente può **scrivere** tramite Google Calendar API (OAuth già autorizzato).
 
-## Come esportare da Google Calendar
+- **Calendar ID:** `07a5eeed6b895609bd39fd70336815e5c4f81f59ab79527c21677fcfcb548108@group.calendar.google.com`
+- **Credenziali:** `_credentials/google_token.json` (access token + refresh token + client_id/secret)
+- **Scope:** `https://www.googleapis.com/auth/calendar`
 
-1. Vai su calendar.google.com → Impostazioni (⚙️)
-2. Seleziona il calendario → "Esporta calendario"
-3. Scarica il file `.ics`
-4. Rinominalo in modo chiaro (es. `lavoro_colzani.ics`, `personale.ics`)
-5. Aggiungilo a questa cartella
-
-## Come esportare da Outlook
-
-1. File → Apri ed esporta → Importa/Esporta
-2. "Esporta in un file" → "Formato iCalendar (.ics)"
-3. Seleziona il calendario → salva
-
-## Frequenza aggiornamento
-
-I file `.ics` sono snapshot statici — si "invecchiano" man mano che nuovi eventi vengono aggiunti.
-Aggiornare i file periodicamente (suggerito: settimanale o prima di usare myAgenda per pianificazioni future).
-
-## Note tecniche
-
-- I file `.ics` sono testo plain leggibili direttamente dall'agente
-- Gli eventi ricorrenti (RRULE) vengono interpretati come blocchi fissi
-- Timezone: l'agente usa sempre Europe/Rome come riferimento
+Per inserire un evento: `POST https://www.googleapis.com/calendar/v3/calendars/{calendarId}/events` con Bearer token.
+Se il token è scaduto, rinnovarlo con il refresh_token via `https://oauth2.googleapis.com/token`.

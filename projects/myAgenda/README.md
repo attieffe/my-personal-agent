@@ -1,6 +1,6 @@
 # myAgenda
 
-Utility di schedulazione personale di Atti. Legge i calendari reali (file .ics) e le preferenze personali, e propone slot ottimali quando richiesto.
+Utility di schedulazione personale di Atti. Recupera i calendari live e le preferenze personali, e propone slot ottimali quando richiesto.
 
 ## Come invocare
 
@@ -9,8 +9,6 @@ Scrivi ad AttiBot:
 - "Ho bisogno di 2 ore di focus time entro venerdì — quando?"
 - "Quando posso organizzare una riunione Colzani di un'ora?"
 - "Controlla se giovedì pomeriggio sono libero"
-
-L'agente legge i calendari e le preferenze e risponde con proposte concrete.
 
 ## Struttura
 
@@ -21,21 +19,26 @@ myAgenda/
 ├── agents/
 │   └── myagenda.agent.md        — agente principale (user-invocable)
 ├── calendars/
-│   ├── README.md                — istruzioni aggiornamento calendari
-│   └── *.ics                    — file calendario (da aggiungere)
+│   ├── README.md                — fonti live e istruzioni
+│   └── myagenda_oc.ics          — calendario proposte (unico file scrivibile)
 └── preferences/
     ├── vincoli.md               — vincoli temporali fissi
     └── priorita.md              — priorità e contesti
 ```
 
-## Aggiornamento calendari
+## Calendari
 
-I file `.ics` si aggiornano periodicamente (export da Google Calendar / Outlook).
-Vedi `calendars/README.md` per istruzioni dettagliate.
+I calendari vengono recuperati **live** via curl ogni volta — nessun file statico locale.
+Fonti: Outlook Colzani, Google Calendar personale, Playtomic padel.
+Vedi `calendars/README.md` per i link.
+
+## Proposte slot
+
+L'agente scrive le proposte direttamente su **Google Calendar myAgenda OC** via API (OAuth già autorizzato in `_credentials/google_token.json`). Nessun file locale.
 
 ## Stato
 
-- [ ] Calendari da aggiungere (Atti li fornirà)
-- [ ] Preferenze da completare (Atti le dettaglierà)
-- [x] Struttura base creata
+- [x] Calendari: fonti live configurate (no file statici)
+- [x] myAgenda OC: calendario proposte creato
 - [x] Agente configurato
+- [ ] Preferenze da completare (Atti le dettaglierà)
