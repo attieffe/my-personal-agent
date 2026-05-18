@@ -10,6 +10,25 @@
 
 **Regola:** usare sempre il link live via `curl -L "<URL>"`. Non salvare mai i dati come file statico — diventano subito obsoleti.
 
+**Regola padel:** le partite di padel vanno cercate in **entrambe** le fonti:
+- Playtomic ICS → prenotazioni fatte tramite app
+- Personale Gmail ICS → eventi con "padel" nel titolo (allenamenti, tornei, partite fuori Playtomic)
+
+Unire sempre i risultati di entrambe le fonti prima di mostrare le partite.
+
+## Conversione timezone — OBBLIGATORIA
+
+Gli ICS di Google Calendar e Outlook esportano i tempi in **UTC** (senza suffisso `Z` ma comunque UTC).
+Gli ICS di Playtomic usano il suffisso `Z` esplicito (anch'essi UTC).
+
+**Regola ferrea: convertire SEMPRE in ora italiana (Europe/Rome) prima di mostrare qualsiasi orario ad Atti.**
+
+- Estate (CEST, fine marzo–fine ottobre): UTC + 2h
+- Inverno (CET, fine ottobre–fine marzo): UTC + 1h
+
+❌ MAI mostrare orari UTC nudi — causano confusione e decisioni sbagliate.
+✅ SEMPRE mostrare in ora locale italiana, es. "20:00" non "18:00Z".
+
 ## Calendario proposte — myAgenda OC
 
 Calendario Google su cui l'agente può **scrivere** tramite Google Calendar API (OAuth già autorizzato).

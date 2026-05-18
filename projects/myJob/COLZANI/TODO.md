@@ -6,8 +6,8 @@
 - [ ] **Resi 2026 → 2025**: eseguire procedura annuale resi, calcolare totale e mandarlo a Cristina Rizzetto `[colzani · as400 · attilio]` → [[PROGETTI/gestione_fiscale_magazzino/README|Gestione Fiscale Magazzino]]
 - [ ] **immagini online**  capire con fabio quali trattare
 - [ ] Report **Registro IVA SPA** [vedi Taccuino STEFANO](projects/myJob/COLZANI/TACCUINI/Stefano_Colzani)
-	- [ ] chiedere a capgemini modifica report per gestire campo aggiuntivo
-	- [ ] verificare se il tipo extra ue [segnaato da cristina nel ticket](https://gruppocolzani.freshservice.com/a/tickets/4021?current_tab=details) viene gestito perchè sembra non porti ciò che è chiuso
+	- [ ] chiedere a capgemini modifica report per gestire campo aggiuntivo (ricordare: cambiando data FINE il sistema non deve permettere "Registra") · [email UID11](../../../email-injection/inboxes/myjob/90_archive/msg_11_20260516_103535.eml)
+	- [ ] verificare se il tipo extra ue [segnaato da cristina nel ticket](https://gruppocolzani.freshservice.com/a/tickets/4021?current_tab=details) viene gestito perchè sembra non porti ciò che è chiuso · [email UID12](../../../email-injection/inboxes/myjob/90_archive/msg_12_20260516_103535.eml)
 - [ ] Integrazione marketplace e Apes Lab — con Giordano Vignati e Mattia Ballabio (Global Trading / E-Commerce Zone); riutilizzare flusso esistente · ref: [[TACCUINI/Stefano_Colzani|Taccuino Stefano]] [vedi appunti](projects/myJob/COLZANI/PROGETTI/apes_lab/marketplace)
 - [ ] [[PROGETTI/kit_societa/README|KIT SOCIETA']] — carichi società · ref: [[../../myOCcall/data/20260514 1604 teams - carichi società/trascrizione_attribuita|call 2026-05-14]] · [[../../myOCcall/data/20260514 1604 teams - carichi società/SINTESI|sintesi]]
   - [ ] Inserire giacenza WMS + link in file Excel · ref: [[PROGETTI/kit_societa/TODO|TODO KIT SOCIETA']]
