@@ -5,7 +5,7 @@
 | Nome | URL | Contenuto |
 |------|-----|-----------|
 | Colzani (Outlook) | `https://outlook.office365.com/owa/calendar/7fb3457027034844b5d50b48e2bec69c@gruppocolzani.it/f25283ccce134adabf48798ad0fffa6915049710397185913243/S-1-8-3933509339-3548900094-466301827-3675311127/reachcalendar.ics` | Calendario lavoro Colzani |
-| Personale Gmail | `https://calendar.google.com/calendar/ical/ing.fiumano%40gmail.com/private-1e6a7d3bbd7c548786476f11207ad71f/basic.ics` | Tutti gli impegni personali di Atti |
+| Personale Gmail | `https://calendar.google.com/calendar/ical/ing.fiumano%40gmail.com/private-1e6a7d3bbd7c548786476f11207ad71f/basic.ics?futureevents=true` | Tutti gli impegni personali di Atti |
 | Padel Playtomic | `https://ingsoftware.it/ingsoftware/playtomic-ical/ical.php?auth=5uof_dBSABKnWtNZdQP9nm4yOkmlEM8gkCTRAsYS7ZT3lYqu__uuQiB22Sd5JJvBbdlqaP-9AsjcP0LpKdVgS5VGbCwtu19wQrA&asd=1` | Partite padel prenotate su Playtomic |
 
 **Regola:** usare sempre il link live via `curl -L "<URL>"`. Non salvare mai i dati come file statico — diventano subito obsoleti.

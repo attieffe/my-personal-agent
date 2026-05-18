@@ -13,14 +13,14 @@ from datetime import datetime, timezone, timedelta
 BASE = "/home/openclaw/.openclaw/workspace/projects/myAgenda"
 ICS_URLS = [
     "https://ingsoftware.it/ingsoftware/playtomic-ical/ical.php?auth=5uof_dBSABKnWtNZdQP9nm4yOkmlEM8gkCTRAsYS7ZT3lYqu__uuQiB22Sd5JJvBbdlqaP-9AsjcP0LpKdVgS5VGbCwtu19wQrA&asd=1",
-    "https://calendar.google.com/calendar/ical/ing.fiumano%40gmail.com/private-1e6a7d3bbd7c548786476f11207ad71f/basic.ics",
+    "https://calendar.google.com/calendar/ical/ing.fiumano%40gmail.com/private-1e6a7d3bbd7c548786476f11207ad71f/basic.ics?futureevents=true",
 ]
 ROUTINE_FILE = "/home/openclaw/.openclaw/workspace/projects/myJob/PERSONALE/hobby/32_padel.md"
 STATE_FILE   = f"{BASE}/_state/padel_notified.json"
 
 BOT_TOKEN = "8699275494:AAE13PcCiRgMr5ELrAtJMHodaCHCcbtQM3A"
 CHAT_ID   = "-1003877516285"
-TOPIC_ID  = 1
+TOPIC_ID  = 1125
 
 WINDOW_MIN = 15
 WINDOW_MAX = 35
@@ -54,13 +54,19 @@ def parse_ics_events(content):
     return events
 
 
-def parse_dt(raw):
-    raw = raw.replace("Z", "")
+def parse_dt(raw, rome_offset=None):
+    # TZID presente = orario già in ora locale (Europe/Rome), non UTC
+    has_tzid = "TZID=" in raw
     raw = re.sub(r"TZID=[^:]+:", "", raw).strip()
+    is_utc_explicit = raw.endswith("Z")
+    raw = raw.replace("Z", "")
     if "T" not in raw:
         return None
     try:
         dt = datetime.strptime(raw, "%Y%m%dT%H%M%S")
+        if has_tzid and not is_utc_explicit and rome_offset is not None:
+            # Converti da ora Rome → UTC
+            return dt.replace(tzinfo=timezone.utc) - rome_offset
         return dt.replace(tzinfo=timezone.utc)
     except ValueError:
         return None
@@ -149,7 +155,7 @@ def main():
         for event in parse_ics_events(content):
             if not is_padel(event["summary"]):
                 continue
-            dt = parse_dt(event["dtstart_raw"])
+            dt = parse_dt(event["dtstart_raw"], rome_offset)
             if dt is None:
                 continue
             delta_min = (dt - now_utc).total_seconds() / 60
