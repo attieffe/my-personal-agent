@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/COLZANI/TODO.md",
+                "file": "projects/email-injection/_knowledge/INTERLOCUTORS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "INTERLOCUTORS"
             }
           },
           {
@@ -227,8 +227,9 @@
   },
   "active": "df00fa3731a295cb",
   "lastOpenFiles": [
-    "projects/myJob/PERSONALE/README.md",
+    "projects/email-injection/inboxes/myjob/ROUTING_RULES.md",
     "projects/myJob/COLZANI/TODO.md",
+    "projects/myJob/PERSONALE/README.md",
     "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
     "projects/myJob/COLZANI/TEAM/Fabio_TODO.md",
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
@@ -255,7 +256,6 @@
     "projects/myJob/PERSONALE/lavori_a_casa/42_clienti_diretti.md",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/README.md",
     "projects/myJob/PERSONALE/regali/21_regali_bambini.md",
-    "projects/myJob/PERSONALE/regali/20_regali_chiara.md",
     "projects/myJob/PERSONALE/~syncthing~01_todo_riassuntivo.md.tmp",
     "memory/~syncthing~2026-05-18-1352.md.tmp",
     "memory/~syncthing~2026-05-18-1347.md.tmp",
