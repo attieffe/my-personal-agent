@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b03de02cae7ffb1f",
+        "id": "69e93cbaf8b6ae71",
         "type": "tabs",
         "children": [
           {
-            "id": "3cd3a5a16eb195fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOOLS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TOOLS"
-            }
-          },
-          {
-            "id": "d1f302f8dbc8671a",
+            "id": "df00fa3731a295cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,7 +74,8 @@
               "title": "Segnalibri"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -197,43 +184,42 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "3cd3a5a16eb195fa",
+  "active": "df00fa3731a295cb",
   "lastOpenFiles": [
-    "_attachments/static.md",
-    "TOOLS.md",
-    "projects/myJob/COLZANI/README.md",
-    "attachments.md",
+    "projects/myAgenda/_credentials/~syncthing~google_token.json.tmp",
+    "projects/myJob/COLZANI/TEAM/Fabio_TODO.md",
     "projects/myJob/COLZANI/TODO.md",
-    "_attachments/temp",
-    "_attachments/static",
-    "_attachments",
-    "memory/2026-05-16-1106.md",
-    "memory/~syncthing~2026-05-16-1106.md.tmp",
-    "projects/myJob/COLZANI/REGOLE_ASSEGNAZIONE_TASK_A_TODO_COLZANI.md",
-    "projects/myJob/COLZANI/PROGETTI/apes_lab/marketplace.md",
-    "projects/myJob/COLZANI/CHANGELOG.md",
-    "CONSULENTI.md",
+    "projects/myJob/PERSONALE/01_todo_riassuntivo.md",
+    "projects/myJob/PERSONALE/00_index.md",
+    "projects/myJob/COLZANI/TEAM/Alessandro_TODO.md",
     "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
-    "projects/myJob/COLZANI/PROGETTI/apes_lab/vendita.md",
-    "projects/myJob/COLZANI/PROGETTI/apes_lab",
-    "projects/email-injection/IMAP_TEMPLATE.md",
-    "projects/email-injection/README.md",
-    "projects/myJob/EMAIL/02_logs/~syncthing~pending_actions.json.tmp",
+    "memory/2026-05-18-0712.md",
+    "memory/~syncthing~2026-05-18-0712.md.tmp",
+    "projects/myJob/PERSONALE/lavori_a_casa/procedure e documentazione interne/google_calendar_oauth_attibot.md",
+    "projects/myJob/PERSONALE/lavori_a_casa/40_infrastruttura_personale.md",
+    "projects/myJob/PERSONALE/procedure_documentazione_interne/google_calendar_oauth_attibot.md",
+    "projects/myJob/PERSONALE/procedure_documentazione_interne/~syncthing~google_calendar_oauth_attibot.md.tmp",
+    "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/README.md",
+    "projects/myJob/PERSONALE/procedure_documentazione_interne",
+    "projects/myJob/PERSONALE/lavori_a_casa/procedure e documentazione interne",
+    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md",
+    "projects/myJob/~syncthing~CONVENTIONS.md.tmp",
+    "projects/myJob/COLZANI/TEAM/~syncthing~Alessandro_TODO.md.tmp",
+    "projects/myJob/COLZANI/TEAM/~syncthing~Fabio_TODO.md.tmp",
+    "projects/email-injection/inboxes/myjob/00_inbox/msg_17_20260518_070030.eml",
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "projects/myJob/COLZANI/PROGETTI/kit_societa/README.md",
-    "memory/2026-05-16-0815.md",
-    "memory/~syncthing~2026-05-16-0815.md.tmp",
-    "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/01_meetings/MEETING_LOG.md",
-    "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/01_meetings/~syncthing~MEETING_LOG.md.tmp",
-    "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/01_meetings",
-    "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/README.md",
-    "projects/myOCcall/_system/data/20260516 0921 teams/META.md",
-    "memory/2026-05-16-0712-2.md",
-    "memory/2026-05-16-0712.md",
-    "projects/myOCcall/_system/data/20260516 0908 teams/META.md",
-    "memory/2026-05-16-0706.md",
-    "projects/myJob/FREELANCE/GET_ME_DIGITAL/01_meetings/MEETING_LOG.md",
-    "projects/myJob/FREELANCE/GET_ME_DIGITAL/01_meetings/AGENDA_APERTA.md",
-    "memory/2026-05-16-0649.md"
+    "memory/2026-05-18-0653-2.md",
+    "memory/2026-05-18-0653.md",
+    "projects/myJob/_TEMPLATE/PROJECT_ROOT/02_design/01_architettura.md",
+    "projects/myJob/_TEMPLATE/CLIENTE_TEMPLATE.md",
+    "projects/myJob/_TEMPLATE/EMAIL_THREAD_LOG.md",
+    "projects/myJob/_TEMPLATE/LOG_CHANGES_TEMPLATE.md",
+    "projects/myJob/_TEMPLATE/PROGETTO_TEMPLATE.md",
+    "projects/myJob/COLZANI/README.md",
+    "projects/myJob/COLZANI/TEAM/README.md",
+    "projects/myJob/COLZANI/IT_MANAGER.md",
+    "TOOLS.md",
+    "_attachments/static.md",
+    "attachments.md"
   ]
 }

@@ -59,8 +59,10 @@ Ogni task nei file TODO deve riportare **sempre** uno stato. Esistono due format
 **Formato A — compatto** · usato in: `TODO.md`, `TODO_GENERALE.md`, `01_todo_riassuntivo.md`
 → riga unica: `- [stato] [TAG] Titolo — dettaglio · ref: [[link]]`
 
-**Formato B — card** · usato in: `TEAM/Fabio_TODO.md`, `TEAM/Alessandro_TODO.md`
-→ sezione H2 con campo `- **Stato**: [stato]` e sub-bullet opzionali per log/storia
+**Formato B — TEAM** · usato in: `TEAM/Fabio_TODO.md`, `TEAM/Alessandro_TODO.md`
+→ riga compatta: `- [stato] [SCADENZA se presente] Titolo — eventuali link`
+→ sub-bullet con date per log avanzamento: `  - GG/MM/YYYY → nota`
+→ NO Owner (il file è già intestato alla persona); scadenza nel titolo solo se esiste
 
 ---
 

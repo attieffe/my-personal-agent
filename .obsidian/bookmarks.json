@@ -1,16 +1,48 @@
 {
   "items": [
     {
-      "type": "folder",
-      "ctime": 1778914388397,
-      "path": "projects/myJob/COLZANI/TACCUINI",
-      "title": "TACCUINI"
+      "type": "group",
+      "ctime": 1779088450824,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1779088394400,
+          "path": "projects/myJob/COLZANI/TEAM/Fabio_TODO.md",
+          "title": "TODO Fabio"
+        },
+        {
+          "type": "file",
+          "ctime": 1779088367854,
+          "path": "projects/myJob/COLZANI/TEAM/Alessandro_TODO.md",
+          "title": "TODO Alessandro"
+        },
+        {
+          "type": "file",
+          "ctime": 1778914413214,
+          "path": "projects/myJob/COLZANI/TODO.md",
+          "title": "TODO Attilio in COLZANI"
+        },
+        {
+          "type": "folder",
+          "ctime": 1778914388397,
+          "path": "projects/myJob/COLZANI/TACCUINI",
+          "title": "TACCUINI"
+        }
+      ],
+      "title": "COLZANI"
     },
     {
-      "type": "file",
-      "ctime": 1778914413214,
-      "path": "projects/myJob/COLZANI/TODO.md",
-      "title": "COLZANI TODO"
+      "type": "group",
+      "ctime": 1779088453774,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1779088437154,
+          "path": "projects/myJob/PERSONALE/01_todo_riassuntivo.md",
+          "title": "TODO Attilio PESONALE"
+        }
+      ],
+      "title": "PERSONALE"
     }
   ]
 }

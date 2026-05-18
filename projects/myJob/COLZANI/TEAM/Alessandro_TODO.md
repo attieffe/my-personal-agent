@@ -1,99 +1,25 @@
 # TODO Alessandro — COLZANI
 
-## 2026-05-13 — InPost: mappatura meta → numero telefono
+- [-] InPost: mappatura meta → numero telefono — [email](../EMAIL/00_inbox/msg_2_20260513_144509.eml)
+  - 13/05/2026 → risolto da Alessandro, ora in testing; prossimo step: segnalare esito a Paolo Meneghelli
 
-- **Owner**: Alessandro Franzin
-- **Richiesta (fonte)**: email UID 2 — “I: inpost e numero di telefono”
-- **File email**: `../../../EMAIL/00_inbox/msg_2_20260513_144509.eml`
-- **Stato**: [-] in-corso
-  - 2026-05-13: risolto da Alessandro — ora in testing
-  - Prossimo step: Alessandro segnala a Paolo Meneghelli l'esito del testing
-
-### Cosa fare
-1. Analizzare la configurazione `sportit_shopify` per verificare se il **telefono** venga preso dai *meta* specifici (e non solo dai campi standard).
-2. Se il meta sostituisce il numero pre-esistente: verificare la logica per i locker **InPost**.
-3. Partire dall’ordine per risalire al **feed originale** ricevuto da Lotrek via FTP (cartella `orders/ in specialisti`).
-4. Preparare un riscontro/risultato: cosa cambia e dove.
-
-### Output atteso
-- aggiornamento/nota sulla configurazione corretta
-- breve report di esito e prossimi step
-
----
-
-## Tyre24 — fatture
-
-- **Owner**: Alessandro Franzin
-- **Stato**: [~] in-attesa
+- [~] Tyre24 — fatture
   - concluso, in attesa per fatture
 
----
+- [ ] Fatturazione elettronica Shopify
 
-## Fatturazione elettronica Shopify
+- [~] CD Korda
+  - 13/05/2026 → assegnato, in attesa whitelist
 
-- **Owner**: Alessandro Franzin
-- **Stato**: [ ] da fare
+- [ ] Weroad — template fattura
 
-### Cosa fare
-1. Inserire progressivo case-insensitive
-2. Fare guida UTENTE
-3. Archivio locale
+- [ ] Stat ordini con grafici raccolti
 
----
+- [ ] AMAZON invoice API
+  - 14/05/2026 → assegnato (vocale Attilio)
 
-## CD Korda
+- [ ] Autenticazione dominio ws.sportit.com
+  - 14/05/2026 → assegnato (vocale Attilio)
 
-- **Owner**: Alessandro Franzin
-- **Stato**: [~] in-attesa
-  - assegnato, in attesa whitelist (update 2026-05-13)
-
----
-
-## Weroad — template fattura
-
-- **Owner**: Alessandro Franzin
-- **Stato**: [ ] da fare
-- **Note**: spiegato da Fabio
-
----
-
-## Stat ordini con grafici raccolti
-
-- **Owner**: Alessandro Franzin
-- **Stato**: [ ] da fare
-
-### Cosa fare
-1. Dato puntuale aggregato spedizione
-2. Dato cumulativo da inizio giorno
-
----
-
-## AMAZON invoice API
-
-- **Owner**: Alessandro Franzin
-- **Richiesta (fonte)**: vocale Attilio — 2026-05-14 mattina
-- **Stato**: [ ] da fare
-  - 2026-05-14: da assegnare / iniziare
-
-### Cosa fare
-1. Integrare le **API fatture Amazon** (Amazon invoice API) nel sistema.
-
-### Output atteso
-- integrazione funzionante
-- breve report di completamento
-
----
-
-## 2026-05-14 — Autenticazione dominio ws.sportit.com
-
-- **Owner**: Alessandro Franzin
-- **Richiesta (fonte)**: vocale Attilio — 2026-05-14 mattina
-- **Stato**: [ ] da fare
-  - 2026-05-14: da assegnare / iniziare
-
-### Cosa fare
-1. Inserire/implementare l'**autenticazione** nel dominio `ws.sportit.com`.
-
-### Output atteso
-- autenticazione operativa su `ws.sportit.com`
-- breve report di completamento
+- [ ] Amazon Vendor Invoice API
+  - 16/05/2026 → richiesto approfondimento da Attilio

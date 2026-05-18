@@ -4,6 +4,7 @@
 - [ ] [URGENTE] [DELEGATO] Rinnovo dominio enoart — Neda Bazzana · Scadenza: 22/05/2026
 - [~] Ferie team IT — in attesa risposta Alessandro e Fabio · Scadenza: 20/05/2026
 - [ ] **Resi 2026 → 2025**: eseguire procedura annuale resi, calcolare totale e mandarlo a Cristina Rizzetto `[colzani · as400 · attilio]` → [[PROGETTI/gestione_fiscale_magazzino/README|Gestione Fiscale Magazzino]]
+- [ ] **immagini online**  capire con fabio quali trattare
 - [ ] Report **Registro IVA SPA** [vedi Taccuino STEFANO](projects/myJob/COLZANI/TACCUINI/Stefano_Colzani)
 	- [ ] chiedere a capgemini modifica report per gestire campo aggiuntivo
 	- [ ] verificare se il tipo extra ue [segnaato da cristina nel ticket](https://gruppocolzani.freshservice.com/a/tickets/4021?current_tab=details) viene gestito perchè sembra non porti ciò che è chiuso
