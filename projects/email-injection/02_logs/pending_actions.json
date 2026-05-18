@@ -1,35 +1,58 @@
-{
-  "generated_at": "2026-05-18T00:35:00Z",
-  "uids": [
-    {
-      "uid": "11",
-      "eml": "inboxes/myjob/00_inbox/msg_11_20260516_103535.eml",
-      "from": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>",
-      "date": "2026-05-16 12:18 CEST",
-      "subject": "modifica report per liquidazione iva Nav",
-      "type": "continuazione / decisione",
-      "analisi": "Prosecuzione del thread NAV/IVA già noto. Attilio decide di aprire richiesta a Capgemini per la modifica del report; non è un nuovo scope. È collegato alla segnalazione di Cristina già censita in UID 12.",
-      "file_da_aggiornare": "projects/myJob/COLZANI/TODO_COLZANI.md",
-      "sezione": "## TODO ATTILIO",
-      "proposta": "- [ ] **Richiesta Capgemini: modifica report liquidazione IVA NAV** — mandare richiesta per modifica report; vincolo: se data FINE cambiata, bloccare 'Registra' `[colzani · it-manager · attilio]`",
-      "confidenza": 0.95,
-      "richiede_conferma": true,
-      "nota_correlazione": "Correlato a UID 12: soluzione operativa della stessa problematica NAV/IVA."
-    },
-    {
-      "uid": "12",
-      "eml": "inboxes/myjob/00_inbox/msg_12_20260516_103535.eml",
-      "from": "it@gruppocolzani.freshservice.com",
-      "date": "2026-05-16 12:21 CEST",
-      "subject": "Fwd: Risposta al ticket: Colzani SPA errore grave liquidazione IVA",
-      "type": "continuazione / inoltro urgente",
-      "analisi": "Inoltro Freshservice di un ticket già collegato al problema NAV/IVA. Mittente reale: Attilio. Chiede esplicitamente di aggiungerlo ai TODO IMPORTANTI; non va duplicato come nuovo scope, ma censito come aggiornamento del problema esistente.",
-      "file_da_aggiornare": "projects/myJob/COLZANI/TODO_COLZANI.md",
-      "sezione": "## TODO ATTILIO",
-      "proposta": "- [ ] **[IMPORTANTE] Errore grave liquidazione IVA NAV (Cristina)** — fatture vendite extraue (non imponibile art. 8) non considerate nel calcolo; verificare e risolvere `[colzani · it-manager · attilio]`",
-      "confidenza": 0.97,
-      "richiede_conferma": true,
-      "nota_correlazione": "Correlato a UID 11: segnalazione del problema che porta alla richiesta a Capgemini."
-    }
-  ]
-}
+[
+  {
+    "uid": "9",
+    "created_at": "2026-05-15T07:34:00Z",
+    "eml": "projects/myJob/EMAIL/01_to-be-defined/msg_9_20260515_073446.eml",
+    "from_real": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it> (inoltra richiesta originale di Carlo Casella)",
+    "subject": "GESTIONE RESA BANCALI - GLS ITALIA - ORIDNARE TESTINA STAMPA",
+    "type": "continuazione / inoltro",
+    "analysis": "Non è un nuovo scope: il messaggio di Attilio inoltra il thread già noto ‘GESTIONE RESA BANCALI - GLS ITALIA’. La parte operativa nuova è la richiesta di Carlo Casella sulle testine della stampante termica; la frase ‘Da mettere task assegnato a fabio’ indica che va aggiornato il task già censito, non duplicato.",
+    "proposed_target_file": "projects/myJob/COLZANI/TEAM/README.md",
+    "proposed_action": "Aggiornare il task esistente del thread GLS con una sotto-attività assegnata a Fabio: verificare e ordinare 1–2 testine di ricambio per la stampante termica delle postazioni manuali, perché le etichette risultano poco leggibili.",
+    "requires_confirmation": true,
+    "confidence": 0.93,
+    "status": "pending_confirmation"
+  },
+  {
+    "uid": "10",
+    "created_at": "2026-05-16T06:42:00Z",
+    "eml": "projects/email-injection/inboxes/myjob/01_to-be-defined/msg_10_20260516_073530.eml",
+    "from_real": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>",
+    "subject": "amazon api invoice",
+    "type": "continuazione",
+    "analysis": "Non è un nuovo scope: Attilio sta aggiornando la TODO già esistente di Alessandro Franzin su Amazon invoice API. Il testo chiede un approfondimento tecnico sul mondo Amazon Vendor e un possibile punto di integrazione nel flow.",
+    "proposed_target_file": "projects/myJob/COLZANI/TEAM/Alessandro_TODO.md",
+    "proposed_action": "Aggiornare la voce esistente ‘AMAZON invoice API’ con un richiamo alla mail del 2026-05-16: approfondimento tecnico su API Amazon Vendor / invoice API e proposta di integrazione nel flow.",
+    "requires_confirmation": true,
+    "confidence": 0.97,
+    "status": "pending_confirmation"
+  },
+  {
+    "uid": "11",
+    "created_at": "2026-05-16T10:18:13Z",
+    "eml": "projects/email-injection/inboxes/myjob/00_inbox/msg_11_20260516_103535.eml",
+    "from_real": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>",
+    "subject": "modifica report per liquidazione iva Nav",
+    "type": "continuazione / decisione",
+    "analysis": "È la prosecuzione del thread NAV/IVA già noto: Attilio chiude il dubbio precedente e decide di aprire la richiesta a Capgemini per la modifica del report. Non è un nuovo scope, ma un aggiornamento del task esistente legato alla liquidazione IVA NAV.",
+    "proposed_target_file": "projects/myJob/COLZANI/TODO_COLZANI.md",
+    "proposed_action": "Aggiornare il task esistente su liquidazione IVA NAV con la decisione di aprire richiesta a Capgemini; mantenere il vincolo che, se cambia la data FINE, il sistema non deve consentire 'Registra'.",
+    "requires_confirmation": true,
+    "confidence": 0.95,
+    "status": "pending_confirmation"
+  },
+  {
+    "uid": "12",
+    "created_at": "2026-05-16T10:21:41Z",
+    "eml": "projects/email-injection/inboxes/myjob/00_inbox/msg_12_20260516_103535.eml",
+    "from_real": "Attilio Fiumanò <it@gruppocolzani.freshservice.com>",
+    "subject": "Fwd: Risposta al ticket: Colzani SPA errore grave liquidazione IVA",
+    "type": "continuazione / inoltro",
+    "analysis": "È un inoltro del ticket Freshservice già collegato al problema NAV/IVA di Cristina Rizzetto. Il mittente reale è Attilio, che chiede di aggiungerlo ai suoi IMPORTANTI: va censito come aggiornamento/nota del problema già esistente, non come duplicato.",
+    "proposed_target_file": "projects/myJob/COLZANI/TODO_COLZANI.md",
+    "proposed_action": "Aggiornare la voce esistente sui problemi NAV/IVA con la segnalazione di Cristina: calcolo liquidazione IVA ignora le vendite extraUE/non imponibili art. 8 e richiede verifica urgente.",
+    "requires_confirmation": true,
+    "confidence": 0.97,
+    "status": "pending_confirmation"
+  }
+]
