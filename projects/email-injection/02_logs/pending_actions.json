@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-05-16T10:35:00+02:00",
+  "generated_at": "2026-05-18T00:35:00Z",
   "uids": [
     {
       "uid": "11",
       "eml": "inboxes/myjob/00_inbox/msg_11_20260516_103535.eml",
-      "from": "attilio.fiumano@gruppocolzani.it",
+      "from": "Attilio Fiumanò <attilio.fiumano@gruppocolzani.it>",
       "date": "2026-05-16 12:18 CEST",
       "subject": "modifica report per liquidazione iva Nav",
-      "type": "auto-assegnazione",
-      "analisi": "Attilio ha inoltrato a se stesso una decisione già presa: mandare richiesta a Capgemini per modifica del report liquidazione IVA NAV. Nota vincolo: se si cambia data FINE, il sistema non deve permettere 'Registra'. È un nuovo task per TODO ATTILIO in TODO_COLZANI.md.",
+      "type": "continuazione / decisione",
+      "analisi": "Prosecuzione del thread NAV/IVA già noto. Attilio decide di aprire richiesta a Capgemini per la modifica del report; non è un nuovo scope. È collegato alla segnalazione di Cristina già censita in UID 12.",
       "file_da_aggiornare": "projects/myJob/COLZANI/TODO_COLZANI.md",
       "sezione": "## TODO ATTILIO",
       "proposta": "- [ ] **Richiesta Capgemini: modifica report liquidazione IVA NAV** — mandare richiesta per modifica report; vincolo: se data FINE cambiata, bloccare 'Registra' `[colzani · it-manager · attilio]`",
       "confidenza": 0.95,
-      "richiede_conferma": true
+      "richiede_conferma": true,
+      "nota_correlazione": "Correlato a UID 12: soluzione operativa della stessa problematica NAV/IVA."
     },
     {
       "uid": "12",
@@ -21,14 +22,14 @@
       "from": "it@gruppocolzani.freshservice.com",
       "date": "2026-05-16 12:21 CEST",
       "subject": "Fwd: Risposta al ticket: Colzani SPA errore grave liquidazione IVA",
-      "type": "auto-assegnazione urgente",
-      "analisi": "Attilio ha inoltrato ticket FreshService con segnalazione di Cristina Rizzetto: errore grave NAV, 'calcola e registra liquidazione IVA' non considera fatture vendite extraue (non imponibile art. 8). Attilio chiede esplicitamente di aggiungere al suo TODO come cosa IMPORTANTE. Task nuovo urgente.",
+      "type": "continuazione / inoltro urgente",
+      "analisi": "Inoltro Freshservice di un ticket già collegato al problema NAV/IVA. Mittente reale: Attilio. Chiede esplicitamente di aggiungerlo ai TODO IMPORTANTI; non va duplicato come nuovo scope, ma censito come aggiornamento del problema esistente.",
       "file_da_aggiornare": "projects/myJob/COLZANI/TODO_COLZANI.md",
       "sezione": "## TODO ATTILIO",
       "proposta": "- [ ] **[IMPORTANTE] Errore grave liquidazione IVA NAV (Cristina)** — fatture vendite extraue (non imponibile art. 8) non considerate nel calcolo; verificare e risolvere `[colzani · it-manager · attilio]`",
       "confidenza": 0.97,
       "richiede_conferma": true,
-      "nota_correlazione": "UID 11 e UID 12 sono probabilmente correlati (stesso tema NAV/IVA): UID 12 è l'errore sottostante, UID 11 è la decisione di mandare richiesta a Capgemini come soluzione."
+      "nota_correlazione": "Correlato a UID 11: segnalazione del problema che porta alla richiesta a Capgemini."
     }
   ]
 }
