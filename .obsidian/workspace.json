@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/COLZANI/TODO.md",
+                "file": "projects/myJob/COLZANI/PROGETTI/dev4side_adeguamento_sistemistico/Senza nome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "Senza nome"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "giornale",
+                "query": "dev4sid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,13 +185,22 @@
   },
   "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/myJob/COLZANI/PROGETTI/dev4side_adeguamento_sistemistico/TODO.md",
+    "projects/myJob/COLZANI/PROGETTI/dev4side_adeguamento_sistemistico/Senza nome.md",
+    "projects/myJob/COLZANI/PROGETTI/dev4side_adeguamento_sistemistico/README.md",
+    "projects/myAgenda/preferences/priorita.md",
+    "projects/myAgenda/preferences/vincoli.md",
+    "projects/myAgenda/calendars/README.md",
+    "projects/myJob/COLZANI/TODO.md",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/myAgenda/telegram.md",
+    "projects/myAgenda/~syncthing~telegram.md.tmp",
+    "projects/myAgenda/scripts/~syncthing~padel_checker.py.tmp",
     "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/01_meetings/MEETING_LOG.md",
     "projects/myJob/COLZANI/PROGETTI/gestione_fiscale_magazzino/README.md",
     "projects/myJob/COLZANI/TACCUINI/Cristina_Rizzetto.md",
     "projects/myJob/COLZANI/PROGETTI/README.md",
     "projects/myJob/COLZANI/AS400/README.md",
-    "projects/myJob/COLZANI/TODO.md",
-    "projects/myAgenda/calendars/README.md",
     "projects/myAgenda/agents/myagenda.agent.md",
     "memory/2026-05-18-0759.md",
     "memory/~syncthing~2026-05-18-0759.md.tmp",
@@ -200,9 +209,6 @@
     "projects/myAgenda/calendars/~syncthing~README.md.tmp",
     "projects/myAgenda/calendars/myagenda_oc.ics",
     "projects/myAgenda/calendars/~syncthing~myagenda_oc.ics.tmp",
-    "projects/myAgenda/preferences/vincoli.md",
-    "projects/myAgenda/preferences/priorita.md",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "projects/myAgenda/_credentials/~syncthing~google_token.json.tmp",
     "projects/myJob/COLZANI/TEAM/Fabio_TODO.md",
     "projects/myJob/PERSONALE/01_todo_riassuntivo.md",
@@ -210,16 +216,10 @@
     "projects/myJob/COLZANI/TEAM/Alessandro_TODO.md",
     "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
     "memory/2026-05-18-0712.md",
-    "memory/~syncthing~2026-05-18-0712.md.tmp",
     "projects/myJob/PERSONALE/lavori_a_casa/procedure e documentazione interne/google_calendar_oauth_attibot.md",
     "projects/myJob/PERSONALE/lavori_a_casa/40_infrastruttura_personale.md",
     "projects/myJob/PERSONALE/procedure_documentazione_interne/google_calendar_oauth_attibot.md",
-    "projects/myJob/PERSONALE/procedure_documentazione_interne/~syncthing~google_calendar_oauth_attibot.md.tmp",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/README.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md",
-    "memory/2026-05-18-0653-2.md",
-    "memory/2026-05-18-0653.md",
-    "projects/myJob/_TEMPLATE/PROJECT_ROOT/02_design/01_architettura.md",
-    "projects/myJob/_TEMPLATE/CLIENTE_TEMPLATE.md"
+    "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md"
   ]
 }

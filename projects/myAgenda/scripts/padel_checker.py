@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 padel_checker.py
-Controlla i calendari .ics per partite di padel imminenti (15-30 min)
+Controlla i calendari live per partite di padel imminenti (15-35 min)
 e invia il reminder su Telegram con la routine di preparazione.
 Evita duplicati tramite _state/padel_notified.json.
 """
@@ -11,9 +11,9 @@ from datetime import datetime, timezone, timedelta
 
 # ── Configurazione ──────────────────────────────────────────────────────────
 BASE = "/home/openclaw/.openclaw/workspace/projects/myAgenda"
-ICS_FILES = [
-    f"{BASE}/calendars/padel_playtomic.ics",
-    f"{BASE}/calendars/personale_gmail.ics",
+ICS_URLS = [
+    "https://ingsoftware.it/ingsoftware/playtomic-ical/ical.php?auth=5uof_dBSABKnWtNZdQP9nm4yOkmlEM8gkCTRAsYS7ZT3lYqu__uuQiB22Sd5JJvBbdlqaP-9AsjcP0LpKdVgS5VGbCwtu19wQrA&asd=1",
+    "https://calendar.google.com/calendar/ical/ing.fiumano%40gmail.com/private-1e6a7d3bbd7c548786476f11207ad71f/basic.ics",
 ]
 ROUTINE_FILE = "/home/openclaw/.openclaw/workspace/projects/myJob/PERSONALE/hobby/32_padel.md"
 STATE_FILE   = f"{BASE}/_state/padel_notified.json"
@@ -22,60 +22,55 @@ BOT_TOKEN = "8699275494:AAE13PcCiRgMr5ELrAtJMHodaCHCcbtQM3A"
 CHAT_ID   = "-1003877516285"
 TOPIC_ID  = 1
 
-# Finestra: partite che iniziano tra WINDOW_MIN e WINDOW_MAX minuti da ora
 WINDOW_MIN = 15
 WINDOW_MAX = 35
 
 PADEL_KEYWORDS = ["padel", "campo", "playtomic", "tennis", "racchett"]
 
 
-# ── Parsing .ics ─────────────────────────────────────────────────────────────
-def parse_ics_events(filepath):
-    if not os.path.exists(filepath):
-        return []
-    with open(filepath, encoding="utf-8", errors="replace") as f:
-        content = f.read()
+# ── Fetch ICS live ────────────────────────────────────────────────────────────
+def fetch_ics(url):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "myAgenda/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"Errore fetch {url}: {e}", file=sys.stderr)
+        return ""
+
+
+# ── Parsing ICS ───────────────────────────────────────────────────────────────
+def parse_ics_events(content):
     events = []
     for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", content, re.DOTALL):
         def get(field):
             m = re.search(rf"{field}[^:]*:(.*)", block)
             return m.group(1).strip() if m else ""
-        dtstart_raw = get("DTSTART")
-        summary     = get("SUMMARY")
-        location    = get("LOCATION").replace("\\,", ",").replace("\\n", " ")
         events.append({
-            "dtstart_raw": dtstart_raw,
-            "summary": summary,
-            "location": location,
+            "dtstart_raw": get("DTSTART"),
+            "summary":     get("SUMMARY"),
+            "location":    get("LOCATION").replace("\\,", ",").replace("\\n", " "),
         })
     return events
 
 
 def parse_dt(raw):
-    """Converte DTSTART raw in datetime UTC."""
     raw = raw.replace("Z", "")
-    # Rimuove TZID=... se presente
-    raw = re.sub(r"TZID=[^:]+:", "", raw)
-    raw = raw.strip()
-    if "T" in raw:
-        try:
-            dt = datetime.strptime(raw, "%Y%m%dT%H%M%S")
-        except ValueError:
-            return None
-        # Assumiamo UTC se no Z, altrimenti Europe/Rome (offset +2 in estate)
-        # Per semplicità usiamo UTC diretto (i file Playtomic usano UTC)
+    raw = re.sub(r"TZID=[^:]+:", "", raw).strip()
+    if "T" not in raw:
+        return None
+    try:
+        dt = datetime.strptime(raw, "%Y%m%dT%H%M%S")
         return dt.replace(tzinfo=timezone.utc)
-    else:
-        # All-day: non è una partita con orario
+    except ValueError:
         return None
 
 
 def is_padel(summary):
-    s = summary.lower()
-    return any(kw in s for kw in PADEL_KEYWORDS)
+    return any(kw in summary.lower() for kw in PADEL_KEYWORDS)
 
 
-# ── Stato notifiche ──────────────────────────────────────────────────────────
+# ── Stato notifiche ───────────────────────────────────────────────────────────
 def load_state():
     if not os.path.exists(STATE_FILE):
         return {}
@@ -84,30 +79,28 @@ def load_state():
 
 
 def save_state(state):
+    os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
 
-# ── Routine di preparazione ──────────────────────────────────────────────────
+# ── Routine di preparazione ───────────────────────────────────────────────────
 def load_routine():
     if not os.path.exists(ROUTINE_FILE):
         return "(routine non trovata)"
     with open(ROUTINE_FILE, encoding="utf-8") as f:
         content = f.read()
-    # Estrae solo la sezione "Routine di preparazione / concentrazione"
     m = re.search(
         r"## Routine di preparazione.*?\n(.*?)(?=\n---|\n## |\Z)",
         content, re.DOTALL
     )
     if not m:
         return "(sezione routine non trovata)"
-    section = m.group(1).strip()
-    # Pulisce markdown leggero
-    lines = [l for l in section.splitlines() if l.strip() and not l.startswith("_")]
+    lines = [l for l in m.group(1).strip().splitlines() if l.strip() and not l.startswith("_")]
     return "\n".join(lines)
 
 
-# ── Telegram ─────────────────────────────────────────────────────────────────
+# ── Telegram ──────────────────────────────────────────────────────────────────
 def send_telegram(text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = json.dumps({
@@ -116,10 +109,7 @@ def send_telegram(text):
         "text": text,
         "parse_mode": "HTML",
     }).encode()
-    req = urllib.request.Request(
-        url, data=payload,
-        headers={"Content-Type": "application/json"}
-    )
+    req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:
             return resp.status == 200
@@ -128,36 +118,35 @@ def send_telegram(text):
         return False
 
 
-# ── Formattazione messaggio ──────────────────────────────────────────────────
 def format_message(event, dt_rome):
-    orario = dt_rome.strftime("%H:%M")
-    luogo  = event["location"] or "luogo non specificato"
-    partita = event["summary"]
+    orario  = dt_rome.strftime("%H:%M")
+    luogo   = event["location"] or "luogo non specificato"
     routine = load_routine()
-
-    msg = (
+    return (
         f"🎾 <b>Partita tra {WINDOW_MAX} minuti!</b>\n"
-        f"<b>{partita}</b>\n"
+        f"<b>{event['summary']}</b>\n"
         f"🕐 Ore {orario}  |  📍 {luogo}\n\n"
-        f"<b>📋 Routine di preparazione:</b>\n"
-        f"{routine}"
+        f"<b>📋 Routine di preparazione:</b>\n{routine}"
     )
-    return msg
 
 
-# ── Main ─────────────────────────────────────────────────────────────────────
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     now_utc = datetime.now(timezone.utc)
-    rome_offset = timedelta(hours=2)  # CEST (estate); aggiustare in inverno a +1
+    # Offset Europe/Rome: +2 CEST (mar-ott), +1 CET (nov-mar)
+    month = now_utc.month
+    rome_offset = timedelta(hours=2 if 3 < month < 11 else 1)
 
     state = load_state()
-    # Pulizia stato vecchio (> 24h)
     cutoff = (now_utc - timedelta(hours=24)).isoformat()
     state = {k: v for k, v in state.items() if v > cutoff}
 
     found = False
-    for ics_file in ICS_FILES:
-        for event in parse_ics_events(ics_file):
+    for url in ICS_URLS:
+        content = fetch_ics(url)
+        if not content:
+            continue
+        for event in parse_ics_events(content):
             if not is_padel(event["summary"]):
                 continue
             dt = parse_dt(event["dtstart_raw"])
@@ -167,13 +156,11 @@ def main():
             if not (WINDOW_MIN <= delta_min <= WINDOW_MAX):
                 continue
 
-            # Chiave univoca: summary + ora inizio
             key = f"{event['summary']}_{dt.isoformat()}"
             if key in state:
                 print(f"Già notificato: {key}")
                 continue
 
-            # Converti in ora italiana per il messaggio
             dt_rome = dt + rome_offset
             msg = format_message(event, dt_rome)
             ok = send_telegram(msg)
