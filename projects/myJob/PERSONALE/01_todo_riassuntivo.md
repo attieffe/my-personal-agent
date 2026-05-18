@@ -20,6 +20,7 @@
 - [ ] **Verificare gonfiaggio gomme** — da fare la prima volta che vado a Paderno a giocare e ho tempo
 
 ## 2) Lavori “a casa” (no Colzani + clienti diretti)
+- [ ] **Gestire ticket Ionos per rinnovo partita IVA intracomunitaria** — aggiunto 2026-05-18
 - [ ] Casa / infrastruttura personale (NAS + Synology Foto) — vedi `lavori_a_casa/40_infrastruttura_personale.md`
 - [ ] **Configurare l'agente che gestisce calendari e impegni**
 - [ ] Extra Colzani — vedi `lavori_a_casa/41_extra_colzani.md`
