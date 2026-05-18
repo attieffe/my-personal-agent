@@ -225,8 +225,10 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "df00fa3731a295cb",
+  "active": "d2add8721c4c5b31",
   "lastOpenFiles": [
+    "memory/2026-05-18-2122.md",
+    "memory/~syncthing~2026-05-18-2122.md.tmp",
     "projects/email-injection/inboxes/myjob/ROUTING_RULES.md",
     "projects/myJob/COLZANI/TODO.md",
     "projects/myJob/PERSONALE/README.md",
@@ -255,13 +257,11 @@
     "projects/myJob/PERSONALE/lavori_a_casa/41_clienti_agenzie.md",
     "projects/myJob/PERSONALE/lavori_a_casa/42_clienti_diretti.md",
     "projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/README.md",
-    "projects/myJob/PERSONALE/regali/21_regali_bambini.md",
     "projects/myJob/PERSONALE/~syncthing~01_todo_riassuntivo.md.tmp",
     "memory/~syncthing~2026-05-18-1352.md.tmp",
     "memory/~syncthing~2026-05-18-1347.md.tmp",
     "memory/~syncthing~2026-05-18-1303.md.tmp",
     "memory/~syncthing~2026-05-18-1258.md.tmp",
-    "projects/myAgenda/agents/~syncthing~myagenda.agent.md.tmp",
-    "memory/~syncthing~2026-05-18-1249.md.tmp"
+    "projects/myAgenda/agents/~syncthing~myagenda.agent.md.tmp"
   ]
 }
