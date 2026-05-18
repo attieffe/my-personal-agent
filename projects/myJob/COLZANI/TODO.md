@@ -15,8 +15,10 @@
   - [ ] [DA-DISCUTERE] Valutare architettura sistema alert · ref: [[TACCUINI/Andrea_Colzani|Taccuino Andrea]]
 - [-] Progetto scissione BricoSport / SportIt SRL · ref: [Microsoft Loop](https://colzani.sharepoint.com/:fl:/g/contentstorage/CSP_82dff8a4-12f8-4664-87f4-317138d6e005/IQCSm90XFRkXQLQRL-BPQYUwAUj7WZ4xU0JCgZS2OzrmQTY?e=FcXCly&nav=cz0lMkZjb250ZW50c3RvcmFnZSUyRkNTUF84MmRmZjhhNC0xMmY4LTQ2NjQtODdmNC0zMTcxMzhkNmUwMDUmZD1iJTIxcFBqZmd2Z1NaRWFIOURGeE9OYmdCYTRLWktZenRyNVBweWtBWEhVN2VmN1lOeHlXVVlIUVRyRzVzWkhHREgwYiZmPTAxQ0pJQUFFRVNUUE9ST0ZJWkM1QUxJRUpQNEJIVURCSlEmYz0lMkYmYT1Mb29wQXBwJnA9JTQwZmx1aWR4JTJGbG9vcC1wYWdlLWNvbnRhaW5lcg%3D%3D)
 - [ ] Rispondere a Silvio per dominio sportit.es
+- [ ] 
 - [ ] Carichi warehouse SRL · ref: [[TACCUINI/Stefano_Colzani|Taccuino Stefano]]
 - [ ] Dare esempio SKU Jarno convertiti
+- [ ] 
 - [ ] Costificazione prodotti AS400 — attesa conferma passaggio costi · ref: [[TACCUINI/Stefano_Colzani|Taccuino Stefano]]
 	- [ ] ecommerce lasciamo margine calcolato sul gruppo come oggi
 	- [ ] marketplace: 
@@ -30,7 +32,9 @@
 - [ ] Fattura in inglese per Giorgio -fare test con AI-
 - [ ] COLZANI SRL — Integrazione GCAT Ecommerce · ref: [[TACCUINI/Stefano_Colzani|Taccuino Stefano]]
 - [ ] [DA-DISCUTERE] COLZANI SRL — Dashboard carichi web · ref: [[PROGETTI/dashboard_carichi_web/README|COLZANI SRL - Dashboard carichi web]]
+- [ ] 
 - [ ] **Adiuto — frontalini** => ripartiamo con le attività con l'obiettivo di migrare le società di NAV
 - [ ] **Adiuto aggiornamento software** — gestione frontalini e adeguamento nuova versione; TO-BE: processo definito e operativo — `[da avviare post-approvazione]` · ref: [[TACCUINI/Cristina_Rizzetto|Taccuino Cristina]] · [[TACCUINI/Stefano_Colzani|decisione 9/5/26]]
+- [ ] 
 - [x] [URGENTE] VERIFICA TASK BLOCCATO NAV — Codeunit 50016 (Close sales & purchase Order), Error counter: 5, bloccata per troppi riavvii consecutivi · Scadenza: 2026-05-14 · ref: `EMAIL/90_archive/msg_8_20260514_173431.eml`
 

@@ -30,8 +30,6 @@ Ogni area ha un `CHANGELOG.md`. Ogni modifica rilevante deve entrare lì con:
 - Non memorizzo credenziali (IMAP/SMTP) nei file: uso template con placeholder.
 - Se mi chiedi di “leggere la mail”, prima mi dai conferma e le informazioni minime necessarie (senza segreti in chiaro, se possibile).
 
-## “Email per me” (myjob@ingeniosolution.it)
-Quando vuoi iniziare davvero, creiamo insieme il flusso: ingresso → triage → ticket/progetto → aggiornamento dei file.
 ## Regole taccuini e TODO (tutti gli ambiti)
 
 Queste regole si applicano a qualsiasi taccuino o TODO, sia in COLZANI che in tutti gli altri rami (DIRETTI, GET_ME_DIGITAL, SINAPPS, personale, ecc.).

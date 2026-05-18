@@ -18,6 +18,8 @@
 - [ ] Spostare lezione del 29/5/26
 
 ### [personale · infrastruttura · backup]
+- [ ] - Casa / infrastruttura personale (NAS + Synology Foto) — vedi `lavori_a_casa/40_infrastruttura_personale.md`
+- [ ] **Gestire ticket Ionos per rinnovo partita IVA intracomunitaria** — aggiunto 2026-05-18
 - [ ] Creare taccuini markdown dedicati alla documentazione dei backup:
   - backup personale (PC, dati personali)
   - backup NAS
@@ -25,6 +27,10 @@
   - backup OpenClaw
   - backup ambiente TV
   → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
+  
+- [ ] Sistemare NAS + certificati per Synology Foto (non sta funzionando)
+- [ ] Collegare OpenClaw a GitHub Copilot — basta lanciare il comando per connettere il gateway (2026-05-15)
+- [ ] **Approfondire log OpenClaw** — capire come interagisce con i modelli (quali prompt invia, come vengono salvati i log) (2026-05-16)
 
 ### [personale · famiglia · fiscale]
 - [ ] Sentire fratello Eric → rimborso spese detratte
@@ -39,6 +45,10 @@
 
 ### [freelance · agenzia · get me digital]
 - [~] **CEAM** — blocchi geografici IP (errore 403 da paesi esteri) — in attesa risposta NetSense (provider hosting) → [[FREELANCE/GET_ME_DIGITAL/PROGETTI/PROJ-GetMeDigital-ceam-20260513/README|CEAM progetto]]
+
+### freelance - agenzia - sinapps 
+-
+- [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi `../FREELANCE/SINAPPS/README.md`
 
 ### [ingenio · amministrazione]
 - [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
