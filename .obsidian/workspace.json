@@ -227,6 +227,10 @@
   },
   "active": "d2add8721c4c5b31",
   "lastOpenFiles": [
+    "~syncthing~TOOLS.md.tmp",
+    "memory/2026-05-19-1905.md",
+    "memory/~syncthing~2026-05-19-1905.md.tmp",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "memory/2026-05-19-1817.md",
     "memory/~syncthing~2026-05-19-1817.md.tmp",
     "memory/2026-05-19-1805.md",
@@ -234,12 +238,10 @@
     "projects/email-injection/__pycache__/imap_check.cpython-312.pyc",
     "projects/email-injection/__pycache__/~syncthing~imap_check.cpython-312.pyc.tmp",
     "projects/email-injection/__pycache__",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "memory/2026-05-19-1731.md",
     "memory/~syncthing~2026-05-19-1731.md.tmp",
     "projects/myJob/PERSONALE/automobili/~syncthing~BMW_X1_2020.md.tmp",
     "_attachments/static/libretto_BMW_X1_GA258HL.pdf",
-    "_attachments/static/~syncthing~libretto_BMW_X1_GA258HL.pdf.tmp",
     "projects/myJob/PERSONALE/auto/BMW_X1_GA258HL.md",
     "_attachments/temp/libretto_p1.png",
     "memory/2026-05-19-1726.md",
@@ -261,8 +263,6 @@
     "projects/myJob/COLZANI/TACCUINI/Stefano_Colzani.md",
     "projects/myJob/COLZANI/TEAM/Fabio_TODO.md",
     "projects/myJob/COLZANI/PROGETTI/apes_lab/marketplace.md",
-    "projects/myJob/PERSONALE/00_index.md",
-    "projects/myJob/WORKFLOWS.md",
-    "projects/myJob/ROUTING.md"
+    "projects/myJob/PERSONALE/00_index.md"
   ]
 }

@@ -76,6 +76,19 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## Regola: aggiunta/aggiornamento note e informazioni
+
+**Quando Atti mi dà una nota o un'informazione da aggiungere/aggiornare:**
+
+1. **MAI creare un nuovo file `.md` senza chiedergli conferma.**
+2. Cercare prima il file `.md` esistente più adatto (per tema, contesto, progetto).
+3. Se trovo un file adatto → aggiornarlo direttamente.
+4. Se NON trovo un file adatto → **chiedere conferma** prima di crearne uno nuovo, proponendo il path ipotizzato.
+
+> Regola: aggiorna, non proliferare. Un file ben aggiornato vale più di dieci file nuovi.
+
+---
+
 ## Convenzioni archiviazione dati
 ### Files e allegati non .MD
 
