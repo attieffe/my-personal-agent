@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
+                "file": "projects/myJob/PERSONALE/automobili/BMW_X1_2020.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "BMW_X1_2020"
             }
           },
           {
@@ -228,6 +228,8 @@
   "active": "df00fa3731a295cb",
   "lastOpenFiles": [
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/myJob/TODO_GENERALE.md",
+    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/01_meetings/MEETING_LOG.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/00_index.md",
     "MEMORY.md",
@@ -248,7 +250,6 @@
     "projects/myJob/COLZANI/PROGETTI/apes_lab/marketplace.md",
     "projects/myJob/PERSONALE/00_index.md",
     "projects/myJob/WORKFLOWS.md",
-    "projects/myJob/TODO_GENERALE.md",
     "projects/myJob/ROUTING.md",
     "projects/myJob/INSTRUCTIONS_GENERALI.md",
     "projects/myJob/README.md",
@@ -257,7 +258,6 @@
     "projects/myJob/CHANGELOG.md",
     "projects/myJob/ANALISI_OMONIMIE.md",
     "projects/myJob/PERSONALE/lavori_a_casa/40_infrastruttura_personale.md",
-    "projects/myJob/PERSONALE/01_todo_riassuntivo.md",
     "projects/myJob/PERSONALE/~syncthing~01_todo_riassuntivo.md.tmp",
     "memory/~syncthing~2026-05-18-1352.md.tmp",
     "memory/~syncthing~2026-05-18-1347.md.tmp",
