@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MEMORY.md",
+                "file": "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MEMORY"
+              "title": "README"
             }
           },
           {
@@ -225,14 +225,17 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "d2add8721c4c5b31",
+  "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/01_meetings/MEETING_LOG.md",
+    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/00_index.md",
+    "MEMORY.md",
     "memory/2026-05-18-2210.md",
     "memory/~syncthing~2026-05-18-2210.md.tmp",
     "memory/2026-05-18-2156.md",
     "memory/~syncthing~2026-05-18-2156.md.tmp",
     "projects/email-injection/_knowledge/INTERLOCUTORS.md",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "memory/2026-05-18-2122.md",
     "memory/~syncthing~2026-05-18-2122.md.tmp",
     "projects/email-injection/inboxes/myjob/ROUTING_RULES.md",
@@ -255,10 +258,6 @@
     "projects/myJob/ANALISI_OMONIMIE.md",
     "projects/myJob/PERSONALE/lavori_a_casa/40_infrastruttura_personale.md",
     "projects/myJob/PERSONALE/01_todo_riassuntivo.md",
-    "projects/myJob/FREELANCE/SVILUPPI_BUSINESS.md",
-    "projects/myJob/FREELANCE/README.md",
-    "projects/myJob/FREELANCE/CHANGELOG.md",
-    "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/00_index.md",
     "projects/myJob/PERSONALE/~syncthing~01_todo_riassuntivo.md.tmp",
     "memory/~syncthing~2026-05-18-1352.md.tmp",
     "memory/~syncthing~2026-05-18-1347.md.tmp",

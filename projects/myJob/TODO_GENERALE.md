@@ -33,6 +33,7 @@
 - [ ] **Approfondire log OpenClaw** — capire come interagisce con i modelli (quali prompt invia, come vengono salvati i log) (2026-05-16)
 
 ### [personale · famiglia · fiscale]
+- [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [ ] Sentire fratello Eric → rimborso spese detratte
 - [ ] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
 
@@ -44,7 +45,7 @@
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
 
 ### [freelance · agenzia · get me digital]
-- [~] **CEAM** — blocchi geografici IP (errore 403 da paesi esteri) — in attesa risposta NetSense (provider hosting) → [[FREELANCE/GET_ME_DIGITAL/PROGETTI/PROJ-GetMeDigital-ceam-20260513/README|CEAM progetto]]
+- [~] **CEAM** — blocchi geografici IP — Netsons ha rimosso i blocchi (2026-05-19); da fare: test VPN dal Brasile → [[FREELANCE/GET_ME_DIGITAL/PROGETTI/PROJ-GetMeDigital-ceam-20260513/README|CEAM progetto]]
 
 ### freelance - agenzia - sinapps 
 -
