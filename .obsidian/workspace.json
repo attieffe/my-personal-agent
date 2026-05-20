@@ -225,8 +225,10 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "d2add8721c4c5b31",
+  "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "memory/2026-05-20-0701.md",
+    "memory/~syncthing~2026-05-20-0701.md.tmp",
     "memory/2026-05-19-2227.md",
     "memory/~syncthing~2026-05-19-2227.md.tmp",
     "memory/2026-05-19-2203.md",
@@ -244,7 +246,6 @@
     "memory/2026-05-19-1905.md",
     "memory/~syncthing~2026-05-19-1905.md.tmp",
     "memory/2026-05-19-1817.md",
-    "memory/~syncthing~2026-05-19-1817.md.tmp",
     "memory/2026-05-19-1805.md",
     "memory/2026-05-19-1731.md",
     "projects/myJob/PERSONALE/auto/BMW_X1_GA258HL.md",
@@ -262,7 +263,6 @@
     "memory/2026-05-18-2156.md",
     "projects/email-injection/_knowledge/INTERLOCUTORS.md",
     "memory/2026-05-18-2122.md",
-    "projects/email-injection/inboxes/myjob/ROUTING_RULES.md",
-    "projects/myJob/COLZANI/TODO.md"
+    "projects/email-injection/inboxes/myjob/ROUTING_RULES.md"
   ]
 }
