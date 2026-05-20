@@ -48,6 +48,7 @@
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
 
 ### [freelance · agenzia · get me digital]
+- [ ] Mandare calcoli GET ME DIGITAL secondo semestre 2025 a Neda e Cristina — aggiunto 2026-05-20
 - [~] **CEAM** — blocchi geografici IP — Netsons ha rimosso i blocchi (2026-05-19); da fare: test VPN dal Brasile → [[FREELANCE/GET_ME_DIGITAL/PROGETTI/PROJ-GetMeDigital-ceam-20260513/README|CEAM progetto]]
 
 ### freelance - agenzia - sinapps 

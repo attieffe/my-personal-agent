@@ -227,7 +227,13 @@
   },
   "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
+    "memory/2026-05-20-1101.md",
+    "memory/~syncthing~2026-05-20-1101.md.tmp",
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/email-injection/inboxes/myjob/00_inbox/msg_20_20260520_103227.eml",
+    "projects/email-injection/inboxes/myjob/00_inbox/~syncthing~msg_20_20260520_103227.eml.tmp",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~incoming_untriaged.md.tmp",
     "memory/2026-05-20-0701.md",
     "memory/~syncthing~2026-05-20-0701.md.tmp",
     "memory/2026-05-19-2227.md",
@@ -239,12 +245,8 @@
     "memory/~syncthing~2026-05-19-2200.md.tmp",
     "memory/~syncthing~2026-05-19-2200-2.md.tmp",
     "memory/2026-05-19-2137.md",
-    "memory/~syncthing~2026-05-19-2137.md.tmp",
     "memory/2026-05-19-2121.md",
-    "memory/~syncthing~2026-05-19-2121.md.tmp",
-    "~syncthing~TOOLS.md.tmp",
     "memory/2026-05-19-1905.md",
-    "memory/~syncthing~2026-05-19-1905.md.tmp",
     "memory/2026-05-19-1817.md",
     "memory/2026-05-19-1805.md",
     "memory/2026-05-19-1731.md",
@@ -261,7 +263,6 @@
     "MEMORY.md",
     "memory/2026-05-18-2210.md",
     "memory/2026-05-18-2156.md",
-    "projects/email-injection/_knowledge/INTERLOCUTORS.md",
-    "memory/2026-05-18-2122.md"
+    "projects/email-injection/_knowledge/INTERLOCUTORS.md"
   ]
 }
