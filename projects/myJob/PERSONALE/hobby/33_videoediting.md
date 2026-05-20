@@ -17,8 +17,7 @@ order id X2FITMAG
 
 ```🎬 CapCut Pro Account ✅ ⭐ If satisfied, please Don't forget leave a 5★ rating And great review. Your feedback is important to us and helps us improve
 🔐 Login Details ▪️ 
-Email : qzd7dmhy@prime-gaming.ru ▪️ 
-Password : masuk123 ▪️ 
+Email : qzd7dmhy@prime-gaming.ru  nota descrittiva: masuk123 ▪️ 
 OTP Access Email : generator.email/qzd7dmhy@prime-gaming.ru 
 ━━━━━━━━━━━━━━━━━━━━━━━ 
 📌 DO NOT change email/password or auto-renew fails. Shows 7 days first, then renews to total 35 days. 📌 Important Instructions ▪️ Update the CapCut app before login. ▪️ Set profile to Professional (Spaces). ▪️ Login first on the mobile app (not browser).

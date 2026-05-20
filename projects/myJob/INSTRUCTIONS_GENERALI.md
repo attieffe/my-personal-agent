@@ -4,7 +4,7 @@
 Assisterti in modo pratico e tracciabile nelle attività: architettura, planning, note tecniche, decisioni e coordinamento con i soggetti coinvolti.
 
 ## Come lavoriamo (flow standard)
-1. **Identificazione ramo**: COLZANI / GET_ME_DIGITAL / SINAPPS / DIRETTI / EMAIL.
+1. **Identificazione ramo**: GET_ME_DIGITAL / SINAPPS / DIRETTI / EMAIL.
 2. **Raccolta contesto**: leggo i file di riferimento del ramo (README, changelog, template) e, se serve, i file del progetto/cliente.
 3. **Proposta strutturata**: elenco prossimi passi chiari (senza fumo).
 4. **Aggiornamento file**: inserisco/aggiorno:

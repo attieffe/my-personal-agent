@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/PERSONALE/automobili/BMW_X1_2020.md",
+                "file": "projects/myJob/PERSONALE/hobby/Rete.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BMW_X1_2020"
+              "title": "Rete"
             }
           },
           {
@@ -227,10 +227,26 @@
   },
   "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/myJob/PERSONALE/hobby/30_computer.md",
+    "projects/myJob/PERSONALE/hobby/Rete.md",
+    "projects/myJob/PERSONALE/casa/dispositivi_in_possesso.md",
+    "projects/myJob/TODO_GENERALE.md",
+    "memory/2026-05-20-2200.md",
+    "memory/~syncthing~2026-05-20-2200.md.tmp",
+    "projects/myJob/CHANGELOG.md",
+    "projects/myJob/CONVENTIONS.md",
+    "projects/myJob/CONVENZIONI_NAMING.md",
+    "projects/myJob/INSTRUCTIONS_GENERALI.md",
+    "projects/myJob/ROUTING.md",
+    "projects/myJob/WORKFLOWS.md",
+    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
+    "projects/myJob/PERSONALE/hobby/33_videoediting.md",
+    "projects/myJob/PERSONALE/hobby/32_padel.md",
+    "projects/myJob/PERSONALE/hobby/31_chitarra.md",
+    "projects/myJob/PERSONALE/automobili/BMW_X1_2020.md",
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "memory/2026-05-20-1306.md",
     "memory/~syncthing~2026-05-20-1306.md.tmp",
-    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
     "memory/2026-05-20-1101.md",
     "memory/~syncthing~2026-05-20-1101.md.tmp",
     "projects/email-injection/inboxes/myjob/00_inbox/msg_20_20260520_103227.eml",
@@ -241,27 +257,12 @@
     "memory/2026-05-19-2227.md",
     "memory/~syncthing~2026-05-19-2227.md.tmp",
     "memory/2026-05-19-2203.md",
-    "memory/~syncthing~2026-05-19-2203.md.tmp",
     "memory/2026-05-19-2200.md",
     "memory/2026-05-19-2200-2.md",
     "memory/2026-05-19-2137.md",
     "memory/2026-05-19-2121.md",
     "memory/2026-05-19-1905.md",
     "memory/2026-05-19-1817.md",
-    "memory/2026-05-19-1805.md",
-    "memory/2026-05-19-1731.md",
-    "projects/myJob/PERSONALE/auto/BMW_X1_GA258HL.md",
-    "_attachments/temp/libretto_p1.png",
-    "memory/2026-05-19-1726.md",
-    "memory/2026-05-19-1718.md",
-    "memory/2026-05-19-1710.md",
-    "memory/2026-05-19-1557.md",
-    "projects/myJob/TODO_GENERALE.md",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/01_meetings/MEETING_LOG.md",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/00_index.md",
-    "MEMORY.md",
-    "memory/2026-05-18-2210.md",
-    "memory/2026-05-18-2156.md"
+    "_attachments/temp/libretto_p1.png"
   ]
 }

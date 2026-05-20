@@ -1,7 +1,4 @@
 # TODO Generale — Atti
-> Copre tutto **escluso Colzani** (vedi `COLZANI/`).
-> Formato contesto: `[sfera · canale · soggetto]`
->
 > **Regole:**
 > - Task semplice → solo questa riga con stato
 > - Task con approfondimento → `→ [[percorso/file]]` + backlink nel file
@@ -12,14 +9,8 @@
 
 ## TO-DO ATTIVI
 
-### [personale · sport · paddle]
-
-### [personale · sport · tennis]
-- [ ] Spostare lezione del 29/5/26
-
 ### [personale · infrastruttura · backup]
 - [ ] - Casa / infrastruttura personale (NAS + Synology Foto) — vedi `lavori_a_casa/40_infrastruttura_personale.md`
-- [ ] **Gestire ticket Ionos per rinnovo partita IVA intracomunitaria** — aggiunto 2026-05-18
 - [ ] Creare taccuini markdown dedicati alla documentazione dei backup:
   - backup personale (PC, dati personali)
   - backup NAS
@@ -30,13 +21,13 @@
   
 - [ ] Sistemare NAS + certificati per Synology Foto (non sta funzionando)
 - [ ] Collegare OpenClaw a GitHub Copilot — basta lanciare il comando per connettere il gateway (2026-05-15)
-- [ ] **Approfondire log OpenClaw** — capire come interagisce con i modelli (quali prompt invia, come vengono salvati i log) (2026-05-16)
 
 ### [personale · famiglia · fiscale]
 - [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [ ] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
 
 ### [personale · automobili]
+- [ ] Richiedere fattura elettronica Q8Easy — scontrino 20/05/2026, ticket 174784, €77,14, POS 1241 Seregno [scade 26/05/2026]
 - [ ] Pagare bollo auto
 - [ ] Organizzarsi per revisione auto [scade 30/06/2026] → [[PERSONALE/automobili/BMW_X1_2020]]
 - [ ] Verificare gonfiaggio gomme (prima volta a Paderno con tempo disponibile)
@@ -66,8 +57,8 @@
 - Lista acquisti → [[PERSONALE/personale_tempo_libero/10_cose_da_comprare]]
 - Vacanze → [[PERSONALE/personale_tempo_libero/11_luoghi_vacanza]]
 - Note personali → [[PERSONALE/personale_tempo_libero/12_note_personali]]
-- Regali Chiara → [[PERSONALE/regali/20_regali_chiara]]
-- Regali bambini → [[PERSONALE/regali/21_regali_bambini]]
+- Regali Chiara → [[20_regali_chiara]]
+- Regali bambini → [[21_regali_bambini]]
 - Hobby (computer/chitarra/paddle) → [[PERSONALE/hobby/]]
 - Casa / NAS → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
 - Automobili → [[PERSONALE/automobili/]]

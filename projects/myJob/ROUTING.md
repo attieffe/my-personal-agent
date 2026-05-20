@@ -17,14 +17,6 @@ Solo se Atti conferma (o se il contesto è inequivocabile), procedere. In caso d
 
 ## Mappa TODO per contesto
 
-### Lavoro Colzani (cliente principale)
-- **TODO Attilio su attività Colzani** → `projects/myJob/COLZANI/TODO.md`
-- **TODO Alessandro Franzin** → `projects/myJob/COLZANI/TEAM/Alessandro_TODO.md`
-- **TODO Fabio** (sistemista) → `projects/myJob/COLZANI/TEAM/Fabio_TODO.md`
-- **TODO progetto specifico Colzani** → `projects/myJob/COLZANI/PROGETTI/<nome_progetto>/TODO.md`
-
-Parole chiave che indicano COLZANI: "colzani", "lavoro principale", "as400", "team", "Alessandro", "Fabio", "stefano", "apes lab"
-
 ### Freelance e lavori da casa
 - **TODO generali freelance / ingenio / personale** → `projects/myJob/TODO_GENERALE.md`
   - Copre: freelance (GMD, Sinapps, Newu, diretti), Ingenio Solution, tutto tranne Colzani
@@ -44,7 +36,7 @@ Parole chiave: "personale", "hobby", "padel", "famiglia", "casa", "acquisti", "c
 
 Se Atti dice solo "aggiungi ai TODO" senza specificare il contesto:
 
-1. Analizzare il contenuto del task: è chiaramente lavorativo Colzani? freelance? personale?
+1. Analizzare il contenuto del task: è chiaramente lavorativo? freelance? personale?
 2. Se chiaro → routing automatico con dichiarazione preventiva (vedi REGOLA ZERO)
 3. Se ambiguo → CHIEDERE: "In quale area va questo task? Colzani / Freelance / Personale?"
 
@@ -72,11 +64,6 @@ Questi file hanno nomi simili a TODO ma NON sono TODO operativi:
 projects/myJob/
 ├── ROUTING.md              ← QUESTO FILE (leggi sempre prima)
 ├── TODO_GENERALE.md        ← TODO Atti: freelance + ingenio + personale (NON Colzani)
-├── COLZANI/
-│   ├── TODO.md             ← TODO Atti su Colzani
-│   └── TEAM/
-│       ├── Alessandro_TODO.md
-│       └── Fabio_TODO.md
 ├── FREELANCE/
 │   ├── GET_ME_DIGITAL/README.md
 │   ├── SINAPPS/README.md
