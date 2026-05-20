@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/PERSONALE/hobby/Rete.md",
+                "file": "projects/myJob/TODO_GENERALE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rete"
+              "title": "TODO_GENERALE"
             }
           },
           {
@@ -227,8 +227,11 @@
   },
   "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/myJob/PERSONALE/lavori_a_casa/procedure e documentazione interne/Backup.md",
+    "projects/myJob/PERSONALE/casa/Rete.md",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/myJob/PERSONALE/hobby/34_videogame.md",
     "projects/myJob/PERSONALE/hobby/30_computer.md",
-    "projects/myJob/PERSONALE/hobby/Rete.md",
     "projects/myJob/PERSONALE/casa/dispositivi_in_possesso.md",
     "projects/myJob/TODO_GENERALE.md",
     "memory/2026-05-20-2200.md",
@@ -244,7 +247,6 @@
     "projects/myJob/PERSONALE/hobby/32_padel.md",
     "projects/myJob/PERSONALE/hobby/31_chitarra.md",
     "projects/myJob/PERSONALE/automobili/BMW_X1_2020.md",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "memory/2026-05-20-1306.md",
     "memory/~syncthing~2026-05-20-1306.md.tmp",
     "memory/2026-05-20-1101.md",
@@ -260,9 +262,6 @@
     "memory/2026-05-19-2200.md",
     "memory/2026-05-19-2200-2.md",
     "memory/2026-05-19-2137.md",
-    "memory/2026-05-19-2121.md",
-    "memory/2026-05-19-1905.md",
-    "memory/2026-05-19-1817.md",
     "_attachments/temp/libretto_p1.png"
   ]
 }

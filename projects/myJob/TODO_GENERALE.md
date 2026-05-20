@@ -10,16 +10,15 @@
 ## TO-DO ATTIVI
 
 ### [personale · infrastruttura · backup]
-- [ ] - Casa / infrastruttura personale (NAS + Synology Foto) — vedi `lavori_a_casa/40_infrastruttura_personale.md`
+
 - [ ] Creare taccuini markdown dedicati alla documentazione dei backup:
-  - backup personale (PC, dati personali)
-  - backup NAS
-  - backup clienti
-  - backup OpenClaw
-  - backup ambiente TV
+  - [x] backup personale (PC, dati personali)
+  - [ ] backup NAS
+  - [ ] backup clienti
+  - [ ] backup OpenClaw
+  - [x] backup ambiente TV
   → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
   
-- [ ] Sistemare NAS + certificati per Synology Foto (non sta funzionando)
 - [ ] Collegare OpenClaw a GitHub Copilot — basta lanciare il comando per connettere il gateway (2026-05-15)
 
 ### [personale · famiglia · fiscale]
