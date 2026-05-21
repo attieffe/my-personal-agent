@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/CHANGELOG.md",
+                "file": "projects/myJob/TODO_GENERALE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHANGELOG"
+              "title": "TODO_GENERALE"
             }
           },
           {
@@ -227,24 +227,32 @@
   },
   "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README.md",
+    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/~syncthing~README.md.tmp",
+    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
+    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521",
+    "projects/myJob/FREELANCE/SINAPPS/~syncthing~README.md.tmp",
+    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/~syncthing~README.md.tmp",
+    "memory/2026-05-21-1216.md",
+    "memory/~syncthing~2026-05-21-1216.md.tmp",
+    "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/CHANGELOG.md",
+    "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/~syncthing~CHANGELOG.md.tmp",
+    "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/~syncthing~00_index.md.tmp",
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "memory/2026-05-21-1132.md",
+    "memory/~syncthing~2026-05-21-1132.md.tmp",
     "memory/2026-05-21-0829.md",
-    "memory/~syncthing~2026-05-21-0829.md.tmp",
     "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/README.md",
     "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/00_index.md",
     "projects/myJob/TODO_GENERALE.md",
-    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
     "memory/2026-05-21-0707.md",
-    "memory/~syncthing~2026-05-21-0707.md.tmp",
     "memory/2026-05-20-2330.md",
-    "memory/~syncthing~2026-05-20-2330.md.tmp",
     "projects/myJob/PERSONALE/lavori_a_casa/procedure e documentazione interne/Backup.md",
     "projects/myJob/PERSONALE/casa/Rete.md",
     "projects/myJob/PERSONALE/hobby/34_videogame.md",
     "projects/myJob/PERSONALE/hobby/30_computer.md",
     "projects/myJob/PERSONALE/casa/dispositivi_in_possesso.md",
     "memory/2026-05-20-2200.md",
-    "memory/~syncthing~2026-05-20-2200.md.tmp",
     "projects/myJob/CHANGELOG.md",
     "projects/myJob/CONVENTIONS.md",
     "projects/myJob/CONVENZIONI_NAMING.md",
@@ -255,13 +263,6 @@
     "projects/myJob/PERSONALE/hobby/32_padel.md",
     "projects/myJob/PERSONALE/hobby/31_chitarra.md",
     "projects/myJob/PERSONALE/automobili/BMW_X1_2020.md",
-    "memory/2026-05-20-1306.md",
-    "memory/~syncthing~2026-05-20-1306.md.tmp",
-    "memory/2026-05-20-1101.md",
-    "memory/~syncthing~2026-05-20-1101.md.tmp",
-    "projects/email-injection/inboxes/myjob/00_inbox/msg_20_20260520_103227.eml",
-    "projects/email-injection/inboxes/myjob/00_inbox/~syncthing~msg_20_20260520_103227.eml.tmp",
-    "memory/2026-05-20-0701.md",
     "_attachments/temp/libretto_p1.png"
   ]
 }

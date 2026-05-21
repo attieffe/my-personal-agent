@@ -19,6 +19,7 @@ Area per l’agenzia **SINAPPS** (società **T PROJECT SRL**) — sviluppo WordP
 - [[PROGETTI/PROJ-Sinapps-blancone-20240101/README|BLANCONE]] — attivo dal 2024
 - [[PROGETTI/PROJ-Sinapps-gosetups-20240101/README|GOSETUPS]] — attivo dal 2024
 - [[PROGETTI/PROJ-Sinapps-nanosilk-20250101/README|NANOSILK]] — plugin gestione agenti, consegnato aprile 2026
+- [[PROGETTI/PROJ-Sinapps-openfiber-20260521/README|OPENFIBER]] — sviluppo custom per cliente OpenFiber, attivo dal 2026-05-21
 
 ## TODO / Backlog
 - [ ] Sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedere anche [[PROGETTI/README|PROGETTI/README]]

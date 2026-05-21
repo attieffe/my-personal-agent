@@ -39,11 +39,12 @@
 - [~] **CEAM** — blocchi geografici IP — Netsons ha rimosso i blocchi (2026-05-19); da fare: test VPN dal Brasile → [[FREELANCE/GET_ME_DIGITAL/PROGETTI/PROJ-GetMeDigital-ceam-20260513/README|CEAM progetto]]
 
 ### freelance - agenzia - sinapps 
--
+
+- [ ] **⚠️ SCADENZA 2026-05-22** Sinapps / OpenFiber — 7 ore sviluppo (4+3) a 30€/h = 210€ → [[FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README|OPENFIBER dettaglio]]
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi `../FREELANCE/SINAPPS/README.md`
 
 ### [freelance · diretto · silvia migliaccio]
-- [ ] Approfondimento compliance WordPress per Silvia Migliaccio — alternativa a iubenda [scade 2026-05-21]
+- [ ] Silvia Migliaccio: caricare cookie & privacy policy su WP (plugin Complianz confermato, policy già pronta) [scade 2026-05-31]
 
 ### [ingenio · amministrazione]
 - [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
