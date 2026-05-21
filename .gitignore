@@ -8,3 +8,4 @@ _utility/temp/*.*
 _attachments/temp/*.*
 .claude/*
 .openclaw-cli-images/*
+.gitx/*
