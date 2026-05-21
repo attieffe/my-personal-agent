@@ -22,3 +22,6 @@
 ## 💻 Studio / lavoro
 
 - [ ] Supporto multimonitor per monitor da 24 pollici (Amazon)
+- [ ] **Prolunga HDMI corta (extender)** — ⏰ senza scadenza urgente
+  - [ ] 🔗 [VCE Prolunga HDMI 14cm, Maschio-Femmina, 4K (B0CXPH726T)](https://www.amazon.it/dp/B0CXPH726T) — ⭐ 4.6 · 14.000+ recensioni · €6,99 — molto consigliata
+  - [ ] 🔗 [Cerca altri modelli su Amazon](https://www.amazon.it/prolunga-hdmi-corta/s?k=prolunga+hdmi+corta)

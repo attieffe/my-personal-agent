@@ -132,7 +132,8 @@ def format_message(event, dt_rome):
         f"🎾 <b>Partita tra {WINDOW_MAX} minuti!</b>\n"
         f"<b>{event['summary']}</b>\n"
         f"🕐 Ore {orario}  |  📍 {luogo}\n\n"
-        f"<b>📋 Routine di preparazione:</b>\n{routine}"
+        f"<b>📋 Routine di preparazione:</b>\n{routine}\n\n"
+        f"🧠 <a href=\"https://attibot.ingeniosolution.it/reports/padel-psicologia-sportiva.html\">Psicologia sportiva — gestione del loop mentale</a>"
     )
 
 
