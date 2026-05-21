@@ -83,14 +83,121 @@ curl -s -X POST https://oauth2.googleapis.com/token \
 ```
 Poi aggiorna `access_token` in `google_token.json` e ripeti la chiamata.
 
-## Come leggere un file .ics
+## Come leggere un file .ics — OBBLIGATORIO: espandere le RRULE
 
 Ogni evento è racchiuso tra `BEGIN:VEVENT` e `END:VEVENT`.
 Campi rilevanti:
-- `DTSTART` — inizio evento
+- `DTSTART` — inizio evento (data di *inizio della ricorrenza*, non necessariamente oggi)
 - `DTEND` — fine evento
 - `SUMMARY` — titolo
-- `RRULE` — ricorrenza (es. `FREQ=WEEKLY;BYDAY=MO` = ogni lunedì)
+- `RRULE` — ricorrenza (es. `FREQ=WEEKLY;BYDAY=TH` = ogni giovedì)
+- `EXDATE` — date escluse dalla ricorrenza
+
+### ⚠️ BUG NOTO — NON cercare solo DTSTART == data target
+
+**ERRORE COMUNE:** cercare eventi con `DTSTART == data_target`. Questo **MANCA tutti gli eventi ricorrenti** che hanno DTSTART in passato ma ricadono oggi.
+
+**ESEMPIO REALE:** "IT SRL" e "Nuova procedura carichi WEB" hanno DTSTART il 23/04/2026 ma ricorrono ogni giovedì. Il 21/05/2026 (giovedì) apparivano "vuoti" perché DTSTART != 21/05.
+
+### ✅ Metodo corretto: Python con dateutil
+
+Scaricare l'ICS in `/tmp/cal.ics`, poi usare questo pattern Python:
+
+```python
+import re
+from datetime import datetime, timezone, timedelta, date
+import pytz
+from dateutil.rrule import rrulestr
+
+rome = pytz.timezone("Europe/Rome")
+target_date = date(ANNO, MESE, GIORNO)
+win_tz_map = {
+    "W. Europe Standard Time": "Europe/Berlin",
+    "Romance Standard Time": "Europe/Paris",
+    "China Standard Time": "Asia/Shanghai",
+}
+
+with open("/tmp/cal.ics") as f:
+    content = re.sub(r'\r?\n[ \t]', '', f.read())  # unfold
+
+events = content.split("BEGIN:VEVENT")[1:]
+today_events = []
+
+for ev in events:
+    summary_m = re.search(r"SUMMARY:(.*)", ev)
+    dtstart_line = re.search(r"DTSTART[^:\r\n]*:[^\r\n]*", ev)
+    rrule_m = re.search(r"RRULE:(.*)", ev)
+    exdate_m = re.search(r"EXDATE[^:\r\n]*:[^\r\n]*", ev)
+    if not summary_m or not dtstart_line:
+        continue
+
+    summary = summary_m.group(1).strip()
+    line = dtstart_line.group(0)
+    tzid_m = re.search(r"TZID=([^:]+)", line)
+    tzid = tzid_m.group(1) if tzid_m else None
+    val = line.split(":")[-1].strip()
+
+    # Parse DTSTART
+    try:
+        if "VALUE=DATE" in line or len(val) == 8:
+            dt = datetime.strptime(val[:8], "%Y%m%d"); is_allday = True
+        elif val.endswith("Z"):
+            dt = datetime.strptime(val, "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc).astimezone(rome); is_allday = False
+        else:
+            dt = datetime.strptime(val[:15], "%Y%m%dT%H%M%S")
+            if tzid:
+                tz = pytz.timezone(win_tz_map.get(tzid, "Europe/Rome"))
+                dt = tz.localize(dt).astimezone(rome)
+            is_allday = False
+    except:
+        continue
+
+    if rrule_m:
+        # Espandi ricorrenza
+        exdates = set()
+        if exdate_m:
+            exdate_val = exdate_m.group(0).split(":")[-1]
+            tzid_ex = re.search(r"TZID=([^:]+)", exdate_m.group(0))
+            for ex in exdate_val.split(","):
+                try:
+                    ex = ex.strip()
+                    if ex.endswith("Z"):
+                        exdt = datetime.strptime(ex, "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc)
+                    else:
+                        exdt = datetime.strptime(ex[:15], "%Y%m%dT%H%M%S")
+                        if tzid_ex:
+                            tz2 = pytz.timezone(win_tz_map.get(tzid_ex.group(1), "Europe/Rome"))
+                            exdt = tz2.localize(exdt).astimezone(timezone.utc)
+                    exdates.add(exdt.replace(tzinfo=None).strftime("%Y%m%dT%H%M"))
+                except:
+                    pass
+
+        try:
+            if hasattr(dt, 'tzinfo') and dt.tzinfo:
+                dt_utc = dt.astimezone(timezone.utc)
+                dtstart_str = f"DTSTART:{dt_utc.strftime('%Y%m%dT%H%M%SZ')}"
+            else:
+                dtstart_str = f"DTSTART:{dt.strftime('%Y%m%dT%H%M%S')}"
+            rule = rrulestr(f"{dtstart_str}\nRRULE:{rrule_m.group(1).strip()}", ignoretz=True)
+            for occ in rule.between(datetime(target_date.year, target_date.month, target_date.day),
+                                    datetime(target_date.year, target_date.month, target_date.day, 23, 59), inc=True):
+                if occ.strftime("%Y%m%dT%H%M") not in exdates:
+                    if hasattr(dt, 'tzinfo') and dt.tzinfo:
+                        occ_rome = pytz.utc.localize(occ).astimezone(rome)
+                    else:
+                        occ_rome = rome.localize(occ)
+                    today_events.append((occ_rome.strftime("%H:%M"), summary))
+        except Exception as e:
+            pass
+    else:
+        ev_date = dt.date() if hasattr(dt, 'date') else dt
+        if ev_date == target_date:
+            today_events.append(("00:00" if is_allday else dt.strftime("%H:%M"), summary))
+
+today_events.sort()
+for time, summ in today_events:
+    print(f"  {time} — {summ}")
+```
 
 ## Formato risposta
 
