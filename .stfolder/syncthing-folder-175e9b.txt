@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: myOcSync
+created: 2026-05-22T00:10:56+02:00

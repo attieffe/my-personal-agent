@@ -7,6 +7,20 @@
 - **Directory**: nasgenio_bk
 - **Periodicità**: giornaliera
 
+### OPENCLAW WORKSPACE (attibot.ingeniosolution.it)
+- **Destinazione**: FTP `ftp.ingsoftware.it` porta 21 — cartella `/openclaw/`
+- **User FTP**: `backup@ingsoftware.it`
+- **Periodicità**: ogni notte alle 02:00 (Europe/Rome)
+- **Nome file**: `YYYYMMDD openclaw backup.tar.gz`
+- **Contenuto**: intero workspace `/home/openclaw/.openclaw/workspace` (esclusi `.git`, `node_modules`, `__pycache__`)
+- **Retention**:
+  - Ultimi 7 giorni: tutti
+  - Da 8 giorni a 12 mesi fa: solo il **primo file disponibile** per ogni mese
+  - Oltre 12 mesi: cancellati automaticamente
+- **Script**: `_utility/static/openclaw_ftp_backup.py`
+- **Cron job ID**: `68058dab-617c-445b-afcd-a45e333f4ebd`
+- **Notifica**: Telegram (IAco Team, topic principale) con dimensione, percorso, file cancellati e lista file rimanenti
+
 ### ULTAHOST SERVER
 - backup su ingsoftware in cartella backup/intv
 - l'utente FTP logga in backup
