@@ -12,6 +12,13 @@
 - [ ] Griglie per esterno (terrazzo) — da acquistare
 - [ ] Mobile bagno sopra la lavatrice — da acquistare
 
+## 🏊 Sport / outdoor
+
+- [ ] **Pinne da nuoto per Alessandro** (bimbo 6 anni, taglia piede 30-31) — ⏰ scadenza: 2026-05-22
+  - [ ] 🔗 [Swimming Fins for Kids – silicone, XXS, blu (B0FDQTSL45)](https://www.amazon.it/dp/B0FDQTSL45) — per principianti, taglia piccola
+  - [ ] 🔗 [Pinne silicone bambini – piscina e snorkeling, blu (B0GXJSXKX5)](https://www.amazon.it/dp/B0GXJSXKX5) — allenamento professionale
+  - [ ] 🔗 [Cerca altri modelli su Amazon](https://www.amazon.it/pinne-nuoto-bambino/s?k=pinne+nuoto+bambino) — filtrare per taglia 30-31 / XS
+
 ## 💻 Studio / lavoro
 
 - [ ] Supporto multimonitor per monitor da 24 pollici (Amazon)
