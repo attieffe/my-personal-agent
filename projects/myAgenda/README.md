@@ -4,7 +4,7 @@ Utility di schedulazione personale di Atti. Recupera i calendari live e le prefe
 
 ## Come invocare
 
-Scrivi ad AttiBot:
+Scrivi ad IAcopo:
 - "Trovami uno slot per una call di 30 minuti con X questa settimana"
 - "Ho bisogno di 2 ore di focus time entro venerdì — quando?"
 - "Quando posso organizzare una riunione Colzani di un'ora?"

@@ -7,7 +7,7 @@ Dettagli completi in `docs/architecture.md`, `docs/functions.md`, `docs/setup.md
 - **Audio capture:** PulseAudio null sink (`virtual_out`) + ffmpeg
 - **Browser:** Chromium via OpenClaw browser tool (con `PULSE_SERVER` impostato)
 - **Trascrizione:** OpenAI Whisper API (skill OpenClaw: `openai-whisper-api`)
-- **Orchestrazione:** AttiBot (OpenClaw) via skill dedicata (da creare)
+- **Orchestrazione:** IAcopo (OpenClaw) via skill dedicata (da creare)
 - **Output:** riassunto strutturato inviato via Telegram
 
 ## Flusso tecnico
@@ -20,7 +20,7 @@ Link call + orario fine previsto
   → monitoraggio partecipanti (exit se tutti usciti, o timeout orario fine)
   → Whisper trascrive l'audio grezzo (NON la trascrizione della piattaforma)
   → speaker attribution: timeline active speaker dal DOM + timestamp Whisper/audio
-  → AttiBot produce riassunto strutturato (contesto, argomenti, decisioni, chi-dice-cosa)
+  → IAcopo produce riassunto strutturato (contesto, argomenti, decisioni, chi-dice-cosa)
   → invio a Atti via Telegram
 ```
 

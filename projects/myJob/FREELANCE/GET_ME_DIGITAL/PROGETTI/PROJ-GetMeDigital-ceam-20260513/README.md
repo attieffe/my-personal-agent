@@ -32,7 +32,7 @@
 -
 
 ## Changelog
-- **2026-05-14** — Configurato proxy nginx temporaneo su server AttiBot (217.160.215.44) per bypassare blocco geo dell'hosting dal Brasile. Proxy pass verso 46.252.149.103, SSL con Cloudflare Origin Certificate, redirect 80→443. Soluzione temporanea in attesa di fix definitivo sul geo-blocking.
+- **2026-05-14** — Configurato proxy nginx temporaneo su server IAcopo (217.160.215.44) per bypassare blocco geo dell'hosting dal Brasile. Proxy pass verso 46.252.149.103, SSL con Cloudflare Origin Certificate, redirect 80→443. Soluzione temporanea in attesa di fix definitivo sul geo-blocking.
 
 ## Note tecniche
 - 

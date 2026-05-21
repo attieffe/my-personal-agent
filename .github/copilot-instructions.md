@@ -5,7 +5,7 @@
 Questo workspace è un progetto **OpenClaw** e un vault **Obsidian**.
 
 - Leggi `AGENTS.md` per capire le regole operative, la gestione memoria, il routing progetti e il comportamento atteso dall'agent AI.
-- Leggi `IDENTITY.md` per capire l'identità dell'agent (AttiBot — assistente AI con mentalità da ingegnere informatico).
+- Leggi `IDENTITY.md` per capire l'identità dell'agent (IAcopo — assistente AI con mentalità da ingegnere informatico).
 - Leggi `projects/myJob/CONVENTIONS.md` per le convenzioni operative specifiche del progetto di gestione lavoro.
 
 ## Lingua

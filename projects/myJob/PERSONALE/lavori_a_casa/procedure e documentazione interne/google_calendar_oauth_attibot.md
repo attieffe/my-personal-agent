@@ -1,7 +1,7 @@
-# Google Calendar OAuth — AttiBot (myAgenda OC)
+# Google Calendar OAuth — IAcopo (myAgenda OC)
 
 **Data setup:** 2026-05-18
-**Scopo:** Permettere ad AttiBot di scrivere eventi sul calendario "myAgenda OC"
+**Scopo:** Permettere ad IAcopo di scrivere eventi sul calendario "myAgenda OC"
 
 ---
 
@@ -65,5 +65,5 @@ In quel caso:
 ## Note operative
 
 - Il `calendar_id` corretto è salvato in `google_token.json` come campo `calendar_id`
-- AttiBot usa queste credenziali per inserire eventi da reminder padel e altri automatismi
+- IAcopo usa queste credenziali per inserire eventi da reminder padel e altri automatismi
 - Il token non ha scope per leggere email o altri servizi Google — solo Calendar

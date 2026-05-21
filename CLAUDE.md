@@ -7,7 +7,7 @@ Questo workspace è gestito da **OpenClaw** ed è contemporaneamente un **vault 
 Prima di operare, carica il contesto da questi file:
 
 - [[AGENTS]] — regole operative, comportamento agent, gestione memoria, routing progetti, heartbeat
-- [[IDENTITY]] — identità agent (AttiBot): nome, vibe, emoji, stile di risposta
+- [[IDENTITY]] — identità agent (IAcopo): nome, vibe, emoji, stile di risposta
 
 ## Regola fondamentale — link Obsidian
 

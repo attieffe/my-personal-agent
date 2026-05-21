@@ -1,6 +1,6 @@
 # OpenClaw — Idee di ottimizzazione e sviluppo futuro
 
-Area dedicata alle idee su come evolvere OpenClaw (AttiBot) nel tempo.
+Area dedicata alle idee su come evolvere OpenClaw (IAcopo) nel tempo.
 
 **Aggiunto:** 2026-05-14
 

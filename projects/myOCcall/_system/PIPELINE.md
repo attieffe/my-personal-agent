@@ -5,7 +5,7 @@
 Definizione operativa di cosa fa il sistema durante e dopo una call attiva.
 
 > **Regole operative:**
-> - Il join e tutta la pipeline vengono eseguiti dalla **sessione dedicata myOCcall**, non dalla sessione principale (AttiBot).
+> - Il join e tutta la pipeline vengono eseguiti dalla **sessione dedicata myOCcall**, non dalla sessione principale (IAcopo).
 > - **Modello da usare per l'implementazione:** `claude-opus-4-7` (Opus 4.7)
 > - La **webcam è sempre spenta/nascosta** — nessun output video visibile agli altri partecipanti.
 > - Il nome visualizzato nella call è sempre **"Attilio F."**

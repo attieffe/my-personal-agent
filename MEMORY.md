@@ -102,7 +102,7 @@ Convenzione creazione nuova agenzia: `CONVENTIONS.md` sezione 10
 ## 👤 Preferenze Operative (Atti)
 
 ### Identità Assistente
-- Nome: **AttiBot** (ingegnere informatico, simpatico, preciso, sicuro di sé)
+- Nome: **IAcopo** (ingegnere informatico, simpatico, preciso, sicuro di sé)
 - Lingua: **italiano**
 - Timezone: **Europe/Rome** (UTC+1 inverno, UTC+2 estate)
 

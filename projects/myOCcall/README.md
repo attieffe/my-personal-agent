@@ -4,7 +4,7 @@ Progetto per integrare OpenClaw con chiamate video (Teams, Meet, Zoom) al fine d
 
 ## Obiettivo
 
-Consentire a AttiBot di entrare in una call come partecipante silenzioso, catturare l'audio via sistema virtuale, trascriverlo con Whisper e restituire un riassunto strutturato.
+Consentire a IAcopo di entrare in una call come partecipante silenzioso, catturare l'audio via sistema virtuale, trascriverlo con Whisper e restituire un riassunto strutturato.
 
 ## Agenti
 
