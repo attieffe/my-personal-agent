@@ -122,3 +122,27 @@ Add whatever helps you do your job. This is your cheat sheet.
 ## Related
 
 - [Agent workspace](/concepts/agent-workspace)
+
+---
+
+## Report Statici — Pubblicazione Web
+
+Gli agenti possono pubblicare report HTML statici accessibili via HTTPS senza password.
+
+**URL base:** `https://attibot.ingeniosolution.it/reports/`  
+**Path locale:** `/home/openclaw/attibot/reports/`  
+**Naming convention:** `YYYYMMDD_<nome-report>/index.html`
+
+**Come pubblicare un report:**
+1. Crea la cartella: `/home/openclaw/attibot/reports/YYYYMMDD_<nome>/`
+2. Scrivi il file HTML: `index.html`
+3. Il file è immediatamente disponibile online (nessun reload necessario)
+
+**Esempio:** `/home/openclaw/attibot/reports/20260521_test-report/index.html`  
+→ `https://attibot.ingeniosolution.it/reports/20260521_test-report/`
+
+**Note:**
+- Nessuna password richiesta per `/reports/*`
+- Il resto del sito (`/`) è protetto da Basic Auth
+- HTTPS gestito da Caddy con cert Let's Encrypt
+- Redirect automatico HTTP→HTTPS attivo

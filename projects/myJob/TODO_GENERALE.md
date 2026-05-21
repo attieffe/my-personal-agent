@@ -43,6 +43,11 @@
 - [ ] **⚠️ SCADENZA 2026-05-22** Sinapps / OpenFiber — 7 ore sviluppo (4+3) a 30€/h = 210€ → [[FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README|OPENFIBER dettaglio]]
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi `../FREELANCE/SINAPPS/README.md`
 
+### [freelance · diretto · studio paladini]
+- [ ] Rimuovere POSTE dalle convenzioni sul sito [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
+- [ ] Aggiungere FASI alle convenzioni sul sito — verificare su internet [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
+- [ ] Aggiungere ASSIDAI alle convenzioni sul sito — verificare su internet [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
+
 ### [freelance · diretto · silvia migliaccio]
 - [ ] Silvia Migliaccio: caricare cookie & privacy policy su WP (plugin Complianz confermato, policy già pronta) [scade 2026-05-31]
 
