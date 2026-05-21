@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/TODO_GENERALE.md",
+                "file": "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO_GENERALE"
+              "title": "README"
             }
           },
           {
@@ -225,8 +225,10 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "d2add8721c4c5b31",
+  "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/myJob/TODO_GENERALE.md",
+    "projects/myJob/TODO_GENERALE.sync-conflict-20260521-183351-J5JDJ6H.md",
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
     "projects/myJob/FREELANCE/DIRETTI/Studio_Paladini/~syncthing~README.md.tmp",
@@ -241,13 +243,11 @@
     "projects/myJob/FREELANCE/SINAPPS/~syncthing~README.md.tmp",
     "projects/myJob/FREELANCE/SINAPPS/PROGETTI/~syncthing~README.md.tmp",
     "memory/2026-05-21-1216.md",
-    "memory/~syncthing~2026-05-21-1216.md.tmp",
     "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/CHANGELOG.md",
     "memory/2026-05-21-1132.md",
     "memory/2026-05-21-0829.md",
     "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/README.md",
     "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/00_index.md",
-    "projects/myJob/TODO_GENERALE.md",
     "memory/2026-05-21-0707.md",
     "memory/2026-05-20-2330.md",
     "projects/myJob/PERSONALE/lavori_a_casa/procedure e documentazione interne/Backup.md",

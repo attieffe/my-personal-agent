@@ -26,9 +26,9 @@
 - [ ] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
 
 ### [personale · automobili]
-- [ ] Pagare bollo auto
+- [x] Pagare bollo auto
 - [ ] Organizzarsi per revisione auto [scade 30/06/2026] → [[PERSONALE/automobili/BMW_X1_2020]]
-- [ ] Verificare gonfiaggio gomme (prima volta a Paderno con tempo disponibile)
+- [ ] Fissare appuntamento con EUROGOMME  [scade 06/06/2026]
 
 
 ### [personale · networking · luca benzoni]
