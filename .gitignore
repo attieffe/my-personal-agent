@@ -8,4 +8,5 @@ _utility/temp/*.*
 _attachments/temp/*.*
 .claude/*
 .openclaw-cli-images/*
-.gitx/*
+.gitx/*projects/myAgenda/_credentials/
+projects/miotesoro/.env
