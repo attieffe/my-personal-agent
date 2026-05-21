@@ -17,7 +17,7 @@
 - (completare con dettagli specifici del cliente)
 
 ## TODO / Backlog
-- [ ]
+- [ ] **⚠️ SCADENZA 2026-05-22** Modalità login segnalate da Andrea Migliavacca su WhatsApp (redirect vari) — verificare e sistemare
 
 ## Changelog
 - 2026-05-15 — Inizializzata scheda progetto nel workspace

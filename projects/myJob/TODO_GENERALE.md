@@ -42,6 +42,8 @@
 
 - [ ] **⚠️ SCADENZA 2026-05-22** Sinapps / OpenFiber — 7 ore sviluppo (4+3) a 30€/h = 210€ → [[FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README|OPENFIBER dettaglio]]
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi `../FREELANCE/SINAPPS/README.md`
+- [ ] Sinapps / FiberMap — ok inserito privato/business; raggruppamento: classe capogruppo-SI (primo di quella tecnologia con stato=SI) e capogruppo-NO [2026-05-22]
+- [ ] **⚠️ SCADENZA 2026-05-22** Sinapps / Blancone — modalità login segnalate da Andrea Migliavacca su WhatsApp (redirect vari) → [[FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-blancone-20240101/README|BLANCONE dettaglio]]
 
 ### [freelance · diretto · studio paladini]
 - [ ] Rimuovere POSTE dalle convenzioni sul sito [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]

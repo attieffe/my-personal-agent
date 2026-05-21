@@ -1,3 +1,9 @@
-# Audio files from myOCcall recordings
 projects/myOCcall/**/*.mp3
+*.mp3
 .stFolder/*
+.env
+*.eml
+_utility/temp/*.*
+_attachments/temp/*.*
+.claude/*
+.openclaw-cli-images/*
