@@ -31,8 +31,6 @@
 - [ ] Organizzarsi per revisione auto [scade 30/06/2026] → [[PERSONALE/automobili/BMW_X1_2020]]
 - [ ] Verificare gonfiaggio gomme (prima volta a Paderno con tempo disponibile)
 
-### [personale · hobby]
-- [ ] Compilare test/quiz psicologico mental coach
 
 ### [personale · networking · luca benzoni]
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
