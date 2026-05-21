@@ -1,4 +1,5 @@
 projects/myOCcall/**/*.mp3
+projects/myOCcall/data/
 *.mp3
 .stFolder/*
 .env
