@@ -92,9 +92,10 @@ def list_backups(ftp):
     """Ritorna lista di filename che corrispondono al pattern, ordinata per data."""
     files = []
     for name in ftp.nlst():
-        m = FILE_RE.match(name.strip())
+        basename = name.strip().split("/")[-1]
+        m = FILE_RE.match(basename)
         if m:
-            files.append(name.strip())
+            files.append(basename)
     files.sort()
     return files
 
