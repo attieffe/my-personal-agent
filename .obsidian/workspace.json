@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README.md",
+                "file": "projects/myJob/TODO_GENERALE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "TODO_GENERALE"
             }
           },
           {
@@ -227,11 +227,14 @@
   },
   "active": "df00fa3731a295cb",
   "lastOpenFiles": [
+    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README.md",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "memory/2026-05-21-1933.md",
+    "memory/~syncthing~2026-05-21-1933.md.tmp",
     "memory/2026-05-21-1845.md",
     "memory/~syncthing~2026-05-21-1845.md.tmp",
     "~syncthing~MEMORY.md.tmp",
     "projects/myJob/FREELANCE/DIRETTI/~syncthing~CHANGELOG.md.tmp",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "projects/myJob/TODO_GENERALE.md",
     "projects/myJob/TODO_GENERALE.sync-conflict-20260521-183351-J5JDJ6H.md",
     "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
@@ -241,8 +244,6 @@
     "memory/~syncthing~2026-05-21-1342.md.tmp",
     "memory/2026-05-21-1235.md",
     "memory/~syncthing~2026-05-21-1235.md.tmp",
-    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README.md",
-    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/~syncthing~README.md.tmp",
     "memory/2026-05-21-1216.md",
     "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/CHANGELOG.md",
     "memory/2026-05-21-1132.md",
@@ -261,8 +262,6 @@
     "projects/myJob/CONVENTIONS.md",
     "projects/myJob/CONVENZIONI_NAMING.md",
     "projects/myJob/INSTRUCTIONS_GENERALI.md",
-    "projects/myJob/ROUTING.md",
-    "projects/myJob/WORKFLOWS.md",
     "_attachments/temp/libretto_p1.png"
   ]
 }
