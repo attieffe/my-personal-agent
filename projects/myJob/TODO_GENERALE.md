@@ -13,7 +13,7 @@
 
 - [ ] Creare taccuini markdown dedicati alla documentazione dei backup:
   - [x] backup personale (PC, dati personali)
-  - [ ] backup NAS
+  - [x] backup NAS
   - [ ] backup clienti
   - [ ] backup OpenClaw
   - [x] backup ambiente TV
