@@ -35,6 +35,16 @@ Evento con `TZID=Europe/Rome` → già ora locale.
 4. **Indica sempre:** giorno, orario, durata disponibile, conflitti nelle vicinanze
 5. **Timezone Europe/Rome** per tutti gli orari
 6. **Puoi scrivere** solo su `calendars/myagenda_oc.ics` — tutti gli altri calendari sono sola lettura
+7. Quando l'utente chiede uno **"slot libero" in orario lavorativo**, devi prima determinare il **contesto di lavoro** del giorno:
+   - se è un giorno Colzani fisso, applica la fascia Colzani prima di cercare buchi;
+   - non trattare mai una fascia Colzani come "libera" solo perché nel calendario non c'è un evento;
+   - uno slot è "libero" solo se non collide con il contesto lavorativo atteso di quel giorno;
+   - se il giorno è Colzani, proponi solo finestre realmente disponibili **dentro** o **fuori** la fascia lavorativa solo se l'utente lo chiede esplicitamente.
+8. Escludi sempre le **festività italiane** dal set dei giorni lavorativi da monitorare:
+   - 1 gennaio, 6 gennaio, Lunedì dell'Angelo, 25 aprile, 1 maggio, 2 giugno, 15 agosto, 1 novembre, 8 dicembre, 25 dicembre, 26 dicembre;
+   - se una festività cade in settimana, non proporla come slot lavorativo a meno che l'utente chieda esplicitamente di lavorare in quel giorno;
+   - le festività mobili vanno calcolate ogni anno e almeno Pasqua/Pasquetta devono essere considerate non lavorative;
+   - questa sezione va aggiornata ogni anno con le festività dell'anno corrente, così non resta legata a un solo anno calendario.
 
 ## Fonti calendario (recupero live)
 

@@ -13,26 +13,26 @@ Registro delle agenzie con cui collaboro. Ogni agenzia ha la propria area dedica
 - **Ruolo**: socio fondatore
 - **Dal**: 2017 (anno di fondazione)
 - **Tipo**: agenzia digital (WordPress, ADV, SEO, social, sviluppo custom)
-- **Area workspace**: [[FREELANCE/GET_ME_DIGITAL/README|FREELANCE/GET_ME_DIGITAL/]]
+- **Area workspace**: [[FREELANCE/GET_ME_DIGITAL/GMD_INDEX|FREELANCE/GET_ME_DIGITAL/]]
 
 ### SINAPPS
 - **Società**: T PROJECT SRL
 - **Dal**: inizio attività freelance (prima Android, poi WordPress custom)
 - **Tipo**: sviluppo custom WordPress (plugin, temi, integrazioni)
 - **Progetti attivi**: BLANCONE, GOSETUPS, NANOSILK (consegnato apr 2026)
-- **Area workspace**: [[FREELANCE/SINAPPS/README|FREELANCE/SINAPPS/]]
+- **Area workspace**: [[FREELANCE/SINAPPS/SINAPPS_INDEX|FREELANCE/SINAPPS/]]
 
 ### NEWU SRL
 - **Società**: NEWU SRL
 - **Dal**: 2023
 - **Tipo**: landing page custom + sistema QR code (cliente principale: Plenitude)
-- **Area workspace**: [[FREELANCE/NEWU_SRL/README|FREELANCE/NEWU_SRL/]]
+- **Area workspace**: [[FREELANCE/NEWU_SRL/NEWU_INDEX|FREELANCE/NEWU_SRL/]]
 
 ### STUDIO VISUAL
 - **Figura chiave**: Mario Maglie
 - **Tipo**: collaborazione occasionale (sviluppo custom su segnalazione)
 - **Network**: collabora con GMD e Gruppo Colzani
-- **Area workspace**: [[FREELANCE/STUDIO_VISUAL/README|FREELANCE/STUDIO_VISUAL/]]
+- **Area workspace**: [[FREELANCE/STUDIO_VISUAL/STUDIO_VISUAL_INDEX|FREELANCE/STUDIO_VISUAL/]]
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-18T14:32:01.974Z",
+  "updatedAt": "2026-05-22T21:41:12.872Z",
   "entries": {
     "memory:memory/2026-05-12.md:1:8": {
       "key": "memory:memory/2026-05-12.md:1:8",
@@ -179,6 +179,37 @@
         "data-is-speaking",
         "data-is-mai",
         "sessione"
+      ]
+    },
+    "memory:memory/2026-05-22.md:1:2": {
+      "key": "memory:memory/2026-05-22.md:1:2",
+      "path": "memory/2026-05-22.md",
+      "startLine": 1,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "- [2026-05-22] Debug cron padel: `projects/myAgenda/scripts/padel_checker.py` completes in ~1.5s when run in isolation; the recurring failure is in the cron/agent wrapper, with overlapping cron sessions and repeated `cron: job execution timed out` errors. One run also showed a Google ICS SSL handshake timeout.",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.41410808861255644,
+      "maxScore": 0.41410808861255644,
+      "firstRecalledAt": "2026-05-22T21:41:12.872Z",
+      "lastRecalledAt": "2026-05-22T21:41:12.872Z",
+      "queryHashes": [
+        "0a6bf10e3783"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "1.5s",
+        "cron/agent",
+        "debug",
+        "cron",
+        "padel",
+        "projects",
+        "myagenda",
+        "scripts"
       ]
     }
   }

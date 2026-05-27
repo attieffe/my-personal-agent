@@ -33,11 +33,11 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 - Ogni idea in [idee_progetti](projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/INDEX)  può linkare al progetto `projects/` corrispondente quando esiste già un'implementazione
 
 ### Routing Organizzativo myJob
-- **REGOLA FERREA:** `COLZANI/` ≠ `PERSONALE/` (ex ATTILIO_A_CASA — NON usare più il vecchio alias)
-- Clienti diretti, agenzie, famiglia, impegni personali → **MAI in COLZANI**
-- TODO cliente [AGENZIA o DIRETTO] aggiornato → **SEMPRE aggiornare anche TODO Attilio a casa** quando pertinente
-- **Parole chiave per non sbagliare:** `COLZANI/` = **lavoro/cliente** (TEAM, AS400, CONSULENTI); `PERSONALE/` = **hobby/tempo libero/casa**
-- **Sinapps e GET_ME_DIGITAL = lavoro da CASA** → TODO agenzie va in `FREELANCE/<AGENZIA>/README.md` (sezione TODO/Backlog) + registro in `PERSONALE/lavori_a_casa/41_clienti_agenzie.md`
+- **REGOLA FERREA:** `COLZANI/` workspace separato — non esiste in myOcSync
+- Clienti diretti, agenzie, famiglia, impegni personali → questo workspace (myOcSync)
+- TODO cliente [AGENZIA o DIRETTO] → **SEMPRE in TODO_GENERALE.md** + opzionale in file specifico
+- **Parole chiave:** agenzie freelance (GMD, Sinapps, Newu, Studio Visual), famiglia/hobby → `PERSONALE/`
+- **Sinapps e GET_ME_DIGITAL = lavoro da CASA** → TODO agenzie in `TODO_GENERALE.md` + opzionale sezione TODO in `FREELANCE/<AGENZIA>/<AGENZIA>_INDEX.md` + registro in [[PERSONALE/lavori_a_casa/41_clienti_agenzie]]
 
 ---
 
@@ -51,34 +51,45 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 - Stack: PulseAudio + ffmpeg + null sink (`virtual_out`) + Whisper API
 - Path call: `/home/openclaw/.openclaw/workspace/projects/myOCcall/data/YYYYMMDD HHMM <platform>/`
 
-### myJob — Routing TODO ⚠️ LEGGERE PRIMA DI QUALSIASI OPERAZIONE SU TODO
-**REGOLA:** Prima di aggiungere/modificare qualsiasi task in myJob, leggere `projects/myJob/ROUTING.md`.
-Contiene la mappa completa dei file TODO per contesto e la regola di dichiarazione preventiva obbligatoria.
+### AttiBot — File intake
+- Pagina riusabile: `https://attibot.ingeniosolution.it/upload`
+- Ogni upload genera un ref tipo `UP-YYYYMMDD-HHMMSS-XXXXXX`
+- I pacchetti finiscono in `/home/openclaw/attibot/uploads/<ref>/` con `manifest.json`
 
-Routing rapido:
-- Task Colzani → `projects/myJob/COLZANI/TODO.md`
-- Task freelance/ingenio → `projects/myJob/TODO_GENERALE.md`
-- Task personali/hobby/famiglia → `projects/myJob/PERSONALE/01_todo_riassuntivo.md`
-- Task Alessandro → `projects/myJob/COLZANI/TEAM/Alessandro_TODO.md`
+### myJob — Routing TODO ⚠️ LEGGERE PRIMA DI QUALSIASI OPERAZIONE SU TODO
+**REGOLA PRIMARIA:** Ogni task va SEMPRE in `projects/myJob/TODO_GENERALE.md` (fonte di verità unica).  
+File specifici (TODO_PERSONALE, sezioni agenzie) sono opzionali per organizzazione.
+
+**REGOLA SECONDARIA:** Prima di aggiungere/modificare qualsiasi task, leggere [[projects/myJob/ROUTING]] per mappa completa contesti.
+
+Workflow corretto:
+1. **SEMPRE** inserire in `TODO_GENERALE.md`
+2. **OPZIONALE** duplicare/linkare in file specifico per organizzazione dettagliata
+
+Routing rapido (tutti + TODO_GENERALE obbligatorio):
+- Task freelance/ingenio → `TODO_GENERALE.md` + opzionale sezione TODO in `FREELANCE/<AGENZIA>/<AGENZIA>_INDEX.md`
+- Task personali/hobby/famiglia → `TODO_GENERALE.md` + opzionale `PERSONALE/TODO_PERSONALE.md`
 - **Se ambiguo → CHIEDERE AD ATTI prima di scrivere**
 - **MAI toccare file in `_TEMPLATE/`** per task reali
+- **COLZANI è workspace separato** — non gestito in questo workspace myOcSync
 
 ### myJob — Struttura Progetti
 ```
-COLZANI/          → cliente principale (TEAM, AS400, CONSULENTI)
 FREELANCE/
-  GET_ME_DIGITAL/ → agenzia (socio dal 2017 — riunioni settimanali)
-  SINAPPS/        → agenzia T PROJECT SRL (Marco Viganò) — BLANCONE, GOSETUPS, NANOSILK
-  NEWU_SRL/       → agenzia (dal 2023 — landing page + QR, Plenitude)
-  STUDIO_VISUAL/  → collaborazione occasionale (Mario Maglie)
-  DIRETTI/        → clienti diretti freelance
-PERSONALE/        → personale/famiglia (alias storico: ATTILIO_A_CASA — non usare più)
-INGENIO_SOLUTION/ → società di Atti (non cliente)
-EMAIL/            → gestione IMAP myjob@ingeniosolution.it
+  GET_ME_DIGITAL/   → agenzia (socio dal 2017 — riunioni settimanali) — GMD_INDEX.md
+  SINAPPS/          → agenzia T PROJECT SRL (Marco Viganò) — BLANCONE, GOSETUPS, NANOSILK — SINAPPS_INDEX.md
+  NEWU_SRL/         → agenzia (dal 2023 — landing page + QR, Plenitude) — NEWU_INDEX.md
+  STUDIO_VISUAL/    → collaborazione occasionale (Mario Maglie) — STUDIO_VISUAL_INDEX.md
+  DIRETTI/          → clienti diretti freelance
+PERSONALE/          → personale/famiglia (ex ATTILIO_A_CASA) — TODO_PERSONALE.md
+INGENIO_SOLUTION/   → società di Atti (non cliente)
+EMAIL/              → gestione IMAP myjob@ingeniosolution.it
 ```
 
-Registro agenzie: `PERSONALE/lavori_a_casa/41_clienti_agenzie.md`  
-Convenzione creazione nuova agenzia: `CONVENTIONS.md` sezione 10
+**NOTA:** COLZANI è gestito in workspace separato (non in myOcSync)
+
+Registro agenzie: [[PERSONALE/lavori_a_casa/41_clienti_agenzie]]  
+Convenzione creazione nuova agenzia: [[projects/myJob/CONVENTIONS]] sezione 10
 
 ### myJob — Email IMAP Workflow
 - Cron **ogni ora** (solo lettura UNSEEN)
@@ -92,7 +103,8 @@ Convenzione creazione nuova agenzia: `CONVENTIONS.md` sezione 10
 
 ### Modelli AI
 - Default globale: **Claude Sonnet 4.6**
-- Fallback: GPT nano → GPT mini → GPT 5.5
+- Fallback di sistema: **GPT nano** → **GPT mini** → **GPT 5.5**
+- Cron `agentTurn`: **openai/gpt-5.4-nano**
 - Chat Telegram: Claude Code CLI
 - Messaggi vocali: OpenAI API
 - myJob specifico: vedi `projects/myJob/` per override
@@ -124,6 +136,7 @@ Convenzione creazione nuova agenzia: `CONVENTIONS.md` sezione 10
 - Cliente diretto → aggiornare sia file cliente che `PERSONALE/README.md`
 - Progetto agenzia (es. CEAM) → cartella agenzia (`FREELANCE/GET_ME_DIGITAL/`), non `DIRETTI/`
 - Per i file personali di myJob vuole una riorganizzazione migliore: separare chiaramente lavoro Colzani, casa/tempo libero, hobby e checklist operative.
+- Cron OpenClaw update check: ogni giorno alle 20:00, se c'è una nuova release, aggiorna/crea il TODO in `projects/myJob/TODO_GENERALE.md`.
 - Checklist padel da censire: borsone, bibita, fascia braccio/spalla, orologio.
 - Vuole anche una checklist padel separata per cose da ricordare prima di partita/torneo/allenamento, con data e ora di inserimento per ogni voce.
 - Voci già dette per la checklist padel mentale: vibora con palla davanti, impugnatura continental, palla profonda che rimbalza dopo la linea; se è lontano dalla rete, a volte usare palla lenta per riconquistarla invece di tirare sempre forte.
@@ -164,6 +177,8 @@ Mapping frequenti:
 - Autenticato: account Pro
 - Modelli: `sonnet` (4.6), `opus`, `haiku`
 - CLI: `claude --model <model>`
+- Default agenti non-Colzani: `anthropic/claude-sonnet-4-6`
+- Agente Colzani: `github-copilot/claude-sonnet-4.6`
 
 ### TTS
 - Provider: OpenAI TTS (`tts-1`)

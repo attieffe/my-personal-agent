@@ -7,6 +7,25 @@
 **Giorni Colzani fissi:** Lunedì, Mercoledì, Giovedì, Sabato
 **Orario di riferimento:** 08:30–13:00 / 14:00–18:30
 
+**Regola slot liberi:** nei giorni Colzani non considerare mai l'orario di lavoro come slot libero. Un buco è libero solo se sta fuori dalla fascia Colzani oppure se l'utente chiede esplicitamente disponibilità interna alla giornata lavorativa.
+
+**Festività italiane da monitorare come giorni non lavorativi:**
+- 1 gennaio
+- 6 gennaio
+- Lunedì dell'Angelo
+- 25 aprile
+- 1 maggio
+- 2 giugno
+- 15 agosto
+- 1 novembre
+- 8 dicembre
+- 25 dicembre
+- 26 dicembre
+
+**Regola festività:** se una data cade in una festività italiana, non proporla come slot lavorativo Colzani o freelance salvo richiesta esplicita. Le festività mobili vanno calcolate ogni anno; almeno Pasqua e Lunedì dell'Angelo devono essere escluse dal monitoraggio dei giorni lavorativi.
+
+**Manutenzione annuale:** aggiorna questa lista ogni anno con le festività nazionali dell'anno corrente e correggi anche le festività mobili in base alla Pasqua di quell'anno.
+
 **Variazioni note:**
 - **Sabato:** spesso uscita flessibile tra le 16:00 e le 17:30 (non sempre fino alle 18:30)
 - **Martedì e Venerdì:** lavoro Colzani spot/a ore solo se necessario (non giorni fissi — trattare come potenzialmente liberi salvo indicazione)

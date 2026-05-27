@@ -14,8 +14,8 @@ Questo ramo governa tutto il lavoro freelance: clienti diretti, agenzie, opportu
 
 ## Aree collegate
 - [[DIRETTI/README|Clienti diretti]]
-- [[GET_ME_DIGITAL/README|Get Me Digital]]
-- [[SINAPPS/README|Sinapps]]
+- [[GET_ME_DIGITAL/GMD_INDEX|Get Me Digital]]
+- [[SINAPPS/SINAPPS_INDEX|Sinapps]]
 
 ## Cosa tenere qui
 - prospect e contatti caldi

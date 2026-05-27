@@ -12,7 +12,7 @@
 
 ## TODO / Backlog
 
-- [ ] Attenzione: ribaltare TELA MICROFIBRA in TESSUTO introducenzo attributo 
+- [x] Attenzione: ribaltare TELA MICROFIBRA in TESSUTO introducenzo attributo 
 - [ ] creazione automatica articoli da attributi con costruzione prezzi e descrizione
 	- [ ] creare template su categoria
 	- [ ] quando cambio macchinario intervenire su Altezza materiali

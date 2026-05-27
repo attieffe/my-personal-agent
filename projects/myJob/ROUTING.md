@@ -6,6 +6,18 @@
 
 ---
 
+## REGOLA TODO PRIMARIA — TODO_GENERALE è obbligatorio
+
+**SEMPRE**: Ogni task va inserito in `TODO_GENERALE.md` (fonte di verità unica)
+
+**OPZIONALE**: Puoi duplicare/linkare in file specifici per organizzazione (`TODO_PERSONALE.md`, sezioni TODO/Backlog in `<AGENZIA>_INDEX.md`)
+
+**Workflow corretto:**
+1. Scrivi task in `TODO_GENERALE.md`
+2. Se serve organizzazione dettagliata → duplica/linka in file specifico
+
+---
+
 ## REGOLA ZERO — Prima di scrivere, dichiara
 
 Prima di modificare qualsiasi file TODO, scrivi esplicitamente:
@@ -18,15 +30,18 @@ Solo se Atti conferma (o se il contesto è inequivocabile), procedere. In caso d
 ## Mappa TODO per contesto
 
 ### Freelance e lavori da casa
-- **TODO generali freelance / ingenio / personale** → `projects/myJob/TODO_GENERALE.md`
-  - Copre: freelance (GMD, Sinapps, Newu, diretti), Ingenio Solution, tutto tranne Colzani
-- **TODO cliente freelance specifico** → `projects/myJob/FREELANCE/<AGENZIA_O_DIRETTI>/<CLIENTE>/README.md` sezione TODO/Backlog
+- **TODO generali freelance / ingenio** → [[TODO_GENERALE]] (obbligatorio)
+  - Copre: freelance (GMD, Sinapps, Newu, Studio Visual, diretti), Ingenio Solution
+  - **Nota**: COLZANI è un workspace separato, non toccare qui
+- **TODO cliente freelance specifico** (opzionale) → sezione `## TODO / Backlog` dentro `FREELANCE/<AGENZIA>/<AGENZIA>_INDEX.md`
+  - Es: `FREELANCE/GET_ME_DIGITAL/GMD_INDEX.md` sezione TODO
 
-Parole chiave: "gmd", "get me digital", "sinapps", "newu", "cliente diretto", "ingenio", "freelance"
+Parole chiave: "gmd", "get me digital", "sinapps", "newu", "studio visual", "cliente diretto", "ingenio", "freelance"
 
 ### Personale / hobby / famiglia / casa
-- **TODO personale Atti** (hobby, famiglia, casa, acquisti, padel, chitarra) → `projects/myJob/PERSONALE/01_todo_riassuntivo.md`
-- **TODO Attilio "nella mia lista"** (quando Atti dice "metti nella mia todolist") → `projects/myJob/PERSONALE/01_todo_riassuntivo.md`
+- **TODO personale Atti** (hobby, famiglia, casa, acquisti, padel, chitarra) → [[TODO_GENERALE]] (obbligatorio)
+- **Organizzazione dettagliata** (opzionale) → [[PERSONALE/TODO_PERSONALE]]
+- **TODO Attilio "nella mia lista"** → [[TODO_GENERALE]]
 
 Parole chiave: "personale", "hobby", "padel", "famiglia", "casa", "acquisti", "chitarra", "mia todolist", "mia lista"
 
@@ -36,9 +51,10 @@ Parole chiave: "personale", "hobby", "padel", "famiglia", "casa", "acquisti", "c
 
 Se Atti dice solo "aggiungi ai TODO" senza specificare il contesto:
 
-1. Analizzare il contenuto del task: è chiaramente lavorativo? freelance? personale?
-2. Se chiaro → routing automatico con dichiarazione preventiva (vedi REGOLA ZERO)
-3. Se ambiguo → CHIEDERE: "In quale area va questo task? Colzani / Freelance / Personale?"
+1. **SEMPRE** inserire in `TODO_GENERALE.md` (regola primaria)
+2. Analizzare il contenuto del task: è chiaramente lavorativo? freelance? personale?
+3. Se chiaro → routing automatico con dichiarazione preventiva (vedi REGOLA ZERO)
+4. Se serve organizzazione specifica → chiedere: "Duplico anche in file specifico (TODO_PERSONALE / <AGENZIA>_INDEX)?"
 
 **Mai indovinare in silenzio. Mai scrivere senza dichiarare il file target.**
 
@@ -54,7 +70,6 @@ Questi file hanno nomi simili a TODO ma NON sono TODO operativi:
 | `_TEMPLATE/CLIENTE_TEMPLATE.md` | Template | Solo per creare nuovi clienti |
 | `_TEMPLATE/CLIENT_ROOT/` | Template struttura | Solo setup iniziale |
 | `PERSONALE/README.md` | Indice navigazione | Non è una TODO list |
-| `COLZANI/TACCUINI/` | Note/log | Note, non task |
 
 ---
 
@@ -63,18 +78,30 @@ Questi file hanno nomi simili a TODO ma NON sono TODO operativi:
 ```
 projects/myJob/
 ├── ROUTING.md              ← QUESTO FILE (leggi sempre prima)
-├── TODO_GENERALE.md        ← TODO Atti: freelance + ingenio + personale (NON Colzani)
+├── TODO_GENERALE.md        ← ⭐ TODO primario: TUTTI i task vanno qui
 ├── FREELANCE/
-│   ├── GET_ME_DIGITAL/README.md
-│   ├── SINAPPS/README.md
-│   ├── NEWU_SRL/README.md
-│   └── DIRETTI/<cliente>/README.md
+│   ├── GET_ME_DIGITAL/
+│   │   └── GMD_INDEX.md           ← Sezione TODO/Backlog opzionale
+│   ├── SINAPPS/
+│   │   └── SINAPPS_INDEX.md       ← Sezione TODO/Backlog opzionale
+│   ├── NEWU_SRL/
+│   │   └── NEWU_INDEX.md          ← Sezione TODO/Backlog opzionale
+│   ├── STUDIO_VISUAL/
+│   │   └── STUDIO_VISUAL_INDEX.md ← Sezione TODO/Backlog opzionale
+│   └── DIRETTI/
+│       └── <cliente>/...
 ├── PERSONALE/
-│   ├── 01_todo_riassuntivo.md  ← TODO personali Atti (hobby, famiglia, casa)
-│   └── README.md               ← Indice navigazione (non è una TODO list)
+│   ├── TODO_PERSONALE.md   ← TODO personali (opzionale, organizzazione)
+│   └── README.md           ← Indice navigazione (non è una TODO list)
+├── INGENIO_SOLUTION/       ← Task Ingenio vanno in TODO_GENERALE.md
 └── _TEMPLATE/              ← Solo template, MAI modificare per task reali
 ```
 
+**Note:**
+- `TODO_GENERALE.md` è l'unica fonte primaria obbligatoria
+- File specifici (`TODO_PERSONALE`, `<AGENZIA>_INDEX`) sono opzionali per organizzazione
+- COLZANI non esiste in questo workspace (workspace separato)
+
 ---
 
-_Aggiornato: 2026-05-16_
+_Aggiornato: 2026-05-26_

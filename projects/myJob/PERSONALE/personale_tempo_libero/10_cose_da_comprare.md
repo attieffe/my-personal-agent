@@ -14,7 +14,7 @@
 
 ## 🏊 Sport / outdoor
 
-- [ ] **Pinne da nuoto per Alessandro** (bimbo 6 anni, taglia piede 30-31) — ⏰ scadenza: 2026-05-22
+- [ ] **Pinne da nuoto per Alessandro** (bimbo 6 anni, taglia piede 30-31) — ⏰ scadenza: 2026-05-26, dovrebbe andarci Chiara
   - [ ] 🔗 [Swimming Fins for Kids – silicone, XXS, blu (B0FDQTSL45)](https://www.amazon.it/dp/B0FDQTSL45) — per principianti, taglia piccola
   - [ ] 🔗 [Pinne silicone bambini – piscina e snorkeling, blu (B0GXJSXKX5)](https://www.amazon.it/dp/B0GXJSXKX5) — allenamento professionale
   - [ ] 🔗 [Cerca altri modelli su Amazon](https://www.amazon.it/pinne-nuoto-bambino/s?k=pinne+nuoto+bambino) — filtrare per taglia 30-31 / XS

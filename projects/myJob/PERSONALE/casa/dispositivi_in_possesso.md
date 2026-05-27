@@ -48,7 +48,13 @@ _da aggiungere_
 
 ## Elettrodomestici
 
-_da aggiungere_
+### Caldaia Beretta Meteo Green E 25
+- **Luogo:** Casa Seregno
+- **Tipologia:** Caldaia / impianto termico
+- **Modello completo:** Beretta Meteo Green E 25
+- **Matricola / seriale:** P9MM4950395
+- **Targa impianto:** 7H7FY75952187303
+- **Note:** Dettagli completi nella sottocartella [[caldaia_beretta_meteo_green_e_25|caldaia Beretta Meteo Green E 25]]. Include estensione di garanzia, manuale e rapporto di controllo/prova fumi.
 
 ## Altro
 

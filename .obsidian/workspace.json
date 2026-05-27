@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df00fa3731a295cb",
+            "id": "39f0be0659461ad8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "README"
             }
-          },
-          {
-            "id": "39f0be0659461ad8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/myJob/TODO_GENERALE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TODO_GENERALE"
-            }
-          },
-          {
-            "id": "ff2b9a1c8fe70f94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/myJob/TODO_GENERALE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TODO_GENERALE"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "capogruppo",
+                "query": "cornared",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +74,7 @@
               "title": "Segnalibri"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,43 +183,44 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "ff2b9a1c8fe70f94",
+  "active": "39f0be0659461ad8",
   "lastOpenFiles": [
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-openfiber-20260521/README.md",
-    "projects/myJob/TODO_GENERALE.md",
+    "memory/2026-05-26-2006.md",
+    "memory/~syncthing~2026-05-26-2006.md.tmp",
+    "projects/myJob/PERSONALE/hobby/~syncthing~32_padel.md.tmp",
+    "_attachments/temp/call_cristina_molinari/transcripts/part_005.txt",
+    "_attachments/temp/call_cristina_molinari/transcripts/~syncthing~part_005.txt.tmp",
+    "_attachments/temp/call_cristina_molinari/transcripts/part_004.txt",
+    "_attachments/temp/call_cristina_molinari/transcripts/~syncthing~part_004.txt.tmp",
+    "_attachments/temp/call_cristina_molinari/transcripts/part_003.txt",
+    "_attachments/temp/call_cristina_molinari/transcripts/~syncthing~part_003.txt.tmp",
+    "_attachments/temp/call_cristina_molinari/transcripts/part_002.txt",
+    "_attachments/temp/call_cristina_molinari/transcripts/~syncthing~part_002.txt.tmp",
+    "memory/2026-05-26-1845.md",
+    "memory/2026-05-26-1838.md",
+    "memory/2026-05-26-1818.md",
+    "memory/2026-05-26-1809.md",
+    "memory/2026-05-26-1808.md",
+    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/TROUBLESHOOTING/Tabelle_non _caricate_su_FM.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/01_meetings/MEETING_LOG.md",
-    "projects/myJob/PERSONALE/lavori_a_casa/procedure e documentazione interne/Backup.md",
-    "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-blancone-20240101/~syncthing~README.md.tmp",
-    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
-    "memory/2026-05-21-1933.md",
-    "memory/~syncthing~2026-05-21-1933.md.tmp",
-    "memory/2026-05-21-1845.md",
-    "memory/~syncthing~2026-05-21-1845.md.tmp",
-    "~syncthing~MEMORY.md.tmp",
-    "projects/myJob/FREELANCE/DIRETTI/~syncthing~CHANGELOG.md.tmp",
-    "projects/myJob/TODO_GENERALE.sync-conflict-20260521-183351-J5JDJ6H.md",
-    "projects/myJob/FREELANCE/DIRETTI/Studio_Paladini/~syncthing~README.md.tmp",
-    "~syncthing~TOOLS.md.tmp",
-    "memory/2026-05-21-1342.md",
-    "memory/~syncthing~2026-05-21-1342.md.tmp",
-    "memory/2026-05-21-1235.md",
-    "memory/2026-05-21-1216.md",
-    "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/CHANGELOG.md",
-    "memory/2026-05-21-1132.md",
-    "memory/2026-05-21-0829.md",
-    "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/README.md",
-    "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/00_index.md",
-    "memory/2026-05-21-0707.md",
-    "memory/2026-05-20-2330.md",
-    "projects/myJob/PERSONALE/casa/Rete.md",
-    "projects/myJob/PERSONALE/hobby/34_videogame.md",
-    "projects/myJob/PERSONALE/hobby/30_computer.md",
-    "projects/myJob/PERSONALE/casa/dispositivi_in_possesso.md",
-    "memory/2026-05-20-2200.md",
+    "projects/myJob/TODO_GENERALE.md",
+    "projects/myJob/FREELANCE/DIRETTI/Unioncucine/README.md",
+    "projects/myJob/ROUTING.md",
+    "projects/myJob/FREELANCE/STUDIO_VISUAL/STUDIO_VISUAL_INDEX.md",
+    "projects/myJob/FREELANCE/NEWU_SRL/NEWU_INDEX.md",
+    "projects/myJob/FREELANCE/SINAPPS/SINAPPS_INDEX.md",
+    "projects/myJob/FREELANCE/GET_ME_DIGITAL/GMD_INDEX.md",
+    "projects/myJob/PERSONALE/TODO_PERSONALE.md",
+    "projects/myJob/INSTRUCTIONS_GENERALI.md",
+    "projects/myJob/WORKFLOWS.md",
     "projects/myJob/CHANGELOG.md",
+    "projects/myJob/CONVENZIONI_NAMING.md",
     "projects/myJob/CONVENTIONS.md",
+    "projects/myJob/FREELANCE/DIRETTI/Unioncucine/CHANGELOG.md",
+    "projects/myJob/FREELANCE/DIRETTI/Unioncucine/00_index.md",
+    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/CHANGELOG.md",
+    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/03_deliverables/README.md",
     "_attachments/temp/libretto_p1.png"
   ]
 }

@@ -2,5 +2,6 @@
   "focusNewTab": false,
   "defaultViewMode": "source",
   "alwaysUpdateLinks": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "promptDelete": false
 }

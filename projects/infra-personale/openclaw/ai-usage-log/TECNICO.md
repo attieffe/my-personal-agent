@@ -7,7 +7,7 @@ Tracciare tutte le interazioni di OpenClaw con i modelli AI (Claude, Whisper, ec
 ## Architettura
 
 ```
-Log JSONL OpenClaw
+*.trajectory.jsonl sotto ~/.openclaw/agents/**/sessions/
     ↓ (ingest.py ogni ora via cron)
 SQLite (~/.openclaw/usage.db)
     ↓
@@ -18,12 +18,14 @@ https://<subdomain> (internet, con login)
 
 ## Fonti dati
 
-### Provider claude-cli
-- Log livello: **INFO**
-- Righe chiave: `cli exec` (promptChars, model, trigger) + `claude live session turn` (durationMs)
+### Provider/sessioni OpenClaw
+- Fonte primaria: `*.trajectory.jsonl` nelle sessioni agent
+- Record chiave: `type = "model.completed"`
+- Campi disponibili: `ts`, `sessionId`, `sessionKey`, `runId`, `workspaceDir`, `provider`, `modelId` / `modelApi`
+- Usage dettagliato: `data.usage.input`, `data.usage.output`, `data.usage.cacheRead`, `data.usage.cacheWrite`, `data.usage.total`
 
 ### Provider embedded / OAuth (github-copilot, anthropic diretto)
-- Log livello: **DEBUG** (necessario)
+- Ancora supportato dal parser legacy dei log text-based
 - Riga chiave: `[context-diag] pre-prompt` (promptChars, systemChars, historyChars, model)
 - Riga chiave: `embedded run done` (durationMs)
 
@@ -41,19 +43,34 @@ File: `~/.openclaw/usage.db`
 |---|---|---|
 | `id` | INTEGER PK | autoincrement |
 | `ts` | DATETIME | ora italiana (Europe/Rome) |
-| `log_file` | TEXT | file sorgente (per dedup) |
-| `log_offset` | INTEGER | byte offset (ingest incrementale) |
+| `source_kind` | TEXT | trajectory / whisper / legacy-log |
+| `source_file` | TEXT | file sorgente (per dedup) |
+| `source_offset` | INTEGER | byte offset (ingest incrementale) |
 | `agent_id` | TEXT | main, miotesoro, attibot-colzani… |
 | `source_type` | TEXT | cron / direct / heartbeat |
-| `source_name` | TEXT | nome cron o canale (telegram) |
+| `channel` | TEXT | telegram / cron / direct |
+| `sender_id` | TEXT | mittente chat se presente |
+| `sender_username` | TEXT | username chat se presente |
+| `sender_display` | TEXT | nome leggibile chat se presente |
+| `cron_name` | TEXT | nome cron se presente |
 | `provider` | TEXT | claude-cli, github-copilot, openai |
-| `model` | TEXT | claude-haiku-4-5, whisper-1… |
+| `model` | TEXT | claude-sonnet-4.6, whisper-1… |
+| `session_key` | TEXT | chiave sessione OpenClaw |
+| `session_id` | TEXT | id sessione runtime |
+| `run_id` | TEXT | id singolo run |
+| `workspace_dir` | TEXT | cartella di lavoro |
+| `model_api` | TEXT | api/model family usata internamente |
+| `input_tokens` | INTEGER | token input del modello |
+| `output_tokens` | INTEGER | token output del modello |
+| `cache_read_tokens` | INTEGER | token letti da cache |
+| `cache_write_tokens` | INTEGER | token scritti in cache |
+| `total_tokens` | INTEGER | totale riportato dalla sessione |
 | `prompt_chars` | INTEGER | chars prompt utente |
 | `system_chars` | INTEGER | chars system prompt |
 | `history_chars` | INTEGER | chars cronologia |
 | `duration_ms` | INTEGER | durata turn in ms |
 | `audio_seconds` | INTEGER | solo Whisper |
-| `tokens_est` | INTEGER | (prompt+system+history)/4 |
+| `tokens_est` | INTEGER | fallback stimato se `total_tokens` manca |
 | `cost_est_usd` | REAL | stima basata su prezzi modello |
 
 ### Tabella `ingest_state`
@@ -76,7 +93,8 @@ Aggiornare in `scripts/model_pricing.py` al cambio tariffe.
 | File | Path |
 |---|---|
 | DB SQLite | `~/.openclaw/usage.db` |
-| Log OpenClaw | `/tmp/openclaw/openclaw-YYYY-MM-DD.log` |
+| Session JSONL OpenClaw | `~/.openclaw/agents/**/sessions/*.trajectory.jsonl` |
+| Log OpenClaw legacy | `/tmp/openclaw/openclaw-YYYY-MM-DD.log` |
 | Log Whisper extra | `~/.openclaw/whisper-usage.jsonl` |
 | Script ingest | `~/.openclaw/plugin-skills/ai-usage-log/scripts/ingest.py` |
 | Dashboard | `~/.openclaw/plugin-skills/ai-usage-log/scripts/dashboard.py` |
@@ -87,8 +105,8 @@ Aggiornare in `scripts/model_pricing.py` al cambio tariffe.
 
 ## TODO
 
-- [ ] Script ingest.py (cron ogni ora)
+- [x] Script ingest.py (cron ogni ora)
 - [ ] Wrapper whisper con logging
-- [ ] Dashboard Streamlit
+- [x] Dashboard Streamlit
 - [ ] Reverse proxy Caddy + HTTPS
 - [ ] Login (basic auth Caddy o Streamlit secrets)

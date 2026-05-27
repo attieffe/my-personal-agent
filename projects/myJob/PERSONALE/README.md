@@ -1,20 +1,21 @@
-# Attilio — todolist generale da fare a casa (hub)
+# Attilio — todolist personale (hub)
 
-> **Regola prioritaria (anti-mix):** se in chat mi chiedi “A CASA” (o “a casa”),
-> devo lavorare **solo** su questa cartella (`ATTILIO_A_CASA`) e su eventuali backlog dei **clienti diretti**.
-> **Non** devo cercare o modificare nulla in `COLZANI`.
+> **Regola prioritaria:** questa cartella è dedicata a **personale, famiglia, hobby, tempo libero**.
+> I task lavorativi (agenzie freelance, clienti) vanno in `TODO_GENERALE.md` + opzionale sezione nei file delle agenzie.
+> **COLZANI è workspace separato** — non è gestito in questo workspace.
 
 ## Scopo
 Questa cartella è la tua “sfera personale + lavori a casa”.
 
 - **Tempo libero / personale / hobby / regali / vacanze**
-- **Lavori da casa**: extra Colzani + clienti diretti (oltre a eventuale infrastruttura personale)
+- **Lavori da casa**: agenzie freelance + clienti diretti
 
-## TODOLIST (regola anti-mix)
-> Regola: i TODO che aggiungi a livello “Attilio” per un **cliente** vanno anche inseriti nel backlog/requests della **cartella di competenza** (cliente diretto in `DIRETTI/*` oppure progetto/ramo in `GET_ME_DIGITAL/PROGETTI/*`).
+## TODOLIST
+> **Regola primaria:** Tutti i TODO vanno in [[../TODO_GENERALE]] (fonte di verità unica).  
+> File specifici qui sono per organizzazione dettagliata opzionale.
 
 ## Dove guardare (file principali)
-- **Riepilogo “tutte le cose personali”**: `01_todo_riassuntivo.md`
+- **Riepilogo "tutte le cose personali"**: [[TODO_PERSONALE]]
 
 ### Tempo libero & personale
 - `personale_tempo_libero/10_cose_da_comprare.md`
@@ -35,9 +36,9 @@ Questa cartella è la tua “sfera personale + lavori a casa”.
 - `hobby/32_paddle.md`
 
 ### Lavori a casa
-- `lavori_a_casa/40_infrastruttura_personale.md`
-- `lavori_a_casa/41_extra_colzani.md`
-- `lavori_a_casa/42_clienti_diretti.md`
+- [[lavori_a_casa/41_clienti_agenzie]]
+- [[lavori_a_casa/42_clienti_diretti]]
+- [[lavori_a_casa/idee_progetti/INDEX|Idee progetti]]
 
 ### Checklist extra (già esistente)
 - `checklist_dichiarazione_redditi_famiglia.md`

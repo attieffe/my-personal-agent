@@ -7,6 +7,7 @@ Evita duplicati tramite _state/padel_notified.json.
 """
 
 import re, json, os, sys, urllib.request, urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 
 # ── Configurazione ──────────────────────────────────────────────────────────
@@ -32,7 +33,7 @@ PADEL_KEYWORDS = ["padel", "campo", "playtomic", "tennis", "racchett"]
 def fetch_ics(url):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "myAgenda/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with urllib.request.urlopen(req, timeout=8) as resp:
             return resp.read().decode("utf-8", errors="replace")
     except Exception as e:
         print(f"Errore fetch {url}: {e}", file=sys.stderr)
@@ -149,10 +150,15 @@ def main():
     state = {k: v for k, v in state.items() if v > cutoff}
 
     found = False
-    for url in ICS_URLS:
-        content = fetch_ics(url)
-        if not content:
-            continue
+    contents = []
+    with ThreadPoolExecutor(max_workers=len(ICS_URLS)) as pool:
+        futures = {pool.submit(fetch_ics, url): url for url in ICS_URLS}
+        for fut in as_completed(futures):
+            content = fut.result()
+            if content:
+                contents.append(content)
+
+    for content in contents:
         for event in parse_ics_events(content):
             if not is_padel(event["summary"]):
                 continue
