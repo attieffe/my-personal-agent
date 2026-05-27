@@ -9,6 +9,10 @@
 
 ## TO-DO ATTIVI
 
+### [personale · attrezzatura · oggi]
+
+- [ ] Verificare carica GoPro ⚡ [scade 2026-05-27]
+
 ### [personale · infrastruttura · backup]
 
 - [x] Creare taccuini markdown dedicati alla documentazione dei backup:
