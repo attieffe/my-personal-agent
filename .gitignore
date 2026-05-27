@@ -4,8 +4,8 @@ projects/myOCcall/data/
 .stFolder/*
 .env
 *.eml
-_utility/temp/*.*
-_attachments/temp/*.*
+_utility/temp/**.*
+_attachments/temp/**.*
 .claude/*
 .openclaw-cli-images/*
 .gitx/*projects/myAgenda/_credentials/

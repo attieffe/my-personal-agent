@@ -11,7 +11,7 @@
 
 ### [personale · attrezzatura · oggi]
 
-- [ ] Verificare carica GoPro ⚡ [scade 2026-05-27]
+- [x] Verificare carica GoPro ⚡ [fatto 2026-05-27]
 
 ### [personale · infrastruttura · backup]
 
