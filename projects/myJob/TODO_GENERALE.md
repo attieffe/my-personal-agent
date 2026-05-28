@@ -65,6 +65,10 @@
 		- [ ] banner non bellissimo e non chiaro
 	- [ ] errore bad gateway 502 aperto ticket con register.it
 	- [ ] mandata richiesta per multisite (potrebbero non gestirlo), nel caso chiediamo buyback
+- [ ] **Cookie: abbandonare Complianz → migrare a Cookiebot** [2026-05-28]
+	- [ ] Rimuovere plugin Complianz
+	- [ ] Installare e configurare Cookiebot
+	- [ ] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
 
 ### [ingenio · amministrazione]
 - [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
