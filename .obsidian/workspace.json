@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/PERSONALE/hobby/32_padel.md",
+                "file": "projects/myJob/TODO_GENERALE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "32_padel"
+              "title": "TODO_GENERALE"
             }
           }
         ]
@@ -185,20 +185,26 @@
   },
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
+    "_attachments/temp/google_sheets_invite_check.md",
+    "_attachments/temp/~syncthing~google_sheets_invite_check.md.tmp",
+    "memory/2026-05-28-1014.md",
+    "memory/~syncthing~2026-05-28-1014.md.tmp",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "memory/2026-05-28-0933.md",
+    "memory/~syncthing~2026-05-28-0933.md.tmp",
+    "memory/2026-05-28-0835.md",
+    "memory/~syncthing~2026-05-28-0835.md.tmp",
+    "memory/2026-05-28-0824.md",
+    "memory/2026-05-28-0821.md",
+    "memory/~syncthing~2026-05-28-0824.md.tmp",
+    "memory/~syncthing~2026-05-28-0821.md.tmp",
+    "projects/myJob/PERSONALE/hobby/32_padel.md",
     "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
     "memory/2026-05-27-1333.md",
     "memory/~syncthing~2026-05-27-1333.md.tmp",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "memory/2026-05-26-2006.md",
     "memory/~syncthing~2026-05-26-2006.md.tmp",
-    "projects/myJob/PERSONALE/hobby/~syncthing~32_padel.md.tmp",
-    "_attachments/temp/call_cristina_molinari/transcripts/part_005.txt",
-    "_attachments/temp/call_cristina_molinari/transcripts/~syncthing~part_005.txt.tmp",
-    "_attachments/temp/call_cristina_molinari/transcripts/part_004.txt",
-    "_attachments/temp/call_cristina_molinari/transcripts/~syncthing~part_004.txt.tmp",
-    "_attachments/temp/call_cristina_molinari/transcripts/part_003.txt",
-    "_attachments/temp/call_cristina_molinari/transcripts/~syncthing~part_003.txt.tmp",
     "memory/2026-05-26-1845.md",
     "memory/2026-05-26-1838.md",
     "memory/2026-05-26-1818.md",
@@ -215,12 +221,6 @@
     "projects/myJob/PERSONALE/TODO_PERSONALE.md",
     "projects/myJob/INSTRUCTIONS_GENERALI.md",
     "projects/myJob/WORKFLOWS.md",
-    "projects/myJob/CHANGELOG.md",
-    "projects/myJob/CONVENZIONI_NAMING.md",
-    "projects/myJob/CONVENTIONS.md",
-    "projects/myJob/FREELANCE/DIRETTI/Unioncucine/CHANGELOG.md",
-    "projects/myJob/FREELANCE/DIRETTI/Unioncucine/00_index.md",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/CHANGELOG.md",
     "_attachments/temp/libretto_p1.png"
   ]
 }
