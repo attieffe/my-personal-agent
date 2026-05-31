@@ -23,7 +23,7 @@
   - [x] backup ambiente TV
   → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
   
-- [ ] Aggiornare OPENCLAW da 2026.5.26 → 2026.5.27
+- [ ] Aggiornare OPENCLAW da 2026.5.26 → 2026.5.28
 - [ ] Collegare OpenClaw a GitHub Copilot — basta lanciare il comando per connettere il gateway (2026-05-15)
 - [x] Monitorare bug OpenClaw #85314 e verificare se viene corretto [chiuso 2026-05-28]
 
