@@ -72,6 +72,8 @@
 	- [ ] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
 
 ### [ingenio · amministrazione]
+- [ ] **Fare fatture** [scade 2026-06-02]
+- [ ] **Registrare investimenti al 31 maggio** [scade 2026-06-02]
 - [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
 
 ---
