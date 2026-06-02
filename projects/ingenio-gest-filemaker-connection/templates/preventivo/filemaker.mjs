@@ -1,5 +1,5 @@
-// Bypass TLS verification for FileMaker self-signed certificate on localhost.
-// Sicuro perché ci connettiamo solo a https://localhost/. Sopprimiamo il warning di Node.
+// Bypass TLS verification for FileMaker self-signed certificate.
+// Il server FM usa un certificato self-signed — bypass necessario. Sopprimiamo il warning di Node.
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const _origEmit = process.emit;
 process.emit = function (name, data, ...args) {

@@ -1,19 +1,26 @@
 # Generatore PDF Preventivo — FileMaker DADEGEST
 
-Genera un PDF professionale di un preventivo letto via FileMaker Data API. Zero dipendenze npm: usa `fetch` nativo di Node 20+ e Edge headless per il PDF.
+Genera un PDF professionale di un preventivo letto via FileMaker Data API. Usa `fetch` nativo di Node 20+ e Chromium headless (via puppeteer) per il PDF.
 
 ## Requisiti
 
 - Node.js 20+
-- Microsoft Edge (presente di default su Windows 11) o Chrome
+- `npm install` (installa puppeteer con Chromium bundled)
 - File `.env` nella root del progetto con `FM_HOST`, `FM_PORT`, `FM_USER`, `FM_PASSWORD`
-- Sessione FileMaker Server attiva su `localhost:443`
+  - Il `.env` è un symlink a `../../.env` (workspace root) — già configurato
+
+## Setup iniziale
+
+```bash
+cd projects/ingenio-gest-filemaker-connection
+npm install
+```
 
 ## Uso
 
-Da `g:\Il mio Drive\Atti\Progetti\personali\myPersonalAgent\`:
+Da `projects/ingenio-gest-filemaker-connection/`:
 
-```powershell
+```bash
 npm run preventivo -- --nr 5
 npm run preventivo -- --nr 5 --anno 2025
 npm run preventivo -- --cliente "Condello" --ultimo
@@ -22,7 +29,7 @@ npm run preventivo -- --record-id 301
 npm run preventivo -- --nr 5 --iva-inclusa
 npm run preventivo -- --nr 5 --keep-html
 npm run preventivo -- --nr 5 --html-only
-npm run preventivo -- --nr 5 --output ".\preventivi\custom.pdf"
+npm run preventivo -- --nr 5 --output "./preventivi/custom.pdf"
 ```
 
 ## Esiti possibili

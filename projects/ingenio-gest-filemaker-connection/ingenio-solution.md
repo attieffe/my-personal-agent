@@ -35,7 +35,7 @@ Riassunto rapido:
 ### Generatore PDF preventivo
 **Path**: [templates/preventivo/](../../../templates/preventivo/) · **Doc**: [README](../../../templates/preventivo/README.md) · **Piano**: [docs/plans/preventivo-pdf-template.md](../../../docs/plans/preventivo-pdf-template.md)
 
-CLI: `npm run preventivo -- [opzioni]`
+CLI: `npm run preventivo -- [opzioni]` (da `projects/ingenio-gest-filemaker-connection/`)
 
 | Comando | Cosa fa |
 |---|---|

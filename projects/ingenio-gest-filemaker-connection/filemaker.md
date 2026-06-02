@@ -5,7 +5,11 @@
 - **Host**: `FM_HOST` (da .env) | **Porta**: `FM_PORT` (da .env) (HTTPS self-signed, FM 19.3.2.203)
 - **Credenziali**: vedere `.env` → `FM_USER` / `FM_PASSWORD`
 - **API base URL**: `https://FM_HOST:FM_PORT/fmi/data/v2`
-- **SSL**: certificato self-signed → bypass obbligatorio in PowerShell (vedere snippet sotto)
+- **SSL**: certificato self-signed → `NODE_TLS_REJECT_UNAUTHORIZED=0` in `filemaker.mjs` (già gestito)
+
+> **⚠️ Raggiungibilità**: il server FM deve essere accessibile da questa macchina sulla porta FM_PORT.
+> La porta deve essere aperta/forwardata nel router se si accede da fuori rete locale.
+> Gli snippet PowerShell sotto sono documentazione storica (provenivano da Windows); su Linux usare `npm run preventivo` o curl equivalente.
 
 ---
 

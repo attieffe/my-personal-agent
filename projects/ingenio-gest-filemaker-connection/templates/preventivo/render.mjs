@@ -1,5 +1,4 @@
-import { spawnSync } from 'node:child_process';
-import { mkdir, writeFile, appendFile, access, constants } from 'node:fs/promises';
+import { mkdir, writeFile, appendFile, unlink } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, resolve, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -8,22 +7,6 @@ import { generateHtml } from './template.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = resolve(__dirname, '..', '..');
-
-const EDGE_CANDIDATES = [
-  'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
-  'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
-  'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-];
-
-async function findBrowser() {
-  for (const p of EDGE_CANDIDATES) {
-    try {
-      await access(p, constants.X_OK);
-      return p;
-    } catch { /* not present */ }
-  }
-  throw new Error('Nessun browser headless trovato (Edge/Chrome). Installare Edge oppure aggiungere il path in EDGE_CANDIDATES.');
-}
 
 function parseArgs(argv) {
   const out = {};
@@ -143,39 +126,35 @@ Opzioni stampa:
     return;
   }
 
-  // Salva HTML temporaneo localmente (no Drive — evita lock di sync durante Edge)
   const tmpHtml = join(tmpdir(), `preventivo-${data.testata.nr}-${data.testata.anno}-${Date.now()}.html`);
   await writeFile(tmpHtml, html, 'utf8');
 
-  const tmpPdf = join(tmpdir(), `preventivo-${data.testata.nr}-${data.testata.anno}-${Date.now()}.pdf`);
-  const userDataDir = join(tmpdir(), 'edge-headless-profile-mpa');
-  await mkdir(userDataDir, { recursive: true });
-
-  const browser = await findBrowser();
-  console.error(`🖨  Generazione PDF (Edge headless)...`);
-  const args2 = [
-    '--headless=new',
-    '--disable-gpu',
-    '--no-first-run',
-    '--no-pdf-header-footer',
-    `--user-data-dir=${userDataDir}`,
-    `--print-to-pdf=${tmpPdf}`,
-    `file://${tmpHtml.replace(/\\/g, '/')}`,
-  ];
-  const r = spawnSync(browser, args2, { encoding: 'utf8', timeout: 60000 });
-  if (r.status !== 0) {
-    console.error('❌ Edge fallito.');
-    if (r.stderr) console.error(r.stderr);
-    if (r.stdout) console.error(r.stdout);
-    process.exit(3);
+  console.error('🖨  Generazione PDF (Chromium headless)...');
+  let puppeteer;
+  try {
+    ({ default: puppeteer } = await import('puppeteer'));
+  } catch {
+    throw new Error('puppeteer non trovato — esegui: npm install');
+  }
+  const pBrowser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+  });
+  try {
+    const page = await pBrowser.newPage();
+    await page.goto(`file://${tmpHtml}`, { waitUntil: 'networkidle0' });
+    await page.pdf({
+      path: outputPath,
+      format: 'A4',
+      printBackground: true,
+      margin: { top: '0', right: '0', bottom: '0', left: '0' },
+    });
+  } finally {
+    await pBrowser.close();
   }
 
-  // Sposta il PDF nella destinazione finale
-  const { copyFile, unlink } = await import('node:fs/promises');
-  await copyFile(tmpPdf, outputPath);
-  await unlink(tmpPdf).catch(() => {});
-
   if (args.keepHtml) {
+    const { copyFile } = await import('node:fs/promises');
     const htmlAccanto = outputPath.replace(/\.pdf$/i, '.html');
     await copyFile(tmpHtml, htmlAccanto);
     console.error(`📝 HTML conservato: ${htmlAccanto}`);

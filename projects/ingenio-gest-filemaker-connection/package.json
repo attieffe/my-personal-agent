@@ -1,0 +1,12 @@
+{
+  "name": "ingenio-gest-filemaker-connection",
+  "version": "1.0.0",
+  "description": "Generatore PDF preventivi da FileMaker DADEGEST",
+  "type": "module",
+  "scripts": {
+    "preventivo": "node --env-file=.env templates/preventivo/render.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
