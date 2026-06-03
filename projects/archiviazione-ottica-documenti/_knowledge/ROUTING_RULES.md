@@ -68,6 +68,68 @@ Sezioni da aggiungere in futuro (da discutere con Atti):
 
 ---
 
+### AUTO
+**Cos'è:** Documenti relativi ai veicoli di Atti (denunce, assicurazioni, libretti, bolli, ecc.).
+
+**Destinazione aggiuntiva:**
+```
+gdrive:Atti/Documenti/AUTO/{targa} {modello}/{YYYYMMDD} {titolo}.{ext}
+```
+
+Veicoli noti:
+- BMW X1 SDrive 18i → targa `GA258HL` → cartella `GA258HL BMW X1`
+
+**Segnali:** targa GA258HL, "BMW X1", denuncia sinistro/danno auto, assicurazione veicolo
+
+---
+
+### SCUOLA_BAMBINI
+**Cos'è:** Fatture di scuole/asili per i figli Alessandro e Alice Fiumanò — detraibili IRPEF.
+
+**Destinazione aggiuntiva:**
+```
+gdrive:Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno_dichiarazione}x{anno_dichiarato}/Bambini/{nome_figlio}/{YYYYMMDD} {titolo}.{ext}
+```
+- `nome_figlio` = estratto dal documento o dal nome file (Alessandro / Alice)
+- `anno_dichiarato` = anno della fattura
+- `anno_dichiarazione` = anno_dichiarato + 1
+
+Esempio: fattura 2026 per Alessandro → `2027x2026/Bambini/Alessandro/`
+
+**Segnali:** "asilo", "scuola materna", "scuola paritaria", "retta scolastica", nome figlio nel documento
+
+---
+
+## Regole ancora da definire
+
+Sezioni da aggiungere in futuro (da discutere con Atti):
+- BOLLETTE (luce, gas, acqua, internet)
+- BANCA (estratti conto, comunicazioni)
+- ASSICURAZIONI
+- IMMOBILIARE (casa, affitto, condominio)
+- FISCALE_PERSONALE (F24, IMU, ecc.)
+
+---
+
+## Regole operative sul naming
+
+### Priorità nome file
+1. **Se il nome file di Atti è già descrittivo** → usarlo invariato come nome destinazione (non proporne uno nuovo)
+2. **Se il nome file non è descrittivo** (es. "scan001.pdf", "2024.pdf") → proporre nome AI
+3. Regola: "non modificare il titolo se Atti l'ha già assegnato ed è testuale"
+
+### Priorità data
+1. **Se il nome file contiene una data YYYYMMDD** → usare quella data (non l'AI-extracted)
+2. **Se il nome file ha solo l'anno** (es. "2024 Contratto...") → usare AI-extracted o chiedere
+3. **Se nessuna data** → usare "00000000" e segnalare
+
+### Ricette mediche senza importo
+Una ricetta medica (prescrizione) senza importo pagato **non è SPESE_MEDICHE** (non è detraibile).
+→ Categoria: `ALTRO` → va solo in `Archiviazione ottica/{anno}/`
+NON va in `DICHIARAZIONE DEI REDDITI/`
+
+---
+
 ## Note operative
 
 - In caso di dubbio sulla categoria → proporre `ALTRO` e chiedere conferma
