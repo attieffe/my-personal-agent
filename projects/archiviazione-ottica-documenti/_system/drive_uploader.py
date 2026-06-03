@@ -21,7 +21,7 @@ def _rclone_copy(src: str, dst_remote: str) -> tuple[bool, str]:
 
 def _rclone_copyto(src: str, dst_remote_path: str) -> tuple[bool, str]:
     """Copia un file rinominandolo in destinazione (rclone copyto)."""
-    cmd = ["rclone", "copyto", src, f"{RCLONE_REMOTE}:{dst_remote_path}"]
+    cmd = ["rclone", "copyto", "--drive-shared-with-me", src, f"{RCLONE_REMOTE}:{dst_remote_path}"]
     result = subprocess.run(cmd, capture_output=True, text=True)
     ok = result.returncode == 0
     output = result.stdout + result.stderr
