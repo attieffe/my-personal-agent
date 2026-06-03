@@ -1,0 +1,6 @@
+input/*
+!input/.gitkeep
+90_processed/*
+!90_processed/.gitkeep
+_credentials/
+*.env

@@ -59,3 +59,10 @@ Crea un nuovo progetto solo quando:
 **Cos'è:** Progetto di gestione miei task lavorativi e non. Quindi quando si parta di TODO list generiche, Clienti, azioni legate alla famiglia, a lavori, o attività non meglio specificate tendenzialmente finiscono qui
 
 ---
+
+### archiviazione-ottica-documenti
+**Cartella:** `projects/archiviazione-ottica-documenti/`
+**Documentazione:** [[projects/archiviazione-ottica-documenti/SINTESI|Sintesi]] | [[projects/archiviazione-ottica-documenti/TECNICO|Tecnico]] | [[projects/archiviazione-ottica-documenti/TODO|TODO]]
+**Cos'è:** Sistema AI per archiviare documenti fisici (scansioni/foto di posta ordinaria). Riceve documenti da topic Telegram, AttiBot upload o cartella input/, analizza il contenuto via vision AI, propone nome e categoria, e — dopo conferma di Atti — copia su Google Drive nelle destinazioni corrette. Non cancella mai i file originali. Tiene un log in `history.md`.
+
+---
