@@ -4,3 +4,5 @@ input/*
 !90_processed/.gitkeep
 _credentials/
 *.env
+*.pyc
+__pycache__/
