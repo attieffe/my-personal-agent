@@ -28,6 +28,7 @@
 ### [personale · famiglia · fiscale]
 - [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [ ] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
+- [ ] Trasmettere quadri ISA per dichiarazione redditi — accedere area riservata Ingenio su agenziaentrate.gov.it → cassetto fiscale → consultazioni → scarica file precompilata [aggiunto 2026-06-04 da email Raffaele Buraschi]
 
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini — prerequisito: ottenere prima atto di matrimonio di Attilio e Chiara
