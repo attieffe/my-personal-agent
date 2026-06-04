@@ -7,6 +7,12 @@ Comandi:
   analyze-ocr <file>       Alias per analisi vision/OCR completa
   execute <proposta_json>  Esegue archiviazione confermata, aggiorna history.md
   list                     Lista file in attesa in input/
+
+Exit codes:
+  0  Analisi completata
+  1  Errore generico
+  2  Upload parzialmente fallito
+  3  Filename non sufficiente: serve permesso OCR da Atti
 """
 import json
 import re
@@ -41,6 +47,19 @@ GENERIC_BANK_SIGNALS = (
     "saldo",
     "conto corrente",
     "comunicazione periodica",
+)
+
+INGENIO_SIGNALS = ("ingenio", "ingeniosolution", "ingenio solution")
+
+SPESE_MEDICHE_SIGNALS = (
+    "farmaci", "farmacia", "medico", "medica", "ticket ssn",
+    "scontrino farmac", "visita specialist", "ricevuta medic",
+)
+
+BOLLETTE_SIGNALS = (
+    "bolletta", "bollette", "enel", "eni gas", "a2a", "edison",
+    "tim ", " tim_", "vodafone", "fastweb", "wind ", "iliad",
+    "acquedotto", "telecom",
 )
 
 
@@ -120,46 +139,91 @@ def _build_bank_title(bank: str, stem: str) -> str:
 
 
 def _analyze_from_filename(path: Path) -> dict | None:
-    bank = _detect_bank_from_filename(path.stem)
-    if not bank:
-        return None
+    stem = path.stem
+    value = stem.lower().replace("_", " ")
 
-    data_documento = _extract_date_from_filename(path.name)
-    if not data_documento:
-        return None
+    # — BANCA —
+    bank = _detect_bank_from_filename(stem)
+    if bank:
+        data_documento = _extract_date_from_filename(path.name)
+        if not data_documento:
+            return None
+        nome_proposto = _build_bank_title(bank, stem)
+        if not nome_proposto:
+            return None
+        note = "Analisi rapida da filename; OCR non necessario."
+        if bank == "BPM Ingenio" and any(signal in value for signal in GENERIC_BANK_SIGNALS):
+            note = "Riconosciuto come documento bancario BPM Ingenio da filename."
+        mittente = {
+            "Intesa": "Intesa Sanpaolo",
+            "Isybank": "Isybank",
+            "BPM Ingenio": "Banco BPM",
+            "BBVA": "BBVA",
+            "Satispay": "Satispay",
+            "Paypal": "PayPal",
+            "Revolut": "Revolut",
+            "Revolut Ingenio": "Revolut Business",
+            "Revolut Cointestato": "Revolut",
+            "WB / WB Chiara": "Webank",
+        }.get(bank, bank)
+        return {
+            "data_documento": data_documento,
+            "nome_proposto": nome_proposto,
+            "categoria": "BANCA",
+            "banca_sottocartella": bank,
+            "mittente": mittente,
+            "importo": None,
+            "note": note,
+            "confidenza_data": "alta",
+            "file_originale": path.name,
+        }
 
-    nome_proposto = _build_bank_title(bank, path.stem)
-    if not nome_proposto:
-        return None
+    # — INGENIO_SOLUTION —
+    if any(s in value for s in INGENIO_SIGNALS):
+        data_documento = _extract_date_from_filename(path.name)
+        if data_documento:
+            return {
+                "data_documento": data_documento,
+                "nome_proposto": _strip_date_tokens(stem),
+                "categoria": "INGENIO_SOLUTION",
+                "mittente": None,
+                "importo": None,
+                "note": "Analisi rapida da filename; OCR non necessario.",
+                "confidenza_data": "alta",
+                "file_originale": path.name,
+            }
 
-    note = "Analisi rapida da filename; OCR non necessario."
-    if bank == "BPM Ingenio" and any(signal in path.stem.lower() for signal in GENERIC_BANK_SIGNALS):
-        note = "Riconosciuto come documento bancario BPM Ingenio da filename."
+    # — SPESE_MEDICHE —
+    if any(s in value for s in SPESE_MEDICHE_SIGNALS):
+        data_documento = _extract_date_from_filename(path.name)
+        if data_documento:
+            return {
+                "data_documento": data_documento,
+                "nome_proposto": _strip_date_tokens(stem),
+                "categoria": "SPESE_MEDICHE",
+                "mittente": None,
+                "importo": None,
+                "note": "Analisi rapida da filename; OCR non necessario.",
+                "confidenza_data": "media",
+                "file_originale": path.name,
+            }
 
-    mittente = {
-        "Intesa": "Intesa Sanpaolo",
-        "Isybank": "Isybank",
-        "BPM Ingenio": "Banco BPM",
-        "BBVA": "BBVA",
-        "Satispay": "Satispay",
-        "Paypal": "PayPal",
-        "Revolut": "Revolut",
-        "Revolut Ingenio": "Revolut Business",
-        "Revolut Cointestato": "Revolut",
-        "WB / WB Chiara": "Webank",
-    }.get(bank, bank)
+    # — BOLLETTE —
+    if any(s in value for s in BOLLETTE_SIGNALS):
+        data_documento = _extract_date_from_filename(path.name)
+        if data_documento:
+            return {
+                "data_documento": data_documento,
+                "nome_proposto": _strip_date_tokens(stem),
+                "categoria": "BOLLETTE",
+                "mittente": None,
+                "importo": None,
+                "note": "Analisi rapida da filename; OCR non necessario.",
+                "confidenza_data": "media",
+                "file_originale": path.name,
+            }
 
-    return {
-        "data_documento": data_documento,
-        "nome_proposto": nome_proposto,
-        "categoria": "BANCA",
-        "banca_sottocartella": bank,
-        "mittente": mittente,
-        "importo": None,
-        "note": note,
-        "confidenza_data": "alta",
-        "file_originale": path.name,
-    }
+    return None
 
 
 def _analyze_document(path: Path, force_ocr: bool = False) -> dict:
@@ -167,6 +231,11 @@ def _analyze_document(path: Path, force_ocr: bool = False) -> dict:
         fast = _analyze_from_filename(path)
         if fast:
             return fast
+        # Filename non sufficiente — segnala la necessità di OCR senza chiamarlo
+        return {
+            "needs_ocr": True,
+            "reason": f"Il filename '{path.name}' non è descrittivo: mancano data e/o categoria riconoscibile. Serve permesso OCR.",
+        }
 
     return vision_namer.analyze(str(path))
 
@@ -202,6 +271,15 @@ def cmd_analyze(argv: list[str]):
 
     print(f"Analisi in corso: {path.name} ...", file=sys.stderr)
     analysis = _analyze_document(path, force_ocr=force_ocr)
+
+    if analysis.get("needs_ocr"):
+        print(json.dumps({
+            "needs_ocr": True,
+            "file": path.name,
+            "reason": analysis["reason"],
+        }, ensure_ascii=False, indent=2))
+        sys.exit(3)
+
     destinations = drive_uploader.build_destinations(analysis)
 
     proposal = {

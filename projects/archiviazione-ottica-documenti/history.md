@@ -565,6 +565,31 @@ Log cronologico di ogni documento archiviato.
 - **Note:** Quietanza di versamento per Ingenio Solution Sas
 ---
 
+## 2026-06-04 08:41 — 20260601 fattura claude pro giugno.pdf
+- **Categoria:** INGENIO_SOLUTION
+- **Data documento:** 20260601
+- **Mittente:** Anthropic, PBC
+- **Importo:** 18.00
+- **File originale:** `20260601 Ingenio Anthropic Invoice-GWOBK9VP-0002.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260601 fattura claude pro giugno.pdf` ✅
+  - `gdrive:Ingenio/DOCUMENTI FISCALI/2026/20260601 fattura claude pro giugno.pdf` ✅
+
+- **Note:** Fattura per servizio Claude Pro, pagamento entro il 1 giugno 2026
+---
+
+## 2026-06-04 08:41 — 20260601 ricevuta pagamento claude.pdf
+- **Categoria:** INGENIO_SOLUTION
+- **Data documento:** 20260601
+- **Mittente:** Anthropic, PBC
+- **Importo:** 18.00
+- **File originale:** `Receipt-2355-3108-8967.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260601 ricevuta pagamento claude.pdf` ✅
+
+- **Note:** Pagamento per Claude Pro, fattura GWOBK9VP-0002
+---
+
 <!-- Esempio di record:
 ## 2026-06-03 — 20260603 fattura medico rossi.pdf
 - **Data documento:** 2026-05-28
