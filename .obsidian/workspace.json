@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/TODO_GENERALE.md",
+                "file": "projects/archiviazione-ottica-documenti/history.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO_GENERALE"
+              "title": "history"
             }
           }
         ]
@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cornared",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -185,19 +185,34 @@
   },
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "projects/google-sheets-tool/docs/~syncthing~struttura_foglio.md.tmp",
-    "projects/google-sheets-tool/_system/__pycache__/sheets_client.cpython-312.pyc",
-    "projects/google-sheets-tool/_credentials/google_token.json",
-    "projects/google-sheets-tool/_system/__pycache__/~syncthing~sheets_client.cpython-312.pyc.tmp",
-    "projects/google-sheets-tool/_credentials/~syncthing~google_token.json.tmp",
-    "projects/google-sheets-tool/_system/__pycache__",
+    "memory/2026-06-04-0140.md",
+    "memory/~syncthing~2026-06-04-0140.md.tmp",
+    "projects/archiviazione-ottica-documenti/README.md",
+    "projects/archiviazione-ottica-documenti/history.md",
+    "projects/archiviazione-ottica-documenti/TECNICO.md",
+    "projects/archiviazione-ottica-documenti/~syncthing~README.md.tmp",
+    "projects/archiviazione-ottica-documenti/~syncthing~TECNICO.md.tmp",
+    "projects/archiviazione-ottica-documenti/~syncthing~TODO.md.tmp",
+    "projects/archiviazione-ottica-documenti/~syncthing~APPUNTI.md.tmp",
+    "projects/archiviazione-ottica-documenti/SINTESI.sync-conflict-20260604-013337-J5JDJ6H.md",
+    "projects/archiviazione-ottica-documenti/~syncthing~SINTESI.md.tmp",
+    "projects/archiviazione-ottica-documenti/90_processed/2026-05-15_08971020964_05034_33842_000000003795_Quietanza_F24_CBI_2026-05-15_2026-05-15_377638143BW74E05034_0000001_596716.pdf",
+    "projects/archiviazione-ottica-documenti/90_processed/~syncthing~2026-05-15_08971020964_05034_33842_000000003795_Quietanza_F24_CBI_2026-05-15_2026-05-15_377638143BW74E05034_0000001_596716.pdf.tmp",
+    "projects/archiviazione-ottica-documenti/~syncthing~history.md.tmp",
+    "projects/archiviazione-ottica-documenti/SINTESI.md",
+    "projects/archiviazione-ottica-documenti/90_processed/2026-03-16_08971020964_05034_33842_000000003795_Quietanza_F24_CBI_2026-03-16_2026-03-16_370788871BW74E05034_0000001_10669.pdf",
+    "projects/archiviazione-ottica-documenti/APPUNTI.md",
+    "projects/archiviazione-ottica-documenti/_knowledge/ROUTING_RULES.md",
+    "projects/archiviazione-ottica-documenti/CHANGELOG.md",
+    "projects/archiviazione-ottica-documenti/TODO.md",
+    "projects/myJob/TODO_GENERALE.md",
+    "memory/2026-06-04-0126.md",
+    "memory/2026-06-03-1132.md",
+    "projects/myJob/PERSONALE/personale_tempo_libero/vacanze_estate_2026.md",
+    "memory/2026-06-03-1017.md",
+    "memory/2026-06-03-0849.md",
     "memory/2026-05-28-1417.md",
-    "memory/~syncthing~2026-05-28-1417.md.tmp",
-    "projects/myJob/FREELANCE/DIRETTI/Silvia_Migliaccio/~syncthing~00_index.md.tmp",
-    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
     "memory/2026-05-28-1410.md",
-    "memory/~syncthing~2026-05-28-1410.md.tmp",
     "projects/google-sheets-tool/docs/struttura_foglio.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
@@ -208,21 +223,6 @@
     "_attachments/temp/google_sheets_invite_check.md",
     "memory/2026-05-28-1014.md",
     "memory/2026-05-28-0933.md",
-    "memory/2026-05-28-0835.md",
-    "memory/2026-05-28-0824.md",
-    "memory/2026-05-28-0821.md",
-    "projects/myJob/PERSONALE/hobby/32_padel.md",
-    "memory/2026-05-27-1333.md",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
-    "memory/2026-05-26-2006.md",
-    "memory/2026-05-26-1845.md",
-    "memory/2026-05-26-1838.md",
-    "memory/2026-05-26-1818.md",
-    "memory/2026-05-26-1809.md",
-    "memory/2026-05-26-1808.md",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/TROUBLESHOOTING/Tabelle_non _caricate_su_FM.md",
-    "projects/myJob/TODO_GENERALE.md",
-    "projects/myJob/FREELANCE/DIRETTI/Unioncucine/README.md",
     "_attachments/temp/libretto_p1.png"
   ]
 }

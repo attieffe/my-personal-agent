@@ -21,6 +21,7 @@ Analizza questo documento e rispondi SOLO con JSON valido (nessun testo fuori da
   "data_documento": "YYYYMMDD",
   "nome_proposto": "titolo breve e descrittivo",
   "categoria": "SPESE_MEDICHE|CERTIFICATI_SANITARI|INGENIO_SOLUTION|BOLLETTE|BANCA|ALTRO",
+  "banca_sottocartella": "Revolut|Isybank|BBVA|Satispay|Paypal|BPM Ingenio|Revolut Ingenio|WB / WB Chiara|Revolut Cointestato|Intesa|null",
   "mittente": "nome mittente/ente se identificabile, null altrimenti",
   "importo": "importo totale come stringa (es. '85.50') se presente, null altrimenti",
   "note": "max 2 righe di info rilevanti",
@@ -35,6 +36,7 @@ Regole:
 - INGENIO_SOLUTION: documenti intestati a "Ingenio Solution" o P.IVA 03491200131, o spese aziendali
 - BOLLETTE: luce, gas, acqua, internet, telefono
 - BANCA: estratti conto, comunicazioni bancarie, bonifici
+- Se categoria = BANCA, valorizza anche banca_sottocartella con una delle sottocartelle note; se non riconosci la banca lascia null
 - ALTRO: tutto il resto
 """
 

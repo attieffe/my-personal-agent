@@ -77,8 +77,15 @@ def build_destinations(analysis: dict) -> list[dict]:
             "path": "Atti/Documenti/Sanità",
             "filename": filename,
         })
+    elif categoria == "BANCA":
+        # Va SOLO in Banche/{sottocartella}/{anno} (non in Archiviazione ottica)
+        sottocartella = analysis.get("banca_sottocartella", "BPM Ingenio")
+        destinations.append({
+            "path": f"Atti/Documenti/Banche/{sottocartella}/{anno}",
+            "filename": filename,
+        })
     else:
-        # Destinazione primaria: sempre (tranne CERTIFICATI_SANITARI)
+        # Destinazione primaria: sempre (tranne CERTIFICATI_SANITARI e BANCA)
         destinations.append({
             "path": f"Atti/Documenti/Archiviazione ottica/{anno}",
             "filename": filename,

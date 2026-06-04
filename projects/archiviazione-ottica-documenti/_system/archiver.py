@@ -2,11 +2,14 @@
 Orchestratore principale archiviazione documenti.
 
 Comandi:
-  analyze <file>           Analizza file in input/, stampa proposta JSON
+  analyze <file>           Analizza file in input/ senza OCR se il filename basta
+  analyze --ocr <file>     Forza analisi vision/OCR completa
+  analyze-ocr <file>       Alias per analisi vision/OCR completa
   execute <proposta_json>  Esegue archiviazione confermata, aggiorna history.md
   list                     Lista file in attesa in input/
 """
 import json
+import re
 import shutil
 import sys
 from datetime import datetime
@@ -20,8 +23,152 @@ HISTORY_FILE = BASE / "history.md"
 TZ = ZoneInfo("Europe/Rome")
 
 sys.path.insert(0, str(Path(__file__).parent))
-import vision_namer
 import drive_uploader
+import vision_namer
+
+DATE_PATTERNS = (
+    re.compile(r"(?<!\d)(?P<y>\d{4})(?P<m>\d{2})(?P<d>\d{2})(?!\d)"),
+    re.compile(r"(?<!\d)(?P<d>\d{2})[-_.](?P<m>\d{2})[-_.](?P<y>\d{4})(?!\d)"),
+    re.compile(r"(?<!\d)(?P<y>\d{4})[-_.](?P<m>\d{2})[-_.](?P<d>\d{2})(?!\d)"),
+)
+
+GENERIC_BANK_SIGNALS = (
+    "estratto conto",
+    "estratto conto corrente",
+    "documento di sintesi",
+    "rendiconto",
+    "movimenti",
+    "saldo",
+    "conto corrente",
+    "comunicazione periodica",
+)
+
+
+def _normalize_spaces(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def _extract_date_from_filename(filename: str) -> str | None:
+    stem = Path(filename).stem
+    for pattern in DATE_PATTERNS:
+        match = pattern.search(stem)
+        if match:
+            return f"{match.group('y')}{match.group('m')}{match.group('d')}"
+    return None
+
+
+def _strip_date_tokens(stem: str) -> str:
+    value = stem.replace("_", " ")
+    for pattern in DATE_PATTERNS:
+        value = pattern.sub(" ", value)
+    value = re.sub(r"\b\d{2}[-_.]\d{2}[-_.]\d{2,4}\b", " ", value)
+    return _normalize_spaces(value)
+
+
+def _detect_bank_from_filename(stem: str) -> str | None:
+    value = stem.lower().replace("_", " ")
+
+    if "isybank" in value:
+        return "Isybank"
+    if "bbva" in value:
+        return "BBVA"
+    if "satispay" in value:
+        return "Satispay"
+    if "paypal" in value:
+        return "Paypal"
+    if "webank" in value or "we bank" in value:
+        return "WB / WB Chiara"
+    if "intesa" in value:
+        return "Intesa"
+
+    if "revolut" in value:
+        if any(token in value for token in ("cointestato", "condiviso", "shared")):
+            return "Revolut Cointestato"
+        if any(token in value for token in ("ingenio", "business")):
+            return "Revolut Ingenio"
+        return "Revolut"
+
+    if "bpm" in value or "banco bpm" in value or "banca bpm" in value:
+        return "BPM Ingenio"
+    if any(signal in value for signal in GENERIC_BANK_SIGNALS):
+        return "BPM Ingenio"
+
+    return None
+
+
+def _build_bank_title(bank: str, stem: str) -> str:
+    title = _strip_date_tokens(stem)
+    title_lower = title.lower()
+
+    bank_tokens = {
+        "Revolut": ("revolut",),
+        "Isybank": ("isybank",),
+        "BBVA": ("bbva",),
+        "Satispay": ("satispay",),
+        "Paypal": ("paypal",),
+        "BPM Ingenio": ("bpm", "banco bpm", "banca bpm", "ingenio bpm"),
+        "Revolut Ingenio": ("revolut", "ingenio"),
+        "WB / WB Chiara": ("webank", "we bank", "wb"),
+        "Revolut Cointestato": ("revolut", "cointestato", "condiviso", "shared"),
+        "Intesa": ("intesa",),
+    }
+    tokens = bank_tokens.get(bank, ())
+    if tokens and not any(token in title_lower for token in tokens):
+        title = f"{bank} {title}"
+
+    return _normalize_spaces(title)
+
+
+def _analyze_from_filename(path: Path) -> dict | None:
+    bank = _detect_bank_from_filename(path.stem)
+    if not bank:
+        return None
+
+    data_documento = _extract_date_from_filename(path.name)
+    if not data_documento:
+        return None
+
+    nome_proposto = _build_bank_title(bank, path.stem)
+    if not nome_proposto:
+        return None
+
+    note = "Analisi rapida da filename; OCR non necessario."
+    if bank == "BPM Ingenio" and any(signal in path.stem.lower() for signal in GENERIC_BANK_SIGNALS):
+        note = "Riconosciuto come documento bancario BPM Ingenio da filename."
+
+    mittente = {
+        "Intesa": "Intesa Sanpaolo",
+        "Isybank": "Isybank",
+        "BPM Ingenio": "Banco BPM",
+        "BBVA": "BBVA",
+        "Satispay": "Satispay",
+        "Paypal": "PayPal",
+        "Revolut": "Revolut",
+        "Revolut Ingenio": "Revolut Business",
+        "Revolut Cointestato": "Revolut",
+        "WB / WB Chiara": "Webank",
+    }.get(bank, bank)
+
+    return {
+        "data_documento": data_documento,
+        "nome_proposto": nome_proposto,
+        "categoria": "BANCA",
+        "banca_sottocartella": bank,
+        "mittente": mittente,
+        "importo": None,
+        "note": note,
+        "confidenza_data": "alta",
+        "file_originale": path.name,
+    }
+
+
+def _analyze_document(path: Path, force_ocr: bool = False) -> dict:
+    if not force_ocr:
+        fast = _analyze_from_filename(path)
+        if fast:
+            return fast
+
+    return vision_namer.analyze(str(path))
 
 
 def cmd_list():
@@ -35,7 +182,17 @@ def cmd_list():
         print(f"  {f.name}  ({size // 1024} KB)")
 
 
-def cmd_analyze(file_arg: str):
+def cmd_analyze(argv: list[str]):
+    force_ocr = False
+    if argv and argv[0] in {"--ocr", "-o"}:
+        force_ocr = True
+        argv = argv[1:]
+
+    if not argv:
+        print("ERRORE: manca il file da analizzare", file=sys.stderr)
+        sys.exit(1)
+
+    file_arg = argv[0]
     path = Path(file_arg)
     if not path.is_absolute():
         path = INPUT_DIR / file_arg
@@ -44,7 +201,7 @@ def cmd_analyze(file_arg: str):
         sys.exit(1)
 
     print(f"Analisi in corso: {path.name} ...", file=sys.stderr)
-    analysis = vision_namer.analyze(str(path))
+    analysis = _analyze_document(path, force_ocr=force_ocr)
     destinations = drive_uploader.build_destinations(analysis)
 
     proposal = {
@@ -164,7 +321,9 @@ if __name__ == "__main__":
     if cmd == "list":
         cmd_list()
     elif cmd == "analyze" and len(sys.argv) >= 3:
-        cmd_analyze(sys.argv[2])
+        cmd_analyze(sys.argv[2:])
+    elif cmd == "analyze-ocr" and len(sys.argv) >= 3:
+        cmd_analyze(["--ocr", *sys.argv[2:]])
     elif cmd == "execute" and len(sys.argv) >= 3:
         cmd_execute(sys.argv[2])
     else:

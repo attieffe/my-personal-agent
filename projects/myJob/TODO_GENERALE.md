@@ -23,13 +23,14 @@
   - [x] backup ambiente TV
   → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
   
-- [ ] Aggiornare OPENCLAW da 2026.5.26 → 2026.5.28
-- [ ] Collegare OpenClaw a GitHub Copilot — basta lanciare il comando per connettere il gateway (2026-05-15)
 - [x] Monitorare bug OpenClaw #85314 e verificare se viene corretto [chiuso 2026-05-28]
 
 ### [personale · famiglia · fiscale]
 - [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [ ] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
+
+### [personale · famiglia · documenti]
+- [ ] Fare documenti per cittadinanza francese bambini — prerequisito: ottenere prima atto di matrimonio di Attilio e Chiara
 
 ### [personale · automobili]
 - [x] Pagare bollo auto
@@ -53,9 +54,9 @@
 	- [ ] verificato tema "blancone" se è quello funziona come da schema mandato. attendo da VIGA utenza 
 
 ### [freelance · diretto · studio paladini]
-- [ ] Rimuovere POSTE dalle convenzioni sul sito [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
-- [ ] Aggiungere FASI alle convenzioni sul sito — verificare su internet [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
-- [ ] Aggiungere ASSIDAI alle convenzioni sul sito — verificare su internet [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
+- [x] Rimuovere POSTE dalle convenzioni sul sito [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
+- [x] Aggiungere FASI alle convenzioni sul sito — verificare su internet [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
+- [x] Aggiungere ASSIDAI alle convenzioni sul sito — verificare su internet [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
 
 ### [freelance · diretto · unioncucine]
 - [ ] Aggiornare sul sito il numero di Cornaredo con il nuovo numero 0236025114 entro martedì 26/05/2026
@@ -72,8 +73,7 @@
 	- [ ] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
 
 ### [ingenio · amministrazione]
-- [ ] **Fare fatture** [scade 2026-06-02]
-- [ ] **Registrare investimenti al 31 maggio** [scade 2026-06-02]
+- [x] **Fare fatture** [scade 2026-06-02]
 - [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
 
 ---
