@@ -28,36 +28,52 @@
 ### [personale · famiglia · fiscale]
 - [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [ ] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
-- [ ] Trasmettere quadri ISA per dichiarazione redditi — accedere area riservata Ingenio su agenziaentrate.gov.it → cassetto fiscale → consultazioni → scarica file precompilata [aggiunto 2026-06-04 da email Raffaele Buraschi]
+- [ ] QUADRO ISA
+	- [x] Trasmettere XML  ISA per dichiarazione redditi — accedere area riservata Ingenio su agenziaentrate.gov.it → cassetto fiscale → consultazioni → scarica file precompilata [aggiunto 2026-06-04 da email Raffaele Buraschi]
 
 ### [personale · famiglia · documenti]
-- [ ] Fare documenti per cittadinanza francese bambini — prerequisito: ottenere prima atto di matrimonio di Attilio e Chiara
+- [ ] Fare documenti per cittadinanza francese bambini 
+	- [ ] Copia integrale atto di nascita del bambino Alessandro => Richiesto tramite serivzi online SPID 04/06/2026
+	- [ ] Copia integrale atto di nascita del bambino Alice => Richiesto tramite email il 05/06/2026
+	- [x] Copia atto di nascita integrale Francese
+	- [x] Copia documento identità Attilio
+	- [x] Libretto famiglia
+- [ ] Carta identità francese
+	- [ ] portare carta identità vecchia
+	- [ ] Foto tessera formato francese (Le tabaccherie/fotografi normali vanno bene se avvertiti delle norme francesi)
+	- [ ] Certificazione di residenza
+	- [ ] **Modulo pre-domanda CNI** — compilare online su: [https://predemande-cni.ants.gouv.fr](https://predemande-cni.ants.gouv.fr/) prima dell'appuntamento (genera un numero di pre-domanda da portare stampato)
+	- [ ] https://consulat.gouv.fr/consulat-general-de-france-a-milan/rendez-vous Fissare appuntamento
+- [ ] Registrare atto di matrimonio in francia
+	- [ ] Atto matrimonio: richiesto a comune di corbetta 04/06/2026 via email
+	- [x] Atto di nascita integrale Attilio Francese => OK
+	- [ ] Atto di nascita integrale Chiara => Da richiedere
+	- [ ] Passaporto attilio fronte retro
+	- [ ] Documento identità moglie fronte/retro
+	- [ ] Formulario https://it.diplomatie.gouv.fr/files/it/files/Rome/transcription_mariage_nulla_osta_1_ans_ou_pas_de_no_v2025_1.pdf
+	- [ ] Livret de famille
 
 ### [personale · automobili]
 - [x] Pagare bollo auto
 - [ ] Organizzarsi per revisione auto [scade 30/06/2026] → [[PERSONALE/automobili/BMW_X1_2020]]
-- [ ] Fissare appuntamento con EUROGOMME  [scade 06/06/2026]
+- [x] Fissare appuntamento con EUROGOMME  [scade 06/06/2026] ✓ 2026-06-04
 
+
+### [personale · casa · manutenzione]
+- [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
 
 ### [personale · networking · luca benzoni]
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
 
 ### [freelance · agenzia · get me digital]
 - [ ] Mandare calcoli GET ME DIGITAL secondo semestre 2025 a Neda e Cristina — aggiunto 2026-05-20
-- [~] **CEAM** — blocchi geografici IP — Netsons ha rimosso i blocchi (2026-05-19); da fare: test VPN dal Brasile → [[FREELANCE/GET_ME_DIGITAL/PROGETTI/PROJ-GetMeDigital-ceam-20260513/README|CEAM progetto]]
 
 ### freelance - agenzia - sinapps 
 
 - [x] **⚠️ SCADENZA 2026-05-22** Sinapps / Fibermap — 7 ore sviluppo (4+3) a 30€/h = 210€ → [[Fibermap-general|OPENFIBER dettaglio]]
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi [[FREELANCE/SINAPPS/SINAPPS_INDEX]]
-- [x] Sinapps / FiberMap — ok inserito privato/business; raggruppamento: classe capogruppo-SI (primo di quella tecnologia con stato=SI) e capogruppo-NO [2026-05-22]
-- [x] Sinapps / Blancone — modalità login segnalate da Andrea Migliavacca su WhatsApp; verificare `cm_redirect_users_by_role` e i redirect utenti → [[Blancone-general|BLANCONE dettaglio]]
-	- [ ] verificato tema "blancone" se è quello funziona come da schema mandato. attendo da VIGA utenza 
-
+ - [ ] Sinapps / FiberMap — compilazione form in automatico come da messaggio di Luca, scade il 5/6/2026
 ### [freelance · diretto · studio paladini]
-- [x] Rimuovere POSTE dalle convenzioni sul sito [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
-- [x] Aggiungere FASI alle convenzioni sul sito — verificare su internet [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
-- [x] Aggiungere ASSIDAI alle convenzioni sul sito — verificare su internet [2026-05-21] → [[FREELANCE/DIRETTI/Studio_Paladini/README|Studio Paladini]]
 
 ### [freelance · diretto · unioncucine]
 - [ ] Aggiornare sul sito il numero di Cornaredo con il nuovo numero 0236025114 entro martedì 26/05/2026
