@@ -12,3 +12,4 @@ _attachments/temp/**.*
 projects/miotesoro/.env
 projects/myAgenda/_credentials/
 projects/miotesoro-sheet-agent/.env
+output/

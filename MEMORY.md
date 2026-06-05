@@ -137,6 +137,7 @@ Convenzione creazione nuova agenzia: [[projects/myJob/CONVENTIONS]] sezione 10
 - Progetto agenzia (es. CEAM) → cartella agenzia (`FREELANCE/GET_ME_DIGITAL/`), non `DIRETTI/`
 - Per i file personali di myJob vuole una riorganizzazione migliore: separare chiaramente lavoro Colzani, casa/tempo libero, hobby e checklist operative.
 - Cron OpenClaw update check: ogni giorno alle 20:00, se c'è una nuova release, aggiorna/crea il TODO in `projects/myJob/TODO_GENERALE.md`.
+- Scontrini benzinaio: quando arriva un audio/foto di uno scontrino del distributore, estrarre e annotare almeno distributore/codice punto vendita, nome stazione, indirizzo, numero scontrino o post number, data, orario, importo, volume e tipo di benzina; poi creare il TODO con scadenza **domani**.
 - Checklist padel da censire: borsone, bibita, fascia braccio/spalla, orologio.
 - Vuole anche una checklist padel separata per cose da ricordare prima di partita/torneo/allenamento, con data e ora di inserimento per ogni voce.
 - Voci già dette per la checklist padel mentale: vibora con palla davanti, impugnatura continental, palla profonda che rimbalza dopo la linea; se è lontano dalla rete, a volte usare palla lenta per riconquistarla invece di tirare sempre forte.
