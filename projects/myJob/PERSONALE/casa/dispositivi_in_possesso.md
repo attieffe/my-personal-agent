@@ -48,6 +48,23 @@ _da aggiungere_
 
 ## Elettrodomestici
 
+### Condizionatore Daikin FDXm50F3 (Sala)
+- **Luogo:** Casa Seregno
+- **Posizione:** Sala
+- **Tipologia:** Mono canalizzabile
+- **Unità interna:** FDXm50F3-I
+- **Unità esterna:** RXMM (serie abbinata)
+- **Modello completo:** Daikin MONO CANALIZZ MOD FDXm50F3-I/RXMM
+- **Classe energetica:** A+ (inverter)
+- **Note:** —
+
+### Condizionatore Daikin Serie N (Zona Notte)
+- **Luogo:** Casa Seregno
+- **Posizione:** Zona notte
+- **Tipologia:** Serie N
+- **Modello completo:** Daikin Serie N
+- **Note:** Modello/seriale da aggiungere
+
 ### Caldaia Beretta Meteo Green E 25
 - **Luogo:** Casa Seregno
 - **Tipologia:** Caldaia / impianto termico
