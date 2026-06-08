@@ -1,5 +1,15 @@
 # iNTV — Credenziali IPTV
 
+## Mappatura Telegram
+
+- **Group chat ID:** `-1003877516285`
+- **Topic ID:** `2276`
+- **Nome topic:** INTV
+
+Quando Atti scrive in questo topic, il contesto di partenza è sempre questo file.
+Il tema è collegato al mondo della TV in streaming, quindi qui si parte da `intv.md`
+e si continua da lì.
+
 ## Server XtreamCodes
 
 | Campo    | Valore          |
@@ -17,7 +27,6 @@
 |--------|-----------|--------|------|
 | Eurosport 1 HD | **548216** | IT DAZN | confermato ✅ |
 | Eurosport 1 HD | **648834** | EuroSport | confermato ✅ |
-| Eurosport 1 HD | **648844** | EuroSport | testato OK (usato RG 2026) |
 | Sky Sport F1 HD | **540824** | HERMES | confermato ✅ |
 
 > Nota: verificare sempre che lo stream sia ancora attivo prima di usarlo (i server IPTV possono cambiare ID).

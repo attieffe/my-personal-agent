@@ -9,6 +9,9 @@
 
 ## TO-DO ATTIVI
 
+### [personale · scadenza · 2026-06-24]
+- [ ] Rinnovare pannello — scadenza 24 giugno 2026
+
 ### [personale · attrezzatura · oggi]
 
 - [x] Verificare carica GoPro ⚡ [fatto 2026-05-27]
@@ -57,7 +60,7 @@
 - [x] Pagare bollo auto
 - [ ] Organizzarsi per revisione auto [scade 30/06/2026] → [[PERSONALE/automobili/BMW_X1_2020]]
 - [x] Fissare appuntamento con EUROGOMME  [scade 06/06/2026] ✓ 2026-06-04
-- [ ] Annotare scontrino benzinaio Q8Easy Seregno - P.V. 1241, Via Milano 20, Seregno (MB), scontrino n. 113409, 05/06/2026 15:33, importo Euro 85,57, quantita 46,03 L, prezzo 1,859 €/L, pagamento carta [scade 06/06/2026]
+- [x] Annotare scontrino benzinaio Q8Easy Seregno - P.V. 1241, Via Milano 20, Seregno (MB), scontrino n. 113409, 05/06/2026 15:33, importo Euro 85,57, quantita 46,03 L, prezzo 1,859 €/L, pagamento carta ✓ 2026-06-06
 
 
 ### [personale · casa · manutenzione]

@@ -7,10 +7,10 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 TOKEN = os.path.expanduser(
-    "~/.openclaw/workspace/projects/myJob/PERSONALE/personale_tempo_libero/youtube_token.json"
+    "~/.openclaw/workspace/projects/myJob/PERSONALE/personale_tempo_libero/intv recording/youtube_token.json"
 )
 PLAYLIST_CACHE = os.path.expanduser(
-    "~/.openclaw/workspace/projects/myJob/PERSONALE/personale_tempo_libero/youtube_playlists.json"
+    "~/.openclaw/workspace/projects/myJob/PERSONALE/personale_tempo_libero/intv recording/youtube_playlists.json"
 )
 
 def get_creds():
