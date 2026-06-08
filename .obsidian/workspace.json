@@ -185,6 +185,12 @@
   },
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/email-injection/inboxes/myjob/00_inbox/msg_27_20260608_102715.eml",
+    "projects/email-injection/inboxes/myjob/00_inbox/msg_26_20260608_102715.eml",
+    "projects/email-injection/inboxes/myjob/00_inbox/~syncthing~msg_27_20260608_102715.eml.tmp",
+    "projects/email-injection/inboxes/myjob/00_inbox/~syncthing~msg_26_20260608_102715.eml.tmp",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~incoming_untriaged.md.tmp",
     "memory/2026-06-08-1127.md",
     "memory/~syncthing~2026-06-08-1127.md.tmp",
     "projects/myJob/PERSONALE/personale_tempo_libero/intv recording/youtube_token.json",
@@ -192,17 +198,12 @@
     "projects/myJob/PERSONALE/personale_tempo_libero/intv recording/intv.md",
     "projects/myJob/PERSONALE/personale_tempo_libero/intv recording",
     "projects/myJob/PERSONALE/personale_tempo_libero/youtube_token.json",
-    "projects/myJob/PERSONALE/personale_tempo_libero/youtube_playlists.json",
-    "projects/myJob/PERSONALE/personale_tempo_libero/~syncthing~youtube_token.json.tmp",
-    "projects/myJob/PERSONALE/personale_tempo_libero/~syncthing~youtube_playlists.json.tmp",
-    "_utility/static/~syncthing~youtube_upload.py.tmp",
     "projects/myJob/PERSONALE/personale_tempo_libero/intv.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/TROUBLESHOOTING/Tabelle_non _caricate_su_FM.md",
     "projects/myJob/TODO_GENERALE.md",
     "projects/archiviazione-ottica-documenti/history.md",
     "memory/2026-06-04-1707.md",
-    "memory/~syncthing~2026-06-04-1707.md.tmp",
     "memory/2026-06-04-0140.md",
     "projects/archiviazione-ottica-documenti/README.md",
     "projects/archiviazione-ottica-documenti/TECNICO.md",
@@ -222,7 +223,6 @@
     "projects/google-sheets-tool/docs/struttura_foglio.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
-    "projects/google-sheets-tool/CHANGELOG.md",
     "_attachments/temp/libretto_p1.png"
   ]
 }
