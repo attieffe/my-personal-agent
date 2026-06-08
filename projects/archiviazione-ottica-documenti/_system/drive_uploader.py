@@ -71,38 +71,35 @@ def build_destinations(analysis: dict) -> list[dict]:
 
     destinations = []
 
+    # Destinazione primaria: SEMPRE in Archiviazione ottica
+    destinations.append({
+        "path": f"Atti/Documenti/Archiviazione ottica/{anno}",
+        "filename": filename,
+    })
+
+    # Destinazioni specifiche per categoria
     if categoria == "CERTIFICATI_SANITARI":
-        # Va SOLO in Sanità (non in Archiviazione ottica)
         destinations.append({
             "path": "Atti/Documenti/Sanità",
             "filename": filename,
         })
     elif categoria == "BANCA":
-        # Va SOLO in Banche/{sottocartella}/{anno} (non in Archiviazione ottica)
         sottocartella = analysis.get("banca_sottocartella", "BPM Ingenio")
         destinations.append({
             "path": f"Atti/Documenti/Banche/{sottocartella}/{anno}",
             "filename": filename,
         })
-    else:
-        # Destinazione primaria: sempre (tranne CERTIFICATI_SANITARI e BANCA)
+    elif categoria == "SPESE_MEDICHE" and anno != "0000":
+        anno_dichiarazione = str(int(anno) + 1)
         destinations.append({
-            "path": f"Atti/Documenti/Archiviazione ottica/{anno}",
+            "path": f"Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno_dichiarazione}x{anno}",
             "filename": filename,
         })
-
-        if categoria == "SPESE_MEDICHE" and anno != "0000":
-            anno_dichiarazione = str(int(anno) + 1)
-            destinations.append({
-                "path": f"Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno_dichiarazione}x{anno}",
-                "filename": filename,
-            })
-
-        elif categoria == "INGENIO_SOLUTION":
-            destinations.append({
-                "path": f"Ingenio/DOCUMENTI FISCALI/{anno}",
-                "filename": filename,
-            })
+    elif categoria == "INGENIO_SOLUTION":
+        destinations.append({
+            "path": f"Ingenio/DOCUMENTI FISCALI/{anno}",
+            "filename": filename,
+        })
 
     return destinations
 

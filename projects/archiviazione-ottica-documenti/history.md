@@ -590,6 +590,29 @@ Log cronologico di ogni documento archiviato.
 - **Note:** Pagamento per Claude Pro, fattura GWOBK9VP-0002
 ---
 
+## 2026-06-08 16:28 — 20251231 bpm ingenio stato finanziamento auto.pdf
+- **Categoria:** BANCA
+- **Data documento:** 20251231
+- **Mittente:** Banco BPM
+- **File originale:** `estratto mutuo.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Banche/BPM Ingenio/2025/20251231 bpm ingenio stato finanziamento auto.pdf` ✅
+
+- **Note:** Dati forniti direttamente da Atti; OCR non utilizzato.
+---
+
+## 2026-06-08 16:47 — 20251231 bpm ingenio stato finanziamento auto.pdf
+- **Categoria:** BANCA
+- **Data documento:** 20251231
+- **Mittente:** Banco BPM
+- **File originale:** `estratto mutuo.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2025/20251231 bpm ingenio stato finanziamento auto.pdf` ✅
+  - `gdrive:Atti/Documenti/Banche/BPM Ingenio/2025/20251231 bpm ingenio stato finanziamento auto.pdf` ✅
+
+- **Note:** Dati forniti da Atti; OCR non utilizzato.
+---
+
 <!-- Esempio di record:
 ## 2026-06-03 — 20260603 fattura medico rossi.pdf
 - **Data documento:** 2026-05-28

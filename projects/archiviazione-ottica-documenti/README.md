@@ -13,7 +13,7 @@ Archivio documenti per Atti.
 - Prima prova sempre il `filename`.
 - OCR/vision solo se il filename non basta, il file è ambiguo o Atti lo chiede.
 - Se filename + data + categoria sono già chiari, non fare OCR.
-- BPM Ingenio / quietanze F24 sono filename-first: niente OCR di default.
+- BPM Ingenio Business / quietanze F24 sono filename-first: niente OCR di default.
 - I file originali non si cancellano: finiscono in `90_processed/`.
 - Su Drive si usa sempre la fonte `Condivisi con me` / shared, mai lo spazio personale `myjob@`.
 
@@ -25,13 +25,16 @@ Archivio documenti per Atti.
 
 ## Routing
 
+**Regola primaria:** Tutto finisce sempre sotto `gdrive:Atti/Documenti/Archiviazione ottica/{ANNO}/` (destinazione primaria obbligatoria).
+
+Destinazioni specifiche per categoria (in aggiunta alla primaria):
 - `BANCA` -> `gdrive:Atti/Documenti/Banche/{sottocartella}/{ANNO}/{YYYYMMDD} {titolo}.{ext}`
 - `CERTIFICATI_SANITARI` -> `gdrive:Atti/Documenti/Sanità/{YYYYMMDD} {titolo}.{ext}`
-- `INGENIO_SOLUTION` -> primaria + `gdrive:Ingenio/DOCUMENTI FISCALI/{ANNO}/{YYYYMMDD} {titolo}.{ext}`
-- `SPESE_MEDICHE` -> primaria + `gdrive:Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno+1}x{anno}/{YYYYMMDD} {titolo}.{ext}`
-- `AUTO` -> primaria + `gdrive:Atti/Documenti/AUTO/{targa} {modello}/{YYYYMMDD} {titolo}.{ext}`
-- `SCUOLA_BAMBINI` -> primaria + `gdrive:Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno+1}x{anno}/Bambini/{figlio}/{YYYYMMDD} {titolo}.{ext}`
-- `ALTRO` -> solo primaria
+- `INGENIO_SOLUTION` -> `gdrive:Ingenio/DOCUMENTI FISCALI/{ANNO}/{YYYYMMDD} {titolo}.{ext}`
+- `SPESE_MEDICHE` -> `gdrive:Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno+1}x{anno}/{YYYYMMDD} {titolo}.{ext}`
+- `AUTO` -> `gdrive:Atti/Documenti/AUTO/{targa} {modello}/{YYYYMMDD} {titolo}.{ext}`
+- `SCUOLA_BAMBINI` -> `gdrive:Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno+1}x{anno}/Bambini/{figlio}/{YYYYMMDD} {titolo}.{ext}`
+- `ALTRO` -> nessuna aggiunta (solo primaria)
 
 ## Banca
 
