@@ -1,7 +1,7 @@
-Colori proposti facciata (famiglia Terracotta): KK6602 KK6603 KK6604
-Balconi (famiglia Neutral, IR 77): KK1300
+Colori proposti facciata (famiglia Terracotta, interni + esterni):
+- KK 6002 — IR 50 — https://it.kerakoll.com/color/kk-6002
+- KK 6003 — IR 45 — https://it.kerakoll.com/color/kk-6003
+- KK 6004 — IR 37 — https://it.kerakoll.com/color/kk-6004
+- KK 6005 — IR 31 — https://it.kerakoll.com/color/kk-6005
 
-Link: https://it.kerakoll.com/color/kk-6602
-Link: https://it.kerakoll.com/color/kk-6603
-Link: https://it.kerakoll.com/color/kk-6604
-Link: https://it.kerakoll.com/color/kk-1300
+Balconi (famiglia Neutral, IR 77): KK 1300 — https://it.kerakoll.com/color/kk-1300
