@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
+                "file": "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata/Colore facciata.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Colore facciata"
             }
           }
         ]
@@ -185,6 +185,13 @@
   },
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
+    "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata/~syncthing~Colore facciata.md.tmp",
+    "memory/2026-06-09-1154.md",
+    "memory/~syncthing~2026-06-09-1154.md.tmp",
+    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
+    "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata/Colore facciata.md",
+    "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata",
+    "projects/myJob/PERSONALE/casa/condominio",
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/CHANGELOG.md",
     "projects/archiviazione-ottica-documenti/history.md",
@@ -201,14 +208,10 @@
     "projects/myJob/INSTRUCTIONS_GENERALI.md",
     "projects/myJob/WORKFLOWS.md",
     "projects/myJob/PERSONALE/personale_tempo_libero/vacanze_estate_2026.md",
-    "projects/myJob/PERSONALE/casa/~syncthing~dispositivi_in_possesso.md.tmp",
     "memory/2026-06-08-1503.md",
-    "memory/~syncthing~2026-06-08-1503.md.tmp",
-    "projects/archiviazione-ottica-documenti/input/estratto mutuo.pdf.crdownload",
     "memory/2026-06-08-1127.md",
     "projects/myJob/PERSONALE/personale_tempo_libero/intv recording/intv.md",
     "projects/myJob/PERSONALE/personale_tempo_libero/intv.md",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/TROUBLESHOOTING/Tabelle_non _caricate_su_FM.md",
     "projects/myJob/TODO_GENERALE.md",
     "memory/2026-06-04-1707.md",
@@ -218,8 +221,6 @@
     "projects/archiviazione-ottica-documenti/APPUNTI.md",
     "projects/archiviazione-ottica-documenti/_knowledge/ROUTING_RULES.md",
     "projects/archiviazione-ottica-documenti/CHANGELOG.md",
-    "memory/2026-06-04-0126.md",
-    "memory/2026-06-03-1132.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
     "_attachments/temp/libretto_p1.png"
