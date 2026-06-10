@@ -50,7 +50,7 @@
 - [ ] Registrare atto di matrimonio in francia
 	- [ ] Atto matrimonio: richiesto a comune di corbetta 04/06/2026 via email
 	- [x] Atto di nascita integrale Attilio Francese => OK
-	- [ ] Atto di nascita integrale Chiara => Da richiedere
+	- [ ] Atto di nascita integrale Chiara => Da richiedere al Comune di Mariano Comense
 	- [ ] Passaporto attilio fronte retro
 	- [ ] Documento identità moglie fronte/retro
 	- [ ] Formulario https://it.diplomatie.gouv.fr/files/it/files/Rome/transcription_mariage_nulla_osta_1_ans_ou_pas_de_no_v2025_1.pdf
