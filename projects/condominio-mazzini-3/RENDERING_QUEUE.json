@@ -1,6 +1,6 @@
 {
   "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
-  "last_updated": "2026-06-11T08:45:00+02:00",
+  "last_updated": "2026-06-11T08:52:26.040525+02:00",
   "queue": [
     {
       "code": "B1",
@@ -20,8 +20,15 @@
         "name": "antracite",
         "code": "RAL 7016"
       },
-      "status": "pending",
-      "added": "2026-06-10T23:00:00+02:00"
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T08:51:29.717926+02:00",
+      "output_images": [
+        "img/B1_foto1.jpg",
+        "img/B1_foto2.jpg",
+        "img/B1_foto3.jpg",
+        "img/B1_foto4.jpg"
+      ]
     },
     {
       "code": "B2",
@@ -41,8 +48,15 @@
         "name": "grigio grafite",
         "code": "RAL 7024"
       },
-      "status": "pending",
-      "added": "2026-06-10T23:00:00+02:00"
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T08:52:26.040494+02:00",
+      "output_images": [
+        "img/B2_foto1.jpg",
+        "img/B2_foto2.jpg",
+        "img/B2_foto3.jpg",
+        "img/B2_foto4.jpg"
+      ]
     },
     {
       "code": "B3",
