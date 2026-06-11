@@ -1,6 +1,6 @@
 {
   "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
-  "last_updated": "2026-06-11T13:23:09.967017+02:00",
+  "last_updated": "2026-06-11T13:27:16.634992+02:00",
   "queue": [
     {
       "code": "B1",
@@ -140,6 +140,34 @@
         "img/B5_foto2.jpg",
         "img/B5_foto3.jpg",
         "img/B5_foto4.jpg"
+      ]
+    },
+    {
+      "code": "B6",
+      "title": "Marrone Scuro · Grigio Chiaro · Greige",
+      "dominant": {
+        "hex": "#4A3728",
+        "name": "marrone scuro",
+        "code": "RAL 8019"
+      },
+      "secondary": {
+        "hex": "#CFD0C8",
+        "name": "grigio chiaro",
+        "code": "RAL 7035"
+      },
+      "accessory": {
+        "hex": "#C2B49A",
+        "name": "greige",
+        "code": "NCS S 3010-Y30R"
+      },
+      "status": "done",
+      "added": "2026-06-11T13:25:08+02:00",
+      "done": "2026-06-11T13:27:16.634954+02:00",
+      "output_images": [
+        "img/B6_foto1.jpg",
+        "img/B6_foto2.jpg",
+        "img/B6_foto3.jpg",
+        "img/B6_foto4.jpg"
       ]
     },
     {
@@ -554,7 +582,7 @@
       },
       "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T13:20:12.703319+02:00",
+      "done": "2026-06-11T13:20:26.769563+02:00",
       "output_images": [
         "img/A4_foto1.jpg",
         "img/A4_foto2.jpg",
@@ -582,7 +610,7 @@
       },
       "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T13:20:52.487302+02:00",
+      "done": "2026-06-11T13:21:13.581467+02:00",
       "output_images": [
         "img/A5_foto1.jpg",
         "img/A5_foto2.jpg",
@@ -610,7 +638,7 @@
       },
       "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T13:21:38.255950+02:00",
+      "done": "2026-06-11T13:21:58.566458+02:00",
       "output_images": [
         "img/F3_foto1.jpg",
         "img/F3_foto2.jpg",
@@ -638,7 +666,7 @@
       },
       "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T13:22:22.728509+02:00",
+      "done": "2026-06-11T13:22:48.244273+02:00",
       "output_images": [
         "img/F4_foto1.jpg",
         "img/F4_foto2.jpg",
@@ -666,7 +694,7 @@
       },
       "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T13:23:09.966993+02:00",
+      "done": "2026-06-11T13:23:42.468490+02:00",
       "output_images": [
         "img/F5_foto1.jpg",
         "img/F5_foto2.jpg",
