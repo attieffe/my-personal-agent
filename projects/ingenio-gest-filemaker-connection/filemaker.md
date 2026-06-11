@@ -238,11 +238,71 @@ https://localhost/Streaming/Additional_1/<HASH>.png?RCType=EmbeddedRCFileProcess
 
 ### Ciclo Passivo (Acquisti)
 
-#### A_FAT_000 — Fatture Acquisto (1 record)
+#### A_FAT_000 — Fatture Acquisto (1 record, template)
 **Tabella**: `Fatture Acq` nel file `Fatture acq`
 
 Struttura simile a V_FAT_000 ma lato fornitore. Campi extra: Nr Documento Fornitore, Data Documento Fornitore.
 **Portali**: Righe Acquisto fa, Carichi Acquisto, Righe Acquisto da evadere fa, reso a fornitore
+
+---
+
+#### Registro Acquisti — Archivio contabile fatture passive (pseudo-contabile)
+**Database**: `Fatture acq` | **Layout**: `registro acquisti` (50+ record)
+
+**Descrizione**: È l'archivio dove confluiscono TUTTE le fatture di acquisto registrate. È il vero registro contabile per la contabilità IVA — non il file importato da fatture elettroniche, ma il consolidamento in registro.
+
+| Campo | Significato | Note |
+|---|---|---|
+| `Nr Reg.` | Numero progressivo registrazione | Univoco per registro |
+| `Data` | Data fattura / documento | Data del documento fornitore |
+| `Data reg.` | Data registrazione | Quando è stata registrata |
+| `Fornitore` | Ragione sociale fornitore | Da anagrafica fornitori |
+| `Nr documento` | Numero fattura fornitore | Identificativo esterno |
+| `Categoria` | Categoria di spesa | Es. "Servizi", "Manutenzione Auto", "Formazione" |
+| `Partita IVA` | P.IVA fornitore | Spesso vuoto se non estero |
+| `IVA` | Aliquota IVA % | `22`, `10`, `0` |
+| `Imponibile import` | Imponibile lordo | Base imponibile |
+| `Valore iva` | Importo IVA | IVA calcolata |
+| `Totale` | Importo totale | Imponibile + IVA |
+| `% DED` | Deducibilità IVA % | `100%` ordinaria, `40%` esente, `20%` mista |
+| `% IVA DETR` | Percentuale detraibilità | Correlato a deducibilità |
+| `mostra iva esente` | Flag esente | `1` se esente/reverse charge, `0` ordinaria |
+| `Natura` | Natura contabile | Spesso vuoto nel registro (vedi DatiRiepilogo per Natura=N4/N1/N2) |
+| `nome file xml` | Riferimento file XML | Se importato da fatturazione elettronica |
+| `id liquidazione` | Link a liquidazione IVA | Es. "2026.2.0" (anno.trimestre.0) |
+
+**Filtro Reverse Charge / EXTRA UE**:
+- `IVA = 0` + `mostra iva esente = 1` → Record esente o reverse charge
+- Per dettagli sulla natura esatta (N4=reverse charge, N1=EXTRA UE, ecc.), consultare:
+  - **Fatture acq** / layout **DatiRiepilogo** (contenuto XML importato)
+  - Campo `Natura` nella fatturazione elettronica (N4=reverse charge, N1=EXTRA UE, ecc.)
+
+**Collegamento a fatturazione elettronica**:
+- Campo `nome file xml` linka al layout `DatiRiepilogo` nel database `Fatture acq`
+- Nel `DatiRiepilogo`, il campo `Natura` specifica il regime IVA (N4, N1, N2, ecc.)
+- Il registro acquisti è la **visione contabile semplificata**, il DatiRiepilogo è il **dettaglio per riga XML**
+
+---
+
+#### DatiRiepilogo — Riepilogo IVA per documento (importato da e-fattura)
+**Database**: `Fatture acq` | **Layout**: `DatiRiepilogo`
+
+Contiene il riepilogo IVA estratto dai file XML di fatturazione elettronica.
+
+| Campo | Significato | Esempio |
+|---|---|---|
+| `Fattura` | Nome file XML fattura | `IT0526289001419059_8PMU4.xml` |
+| `AliquotaIVA` | Aliquota % | `22.00`, `10.00`, `0.00` |
+| `Natura` | Codice natura regime IVA | `N4` (reverse charge), `N1` (EXTRA UE), `N2` (esente), vuoto (ordinaria) |
+| `ImponibileImporto` | Importo imponibile | €15.49, €30.00 |
+| `Imposta` | Importo IVA | €0.00 (per reverse charge) |
+| `EsigibilitaIVA` | Esigibilità | `I` (Immediata) |
+
+**Natura IVA Codici**:
+- Nessuno / vuoto = **Ordinaria** (aliquota 22%, 10%, ecc.)
+- **N1** = EXTRA UE (fornitore fuori UE, reverse charge dell'acquirente)
+- **N2** = Esente
+- **N4** = Reverse charge interno (acquisto da fornitore italiano)
 
 ---
 
