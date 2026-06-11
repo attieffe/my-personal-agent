@@ -33,77 +33,62 @@ MODELS = [
 ]
 
 PHOTOS = [
-    {"file": "foto1.jpg", "focus": "facciata"},
-    {"file": "foto2.jpg", "focus": "balconi"},
-    {"file": "foto3.jpg", "focus": "dettagli"},
+    {"file": "foto1.jpg", "focus": "FOTO1_FACCIATA"},
+    {"file": "foto2.jpg", "focus": "FOTO2_BALCONI"},
+    {"file": "foto3.jpg", "focus": "FOTO3_DETTAGLI"},
 ]
 
+_SYSTEM_DIR = pathlib.Path(__file__).parent / "_system"
+
 # ---------------------------------------------------------------------------
-# Prompt
+# Prompt — caricato da _system/, colori come pure variabili
 # ---------------------------------------------------------------------------
+
+def _load_focus_templates():
+    path = _SYSTEM_DIR / "focus_templates.txt"
+    content = path.read_text()
+    templates = {}
+    current_key = None
+    lines = []
+    for line in content.splitlines():
+        if line.startswith("[") and line.endswith("]") and not line.startswith("#"):
+            if current_key:
+                templates[current_key] = "\n".join(lines).strip()
+            current_key = line[1:-1]
+            lines = []
+        elif current_key and not line.startswith("#"):
+            lines.append(line)
+    if current_key:
+        templates[current_key] = "\n".join(lines).strip()
+    return templates
+
+_PROMPT_TEMPLATE = (_SYSTEM_DIR / "prompt_template.txt").read_text()
+_FOCUS_TEMPLATES = _load_focus_templates()
+
 
 def make_prompt(proposal, focus):
     dom = proposal["dominant"]
     sec = proposal["secondary"]
     acc = proposal.get("accessory", {})
+
     acc_line = ""
     if acc.get("hex"):
-        acc_line = f"• ACCESSORI — contorni finestre, pilastri, bordi strutturali, soglie: {acc['hex']} · {acc['name']} · {acc.get('code','')}"
+        acc_line = f"• ACCESSORI — contorni finestre, pilastri, bordi strutturali, soglie: {acc['hex']} · {acc['name']} · {acc.get('code', '')}"
 
-    focus_desc = {
-        "facciata": (
-            "Inquadratura FACCIATA PRINCIPALE — visione d'insieme dell'edificio. "
-            "In questa vista si deve vedere la palette completa applicata: il colore DOMINANTE copre "
-            "le grandi superfici murarie, il colore SECONDARIO appare sulle fasce orizzontali "
-            "tra i piani, il colore ACCESSORIO è visibile su contorni finestre e bordi strutturali."
-        ),
-        "balconi": (
-            "Inquadratura BALCONI E FASCE — focus sulle fasce interpiano e sui balconi. "
-            "La palette completa deve essere visibile: il colore DOMINANTE sulle pareti principali "
-            "fa da sfondo, il colore SECONDARIO risalta sulle fasce orizzontali e sui soffitti dei "
-            "balconi, il colore ACCESSORIO appare sui bordi e contorni. "
-            "La palette è identica alla foto 1, cambia solo l'angolazione."
-        ),
-        "dettagli": (
-            "Inquadratura DETTAGLI ARCHITETTONICI — vista ravvicinata o allargata che mostra "
-            "l'insieme cromatico con chiarezza. "
-            "La palette completa deve essere coerente con le foto precedenti: colore DOMINANTE "
-            "sulle superfici murarie, SECONDARIO sulle fasce, ACCESSORIO su contorni e pilastri. "
-            "I tre colori devono essere riconoscibili e identici per tinta agli esadecimali indicati."
-        ),
-    }[focus]
+    focus_key = focus if focus in _FOCUS_TEMPLATES else "FOTO1_FACCIATA"
+    focus_desc = _FOCUS_TEMPLATES[focus_key]
 
-    return f"""Sei un visualizzatore architettonico professionale specializzato in rendering cromatici per condomini italiani degli anni '80.
-
-EDIFICIO: Condominio Mazzini 3, Via Pacini 77/79/81, Seregno — edificio residenziale anni '80, facciate in intonaco, con fasce orizzontali decorative tra i piani, balconi a sbalzo, serramenti e tapparelle marrone Douglas.
-
-PROPOSTA CROMATICA: {proposal['title']}
-
-PALETTE CROMATICA — APPLICARE IN MODO IDENTICO IN TUTTE E 3 LE FOTO:
-• DOMINANTE — superfici murarie principali, pannelli di facciata: {dom['hex']} · {dom['name']} · {dom.get('code','')}
-• SECONDARIO — fasce orizzontali interpiano, soffitti balconi, cornici: {sec['hex']} · {sec['name']} · {sec.get('code','')}
-{acc_line}
-
-REGOLA DI COERENZA CROMATICA (CRITICA):
-Le 3 foto rappresentano la STESSA proposta cromatica da angolazioni diverse.
-Il colore dominante DEVE essere identico in tutte e 3 le foto.
-Il colore secondario DEVE essere identico in tutte e 3 le foto.
-Il colore accessorio DEVE essere identico in tutte e 3 le foto.
-NON cambiare, variare o omettere nessuno dei 3 colori tra una foto e l'altra.
-
-ISTRUZIONE DI RENDERING (ANGOLAZIONE):
-{focus_desc}
-
-VINCOLI ASSOLUTI — NON MODIFICARE MAI:
-- Geometria, struttura, proporzioni e prospettiva del palazzo (nessuna aggiunta/rimozione di elementi)
-- Finestre: vetri (riflessi, trasparenze) e telai
-- Tapparelle e persiane marrone Douglas (colore invariato)
-- Cielo, nuvole, luce, ombre
-- Vegetazione, alberi, aiuole
-- Strada, marciapiede, auto, persone, pavimentazione
-- Qualsiasi elemento non appartenente alla facciata dell'edificio
-
-OUTPUT ATTESO: rendering fotorealistico ad alta qualità, come se fosse una simulazione cromatica professionale per approvazione in assemblea condominiale. I colori devono essere uniformi, puliti e fedeli agli esadecimali indicati."""
+    return _PROMPT_TEMPLATE.format(
+        PROPOSAL_TITLE=proposal["title"],
+        DOMINANT_HEX=dom["hex"],
+        DOMINANT_NAME=dom["name"],
+        DOMINANT_CODE=dom.get("code", ""),
+        SECONDARY_HEX=sec["hex"],
+        SECONDARY_NAME=sec["name"],
+        SECONDARY_CODE=sec.get("code", ""),
+        ACCESSORY_LINE=acc_line,
+        FOCUS_DESC=focus_desc,
+    )
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,31 @@
+Sei un visualizzatore architettonico professionale specializzato in rendering cromatici per condomini italiani degli anni '80.
+
+EDIFICIO: Condominio Mazzini 3, Via Pacini 77/79/81, Seregno — edificio residenziale anni '80, facciate in intonaco, con fasce orizzontali decorative tra i piani, balconi a sbalzo, serramenti e tapparelle marrone Douglas.
+
+PROPOSTA CROMATICA: {PROPOSAL_TITLE}
+
+PALETTE CROMATICA — APPLICARE IN MODO IDENTICO IN TUTTE E 3 LE FOTO:
+• DOMINANTE — superfici murarie principali, pannelli di facciata: {DOMINANT_HEX} · {DOMINANT_NAME} · {DOMINANT_CODE}
+• SECONDARIO — fasce orizzontali interpiano, soffitti balconi, cornici: {SECONDARY_HEX} · {SECONDARY_NAME} · {SECONDARY_CODE}
+{ACCESSORY_LINE}
+
+REGOLA DI COERENZA CROMATICA (CRITICA):
+Le 3 foto rappresentano la STESSA proposta cromatica da angolazioni diverse.
+Il colore dominante DEVE essere identico in tutte e 3 le foto.
+Il colore secondario DEVE essere identico in tutte e 3 le foto.
+Il colore accessorio DEVE essere identico in tutte e 3 le foto.
+NON cambiare, variare o omettere nessuno dei 3 colori tra una foto e l'altra.
+
+ISTRUZIONE DI RENDERING (ANGOLAZIONE):
+{FOCUS_DESC}
+
+VINCOLI ASSOLUTI — NON MODIFICARE MAI:
+- Geometria, struttura, proporzioni e prospettiva del palazzo (nessuna aggiunta/rimozione di elementi)
+- Finestre: vetri (riflessi, trasparenze) e telai
+- Tapparelle e persiane marrone Douglas (colore invariato)
+- Cielo, nuvole, luce, ombre
+- Vegetazione, alberi, aiuole
+- Strada, marciapiede, auto, persone, pavimentazione
+- Qualsiasi elemento non appartenente alla facciata dell'edificio
+
+OUTPUT ATTESO: rendering fotorealistico ad alta qualità, come se fosse una simulazione cromatica professionale per approvazione in assemblea condominiale. I colori devono essere uniformi, puliti e fedeli agli esadecimali indicati.
