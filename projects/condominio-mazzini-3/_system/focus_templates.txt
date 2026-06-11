@@ -14,3 +14,8 @@ La palette è identica alla foto 1, cambia solo l'angolazione.
 Inquadratura DETTAGLI ARCHITETTONICI — vista ravvicinata o allargata che mostra l'insieme cromatico con chiarezza.
 La palette completa deve essere coerente con le foto precedenti: colore DOMINANTE sulle superfici murarie, SECONDARIO sulle fasce, ACCESSORIO su contorni e pilastri.
 I tre colori devono essere riconoscibili e identici per tinta agli esadecimali indicati.
+
+[FOTO4_LATERALE]
+Inquadratura FACCIATA LATERALE — visione del lato con la torre di balconi a sbalzo sovrapposti.
+La palette deve essere applicata coerentemente: colore DOMINANTE sulle superfici murarie verticali, colore SECONDARIO sulle fasce orizzontali interpiano e sui soffitti dei balconi a sbalzo, colore ACCESSORIO sui contorni delle finestre, pilastri e bordi strutturali della torre.
+La palette è identica alle foto precedenti, cambia solo l'angolazione.

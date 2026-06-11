@@ -108,13 +108,15 @@ def enable_card(code, proposal=None):
 
     rendered = (
         f'<div class="card-photo rendered">\n'
-        f'              <img class="slide active" src="img/{code}_foto1.jpg" alt="Foto 1">\n'
-        f'              <img class="slide" src="img/{code}_foto2.jpg" alt="Foto 2">\n'
-        f'              <img class="slide" src="img/{code}_foto3.jpg" alt="Foto 3">\n'
+        f'              <img class="slide active" src="img/{code}_foto1.jpg" alt="Foto 1 — Facciata principale">\n'
+        f'              <img class="slide" src="img/{code}_foto2.jpg" alt="Foto 2 — Balconi e fasce">\n'
+        f'              <img class="slide" src="img/{code}_foto3.jpg" alt="Foto 3 — Dettagli">\n'
+        f'              <img class="slide" src="img/{code}_foto4.jpg" alt="Foto 4 — Facciata laterale">\n'
         f'              <div class="photo-dots">\n'
         f'                <span class="dot active" onclick="switchSlide(\'{code}\',0)"></span>\n'
         f'                <span class="dot" onclick="switchSlide(\'{code}\',1)"></span>\n'
         f'                <span class="dot" onclick="switchSlide(\'{code}\',2)"></span>\n'
+        f'                <span class="dot" onclick="switchSlide(\'{code}\',3)"></span>\n'
         f'              </div>\n'
         f'            </div>'
     )

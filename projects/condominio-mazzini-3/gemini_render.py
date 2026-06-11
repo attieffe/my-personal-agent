@@ -36,6 +36,7 @@ PHOTOS = [
     {"file": "foto1.jpg", "focus": "FOTO1_FACCIATA"},
     {"file": "foto2.jpg", "focus": "FOTO2_BALCONI"},
     {"file": "foto3.jpg", "focus": "FOTO3_DETTAGLI"},
+    {"file": "foto4.jpg", "focus": "FOTO4_LATERALE"},
 ]
 
 _SYSTEM_DIR = pathlib.Path(__file__).parent / "_system"
