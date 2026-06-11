@@ -10,3 +10,5 @@
 ## 2026-06-11
 - B5 completato con `render_and_publish.py`
 - Pagina pubblicata aggiornata su `proposte_facciate.html`
+- Swap immagine di base: foto4.jpg originale (124KB, duplicato) → nuova immagine WhatsApp (1.1MB)
+- Reset proposte: eliminati `proposte_facciate.html` e `TODO_RENDERING.json` per rigenerazione con nuova foto
