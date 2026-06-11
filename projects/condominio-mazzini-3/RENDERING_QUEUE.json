@@ -1,0 +1,578 @@
+{
+  "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
+  "last_updated": "2026-06-11T00:16:31.358784+02:00",
+  "queue": [
+    {
+      "code": "B1",
+      "title": "Bianco Caldo · Grigio Perla · Antracite",
+      "dominant": {
+        "hex": "#F4EFE4",
+        "name": "bianco caldo",
+        "code": "RAL 9001"
+      },
+      "secondary": {
+        "hex": "#CFD0C8",
+        "name": "grigio perla",
+        "code": "RAL 7035"
+      },
+      "accessory": {
+        "hex": "#383E42",
+        "name": "antracite",
+        "code": "RAL 7016"
+      },
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-10T23:57:40.562574+02:00",
+      "output_images": [
+        "img/B1_foto1.jpg",
+        "img/B1_foto2.jpg",
+        "img/B1_foto3.jpg"
+      ]
+    },
+    {
+      "code": "B2",
+      "title": "Avorio · Bianco Panna · Grigio Grafite",
+      "dominant": {
+        "hex": "#EDE0C4",
+        "name": "avorio",
+        "code": "RAL 1015"
+      },
+      "secondary": {
+        "hex": "#F8F4EA",
+        "name": "bianco panna",
+        "code": "RAL 9010"
+      },
+      "accessory": {
+        "hex": "#4D5361",
+        "name": "grigio grafite",
+        "code": "RAL 7024"
+      },
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T00:15:18.681941+02:00",
+      "output_images": [
+        "img/B2_foto1.jpg",
+        "img/B2_foto2.jpg",
+        "img/B2_foto3.jpg"
+      ]
+    },
+    {
+      "code": "B3",
+      "title": "Beige Sabbia · Bianco Latte · Grigio Ardesia",
+      "dominant": {
+        "hex": "#D4C5A9",
+        "name": "beige sabbia",
+        "code": "NCS S 2010-Y20R"
+      },
+      "secondary": {
+        "hex": "#F5F0E8",
+        "name": "bianco latte",
+        "code": ""
+      },
+      "accessory": {
+        "hex": "#6E7176",
+        "name": "grigio ardesia",
+        "code": "NCS S 5000-N"
+      },
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T00:07:47.796599+02:00",
+      "output_images": [
+        "img/B3_foto1.jpg",
+        "img/B3_foto2.jpg",
+        "img/B3_foto3.jpg"
+      ]
+    },
+    {
+      "code": "B4",
+      "title": "Grigio Tortora · Bianco Caldo · Nero",
+      "dominant": {
+        "hex": "#C8C2B8",
+        "name": "grigio tortora",
+        "code": "NCS S 2005-Y50R"
+      },
+      "secondary": {
+        "hex": "#F4EFE4",
+        "name": "bianco caldo",
+        "code": ""
+      },
+      "accessory": {
+        "hex": "#0E0E0E",
+        "name": "nero",
+        "code": "RAL 9005"
+      },
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T00:09:07.676359+02:00",
+      "output_images": [
+        "img/B4_foto1.jpg",
+        "img/B4_foto2.jpg",
+        "img/B4_foto3.jpg"
+      ]
+    },
+    {
+      "code": "B5",
+      "title": "Greige · Grigio Chiaro · Marrone Scuro",
+      "dominant": {
+        "hex": "#C2B49A",
+        "name": "greige",
+        "code": "NCS S 3010-Y30R"
+      },
+      "secondary": {
+        "hex": "#CFD0C8",
+        "name": "grigio chiaro",
+        "code": "RAL 7035"
+      },
+      "accessory": {
+        "hex": "#4A3728",
+        "name": "marrone scuro",
+        "code": "RAL 8019"
+      },
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T00:16:31.358753+02:00",
+      "output_images": [
+        "img/B5_foto1.jpg",
+        "img/B5_foto2.jpg",
+        "img/B5_foto3.jpg"
+      ]
+    },
+    {
+      "code": "C1",
+      "title": "Grigio Cemento · Bianco Puro · Antracite",
+      "dominant": {
+        "hex": "#8B8B87",
+        "name": "grigio cemento",
+        "code": "NCS S 4000-N"
+      },
+      "secondary": {
+        "hex": "#F4F4F0",
+        "name": "bianco puro",
+        "code": "RAL 9003"
+      },
+      "accessory": {
+        "hex": "#383E42",
+        "name": "antracite",
+        "code": "RAL 7016"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "C2",
+      "title": "Grigio Chiaro · Grigio Medio · Bianco",
+      "dominant": {
+        "hex": "#CFD0C8",
+        "name": "grigio chiaro",
+        "code": "RAL 7035"
+      },
+      "secondary": {
+        "hex": "#9DA3A6",
+        "name": "grigio medio",
+        "code": "RAL 7040"
+      },
+      "accessory": {
+        "hex": "#F4F4F0",
+        "name": "bianco",
+        "code": "RAL 9003"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "C4",
+      "title": "Grigio Caldo · Avorio · Bronzo",
+      "dominant": {
+        "hex": "#C0B8AE",
+        "name": "grigio caldo",
+        "code": "NCS S 3005-Y20R"
+      },
+      "secondary": {
+        "hex": "#EDE0C4",
+        "name": "avorio",
+        "code": "RAL 1015"
+      },
+      "accessory": {
+        "hex": "#8B6914",
+        "name": "bronzo",
+        "code": ""
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "C5",
+      "title": "Grigio Perla · Grigio Antracite · Bianco",
+      "dominant": {
+        "hex": "#CFD0C8",
+        "name": "grigio perla",
+        "code": "RAL 7035"
+      },
+      "secondary": {
+        "hex": "#383E42",
+        "name": "grigio antracite",
+        "code": "RAL 7016"
+      },
+      "accessory": {
+        "hex": "#F4F4F0",
+        "name": "bianco",
+        "code": "RAL 9003"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "D1",
+      "title": "Verde Salvia · Bianco Caldo · Antracite",
+      "dominant": {
+        "hex": "#8AAE85",
+        "name": "verde salvia",
+        "code": "NCS S 3020-G30Y"
+      },
+      "secondary": {
+        "hex": "#F4EFE4",
+        "name": "bianco caldo",
+        "code": "RAL 9001"
+      },
+      "accessory": {
+        "hex": "#383E42",
+        "name": "antracite",
+        "code": "RAL 7016"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "D2",
+      "title": "Verde Oliva · Beige · Marrone",
+      "dominant": {
+        "hex": "#7A8B52",
+        "name": "verde oliva",
+        "code": "NCS S 4020-G50Y"
+      },
+      "secondary": {
+        "hex": "#CFC3A5",
+        "name": "beige",
+        "code": "RAL 1019"
+      },
+      "accessory": {
+        "hex": "#7A4E2D",
+        "name": "marrone",
+        "code": "RAL 8011"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "D3",
+      "title": "Verde Acqua Smorzato · Bianco · Grigio Scuro",
+      "dominant": {
+        "hex": "#85AEA0",
+        "name": "verde acqua smorzato",
+        "code": "NCS S 2020-B70G"
+      },
+      "secondary": {
+        "hex": "#F4F4F0",
+        "name": "bianco",
+        "code": "RAL 9003"
+      },
+      "accessory": {
+        "hex": "#4D5361",
+        "name": "grigio scuro",
+        "code": ""
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "D4",
+      "title": "Verde Muschio · Ocra Chiara · Nero",
+      "dominant": {
+        "hex": "#526B4A",
+        "name": "verde muschio",
+        "code": "NCS S 5020-G30Y"
+      },
+      "secondary": {
+        "hex": "#D4A851",
+        "name": "ocra chiara",
+        "code": ""
+      },
+      "accessory": {
+        "hex": "#0E0E0E",
+        "name": "nero",
+        "code": "RAL 9005"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "D5",
+      "title": "Verde Cedro · Sabbia · Bronzo Ossidato",
+      "dominant": {
+        "hex": "#648C5A",
+        "name": "verde cedro",
+        "code": "NCS S 4030-G20Y"
+      },
+      "secondary": {
+        "hex": "#C7B299",
+        "name": "sabbia",
+        "code": "RAL 1001"
+      },
+      "accessory": {
+        "hex": "#8B6914",
+        "name": "bronzo ossidato",
+        "code": ""
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "E1",
+      "title": "Ocra Dorata · Bianco Travertino · Marrone Scuro",
+      "dominant": {
+        "hex": "#CCA048",
+        "name": "ocra dorata",
+        "code": "NCS S 2030-Y20R"
+      },
+      "secondary": {
+        "hex": "#F8F4E8",
+        "name": "bianco travertino",
+        "code": "RAL 9010"
+      },
+      "accessory": {
+        "hex": "#44241A",
+        "name": "marrone scuro",
+        "code": "RAL 8017"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "E2",
+      "title": "Giallo Paglierino · Bianco · Noce",
+      "dominant": {
+        "hex": "#E2D0A2",
+        "name": "giallo paglierino",
+        "code": "RAL 1014"
+      },
+      "secondary": {
+        "hex": "#F8F4E8",
+        "name": "bianco",
+        "code": "RAL 9010"
+      },
+      "accessory": {
+        "hex": "#7A4E2D",
+        "name": "noce",
+        "code": "RAL 8011"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "E3",
+      "title": "Ocra Toscana · Avorio · Antracite",
+      "dominant": {
+        "hex": "#C48C35",
+        "name": "ocra toscana",
+        "code": "NCS S 3030-Y10R"
+      },
+      "secondary": {
+        "hex": "#EDE0C4",
+        "name": "avorio",
+        "code": "RAL 9001"
+      },
+      "accessory": {
+        "hex": "#383E42",
+        "name": "antracite",
+        "code": "RAL 7016"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "E4",
+      "title": "Giallo Ocra · Sabbia · Verde Muschio",
+      "dominant": {
+        "hex": "#C9982C",
+        "name": "giallo ocra",
+        "code": "RAL 1011"
+      },
+      "secondary": {
+        "hex": "#D4C5A9",
+        "name": "sabbia chiara",
+        "code": ""
+      },
+      "accessory": {
+        "hex": "#526B4A",
+        "name": "verde muschio",
+        "code": ""
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "E5",
+      "title": "Albicocca Tenue · Bianco Caldo · Grigio",
+      "dominant": {
+        "hex": "#E0C5A0",
+        "name": "albicocca tenue",
+        "code": "NCS S 1515-Y40R"
+      },
+      "secondary": {
+        "hex": "#F4EFE4",
+        "name": "bianco caldo",
+        "code": ""
+      },
+      "accessory": {
+        "hex": "#B8BAAF",
+        "name": "grigio",
+        "code": "RAL 7044"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "A4",
+      "title": "Ocra Calda · Bianco Caldo · Ruggine",
+      "dominant": {
+        "hex": "#C49330",
+        "name": "ocra calda",
+        "code": "KK 6005 / NCS S 3040-Y20R"
+      },
+      "secondary": {
+        "hex": "#F8F4E8",
+        "name": "bianco caldo",
+        "code": "RAL 9010"
+      },
+      "accessory": {
+        "hex": "#8E3A2E",
+        "name": "ruggine",
+        "code": "RAL 8004"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "A5",
+      "title": "Mattone Smorzato · Beige · Nero",
+      "dominant": {
+        "hex": "#7D3B2C",
+        "name": "mattone smorzato",
+        "code": "NCS S 4030-Y60R"
+      },
+      "secondary": {
+        "hex": "#CFC3A5",
+        "name": "beige",
+        "code": "RAL 1019"
+      },
+      "accessory": {
+        "hex": "#0E0E0E",
+        "name": "nero",
+        "code": "RAL 9005"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "F3",
+      "title": "Tortora Chiaro · Terracotta Fascia · Antracite",
+      "dominant": {
+        "hex": "#C8C4B0",
+        "name": "tortora chiaro",
+        "code": "NCS S 2502-Y"
+      },
+      "secondary": {
+        "hex": "#C4855A",
+        "name": "terracotta",
+        "code": ""
+      },
+      "accessory": {
+        "hex": "#383E42",
+        "name": "antracite",
+        "code": "RAL 7016"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "F4",
+      "title": "Beige Rosato · Grigio Antracite · Bianco",
+      "dominant": {
+        "hex": "#E0C0A8",
+        "name": "beige rosato",
+        "code": "NCS S 1515-Y60R"
+      },
+      "secondary": {
+        "hex": "#383E42",
+        "name": "grigio antracite",
+        "code": "RAL 7016"
+      },
+      "accessory": {
+        "hex": "#F4F4F0",
+        "name": "bianco",
+        "code": "RAL 9010"
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    },
+    {
+      "code": "F5",
+      "title": "Grigio Ardesia · Bianco Fasce · Arancio Ruggine",
+      "dominant": {
+        "hex": "#7A8080",
+        "name": "grigio ardesia",
+        "code": "NCS S 5005-B20G"
+      },
+      "secondary": {
+        "hex": "#F4F4F0",
+        "name": "bianco puro fasce",
+        "code": "RAL 9003"
+      },
+      "accessory": {
+        "hex": "#B85C30",
+        "name": "arancio ruggine",
+        "code": ""
+      },
+      "status": "pending",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": null,
+      "output_images": []
+    }
+  ]
+}

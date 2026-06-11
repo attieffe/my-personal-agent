@@ -60,6 +60,13 @@ Crea un nuovo progetto solo quando:
 
 ---
 
+### condominio-mazzini-3
+**Cartella:** `projects/condominio-mazzini-3/`
+**Documentazione:** [[projects/condominio-mazzini-3/SINTESI|Sintesi]] | [[projects/condominio-mazzini-3/TECNICO|Tecnico]] | [[projects/condominio-mazzini-3/TODO|TODO]] | [[projects/condominio-mazzini-3/APPUNTI|Appunti]]
+**Cos'è:** Pipeline per i rendering cromatici del Condominio Mazzini 3: coda proposte, generazione immagini Gemini o fallback PIL, pubblicazione web e tracking dello stato dei rendering.
+
+---
+
 ### archiviazione-ottica-documenti
 **Cartella:** `projects/archiviazione-ottica-documenti/`
 **Documentazione:** [[projects/archiviazione-ottica-documenti/SINTESI|Sintesi]] | [[projects/archiviazione-ottica-documenti/TECNICO|Tecnico]] | [[projects/archiviazione-ottica-documenti/TODO|TODO]]
