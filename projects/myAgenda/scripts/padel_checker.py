@@ -41,16 +41,23 @@ def fetch_ics(url):
 
 
 # ── Parsing ICS ───────────────────────────────────────────────────────────────
+def _ics_unescape(s):
+    return s.replace("\\n", "\n").replace("\\,", ",").replace("\\;", ";").replace("\\\\", "\\")
+
+
 def parse_ics_events(content):
+    # Unfold line continuations (RFC 5545: CRLF + LWSP)
+    content = re.sub(r"\r?\n[ \t]", "", content)
     events = []
     for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", content, re.DOTALL):
         def get(field):
-            m = re.search(rf"{field}[^:]*:(.*)", block)
+            m = re.search(rf"^{field}[^:\n]*:(.*)", block, re.MULTILINE)
             return m.group(1).strip() if m else ""
         events.append({
             "dtstart_raw": get("DTSTART"),
-            "summary":     get("SUMMARY"),
-            "location":    get("LOCATION").replace("\\,", ",").replace("\\n", " "),
+            "summary":     _ics_unescape(get("SUMMARY")),
+            "location":    _ics_unescape(get("LOCATION")),
+            "description": _ics_unescape(get("DESCRIPTION")),
         })
     return events
 
@@ -108,14 +115,16 @@ def load_routine():
 def format_message(event, dt_rome):
     orario  = dt_rome.strftime("%H:%M")
     luogo   = event["location"] or "luogo non specificato"
-    routine = load_routine()
-    return (
-        f"🎾 <b>Partita tra {WINDOW_MAX} minuti!</b>\n"
-        f"<b>{event['summary']}</b>\n"
-        f"🕐 Ore {orario}  |  📍 {luogo}\n\n"
-        f"<b>📋 Routine di preparazione:</b>\n{routine}\n\n"
-        f"🧠 <a href=\"https://attibot.ingeniosolution.it/reports/padel-psicologia-sportiva.html\">Psicologia sportiva — gestione del loop mentale</a>"
-    )
+    desc    = event.get("description", "").strip()
+    lines = [
+        f"🎾 <b>Partita tra {WINDOW_MAX} minuti!</b>",
+        f"<b>{event['summary']}</b>",
+        f"🕐 Ore {orario}  |  📍 {luogo}",
+    ]
+    if desc:
+        lines.append(f"\n📝 <b>Note evento:</b>\n{desc}")
+    lines.append(f"\n📋 <a href=\"https://attibot.ingeniosolution.it/reports/padel-psicologia-sportiva.html\">Routine di preparazione e psicologia sportiva</a>")
+    return "\n".join(lines)
 
 
 # ── Telegram ──────────────────────────────────────────────────────────────────
