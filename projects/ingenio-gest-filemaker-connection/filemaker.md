@@ -665,4 +665,98 @@ Opzioni:
 
 ---
 
-*Procedura completa: 11/06/2026 — In fase di implementazione API*
+---
+
+## API Registration Flow — Tested & Working (partial)
+
+### ✅ Ciclo Attivo (Sales/Autofattura) — V_FAT_000
+
+**Step 1: Create Fattura Testata**
+
+```bash
+curl -s -X POST \
+  "https://FM_HOST:FM_PORT/fmi/data/v2/databases/DADEGEST/layouts/V_FAT_000/records" \
+  -H "Authorization: Bearer {token}" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "fieldData": {
+      "Anno": "2026",
+      "Nr": "5678",
+      "Data": "06/11/2026",
+      "Cod Cliente": "C00001",
+      "CAUSALE CONTABILE": "Autofattura Reverse Charge EXTRA UE",
+      "Cod Esenzione iva": "22",
+      "Cod Pagamento": "007"
+    }
+  }'
+```
+
+**Response**: `recordId: 10374`
+
+**Fields Writable via API**:
+- `Anno` (year) — string
+- `Nr` (invoice number) — must be unique per year
+- `Data` (date) — format MM/DD/YYYY or locale-aware
+- `Cod Cliente` (customer code) — must exist in M_CLI_000
+- `CAUSALE CONTABILE` (accounting reason) — free text
+- `Cod Esenzione iva` (IVA exemption code) — e.g. "22", "22R", "N6.6"
+- `Cod Pagamento` (payment code) — e.g. "007"
+
+**Fields AUTO-CALCULATED** (read-only via API):
+- `Ragione Sociale` (customer name) — lookup from Cod Cliente
+- `Indirizzo`, `Cap`, `Città`, etc. — customer anagrafica
+- `Totale Imponibile`, `Totale Iva`, `Totale` — sum of righe
+- `NR REGISTRO` — auto-incremented
+- `Tabella` — auto-set to "FATTURA"
+- `percorso file` — generated on print
+- `IdTesta` — unique record identifier
+
+---
+
+**Step 2: Create Riga Vendita**
+
+⚠️ **Current Blocker**: Direct POST to `Righe_Vendita` layout returns error 500 "Field cannot be modified" even with minimal fields (IDTESTA, CODICE_ARTICOLO, QTA, Prezzo).
+
+**Workaround Options (to be tested)**:
+1. Access via portale record in V_FAT_000 (endpoint syntax TBD)
+2. Call FileMaker script via API to trigger riga creation
+3. Use PATCH on existing riga instead of POST for new record
+4. Check if "Registro Acquisti" layout has different access permissions
+
+**Expected Endpoint** (not yet working):
+```bash
+POST /fmi/data/v2/databases/DADEGEST/layouts/Righe_Vendita/records
+{
+  "fieldData": {
+    "IDTESTA": "10374",
+    "CODICE_ARTICOLO": "S.002",
+    "DESCRIZIONE": "Rinnovo Dominio",
+    "QTA": "1",
+    "Prezzo": "50"
+  }
+}
+```
+
+---
+
+### ⚠️ Ciclo Passivo (Acquisitions) — Registro Acquisti
+
+**Status**: Database `Fatture acq` returns HTTP 401 — token from DADEGEST login not valid for external database access.
+
+**Expected Flow**:
+1. Create record in `Fatture acq` → `Registro acquisti` layout
+2. Fields: Data, Fornitore, Nr documento, Imponibile, IVA, Natura, Causale
+
+**Next Step**: Verify if Registro Acquisti is accessible via DADEGEST database with linked layout, or requires separate login.
+
+---
+
+## Test Scripts
+
+- `test_fattura_full.mjs` — Creates V_FAT_000 record (✅ working)
+- `test_portale.mjs` — Reads fattura with portalData (✅ working)
+- `test_riga_via_portale.mjs` — Tries portal POST (❌ endpoint not found)
+- `test_riga_articolo_esistente.mjs` — POST to Righe_Vendita with existing articolo (❌ field protection)
+- `test_registro_acquisti.mjs` — POST to Registro acquisti (❌ 401 auth)
+
+*Procedura: 11/06/2026 — Partial implementation tested*
