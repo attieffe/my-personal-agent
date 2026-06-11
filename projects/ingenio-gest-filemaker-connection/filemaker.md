@@ -382,7 +382,153 @@ Body: {"fieldData": {"Campo": "valore"}}
 
 ---
 
-## Operazioni API utili
+## Creazione Fatture Vendita e Righe — Procedura API
+
+### Flusso Completo
+
+1. **POST testata** → `V_FAT_000` → genera `IDTESTA`
+2. **POST riga** → `R_FAT_0001` (Righe_Vendita) → referenzia `IDTESTA` dalla testata
+
+---
+
+### 1. Creazione Testata Fattura (V_FAT_000)
+
+#### Campi obbligatori:
+```json
+{
+  "fieldData": {
+    "Nr": 5678,
+    "Anno": 2026,
+    "Data": "06/12/2026",
+    "CodCliente": "C00024",
+    "Causale": "Fattura di Vendita",
+    "TIPO DOCUMENTO": "FATTURA"
+  }
+}
+```
+
+#### Note:
+- **Nr + Anno** = Univoci per documento
+- **CodCliente** = Codice da M_CLI_000
+- **Causale** = Testo fisso per fatture ordinarie; per autofatture reverse charge: "Autofattura Reverse Charge"
+- **TIPO DOCUMENTO** = Campo fisso "FATTURA"
+- **Totali** (Totale Imponibile, IVA, Totale) = **Calcolati automaticamente** dalle righe
+
+#### Risposta:
+```json
+{
+  "response": {
+    "data": [{
+      "recordId": "12345",
+      "fieldData": { "Nr": 5678, "IDTESTA": "FA12345", ... }
+    }]
+  }
+}
+```
+**Salva `recordId` e/o `IDTESTA`** per collegare le righe.
+
+---
+
+### 2. Creazione Riga Fattura (R_FAT_0001 / Righe_Vendita)
+
+#### Struttura di una riga:
+```json
+{
+  "fieldData": {
+    "IDTESTA": "FA10338",
+    "TIPOLOGIA_ARTICOLO": "SERVIZI",
+    "CODICE_ARTICOLO": "SRV001",
+    "DESCRIZIONE": "Autofattura rif. acquisto merci Art 17 C6 Let C rif fattura NR2025/123 del 01/10/2025 di HOLDEN INTERNATIONAL LTD",
+    "UM": "Nr",
+    "QTA": 1,
+    "Prezzo f": 895.00,
+    "Codice Iva f": "22R"
+  }
+}
+```
+
+#### Campi scrivibili (solo questi):
+| Campo | Tipo | Scrivibile | Note |
+|-------|------|-----------|-------|
+| **IDTESTA** | FK | ✅ | Riferimento testata (obbligatorio) |
+| **TIPOLOGIA_ARTICOLO** | Lookup | ✅ | Leggi valori da layout "Tipologia Articoli"; esempi: SERVIZI, MATERIALI, DEV, ecc. |
+| **CODICE_ARTICOLO** | Text | ✅ | Codice libero (es. "SRV001", "D.002") — può esistere in M_ART_000 oppure no |
+| **DESCRIZIONE** | Text | ✅ | Testo descrizione riga (per righe generiche/servizi) |
+| **UM** | Text | ✅ | Unità di misura: `Nr` (numero) o `h` (ore) |
+| **QTA** | Number | ✅ | Quantità |
+| **Prezzo f** | Number | ✅ | Prezzo finale (il valore vero con sconti applicati) |
+| **Codice Iva f** | Lookup | ✅ | Codice IVA: `22`, `22R`, `10`, `NI8`, `ESC15`, ecc. |
+
+#### Campi CALCOLATI (NON scrivibili):
+| Campo | Calcolato da |
+|-------|--------------|
+| `IDRIGA` | Auto-numerato |
+| `Prezzo_Netto` | Calcolato internamente |
+| `imponibile` | QTA × Prezzo f |
+| `Aliquota Iva` | Lookup da `Codice Iva f` |
+| `Iva` | imponibile × Aliquota Iva / 100 |
+| `Totale riga` | imponibile + Iva |
+| `Data` | Auto (da IDTESTA) |
+| `anno` | Auto (da IDTESTA) |
+
+#### Logica UM (Unità di Misura):
+- **UM = "Nr"** (numero): Usa `Prezzo f` direttamente
+- **UM = "h"** (ore): 
+  - `Prezzo f` = tariffa oraria
+  - Se non hai tariffa predefinita, **cerca in fatture precedenti** per lo stesso cliente/fornitore per inferire la tariffa standard
+  - Esempio: Se cliente X ha fatture precedenti con UM=h a €50/h, usa quella tariffa
+
+---
+
+### 3. Numero Fattura Sequenziale
+
+Per fatture **ORDINARIE** (non reverse charge):
+- Leggi l'**ultimo Nr** per l'anno corrente da V_FAT_000
+- Proponi **Nr = ultimo + 1**
+- Format: `Nr: 5678, Anno: 2026` → prossima: `Nr: 5679, Anno: 2026`
+
+**Query per ottenere ultimo Nr dell'anno:**
+```json
+{
+  "query": [
+    {"Anno": "2026"},
+    {"Nr": ">0"}
+  ],
+  "_sort": [{"fieldName": "Nr", "sortOrder": "descend"}],
+  "_limit": 1
+}
+```
+
+---
+
+### 4. Autofattura Reverse Charge EXTRA UE
+
+**Caso**: Ho acquistato da fornitore EXTRA UE (es. HOLDEN INTERNATIONAL LTD) con reverse charge.
+
+**Procedura Autofattura**:
+1. **Creare testata** V_FAT_000 con:
+   - `Causale`: "Autofattura Reverse Charge"
+   - `Nr`: da logica reverse charge (es. `EU-{Nr registro acquisti}-{Anno}` oppure `REV-{Nr}-{Anno}`)
+   - `CodCliente`: C00024 (me stesso, Ingenio Solution)
+   - `Data`: stessa data acquisto
+
+2. **Creare riga** R_FAT_0001 con:
+   - `DESCRIZIONE`: "Autofattura rif. acquisto merci Art 17 C6 Let C rif fattura {NRFATTACQ} del {DATA} di {FORNITOREORIGINALE}"
+   - `Prezzo f`: importo lordo riga acquisto
+   - `Codice Iva f`: `22R` (reverse charge)
+   - `QTA`: 1, `UM`: "Nr"
+
+3. **Flag nel testata**: 
+   - `Ignora in IVA`: 1 (per non trasmettere al registro IVA formale, ma l'IVA esiste contabilmente)
+   - L'IVA calcolata sulla riga si annulla con quella dell'acquisto
+
+**Differenza da reverse charge ITALIANO (N4)**:
+- **N4 (Italia)**: Causale "Rev", Natura N4
+- **N6.6 (EXTRA UE)**: Causale "Rev" (stesso), Natura N6.6, Flag `Ignora in IVA=1` su autofattura
+
+---
+
+### Operazioni API utili
 
 ```powershell
 # Cerca clienti per ragione sociale
