@@ -1,6 +1,6 @@
 {
   "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
-  "last_updated": "2026-06-11T10:46:54.099128+02:00",
+  "last_updated": "2026-06-11T10:03:04.031859+02:00",
   "queue": [
     {
       "code": "B1",
@@ -20,15 +20,9 @@
         "name": "antracite",
         "code": "RAL 7016"
       },
-      "status": "done",
+      "status": "pending",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T08:51:29.717926+02:00",
-      "output_images": [
-        "img/B1_foto1.jpg",
-        "img/B1_foto2.jpg",
-        "img/B1_foto3.jpg",
-        "img/B1_foto4.jpg"
-      ]
+      "output_images": []
     },
     {
       "code": "B2",
@@ -48,15 +42,9 @@
         "name": "grigio grafite",
         "code": "RAL 7024"
       },
-      "status": "done",
+      "status": "pending",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T08:52:26.040494+02:00",
-      "output_images": [
-        "img/B2_foto1.jpg",
-        "img/B2_foto2.jpg",
-        "img/B2_foto3.jpg",
-        "img/B2_foto4.jpg"
-      ]
+      "output_images": []
     },
     {
       "code": "B3",
@@ -76,15 +64,9 @@
         "name": "grigio ardesia",
         "code": "NCS S 5000-N"
       },
-      "status": "done",
+      "status": "pending",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T09:46:54.321608+02:00",
-      "output_images": [
-        "img/B3_foto1.jpg",
-        "img/B3_foto2.jpg",
-        "img/B3_foto3.jpg",
-        "img/B3_foto4.jpg"
-      ]
+      "output_images": []
     },
     {
       "code": "B4",
@@ -104,15 +86,9 @@
         "name": "nero",
         "code": "RAL 9005"
       },
-      "status": "done",
+      "status": "pending",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": "2026-06-11T10:46:54.099085+02:00",
-      "output_images": [
-        "img/B4_foto1.jpg",
-        "img/B4_foto2.jpg",
-        "img/B4_foto3.jpg",
-        "img/B4_foto4.jpg"
-      ]
+      "output_images": []
     },
     {
       "code": "B5",
