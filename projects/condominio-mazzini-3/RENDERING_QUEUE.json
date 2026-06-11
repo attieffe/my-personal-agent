@@ -1,6 +1,6 @@
 {
   "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
-  "last_updated": "2026-06-11T12:40:53.298810+02:00",
+  "last_updated": "2026-06-11T12:58:39.536384+02:00",
   "queue": [
     {
       "code": "B1",
@@ -132,8 +132,15 @@
         "name": "marrone scuro",
         "code": "RAL 8019"
       },
-      "status": "pending",
-      "added": "2026-06-10T23:00:00+02:00"
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T12:46:52.887561+02:00",
+      "output_images": [
+        "img/B5_foto1.jpg",
+        "img/B5_foto2.jpg",
+        "img/B5_foto3.jpg",
+        "img/B5_foto4.jpg"
+      ]
     },
     {
       "code": "C1",
@@ -153,8 +160,15 @@
         "name": "antracite",
         "code": "RAL 7016"
       },
-      "status": "pending",
-      "added": "2026-06-10T23:00:00+02:00"
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T12:56:37.439488+02:00",
+      "output_images": [
+        "img/C1_foto1.jpg",
+        "img/C1_foto2.jpg",
+        "img/C1_foto3.jpg",
+        "img/C1_foto4.jpg"
+      ]
     },
     {
       "code": "C2",
@@ -174,8 +188,15 @@
         "name": "bianco",
         "code": "RAL 9003"
       },
-      "status": "pending",
-      "added": "2026-06-10T23:00:00+02:00"
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T12:57:17.230236+02:00",
+      "output_images": [
+        "img/C2_foto1.jpg",
+        "img/C2_foto2.jpg",
+        "img/C2_foto3.jpg",
+        "img/C2_foto4.jpg"
+      ]
     },
     {
       "code": "C4",
@@ -195,8 +216,15 @@
         "name": "bronzo",
         "code": ""
       },
-      "status": "pending",
-      "added": "2026-06-10T23:00:00+02:00"
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T12:57:57.684473+02:00",
+      "output_images": [
+        "img/C4_foto1.jpg",
+        "img/C4_foto2.jpg",
+        "img/C4_foto3.jpg",
+        "img/C4_foto4.jpg"
+      ]
     },
     {
       "code": "C5",
@@ -216,8 +244,15 @@
         "name": "bianco",
         "code": "RAL 9003"
       },
-      "status": "pending",
-      "added": "2026-06-10T23:00:00+02:00"
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T12:58:39.536357+02:00",
+      "output_images": [
+        "img/C5_foto1.jpg",
+        "img/C5_foto2.jpg",
+        "img/C5_foto3.jpg",
+        "img/C5_foto4.jpg"
+      ]
     },
     {
       "code": "D1",
