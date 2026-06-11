@@ -553,4 +553,116 @@ O in M_FOR_000 (anagrafica fornitori):
 
 ---
 
-*Caso documentato: 11/06/2026*
+## Procedura Registrazione Reverse Charge — Passo passo
+
+### 1️⃣ ACQUISTO (Ciclo Passivo - Registro Acquisti)
+
+**Campi da compilare:**
+
+| Campo | Valore | Note |
+|-------|--------|-------|
+| **Codice fornitore** | Cercare in anagrafica (M_FOR_000) o scrivere se nuovo | Verificare se già esistente |
+| **Data** | Data documento ricevuto | formato MM/DD/YYYY |
+| **Data Registrazione** | Data registrazione contabile | (diversa da Data se ritardi) |
+| **Nr Protocollo** | Sequenziale per anno | Es. 2026 primo=1, secondo=2 |
+| **Nr Documento** | Numero fattura fornitore | Es. EU-1 |
+| **Fornitore** | Ragione Sociale | Es. HOLDEN INTERNATIONAL LTD |
+| **Imponibile import** | Importo netto | €895,00 |
+| **Aliquota IVA** | 22 | (campo da scrivere) |
+| **Valore iva** | Calcolato al 22% | €196,90 (o calcolo automatico) |
+| **Categoria** | Categoria spesa | Es. Formazione, Servizi |
+| **Natura** | N6.6 (EXTRA UE) o N1 (varia) | Reverse charge marker |
+| **Causale** | "Rev" | Flag reverse charge |
+| **Deduzione %** | Trigger da Categoria | Es. 100%, 40% (verificare se via API attiva) |
+| **Detrazione %** | Trigger da Categoria | Idem |
+
+**Post-registrazione:**
+- FileMaker calcola automaticamente: Totale, Valore IVA (se aliquota impostata)
+- Verificare che IVA non sia detraibile (Natura N6.6 → non a credito)
+
+---
+
+### 2️⃣ VENDITA (Ciclo Attivo - V_FAT_000 con Portale Righe)
+
+#### A) Se Reverse Charge ITALIANO (es. ESPRINET):
+
+**Testata V_FAT_000:**
+
+| Campo | Valore | Formula |
+|-------|--------|---------|
+| **Nr Documento** | REV-{NrProgressivo}{Anno} | Es. REV-1-2026 |
+| **Data Registrazione** | Stessa del documento acquisto | 10/15/2025 |
+| **Stato** | "Emessa" o bozza | Configurabile |
+| **Cliente** | C00024 | INGENIO SOLUTION (autofattura) |
+| **Causale** | "Autofattura Reverse Charge" | Identificare il tipo |
+| **Imponibile** | Identico all'acquisto | €1.125,91 (Esprinet) |
+| **Cod Esenzione IVA** | 22R | Reverse charge marker |
+
+**Portale Righe Vendita (obbligatorio):**
+
+Una riga con:
+- **Descrizione**: "Autofattura rif. acquisto merci Art 17 C6 Let C rif fattura {NRFATTACQ} del {DATA} di {FORNITOREORIGINALE}"
+  - Es: "Autofattura rif. acquisto merci Art 17 C6 Let C rif fattura ESPRINET del 10/15/2025 di ESPRINET S.P.A."
+- **Importo**: €1.125,91
+- **Cod IVA**: 22R
+- **Quantità**: 1
+- **Totale Riga**: €1.125,91 (senza IVA per 22R)
+
+**Post-registrazione:**
+- Totale testata: deve coincidere con totale acquisto
+
+---
+
+#### B) Se Reverse Charge EXTRA UE (es. HOLDEN):
+
+**Testata V_FAT_000:**
+
+| Campo | Valore | Formula |
+|-------|--------|---------|
+| **Nr Documento** | EU-{NrProgressivo}-{Anno} | Es. EU-1-2026 |
+| **Data Registrazione** | Stessa del documento acquisto | 09/30/2025 |
+| **Cliente** | C00024 | INGENIO SOLUTION (autofattura) |
+| **Causale** | "Autofattura Reverse Charge EU" | Identificare tipo EXTRA UE |
+| **Imponibile** | Identico all'acquisto | €895,00 (HOLDEN) |
+| **Cod Esenzione IVA** | N6.6 | EXTRA UE marker |
+| **Ignora in IVA** | 1 | ⚠️ Non trasmettere SDI |
+
+**Portale Righe Vendita:**
+
+⚠️ **PER HOLDEN EXTRA UE NON SERVE RIGA DI AUTOFATTURA** — è già registrata come partita passiva, l'autofattura è solo il corrispettivo per neutralità IVA.
+
+Se serve comunque per completezza, una riga generica:
+- **Descrizione**: "Reverse Charge servizio EXTRA UE — neutralità IVA"
+- **Importo**: €895,00
+- **Cod IVA**: N6.6 o 22R (dipende setup)
+
+---
+
+### Differenza ESPRINET vs HOLDEN
+
+| Aspetto | ESPRINET (IT, Rev Charge IT) | HOLDEN (EXTRA UE) |
+|--------|-------------------------------|-------------------|
+| **Tipo** | Reverse charge italiano (fornitor IT ma regime RC) | Reverse charge EXTRA UE |
+| **Nr Autofattura** | REV-#-2026 | EU-#-2026 |
+| **Riga di autofattura** | ✅ **OBBLIGATORIA** (Art 17 C6) | ❌ **NON SERVE** |
+| **Descrizione riga** | Riferi mento acquisto (Art 17 C6 Let C) | (Saltare) |
+| **Ignora in IVA** | 0 (trasmettere SDI) | 1 (non trasmettere) |
+| **Natura** | 22R (o dipende setup) | N6.6 |
+| **IVA Contabile** | €196,90 (si annulla) | €196,90 (si annulla) |
+
+---
+
+### 3️⃣ Accesso Portale Righe via API
+
+**Domanda aperta**: Come accedere al portale "Righe Vendita" da V_FAT_000 via FM Data API v2?
+
+Opzioni:
+- A) Leggi direttamente da V_FAT_000 (layout parent) → portale dovrebbe essere visibile in `portalData`
+- B) Query separata sulla tabella Righe_Vendita con foreign key
+- C) Inserimento via portale record (se FM Data API supporta)
+
+**Da verificare tecnicamente** con test POST/PUT su portale.
+
+---
+
+*Procedura completa: 11/06/2026 — In fase di implementazione API*
