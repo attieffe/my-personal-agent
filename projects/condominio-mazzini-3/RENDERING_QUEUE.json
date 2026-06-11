@@ -1,6 +1,6 @@
 {
   "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
-  "last_updated": "2026-06-11T12:58:39.536384+02:00",
+  "last_updated": "2026-06-11T13:02:33.764806+02:00",
   "queue": [
     {
       "code": "B1",
@@ -272,8 +272,15 @@
         "name": "antracite",
         "code": "RAL 7016"
       },
-      "status": "pending",
-      "added": "2026-06-10T23:00:00+02:00"
+      "status": "done",
+      "added": "2026-06-10T23:00:00+02:00",
+      "done": "2026-06-11T12:59:42.675855+02:00",
+      "output_images": [
+        "img/D1_foto1.jpg",
+        "img/D1_foto2.jpg",
+        "img/D1_foto3.jpg",
+        "img/D1_foto4.jpg"
+      ]
     },
     {
       "code": "D2",
@@ -293,10 +300,15 @@
         "name": "marrone",
         "code": "RAL 8011"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:00:26.729549+02:00",
+      "output_images": [
+        "img/D2_foto1.jpg",
+        "img/D2_foto2.jpg",
+        "img/D2_foto3.jpg",
+        "img/D2_foto4.jpg"
+      ]
     },
     {
       "code": "D3",
@@ -316,10 +328,15 @@
         "name": "grigio scuro",
         "code": ""
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:01:08.745244+02:00",
+      "output_images": [
+        "img/D3_foto1.jpg",
+        "img/D3_foto2.jpg",
+        "img/D3_foto3.jpg",
+        "img/D3_foto4.jpg"
+      ]
     },
     {
       "code": "D4",
@@ -339,10 +356,15 @@
         "name": "nero",
         "code": "RAL 9005"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:01:51.602235+02:00",
+      "output_images": [
+        "img/D4_foto1.jpg",
+        "img/D4_foto2.jpg",
+        "img/D4_foto3.jpg",
+        "img/D4_foto4.jpg"
+      ]
     },
     {
       "code": "D5",
@@ -362,10 +384,15 @@
         "name": "bronzo ossidato",
         "code": ""
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:02:33.764774+02:00",
+      "output_images": [
+        "img/D5_foto1.jpg",
+        "img/D5_foto2.jpg",
+        "img/D5_foto3.jpg",
+        "img/D5_foto4.jpg"
+      ]
     },
     {
       "code": "E1",
