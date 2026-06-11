@@ -450,4 +450,102 @@ Condizioni pagamento: 30% anticipo
 
 ---
 
-*Aggiornato: 2026-05-04*
+## Reverse Charge EXTRA UE — Procedura Amministrativa
+
+### Definizioni
+
+- **Natura N6.6**: Servizi internazionali verso committente EXTRA UE (regime reverse charge)
+- **Causale "Rev"**: Marcatura per fatture reverse charge (cercare `Causale = "Rev"`)
+- **Autofattura**: Fattura di vendita intestata a se stessi (cliente = Ingenio Solution C00024) per registrazione contabile
+
+### Caso di Studio: HOLDEN INTERNATIONAL LTD (09/30/2025)
+
+#### Ciclo Passivo (Acquisto da fornitore EXTRA UE)
+
+**Registro Acquisti** (layout: `Registro acquisti` in database `DADEGEST`):
+
+```
+Data: 09/30/2025
+Fornitore: HOLDEN INTERNATIONAL LTD
+Cod. Fornitore: F00279
+Nr Documento: EU-1
+Categoria: Formazione
+Natura: N6.6
+Imponibile: €895,00
+IVA applicata: 22% (€196,90)
+Totale: €1.091,90
+```
+
+**Caratteristiche:**
+- Fornitore EXTRA UE (UK) → soggetto a reverse charge
+- Natura N6.6 → servizio internazionale
+- IVA: registrata al 22% in fase di acquisto, ma sarà neutralizzata a bilancio (non detraibile)
+- Imponibile: il valore del servizio ricevuto
+
+#### Ciclo Attivo (Autofattura di vendita)
+
+**Fatture Vendite** (layout: `V_FAT_000` in database `DADEGEST`):
+
+```
+Nr Documento: EU-1
+Data: 09/30/2025 (stessa del documento origine)
+Cliente: C00024 INGENIO SOLUTION S.a.s. (autofattura a se stessi)
+Causale: Rev (reverse charge)
+Natura: N6.6
+Imponibile: €895,00
+IVA: 0% (con flagga Ignora IVA = 1)
+Totale: €895,00
+```
+
+**Caratteristiche:**
+- Autofattura: cliente = fornitore (se stessi)
+- Ignora IVA = 1 → non calcola IVA sulle righe (reverse charge)
+- IVA testata: 0% (perché è reverse charge)
+- Imponibile: identico a quello dell'acquisto
+- Natura: N6.6 per tracciabilità
+
+#### Differenze tra Acquisto e Vendita
+
+| Aspetto | Acquisto (Passivo) | Vendita (Attivo) |
+|--------|-------------------|-----------------|
+| **Documento** | Fattura HOLDEN EU-1 (fornitore) | Autofattura EU-1 (a se stessi) |
+| **Cliente/Fornitore** | HOLDEN INTERNATIONAL LTD | INGENIO SOLUTION C00024 |
+| **Data** | 09/30/2025 | 09/30/2025 |
+| **Natura IVA** | N6.6 | N6.6 |
+| **Imponibile** | €895,00 | €895,00 |
+| **IVA in fattura** | 22% (€196,90) — accesso negato a detrazione | 0% (Ignora IVA=1) — non imponibile |
+| **Totale** | €1.091,90 | €895,00 |
+| **Causale** | (vuota o generica) | "Rev" (reverse charge) |
+| **Trasmissione SDI** | Ricezione da fornitore | Invio autofattura (obbligo fatturazione elettronica) |
+
+#### Flusso Contabile
+
+1. **Acquisto**: €895 imponibile + €196,90 IVA (non detraibile) = €1.091,90
+   - Addebito Conto 611xx (acquisto servizi)
+   - IVA sospesa (non a credito) — bilancio: neutralità IVA
+   
+2. **Autofattura**: €895 imponibile, 0% IVA
+   - Credito Conto 611xx (storno compensativo per neutralità)
+   - Nessuna IVA (operazione non imponibile in reverse charge)
+
+3. **Risultato finale**: Costo lordo €895,00 (IVA interna, non detraibile)
+
+#### Campi chiave in Query
+
+Per cercare reverse charge EXTRA UE in `Registro acquisti`:
+
+```sql
+SELECT * FROM "Registro acquisti"
+WHERE Natura = "N6.6"
+  AND Data > "01/01/2025"
+  AND Totale > 800
+ORDER BY Data DESC
+```
+
+O in M_FOR_000 (anagrafica fornitori):
+- Cercare fornitori con `Nazione ≠ ITALIA`
+- Verificare `CodNazione` per identificare EXTRA UE (non-UE27 / non-EEA)
+
+---
+
+*Caso documentato: 11/06/2026*
