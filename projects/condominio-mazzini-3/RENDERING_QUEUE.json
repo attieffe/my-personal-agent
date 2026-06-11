@@ -1,6 +1,6 @@
 {
   "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
-  "last_updated": "2026-06-11T13:07:50.605122+02:00",
+  "last_updated": "2026-06-11T13:22:48.244300+02:00",
   "queue": [
     {
       "code": "B1",
@@ -552,10 +552,15 @@
         "name": "ruggine",
         "code": "RAL 8004"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:20:26.769563+02:00",
+      "output_images": [
+        "img/A4_foto1.jpg",
+        "img/A4_foto2.jpg",
+        "img/A4_foto3.jpg",
+        "img/A4_foto4.jpg"
+      ]
     },
     {
       "code": "A5",
@@ -575,10 +580,15 @@
         "name": "nero",
         "code": "RAL 9005"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:21:13.581467+02:00",
+      "output_images": [
+        "img/A5_foto1.jpg",
+        "img/A5_foto2.jpg",
+        "img/A5_foto3.jpg",
+        "img/A5_foto4.jpg"
+      ]
     },
     {
       "code": "F3",
@@ -598,10 +608,15 @@
         "name": "antracite",
         "code": "RAL 7016"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:21:58.566458+02:00",
+      "output_images": [
+        "img/F3_foto1.jpg",
+        "img/F3_foto2.jpg",
+        "img/F3_foto3.jpg",
+        "img/F3_foto4.jpg"
+      ]
     },
     {
       "code": "F4",
@@ -621,10 +636,15 @@
         "name": "bianco",
         "code": "RAL 9010"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:22:48.244273+02:00",
+      "output_images": [
+        "img/F4_foto1.jpg",
+        "img/F4_foto2.jpg",
+        "img/F4_foto3.jpg",
+        "img/F4_foto4.jpg"
+      ]
     },
     {
       "code": "F5",
