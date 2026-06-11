@@ -1,6 +1,6 @@
 {
   "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
-  "last_updated": "2026-06-11T13:02:33.764806+02:00",
+  "last_updated": "2026-06-11T13:06:50.803226+02:00",
   "queue": [
     {
       "code": "B1",
@@ -412,10 +412,15 @@
         "name": "marrone scuro",
         "code": "RAL 8017"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:04:47.726402+02:00",
+      "output_images": [
+        "img/E1_foto1.jpg",
+        "img/E1_foto2.jpg",
+        "img/E1_foto3.jpg",
+        "img/E1_foto4.jpg"
+      ]
     },
     {
       "code": "E2",
@@ -435,10 +440,15 @@
         "name": "noce",
         "code": "RAL 8011"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:05:30.672225+02:00",
+      "output_images": [
+        "img/E2_foto1.jpg",
+        "img/E2_foto2.jpg",
+        "img/E2_foto3.jpg",
+        "img/E2_foto4.jpg"
+      ]
     },
     {
       "code": "E3",
@@ -458,10 +468,15 @@
         "name": "antracite",
         "code": "RAL 7016"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:06:13.067331+02:00",
+      "output_images": [
+        "img/E3_foto1.jpg",
+        "img/E3_foto2.jpg",
+        "img/E3_foto3.jpg",
+        "img/E3_foto4.jpg"
+      ]
     },
     {
       "code": "E4",
@@ -481,10 +496,15 @@
         "name": "verde muschio",
         "code": ""
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "done": null,
-      "output_images": []
+      "done": "2026-06-11T13:06:50.803201+02:00",
+      "output_images": [
+        "img/E4_foto1.jpg",
+        "img/E4_foto2.jpg",
+        "img/E4_foto3.jpg",
+        "img/E4_foto4.jpg"
+      ]
     },
     {
       "code": "E5",
