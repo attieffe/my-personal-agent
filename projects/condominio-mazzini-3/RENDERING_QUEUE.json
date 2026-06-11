@@ -1,6 +1,6 @@
 {
   "_comment": "Coda di rendering Gemini per Condominio Mazzini 3. Aggiungere nuovi task in fondo.",
-  "last_updated": "2026-06-11T12:11:37.112974+02:00",
+  "last_updated": "2026-06-11T12:40:53.298810+02:00",
   "queue": [
     {
       "code": "B1",
@@ -48,9 +48,15 @@
         "name": "grigio grafite",
         "code": "RAL 7024"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "output_images": []
+      "output_images": [
+        "img/B2_foto1.jpg",
+        "img/B2_foto2.jpg",
+        "img/B2_foto3.jpg",
+        "img/B2_foto4.jpg"
+      ],
+      "done": "2026-06-11T12:39:36.858109+02:00"
     },
     {
       "code": "B3",
@@ -70,9 +76,15 @@
         "name": "grigio ardesia",
         "code": "NCS S 5000-N"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "output_images": []
+      "output_images": [
+        "img/B3_foto1.jpg",
+        "img/B3_foto2.jpg",
+        "img/B3_foto3.jpg",
+        "img/B3_foto4.jpg"
+      ],
+      "done": "2026-06-11T12:40:15.542267+02:00"
     },
     {
       "code": "B4",
@@ -92,9 +104,15 @@
         "name": "nero",
         "code": "RAL 9005"
       },
-      "status": "pending",
+      "status": "done",
       "added": "2026-06-10T23:00:00+02:00",
-      "output_images": []
+      "output_images": [
+        "img/B4_foto1.jpg",
+        "img/B4_foto2.jpg",
+        "img/B4_foto3.jpg",
+        "img/B4_foto4.jpg"
+      ],
+      "done": "2026-06-11T12:40:53.298781+02:00"
     },
     {
       "code": "B5",
