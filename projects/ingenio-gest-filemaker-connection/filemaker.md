@@ -493,16 +493,17 @@ Cliente: C00024 INGENIO SOLUTION S.a.s. (autofattura a se stessi)
 Causale: Rev (reverse charge)
 Natura: N6.6
 Imponibile: €895,00
-IVA: 0% (con flagga Ignora IVA = 1)
-Totale: €895,00
+IVA: 22% (€196,90) — con flag Ignora in IVA = 1
+Totale: €1.091,90
 ```
 
 **Caratteristiche:**
 - Autofattura: cliente = fornitore (se stessi)
-- Ignora IVA = 1 → non calcola IVA sulle righe (reverse charge)
-- IVA testata: 0% (perché è reverse charge)
+- IVA: calcolata al 22% (€196,90) esattamente come l'acquisto
+- **Ignora in IVA = 1** → non trasmettere al registro IVA/SDI, MA l'IVA va considerata contabilmente perché si annulla con quella dell'acquisto
 - Imponibile: identico a quello dell'acquisto
 - Natura: N6.6 per tracciabilità
+- **Effetto netto**: l'IVA dell'acquisto (non detraibile) si annulla con l'IVA dell'autofattura (non registrata formalmente), risultato = costo netto €895
 
 #### Differenze tra Acquisto e Vendita
 
@@ -513,22 +514,26 @@ Totale: €895,00
 | **Data** | 09/30/2025 | 09/30/2025 |
 | **Natura IVA** | N6.6 | N6.6 |
 | **Imponibile** | €895,00 | €895,00 |
-| **IVA in fattura** | 22% (€196,90) — accesso negato a detrazione | 0% (Ignora IVA=1) — non imponibile |
-| **Totale** | €1.091,90 | €895,00 |
+| **IVA** | 22% (€196,90) — non detraibile | 22% (€196,90) — con flag Ignora in IVA |
+| **Totale** | €1.091,90 | €1.091,90 |
+| **Flag speciale** | (nessuno) | **Ignora in IVA = 1** (non trasmettere SDI) |
 | **Causale** | (vuota o generica) | "Rev" (reverse charge) |
-| **Trasmissione SDI** | Ricezione da fornitore | Invio autofattura (obbligo fatturazione elettronica) |
+| **Trasmissione SDI** | Ricezione da fornitore | Autofattura: trasmessa con flag di annullamento IVA |
 
 #### Flusso Contabile
 
 1. **Acquisto**: €895 imponibile + €196,90 IVA (non detraibile) = €1.091,90
-   - Addebito Conto 611xx (acquisto servizi)
-   - IVA sospesa (non a credito) — bilancio: neutralità IVA
+   - Addebito Conto 611xx (acquisto servizi) per €1.091,90
+   - IVA a credito: €0,00 (non detraibile in reverse charge EXTRA UE)
    
-2. **Autofattura**: €895 imponibile, 0% IVA
-   - Credito Conto 611xx (storno compensativo per neutralità)
-   - Nessuna IVA (operazione non imponibile in reverse charge)
+2. **Autofattura EU-1**: €895 imponibile + €196,90 IVA = €1.091,90
+   - Credito Conto 611xx (storno compensativo) per €1.091,90
+   - Causale "Rev" + Ignora in IVA = 1 → l'IVA non va registrata nel registro IVA formale
+   - Contabilmente: l'IVA di €196,90 si annulla con quella dell'acquisto
 
-3. **Risultato finale**: Costo lordo €895,00 (IVA interna, non detraibile)
+3. **Risultato finale**: 
+   - Costo netto al bilancio: €895,00 (l'IVA non detraibile si compensa)
+   - Registro IVA: solo l'IVA dell'acquisto, **senza l'autofattura** (per effetto del flag Ignora in IVA)
 
 #### Campi chiave in Query
 
