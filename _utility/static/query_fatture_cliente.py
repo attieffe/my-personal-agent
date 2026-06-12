@@ -13,6 +13,7 @@ import sys
 import json
 import ssl
 import urllib.request
+import urllib.parse
 import base64
 import argparse
 from urllib.error import URLError
@@ -111,8 +112,12 @@ def fm_get_record(token, recordId):
 
 def fm_find_righe_by_idtesta(token, idtesta):
     """Cerca righe vendita per IDTESTA (numero fattura testata)."""
-    url = f"{BASE_URL}/databases/DADEGEST/layouts/R_FAT_0001/_find"
-    body = json.dumps({'query': [{'IDTESTA': idtesta}]}).encode()
+    # Le righe vivono nel file "righe vendita", non in DADEGEST
+    # URL-encode il nome del database (con spazio)
+    db_encoded = urllib.parse.quote('righe vendita', safe='')
+    layout_encoded = urllib.parse.quote('Righe_Vendita', safe='')
+    url = f"{BASE_URL}/databases/{db_encoded}/layouts/{layout_encoded}/_find"
+    body = json.dumps({'query': [{'IDTESTA': str(idtesta)}]}).encode()
 
     req = urllib.request.Request(
         url,
