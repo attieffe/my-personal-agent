@@ -1,0 +1,10 @@
+{
+  "token": "ya29.a0AT3oNZ9PLvy5x6jdWCKC7YXrwjdjTAI0ljv1FqsQK2T6yNZURJ283WWkTsF2lnBIZS9p4eE56xd92uH5soczryf7ADr5MPFQLi4n2FaEePHmVGuve1iKrCzAuG29WnqLyinVxG9i1PC8DEf3ukou7A6B24argJ34k5vUSmFUqzswtMbSHcoThHFKD9HJE0e3DSvI9NEaCgYKAb0SARISFQHGX2MivPyKgf9ET0zrVPyJ7IaruQ0206",
+  "refresh_token": "1//03N5mgcDvU4_tCgYIARAAGAMSNwF-L9IrF-3UVlCvma4r51b4OJb8np_af23HB1kA3PX2ratGvH_GiglDWoE-6nOl3Umn_kalpBs",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "client_id": "761936838774-43i71a5kcpnv7p1habkbiepplsv0tdaa.apps.googleusercontent.com",
+  "client_secret": "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",
+  "scopes": [
+    "https://www.googleapis.com/auth/youtube"
+  ]
+}
