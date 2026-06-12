@@ -27,6 +27,16 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 - **MAI azioni distruttive** senza permesso esplicito
 - `trash` > `rm` (recoverable beats gone forever)
 
+### ⭐ File Esistenti — LEGGI PRIMA DI CREARE
+**REGOLA ASSOLUTA:** Prima di creare **qualsiasi** file `.md`:
+1. **Cerca sempre** il file `.md` esistente più adatto (per tema, cartella, tipo di dato)
+2. Se esiste → **aggiorna quello**, non crearne uno nuovo
+3. Se non esiste → **chiedi conferma** a Atti prima di crearne uno nuovo, proponendo il path
+
+**Perché:** Un file aggiornato vale più di dieci file sparsi. Riduci proliferazione. Atti legge i file canonici; nuovi file vengono ignorati.
+
+**Caso di studio:** Ho creato `BMW_X1_GA258HL.md` ignorando `BMW_X1_2020.md` che c'era già. Atti ha dovuto correggere. Mai più.
+
 ### Struttura Idee vs Implementazione
 - **Idee/brainstorming progetti** →[idee_progetti](projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/INDEX) (indice + una cartella per idea)
 - **Implementazione operativa** → `projects/<nomeprogetto>/` (il progetto vero e proprio)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
+                "file": "projects/myJob/PERSONALE/automobili/BMW_X1_2020.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "BMW_X1_2020"
             }
           }
         ]
@@ -183,25 +183,29 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "39f0be0659461ad8",
+  "active": "d2add8721c4c5b31",
   "lastOpenFiles": [
-    "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata/Colore facciata.md",
-    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "memory/2026-06-09-1409.md",
-    "memory/~syncthing~2026-06-09-1409.md.tmp",
-    "memory/2026-06-09-1322.md",
-    "memory/~syncthing~2026-06-09-1322.md.tmp",
-    "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata/~syncthing~Colore facciata.md.tmp",
-    "memory/2026-06-09-1154.md",
-    "memory/~syncthing~2026-06-09-1154.md.tmp",
+    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
+    "projects/myJob/PERSONALE/auto/BMW_X1_GA258HL.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
-    "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata",
-    "projects/myJob/PERSONALE/casa/condominio",
+    "projects/ingenio-gest-filemaker-connection/query_sarma_auto.mjs",
+    "projects/ingenio-gest-filemaker-connection/~syncthing~query_sarma_auto.mjs.tmp",
+    "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "memory/2026-06-12-0944.md",
+    "memory/~syncthing~2026-06-12-0944.md.tmp",
+    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
+    "projects/myJob/PERSONALE/auto/~syncthing~BMW_X1_GA258HL.md.tmp",
+    "projects/myJob/PERSONALE/auto",
+    "memory/2026-06-12-0941.md",
+    "memory/~syncthing~2026-06-12-0941.md.tmp",
+    "memory/2026-06-12-0938.md",
+    "memory/~syncthing~2026-06-12-0938.md.tmp",
+    "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata/Colore facciata.md",
+    "memory/2026-06-09-1409.md",
+    "memory/2026-06-09-1322.md",
+    "memory/2026-06-09-1154.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/CHANGELOG.md",
     "projects/archiviazione-ottica-documenti/history.md",
-    "projects/archiviazione-ottica-documenti/90_processed/estratto mutuo.pdf",
-    "projects/archiviazione-ottica-documenti/~syncthing~history.md.tmp",
-    "projects/archiviazione-ottica-documenti/_system/__pycache__/~syncthing~drive_uploader.cpython-312.pyc.tmp",
     "projects/archiviazione-ottica-documenti/README.md",
     "projects/archiviazione-ottica-documenti/TODO.md",
     "projects/archiviazione-ottica-documenti/TECNICO.md",
@@ -216,10 +220,6 @@
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/TROUBLESHOOTING/Tabelle_non _caricate_su_FM.md",
     "projects/myJob/TODO_GENERALE.md",
     "memory/2026-06-04-1707.md",
-    "memory/2026-06-04-0140.md",
-    "projects/archiviazione-ottica-documenti/SINTESI.sync-conflict-20260604-013337-J5JDJ6H.md",
-    "projects/archiviazione-ottica-documenti/SINTESI.md",
-    "projects/archiviazione-ottica-documenti/APPUNTI.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
     "_attachments/temp/libretto_p1.png"
