@@ -26,6 +26,14 @@ Ogni proposta = 3 rendering Gemini (facciata · balconi · dettagli).
 | Foto originali | `/home/openclaw/attibot/condominio/img/originali/` |
 | Pagina HTML | `/home/openclaw/attibot/condominio/proposte_facciate.html` |
 
+## Colorazioni suggerite dai condomini
+
+| Colore | Codice/i | Suggerito da | Data |
+|--------|----------|--------------|------|
+| Crema | KK 1300 | Pina D'Angelo | 2026-06-13 |
+| Marrone | K337mo / KK4308 / KK4307 | Pina D'Angelo | 2026-06-13 |
+| — | KK1360 | Attilio | 2026-06-13 |
+
 ## Come aggiungere nuovi rendering
 
 Appendere a `RENDERING_QUEUE.json` → `queue[]` un nuovo item con `status: "pending"`.  

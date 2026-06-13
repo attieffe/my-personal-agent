@@ -6,6 +6,10 @@ Tapparelle e serramenti **marrone Douglas** — invariabili. Tutte le 24 propost
 ## Proposte escluse
 A1, A2, A3 (troppo simili al bruno), F1 (blu freddo), F2 (verde bottiglia) — incompatibili con Douglas.
 
+## Suggerimenti da condomini
+- **KK 1300 Crema** — suggerito da **Pina D'Angelo** (2026-06-13)
+- **Marrone**: K337mo / KK4308 / KK4307 — suggerito da **Pina D'Angelo** (2026-06-13)
+
 ## Fonti cromatiche consultate
 - BigMat (normativa RAL/NCS)
 - Edilportale
