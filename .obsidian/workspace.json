@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/PERSONALE/automobili/BMW_X1_2020.md",
+                "file": "projects/archiviazione-ottica-documenti/history.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BMW_X1_2020"
+              "title": "history"
             }
           }
         ]
@@ -183,10 +183,11 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "d2add8721c4c5b31",
+  "active": "39f0be0659461ad8",
   "lastOpenFiles": [
-    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "projects/email-injection/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
+    "projects/myJob/PERSONALE/automobili/BMW_X1_2020.md",
     "memory/2026-06-12-1841.md",
     "memory/~syncthing~2026-06-12-1841.md.tmp",
     "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
@@ -219,7 +220,6 @@
     "projects/myJob/PERSONALE/personale_tempo_libero/vacanze_estate_2026.md",
     "memory/2026-06-08-1503.md",
     "memory/2026-06-08-1127.md",
-    "projects/myJob/PERSONALE/personale_tempo_libero/intv recording/intv.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
     "_attachments/temp/libretto_p1.png"
