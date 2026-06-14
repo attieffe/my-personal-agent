@@ -42,10 +42,17 @@ TELEGRAM_CHAT_ID = "506258994"
 TELEGRAM_TOPIC_ID = None
 
 FILE_RE = re.compile(r"^(\d{8}) openclaw backup\.tar\.gz$")
+LOG_FILE = f"/tmp/openclaw_backup_{DATE_STR}.log"
+
+_log_fh = None
 
 
 def log(msg):
-    print(f"[{NOW.strftime('%H:%M:%S')}] {msg}")
+    line = f"[{NOW.strftime('%H:%M:%S')}] {msg}"
+    print(line)
+    if _log_fh:
+        _log_fh.write(line + "\n")
+        _log_fh.flush()
 
 
 def send_telegram(text):
@@ -353,4 +360,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    _log_fh = open(LOG_FILE, "w", buffering=1)
+    log(f"=== Backup avviato — log: {LOG_FILE} ===")
+    try:
+        main()
+    finally:
+        log("=== Backup terminato ===")
+        _log_fh.close()
