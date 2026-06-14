@@ -8,8 +8,8 @@
 - **Periodicità**: giornaliera
 
 ### OPENCLAW WORKSPACE (attibot.ingeniosolution.it)
-- **Destinazione**: FTP `ftp.ingsoftware.it` porta 21 — cartella `/openclaw/`
-- **User FTP**: `backup@ingsoftware.it`
+- **Destinazione**: FTP `93.151.207.173` porta 221 — cartella `/home/backupAtti/Openclaw`
+- **User FTP**: `backupAtti`
 - **Periodicità**: ogni notte alle 02:00 (Europe/Rome)
 - **Nome file**: `YYYYMMDD openclaw backup.tar.gz`
 - **Contenuto**: intero workspace `/home/openclaw/.openclaw/workspace` (esclusi `.git`, `node_modules`, `__pycache__`)
@@ -20,12 +20,14 @@
 - **Script**: `_utility/static/openclaw_ftp_backup.py`
 - **Cron job ID**: `68058dab-617c-445b-afcd-a45e333f4ebd`
 - **Notifica**: Telegram (IAco Team, topic principale) con dimensione, percorso, file cancellati e lista file rimanenti
+- Metodo: FTP su 10.1.87.226 - User backupAtti (password su LastPass) aperto all'esterno su porta 221 router vodafone
 
 ### ULTAHOST SERVER
 - backup su ingsoftware in cartella backup/intv
 - l'utente FTP logga in backup
 - SQL: dump di db totale ogni notte
 - File system solo i delta e trasmette i delta con **duplicity**
+- Metodo: FTP su 10.1.87.226 - User backupAtti (password su LastPass)
 
 ### 10.1.87.148 (LAN) 10.1.87.149 (WIFI) PC ATTI SAETTA
 - software Duplicati su porta 8300

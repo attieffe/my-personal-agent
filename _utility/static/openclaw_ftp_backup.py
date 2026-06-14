@@ -24,11 +24,11 @@ import zoneinfo
 # --- CONFIG ---
 ATTIBOT = "/home/openclaw/attibot"
 OPENCLAW_CMD = "openclaw"  # path del comando openclaw
-FTP_HOST = "ftp.ingsoftware.it"
-FTP_PORT = 21
-FTP_USER = "backup@ingsoftware.it"
-FTP_PASS = "jvRMO*W+^;#Zg$MR"
-FTP_DIR = "/openclaw"
+FTP_HOST = "93.151.207.173"
+FTP_PORT = 221
+FTP_USER = "backupAtti"
+FTP_PASS = "FhHuK%IMItBm07nc#"
+FTP_DIR = "/home/backupAtti/Openclaw"
 
 TZ = zoneinfo.ZoneInfo("Europe/Rome")
 NOW = datetime.now(TZ)
