@@ -10,6 +10,7 @@ Aggiornare quando si aggiunge o disattiva una inbox.
 | Nome | Email | Contesto Default | Cartella | Attiva |
 |------|-------|-----------------|----------|--------|
 | myjob | myjob@ingeniosolution.it | COLZANI | `inboxes/myjob/` | ✅ |
+| aos   | aos@ingeniosolution.it   | ARCHIVIAZIONE_OTTICA | `inboxes/aos/` | ✅ |
 
 ---
 

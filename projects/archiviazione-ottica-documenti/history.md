@@ -613,6 +613,18 @@ Log cronologico di ogni documento archiviato.
 - **Note:** Dati forniti da Atti; OCR non utilizzato.
 ---
 
+## 2026-06-14 09:47 — 20260614 Fattura IONOS 109994055183.pdf
+- **Categoria:** INGENIO_SOLUTION
+- **Data documento:** 20260614
+- **Mittente:** Fatturazione IONOS
+- **File originale:** `Fattura_2026-06-14_109994055183_V112069139.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260614 Fattura IONOS 109994055183.pdf` ✅
+  - `gdrive:Ingenio/DOCUMENTI FISCALI/2026/20260614 Fattura IONOS 109994055183.pdf` ✅
+
+- **Note:** Classificato da filename+contesto email (R01 AOS); OCR non necessario.
+---
+
 <!-- Esempio di record:
 ## 2026-06-03 — 20260603 fattura medico rossi.pdf
 - **Data documento:** 2026-05-28
