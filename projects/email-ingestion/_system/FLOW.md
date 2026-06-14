@@ -8,7 +8,7 @@ Il sistema supporta **più caselle email** (inbox), ciascuna con il proprio cont
 ## Architettura Multi-Inbox
 
 ```
-email-injection/
+email-ingestion/
 ├── _system/                    ← ALGORITMO (condiviso, modifiche esplicite)
 │   ├── FLOW.md                 ← questo file
 │   ├── analyze_email.prompt.md

@@ -1,6 +1,6 @@
 ---
 description: Analizza un'email in ingresso e produce il companion .md con proposta di azione e aggiorna l'INDEX.
-applyTo: "projects/email-injection/inboxes/*/00_inbox/*.eml"
+applyTo: "projects/email-ingestion/inboxes/*/00_inbox/*.eml"
 ---
 
 # Prompt: Analisi Email in Ingresso

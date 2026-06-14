@@ -7,7 +7,7 @@ schedule: "0 * * * *"
 
 ## Step 1 — Leggi inbox attive
 
-Leggi `projects/email-injection/_system/INBOXES_REGISTRY.md` e ricava la lista delle inbox con `Attiva: ✅`.
+Leggi `projects/email-ingestion/_system/INBOXES_REGISTRY.md` e ricava la lista delle inbox con `Attiva: ✅`.
 
 ---
 
@@ -16,7 +16,7 @@ Leggi `projects/email-injection/_system/INBOXES_REGISTRY.md` e ricava la lista d
 Esegui in terminale:
 
 ```bash
-cd projects/email-injection
+cd projects/email-ingestion
 python imap_check.py --inbox [nome_inbox]
 ```
 
@@ -29,7 +29,7 @@ Leggi l'output JSON. Se `new_processed` è 0 → nessuna email nuova, salta allo
 Per ogni UID in `processed_uids` dell'output:
 
 1. Individua il file `.eml` appena salvato in `inboxes/[inbox]/00_inbox/`
-2. Segui integralmente le istruzioni di `projects/email-injection/_system/analyze_email.prompt.md`
+2. Segui integralmente le istruzioni di `projects/email-ingestion/_system/analyze_email.prompt.md`
    - Input inbox: `[nome_inbox]`
    - Input eml: percorso del file scaricato
 3. Il risultato è un companion `.md` in `inboxes/[inbox]/01_to-be-defined/` e una riga aggiunta all'INDEX

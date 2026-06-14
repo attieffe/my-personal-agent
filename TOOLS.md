@@ -72,7 +72,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 > - SÌ → va in `_knowledge/` (o equivalente nella struttura del tool)
 > - NO → va in `_system/`
 
-**Esempio applicato**: `projects/email-injection/` — vedi `_system/FLOW.md` per riferimento.
+**Esempio applicato**: `projects/email-ingestion/` — vedi `_system/FLOW.md` per riferimento.
 
 ---
 
@@ -106,10 +106,10 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 - **myjob / controllo email**: quando mi chiedi “fai girare task di controllo email myjob”, lancio il cron job **"myJob IMAP check hourly (read-only triage)"** (jobId: `01d3cd46-bf16-4df8-8485-80d3a4957da1`).
   
-  Il progetto email è ora in `projects/email-injection/` (spostato da `projects/myJob/EMAIL/`). Riferimento operativo: `projects/email-injection/INBOX_WORKFLOW.md`.
+  Il progetto email è ora in `projects/email-ingestion/` (spostato da `projects/myJob/EMAIL/`). Riferimento operativo: `projects/email-ingestion/INBOX_WORKFLOW.md`.
 
   Procedura (finché mi chiedi conferma prima di agire):
-  - Dopo il giro, leggo `projects/email-injection/02_logs/incoming_untriaged.md` e riassumo UID trovati.
+  - Dopo il giro, leggo `projects/email-ingestion/02_logs/incoming_untriaged.md` e riassumo UID trovati.
   - Se ci sono email già gestite in altri file, segnalo che risultano ancora in “untriaged” (il cron può solo importare/accodare e non ripulire automaticamente).
   - Per ogni email “da fare”: propongo qui su Telegram la scelta (es. TODO/assegnazioni/spostamenti/archiviazione) e aspetto la tua conferma prima di modificare file o assegnare task.
   - Quando sintetizzo azioni da fare o note operative, includo sempre un link al contenuto originale della email e una % di confidenza sull’azione proposta.

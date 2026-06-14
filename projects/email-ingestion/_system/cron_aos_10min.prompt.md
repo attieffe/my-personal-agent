@@ -13,7 +13,7 @@ Non fare triage di task. Obiettivo: estrarre documenti dagli allegati e proporli
 ## Step 1 — Scarica nuove email
 
 ```bash
-cd /home/openclaw/.openclaw/workspace/projects/email-injection
+cd /home/openclaw/.openclaw/workspace/projects/email-ingestion
 python imap_check.py --inbox aos
 ```
 

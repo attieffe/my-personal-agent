@@ -1,6 +1,6 @@
 ---
 description: Gestisce la conferma/rettifica di una proposta, archivia l'email e aggiorna il feedback loop.
-applyTo: "projects/email-injection/inboxes/*/01_to-be-defined/*.md"
+applyTo: "projects/email-ingestion/inboxes/*/01_to-be-defined/*.md"
 ---
 
 # Prompt: Process Outcome — Conferma e Archiviazione
