@@ -116,6 +116,14 @@
 	- [x] Installare e configurare Cookiebot
 	- [x] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
 
+### [getmedigital - grillosaverio]
+- [ ] grillosaverio.it attualmetne in gestoine terzi il dominio
+	- [ ] chiedere DNS attuali a fornitore
+	- [ ] spostare dominio a hostingsolution? (ricevere accessi da grillo)
+	- [ ] creare hosting e migrarlo su nostro GMDCLOUD
+- [ ] grillorent.it già registrato su aruba
+	- [ ] creare sito
+
 ### [ingenio · amministrazione]
 - [x] **Fare fatture** [scade 2026-06-02]
 - [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
