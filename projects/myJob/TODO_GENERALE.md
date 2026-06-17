@@ -77,6 +77,7 @@
 ### [personale · automobili]
 - [x] Pagare bollo auto
 - [ ] Organizzarsi per revisione auto [scade 30/06/2026] → [[PERSONALE/automobili/BMW_X1_2020]]
+- [ ] Fissare appuntamento con 2C Beretta Service [aggiunto 2026-06-17]
 - [x] Fissare appuntamento con EUROGOMME  [scade 06/06/2026] ✓ 2026-06-04
 - [x] Annotare scontrino benzinaio Q8Easy Seregno - P.V. 1241, Via Milano 20, Seregno (MB), scontrino n. 113409, 05/06/2026 15:33, importo Euro 85,57, quantita 46,03 L, prezzo 1,859 €/L, pagamento carta ✓ 2026-06-06
 - [ ] **Follow-up tempi reperibilità ricambi** — Balza Multiservice (preventivo N.518): convogliatore, antigelo, ricarica clima [richiesto 12/06/2026] → [[PERSONALE/auto/BMW_X1_GA258HL]]
