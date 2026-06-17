@@ -10,7 +10,21 @@
 ## TO-DO ATTIVI
 
 ### [personale · tempo libero]
-- [ ] Prenotare attività ludica regalata dal fratello per il compleanno — da verificare sito nelle email → [[PERSONALE/TODO_PERSONALE]]
+- [ ] Prenotare attività ludica regalata dal fratello per il compleanno — Zero Latency VR Giussano → [[PERSONALE/TODO_PERSONALE]]
+	- [ ] voucher code: DPXQ9KCNRFAW 
+	- [ ] You can redeem this gift voucher at **Giussano** until **12/10/2026 8:16 PM**
+	- [ ] https://booking.zerolatencyvr.com/it/book-now/giussano/?gv=DPXQ9KCNRFAW&utm_campaign=website&utm_content=transactional&utm_medium=email&utm_source=portal
+	- Esperienze disponibili a Giussano:
+		- **OUTBREAK 2: MALL MAYHEM** ⭐ nuovo — 1-8 gioc. · 30 min · cooperativo — Sequel di Outbreak: zombie mutanti in un centro commerciale invaso, caos totale
+		- **HAUNTED** ⭐ nuovo — 1-8 gioc. · 15 min · horror sopravvivenza — Casa stregata VR 5K ultra-immersiva, audio spaziale, dovete restare uniti per uscire vivi
+		- **SPACE MARINE VR: THREAT LETHAL** — 1-8 gioc. · 30-45 min · sci-fi squadra · età 13+ — Variante hardcore di Space Marine VR (Warhammer 40K): se la squadra cade si ricomincia il livello
+		- **SPACE MARINE VR** — 1-8 gioc. · 30 min · sparatutto sci-fi — Marine Spaziale di Warhammer 40K vs Tyranidi nella Città Alveare, versione standard
+		- **OUTBREAK** 🔥 tendenza — 1-8 gioc. · 30 min · sparatutto squadra — Apocalisse zombie: proteggi l'unica cura tra fogne, ospedali e elicotteri da combattimento
+		- **UNDEAD ARENA** — 1-8 gioc. · 15 min · sparatutto competitivo — Game show distopico: zombie sotto i neon, trappole attivabili, piattaforme mobili, punteggio individuale
+		- **FAR CRY VR** 🔥 tendenza — 1-8 gioc. · 30 min · sparatutto cooperativo — Isole tropicali, fuga da pirati tra funivie e caverne (universo Far Cry)
+		- **ENGINEERIUM** — 1-8 gioc. · 15 min · avventura cooperativa — Mondo onirico tra le nuvole, sfida la gravità, riunisci una tribù dispersa (meno sparatutto, più visivo)
+		- **SOL RAIDERS** — 1-8 gioc. · 15 min · PvP squadra vs squadra — Tre mappe, obiettivi da conquistare, competitivo team contro team
+		- **SINGULARITY** — 1-8 gioc. · 30 min · sparatutto cooperativo — Base segreta infiltrata da robot killer e droni d'assalto, difesa di squadra per riprendere il controllo
 
 ### [personale · scadenza · 2026-06-24]
 - [ ] Rinnovare pannello — scadenza 24 giugno 2026
@@ -67,6 +81,7 @@
 - [x] Annotare scontrino benzinaio Q8Easy Seregno - P.V. 1241, Via Milano 20, Seregno (MB), scontrino n. 113409, 05/06/2026 15:33, importo Euro 85,57, quantita 46,03 L, prezzo 1,859 €/L, pagamento carta ✓ 2026-06-06
 - [ ] **Follow-up tempi reperibilità ricambi** — Balza Multiservice (preventivo N.518): convogliatore, antigelo, ricarica clima [richiesto 12/06/2026] → [[PERSONALE/auto/BMW_X1_GA258HL]]
 - [ ] Fissare appuntamento per pastiglie anteriori BMW [scade 10/07/2026]
+	- [ ] chiesti prevetivo william il 17/6
 
 
 ### [personale · casa · manutenzione]
@@ -76,13 +91,14 @@
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
 
 ### [freelance · agenzia · get me digital]
-- [ ] Mandare calcoli GET ME DIGITAL secondo semestre 2025 a Neda e Cristina — aggiunto 2026-05-20
+- [x] Mandare calcoli GET ME DIGITAL secondo semestre 2025 a Neda e Cristina — aggiunto 2026-05-20
+	- [ ] mandare fattura
 
 ### freelance - agenzia - sinapps 
 
 - [x] **⚠️ SCADENZA 2026-05-22** Sinapps / Fibermap — 7 ore sviluppo (4+3) a 30€/h = 210€ → [[Fibermap-general|OPENFIBER dettaglio]]
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi [[FREELANCE/SINAPPS/SINAPPS_INDEX]]
- - [ ] Sinapps / FiberMap — compilazione form in automatico come da messaggio di Luca, scade il 5/6/2026
+ - [x] Sinapps / FiberMap — compilazione form in automatico come da messaggio di Luca, scade il 5/6/2026
 ### [freelance · diretto · studio paladini]
 
 ### [freelance · diretto · unioncucine]
@@ -94,10 +110,10 @@
 		- [ ] banner non bellissimo e non chiaro
 	- [ ] errore bad gateway 502 aperto ticket con register.it
 	- [ ] mandata richiesta per multisite (potrebbero non gestirlo), nel caso chiediamo buyback
-- [ ] **Cookie: abbandonare Complianz → migrare a Cookiebot** [2026-05-28]
-	- [ ] Rimuovere plugin Complianz
-	- [ ] Installare e configurare Cookiebot
-	- [ ] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
+- [x] **Cookie: abbandonare Complianz → migrare a Cookiebot** [2026-05-28]
+	- [x] Rimuovere plugin Complianz
+	- [x] Installare e configurare Cookiebot
+	- [x] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
 
 ### [ingenio · amministrazione]
 - [x] **Fare fatture** [scade 2026-06-02]
