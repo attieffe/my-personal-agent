@@ -9,6 +9,9 @@
 
 ## TO-DO ATTIVI
 
+### [personale · tempo libero]
+- [ ] Prenotare attività ludica regalata dal fratello per il compleanno — da verificare sito nelle email → [[PERSONALE/TODO_PERSONALE]]
+
 ### [personale · scadenza · 2026-06-24]
 - [ ] Rinnovare pannello — scadenza 24 giugno 2026
 
