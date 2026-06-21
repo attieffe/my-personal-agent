@@ -35,7 +35,7 @@
 
 ### [personale · infrastruttura · backup]
 
-- [ ] Aggiornare OPENCLAW da 2026.6.1 → 2026.6.8
+- [ ] Aggiornare OPENCLAW da 2026.6.8 → 2026.6.9
 - [x] Creare taccuini markdown dedicati alla documentazione dei backup:
   - [x] backup personale (PC, dati personali)
   - [x] backup NAS
@@ -44,7 +44,7 @@
   - [x] backup ambiente TV
   → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
   
-- [x] Monitorare bug OpenClaw #85314 e verificare se viene corretto [chiuso 2026-06-16]
+- [ ] Monitorare bug OpenClaw #85314 — [aperto, P1: Telegram DM replies silently dropped]
 
 ### [personale · famiglia · fiscale]
 - [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare

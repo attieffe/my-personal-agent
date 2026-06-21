@@ -56,9 +56,9 @@ KNOWN_CF = {
     "FMNLCA22L65B729C": "Alice",
 }
 
-MODEL      = "claude-sonnet-4-6"
-DPI        = 150    # bilanciamento qualità/velocità; 150 DPI è sufficiente per Sonnet Vision
-DELAY_SEC  = 5.0   # pausa generosa tra chiamate per evitare rate limit OAuth
+MODEL      = "claude-haiku-4-5-20251001"
+DPI        = 300
+DELAY_SEC  = 1.5   # pausa tra chiamate
 
 # ─── LOGGING ───────────────────────────────────────────────────────────────────
 
