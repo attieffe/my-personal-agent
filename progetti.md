@@ -73,3 +73,10 @@ Crea un nuovo progetto solo quando:
 **Cos'è:** Sistema AI per archiviare documenti fisici (scansioni/foto di posta ordinaria). Riceve documenti da topic Telegram, AttiBot upload o cartella input/, analizza il contenuto via vision AI, propone nome e categoria, e — dopo conferma di Atti — copia su Google Drive nelle destinazioni corrette. Non cancella mai i file originali. Tiene un log in `history.md`.
 
 ---
+
+### 🏥 scansione-spese-mediche
+**Cartella:** `projects/scansione-spese-mediche/`
+**Documentazione:** [[projects/scansione-spese-mediche/SINTESI|Sintesi]] | [[projects/scansione-spese-mediche/TECNICO|Tecnico]] | [[projects/scansione-spese-mediche/TODO|TODO]] | [[projects/scansione-spese-mediche/APPUNTI|Appunti]]
+**Cos'è:** Script one-shot per estrarre dati da PDF multi-pagina di ricevute mediche scansionate (OCR locale + Haiku fallback). Produce un XLSX con data, CF, persona, importo e struttura per ogni ricevuta. Whitelist dei 4 CF di famiglia con fuzzy match per correggere errori OCR. Usato poche volte l'anno (es. per 730 o rimborsi).
+
+---
