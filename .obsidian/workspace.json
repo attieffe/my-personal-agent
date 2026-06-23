@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/TODO_GENERALE.md",
+                "file": "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO_GENERALE"
+              "title": "README"
             }
           }
         ]
@@ -185,9 +185,10 @@
   },
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
-    "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
     "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
+    "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
     "projects/email-ingestion/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/myJob/TODO_GENERALE.md",
     "memory/2026-06-20-1126.md",
     "memory/~syncthing~2026-06-20-1126.md.tmp",
     "memory/2026-06-18-0929.md",
@@ -210,8 +211,6 @@
     "projects/myJob/PERSONALE/casa/caldaia_beretta_meteo_green_e_25/2026-05-24_rapporto_controllo_fumi.md",
     "projects/myJob/PERSONALE/casa/caldaia_beretta_meteo_green_e_25/2026-05-24_manuale_tecnico.md",
     "memory/2026-05-24-1112.md",
-    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
-    "projects/myJob/TODO_GENERALE.md",
     "memory/2026-06-17-1028.md",
     "memory/2026-06-17-0956.md",
     "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",

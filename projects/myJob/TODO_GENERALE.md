@@ -48,14 +48,14 @@
 
 ### [personale · famiglia · fiscale]
 - [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
-- [ ] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
-- [ ] QUADRO ISA
+- [x] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
+- [x] QUADRO ISA
 	- [x] Trasmettere XML  ISA per dichiarazione redditi — accedere area riservata Ingenio su agenziaentrate.gov.it → cassetto fiscale → consultazioni → scarica file precompilata [aggiunto 2026-06-04 da email Raffaele Buraschi]
 
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini 
-	- [ ] Copia integrale atto di nascita del bambino Alessandro => Richiesto tramite serivzi online SPID 04/06/2026
-	- [ ] Copia integrale atto di nascita del bambino Alice => Richiesto tramite email il 05/06/2026
+	- [x] Copia integrale atto di nascita del bambino Alessandro => Richiesto tramite serivzi online SPID 04/06/2026
+	- [x] Copia integrale atto di nascita del bambino Alice => Richiesto tramite email il 05/06/2026
 	- [x] Copia atto di nascita integrale Francese
 	- [x] Copia documento identità Attilio
 	- [x] Libretto famiglia
@@ -66,11 +66,11 @@
 	- [ ] **Modulo pre-domanda CNI** — compilare online su: [https://predemande-cni.ants.gouv.fr](https://predemande-cni.ants.gouv.fr/) prima dell'appuntamento (genera un numero di pre-domanda da portare stampato)
 	- [ ] https://consulat.gouv.fr/consulat-general-de-france-a-milan/rendez-vous Fissare appuntamento
 - [ ] Registrare atto di matrimonio in francia
-	- [ ] Atto matrimonio: richiesto a comune di corbetta 04/06/2026 via email
+	- [x] Atto matrimonio: richiesto a comune di corbetta 04/06/2026 via email
 	- [x] Atto di nascita integrale Attilio Francese => OK
 	- [ ] Atto di nascita integrale Chiara => Da richiedere al Comune di Mariano Comense
-	- [ ] Passaporto attilio fronte retro
-	- [ ] Documento identità moglie fronte/retro
+	- [x] Passaporto attilio fronte retro
+	- [x] Documento identità moglie fronte/retro
 	- [ ] Formulario https://it.diplomatie.gouv.fr/files/it/files/Rome/transcription_mariage_nulla_osta_1_ans_ou_pas_de_no_v2025_1.pdf
 	- [ ] Livret de famille
 
@@ -113,8 +113,8 @@
 	- [ ] inglese fatto
 		- [ ] valutare se usare privacy e cookie generata dal sistema
 		- [ ] banner non bellissimo e non chiaro
-	- [ ] errore bad gateway 502 aperto ticket con register.it
-	- [ ] mandata richiesta per multisite (potrebbero non gestirlo), nel caso chiediamo buyback
+	- [x] errore bad gateway 502 aperto ticket con register.it
+	- [x] mandata richiesta per multisite (potrebbero non gestirlo), nel caso chiediamo buyback
 - [x] **Cookie: abbandonare Complianz → migrare a Cookiebot** [2026-05-28]
 	- [x] Rimuovere plugin Complianz
 	- [x] Installare e configurare Cookiebot
