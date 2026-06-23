@@ -44,7 +44,7 @@
   - [x] backup ambiente TV
   → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
   
-- [ ] Monitorare bug OpenClaw #85314 — [chiuso, P1: Telegram DM replies silently dropped]
+- [x] Monitorare bug OpenClaw #85314 — [chiuso, P1: Telegram DM replies silently dropped] ✓ 2026-06-23
 
 ### [personale · famiglia · fiscale]
 - [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
