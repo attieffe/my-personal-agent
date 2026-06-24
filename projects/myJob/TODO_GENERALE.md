@@ -35,7 +35,7 @@
 
 ### [personale · infrastruttura · backup]
 
-- [ ] Aggiornare OPENCLAW da 2026.6.8 → 2026.6.9
+- [ ] Aggiornare OPENCLAW da 2026.6.8 → 2026.6.10
 - [x] Creare taccuini markdown dedicati alla documentazione dei backup:
   - [x] backup personale (PC, dati personali)
   - [x] backup NAS
