@@ -5,6 +5,21 @@ Log cronologico di ogni documento archiviato.
 
 ---
 
+## 2026-07-01 14:05 — Anthropic Invoice GWOBK9VP-0003 + Receipt 2628-2445-5334
+- **Categoria:** INGENIO_SOLUTION
+- **Data documento:** 20260701
+- **Mittente:** Anthropic, PBC
+- **Oggetto:** Your receipt from Anthropic, PBC #2628-2445-5334
+- **File:**
+  - `20260701 Anthropic Invoice GWOBK9VP-0003.pdf`
+  - `20260701 Anthropic Receipt 2628-2445-5334.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/` ✅
+  - `gdrive:Ingenio/DOCUMENTI FISCALI/2026/` ✅
+- **Fonte:** Email inoltrata da ralf00@gmail.com → aos@ingeniosolution.it (UID 3)
+
+---
+
 ## 2026-06-04 00:21 — 20211015 Pagamento Antonino Imposte Redditi 2018.pdf
 - **Categoria:** BANCA
 - **Data documento:** 20211015
