@@ -1,0 +1,23 @@
+[
+  {
+    "eml": "inboxes/aos/00_inbox/msg_3_20260701_105413.eml",
+    "uid": "3",
+    "from_raw": "Attilio <ralf00@gmail.com>",
+    "subject_raw": "Fwd: Your receipt from Anthropic, PBC #2628-2445-5334",
+    "real_sender": "Anthropic, PBC <invoice+statements@mail.anthropic.com>",
+    "allegati": [
+      {
+        "saved_path": "/home/openclaw/.openclaw/workspace/projects/archiviazione-ottica-documenti/input/Invoice-GWOBK9VP-0003.pdf",
+        "filename": "Invoice-GWOBK9VP-0003.pdf",
+        "needs_ocr": true,
+        "reason": "Il filename 'Invoice-GWOBK9VP-0003.pdf' non è descrittivo: mancano data e/o categoria riconoscibile. Serve permesso OCR."
+      },
+      {
+        "saved_path": "/home/openclaw/.openclaw/workspace/projects/archiviazione-ottica-documenti/input/Receipt-2628-2445-5334.pdf",
+        "filename": "Receipt-2628-2445-5334.pdf",
+        "needs_ocr": true,
+        "reason": "Il filename 'Receipt-2628-2445-5334.pdf' non è descrittivo: mancano data e/o categoria riconoscibile. Serve permesso OCR."
+      }
+    ]
+  }
+]
