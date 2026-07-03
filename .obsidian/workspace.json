@@ -11,14 +11,10 @@
             "id": "39f0be0659461ad8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/myJob/PERSONALE/personale_tempo_libero/videomaking/matrimonio io ci sarò dedica.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "matrimonio io ci sarò dedica"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -183,11 +179,11 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "39f0be0659461ad8",
+  "active": "d2add8721c4c5b31",
   "lastOpenFiles": [
+    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
     "projects/email-ingestion/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "projects/myJob/PERSONALE/casa/dispositivi_in_possesso.md",
     "projects/myJob/PERSONALE/personale_tempo_libero/videomaking/matrimonio io ci sarò dedica.md",
     "projects/myJob/PERSONALE/personale_tempo_libero/videomaking",
