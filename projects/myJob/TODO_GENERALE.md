@@ -26,31 +26,14 @@
 		- **SOL RAIDERS** — 1-8 gioc. · 15 min · PvP squadra vs squadra — Tre mappe, obiettivi da conquistare, competitivo team contro team
 		- **SINGULARITY** — 1-8 gioc. · 30 min · sparatutto cooperativo — Base segreta infiltrata da robot killer e droni d'assalto, difesa di squadra per riprendere il controllo
 
-### [personale · scadenza · 2026-06-24]
-- [ ] Rinnovare pannello — scadenza 24 giugno 2026
 
-### [personale · attrezzatura · oggi]
-
-- [x] Verificare carica GoPro ⚡ [fatto 2026-05-27]
-
-### [personale · infrastruttura · backup]
-
-- [ ] Aggiornare OPENCLAW da 2026.6.8 → 2026.6.11
-- [x] Creare taccuini markdown dedicati alla documentazione dei backup:
-  - [x] backup personale (PC, dati personali)
-  - [x] backup NAS
-  - [ ] backup clienti
-  - [x] backup OpenClaw
-  - [x] backup ambiente TV
-  → [[PERSONALE/lavori_a_casa/40_infrastruttura_personale]]
-  
-- [x] Monitorare bug OpenClaw #85314 — [chiuso, P1: Telegram DM replies silently dropped] ✓ 2026-06-23
 
 ### [personale · famiglia · fiscale]
-- [~] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
+- [ ] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [x] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
-- [x] QUADRO ISA
-	- [x] Trasmettere XML  ISA per dichiarazione redditi — accedere area riservata Ingenio su agenziaentrate.gov.it → cassetto fiscale → consultazioni → scarica file precompilata [aggiunto 2026-06-04 da email Raffaele Buraschi]
+- [ ] QUADRO ISA
+	- [ ] Trasmettere XML  ISA per dichiarazione redditi 
+- [ ] Pagare buraschi (scade il 13/07/2026)
 
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini 
@@ -75,19 +58,15 @@
 	- [ ] Livret de famille
 
 ### [personale · automobili]
-- [x] Pagare bollo auto
-- [x] Organizzarsi per revisione auto [scade 30/06/2026] ✓ 2026-06-23 — ARIM Centro Revisioni, Seregno — 77.673 km → [[PERSONALE/automobili/BMW_X1_2020]]
+
 - [ ] Fissare appuntamento con 2C Beretta Service [aggiunto 2026-06-17]
-- [x] Fissare appuntamento con EUROGOMME  [scade 06/06/2026] ✓ 2026-06-04
-- [x] Annotare scontrino benzinaio Q8Easy Seregno - P.V. 1241, Via Milano 20, Seregno (MB), scontrino n. 113409, 05/06/2026 15:33, importo Euro 85,57, quantita 46,03 L, prezzo 1,859 €/L, pagamento carta ✓ 2026-06-06
-- [ ] **Chiedere fattura elettronica Q8Easy** — PV 1241, Via Milano 20, Seregno (MB) · scontrino n. 177774 · 23/06/2026 ore 09:25 · Verde 43,77 L · €1,779/L · **Importo €77,87** · pompa 4 · pagamento Revolut [aggiunto 2026-06-23 · scadenza 2026-06-24]
+
 - [ ] **Follow-up tempi reperibilità ricambi** — Balza Multiservice (preventivo N.518): convogliatore, antigelo, ricarica clima [richiesto 12/06/2026] → [[PERSONALE/auto/BMW_X1_GA258HL]]
 - [ ] Fissare appuntamento installazione pastiglie anteriori BMW [scade 10/07/2026]
 	- [x] chiesti preventivo william il 17/6
 	- [x] pastiglie acquistate — Colzani e Srl · ~€80 · 23/06/2026
 	- [ ] portare l'auto per installazione
-- [ ] **Pagare fattura Colzani e Srl** — pastiglie freni · ~€80 [aggiunto 2026-06-23 · scadenza 2026-07-04]
-
+	
 
 ### [personale · casa · manutenzione]
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
