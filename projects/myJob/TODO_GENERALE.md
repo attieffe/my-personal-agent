@@ -71,6 +71,10 @@
 ### [personale · casa · manutenzione]
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
 
+### [personale · infrastruttura · backup]
+- [ ] Aggiornare OPENCLAW da 2026.6.8 a 2026.6.11
+- [x] [Bug #85314](https://github.com/openclaw/openclaw/issues/85314) — Telegram DM replies silently dropped — **CLOSED**
+
 ### [personale · networking · luca benzoni]
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
 
