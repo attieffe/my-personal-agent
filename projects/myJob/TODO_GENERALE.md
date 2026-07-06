@@ -34,6 +34,8 @@
 - [ ] QUADRO ISA
 	- [ ] Trasmettere XML  ISA per dichiarazione redditi 
 - [ ] Pagare buraschi (scade il 13/07/2026)
+- [ ] Trasmettere fatture passive ricevute SDI ESTERE
+- [ ] Reg iva GIUGNO
 
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini 
@@ -62,10 +64,10 @@
 - [ ] Fissare appuntamento con 2C Beretta Service [aggiunto 2026-06-17]
 
 - [ ] **Follow-up tempi reperibilità ricambi** — Balza Multiservice (preventivo N.518): convogliatore, antigelo, ricarica clima [richiesto 12/06/2026] → [[PERSONALE/auto/BMW_X1_GA258HL]]
-- [ ] Fissare appuntamento installazione pastiglie anteriori BMW [scade 10/07/2026]
+- [x] Fissare appuntamento installazione pastiglie anteriori BMW [scade 10/07/2026]
 	- [x] chiesti preventivo william il 17/6
 	- [x] pastiglie acquistate — Colzani e Srl · ~€80 · 23/06/2026
-	- [ ] portare l'auto per installazione
+	- [x] portare l'auto per installazione
 	
 
 ### [personale · casa · manutenzione]
