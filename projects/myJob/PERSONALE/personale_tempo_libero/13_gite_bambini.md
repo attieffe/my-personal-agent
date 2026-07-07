@@ -1,8 +1,14 @@
-# Gite con i bambini
+# 🎯 Cose da fare con i bambini
 
-> Posti da fare insieme: camminate, laghi, natura, uscite in giornata.
+> Posti da fare insieme: camminate, laghi, natura, uscite in giornata, cinema e spettacoli.
 
-## Da fare
+## 🎬 Cinema & Spettacoli
+
+| Data | Evento | Orario | Fatto |
+|------|--------|--------|-------|
+| 09/09/2026 | 🐾 Paw Patrol — film al cinema | 19:00 | ☐ |
+
+## 🌿 Gite & Natura
 
 <!-- Aggiungi qui le gite con: nome posto, breve descrizione, distanza da casa, durata -->
 

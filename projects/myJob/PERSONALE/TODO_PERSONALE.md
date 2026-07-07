@@ -10,7 +10,7 @@ Hub dei task personali di Attilio. Per dettagli vedere le sottocartelle.
   - Prodotto: **Verde** (benzina verde) · €1.809/L
   - Quantità: **40,01 L** · Totale: **€72,38**
   - Pagamento: Visa/Revolut
-  - Numero scontrino: (verificare sul cartaceo)
+  - Numero scontrino: **255720** · Punto vendita: **1241**
 - [ ] Fare documenti per cittadinanza francese bambini — prerequisito: ottenere prima atto di matrimonio di Attilio e Chiara
 
 - [ ] Prenotare attività ludica regalata dal fratello per il compleanno — da verificare sito nelle email

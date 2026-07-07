@@ -35,7 +35,7 @@
   - Prodotto: **Verde** (benzina verde) · €1.809/L
   - Quantità: **40,01 L** · Totale: **€72,38**
   - Pagamento: Visa/Revolut
-  - Numero scontrino: (verificare sul cartaceo)
+  - Numero scontrino: **255720** · Punto vendita: **1241**
 - [ ] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [x] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
 - [ ] QUADRO ISA
