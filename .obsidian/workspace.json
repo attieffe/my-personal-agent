@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/TODO_GENERALE.md",
+                "file": "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO_GENERALE"
+              "title": "README"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
+    "projects/myJob/TODO_GENERALE.md",
     "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
     "projects/email-ingestion/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
@@ -206,7 +207,6 @@
     "projects/archiviazione-ottica-documenti/input/Quietanza_0_20_50032634_0_ecf18957bfe1_flatten.pdf",
     "memory/2026-06-24-1226.md",
     "memory/2026-06-23-1629.md",
-    "projects/myJob/TODO_GENERALE.md",
     "memory/2026-06-20-1126.md",
     "memory/2026-06-18-0929.md",
     "memory/2026-06-17-1358.md",

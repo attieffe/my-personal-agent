@@ -42,6 +42,12 @@
 			
 - [ ] generazione impegni per prodotto diretto, prodotto lavorato, e lavorazione iterativa (taglio+produzione)
 - [ ] 16/6/2026 preparato script generazione impegni ma da affinare, il TIPO e RIFERIMENTI non sono impsotato, andrebbe creato ORDINE DI PRODUZIONE. E andrebbe fatto script che inizialmente SVUOTA GLI IMPEGNI e li ricrea tutti
+- [ ] Su ana temp locale 261776 
+	- [ ] A005905
+	- [ ] A005906
+	- [ ] altro
+- [ ] 261777
+	- [ ] A005907
 
 ## Note
 -
