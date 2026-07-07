@@ -29,6 +29,13 @@
 
 
 ### [personale · famiglia · fiscale]
+- [ ] **Registrare scontrino carburante per fattura elettronica** — scadenza: **2026-07-10**
+  - Stazione: **Q8EASY** — Via Milano 20, Seregno (MB)
+  - Data/ora: 07/07/2026 ore 15:36 · Pompa 6
+  - Prodotto: **Verde** (benzina verde) · €1.809/L
+  - Quantità: **40,01 L** · Totale: **€72,38**
+  - Pagamento: Visa/Revolut
+  - Numero scontrino: (verificare sul cartaceo)
 - [ ] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [x] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
 - [ ] QUADRO ISA
