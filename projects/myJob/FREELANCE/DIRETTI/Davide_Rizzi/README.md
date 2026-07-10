@@ -49,6 +49,10 @@
 	- [ ] altro
 - [ ] 261777
 	- [ ] A005907
+- [ ] 10/7/2026 aggiungere posizione stampe acquisto e vendita
+- [ ] 10/7/2026 aggiungere a video in acquisto
+- [ ] 10/7/2026 sistemare calcolo taglio: regola → **in lunghezza non si taglia mai**
+- [ ] 10/7/2026 stampa dedicata per fasce per ordine
 
 ## Note
 -
