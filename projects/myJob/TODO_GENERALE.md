@@ -80,6 +80,7 @@
 - [ ] Fissare appuntamento con 2C Beretta Service [aggiunto 2026-06-17]
 
 ### [personale · infrastruttura · backup]
+- [ ] Verifica backup NAS / OpenClaw / INTV
 - [ ] Aggiornare OPENCLAW da 2026.6.8 a 2026.7.1
 - [x] [Bug #85314](https://github.com/openclaw/openclaw/issues/85314) — Telegram DM replies silently dropped — **CLOSED**
 
