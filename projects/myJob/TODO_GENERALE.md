@@ -35,6 +35,7 @@
 - [ ] QUADRO ISA
 	- [ ] Trasmettere XML  ISA per dichiarazione redditi 
 - [x] Pagare buraschi (scade il 13/07/2026)
+- [ ] Pagare ritenuta commercialista Buraschi (scadenza 16/08/2026)
 - [ ] Trasmettere fatture passive ricevute SDI ESTERE
 - [ ] Reg iva GIUGNO
 - [x] Pagare tasse CHIARA (revolut)
