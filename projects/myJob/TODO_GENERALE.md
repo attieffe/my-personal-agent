@@ -43,6 +43,9 @@
 - [ ] Pagare buraschi (scade il 13/07/2026)
 - [ ] Trasmettere fatture passive ricevute SDI ESTERE
 - [ ] Reg iva GIUGNO
+- [x] Pagare tasse CHIARA (revolut)
+- [x] Pagare tasse INGENIO (bpm)
+- [ ] Verifica tutti i conti
 
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini 
@@ -68,7 +71,6 @@
 
 ### [personale · automobili]
 
-- [ ] Fissare appuntamento con 2C Beretta Service [aggiunto 2026-06-17]
 
 - [ ] **Follow-up tempi reperibilità ricambi** — Balza Multiservice (preventivo N.518): convogliatore, antigelo, ricarica clima [richiesto 12/06/2026] → [[PERSONALE/auto/BMW_X1_GA258HL]]
 - [x] Fissare appuntamento installazione pastiglie anteriori BMW [scade 10/07/2026]
@@ -79,6 +81,8 @@
 
 ### [personale · casa · manutenzione]
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
+
+- [ ] Fissare appuntamento con 2C Beretta Service [aggiunto 2026-06-17]
 
 ### [personale · infrastruttura · backup]
 - [ ] Aggiornare OPENCLAW da 2026.6.8 a 2026.7.1

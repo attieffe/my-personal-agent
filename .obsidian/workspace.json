@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
+                "file": "projects/myJob/TODO_GENERALE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "TODO_GENERALE"
             }
           }
         ]
@@ -185,31 +185,33 @@
   },
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
-    "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~incoming_untriaged.md.tmp",
+    "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~pending_proposals.json.tmp",
+    "projects/email-ingestion/inboxes/aos/90_archive/msg_4_20260714_091411.eml",
+    "memory/2026-07-14-1120.md",
+    "memory/~syncthing~2026-07-14-1120.md.tmp",
     "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
-    "projects/email-ingestion/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
+    "projects/archiviazione-ottica-documenti/90_processed/20260701 Anthropic Receipt 2628-2445-5334.pdf",
+    "projects/archiviazione-ottica-documenti/90_processed/20260701 Anthropic Invoice GWOBK9VP-0003.pdf",
+    "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/archiviazione-ottica-documenti/input/Fattura_2026-07-14_109994109017_V112069139.pdf",
+    "projects/archiviazione-ottica-documenti/input/~syncthing~Fattura_2026-07-14_109994109017_V112069139.pdf.tmp",
+    "projects/email-ingestion/inboxes/aos/00_inbox/msg_4_20260714_091411.eml",
+    "memory/2026-07-14-1112.md",
+    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
     "memory/2026-07-13-1647.md",
-    "memory/~syncthing~2026-07-13-1647.md.tmp",
     "memory/2026-07-09-0035.md",
-    "memory/~syncthing~2026-07-09-0035.md.tmp",
     "memory/2026-07-07-1806.md",
     "memory/2026-07-07-1408.md",
     "memory/2026-07-07-1537.md",
     "memory/2026-07-07-1629.md",
-    "projects/myJob/PERSONALE/~syncthing~TODO_PERSONALE.md.tmp",
-    "memory/~syncthing~2026-07-07-1537.md.tmp",
-    "memory/~syncthing~2026-07-07-1629.md.tmp",
     "projects/myJob/TODO_GENERALE.md",
     "CONSULENTI.md",
     "projects/myOCcall/APPUNTI.md",
     "projects/myOCcall/README.md",
     "projects/myJob/PERSONALE/personale_tempo_libero/videomaking/matrimonio io ci sarò dedica.md",
     "projects/myJob/PERSONALE/casa/dispositivi_in_possesso.md",
-    "projects/myJob/PERSONALE/personale_tempo_libero/videomaking",
-    "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
     "memory/2026-06-25-1749.md",
-    "memory/~syncthing~2026-06-25-1749.md.tmp",
     "memory/2026-06-25-1716.md",
     "memory/2026-06-24-1755.md",
     "memory/2026-06-24-1226.md",
@@ -219,8 +221,6 @@
     "memory/2026-06-17-1358.md",
     "memory/2026-06-17-1356.md",
     "memory/2026-06-17-1351.md",
-    "projects/myJob/PERSONALE/TODO_PERSONALE.md",
-    "projects/myJob/PERSONALE/casa/condominio/lavori rifacimento facciata/MANUALE_PROPOSTE_WEB.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
     "_attachments/temp/libretto_p1.png"
