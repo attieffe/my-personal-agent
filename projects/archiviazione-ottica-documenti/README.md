@@ -15,7 +15,8 @@ Archivio documenti per Atti.
 - Se filename + data + categoria sono già chiari, non fare OCR.
 - BPM Ingenio Business / quietanze F24 sono filename-first: niente OCR di default.
 - I file originali non si cancellano: finiscono in `90_processed/`.
-- Su Drive si usa sempre la fonte `Condivisi con me` / shared, mai lo spazio personale `myjob@`.
+- Su Drive si usa **SEMPRE** la fonte `Condivisi con me` / shared, mai lo spazio personale (`My Drive`).
+- **OBBLIGATORIO:** ogni `rclone copy/copyto/moveto` verso `gdrive:Atti/` o `gdrive:Ingenio/` deve includere il flag `--drive-shared-with-me`. Senza questo flag rclone crea/scrive nel My Drive dell'account di servizio, non nelle cartelle condivise con Atti.
 
 ## Naming
 
