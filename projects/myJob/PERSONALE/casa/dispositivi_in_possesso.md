@@ -76,3 +76,13 @@ _da aggiungere_
 ## Altro
 
 _da aggiungere_
+
+---
+
+## Contatti assistenza / tecnici
+
+### Tecnoservice — Riparazioni elettrodomestici
+- **Specialità:** Riparazioni piccoli & grandi elettrodomestici
+- **Indirizzo:** Via Resegone 1, Mariano Comense
+- **Tel:** 031/748499 — 347 264 7442
+- **Segnalato da:** Chiara (2026-07-16) — contatto valido per riparazioni elettrodomestici vari
