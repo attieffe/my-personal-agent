@@ -66,6 +66,12 @@
 
 ### [personale · automobili]
 
+- [ ] **Registra spesa carburante Q8 Easy** — scadenza 2026-07-22 (martedì)
+	- Stazione: Q8Easy — Via Milano 20, Seregno (MB) 20831
+	- N. vendita (POS): 1241 · Terminal: 4 · Ticket: 120099
+	- Data/ora: 18/07/2026 ore 16:50
+	- Prodotto: Verde · Pompa 3 · 35,49 L · €1,889/L
+	- **Totale: €67,04** · Pagamento: Revolut (VISA ****8922)
 
 - [ ] **Follow-up tempi reperibilità ricambi** — Balza Multiservice (preventivo N.518): convogliatore, antigelo, ricarica clima [richiesto 12/06/2026] → [[PERSONALE/auto/BMW_X1_GA258HL]]
 - [x] Fissare appuntamento installazione pastiglie anteriori BMW [scade 10/07/2026]
