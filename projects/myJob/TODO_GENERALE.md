@@ -87,7 +87,7 @@
 
 ### [personale · infrastruttura · backup]
 - [ ] Verifica backup NAS / OpenClaw / INTV
-- [ ] Aggiornare OPENCLAW da 2026.6.8 a 2026.7.1
+- [ ] Aggiornare OPENCLAW da 2026.6.8 a 2026.7.1-2
 - [x] [Bug #85314](https://github.com/openclaw/openclaw/issues/85314) — Telegram DM replies silently dropped — **CLOSED**
 
 ### [personale · networking · luca benzoni]
