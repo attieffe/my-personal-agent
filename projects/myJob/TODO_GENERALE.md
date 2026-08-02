@@ -66,7 +66,7 @@
 
 ### [personale · automobili]
 
-- [ ] **Registra spesa carburante Q8 Easy** — scadenza 2026-07-22 (martedì)
+- [x] **Registra spesa carburante Q8 Easy** — scadenza 2026-07-22 (martedì)
 	- Stazione: Q8Easy — Via Milano 20, Seregno (MB) 20831
 	- N. vendita (POS): 1241 · Terminal: 4 · Ticket: 120099
 	- Data/ora: 18/07/2026 ore 16:50
@@ -92,6 +92,9 @@
 
 ### [personale · networking · luca benzoni]
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
+
+### [personale · ingenio · rimborsi]
+- [ ] **Chiedere a Cristia Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
 
 ### [freelance · agenzia · get me digital]
 - [x] Mandare calcoli GET ME DIGITAL secondo semestre 2025 a Neda e Cristina — aggiunto 2026-05-20
