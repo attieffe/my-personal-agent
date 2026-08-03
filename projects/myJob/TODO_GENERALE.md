@@ -132,6 +132,7 @@
 	- [ ] chiedere DNS attuali a fornitore
 	- [ ] spostare dominio a hostingsolution? (ricevere accessi da grillo)
 	- [ ] creare hosting e migrarlo su nostro GMDCLOUD
+	- [ ] https://pdc.hostingsolutions.it/MasterCP/MasterLogin.pl 
 - [ ] grillorent.it già registrato su aruba
 	- [ ] creare sito
 

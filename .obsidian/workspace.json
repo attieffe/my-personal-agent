@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "grillo",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Segnalibri"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -187,6 +188,8 @@
   "lastOpenFiles": [
     "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
+    "memory/2026-07-12-0914.md",
+    "projects/myJob/TODO_GENERALE.md",
     "projects/email-ingestion/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
     "memory/2026-08-03-1353.md",
     "memory/~syncthing~2026-08-03-1353.md.tmp",
@@ -206,7 +209,6 @@
     "memory/2026-07-07-1408.md",
     "memory/2026-07-07-1537.md",
     "memory/2026-07-07-1629.md",
-    "projects/myJob/TODO_GENERALE.md",
     "CONSULENTI.md",
     "projects/myOCcall/APPUNTI.md",
     "projects/myOCcall/README.md",
@@ -219,7 +221,6 @@
     "memory/2026-06-23-1629.md",
     "memory/2026-06-20-1126.md",
     "memory/2026-06-18-0929.md",
-    "memory/2026-06-17-1358.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
     "_attachments/temp/libretto_p1.png"
