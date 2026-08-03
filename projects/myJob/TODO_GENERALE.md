@@ -114,7 +114,7 @@
 ### [freelance · diretto · studio paladini]
 
 ### [freelance · diretto · unioncucine]
-- [ ] Aggiornare sul sito il numero di Cornaredo con il nuovo numero 0236025114 entro martedì 26/05/2026
+- [ ] Aggiungere turni per CORNAREDO scadenza 01/09/2026
 ### [freelance · diretto · silvia migliaccio]
 - [x] Silvia Migliaccio: caricare cookie & privacy policy su WP (plugin Complianz confermato, policy già pronta) [scade 2026-05-31]
 	- [ ] inglese fatto
