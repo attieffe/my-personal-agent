@@ -175,10 +175,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
+      "switcher:Apri selettore rapido": false,
+      "daily-notes:Apri nota giornaliera": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "bases:Crea nuova Base": false
@@ -186,9 +186,9 @@
   },
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
-    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
     "projects/email-ingestion/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
+    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "memory/2026-07-12-0914.md",
     "projects/myJob/TODO_GENERALE.md",
     "memory/2026-08-03-1353.md",

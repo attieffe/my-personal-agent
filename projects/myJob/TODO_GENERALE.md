@@ -83,7 +83,6 @@
 ### [personale · casa · manutenzione]
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
 
-- [ ] Fissare appuntamento con 2C Beretta Service [aggiunto 2026-06-17]
 
 ### [personale · infrastruttura · backup]
 - [ ] Verifica backup NAS / OpenClaw / INTV
@@ -101,16 +100,10 @@
 
 ### freelance - agenzia - sinapps 
 
-- [x] **⚠️ SCADENZA 2026-05-22** Sinapps / Fibermap — 7 ore sviluppo (4+3) a 30€/h = 210€ → [[Fibermap-general|OPENFIBER dettaglio]]
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi [[FREELANCE/SINAPPS/SINAPPS_INDEX]]
- - [x] Sinapps / FiberMap — compilazione form in automatico come da messaggio di Luca, scade il 5/6/2026
-### [freelance · diretto · ballabio cucine]
-- [ ] **Emettere fattura Ballabio Cucine** — scadenza 2026-08-03 → [[FREELANCE/DIRETTI/Ballabio_Cucine/00_index|Ballabio Cucine]]
-
-### [freelance · diretto · studio legale condello]
-- [ ] **Emettere fattura Studio Legale Condello** — scadenza 2026-08-03 → [[FREELANCE/DIRETTI/Studio_Legale_Condello/00_index|Studio Legale Condello]]
-
+ - [ ] Sinapps / Nanosilk: pubblicre aggiornamenti con colonna spedizione
 ### [freelance · diretto · studio paladini]
+- [ ] sentire per fare aggiornamento WINDOWS computer
 
 ### [freelance · diretto · unioncucine]
 - [ ] Aggiungere turni per CORNAREDO scadenza 01/09/2026
@@ -136,7 +129,6 @@
 	- [ ] creare sito
 
 ### [ingenio · amministrazione]
-- [ ] **Emettere fattura Colzani** — scadenza 2026-08-03
 - [x] **Fare fatture** [scade 2026-06-02]
 - [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
 
