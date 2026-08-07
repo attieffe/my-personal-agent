@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grillo",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,11 +184,11 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "39f0be0659461ad8",
+  "active": "4d8939452308d9d3",
   "lastOpenFiles": [
+    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "projects/email-ingestion/inboxes/aos/02_logs/~syncthing~imap_state.json.tmp",
     "projects/email-ingestion/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
-    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "memory/2026-07-12-0914.md",
     "projects/myJob/TODO_GENERALE.md",
     "memory/2026-08-03-1353.md",
