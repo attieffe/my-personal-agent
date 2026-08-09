@@ -11,6 +11,12 @@
 > La porta deve essere aperta/forwardata nel router se si accede da fuori rete locale.
 > Gli snippet PowerShell sotto sono documentazione storica (provenivano da Windows); su Linux usare `npm run preventivo` o curl equivalente.
 
+> **⚠️ GOTCHA — Login Data API (10/08/2026):**
+> Il endpoint `/databases/DADEGEST/sessions` richiede un body JSON **esplicito**, anche se vuoto.
+> ✅ `data=b'{}'` + header `Content-Type: application/json`
+> ❌ `data=b''` (body vuoto raw) → **HTTP 400 Bad Request**
+> Questo vale per tutti i client: Python `urllib`, `curl`, Node `fetch`, ecc.
+
 ---
 
 ## Architettura multi-file
