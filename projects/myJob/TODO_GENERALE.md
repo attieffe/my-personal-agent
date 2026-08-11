@@ -35,9 +35,9 @@
 - [ ] QUADRO ISA
 	- [ ] Trasmettere XML  ISA per dichiarazione redditi 
 - [x] Pagare buraschi (scade il 13/07/2026)
-- [ ] Pagare ritenuta commercialista Buraschi (scadenza 16/08/2026)
-- [ ] Trasmettere fatture passive ricevute SDI ESTERE
-- [ ] Reg iva GIUGNO
+- [x] Pagare ritenuta commercialista Buraschi (scadenza 16/08/2026) ✅ 11/08/2026
+- [x] Trasmettere fatture passive ricevute SDI ESTERE ✅ 11/08/2026
+- [x] Reg iva GIUGNO ✅ 11/08/2026
 - [x] Pagare tasse CHIARA (revolut)
 - [x] Pagare tasse INGENIO (bpm)
 - [ ] Verifica tutti i conti
@@ -103,7 +103,8 @@
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi [[FREELANCE/SINAPPS/SINAPPS_INDEX]]
  - [ ] Sinapps / Nanosilk: pubblicre aggiornamenti con colonna spedizione
 ### [freelance · diretto · studio paladini]
-- [ ] sentire per fare aggiornamento WINDOWS computer
+- [x] Aggiornamento WINDOWS computer Paladini ✅ 11/08/2026
+- [ ] Fissare appuntamento Paladini per consegna computer (scadenza mercoledì 12/08/2026)
 
 ### [freelance · diretto · unioncucine]
 - [ ] Aggiungere turni per CORNAREDO scadenza 01/09/2026

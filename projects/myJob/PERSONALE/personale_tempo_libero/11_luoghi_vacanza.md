@@ -6,6 +6,10 @@
 
 - **Valentini Family Village** — Bellaria (RN) 🏖️ village sul mare, family-friendly
 
+## Appunti spiagge / bagni
+
+- **Igea Marina — Bagno 61** 🏊: dovrebbe avere una piscina carina e riscaldata _(segnalato 2026-08-11)_
+
 ## Prossime liste da creare
 - (vuoto — da compilare)
 
