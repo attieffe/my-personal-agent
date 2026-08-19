@@ -326,12 +326,12 @@ class FanSaleMonitor:
         url = f"{self.base_url}/{evento['id']}"
 
         try:
-            # Naviga (sessione già calda con cookie)
-            await page.goto(url, wait_until="load", timeout=15000)
-            await asyncio.sleep(3)
+            # Naviga con timeout generoso
+            await page.goto(url, wait_until="load", timeout=20000)
+            await asyncio.sleep(8)  # Delay fisso per rendering JavaScript pesante
 
-            # Scroll umano
-            await page.evaluate("window.scrollTo(0, 400)")
+            # Scroll per attivare lazy loading
+            await page.evaluate("window.scrollTo(0, 600)")
             await asyncio.sleep(1)
 
             # Estrai biglietti dalla pagina
@@ -357,57 +357,85 @@ class FanSaleMonitor:
         biglietti = []
 
         try:
-            # Attendi che la sezione biglietti sia caricata
-            await page.wait_for_selector('heading:has-text("Biglietti")', timeout=10000)
+            # Step 1: Cerca e clicca pulsante "Carica Offerte" se presente
+            try:
+                carica_btn = await page.query_selector('button')
+                buttons = await page.query_selector_all('button')
+                for btn in buttons:
+                    text = await btn.text_content()
+                    if text and "Carica" in text and "Offerte" in text:
+                        await btn.click()
+                        logger.info("   → Cliccato 'Carica Offerte'")
+                        await asyncio.sleep(6)  # Attendi caricamento
+                        break
+            except Exception as e:
+                logger.info(f"   → Carica Offerte: {e}")
 
-            # Trova tutti i container di biglietti (generic con Quantità dentro)
-            ticket_containers = await page.query_selector_all('generic:has(generic:has-text("Quantità"))')
+            # Step 2: Estrai biglietti con JavaScript (no selectors, più robusto)
+            biglietti_raw = await page.evaluate("""
+                () => {
+                    const biglietti = [];
+                    // Trova tutti i container che hanno "Quantità" seguito da un numero
+                    const containers = Array.from(document.querySelectorAll('*')).filter(el => {
+                        return el.textContent.includes('Quantità') &&
+                               el.textContent.includes('Ingresso') &&
+                               el.textContent.includes('Blocco');
+                    });
 
-            for container in ticket_containers:
-                try:
-                    # Estrai quantità
-                    quantita_elem = await container.query_selector('generic:has-text("Quantità") + generic')
-                    if not quantita_elem:
-                        continue
+                    // Per ogni container, estrai i dati più vicini
+                    for (const container of containers) {
+                        try {
+                            const text = container.textContent;
 
-                    quantita_text = await quantita_elem.text_content()
-                    quantita = int(quantita_text.strip())
+                            // Estrai quantità (cerca numero dopo "Quantità")
+                            const quantitaMatch = text.match(/Quantità\\s*(\\d+)/);
+                            if (!quantitaMatch) continue;
+                            const quantita = parseInt(quantitaMatch[1]);
 
-                    # Estrai dettagli posto (Ingresso X | Fila Y | Posto Z | Blocco W)
-                    dettagli_elem = await container.query_selector('generic:has-text("Ingresso")')
-                    if not dettagli_elem:
-                        continue
+                            // Estrai dettagli posto (linea con "Ingresso ... Blocco X")
+                            const dettagliMatch = text.match(/(Ingresso\\s+\\d+\\s+\\|[^€]+Blocco\\s+\\w+)/);
+                            if (!dettagliMatch) continue;
+                            const dettagli = dettagliMatch[1].trim();
 
-                    dettagli = await dettagli_elem.text_content()
+                            // Estrai blocco
+                            const bloccoMatch = dettagli.match(/Blocco\\s+(\\w+)/);
+                            const blocco = bloccoMatch ? bloccoMatch[1] : "";
 
-                    # Estrai prezzo
-                    prezzo_elem = await container.query_selector('generic:has-text("€")')
-                    prezzo = ""
-                    if prezzo_elem:
-                        prezzo = await prezzo_elem.text_content()
-                        prezzo = prezzo.strip()
+                            // Estrai prezzo
+                            const prezzoMatch = text.match(/€\\s*([\\d,\\.]+)/);
+                            const prezzo = prezzoMatch ? `€ ${prezzoMatch[1]}` : "";
 
-                    # Parse dettagli per estrarre blocco
-                    blocco = ""
-                    if "Blocco" in dettagli:
-                        blocco = dettagli.split("Blocco")[-1].strip().split()[0]
+                            biglietti.push({
+                                quantita: quantita,
+                                dettagli: dettagli,
+                                blocco: blocco,
+                                prezzo: prezzo
+                            });
+                        } catch (e) {
+                            // Ignora errori parsing singolo biglietto
+                        }
+                    }
 
-                    biglietti.append({
-                        "evento_id": evento["id"],
-                        "data": evento["data"],
-                        "giorno": evento["giorno"],
-                        "quantita": quantita,
-                        "dettagli": dettagli.strip(),
-                        "blocco": blocco,
-                        "posto": dettagli,
-                        "prezzo": prezzo,
-                        "url": f"{self.base_url}/{evento['id']}",
-                        "timestamp": datetime.now().isoformat()
-                    })
+                    return biglietti;
+                }
+            """)
 
-                except Exception as e:
-                    logger.warning(f"Errore parsing biglietto: {e}")
-                    continue
+            # Aggiungi metadati evento
+            for b in biglietti_raw:
+                biglietti.append({
+                    "evento_id": evento["id"],
+                    "data": evento["data"],
+                    "giorno": evento["giorno"],
+                    "quantita": b["quantita"],
+                    "dettagli": b["dettagli"],
+                    "blocco": b["blocco"],
+                    "posto": b["dettagli"],
+                    "prezzo": b["prezzo"],
+                    "url": f"{self.base_url}/{evento['id']}",
+                    "timestamp": datetime.now().isoformat()
+                })
+
+            logger.info(f"   → Trovati {len(biglietti)} biglietti totali")
 
         except Exception as e:
             logger.error(f"Errore extract_tickets: {e}")
@@ -481,13 +509,15 @@ class FanSaleMonitor:
             message += f"📊 Eventi monitorati: {len(self.eventi)}\n"
 
         # Invia notifica con openclaw message tool
+        # Usa chat diretta invece di gruppo+topic per semplicità
+        chat_id = "506258994"  # Chat diretta Atti
+
         try:
             result = subprocess.run(
                 [
                     "openclaw", "message", "send",
                     "--channel", "telegram",
-                    "--target", "-1003877516285",
-                    "--thread-id", str(topic_id),
+                    "--target", chat_id,
                     "--message", message
                 ],
                 capture_output=True,
