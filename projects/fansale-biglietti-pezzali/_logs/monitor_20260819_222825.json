@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-08-19T22:28:25.054496",
+  "scan_date": "20260819",
+  "events": {
+    "21343215": {
+      "data": "2026-12-22",
+      "giorno": "Martedì",
+      "tickets_qty_gte_2": [],
+      "count": 0
+    },
+    "21343717": {
+      "data": "2026-12-23",
+      "giorno": "Mercoledì",
+      "tickets_qty_gte_2": [],
+      "count": 0
+    },
+    "21343715": {
+      "data": "2026-12-26",
+      "giorno": "Sabato",
+      "tickets_qty_gte_2": [],
+      "count": 0
+    },
+    "21343722": {
+      "data": "2026-12-27",
+      "giorno": "Domenica",
+      "tickets_qty_gte_2": [],
+      "count": 0
+    },
+    "21343718": {
+      "data": "2026-12-29",
+      "giorno": "Martedì",
+      "tickets_qty_gte_2": [],
+      "count": 0
+    },
+    "21343719": {
+      "data": "2026-12-30",
+      "giorno": "Mercoledì",
+      "tickets_qty_gte_2": [],
+      "count": 0
+    },
+    "21928067": {
+      "data": "2027-01-03",
+      "giorno": "Domenica",
+      "tickets_qty_gte_2": [],
+      "count": 0
+    }
+  }
+}
