@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-08-19T23:27:19.880798",
+  "status": "blocco_anti_detection_attivo",
+  "message": "Il sito FanSale ha implementato rilevamento anti-bot stretto. Playwright e browser tool non riescono a bypassarlo in questa sessione. Scansione inibita per evitare blocchi IP.",
+  "eventi_monitorati": 7,
+  "biglietti_trovati": 0,
+  "dettagli": [
+    {
+      "data": "2026-12-22",
+      "giorno": "Martedì",
+      "id": "21343215",
+      "stato": "SKIP - blocco rilevato"
+    },
+    {
+      "data": "2026-12-23",
+      "giorno": "Mercoledì",
+      "id": "21343717",
+      "stato": "SKIP - blocco rilevato"
+    },
+    {
+      "data": "2026-12-26",
+      "giorno": "Sabato",
+      "id": "21343715",
+      "stato": "SKIP - blocco rilevato"
+    },
+    {
+      "data": "2026-12-27",
+      "giorno": "Domenica",
+      "id": "21343722",
+      "stato": "SKIP - blocco rilevato"
+    },
+    {
+      "data": "2026-12-29",
+      "giorno": "Martedì",
+      "id": "21343718",
+      "stato": "SKIP - blocco rilevato"
+    },
+    {
+      "data": "2026-12-30",
+      "giorno": "Mercoledì",
+      "id": "21343719",
+      "stato": "SKIP - blocco rilevato"
+    },
+    {
+      "data": "2027-01-03",
+      "giorno": "Domenica",
+      "id": "21928067",
+      "stato": "SKIP - blocco rilevato"
+    }
+  ]
+}
