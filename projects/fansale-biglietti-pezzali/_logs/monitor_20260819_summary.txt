@@ -1,0 +1,34 @@
+FanSale Max Pezzali Monitor - Riepilogo 2026-08-19 (20:56)
+===========================================================
+
+PERIODO CONTROLLATO: 7 date MILANO (dicembre 2026 - gennaio 2027)
+
+RISULTATI SCANSIONE:
+- 22 dic (martedì): 2 biglietti trovati (Blocco C), tutti Qty=1 ❌
+- 23 dic (mercoledì): 5 biglietti trovati (Blocco B), tutti Qty=1 ❌
+  * Blocco B8: 2 biglietti (Qty=1 ciascuno)
+  * Blocco B14: 1 biglietto (Qty=1)
+  * Blocco B15: 1 biglietto (Qty=1)
+  * Blocco B11: 1 biglietto (Qty=1)
+- 26 dic (sabato): nessun biglietto
+- 27 dic (domenica): nessun biglietto
+- 29 dic (martedì): nessun biglietto
+- 30 dic (mercoledì): nessun biglietto
+- 3 gen (domenica): nessun biglietto
+
+FILTRI APPLICATI:
+✓ Quantità minima: 2 biglietti
+✓ Esclusioni: Parterre, Posto Unico
+✓ Solo posti numerati
+
+CONCLUSIONE:
+❌ NESSUN BIGLIETTO IDONEO TROVATO
+   Tutti i biglietti disponibili hanno Quantità=1 (non raggiungono il minimo di 2)
+
+ALERT BLOCCO B:
+⚠️ Biglietti BLOCCO B disponibili nel 23/12, ma tutti con Qty=1
+
+AZIONI:
+- Report salvato in: _logs/monitor_20260819_210012.json
+- Notifica Telegram inviata: SÌ
+- Prossima scansione: secondo schedule cron (ogni 30 minuti)
