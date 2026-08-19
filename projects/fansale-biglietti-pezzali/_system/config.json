@@ -1,0 +1,36 @@
+{
+  "fansale": {
+    "base_url": "https://www.fansale.it",
+    "artist": "max-pezzali",
+    "artist_id": "482766",
+    "city_filter": ["MILANO"]
+  },
+  "filters": {
+    "exclude_packages": true,
+    "min_quantity": 2,
+    "exclude_parterre": true,
+    "include_only_numbered": true
+  },
+  "telegram": {
+    "enabled": true,
+    "chat_id": "YOUR_CHAT_ID_HERE",
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "topic_id": 1125
+  },
+  "paths": {
+    "logs_dir": "_logs",
+    "scans_pattern": "scan_*.json",
+    "changes_file": "changes_{DATE}.md"
+  },
+  "schedule": {
+    "interval_minutes": 30,
+    "max_consecutive_errors": 3,
+    "retry_on_error": true,
+    "retry_delay_seconds": 60
+  },
+  "notes": {
+    "city_filter": "Se vuoi monitorare anche ROMA, aggiungi 'ROMA' alla lista",
+    "telegram_setup": "Copia chat_id e token dal tuo bot Telegram",
+    "min_quantity": "Cerca solo biglietti con quantità >= questo numero"
+  }
+}

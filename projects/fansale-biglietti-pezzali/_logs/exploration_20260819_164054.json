@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-08-19T16:40:54.056167",
+  "url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "evento": "Max Pezzali Milano",
+  "biglietti_biglietti": [],
+  "biglietti_pacchetti": [],
+  "esploration_notes": [
+    "ERRORE: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766\", waiting until \"networkidle\"\n"
+  ]
+}
