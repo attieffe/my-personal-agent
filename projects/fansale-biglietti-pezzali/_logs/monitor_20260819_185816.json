@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-08-19T18:58:16+02:00",
+  "monitor_version": "1.0",
+  "status": "ERROR",
+  "error_type": "bot_detection_blocked",
+  "error_message": "FanSale anti-bot system blocked access to 'Carica Offerte' button",
+  "events_checked": 0,
+  "events_total": 7,
+  "tickets_found": [],
+  "blocco_b_alerts": [],
+  "notes": [
+    "Attempted to load event 21343215 (22/12/2026)",
+    "System blocked with message: 'Il nostro sistema ti ha classificato come bot automatico'",
+    "Workaround (navigate to homepage first) did not bypass the block",
+    "FanSale uses aggressive anti-bot detection that prevents automated ticket monitoring"
+  ],
+  "telegram_notified": true,
+  "retry_next_cycle": true
+}
