@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-08-19T21:26:00+02:00",
+  "scan_status": "blocked_by_antibot",
+  "events_total": 7,
+  "events_scanned": 0,
+  "biglietti_found": [],
+  "block_details": {
+    "message": "Sistema anti-bot di FanSale attivato",
+    "reason": "Rilevamento di traffic da bot automatico",
+    "recommendation": "Usare browser umano o attendere reset del blocco"
+  },
+  "events": [
+    {
+      "id": "21343215",
+      "data": "2026-12-22",
+      "giorno": "Martedì",
+      "status": "antibot_blocked"
+    },
+    {
+      "id": "21343717",
+      "data": "2026-12-23",
+      "giorno": "Mercoledì",
+      "status": "antibot_blocked"
+    },
+    {
+      "id": "21343715",
+      "data": "2026-12-26",
+      "giorno": "Sabato",
+      "status": "antibot_blocked"
+    },
+    {
+      "id": "21343722",
+      "data": "2026-12-27",
+      "giorno": "Domenica",
+      "status": "antibot_blocked"
+    },
+    {
+      "id": "21343718",
+      "data": "2026-12-29",
+      "giorno": "Martedì",
+      "status": "antibot_blocked"
+    },
+    {
+      "id": "21343719",
+      "data": "2026-12-30",
+      "giorno": "Mercoledì",
+      "status": "antibot_blocked"
+    },
+    {
+      "id": "21928067",
+      "data": "2027-01-03",
+      "giorno": "Domenica",
+      "status": "antibot_blocked"
+    }
+  ]
+}
