@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-08-19T19:58:56+02:00",
+  "totale_biglietti_idonei": 0,
+  "filtri_applicati": {
+    "quantita_minima": 2,
+    "escludi_parterre": true,
+    "escludi_posto_unico": true
+  },
+  "eventi_controllati": 3,
+  "biglietti": [
+    {
+      "evento": "22 dicembre 2026 (martedì)",
+      "evento_id": "21343215",
+      "biglietti_trovati": 2,
+      "idonei": 0,
+      "dettagli": "Ingresso 2 Fila 1-12, Blocco C10/C8, tutte Qty=1"
+    },
+    {
+      "evento": "23 dicembre 2026 (mercoledì)",
+      "evento_id": "21343717",
+      "biglietti_trovati": 5,
+      "idonei": 0,
+      "dettagli": "Ingresso 2-4 Fila 6-26, Blocco B8/B14/B15/B11, tutte Qty=1",
+      "alert_blocco_b": [
+        "Blocco B8: 2 biglietti (Qty=1 ciascuno)",
+        "Blocco B14: 1 biglietto (Qty=1)",
+        "Blocco B15: 1 biglietto (Qty=1)",
+        "Blocco B11: 1 biglietto (Qty=1)"
+      ]
+    },
+    {
+      "evento": "26 dicembre 2026 (sabato)",
+      "evento_id": "21343715",
+      "biglietti_trovati": 0,
+      "idonei": 0,
+      "dettagli": "Nessun biglietto disponibile"
+    }
+  ],
+  "riassunto": "Nessun biglietto con Quantità ≥2 trovato nei tre eventi controllati. Disponibili solo singoli biglietti (Qty=1).",
+  "note": "Blocchi B rilevati nel 23/12 ma tutti con Qty=1 (non idonei al criterio Qty≥2)"
+}
