@@ -13,8 +13,8 @@
   },
   "telegram": {
     "enabled": true,
-    "chat_id": "YOUR_CHAT_ID_HERE",
-    "token": "YOUR_BOT_TOKEN_HERE",
+    "chat_id": "506258994",
+    "token": "7938282090:AAH6xJpKOvCJ6zyGMu_WPmaqGSmz4BTJakQ",
     "topic_id": 1125
   },
   "paths": {
