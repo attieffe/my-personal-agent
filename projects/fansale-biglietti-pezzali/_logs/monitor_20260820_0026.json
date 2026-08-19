@@ -1,0 +1,93 @@
+{
+  "timestamp": "2026-08-20T00:26:00+02:00",
+  "monitor_run": "fansale-pezzali-milano-x7",
+  "status": "in_progress",
+  "events": [
+    {
+      "id": "21343215",
+      "data": "2026-12-22",
+      "giorno": "Martedì",
+      "ref": "e80",
+      "url": "/tickets/all/max-pezzali/482766/21343215",
+      "biglietti_estratti": [],
+      "blocco_b_alert": false
+    },
+    {
+      "id": "21343717",
+      "data": "2026-12-23",
+      "giorno": "Mercoledì",
+      "ref": "e118",
+      "url": "/tickets/all/max-pezzali/482766/21343717",
+      "biglietti_estratti": [],
+      "blocco_b_alert": false
+    },
+    {
+      "id": "21343715",
+      "data": "2026-12-26",
+      "giorno": "Sabato",
+      "ref": "e137",
+      "url": "/tickets/all/max-pezzali/482766/21343715",
+      "biglietti_estratti": [],
+      "blocco_b_alert": false
+    },
+    {
+      "id": "21343722",
+      "data": "2026-12-27",
+      "giorno": "Domenica",
+      "ref": "e156",
+      "url": "/tickets/all/max-pezzali/482766/21343722",
+      "biglietti_estratti": [],
+      "blocco_b_alert": false
+    },
+    {
+      "id": "21343718",
+      "data": "2026-12-29",
+      "giorno": "Martedì",
+      "ref": "e175",
+      "url": "/tickets/all/max-pezzali/482766/21343718",
+      "biglietti_estratti": [],
+      "blocco_b_alert": false
+    },
+    {
+      "id": "21343719",
+      "data": "2026-12-30",
+      "giorno": "Mercoledì",
+      "ref": "e194",
+      "url": "/tickets/all/max-pezzali/482766/21343719",
+      "biglietti_estratti": [],
+      "blocco_b_alert": false
+    },
+    {
+      "id": "21928067",
+      "data": "2027-01-03",
+      "giorno": "Domenica",
+      "ref": "e213",
+      "url": "/tickets/all/max-pezzali/482766/21928067",
+      "biglietti_estratti": [],
+      "blocco_b_alert": false
+    }
+  ],
+  "summary": {
+    "total_events": 7,
+    "events_processed": 7,
+    "biglietti_qty_gte2": 0,
+    "blocco_b_count": 0,
+    "blocco_anti_detection": false,
+    "status": "No tickets found",
+    "last_update": "2026-08-20T00:40:00+02:00"
+  },
+  "conclusioni": {
+    "message": "BLOCCO ANTI-DETECTION: NON ATTIVO",
+    "details": "Nessun biglietto con Quantità ≥2 trovato su nessuna delle 7 date Milano. Tutti gli eventi processati con successo senza blocchi rilevati.",
+    "data_esecuzione": "2026-08-20 00:26-00:40 Rome time",
+    "eventi_controllati": [
+      "22 dic 2026 (21343215)",
+      "23 dic 2026 (21343717)",
+      "26 dic 2026 (21343715)",
+      "27 dic 2026 (21343722)",
+      "29 dic 2026 (21343718)",
+      "30 dic 2026 (21343719)",
+      "03 gen 2027 (21928067)"
+    ]
+  }
+}
