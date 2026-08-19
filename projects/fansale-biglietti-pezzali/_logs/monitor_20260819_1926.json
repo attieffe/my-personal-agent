@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-19T19:26:00+02:00",
+  "status": "BLOCCO_BOT_DETECTION",
+  "message": "FanSale ha implementato una protezione anti-bot che impedisce il caricamento dei dati. Dopo il click su 'Carica Offerte', il sistema risponde: 'Il nostro sistema ti ha classificato come bot automatico. Si prega di riprovare. Se ti ritrovi di nuovo su questa pagina, visita prima un'altra pagina di fansale.it e poi torna sulla pagina dell'offerta.'",
+  "procedure_attempted": [
+    "Navigazione diretta agli eventi",
+    "Click su 'Carica Offerte'",
+    "Visita home page fansale.it e ritorno all'evento",
+    "Nuovo tentativo di caricamento"
+  ],
+  "result": "FAILED_BOTH_ATTEMPTS",
+  "events_monitored": 7,
+  "events_loaded": 0,
+  "blocco_b_alerts": [],
+  "note": "Il blocco anti-bot è persistente anche dopo navigazione da pagina diversa. Il browser tool non riesce ad aggirare la protezione."
+}
