@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-08-19T20:26:00+02:00",
+  "monitor_type": "FanSale Max Pezzali Milano Tracker",
+  "total_events_checked": 7,
+  "filters": {
+    "quantity_min": 2,
+    "exclude_parterre": true,
+    "only_numbered_seats": true
+  },
+  "results": [
+    {
+      "data_evento": "2026-12-26",
+      "giorno_settimana": "Sabato",
+      "ora": "21:00",
+      "venue": "Unipol Dome",
+      "citta": "MILANO",
+      "quantita_disponibile": 2,
+      "ingresso": "4",
+      "fila": "18",
+      "posti": "27, 28",
+      "blocco": "C6",
+      "prezzo_totale": "€132,16",
+      "prezzo_unitario": "€66,08",
+      "url_dettaglio": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "alert_blocco_b": false
+    },
+    {
+      "data_evento": "2026-12-30",
+      "giorno_settimana": "Mercoledì",
+      "ora": "21:00",
+      "venue": "Unipol Dome",
+      "citta": "MILANO",
+      "quantita_disponibile": 2,
+      "ingresso": "4",
+      "fila": "1",
+      "posti": "1, 4",
+      "blocco": "C4",
+      "prezzo_totale": "€144,48",
+      "prezzo_unitario": "€72,24",
+      "url_dettaglio": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "alert_blocco_b": false
+    },
+    {
+      "data_evento": "2026-12-30",
+      "giorno_settimana": "Mercoledì",
+      "ora": "21:00",
+      "venue": "Unipol Dome",
+      "citta": "MILANO",
+      "quantita_disponibile": 2,
+      "ingresso": "2",
+      "fila": "8",
+      "posti": "10, 11",
+      "blocco": "C8",
+      "prezzo_totale": "€154,56",
+      "prezzo_unitario": "€77,28",
+      "url_dettaglio": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "alert_blocco_b": false
+    }
+  ],
+  "summary": {
+    "total_found": 3,
+    "blocco_b_found": 0,
+    "date_range": "2026-12-22 a 2027-01-03",
+    "status": "Monitoraggio completato - NO BLOCCO B"
+  }
+}
