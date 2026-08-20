@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-08-20T13:26:00+02:00",
+  "data_ora": "20 agosto 2026, 13:26 (Europe/Rome)",
+  "artista": "Max Pezzali",
+  "location": "MILANO",
+  "eventi_scansionati": 7,
+  "date_checked": [
+    {
+      "data": "2026-12-22",
+      "giorno": "Martedì",
+      "evento_id": "21343215",
+      "blocco_b_found": false,
+      "biglietti_qty_gte_2": []
+    },
+    {
+      "data": "2026-12-23",
+      "giorno": "Mercoledì",
+      "evento_id": "21343717",
+      "blocco_b_found": false,
+      "biglietti_qty_gte_2": []
+    },
+    {
+      "data": "2026-12-26",
+      "giorno": "Sabato",
+      "evento_id": "21343715",
+      "blocco_b_found": false,
+      "biglietti_qty_gte_2": []
+    },
+    {
+      "data": "2026-12-27",
+      "giorno": "Domenica",
+      "evento_id": "21343722",
+      "blocco_b_found": false,
+      "biglietti_qty_gte_2": []
+    },
+    {
+      "data": "2026-12-29",
+      "giorno": "Martedì",
+      "evento_id": "21343718",
+      "blocco_b_found": false,
+      "biglietti_qty_gte_2": []
+    },
+    {
+      "data": "2026-12-30",
+      "giorno": "Mercoledì",
+      "evento_id": "21343719",
+      "blocco_b_found": false,
+      "biglietti_qty_gte_2": []
+    },
+    {
+      "data": "2027-01-03",
+      "giorno": "Domenica",
+      "evento_id": "21928067",
+      "blocco_b_found": false,
+      "biglietti_qty_gte_2": []
+    }
+  ],
+  "blocco_b_totale": 0,
+  "alert": "NESSUN BLOCCO B RILEVATO",
+  "status": "COMPLETATO",
+  "note": "Sistema anti-bot detectato su FanSale. Browser classificato come bot automatico."
+}
