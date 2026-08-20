@@ -1,0 +1,231 @@
+{
+  "timestamp": "2026-08-20T14:32:23.516428",
+  "data_scansione": "2026-08-20 14:26 Europe/Rome",
+  "totale_eventi_monitorati": 7,
+  "biglietti_per_data": {
+    "2026-12-22": {
+      "giorno": "martedì",
+      "biglietti_trovati": 2,
+      "biglietti": [
+        {
+          "descrizione": "Ingresso 2 | Fila 1 | Posto 21",
+          "blocco": "C10",
+          "quantita": 1,
+          "prezzo": "€72,24"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 12 | Posto 15",
+          "blocco": "C8",
+          "quantita": 1,
+          "prezzo": "€77,28"
+        }
+      ],
+      "blocco_b": false
+    },
+    "2026-12-23": {
+      "giorno": "mercoledì",
+      "biglietti_trovati": 5,
+      "biglietti": [
+        {
+          "descrizione": "Ingresso 4 | Fila 26 | Posto 28",
+          "blocco": "B8",
+          "quantita": 1,
+          "prezzo": "€77,28"
+        },
+        {
+          "descrizione": "Ingresso 4 | Fila 18 | Posto 10",
+          "blocco": "B8",
+          "quantita": 1,
+          "prezzo": "€77,28"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 20 | Posto 9",
+          "blocco": "B14",
+          "quantita": 1,
+          "prezzo": "€77,28"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 6 | Posto 16",
+          "blocco": "B15",
+          "quantita": 1,
+          "prezzo": "€87,92"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 25 | Posto 27",
+          "blocco": "B11",
+          "quantita": 1,
+          "prezzo": "€87,92"
+        }
+      ],
+      "blocco_b": true,
+      "blocco_b_dettagli": [
+        "B8",
+        "B8",
+        "B14",
+        "B15",
+        "B11"
+      ]
+    },
+    "2026-12-26": {
+      "giorno": "sabato",
+      "biglietti_trovati": 5,
+      "biglietti": [
+        {
+          "descrizione": "Ingresso 4 | Fila 14 | Posto 9",
+          "blocco": "C2",
+          "quantita": 1,
+          "prezzo": "€61,60"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 20 | Posto 9",
+          "blocco": "C14",
+          "quantita": 1,
+          "prezzo": "€61,60"
+        },
+        {
+          "descrizione": "Ingresso 4 | Fila 13 | Posto 11",
+          "blocco": "B5",
+          "quantita": 1,
+          "prezzo": "€61,60"
+        },
+        {
+          "descrizione": "Ingresso 4 | Fila 18 | Posto 12",
+          "blocco": "B6",
+          "quantita": 1,
+          "prezzo": "€61,60"
+        },
+        {
+          "descrizione": "Ingresso 4 | Fila 18 | Posto 27-28",
+          "blocco": "C6",
+          "quantita": 1,
+          "prezzo": "€61,60"
+        }
+      ],
+      "blocco_b": true,
+      "blocco_b_dettagli": [
+        "B5",
+        "B6"
+      ]
+    },
+    "2026-12-27": {
+      "giorno": "domenica",
+      "biglietti_trovati": 4,
+      "biglietti": [
+        {
+          "descrizione": "Ingresso 2 | Fila 4 | Posto 2",
+          "blocco": "C8",
+          "quantita": 1,
+          "prezzo": "€77,28"
+        },
+        {
+          "descrizione": "Ingresso 4 | Fila 23 | Posto 19",
+          "blocco": "B10",
+          "quantita": 1,
+          "prezzo": "€77,28"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 26 | Posto 9",
+          "blocco": "B11",
+          "quantita": 1,
+          "prezzo": "€77,28"
+        },
+        {
+          "descrizione": "Ingresso 4 | Fila 11 | Posto 11",
+          "blocco": "B5",
+          "quantita": 1,
+          "prezzo": "€77,28"
+        }
+      ],
+      "blocco_b": true,
+      "blocco_b_dettagli": [
+        "B10",
+        "B11",
+        "B5"
+      ]
+    },
+    "2026-12-29": {
+      "giorno": "martedì",
+      "biglietti_trovati": 5,
+      "biglietti": [
+        {
+          "descrizione": "Ingresso 4 | Fila 7 | Posto 13",
+          "blocco": "C6",
+          "quantita": 1,
+          "prezzo": "€72,24"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 2 | Posto 5",
+          "blocco": "C10",
+          "quantita": 1,
+          "prezzo": "€72,24"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 9 | Posto 20",
+          "blocco": "B16",
+          "quantita": 1,
+          "prezzo": "€72,24"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 5 | Posto 21",
+          "blocco": "B16",
+          "quantita": 1,
+          "prezzo": "€72,24"
+        },
+        {
+          "descrizione": "Ingresso 4 | Fila 3 | Posto 25",
+          "blocco": "B7",
+          "quantita": 1,
+          "prezzo": "€72,24"
+        }
+      ],
+      "blocco_b": true,
+      "blocco_b_dettagli": [
+        "B16",
+        "B16",
+        "B7"
+      ]
+    },
+    "2026-12-30": {
+      "giorno": "mercoledì",
+      "biglietti_trovati": 0,
+      "biglietti": [],
+      "blocco_b": false,
+      "blocco_b_dettagli": []
+    },
+    "2027-01-03": {
+      "giorno": "domenica",
+      "biglietti_trovati": 0,
+      "biglietti": [],
+      "blocco_b": false,
+      "blocco_b_dettagli": []
+    }
+  },
+  "statistiche": {
+    "totale_biglietti": 26,
+    "date_con_biglietti": 5,
+    "date_con_blocco_b": 4,
+    "blocchi_b_trovati": [
+      "B8",
+      "B14",
+      "B15",
+      "B11",
+      "B5",
+      "B6",
+      "B10",
+      "B5",
+      "B16",
+      "B7"
+    ],
+    "blocchi_b_unici": [
+      "B10",
+      "B14",
+      "B7",
+      "B6",
+      "B11",
+      "B15",
+      "B5",
+      "B16",
+      "B8"
+    ]
+  }
+}

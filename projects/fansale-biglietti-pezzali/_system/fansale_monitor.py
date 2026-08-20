@@ -70,9 +70,19 @@ class FanSaleMonitor:
             try:
                 page = await context.new_page()
 
-                # Step 1: Carica home
+                # Step 1: Carica home con retry
                 logger.info("1️⃣ Apertura https://www.fansale.it/")
-                await page.goto(self.home_url, wait_until="domcontentloaded", timeout=30000)
+                max_retries = 3
+                for attempt in range(max_retries):
+                    try:
+                        await page.goto(self.home_url, wait_until="load", timeout=30000)
+                        break
+                    except Exception as e:
+                        if attempt < max_retries - 1:
+                            logger.warning(f"   Retry {attempt+1}/{max_retries-1}: {str(e)[:50]}")
+                            await asyncio.sleep(2)
+                        else:
+                            raise
 
                 # Step 2: Attendi 5 sec
                 logger.info("2️⃣ Attesa 5 sec (anti-detection)")
