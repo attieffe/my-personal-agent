@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-08-20T06:26:00+02:00",
+  "monitor_date": "2026-08-20",
+  "monitor_time": "06:26 CEST",
+  "status": "PARZIALE - Anti-bot attivato",
+  "concerti_scansionati": 3,
+  "concerti_totali": 7,
+  "note": "FanSale ha rilevato navigazione automatica (bot detection) durante scansione 3 gen. Scansione completata per date 22, 23, 26 dic.",
+  "blocco_b_trovato": true,
+  "date_con_blocco_b": ["2026-12-23", "2026-12-26"],
+  "dettagli": {
+    "2026-12-22": {
+      "data": "22 dic 2026",
+      "giorno": "Martedì",
+      "status": "SCANSIONATO",
+      "biglietti_totali": 2,
+      "blocco_b_trovato": false,
+      "blocchi_trovati": ["C10", "C8"],
+      "quantita": [1, 1],
+      "note": "Nessun blocco B. Solo blocchi C con quantità 1 ciascuno."
+    },
+    "2026-12-23": {
+      "data": "23 dic 2026",
+      "giorno": "Mercoledì",
+      "status": "SCANSIONATO",
+      "biglietti_totali": 5,
+      "blocco_b_trovato": true,
+      "blocchi_trovati": ["B8", "B8", "B14", "B15", "B11"],
+      "quantita": [1, 1, 1, 1, 1],
+      "quantita_ge_2": 0,
+      "alert": "BLOCCO B PRESENTE ma TUTTI con Qty=1 (biglietti singoli, non multipli)"
+    },
+    "2026-12-26": {
+      "data": "26 dic 2026",
+      "giorno": "Sabato",
+      "status": "SCANSIONATO",
+      "biglietti_totali": 5,
+      "blocco_b_trovato": true,
+      "blocchi_b_trovati": ["B5", "B6"],
+      "quantita_b": [1, 1],
+      "nota_aggiuntiva": "Disponibile anche C6 con Qty=2 (2 biglietti multipli, ma blocco C non B)",
+      "alert": "BLOCCO B PRESENTE (B5, B6) ma solo Qty=1 ciascuno"
+    },
+    "2026-12-27": {
+      "data": "27 dic 2026",
+      "giorno": "Domenica",
+      "status": "NON SCANSIONATO",
+      "motivo": "Anti-bot FanSale attivato durante navigazione"
+    },
+    "2026-12-29": {
+      "data": "29 dic 2026",
+      "giorno": "Martedì",
+      "status": "NON SCANSIONATO",
+      "motivo": "Anti-bot FanSale attivato"
+    },
+    "2026-12-30": {
+      "data": "30 dic 2026",
+      "giorno": "Mercoledì",
+      "status": "NON SCANSIONATO",
+      "motivo": "Anti-bot FanSale attivato"
+    },
+    "2027-01-03": {
+      "data": "3 gen 2027",
+      "giorno": "Domenica",
+      "status": "BLOCCATO",
+      "motivo": "Sistema FanSale ha rilevato bot. Messaggio: 'Il nostro sistema ti ha classificato come bot automatico. Si prega di riprovare. Se ti ritrovi di nuovo su questa pagina, visita prima un'altra pagina di fansale.it e poi torna sulla pagina dell'offerta.'"
+    }
+  },
+  "alert": {
+    "blocco_b_trovato": true,
+    "blocco_b_con_qty_ge_2": false,
+    "date_con_blocco_b": ["2026-12-23", "2026-12-26"],
+    "priorita": "MEDIA - Blocchi B disponibili in 2 date (23 e 26 dic) ma TUTTI con Qty=1 (singoli, non multipli come richiesto)",
+    "azione_consigliata": "Monitoraggio manuale da browser umano per le 4 date non scansionate. Blocchi B trovati ma non soddisfano criterio Qty≥2."
+  },
+  "flusso_anti_detection": "PARZIALMENTE RISPETTATO - Flusso manuale browser avviato, ma anti-bot FanSale ha bloccato navigazione dopo 3 concerti."
+}
