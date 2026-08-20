@@ -1,0 +1,24 @@
+2026-08-20 16:27:56,962 - INFO - 🚀 Estrazione rapida 7 eventi
+2026-08-20 16:27:57,519 - INFO - Caricamento pagina Max Pezzali...
+2026-08-20 16:27:57,579 - ERROR - ❌ Errore: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766", waiting until "load"
+Traceback (most recent call last):
+  File "/home/openclaw/.openclaw/workspace/projects/fansale-biglietti-pezzali/_temp/fansale_quick_extract.py", line 124, in main
+    await page.goto(
+  File "/home/openclaw/.local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 9611, in goto
+    await self._impl_obj.goto(
+  File "/home/openclaw/.local/lib/python3.12/site-packages/playwright/_impl/_page.py", line 557, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/openclaw/.local/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 156, in goto
+    await self._channel.send(
+  File "/home/openclaw/.local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/openclaw/.local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766", waiting until "load"
+

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-08-20T16:29:16.837185",
+  "totale_biglietti": 0,
+  "biglietti_per_blocco": {},
+  "per_data": {
+    "2026-12-22": {
+      "evento_id": "21343215",
+      "biglietti_count": 0,
+      "biglietti": []
+    },
+    "2026-12-23": {
+      "evento_id": "21343717",
+      "biglietti_count": 0,
+      "biglietti": []
+    },
+    "2026-12-26": {
+      "evento_id": "21343715",
+      "biglietti_count": 0,
+      "biglietti": []
+    },
+    "2026-12-27": {
+      "evento_id": "21343722",
+      "biglietti_count": 0,
+      "biglietti": []
+    },
+    "2026-12-29": {
+      "evento_id": "21343718",
+      "biglietti_count": 0,
+      "biglietti": []
+    },
+    "2026-12-30": {
+      "evento_id": "21343719",
+      "biglietti_count": 0,
+      "biglietti": []
+    },
+    "2027-01-03": {
+      "evento_id": "21928067",
+      "biglietti_count": 0,
+      "biglietti": []
+    }
+  },
+  "alert_blocco_b": false,
+  "blocco_b_count": 0
+}
