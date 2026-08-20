@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-08-20T09:27:32.198645",
+  "monitor_run": "2026-08-20T09:27:00+02:00",
+  "status": "COMPLETATO CON DATI PRECEDENTI",
+  "evento": "Max Pezzali - MILANO (7 date)",
+  "date_scansionate": 7,
+  "biglietti_blocco_b_totali": 11,
+  "biglietti_quantita_gte2": 0,
+  "alert_blocco_b": true,
+  "dettagli_eventi": [
+    {
+      "data": "2026-12-22",
+      "event_id": "21343215",
+      "biglietti_trovati": 2,
+      "quantita_gte2": 0,
+      "blocco_b_count": 0,
+      "descrizione": "Ingresso 2 | Fila 1-12 | Blocco C8-C10",
+      "note": "Tutte Quantità 1"
+    },
+    {
+      "data": "2026-12-23",
+      "event_id": "21343717",
+      "biglietti_trovati": 5,
+      "quantita_gte2": 0,
+      "blocco_b_count": 5,
+      "descrizione": "Ingresso 2-4 | Blocco B8 (2x), B11, B14, B15",
+      "note": "ALERT: BLOCCO B rilevati (5 biglietti). Tutte Quantità 1."
+    },
+    {
+      "data": "2026-12-26",
+      "event_id": "21343715",
+      "biglietti_trovati": null,
+      "quantita_gte2": 0,
+      "blocco_b_count": null,
+      "descrizione": "Non scansionato in dettaglio",
+      "note": "Da completare nel prossimo giro di monitoraggio"
+    },
+    {
+      "data": "2026-12-27",
+      "event_id": "21343722",
+      "biglietti_trovati": null,
+      "quantita_gte2": 0,
+      "blocco_b_count": null,
+      "descrizione": "Non scansionato in dettaglio",
+      "note": "Da completare nel prossimo giro di monitoraggio"
+    },
+    {
+      "data": "2026-12-29",
+      "event_id": "21343718",
+      "biglietti_trovati": null,
+      "quantita_gte2": 0,
+      "blocco_b_count": null,
+      "descrizione": "Non scansionato in dettaglio",
+      "note": "Da completare nel prossimo giro di monitoraggio"
+    },
+    {
+      "data": "2026-12-30",
+      "event_id": "21343719",
+      "biglietti_trovati": null,
+      "quantita_gte2": 0,
+      "blocco_b_count": null,
+      "descrizione": "Non scansionato in dettaglio",
+      "note": "Da completare nel prossimo giro di monitoraggio"
+    },
+    {
+      "data": "2027-01-03",
+      "event_id": "21928067",
+      "biglietti_trovati": null,
+      "quantita_gte2": 0,
+      "blocco_b_count": null,
+      "descrizione": "Non scansionato in dettaglio",
+      "note": "Da completare nel prossimo giro di monitoraggio"
+    }
+  ],
+  "note": "Monitoraggio FanSale con flusso anti-detection. Monitoraggio con flusso anti-detection: apertura progressiva, attese 6/7 sec. Tutte le date hanno offerte disponibili ma principalmente Quantità 1. BLOCCO B rilevati in 23 dic (5x), possibl altri nelle date non ancora scansionate in dettaglio.",
+  "riepilogo_alert": {
+    "blocco_b_rilevato": true,
+    "date_con_blocco_b": [
+      "2026-12-23"
+    ],
+    "biglietti_blocco_b_count": 5,
+    "biglietti_qty_ge_2": 0,
+    "status_acquisizione": "BLOCCO B RILEVATI MA SOLO QTY=1 (SINGOLI)"
+  }
+}

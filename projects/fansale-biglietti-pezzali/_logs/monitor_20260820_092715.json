@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-08-20T09:27:02.718041",
+  "eventi_scansionati": [
+    {
+      "event_id": "21343215",
+      "data": "2026-12-22",
+      "giorno": "Martedì",
+      "timestamp": "2026-08-20T09:27:02.718041",
+      "tickets": [],
+      "blocco_b_found": false,
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343717",
+      "data": "2026-12-23",
+      "giorno": "Mercoledì",
+      "timestamp": "2026-08-20T09:27:02.718041",
+      "tickets": [],
+      "blocco_b_found": false,
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343715",
+      "data": "2026-12-26",
+      "giorno": "Sabato",
+      "timestamp": "2026-08-20T09:27:02.718041",
+      "tickets": [],
+      "blocco_b_found": false,
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343722",
+      "data": "2026-12-27",
+      "giorno": "Domenica",
+      "timestamp": "2026-08-20T09:27:02.718041",
+      "tickets": [],
+      "blocco_b_found": false,
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343718",
+      "data": "2026-12-29",
+      "giorno": "Martedì",
+      "timestamp": "2026-08-20T09:27:02.718041",
+      "tickets": [],
+      "blocco_b_found": false,
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343719",
+      "data": "2026-12-30",
+      "giorno": "Mercoledì",
+      "timestamp": "2026-08-20T09:27:02.718041",
+      "tickets": [],
+      "blocco_b_found": false,
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21928067",
+      "data": "2027-01-03",
+      "giorno": "Domenica",
+      "timestamp": "2026-08-20T09:27:02.718041",
+      "tickets": [],
+      "blocco_b_found": false,
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    }
+  ],
+  "blocco_b_trovati": [],
+  "errori": [
+    {
+      "event_id": "21343215",
+      "data": "2026-12-22",
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343717",
+      "data": "2026-12-23",
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343715",
+      "data": "2026-12-26",
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343722",
+      "data": "2026-12-27",
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343718",
+      "data": "2026-12-29",
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21343719",
+      "data": "2026-12-30",
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "event_id": "21928067",
+      "data": "2027-01-03",
+      "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/\nCall log:\n  - navigating to \"https://www.fansale.it/\", waiting until \"networkidle\"\n"
+    }
+  ]
+}

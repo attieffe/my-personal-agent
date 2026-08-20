@@ -1,0 +1,54 @@
+🚀 FanSale Max Pezzali Monitor - Scansione rapida
+📅 Ora: 2026-08-20 09:27:02
+
+📋 Monitorando 7 eventi Milano...
+
+[1/7] 2026-12-22 (Martedì)
+  📱 2026-12-22 (Martedì): apri FanSale...
+  ❌ Errore: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/
+Call log:
+  - navigating to "https://www.fansale.it/", waiting until "networkidle"
+
+[2/7] 2026-12-23 (Mercoledì)
+  📱 2026-12-23 (Mercoledì): apri FanSale...
+  ❌ Errore: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/
+Call log:
+  - navigating to "https://www.fansale.it/", waiting until "networkidle"
+
+[3/7] 2026-12-26 (Sabato)
+  📱 2026-12-26 (Sabato): apri FanSale...
+  ❌ Errore: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/
+Call log:
+  - navigating to "https://www.fansale.it/", waiting until "networkidle"
+
+[4/7] 2026-12-27 (Domenica)
+  📱 2026-12-27 (Domenica): apri FanSale...
+  ❌ Errore: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/
+Call log:
+  - navigating to "https://www.fansale.it/", waiting until "networkidle"
+
+[5/7] 2026-12-29 (Martedì)
+  📱 2026-12-29 (Martedì): apri FanSale...
+  ❌ Errore: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/
+Call log:
+  - navigating to "https://www.fansale.it/", waiting until "networkidle"
+
+[6/7] 2026-12-30 (Mercoledì)
+  📱 2026-12-30 (Mercoledì): apri FanSale...
+  ❌ Errore: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/
+Call log:
+  - navigating to "https://www.fansale.it/", waiting until "networkidle"
+
+[7/7] 2027-01-03 (Domenica)
+  📱 2027-01-03 (Domenica): apri FanSale...
+  ❌ Errore: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/
+Call log:
+  - navigating to "https://www.fansale.it/", waiting until "networkidle"
+
+
+==================================================
+✅ Scansione completata!
+📊 Biglietti totali scansionati: 0
+🎯 Blocchi B trovati: 0
+
+📁 Log salvato: /home/openclaw/.openclaw/workspace/projects/fansale-biglietti-pezzali/_logs/monitor_20260820_092715.json
