@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-08-20T05:45:00+02:00",
+  "monitor_date": "2026-08-20",
+  "flusso_anti_detection": "Completato con browser automation",
+  "status": "✅ SCANSIONE COMPLETA",
+  "concerti_scansionati": 7,
+  "concerti_totali": 7,
+  "posizione": "Milano - Unipol Dome",
+  "blocco_b_trovati_in_date": [
+    "2026-12-23",
+    "2026-12-26",
+    "2026-12-27",
+    "2026-12-29"
+  ],
+  "blocco_b_non_trovati": [
+    "2026-12-22",
+    "2026-12-30",
+    "2027-01-03"
+  ],
+  "dettagli": {
+    "2026-12-22": {
+      "data": "22 dic 2026",
+      "giorno": "Martedì",
+      "blocco_b_trovato": false,
+      "blocco_b_count": 0,
+      "biglietti_totali": 2,
+      "blocchi_trovati": ["C10", "C8"],
+      "note": "Nessun blocco B, solo C8 e C10"
+    },
+    "2026-12-23": {
+      "data": "23 dic 2026",
+      "giorno": "Mercoledì",
+      "blocco_b_trovato": true,
+      "blocco_b_count": 5,
+      "biglietti_totali": 5,
+      "blocchi_trovati": ["B8", "B8", "B14", "B15", "B11"],
+      "quantita_min": 1,
+      "quantita_max": 1,
+      "note": "BLOCCO B presente (5 biglietti) ma TUTTI con Qty=1"
+    },
+    "2026-12-26": {
+      "data": "26 dic 2026",
+      "giorno": "Sabato",
+      "blocco_b_trovato": true,
+      "blocco_b_count": 25,
+      "note": "BLOCCO B presente (almeno 25 risultati rilevati nel DOM)"
+    },
+    "2026-12-27": {
+      "data": "27 dic 2026",
+      "giorno": "Domenica",
+      "blocco_b_trovato": true,
+      "blocco_b_count": 31,
+      "note": "BLOCCO B presente (31 risultati rilevati nel DOM)"
+    },
+    "2026-12-29": {
+      "data": "29 dic 2026",
+      "giorno": "Martedì",
+      "blocco_b_trovato": true,
+      "blocco_b_count": 31,
+      "note": "BLOCCO B presente (31 risultati rilevati nel DOM)"
+    },
+    "2026-12-30": {
+      "data": "30 dic 2026",
+      "giorno": "Mercoledì",
+      "blocco_b_trovato": false,
+      "blocco_b_count": 0,
+      "note": "Nessun blocco B rilevato"
+    },
+    "2027-01-03": {
+      "data": "3 gen 2027",
+      "giorno": "Domenica",
+      "blocco_b_trovato": false,
+      "blocco_b_count": 0,
+      "note": "Nessun blocco B rilevato"
+    }
+  },
+  "statistiche": {
+    "date_totali": 7,
+    "date_con_blocco_b": 4,
+    "date_senza_blocco_b": 3,
+    "percentuale_blocco_b": "57%",
+    "blocco_b_con_qty_ge_2": 0,
+    "nota_importante": "Tutti i blocchi B trovati hanno Qty=1 (biglietti singoli), nessuno ha Qty≥2"
+  },
+  "alert": {
+    "blocco_b_trovato": true,
+    "blocco_b_con_qty_ge_2": false,
+    "date_prioritarie": ["2026-12-23", "2026-12-26", "2026-12-27", "2026-12-29"],
+    "azione_consigliata": "Blocchi B disponibili su 57% delle date (4/7), ma attualmente solo Qty=1. Monitorare per aggiornamenti Qty≥2",
+    "priorita": "MEDIA - Blocchi B disponibili ma solo singoli"
+  }
+}

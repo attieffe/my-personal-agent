@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-08-20T05:30:49.947888",
+  "monitor_date": "2026-08-20T05:26:00+02:00",
+  "status": "SCANSIONE MANUALE PARZIALE",
+  "concerti_scansionati": 3,
+  "concerti_totali": 7,
+  "blocco_b_trovati_in_date": [
+    "2026-12-23",
+    "2026-12-26"
+  ],
+  "dettagli": {
+    "2026-12-22": {
+      "data": "22 dic 2026",
+      "giorno": "Martedì",
+      "biglietti_totali": 2,
+      "blocco_b_trovato": false,
+      "blocchi_trovati": [
+        "C10",
+        "C8"
+      ],
+      "quantita_min": 1,
+      "quantita_max": 1,
+      "note": "Nessun blocco B, solo C8 e C10"
+    },
+    "2026-12-23": {
+      "data": "23 dic 2026",
+      "giorno": "Mercoledì",
+      "biglietti_totali": 5,
+      "blocco_b_trovato": true,
+      "blocchi_trovati": [
+        "B8",
+        "B8",
+        "B14",
+        "B15",
+        "B11"
+      ],
+      "quantita_min": 1,
+      "quantita_max": 1,
+      "quantita_ge_2_count": 0,
+      "note": "BLOCCO B presente (5 biglietti) ma TUTTI con Qty=1"
+    },
+    "2026-12-26": {
+      "data": "26 dic 2026",
+      "giorno": "Sabato",
+      "blocco_b_trovato": true,
+      "blocco_b_count": 25,
+      "note": "BLOCCO B presente (almeno 25 risultati in DOM)"
+    }
+  },
+  "data_mancanti": [
+    "2026-12-27 (Domenica)",
+    "2026-12-29 (Martedì)",
+    "2026-12-30 (Mercoledì)",
+    "2027-01-03 (Domenica)"
+  ],
+  "alert": {
+    "blocco_b_trovato": true,
+    "blocco_b_con_qty_ge_2": false,
+    "date_con_blocco_b": [
+      "2026-12-23",
+      "2026-12-26"
+    ],
+    "priorita": "MEDIA - Blocchi B disponibili ma solo con Qty=1 (biglietti singoli)"
+  }
+}
