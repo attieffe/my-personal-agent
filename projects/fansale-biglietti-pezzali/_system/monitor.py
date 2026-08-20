@@ -476,6 +476,9 @@ class FanSaleMonitor:
         # Costruisci messaggio
         message = "🎫 *BIGLIETTI MAX PEZZALI DISPONIBILI*\n\n"
 
+        # Link di partenza in alto
+        message += f"[🔍 Visualizza offerte FanSale]({self.base_url})\n\n"
+
         # Info aggiornamento lista
         if lista_aggiornata:
             message += "✅ *Lista eventi aggiornata*\n"
@@ -488,10 +491,9 @@ class FanSaleMonitor:
         if blocco_b:
             message += "🔴🔴🔴 *BLOCCO B TROVATO!* 🔴🔴🔴\n\n"
             for b in blocco_b:
-                message += f"📅 *{b['giorno']} {b['data']}*\n"
+                message += f"📅 *[{b['giorno']} {b['data']}]({b['url']})*\n"
                 message += f"🎯 {b['dettagli']}\n"
-                message += f"💰 {b['prezzo']}\n"
-                message += f"🔗 {b['url']}\n\n"
+                message += f"💰 {b['prezzo']}\n\n"
 
         # Altri blocchi
         if altri:
@@ -499,7 +501,7 @@ class FanSaleMonitor:
                 message += "---\n\n"
             message += "📋 Altri blocchi disponibili:\n\n"
             for b in altri:
-                message += f"📅 {b['giorno']} {b['data']}\n"
+                message += f"📅 *[{b['giorno']} {b['data']}]({b['url']})*\n"
                 message += f"🎯 {b['dettagli']}\n"
                 message += f"💰 {b['prezzo']}\n\n"
 
