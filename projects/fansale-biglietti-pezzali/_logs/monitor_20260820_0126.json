@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-08-20T01:26:00+02:00",
+  "artist": "Max Pezzali",
+  "venue": "Unipol Dome, Milano",
+  "monitoring_result": {
+    "total_events_monitored": 7,
+    "total_events_completed": 5,
+    "total_events_blocked": 2,
+    "tickets_qty_gte_2_found": 1
+  },
+  "events": [
+    {
+      "date": "2026-12-22",
+      "event_id": "21343215",
+      "day": "martedì",
+      "biglietti_qty_gte_2": false,
+      "tickets_found": 0,
+      "status": "completed"
+    },
+    {
+      "date": "2026-12-23",
+      "event_id": "21343717",
+      "day": "mercoledì",
+      "biglietti_qty_gte_2": false,
+      "tickets_found": 0,
+      "status": "completed"
+    },
+    {
+      "date": "2026-12-26",
+      "event_id": "21343715",
+      "day": "sabato",
+      "biglietti_qty_gte_2": true,
+      "tickets_found": 1,
+      "status": "completed",
+      "alert_special": "BLOCCO B NEARBY",
+      "tickets": [
+        {
+          "quantity": 2,
+          "location": "Ingresso 4 | Fila 18 | Posto 27, 28 | Blocco C6",
+          "price": "€132,16",
+          "offer_type": "Fair Deal Offer + EVENTIM Ticketcheck"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-27",
+      "event_id": "21343722",
+      "day": "domenica",
+      "biglietti_qty_gte_2": false,
+      "tickets_found": 0,
+      "status": "completed"
+    },
+    {
+      "date": "2026-12-29",
+      "event_id": "21343718",
+      "day": "martedì",
+      "biglietti_qty_gte_2": false,
+      "tickets_found": 0,
+      "status": "completed",
+      "note": "Bottone 'Carica Offerte' premuto con successo"
+    },
+    {
+      "date": "2026-12-30",
+      "event_id": "21343719",
+      "day": "mercoledì",
+      "status": "blocked_anti_bot",
+      "error_message": "Il nostro sistema ti ha classificato come bot automatico"
+    },
+    {
+      "date": "2027-01-03",
+      "event_id": "21928067",
+      "day": "domenica",
+      "status": "blocked_anti_bot",
+      "error_message": "Il nostro sistema ti ha classificato come bot automatico"
+    }
+  ],
+  "summary": {
+    "protocol": "anti-detection flow (1) Homepage, (2) wait 5s, (3) Max Pezzali link, (4) wait 4s, (5) event click, (6) wait 6s, (7) 'Carica Offerte' click, (8) wait 7s",
+    "anti_bot_detection": "ATTIVO",
+    "biglietti_tracciati": "Solo Qty ≥2, esclude Parterre/Posto Unico",
+    "result": "✅ ALERT SPECIALE: 1 biglietto Qty 2 rilevato al 26 DIC in BLOCCO C6 (prezzo €132,16)"
+  }
+}
