@@ -474,10 +474,7 @@ class FanSaleMonitor:
         altri = [b for b in biglietti if not b.get("blocco", "").startswith("B")]
 
         # Costruisci messaggio
-        message = "🎫 *BIGLIETTI MAX PEZZALI DISPONIBILI*\n\n"
-
-        # Link di partenza in alto
-        message += f"[🔍 Visualizza offerte FanSale]({self.base_url})\n\n"
+        message = f"🎫 *BIGLIETTI [Max Pezzali]({self.base_url}) DISPONIBILI*\n\n"
 
         # Info aggiornamento lista
         if lista_aggiornata:
@@ -491,8 +488,8 @@ class FanSaleMonitor:
         if blocco_b:
             message += "🔴🔴🔴 *BLOCCO B TROVATO!* 🔴🔴🔴\n\n"
             for b in blocco_b:
-                message += f"📅 *[{b['giorno']} {b['data']}]({b['url']})*\n"
-                message += f"🎯 {b['dettagli']}\n"
+                desc = f"{b['giorno']} {b['data']} - {b['dettagli']}"
+                message += f"📅 *[{desc}]({b['url']})*\n"
                 message += f"💰 {b['prezzo']}\n\n"
 
         # Altri blocchi
@@ -501,8 +498,8 @@ class FanSaleMonitor:
                 message += "---\n\n"
             message += "📋 Altri blocchi disponibili:\n\n"
             for b in altri:
-                message += f"📅 *[{b['giorno']} {b['data']}]({b['url']})*\n"
-                message += f"🎯 {b['dettagli']}\n"
+                desc = f"{b['giorno']} {b['data']} - {b['dettagli']}"
+                message += f"📅 *[{desc}]({b['url']})*\n"
                 message += f"💰 {b['prezzo']}\n\n"
 
         # Se nessun biglietto trovato
