@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-08-20T07:26:00+02:00",
+  "evento": "FanSale Max Pezzali Monitor - 7 date Milano",
+  "scan_results": [
+    {
+      "data": "2026-12-22",
+      "giorno": "Martedì",
+      "event_id": "21343215",
+      "biglietti_quantita_1": 2,
+      "biglietti_quantita_2_plus": 0,
+      "blocco_b_found": false,
+      "alert": false,
+      "note": "Nessun biglietto con Quantità ≥2"
+    },
+    {
+      "data": "2026-12-23",
+      "giorno": "Mercoledì",
+      "event_id": "21343717",
+      "biglietti_quantita_1": 5,
+      "biglietti_quantita_2_plus": 0,
+      "blocco_b_found": true,
+      "alert": false,
+      "note": "Ha Blocco B, ma solo Quantità 1"
+    },
+    {
+      "data": "2026-12-26",
+      "giorno": "Sabato",
+      "event_id": "21343715",
+      "biglietti_quantita_1": 4,
+      "biglietti_quantita_2_plus": 1,
+      "blocco_b_found": true,
+      "alert": true,
+      "alert_type": "QUANTITA_2_BLOCCO_C6",
+      "dettagli": {
+        "quantita": 2,
+        "ingresso": 4,
+        "fila": 18,
+        "posti": "27, 28",
+        "blocco": "C6",
+        "prezzo_totale": "€ 132,16",
+        "prezzo_unitario": "€ 66,08"
+      },
+      "note": "🔴 ALERT SPECIALE: Trovati 2 biglietti consecutivi in Blocco C6!"
+    },
+    {
+      "data": "2026-12-27",
+      "giorno": "Domenica",
+      "event_id": "21343722",
+      "biglietti_quantita_1": null,
+      "biglietti_quantita_2_plus": 0,
+      "blocco_b_found": true,
+      "alert": false,
+      "note": "Ha Blocco B, ma solo Quantità 1"
+    },
+    {
+      "data": "2026-12-29",
+      "giorno": "Martedì",
+      "event_id": "21343718",
+      "biglietti_quantita_1": null,
+      "biglietti_quantita_2_plus": 0,
+      "blocco_b_found": false,
+      "alert": false,
+      "note": "Nessun Blocco B"
+    },
+    {
+      "data": "2026-12-30",
+      "giorno": "Mercoledì",
+      "event_id": "21343719",
+      "biglietti_quantita_1": null,
+      "biglietti_quantita_2_plus": 0,
+      "blocco_b_found": false,
+      "alert": false,
+      "note": "Nessun Blocco B"
+    },
+    {
+      "data": "2027-01-03",
+      "giorno": "Domenica",
+      "event_id": "21928067",
+      "biglietti_quantita_1": null,
+      "biglietti_quantita_2_plus": 0,
+      "blocco_b_found": false,
+      "alert": false,
+      "note": "Nessun Blocco B"
+    }
+  ],
+  "summary": {
+    "total_events": 7,
+    "events_with_quantity_2_plus": 1,
+    "events_with_blocco_b": 3,
+    "alerts_generated": 1,
+    "critical_alert": true
+  },
+  "next_check": "scheduled"
+}
