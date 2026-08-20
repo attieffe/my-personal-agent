@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-08-20T23:00:00+02:00",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "eventi_milano": [
+    {
+      "data": "2026-12-22",
+      "descrizione": "Max Pezzali - Milano Unipol Dome 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "esito": "BLOCCATO_BOT",
+      "biglietti_trovati": 0,
+      "blocco_b": "NON_VERIFICABILE"
+    },
+    {
+      "data": "2026-12-22",
+      "descrizione": "Max Pezzali - Unipol Dome Party Terrace",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "esito": "BLOCCATO_BOT",
+      "biglietti_trovati": 0,
+      "blocco_b": "NON_VERIFICABILE"
+    },
+    {
+      "data": "2026-12-23",
+      "descrizione": "Max Pezzali - Milano Unipol Dome 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "esito": "NON_TESTATO_BLOCCO_BOT",
+      "biglietti_trovati": 0,
+      "blocco_b": "NON_VERIFICABILE"
+    },
+    {
+      "data": "2026-12-26",
+      "descrizione": "Max Pezzali - Milano Unipol Dome 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "esito": "NON_TESTATO_BLOCCO_BOT",
+      "biglietti_trovati": 0,
+      "blocco_b": "NON_VERIFICABILE"
+    },
+    {
+      "data": "2026-12-27",
+      "descrizione": "Max Pezzali - Milano Unipol Dome 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "esito": "NON_TESTATO_BLOCCO_BOT",
+      "biglietti_trovati": 0,
+      "blocco_b": "NON_VERIFICABILE"
+    },
+    {
+      "data": "2026-12-29",
+      "descrizione": "Max Pezzali - Milano Unipol Dome 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "esito": "NON_TESTATO_BLOCCO_BOT",
+      "biglietti_trovati": 0,
+      "blocco_b": "NON_VERIFICABILE"
+    },
+    {
+      "data": "2026-12-30",
+      "descrizione": "Max Pezzali - Milano Unipol Dome 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "esito": "NON_TESTATO_BLOCCO_BOT",
+      "biglietti_trovati": 0,
+      "blocco_b": "NON_VERIFICABILE"
+    },
+    {
+      "data": "2027-01-03",
+      "descrizione": "Max Pezzali - Milano Unipol Dome 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "esito": "NON_TESTATO_BLOCCO_BOT",
+      "biglietti_trovati": 0,
+      "blocco_b": "NON_VERIFICABILE"
+    }
+  ],
+  "riepilogo": {
+    "eventi_totali": 8,
+    "eventi_testati": 2,
+    "eventi_bloccati_antispam": 2,
+    "eventi_non_testati": 6,
+    "biglietti_trovati_totali": 0,
+    "blocco_b_trovato": false,
+    "note": "Sistema anti-bot FanSale ha bloccato tutte le richieste di caricamento offerte. Eventi non testabili in modalità automatica."
+  }
+}
