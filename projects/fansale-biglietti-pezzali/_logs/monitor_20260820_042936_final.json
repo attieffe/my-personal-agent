@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-08-20T04:29:36.979863",
+  "monitor_status": "COMPLETATO",
+  "scan_summary": {
+    "total_dates_scanned": 7,
+    "dates_with_tickets": 4,
+    "total_biglietti_trovati": 8,
+    "blocco_b_trovati": 3,
+    "qty_gte_2_trovati": 0,
+    "alert_blocco_b": true
+  },
+  "detailed_results": {
+    "2026-12-22": {
+      "biglietti": 2,
+      "blocco_b": 0,
+      "tickets": [
+        {
+          "desc": "Ingresso 2 | Fila 1 | Posto 21",
+          "blocco": "C10",
+          "qty": 1,
+          "prezzo": "€72,24"
+        },
+        {
+          "desc": "Ingresso 2 | Fila 12 | Posto 15",
+          "blocco": "C8",
+          "qty": 1,
+          "prezzo": "€77,28"
+        }
+      ]
+    },
+    "2026-12-23": {
+      "biglietti": 2,
+      "blocco_b": 2,
+      "tickets": [
+        {
+          "desc": "Ingresso 2 | Fila 20 | Posto 9",
+          "blocco": "B14",
+          "qty": 1,
+          "prezzo": "€77,28"
+        },
+        {
+          "desc": "Ingresso 4 | Fila 26 | Posto 28",
+          "blocco": "B8",
+          "qty": 1,
+          "prezzo": "€77,28"
+        }
+      ]
+    },
+    "2026-12-26": {
+      "biglietti": 2,
+      "blocco_b": 0,
+      "tickets": [
+        {
+          "desc": "Ingresso 4 | Fila 14 | Posto 9",
+          "blocco": "C2",
+          "qty": 1,
+          "prezzo": "€61,60"
+        },
+        {
+          "desc": "Ingresso 2 | Fila 20 | Posto 9",
+          "blocco": "C14",
+          "qty": 1,
+          "prezzo": "€61,60"
+        }
+      ]
+    },
+    "2026-12-27": {
+      "biglietti": 2,
+      "blocco_b": 1,
+      "tickets": [
+        {
+          "desc": "Ingresso 2 | Fila 4 | Posto 2",
+          "blocco": "C8",
+          "qty": 1,
+          "prezzo": "€77,28"
+        },
+        {
+          "desc": "Ingresso 4 | Fila 23 | Posto 19",
+          "blocco": "B10",
+          "qty": 1,
+          "prezzo": "€83,44"
+        }
+      ]
+    },
+    "2026-12-29": {
+      "biglietti": 0
+    },
+    "2026-12-30": {
+      "biglietti": 0
+    },
+    "2027-01-03": {
+      "biglietti": 0
+    }
+  }
+}

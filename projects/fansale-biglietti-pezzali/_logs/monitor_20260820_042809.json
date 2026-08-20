@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-08-20T04:28:09.820788",
+  "monitor_status": "COMPLETATO PARZIALMENTE",
+  "date_scanned": "2026-12-22",
+  "findings": {
+    "total_biglietti": 2,
+    "blocco_b_trovati": 0,
+    "quantita_gte_2": 0,
+    "biglietti_elencati": [
+      {
+        "descrizione": "Ingresso 2 | Fila 1 | Posto 21",
+        "blocco": "C10",
+        "quantita": 1,
+        "prezzo": "€ 72,24"
+      },
+      {
+        "descrizione": "Ingresso 2 | Fila 12 | Posto 15",
+        "blocco": "C8",
+        "quantita": 1,
+        "prezzo": "€ 77,28"
+      }
+    ]
+  },
+  "alert_blocco_b": false,
+  "remaining_dates_to_scan": 6,
+  "note": "Primo giro completato. Nessun BLOCCO B e nessun biglietto Qtà≥2 nella data 22/12/2026."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "SCANNING IN PROGRESS",
+  "timestamp": "2026-08-20T04:28:02.856466",
+  "dates_to_scan": 7,
+  "dates": [
+    "2026-12-22",
+    "2026-12-23",
+    "2026-12-26",
+    "2026-12-27",
+    "2026-12-29",
+    "2026-12-30",
+    "2027-01-03"
+  ],
+  "note": "Scanner rapido avviato - risultati verranno aggiornati"
+}
