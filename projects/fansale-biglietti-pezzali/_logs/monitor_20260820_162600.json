@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-08-20T16:26:00+02:00",
+  "scansione": "Browser OpenClaw - 7 date Milano",
+  "totale_biglietti_qtà_gte_2": 2,
+  "alert_blocco_b": false,
+  "blocco_b_count": 0,
+  "risultati_per_data": {
+    "2026-12-22": {
+      "stato": "nessun biglietto qtà >= 2",
+      "biglietti_totali_pagina": 2,
+      "note": "2 biglietti singoli (Qtà 1)"
+    },
+    "2026-12-23": {
+      "stato": "nessun biglietto qtà >= 2",
+      "biglietti_totali_pagina": 0
+    },
+    "2026-12-26": {
+      "stato": "nessun biglietto qtà >= 2",
+      "biglietti_totali_pagina": 0
+    },
+    "2026-12-27": {
+      "stato": "nessun biglietto qtà >= 2",
+      "biglietti_totali_pagina": 0
+    },
+    "2026-12-29": {
+      "stato": "nessun biglietto qtà >= 2",
+      "biglietti_totali_pagina": 0
+    },
+    "2026-12-30": {
+      "stato": "TROVATI 2 biglietti qtà >= 2",
+      "biglietti": [
+        {
+          "descrizione": "Ingresso 4 | Fila 1 | Posto 1, 4",
+          "quantita": 2,
+          "prezzo": "€ 144,48",
+          "blocco": "C4"
+        },
+        {
+          "descrizione": "Ingresso 2 | Fila 8 | Posto 10, 11",
+          "quantita": 2,
+          "prezzo": "€ 154,56",
+          "blocco": "C8"
+        }
+      ]
+    },
+    "2027-01-03": {
+      "stato": "nessun biglietto qtà >= 2",
+      "biglietti_totali_pagina": 0
+    }
+  },
+  "riepilogo": "Scansione completata. Trovati 2 biglietti validi (Qtà >= 2) sulla data del 30 dicembre 2026. No alert BLOCCO B (nessun biglietto BLOCCO B con Qtà >= 2). Tutti gli altri 6 eventi non hanno biglietti validi.",
+  "execution_time_minutes": 5
+}
