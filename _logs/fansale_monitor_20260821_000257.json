@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-08-21T00:00:00+02:00",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "eventi_milano": [
+    {
+      "data": "22 Dicembre 2026",
+      "descrizione": "Max Pezzali - Milano Unipol Dome ore 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "testato": true,
+      "biglietti_trovati": 0,
+      "biglietti_qty_2_plus": 0,
+      "blocco_b": false,
+      "note": "Trovati solo biglietti singoli (Qtà 1)"
+    },
+    {
+      "data": "22 Dicembre 2026",
+      "descrizione": "Max Pezzali - Unipol Dome Party Terrace",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "testato": true,
+      "biglietti_trovati": 1,
+      "biglietti_qty_2_plus": 0,
+      "blocco_b": false,
+      "note": "Pacchetto singolo Qtà 1"
+    },
+    {
+      "data": "23 Dicembre 2026",
+      "descrizione": "Max Pezzali - Milano Unipol Dome ore 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "testato": "in_progress",
+      "biglietti_trovati": null,
+      "biglietti_qty_2_plus": null,
+      "blocco_b": null,
+      "note": "Da completare"
+    },
+    {
+      "data": "26 Dicembre 2026",
+      "descrizione": "Max Pezzali - Milano Unipol Dome ore 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "testato": false,
+      "biglietti_trovati": null,
+      "biglietti_qty_2_plus": null,
+      "blocco_b": null,
+      "note": "Da testare"
+    },
+    {
+      "data": "27 Dicembre 2026",
+      "descrizione": "Max Pezzali - Milano Unipol Dome ore 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "testato": false,
+      "biglietti_trovati": null,
+      "biglietti_qty_2_plus": null,
+      "blocco_b": null,
+      "note": "Da testare"
+    },
+    {
+      "data": "29 Dicembre 2026",
+      "descrizione": "Max Pezzali - Milano Unipol Dome ore 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "testato": false,
+      "biglietti_trovati": null,
+      "biglietti_qty_2_plus": null,
+      "blocco_b": null,
+      "note": "Da testare"
+    },
+    {
+      "data": "30 Dicembre 2026",
+      "descrizione": "Max Pezzali - Milano Unipol Dome ore 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "testato": false,
+      "biglietti_trovati": null,
+      "biglietti_qty_2_plus": null,
+      "blocco_b": null,
+      "note": "Da testare"
+    },
+    {
+      "data": "3 Gennaio 2027",
+      "descrizione": "Max Pezzali - Milano Unipol Dome ore 21:00",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "testato": false,
+      "biglietti_trovati": null,
+      "biglietti_qty_2_plus": null,
+      "blocco_b": null,
+      "note": "Da testare"
+    }
+  ]
+}
