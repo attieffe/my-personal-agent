@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-08-21T01:00:00+02:00",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "eventi_totali": 8,
+  "eventi_testati": 8,
+  "eventi_falliti": 0,
+  "biglietti_trovati": 0,
+  "blocco_b_trovato": false,
+  "eventi": [
+    {
+      "data": "22 dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "esito": "nessun biglietto con quantità ≥2",
+      "testato": true
+    },
+    {
+      "data": "22 dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome Party Terrace",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "esito": "nessun biglietto con quantità ≥2",
+      "testato": true
+    },
+    {
+      "data": "23 dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "esito": "nessun biglietto con quantità ≥2",
+      "testato": true
+    },
+    {
+      "data": "26 dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "esito": "nessun biglietto con quantità ≥2",
+      "testato": true
+    },
+    {
+      "data": "27 dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "esito": "nessun biglietto con quantità ≥2",
+      "testato": true
+    },
+    {
+      "data": "29 dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "esito": "nessun biglietto con quantità ≥2",
+      "testato": true
+    },
+    {
+      "data": "30 dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "esito": "nessun biglietto con quantità ≥2",
+      "testato": true
+    },
+    {
+      "data": "3 gennaio 2027",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "esito": "nessun biglietto con quantità ≥2",
+      "testato": true
+    }
+  ]
+}
