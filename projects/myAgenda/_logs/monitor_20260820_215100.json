@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-08-20T21:51:00+02:00",
+  "monitor_type": "FanSale Max Pezzali",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "status": "blocco_antispam_rilevato",
+  "events": [
+    {
+      "date": "22 dicembre 2026",
+      "day": "martedì",
+      "time": "21:00",
+      "location": "MILANO",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "result": "visita_fallita_blocco_bot",
+      "tickets_found": null,
+      "blocco_b": null
+    },
+    {
+      "date": "22-22 dicembre 2026",
+      "day": "22 dic",
+      "package": "Unipol Dome Party Terrace",
+      "location": "MILANO",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "result": "non_testato",
+      "tickets_found": null,
+      "blocco_b": null
+    },
+    {
+      "date": "23 dicembre 2026",
+      "day": "mercoledì",
+      "time": "21:00",
+      "location": "MILANO",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "result": "non_testato",
+      "tickets_found": null,
+      "blocco_b": null
+    },
+    {
+      "date": "26 dicembre 2026",
+      "day": "sabato",
+      "time": "21:00",
+      "location": "MILANO",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "result": "non_testato",
+      "tickets_found": null,
+      "blocco_b": null
+    },
+    {
+      "date": "27 dicembre 2026",
+      "day": "domenica",
+      "time": "21:00",
+      "location": "MILANO",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "result": "non_testato",
+      "tickets_found": null,
+      "blocco_b": null
+    },
+    {
+      "date": "29 dicembre 2026",
+      "day": "martedì",
+      "time": "21:00",
+      "location": "MILANO",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "result": "non_testato",
+      "tickets_found": null,
+      "blocco_b": null
+    },
+    {
+      "date": "30 dicembre 2026",
+      "day": "mercoledì",
+      "time": "21:00",
+      "location": "MILANO",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "result": "non_testato",
+      "tickets_found": null,
+      "blocco_b": null
+    },
+    {
+      "date": "3 gennaio 2027",
+      "day": "domenica",
+      "time": "21:00",
+      "location": "MILANO",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "result": "non_testato",
+      "tickets_found": null,
+      "blocco_b": null
+    }
+  ],
+  "summary": {
+    "total_events": 8,
+    "events_tested": 1,
+    "events_with_tickets": 0,
+    "blocco_b_found": false,
+    "note": "FanSale ha rilevato bot automatico al primo tentativo. Tutti i link estratti dalla pagina master ma visita fallita per antispam protection."
+  }
+}

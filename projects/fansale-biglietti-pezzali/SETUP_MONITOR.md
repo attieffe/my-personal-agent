@@ -62,9 +62,12 @@ Ogni 30 minuti lo script:
    - Cerca nuovi eventi MILANO (esclude pacchetti)
    - Aggiorna `_system/eventi_list.json` se trova novità
    - Se il sito blocca → usa la lista esistente
-2. **Scansione date**
+2. **Scansione date** (Fault-Tolerant)
    - Apre Chromium in modalità headless
    - Visita tutte le date nella lista aggiornata
+   - **Attende 10 secondi tra una visita e l'altra** per evitare rate limiting
+   - **Continua a testare i link anche se una visita fallisce** (non si ferma al primo errore)
+   - Testa TUTTI i link della lista, registrando successi e fallimenti
    - Estrae i biglietti disponibili
 3. **Filtri**
    - Quantità ≥2 e posti numerati

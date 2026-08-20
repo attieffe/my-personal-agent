@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-08-20T19:47:00+01:00",
+  "monitor_type": "FanSale Max Pezzali Tickets",
+  "status": "BLOCKED_BY_BOT_DETECTION",
+  "description": "FanSale ha riconosciuto il monitoraggio come automatico e ha bloccato l'accesso",
+  "error_message": "Il nostro sistema ti ha classificato come bot automatico. Si prega di riprovare.",
+  "events_to_check": [
+    "22 dicembre 2026 - MILANO",
+    "23 dicembre 2026 - MILANO",
+    "26 dicembre 2026 - MILANO",
+    "27 dicembre 2026 - MILANO",
+    "29 dicembre 2026 - MILANO",
+    "30 dicembre 2026 - MILANO",
+    "3 gennaio 2027 - MILANO"
+  ],
+  "events_checked": 1,
+  "results": []
+}
