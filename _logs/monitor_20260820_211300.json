@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-08-20T21:13:00+02:00",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "link_master_eventi_milano": [
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067"
+  ],
+  "status": "incomplete - bot block",
+  "note": "FanSale ha bloccato le richieste come bot automatico dopo il 5° evento. Controllati 5/8 eventi.",
+  "risultati": {
+    "22_dic_2026_unipol": {
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "data": "martedì 22/12/2026",
+      "luogo": "Unipol Dome, MILANO",
+      "esito": "❌ nessun_biglietto_geq2",
+      "quantita_trovate": [1, 1],
+      "blocchi_trovati": ["C10", "C8"],
+      "blocco_b_rilevato": false,
+      "biglietti_validi_count": 0,
+      "note": "Solo biglietti singoli"
+    },
+    "23_dic_2026_unipol": {
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "data": "mercoledì 23/12/2026",
+      "luogo": "Unipol Dome, MILANO",
+      "esito": "❌ nessun_biglietto_geq2",
+      "quantita_trovate": [1, 1, 1, 1, 1],
+      "blocchi_trovati": ["B8", "B14", "B15", "B11"],
+      "blocco_b_rilevato": true,
+      "biglietti_validi_count": 0,
+      "note": "⚠️ BLOCCO B rilevato in 4 posizioni"
+    },
+    "26_dic_2026_unipol": {
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "data": "sabato 26/12/2026",
+      "luogo": "Unipol Dome, MILANO",
+      "esito": "❌ nessun_biglietto_geq2",
+      "quantita_trovate": [1, 1, 1, 1],
+      "blocchi_trovati": ["C2", "C14", "B5", "B6"],
+      "blocco_b_rilevato": true,
+      "biglietti_validi_count": 0,
+      "note": "⚠️ BLOCCO B rilevato in 2 posizioni (B5, B6)"
+    },
+    "27_dic_2026_unipol": {
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "data": "domenica 27/12/2026",
+      "luogo": "Unipol Dome, MILANO",
+      "esito": "❌ nessun_biglietto_geq2",
+      "quantita_trovate": [1, 1, 1, 1],
+      "blocchi_trovati": ["C8", "B10", "B11", "B5"],
+      "blocco_b_rilevato": true,
+      "biglietti_validi_count": 0,
+      "note": "⚠️ BLOCCO B rilevato in 3 posizioni (B10, B11, B5)"
+    },
+    "29_dic_2026_unipol": {
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "data": "martedì 29/12/2026",
+      "luogo": "Unipol Dome, MILANO",
+      "esito": "⚠️ BLOCCO_BOT_FANSALE",
+      "note": "Richieste bloccate come bot automatico"
+    }
+  },
+  "statistiche": {
+    "eventi_controllati": 5,
+    "eventi_totali": 8,
+    "eventi_con_biglietti_geq2": 0,
+    "eventi_con_blocco_b": 3,
+    "percentuale_blocco_b": "60% (su 5 controllati)"
+  },
+  "alert": "⚠️ NESSUN BIGLIETTO CON QUANTITÀ ≥2 TROVATO negli 5 eventi controllati"
+}

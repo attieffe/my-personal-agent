@@ -1,0 +1,83 @@
+{
+  "timestamp": "20260820_211151",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "events": [
+    {
+      "date": "22 dic 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "status": "error",
+      "status_code": 403,
+      "tickets": []
+    },
+    {
+      "date": "22 dic 2026 (Party)",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "status": "ok",
+      "quantita": [],
+      "blocchi": [],
+      "biglietti_validi": false,
+      "count_validi": 0,
+      "has_blocco_b": false
+    },
+    {
+      "date": "23 dic 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "status": "ok",
+      "quantita": [],
+      "blocchi": [],
+      "biglietti_validi": false,
+      "count_validi": 0,
+      "has_blocco_b": false
+    },
+    {
+      "date": "26 dic 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "status": "ok",
+      "quantita": [],
+      "blocchi": [],
+      "biglietti_validi": false,
+      "count_validi": 0,
+      "has_blocco_b": false
+    },
+    {
+      "date": "27 dic 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "status": "ok",
+      "quantita": [],
+      "blocchi": [],
+      "biglietti_validi": false,
+      "count_validi": 0,
+      "has_blocco_b": false
+    },
+    {
+      "date": "29 dic 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "status": "ok",
+      "quantita": [],
+      "blocchi": [],
+      "biglietti_validi": false,
+      "count_validi": 0,
+      "has_blocco_b": false
+    },
+    {
+      "date": "30 dic 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "status": "ok",
+      "quantita": [],
+      "blocchi": [],
+      "biglietti_validi": false,
+      "count_validi": 0,
+      "has_blocco_b": false
+    },
+    {
+      "date": "3 gen 2027",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "status": "ok",
+      "quantita": [],
+      "blocchi": [],
+      "biglietti_validi": false,
+      "count_validi": 0,
+      "has_blocco_b": false
+    }
+  ]
+}

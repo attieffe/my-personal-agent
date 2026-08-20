@@ -1,0 +1,86 @@
+{
+  "monitor": "FanSale Max Pezzali - Milano Unipol Dome",
+  "runAt": "2026-08-20T20:26:00+02:00",
+  "method": "browser anti-detection flow (homepage -> Max Pezzali -> evento -> Carica Offerte)",
+  "events": [
+    {
+      "date": "2026-12-22 (mar)", "eventId": 21343215, "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "offers": [
+        {"qty": 1, "zone": "Blocco C10", "ingresso": 2, "fila": 1, "posto": 21, "price": "EUR 72.24"},
+        {"qty": 1, "zone": "Blocco C8", "ingresso": 2, "fila": 12, "posto": 15, "price": "EUR 77.28"}
+      ],
+      "qty2plus": []
+    },
+    {
+      "date": "2026-12-23 (mer)", "eventId": 21343717, "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "offers": [
+        {"qty": 1, "zone": "Blocco B8", "ingresso": 4, "fila": 26, "posto": 28, "price": "EUR 77.28"},
+        {"qty": 1, "zone": "Blocco B8", "ingresso": 4, "fila": 18, "posto": 10, "price": "EUR 77.28"},
+        {"qty": 1, "zone": "Blocco B14", "ingresso": 2, "fila": 20, "posto": 9, "price": "EUR 77.28"},
+        {"qty": 1, "zone": "Blocco B15", "ingresso": 2, "fila": 6, "posto": 16, "price": "EUR 87.92"},
+        {"qty": 1, "zone": "Blocco B11", "ingresso": 2, "fila": 25, "posto": 27, "price": "EUR 87.92"}
+      ],
+      "qty2plus": []
+    },
+    {
+      "date": "2026-12-26 (sab)", "eventId": 21343715, "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "offers": [
+        {"qty": 1, "zone": "Blocco C2", "ingresso": 4, "fila": 14, "posto": 9, "price": "EUR 61.60"},
+        {"qty": 1, "zone": "Blocco C14", "ingresso": 2, "fila": 20, "posto": 9, "price": "EUR 61.60"},
+        {"qty": 1, "zone": "Blocco B5", "ingresso": 4, "fila": 13, "posto": 11, "price": "EUR 87.92"},
+        {"qty": 1, "zone": "Blocco B6", "ingresso": 4, "fila": 18, "posto": 12, "price": "EUR 87.92"}
+      ],
+      "qty2plus": []
+    },
+    {
+      "date": "2026-12-27 (dom)", "eventId": 21343722, "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "offers": [
+        {"qty": 1, "zone": "Blocco C8", "ingresso": 2, "fila": 4, "posto": 2, "price": "EUR 77.28"},
+        {"qty": 1, "zone": "Blocco B10", "ingresso": 4, "fila": 23, "posto": 19, "price": "EUR 83.44"},
+        {"qty": 1, "zone": "Blocco B11", "ingresso": 2, "fila": 26, "posto": 9, "price": "EUR 87.92"},
+        {"qty": 1, "zone": "Blocco B5", "ingresso": 4, "fila": 11, "posto": 11, "price": "EUR 99.68"}
+      ],
+      "qty2plus": []
+    },
+    {
+      "date": "2026-12-29 (mar)", "eventId": 21343718, "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "offers": [
+        {"qty": 1, "zone": "Blocco C6", "ingresso": 4, "fila": 7, "posto": 13, "price": "EUR 72.24"},
+        {"qty": 1, "zone": "Blocco C10", "ingresso": 2, "fila": 2, "posto": 5, "price": "EUR 72.24"},
+        {"qty": 1, "zone": "Blocco B16", "ingresso": 2, "fila": 9, "posto": 20, "price": "EUR 87.92"},
+        {"qty": 1, "zone": "Blocco B16", "ingresso": 2, "fila": 5, "posto": 21, "price": "EUR 87.92"},
+        {"qty": 1, "zone": "Blocco B7", "ingresso": 4, "fila": 3, "posto": 25, "price": "EUR 87.92"},
+        {"qty": 2, "zone": "Blocco B11", "ingresso": 2, "fila": 8, "posti": "1,2", "priceTotal": "EUR 199.36"}
+      ],
+      "qty2plus": [
+        {"qty": 2, "zone": "Blocco B11", "ingresso": 2, "fila": 8, "posti": "1,2", "priceTotal": "EUR 199.36", "note": "ALERT BLOCCO B"}
+      ]
+    },
+    {
+      "date": "2026-12-30 (mer)", "eventId": 21343719, "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719", "loadOffersButton": true,
+      "offers": [
+        {"qty": 1, "zone": "Blocco B13", "ingresso": 2, "fila": 10, "posto": 3, "price": "EUR 83.44"},
+        {"qty": 1, "zone": "Blocco B15", "ingresso": 2, "fila": 3, "posto": 25, "price": "EUR 87.92"},
+        {"qty": 2, "zone": "Blocco C4", "ingresso": 4, "fila": 1, "posti": "1,4", "priceTotal": "EUR 144.48"},
+        {"qty": 2, "zone": "Blocco C8", "ingresso": 2, "fila": 8, "posti": "10,11", "priceTotal": "EUR 154.56"}
+      ],
+      "qty2plus": [
+        {"qty": 2, "zone": "Blocco C4", "ingresso": 4, "fila": 1, "posti": "1,4", "priceTotal": "EUR 144.48"},
+        {"qty": 2, "zone": "Blocco C8", "ingresso": 2, "fila": 8, "posti": "10,11", "priceTotal": "EUR 154.56"}
+      ]
+    },
+    {
+      "date": "2027-01-03 (dom)", "eventId": 21928067, "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "status": "BLOCKED_BY_ANTI_BOT",
+      "attempts": 3,
+      "note": "Carica Offerte rifiutato 3 volte ('classificato come bot'), anche dopo visita ad altra pagina fansale. Listing: offerte da EUR 87.92",
+      "qty2plus": null
+    }
+  ],
+  "summary": {
+    "bloccoB_qty2_alert": [{"date": "2026-12-29", "detail": "Blocco B11, fila 8, posti 1-2, ingr. 2, EUR 199.36 tot"}],
+    "other_qty2": [{"date": "2026-12-30", "detail": "C4 fila 1 posti 1+4 EUR 144.48; C8 fila 8 posti 10+11 EUR 154.56"}],
+    "dates_no_qty2": ["2026-12-22", "2026-12-23", "2026-12-26", "2026-12-27"],
+    "not_verified": ["2027-01-03 (anti-bot)"]
+  }
+}

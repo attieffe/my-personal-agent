@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-08-20_211200",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "link_master_eventi_milano": [
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+    "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067"
+  ],
+  "status": "in_progress",
+  "note": "Controllo browser con JavaScript per caricamento offerte (processo lento)",
+  "risultati_controllati": {
+    "22_dic_2026": {
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "esito": "nessun_biglietto_geq2",
+      "quantita_trovate": [1, 1],
+      "blocchi": ["C10", "C8"],
+      "blocco_b": false,
+      "biglietti_validi_count": 0
+    },
+    "23_dic_2026": {
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "esito": "nessun_biglietto_geq2",
+      "quantita_trovate": [1, 1, 1, 1, 1],
+      "blocchi": ["B8", "B14", "B15", "B11"],
+      "blocco_b": true,
+      "biglietti_validi_count": 0
+    }
+  }
+}
