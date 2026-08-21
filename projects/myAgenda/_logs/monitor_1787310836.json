@@ -1,0 +1,119 @@
+{
+  "monitor_type": "FanSale Max Pezzali Biglietti",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "scan_date": "2026-08-21",
+  "scan_time": "13:10 UTC+2",
+  "total_events_found": 8,
+  "total_events_tested": 8,
+  "total_events_with_antispam_block": 0,
+  "tickets_found_qty2_or_more": 3,
+  "blocco_b_found": true,
+  "events": [
+    {
+      "date": "22 dic 2026",
+      "title": "Max Pezzali",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "status": "success",
+      "tickets_qty2_plus": 0,
+      "blocco_b": false,
+      "details": "Solo biglietti Qty 1"
+    },
+    {
+      "date": "22 dic 2026",
+      "title": "Max Pezzali - Unipol Dome Party Terrace",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "status": "success",
+      "tickets_qty2_plus": 0,
+      "blocco_b": false,
+      "details": "Pacchetto Qty 1"
+    },
+    {
+      "date": "23 dic 2026",
+      "title": "Max Pezzali",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "status": "success",
+      "tickets_qty2_plus": 0,
+      "blocco_b": true,
+      "blocco_b_details": ["B8", "B14", "B15", "B11"],
+      "details": "Solo biglietti Qty 1, ma BLOCCO B presente"
+    },
+    {
+      "date": "26 dic 2026",
+      "title": "Max Pezzali",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "status": "success",
+      "tickets_qty2_plus": 0,
+      "blocco_b": true,
+      "blocco_b_details": ["B5", "B6"],
+      "details": "Solo biglietti Qty 1, ma BLOCCO B presente"
+    },
+    {
+      "date": "27 dic 2026",
+      "title": "Max Pezzali",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "status": "success",
+      "tickets_qty2_plus": 0,
+      "blocco_b": true,
+      "blocco_b_details": ["B10", "B11", "B5"],
+      "details": "Solo biglietti Qty 1, ma BLOCCO B presente"
+    },
+    {
+      "date": "29 dic 2026",
+      "title": "Max Pezzali",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "status": "success",
+      "tickets_qty2_plus": 1,
+      "blocco_b": true,
+      "blocco_b_details": ["B16", "B7", "B11"],
+      "found_tickets": [
+        {
+          "quantity": 2,
+          "location": "Ingresso 2 | Fila 8 | Posto 1, 2",
+          "block": "B11",
+          "price": "€199,36"
+        }
+      ]
+    },
+    {
+      "date": "30 dic 2026",
+      "title": "Max Pezzali",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "status": "success",
+      "tickets_qty2_plus": 2,
+      "blocco_b": true,
+      "blocco_b_details": ["B13", "B15"],
+      "found_tickets": [
+        {
+          "quantity": 2,
+          "location": "Ingresso 4 | Fila 1 | Posto 1, 4",
+          "block": "C4",
+          "price": "€144,48"
+        },
+        {
+          "quantity": 2,
+          "location": "Ingresso 2 | Fila 8 | Posto 10, 11",
+          "block": "C8",
+          "price": "€154,56"
+        }
+      ]
+    },
+    {
+      "date": "3 gen 2027",
+      "title": "Max Pezzali",
+      "venue": "Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "status": "success",
+      "tickets_qty2_plus": 0,
+      "blocco_b": true,
+      "blocco_b_details": ["B16"],
+      "details": "Qty 2 trovato ma Posto Unico (escluso da criteri)"
+    }
+  ]
+}
