@@ -1,0 +1,48 @@
+📌 [Max Pezzali](https://www.fansale.it/tickets/all/max-pezzali/482766)
+
+• [22 Dicembre 2026 - Max Pezzali Milano Unipol Dome](https://www.fansale.it/tickets/all/max-pezzali/482766/21343215)
+  ⚠️ Visita fallita: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343215
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+
+• [22 Dicembre 2026 - Max Pezzali - Unipol Dome Party Terrace Milano](https://www.fansale.it/tickets/all/max-pezzali/482766/21353575)
+  ⚠️ Visita fallita: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21353575
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+
+• [23 Dicembre 2026 - Max Pezzali Milano Unipol Dome](https://www.fansale.it/tickets/all/max-pezzali/482766/21343717)
+  ⚠️ Visita fallita: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343717
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+
+• [26 Dicembre 2026 - Max Pezzali Milano Unipol Dome](https://www.fansale.it/tickets/all/max-pezzali/482766/21343715)
+  ⚠️ Visita fallita: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343715
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+
+• [27 Dicembre 2026 - Max Pezzali Milano Unipol Dome](https://www.fansale.it/tickets/all/max-pezzali/482766/21343722)
+  ⚠️ Visita fallita: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343722
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+
+• [29 Dicembre 2026 - Max Pezzali Milano Unipol Dome](https://www.fansale.it/tickets/all/max-pezzali/482766/21343718)
+  ⚠️ Visita fallita: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343718
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+
+• [30 Dicembre 2026 - Max Pezzali Milano Unipol Dome](https://www.fansale.it/tickets/all/max-pezzali/482766/21343719)
+  ⚠️ Visita fallita: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343719
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+
+• [3 Gennaio 2027 - Max Pezzali Milano Unipol Dome](https://www.fansale.it/tickets/all/max-pezzali/482766/21928067)
+  ⚠️ Visita fallita: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21928067
+Call log:
+  - navigating to "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+
+📊 RIEPILOGO FINALE:
+• Eventi totali trovati: 8
+• Eventi testati: 0
+• Eventi con errori: 8
+• Biglietti trovati (Qtà≥2): 0
+• BLOCCO B: NO

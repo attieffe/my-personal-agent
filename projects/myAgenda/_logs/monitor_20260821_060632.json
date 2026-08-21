@@ -1,0 +1,78 @@
+{
+  "timestamp": "20260821_060632",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "eventi": [
+    {
+      "data": "22 Dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "biglietti_trovati": [],
+      "blocco_b_presente": false,
+      "errore": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343215\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766/21343215\",",
+      "timestamp": "2026-08-21T06:06:32.674013"
+    },
+    {
+      "data": "22 Dicembre 2026",
+      "descrizione": "Max Pezzali - Unipol Dome Party Terrace Milano",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "biglietti_trovati": [],
+      "blocco_b_presente": false,
+      "errore": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21353575\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766/21353575\",",
+      "timestamp": "2026-08-21T06:06:42.728638"
+    },
+    {
+      "data": "23 Dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "biglietti_trovati": [],
+      "blocco_b_presente": false,
+      "errore": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343717\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766/21343717\",",
+      "timestamp": "2026-08-21T06:06:52.761313"
+    },
+    {
+      "data": "26 Dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "biglietti_trovati": [],
+      "blocco_b_presente": false,
+      "errore": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343715\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766/21343715\",",
+      "timestamp": "2026-08-21T06:07:02.788251"
+    },
+    {
+      "data": "27 Dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "biglietti_trovati": [],
+      "blocco_b_presente": false,
+      "errore": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343722\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766/21343722\",",
+      "timestamp": "2026-08-21T06:07:12.813433"
+    },
+    {
+      "data": "29 Dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "biglietti_trovati": [],
+      "blocco_b_presente": false,
+      "errore": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343718\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766/21343718\",",
+      "timestamp": "2026-08-21T06:07:22.837701"
+    },
+    {
+      "data": "30 Dicembre 2026",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "biglietti_trovati": [],
+      "blocco_b_presente": false,
+      "errore": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21343719\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766/21343719\",",
+      "timestamp": "2026-08-21T06:07:32.862895"
+    },
+    {
+      "data": "3 Gennaio 2027",
+      "descrizione": "Max Pezzali Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "biglietti_trovati": [],
+      "blocco_b_presente": false,
+      "errore": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fansale.it/tickets/all/max-pezzali/482766/21928067\nCall log:\n  - navigating to \"https://www.fansale.it/tickets/all/max-pezzali/482766/21928067\",",
+      "timestamp": "2026-08-21T06:07:42.888240"
+    }
+  ]
+}
