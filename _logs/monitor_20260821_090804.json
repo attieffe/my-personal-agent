@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-08-21T09:04:00+02:00",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "eventi_milano": [
+    {
+      "data": "2026-12-22",
+      "descrizione": "22 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "testato": true,
+      "esito": "blocco_bot",
+      "biglietti_trovati": 0,
+      "blocco_b": "non_controllabile"
+    },
+    {
+      "data": "2026-12-22",
+      "descrizione": "22 Dicembre 2026 Milano Unipol Dome Party Terrace",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "testato": true,
+      "esito": "blocco_bot",
+      "biglietti_trovati": 0,
+      "blocco_b": "non_controllabile"
+    },
+    {
+      "data": "2026-12-23",
+      "descrizione": "23 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "testato": true,
+      "esito": "blocco_bot",
+      "biglietti_trovati": 0,
+      "blocco_b": "non_controllabile"
+    },
+    {
+      "data": "2026-12-26",
+      "descrizione": "26 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "testato": false,
+      "esito": "non_testato_blocco_sistematico",
+      "biglietti_trovati": 0,
+      "blocco_b": "non_controllabile"
+    },
+    {
+      "data": "2026-12-27",
+      "descrizione": "27 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "testato": false,
+      "esito": "non_testato_blocco_sistematico",
+      "biglietti_trovati": 0,
+      "blocco_b": "non_controllabile"
+    },
+    {
+      "data": "2026-12-29",
+      "descrizione": "29 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "testato": false,
+      "esito": "non_testato_blocco_sistematico",
+      "biglietti_trovati": 0,
+      "blocco_b": "non_controllabile"
+    },
+    {
+      "data": "2026-12-30",
+      "descrizione": "30 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "testato": false,
+      "esito": "non_testato_blocco_sistematico",
+      "biglietti_trovati": 0,
+      "blocco_b": "non_controllabile"
+    },
+    {
+      "data": "2027-01-03",
+      "descrizione": "3 Gennaio 2027 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "testato": false,
+      "esito": "non_testato_blocco_sistematico",
+      "biglietti_trovati": 0,
+      "blocco_b": "non_controllabile"
+    }
+  ],
+  "riepilogo": {
+    "eventi_totali": 8,
+    "eventi_testati": 3,
+    "eventi_con_blocco_antispam": 3,
+    "biglietti_trovati": 0,
+    "blocco_b_trovato": "NO",
+    "note": "Blocco bot sistematico su tutti i tentativi - sistema antispam FanSale attivo"
+  }
+}
