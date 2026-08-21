@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-08-21T04:04:00+02:00",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "total_events_found": 8,
+  "events_tested": 5,
+  "events_blocked_antispam": 3,
+  "tickets_found_qty_gte_2": 0,
+  "blocco_b_found": true,
+  "events": [
+    {
+      "date": "2026-12-22",
+      "name": "22 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "tested": true,
+      "result": "2 biglietti singoli (Qtà=1)",
+      "blocco_b": false,
+      "tickets": []
+    },
+    {
+      "date": "2026-12-22",
+      "name": "22 Dicembre 2026 Milano Unipol Dome Party Terrace",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "tested": true,
+      "result": "1 pacchetto (Qtà=1)",
+      "blocco_b": false,
+      "tickets": []
+    },
+    {
+      "date": "2026-12-23",
+      "name": "23 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "tested": true,
+      "result": "5 biglietti singoli (Qtà=1)",
+      "blocco_b": true,
+      "blocco_b_details": ["B8", "B11", "B14", "B15"],
+      "tickets": []
+    },
+    {
+      "date": "2026-12-26",
+      "name": "26 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "tested": true,
+      "result": "4 biglietti singoli (Qtà=1)",
+      "blocco_b": true,
+      "blocco_b_details": ["B5", "B6"],
+      "tickets": []
+    },
+    {
+      "date": "2026-12-27",
+      "name": "27 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "tested": true,
+      "result": "4 biglietti singoli (Qtà=1), con Carica Offerte",
+      "blocco_b": true,
+      "blocco_b_details": ["B10", "B11", "B5"],
+      "tickets": []
+    },
+    {
+      "date": "2026-12-29",
+      "name": "29 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "tested": false,
+      "result": "Blocco antispam - classificato come bot",
+      "blocco_b": null,
+      "tickets": []
+    },
+    {
+      "date": "2026-12-30",
+      "name": "30 Dicembre 2026 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "tested": false,
+      "result": "Blocco antispam - classificato come bot",
+      "blocco_b": null,
+      "tickets": []
+    },
+    {
+      "date": "2027-01-03",
+      "name": "3 Gennaio 2027 Milano Unipol Dome",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "tested": false,
+      "result": "Blocco antispam - classificato come bot",
+      "blocco_b": null,
+      "tickets": []
+    }
+  ]
+}
