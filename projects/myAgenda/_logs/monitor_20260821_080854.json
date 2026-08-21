@@ -1,0 +1,111 @@
+{
+  "timestamp": "20260821_080854",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "events_checked": 8,
+  "results": [
+    {
+      "event": {
+        "date": "22 Dicembre 2026",
+        "venue": "Unipol Dome",
+        "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+        "id": "21343215"
+      },
+      "status": "timeout",
+      "tickets_found": 0,
+      "tickets_qty_2_plus": [],
+      "blocco_b_found": false,
+      "error": "Timeout durante la richiesta"
+    },
+    {
+      "event": {
+        "date": "22 Dicembre 2026",
+        "venue": "Unipol Dome Party Terrace",
+        "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+        "id": "21353575"
+      },
+      "status": "timeout",
+      "tickets_found": 0,
+      "tickets_qty_2_plus": [],
+      "blocco_b_found": false,
+      "error": "Timeout durante la richiesta"
+    },
+    {
+      "event": {
+        "date": "23 Dicembre 2026",
+        "venue": "Unipol Dome",
+        "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+        "id": "21343717"
+      },
+      "status": "timeout",
+      "tickets_found": 0,
+      "tickets_qty_2_plus": [],
+      "blocco_b_found": false,
+      "error": "Timeout durante la richiesta"
+    },
+    {
+      "event": {
+        "date": "26 Dicembre 2026",
+        "venue": "Unipol Dome",
+        "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+        "id": "21343715"
+      },
+      "status": "timeout",
+      "tickets_found": 0,
+      "tickets_qty_2_plus": [],
+      "blocco_b_found": false,
+      "error": "Timeout durante la richiesta"
+    },
+    {
+      "event": {
+        "date": "27 Dicembre 2026",
+        "venue": "Unipol Dome",
+        "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+        "id": "21343722"
+      },
+      "status": "timeout",
+      "tickets_found": 0,
+      "tickets_qty_2_plus": [],
+      "blocco_b_found": false,
+      "error": "Timeout durante la richiesta"
+    },
+    {
+      "event": {
+        "date": "29 Dicembre 2026",
+        "venue": "Unipol Dome",
+        "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+        "id": "21343718"
+      },
+      "status": "timeout",
+      "tickets_found": 0,
+      "tickets_qty_2_plus": [],
+      "blocco_b_found": false,
+      "error": "Timeout durante la richiesta"
+    },
+    {
+      "event": {
+        "date": "30 Dicembre 2026",
+        "venue": "Unipol Dome",
+        "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+        "id": "21343719"
+      },
+      "status": "timeout",
+      "tickets_found": 0,
+      "tickets_qty_2_plus": [],
+      "blocco_b_found": false,
+      "error": "Timeout durante la richiesta"
+    },
+    {
+      "event": {
+        "date": "3 Gennaio 2027",
+        "venue": "Unipol Dome",
+        "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+        "id": "21928067"
+      },
+      "status": "timeout",
+      "tickets_found": 0,
+      "tickets_qty_2_plus": [],
+      "blocco_b_found": false,
+      "error": "Timeout durante la richiesta"
+    }
+  ]
+}
