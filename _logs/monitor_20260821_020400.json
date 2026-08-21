@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-08-21T02:04:00+02:00",
+  "master_url": "https://www.fansale.it/tickets/all/max-pezzali/482766",
+  "events": [
+    {
+      "date": "Martedì 22 Dicembre 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343215",
+      "status": "tested",
+      "tickets_qty2plus": 0,
+      "has_blocco_b": false,
+      "bloccos_found": ["C10", "C8"],
+      "total_tickets": 3
+    },
+    {
+      "date": "22 Dicembre 2026 - Party Terrace",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21353575",
+      "status": "tested",
+      "tickets_qty2plus": 0,
+      "has_blocco_b": false,
+      "bloccos_found": [],
+      "total_tickets": 2
+    },
+    {
+      "date": "Mercoledì 23 Dicembre 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343717",
+      "status": "tested",
+      "tickets_qty2plus": 0,
+      "has_blocco_b": true,
+      "bloccos_found": ["B8", "B14", "B15", "B11"],
+      "total_tickets": 6,
+      "alert": "BLOCCO B TROVATO"
+    },
+    {
+      "date": "Sabato 26 Dicembre 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343715",
+      "status": "tested",
+      "tickets_qty2plus": 0,
+      "has_blocco_b": false,
+      "bloccos_found": [],
+      "total_tickets": 1
+    },
+    {
+      "date": "Domenica 27 Dicembre 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343722",
+      "status": "tested",
+      "tickets_qty2plus": 0,
+      "has_blocco_b": false,
+      "bloccos_found": [],
+      "total_tickets": 1
+    },
+    {
+      "date": "Martedì 29 Dicembre 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343718",
+      "status": "tested",
+      "tickets_qty2plus": 0,
+      "has_blocco_b": false,
+      "bloccos_found": [],
+      "total_tickets": 1
+    },
+    {
+      "date": "Mercoledì 30 Dicembre 2026",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21343719",
+      "status": "tested",
+      "tickets_qty2plus": 0,
+      "has_blocco_b": false,
+      "bloccos_found": [],
+      "total_tickets": 1
+    },
+    {
+      "date": "Domenica 3 Gennaio 2027",
+      "url": "https://www.fansale.it/tickets/all/max-pezzali/482766/21928067",
+      "status": "tested",
+      "tickets_qty2plus": 0,
+      "has_blocco_b": false,
+      "bloccos_found": [],
+      "total_tickets": 1
+    }
+  ],
+  "summary": {
+    "total_events": 8,
+    "events_tested": 8,
+    "events_failed": 0,
+    "tickets_qty2plus_found": 0,
+    "blocco_b_found": true,
+    "blocco_b_events": ["Mercoledì 23 Dicembre 2026"]
+  }
+}
