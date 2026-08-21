@@ -5,6 +5,19 @@ Log cronologico di ogni documento archiviato.
 
 ---
 
+## 2026-08-21 21:03 — 20260812 soggiorno igea marina globus con suoceri.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260812
+- **Mittente:** Atti (foto viaggio)
+- **Oggetto:** Soggiorno Igea Marina Globus con suoceri
+- **File originale:** `20260812 soggiorno igea marina globus con suoceri.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260812 soggiorno igea marina globus con suoceri.pdf` ✅
+- **Fonte:** 3 foto da Telegram + richiesta di Attilio
+- **Note:** PDF creato da 3 foto, nessun OCR necessario (filename + data già chiari)
+
+---
+
 ## 2026-07-01 14:05 — Anthropic Invoice GWOBK9VP-0003 + Receipt 2628-2445-5334
 - **Categoria:** INGENIO_SOLUTION
 - **Data documento:** 20260701
