@@ -23,7 +23,7 @@ import zoneinfo
 
 # --- CONFIG ---
 ATTIBOT = "/home/openclaw/attibot"
-OPENCLAW_CMD = "openclaw"  # path del comando openclaw
+OPENCLAW_CMD = "/home/openclaw/.npm-global/bin/openclaw"  # path assoluto per cron
 FTP_HOST = "93.151.207.173"
 FTP_PORT = 221
 FTP_USER = "backupAtti"
@@ -37,7 +37,7 @@ BACKUP_FILENAME = f"{DATE_STR} openclaw backup.tar.gz"
 LOCAL_TMP_FINAL = f"/tmp/{BACKUP_FILENAME}"
 WORK_DIR = "/tmp/openclaw_backup_work"
 
-TELEGRAM_TOKEN = "8699275494:AAE13PcCiRgMr5ELrAtJMHodaCHCcbtQM3A"
+TELEGRAM_TOKEN = "8699275494:AAFKX13Y_tAJxezbV_pUBtnuuybyerFp0rI"
 TELEGRAM_CHAT_ID = "506258994"
 TELEGRAM_TOPIC_ID = None
 
