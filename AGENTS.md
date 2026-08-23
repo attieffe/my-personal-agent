@@ -196,6 +196,8 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 - Commit and push your own changes
 - **Review and update MEMORY.md** (see below)
 
+**Note:** C'è un sistema di **auto-commit orario** (cron) che gestisce automaticamente i commit del workspace. Dettagli: [[_system/GIT_AUTOMATION]].
+
 ### 🔄 Memory Maintenance (During Heartbeats)
 
 Periodically (every few days), use a heartbeat to:
