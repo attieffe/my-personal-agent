@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "skills": {
+    "caveman": {
+      "version": "1.0.2",
+      "installedAt": 1787390982491,
+      "registry": "https://clawhub.ai",
+      "ownerHandle": "skaravind",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "6c1cbf0ae4507da7e60d7289f2b358dc81a1a76a1e21ac92977060fcc1bc3445",
+        "integrity": "sha256-bBy/CuRQfafmDXKJ8rNY3IGhp2oeIaySl3Bg/MG8NEU="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "8d3e45d3084847228cbd80b1562323fc19f781e2f06fa955ea5bd671a0e45d9e"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/caveman/card?ownerHandle=skaravind&version=1.0.2",
+          "sha256": "a183d2682f689578a3470e4d9541ebb549f5a322415b607e47d7f7ad83d5685b",
+          "size": 2231,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "1436355938a28db12b834d4b14b58f7e71014f928afa2b56575fa1a7c6530637",
+          "bundleFingerprints": [
+            "7f7ae5f42a2d192afe8bf981d56501d9b8f410ca1b9c1205f28a14c58d4abb02"
+          ],
+          "files": [
+            {
+              "path": "CONTRIBUTING.md",
+              "size": 492,
+              "sha256": "dfad2ff6e0c50d9cefdbf3791ec64ddac06ef5992ecf7056a2008410c6b1d871",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "README.md",
+              "size": 6712,
+              "sha256": "a8952864f741f685d92775f62b4213ec256f49002cb37e04e1e7f4f161e6ff60",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "SKILL.md",
+              "size": 1138,
+              "sha256": "8d3e45d3084847228cbd80b1562323fc19f781e2f06fa955ea5bd671a0e45d9e",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "benchmarks/prompts.json",
+              "size": 2676,
+              "sha256": "773e557f9187363c44e7e5aae2d27268720bcd8772865e119825078b06da93d7",
+              "contentType": "application/json"
+            },
+            {
+              "path": "benchmarks/requirements.txt",
+              "size": 18,
+              "sha256": "994d50c7e2e135d7621b812c929bb6efca7d8f1ddd1d41476caa71ec3f1eecd1",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "benchmarks/run.py",
+              "size": 8993,
+              "sha256": "96d60bdca9ca88254f8e9354826e384cbd72ec0c4b2077e76535ca239845e6f1",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "caveman/SKILL.md",
+              "size": 2211,
+              "sha256": "fb56c999d5a0d21152413cc6e10931b9ec4b74a6cf915875d4ebfb62008dc773",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "plugins/caveman/skills/caveman/SKILL.md",
+              "size": 2211,
+              "sha256": "fb56c999d5a0d21152413cc6e10931b9ec4b74a6cf915875d4ebfb62008dc773",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "skills/caveman/SKILL.md",
+              "size": 2211,
+              "sha256": "fb56c999d5a0d21152413cc6e10931b9ec4b74a6cf915875d4ebfb62008dc773",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This skill mainly changes the assistant into a deliberately terse writing style and does not show hidden data access, destructive behavior, or privileged actions.",
+          "model": "gpt-5.5",
+          "checkedAt": 1779958070977,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.4.5",
+              "checkedAt": 1777527207841
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": null,
+              "analysis": null,
+              "source": "engines",
+              "scanner": null,
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 67
+              },
+              "checkedAt": 1780086931642
+            },
+            "skillSpector": {
+              "status": "suspicious",
+              "rawStatus": "suspicious",
+              "score": 100,
+              "severity": "CRITICAL",
+              "recommendation": "DO_NOT_INSTALL",
+              "issueCount": 9,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1779958022818
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    }
+  }
+}

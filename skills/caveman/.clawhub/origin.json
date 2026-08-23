@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "caveman",
+  "ownerHandle": "skaravind",
+  "installedVersion": "1.0.2",
+  "installedAt": 1787390982491,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "6c1cbf0ae4507da7e60d7289f2b358dc81a1a76a1e21ac92977060fcc1bc3445",
+    "integrity": "sha256-bBy/CuRQfafmDXKJ8rNY3IGhp2oeIaySl3Bg/MG8NEU="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "8d3e45d3084847228cbd80b1562323fc19f781e2f06fa955ea5bd671a0e45d9e"
+  }
+}
