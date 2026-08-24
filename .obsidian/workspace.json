@@ -184,11 +184,11 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "4d8939452308d9d3",
+  "active": "39f0be0659461ad8",
   "lastOpenFiles": [
+    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "memory/2026-08-07-2255.md",
     "memory/~syncthing~2026-08-07-2255.md.tmp",
-    "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
     "memory/2026-08-07-2248.md",
     "memory/~syncthing~2026-08-07-2248.md.tmp",
     "projects/email-ingestion/inboxes/myjob/02_logs/~syncthing~imap_state.json.tmp",
@@ -221,7 +221,6 @@
     "memory/2026-06-24-1755.md",
     "memory/2026-06-24-1226.md",
     "memory/2026-06-23-1629.md",
-    "memory/2026-06-20-1126.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
     "_attachments/temp/libretto_p1.png"
