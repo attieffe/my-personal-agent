@@ -30,7 +30,7 @@
 
 ### [personale · famiglia · fiscale]
 
-- [ ] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
+- [x] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
 - [x] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
 - [ ] QUADRO ISA
 	- [ ] Trasmettere XML  ISA per dichiarazione redditi 
@@ -66,23 +66,9 @@
 
 ### [personale · automobili]
 
-- [x] **Registra spesa carburante Q8 Easy** — scadenza 2026-07-22 (martedì)
-	- Stazione: Q8Easy — Via Milano 20, Seregno (MB) 20831
-	- N. vendita (POS): 1241 · Terminal: 4 · Ticket: 120099
-	- Data/ora: 18/07/2026 ore 16:50
-	- Prodotto: Verde · Pompa 3 · 35,49 L · €1,889/L
-	- **Totale: €67,04** · Pagamento: Revolut (VISA ****8922)
-
-- [ ] **Follow-up tempi reperibilità ricambi** — Balza Multiservice (preventivo N.518): convogliatore, antigelo, ricarica clima [richiesto 12/06/2026] → [[PERSONALE/auto/BMW_X1_GA258HL]]
-- [x] Fissare appuntamento installazione pastiglie anteriori BMW [scade 10/07/2026]
-	- [x] chiesti preventivo william il 17/6
-	- [x] pastiglie acquistate — Colzani e Srl · ~€80 · 23/06/2026
-	- [x] portare l'auto per installazione
-	
 
 ### [personale · casa · manutenzione]
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
-
 
 ### [personale · infrastruttura · backup]
 - [ ] Verifica backup NAS / OpenClaw / INTV
@@ -92,7 +78,7 @@
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
 
 ### [personale · ingenio · rimborsi]
-- [ ] **Chiedere a Cristia Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
+- [ ] **Chiedere a Cristina Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
 
 ### [freelance · agenzia · get me digital]
 - [x] Mandare calcoli GET ME DIGITAL secondo semestre 2025 a Neda e Cristina — aggiunto 2026-05-20
@@ -103,8 +89,6 @@
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi [[FREELANCE/SINAPPS/SINAPPS_INDEX]]
  - [ ] Sinapps / Nanosilk: pubblicre aggiornamenti con colonna spedizione
 ### [freelance · diretto · studio paladini]
-- [x] Aggiornamento WINDOWS computer Paladini ✅ 11/08/2026
-- [ ] Fissare appuntamento Paladini per consegna computer (scadenza mercoledì 12/08/2026)
 
 ### [freelance · diretto · unioncucine]
 - [ ] Aggiungere turni per CORNAREDO scadenza 01/09/2026
@@ -121,11 +105,11 @@
 	- [x] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
 
 ### [getmedigital - grillosaverio]
-- [ ] grillosaverio.it attualmetne in gestoine terzi il dominio
-	- [ ] chiedere DNS attuali a fornitore
-	- [ ] spostare dominio a hostingsolution? (ricevere accessi da grillo)
-	- [ ] creare hosting e migrarlo su nostro GMDCLOUD
-	- [ ] https://pdc.hostingsolutions.it/MasterCP/MasterLogin.pl 
+- [x] grillosaverio.it attualmetne in gestoine terzi il dominio
+	- [x] chiedere DNS attuali a fornitore
+	- [x] spostare dominio a hostingsolution? (ricevere accessi da grillo)
+	- [x] creare hosting e migrarlo su nostro GMDCLOUD
+	- [x] https://pdc.hostingsolutions.it/MasterCP/MasterLogin.pl 
 - [ ] grillorent.it già registrato su aruba
 	- [ ] creare sito
 
