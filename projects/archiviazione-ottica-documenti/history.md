@@ -653,6 +653,17 @@ Log cronologico di ogni documento archiviato.
 - **Note:** Classificato da filename+contesto email (R01 AOS); OCR non necessario.
 ---
 
+## 2026-08-25 19:50 — 20260825 permuta cel Samsung s8 plus.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260825
+- **Mittente:** MediaWorld
+- **File originale:** `permuta_samsung.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260825 permuta cel Samsung s8 plus.pdf` ✅
+
+- **Note:** Contratto permuta cellulare Samsung S8 Plus - 4 foto unite
+---
+
 <!-- Esempio di record:
 ## 2026-06-03 — 20260603 fattura medico rossi.pdf
 - **Data documento:** 2026-05-28
