@@ -664,6 +664,19 @@ Log cronologico di ogni documento archiviato.
 - **Note:** Contratto permuta cellulare Samsung S8 Plus - 4 foto unite
 ---
 
+## 2026-08-25 19:59 — 20260825 Fattura Samsung S25 FE chiara mediaworld.pdf
+- **Categoria:** INGENIO_SOLUTION
+- **Data documento:** 20260825
+- **Mittente:** MediaWorld
+- **Importo:** 539.00
+- **File originale:** `fattura_samsung_s25.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260825 Fattura Samsung S25 FE chiara mediaworld.pdf` ✅
+  - `gdrive:Ingenio/DOCUMENTI FISCALI/2026/20260825 Fattura Samsung S25 FE chiara mediaworld.pdf` ✅
+
+- **Note:** Fattura acquisto Samsung Galaxy S25 FE per Ingenio Solution - 3 foto unite
+---
+
 <!-- Esempio di record:
 ## 2026-06-03 — 20260603 fattura medico rossi.pdf
 - **Data documento:** 2026-05-28
