@@ -65,3 +65,33 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 **URL pubblici:** `https://attibot.ingeniosolution.it/reports/YYYYMMDD_<nome>/index.html`  
 **Path locale:** `/home/openclaw/attibot/reports/`
+
+---
+
+## Patchright (Browser Automation)
+
+**Installazione:** via `pipx` (venv isolato automatico)
+
+**Path Python venv:** `~/.local/share/pipx/venvs/patchright/bin/python`
+
+**Uso negli script:**
+
+```python
+#!/home/openclaw/.local/share/pipx/venvs/patchright/bin/python
+from patchright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+    page = browser.new_page()
+    # ... automazione
+    browser.close()
+```
+
+**Alternativa:** venv dedicato per progetti con patchright:
+```bash
+python3 -m venv ~/venv/automation
+source ~/venv/automation/bin/activate
+pip install patchright
+```
+
+**Nota:** Patchright è un fork di Playwright con anti-detection per bypassare protezioni anti-bot.
