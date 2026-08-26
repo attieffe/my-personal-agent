@@ -98,8 +98,8 @@ def scrape_event(playwright, url, titolo, data):
     try:
         log(f'Inizio scraping: {titolo} ({data})')
 
-        # Launch browser
-        browser = playwright.chromium.launch(headless=True)
+        # Launch browser (headless=False come script originale, usa chromium disponibile)
+        browser = playwright.chromium.launch(headless=False)
         context = browser.new_context(
             locale='it-IT',
             viewport={'width': 1366, 'height': 900}
