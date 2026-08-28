@@ -65,6 +65,7 @@
 	- [ ] Livret de famille
 
 ### [personale · automobili]
+- [ ] Richiedere fattura spese carburante Q8 del 28/08/2026 — scadenza 01/09/2026
 
 
 ### [personale · casa · manutenzione]
