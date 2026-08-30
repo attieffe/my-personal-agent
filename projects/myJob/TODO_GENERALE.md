@@ -30,17 +30,10 @@
 
 ### [personale · famiglia · fiscale]
 
-- [x] Sentire fratello Eric → dichiarazione dei redditi — sentito il 2026-05-17, si sta attivando; monitorare
-- [x] Raccogliere documenti dichiarazione redditi → [[checklist_dichiarazione_redditi_famiglia]]
+
 - [ ] QUADRO ISA
 	- [ ] Trasmettere XML  ISA per dichiarazione redditi 
-- [x] Pagare buraschi (scade il 13/07/2026)
-- [x] Pagare ritenuta commercialista Buraschi (scadenza 16/08/2026) ✅ 11/08/2026
-- [x] Trasmettere fatture passive ricevute SDI ESTERE ✅ 11/08/2026
-- [x] Reg iva GIUGNO ✅ 11/08/2026
-- [x] Pagare tasse CHIARA (revolut)
-- [x] Pagare tasse INGENIO (bpm)
-- [ ] Verifica tutti i conti
+
 
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini 
@@ -65,14 +58,12 @@
 	- [ ] Livret de famille
 
 ### [personale · automobili]
-- [ ] Richiedere fattura spese carburante Q8 del 28/08/2026 — scadenza 01/09/2026
-
 
 ### [personale · casa · manutenzione]
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
 
 ### [personale · infrastruttura · backup]
-- [ ] Verifica backup NAS / OpenClaw / INTV
+- [x] Verifica backup NAS / OpenClaw / INTV
 - [x] [Bug #85314](https://github.com/openclaw/openclaw/issues/85314) — Telegram DM replies silently dropped — **CLOSED**
 
 ### [personale · networking · luca benzoni]
@@ -82,8 +73,7 @@
 - [ ] **Chiedere a Cristina Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
 
 ### [freelance · agenzia · get me digital]
-- [x] Mandare calcoli GET ME DIGITAL secondo semestre 2025 a Neda e Cristina — aggiunto 2026-05-20
-	- [ ] mandare fattura
+
 
 ### freelance - agenzia - sinapps 
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/2026.md",
+                "file": "projects/myJob/TODO_GENERALE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026"
+              "title": "TODO_GENERALE"
             }
           }
         ]
@@ -188,8 +188,8 @@
   "active": "39f0be0659461ad8",
   "lastOpenFiles": [
     "projects/myAgenda/_logs/~syncthing~padel_checker.log.tmp",
-    "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/Concordato preventivo.md",
     "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/2026.md",
+    "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/Concordato preventivo.md",
     "projects/myJob/INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025.md",
     "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE",
     "projects/myJob/TODO_GENERALE.md",
