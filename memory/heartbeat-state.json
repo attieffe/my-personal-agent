@@ -1,10 +1,14 @@
 {
   "lastChecks": {
-    "email": 1788419100,
-    "calendar": 1788364980,
+    "email": 1788451380,
+    "calendar": 1788451380,
     "weather": 1788413610,
     "projects": 1788419100,
     "memory": 1788379380
   },
-  "lastHeartbeat": 1788419100
+  "lastHeartbeat": 1788451380,
+  "notes": {
+    "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
+    "email": "2026-09-03 18:03: nessuna nuova mail; solo residui pregressi (giu 2026) in 00_inbox aos/myjob, nessun pending in 01_to-be-defined"
+  }
 }
