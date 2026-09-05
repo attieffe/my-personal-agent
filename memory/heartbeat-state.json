@@ -6,9 +6,10 @@
     "projects": 1788419100,
     "memory": 1788379380
   },
-  "lastHeartbeat": 1788602580,
+  "lastHeartbeat": 1788638580,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
-    "email": "2026-09-03 18:03: nessuna nuova mail; solo residui pregressi (giu 2026) in 00_inbox aos/myjob, nessun pending in 01_to-be-defined"
+    "email": "2026-09-03 18:03: nessuna nuova mail; solo residui pregressi (giu 2026) in 00_inbox aos/myjob, nessun pending in 01_to-be-defined",
+    "cron-email": "ATTENZIONE: job cron email myJob (01d3cd46) DISABILITATO da ~21 ago (rate limit esaurito + disable). Verificato 2026-09-05 22:03: ancora disabled, lastRun error rate_limit. Da chiedere ad Atti se riattivarlo (limit resettato dal 27 ago). Ultimo check manuale mail: 2026-09-03, nessuna nuova."
   }
 }
