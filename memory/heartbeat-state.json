@@ -4,12 +4,13 @@
     "calendar": 1788451380,
     "weather": 1788413610,
     "projects": 1788419100,
-    "memory": 1788379380
+    "memory": 1788691380
   },
-  "lastHeartbeat": 1788638580,
+  "lastHeartbeat": 1788691380,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-06 09:03: check manuale post-riattivazione richiesta: 2 mail nuove (UID 36,37) da OpenAI/ChatGPT - codice verifica + welcome, informative, nessun lavoro. Domanda riattivazione cron posta ad Atti.",
-    "cron-email": "Job email myJob (01d3cd46) disabled da ~21 ago (rate limit, reset 27 ago). 2026-09-06 09:03: chiesta conferma ad Atti per riattivazione (domenica mattina, momento naturale). In attesa risposta."
+    "cron-email": "Job email myJob (01d3cd46) disabled da ~21 ago (rate limit, reset 27 ago). 2026-09-06 09:03: chiesta conferma ad Atti per riattivazione (domenica mattina, momento naturale). In attesa risposta.",
+    "memory": "2026-09-06 12:03: MEMORY.md mancante, ripristinato da MEMORY.md.old (14/05) + lezioni 01-06/09 (cron timeout agentTurn 300s+, stato servizi, modelli runtime zai/glm-4.7). MEMORY.md.old conservato come backup."
   }
 }
