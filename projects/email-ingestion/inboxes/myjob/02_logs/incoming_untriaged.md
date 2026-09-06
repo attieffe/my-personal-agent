@@ -26,3 +26,19 @@ Subject: Fwd: Condominio Mazzini 3 - Adempimenti finali per l'attivazione del fi
 EML: inboxes/myjob/00_inbox/msg_33_20260625_191104.eml
 Preview: *Ing. Attilio Fiumanò* +393336801685 ing.fiumano@gmail.com ---------- Forwarded message --------- Da: Cristian Galeone <cristiangaleone@gmail.com> Date: Gio 25 Giu 2026, 20:23 Subject: Fwd: Condominio Mazzini 3 - Adempimenti finali per l'attivazione del finanziamento To: ing.fiumano@gmail.com <ing.fiumano@gmail.com> ---------- Messaggio inoltrato --------- Da: Computec Consulting srl <computec@computec.it> Data: mer 24 giu 2026 alle 16:47 Oggetto: Re: Condominio Mazzini 3 - Adempimenti finali per l'attivazione del finanziamento A: Maurizio Marzi <m.marzi@acrobaticagroup.com>, Finanziamenti < finanziamenti@acrobaticagroup.com> CC: Nicoletta Ancona <n.ancona@acrobaticagroup.com>, zaninello.p@gmail.com < zaninello.p@gmail.com>, Schiavone Rosaria - Palmisano mazzini < schiavonerosaria60@g…
 
+
+---
+UID: 37
+Date: Sat, 05 Sep 2026 07:20:53 +0000
+From: ChatGPT <noreply@email.openai.com>
+Subject: Welcome to ChatGPT
+EML: inboxes/myjob/00_inbox/msg_37_20260906_070502.eml
+Preview: <!DOCTYPE html> <html dir="ltr"> <head> <meta charset="utf-8"> <meta http-equiv="x-ua-compatible" content="ie=edge"> <title></title> <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Hint clients that we explicitly support light/dark rendering. --> <meta name="color-scheme" content="light dark only"> <meta name="supported-color-schemes" content="light dark only"> <style type="text/css"> @media screen and (max-width:480px) { h1.onboarding-section-title { font-size: 28px !important; line-height: 34px !important; letter-spacing: 0 !important; } p.onboarding-section-body { font-size: 14px !important; line-height: 145% !important; } td.content-td.onboarding-card-section { padding-left: 8px !import…
+
+---
+UID: 36
+Date: Sat, 05 Sep 2026 06:20:09 +0000
+From: ChatGPT <noreply@tm.openai.com>
+Subject: Your temporary ChatGPT verification code
+EML: inboxes/myjob/00_inbox/msg_36_20260906_070502.eml
+Preview: <html> <head> <title>Your temporary ChatGPT verification code</title> <meta name="viewport" content="width=device-width, initial-scale=1" /> <style type="text/css"> @font-face { font-family: "Söhne"; src: url(https://cdn.openai.com/common/fonts/soehne/soehne-buch.woff2) format("woff2"); font-style: normal; font-weight: 400; font-display: swap; } .ExternalClass, .ExternalClass div, .ExternalClass font, .ExternalClass p, .ExternalClass span, .ExternalClass td, img { line-height: 100%; } #outlook a { padding: 0; } .ExternalClass, .ReadMsgBody { width: 100%; } a, blockquote, body, li…

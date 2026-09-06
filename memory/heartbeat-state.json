@@ -1,6 +1,6 @@
 {
   "lastChecks": {
-    "email": 1788451380,
+    "email": 1788678180,
     "calendar": 1788451380,
     "weather": 1788413610,
     "projects": 1788419100,
@@ -9,7 +9,7 @@
   "lastHeartbeat": 1788638580,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
-    "email": "2026-09-03 18:03: nessuna nuova mail; solo residui pregressi (giu 2026) in 00_inbox aos/myjob, nessun pending in 01_to-be-defined",
-    "cron-email": "ATTENZIONE: job cron email myJob (01d3cd46) DISABILITATO da ~21 ago (rate limit esaurito + disable). Verificato 2026-09-05 22:03: ancora disabled, lastRun error rate_limit. Da chiedere ad Atti se riattivarlo (limit resettato dal 27 ago). Ultimo check manuale mail: 2026-09-03, nessuna nuova."
+    "email": "2026-09-06 09:03: check manuale post-riattivazione richiesta: 2 mail nuove (UID 36,37) da OpenAI/ChatGPT - codice verifica + welcome, informative, nessun lavoro. Domanda riattivazione cron posta ad Atti.",
+    "cron-email": "Job email myJob (01d3cd46) disabled da ~21 ago (rate limit, reset 27 ago). 2026-09-06 09:03: chiesta conferma ad Atti per riattivazione (domenica mattina, momento naturale). In attesa risposta."
   }
 }
