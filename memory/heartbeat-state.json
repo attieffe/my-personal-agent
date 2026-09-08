@@ -1,15 +1,15 @@
 {
   "lastChecks": {
-    "email": 1788811380,
+    "email": 1788850980,
     "calendar": 1788451380,
     "weather": 1788759000,
     "projects": 1788419100,
     "memory": 1788691380
   },
-  "lastHeartbeat": 1788811380,
+  "lastHeartbeat": 1788850980,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
-    "email": "2026-09-07 22:03: check serale: 00_inbox myjob/aos invariati (nessuna nuova email dal fetch 18:03; ultima aos msg_5 16:04 gia' gestita). Nulla di urgente. Precedenti: 18:03, 12:03, 06/09 22:03/14:03/09:03. Reminder riattivazione cron: non insistere.",
+    "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati (nessun nuovo fetch, cron disabilitati; ultima mail aos msg_5 16:04 gia' gestita/signalata). Nulla di nuovo. Precedenti: 07/09 22:03, 18:03, 12:03, 06/09. Reminder riattivazione cron: non insistere.",
     "weather": "Gestito da cron dedicati (Meteo Seregno 7:30 lun-ven / 8:30 sab-dom) - non serve check heartbeat",
     "cron-email": "Job email myJob (01d3cd46) e AOS (52ac6a54) disabled da ~21 ago (rate limit, reset 27/08 - ora passato). 2026-09-06 09:03: chiesta conferma ad Atti. 2026-09-07 12:03: secondo reminder inviato. In attesa risposta.",
     "memory": "2026-09-06 12:03: MEMORY.md mancante, ripristinato da MEMORY.md.old (14/05) + lezioni 01-06/09 (cron timeout agentTurn 300s+, stato servizi, modelli runtime zai/glm-4.7). MEMORY.md.old conservato come backup.",
