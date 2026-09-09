@@ -17,6 +17,7 @@
   },
   "checks": {
     "08-09-14-03": "email: 00_inbox vuote, nulla di nuovo da 09:03. calendar/oauth: skip. weather: cron dedicati. Nuovo: 2 PDF ulteriori in input/ aos (18:04 ieri) non tracciati - segnalati ad Atti.",
-    "09-09-12-03": "email: 00_inbox myjob/aos vuote (cron ancora disabled). aos input/: stessi 3 PDF gia' segnalati (07+08/09), nessun cambiamento. HEARTBEAT_OK."
+    "09-09-12-03": "email: 00_inbox myjob/aos vuote (cron ancora disabled). aos input/: stessi 3 PDF gia' segnalati (07+08/09), nessun cambiamento. HEARTBEAT_OK.",
+    "09-09-18-03": "email: nessun file nuovo da 08/09 in myjob/aos (cron disabled, non insisto). aos input/: stessi 3 PDF in attesa permesso OCR, nessun cambiamento. calendar/oauth: skip. weather: cron dedicati. HEARTBEAT_OK."
   }
 }
