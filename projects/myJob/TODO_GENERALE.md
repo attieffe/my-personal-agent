@@ -78,7 +78,7 @@
 ### freelance - agenzia - sinapps 
 
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi [[FREELANCE/SINAPPS/SINAPPS_INDEX]]
- - [ ] Sinapps / Nanosilk: pubblicre aggiornamenti con colonna spedizione
+ - [x] Sinapps / Nanosilk: pubblicre aggiornamenti con colonna spedizione
 ### [freelance · diretto · studio paladini]
 
 ### [freelance · diretto · unioncucine]
