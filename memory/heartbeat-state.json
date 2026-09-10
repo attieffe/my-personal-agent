@@ -17,6 +17,7 @@
   },
   "checks": {
     "10-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Nessun check aggiuntivo. HEARTBEAT_OK.",
-    "10-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Riparato heartbeat-state.json (JSON malformato). Stato invariato. HEARTBEAT_OK."
+    "10-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Riparato heartbeat-state.json (JSON malformato). Stato invariato. HEARTBEAT_OK.",
+    "10-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, reminder 2x gia' inviati: non insistere). HEARTBEAT_OK."
   }
 }
