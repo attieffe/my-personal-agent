@@ -22,6 +22,7 @@
     "11-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Nessun check aggiuntivo. HEARTBEAT_OK.",
     "11-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, reminder 2x gia' inviati: non insistere; aos risolto). HEARTBEAT_OK.",
     "11-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). HEARTBEAT_OK.",
-    "11-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). HEARTBEAT_OK."
+    "11-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). HEARTBEAT_OK.",
+    "11-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Sera: nessun check aggiuntivo. HEARTBEAT_OK."
   }
 }
