@@ -14,6 +14,7 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 ### Cron — Timeout agentTurn
 - Job cron `agentTurn` che fanno chiamate al modello/web_fetch: timeout **generoso** (300s+)
 - **Caso 2026-09-02/03**: meteo 7:30 con timeout 60s → 2 timeout → auto-retry → doppio messaggio + errori in chat. Fix: 60→300s
+- **Ricaduta 2026-09-07**: meteo Sab-Dom 8:30 stesso pattern (60s → 3 retry falliti). Fix: 60→240s. Entrambi i job meteo ora ≥240s
 - Stesso pattern "TODO scadenze light": timeout 20s → 120s
 - Job `systemEvent` su main session: ~10-30ms, nessun rischio timeout
 - Sintomo tipico: messaggi doppi + notifiche errore = run scaduto che completa comunque in background + retry riuscito
@@ -33,6 +34,11 @@ Per progetti specifici → vedi [progetti.md](progetti.md)
 ### Sicurezza Operativa
 - **MAI azioni distruttive** senza permesso esplicito
 - `trash` > `rm` (recoverable beats gone forever)
+
+### Sicurezza Git — Segreti nei link firmati
+- **2026-09-07**: push bloccato da GitHub Push Protection — "Tencent Cloud Secret ID" nel preview email (fattura Z.ai): i parametri `q-ak` di link COS firmati contengono credenziali
+- Link firmati ricorrenti (query-string con token): fatture Z.ai mensili, cloud storage → **mai incollarli integri nei file tracciati da git**
+- `.eml` non tracciati (gitignore) OK; i file `.md` di preview vanno sanitizzati — TODO prevenzione attivo in [[projects/myJob/TODO_GENERALE]]
 
 ### ⭐ File Esistenti — LEGGI PRIMA DI CREARE
 **REGOLA ASSOLUTA:** Prima di creare **qualsiasi** file `.md`:
@@ -274,4 +280,4 @@ Durante heartbeats periodici:
 
 ---
 
-_Ultimo aggiornamento: 2026-09-06 (ripristinato da MEMORY.md.old + lezioni 01-06/09)_
+_Ultimo aggiornamento: 2026-09-12 (consolidate lezioni 07/09: timeout meteo sab-dom, segreti nei link firmati)_

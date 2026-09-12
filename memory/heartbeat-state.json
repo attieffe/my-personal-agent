@@ -4,9 +4,9 @@
     "calendar": 1788451380,
     "weather": 1788759000,
     "projects": 1788419100,
-    "memory": 1788691380
+    "memory": 1789196775
   },
-  "lastHeartbeat": 1789142580,
+  "lastHeartbeat": 1789196775,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati (nessun nuovo fetch, cron disabilitati; ultima mail aos msg_5 16:04 gia' gestita/signalata). Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -23,6 +23,7 @@
     "11-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, reminder 2x gia' inviati: non insistere; aos risolto). HEARTBEAT_OK.",
     "11-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). HEARTBEAT_OK.",
     "11-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). HEARTBEAT_OK.",
-    "11-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Sera: nessun check aggiuntivo. HEARTBEAT_OK."
+    "11-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Sera: nessun check aggiuntivo. HEARTBEAT_OK.",
+    "12-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Manutenzione memoria (ultima 06/09): consolidate lezioni 07/09 in MEMORY.md (ricaduta timeout meteo sab-dom 240s; nuova lezione segreti nei link firmati/GitHub Push Protection). Registrato TODO prevenzione sanitizzazione query-string in TODO_GENERALE.md [infrastruttura]. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK."
   }
 }

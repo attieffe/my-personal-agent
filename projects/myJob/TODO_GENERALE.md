@@ -63,6 +63,7 @@
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
 
 ### [personale · infrastruttura · backup]
+- [ ] email-ingestion: sanitizzare query-string URL nei preview (link firmati con credenziali, es. fatture Z.ai) — push bloccato da GitHub Push Protection il 07/09/2026 → [[projects/email-ingestion/_system/FLOW]]
 - [x] Verifica backup NAS / OpenClaw / INTV
 - [x] [Bug #85314](https://github.com/openclaw/openclaw/issues/85314) — Telegram DM replies silently dropped — **CLOSED**
 
