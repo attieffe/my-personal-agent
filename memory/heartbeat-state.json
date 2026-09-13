@@ -6,7 +6,7 @@
     "projects": 1788419100,
     "memory": 1789196775
   },
-  "lastHeartbeat": 1789196775,
+  "lastHeartbeat": 1789283017,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati (nessun nuovo fetch, cron disabilitati; ultima mail aos msg_5 16:04 gia' gestita/signalata). Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -16,17 +16,11 @@
     "aos-pending": "RISOLTO 09/09 22:03: cartella input/ non esiste piu', i 3 PDF segnalati (Fattura V112069139 + Invoice INV-9691595 + Receipt RCPT-9691595) non sono piu' presenti nell'albero aos (nessun PDF >06/09, archive solo .eml vecchi). Gestiti/rimossi esternamente."
   },
   "checks": {
-    "10-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Nessun check aggiuntivo. HEARTBEAT_OK.",
-    "10-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Riparato heartbeat-state.json (JSON malformato). Stato invariato. HEARTBEAT_OK.",
-    "10-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, reminder 2x gia' inviati: non insistere). HEARTBEAT_OK.",
-    "11-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Nessun check aggiuntivo. HEARTBEAT_OK.",
-    "11-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, reminder 2x gia' inviati: non insistere; aos risolto). HEARTBEAT_OK.",
-    "11-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). HEARTBEAT_OK.",
-    "11-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). HEARTBEAT_OK.",
     "11-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Sera: nessun check aggiuntivo. HEARTBEAT_OK.",
     "12-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Manutenzione memoria (ultima 06/09): consolidate lezioni 07/09 in MEMORY.md (ricaduta timeout meteo sab-dom 240s; nuova lezione segreti nei link firmati/GitHub Push Protection). Registrato TODO prevenzione sanitizzazione query-string in TODO_GENERALE.md [infrastruttura]. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
     "12-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato pomeriggio: nessun check aggiuntivo (meteo gestito da cron dedicati, calendario non configurato). Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
     "12-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: nessun check aggiuntivo. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
-    "12-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: nessun check aggiuntivo. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK."
+    "12-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: nessun check aggiuntivo. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
+    "13-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica mattina: nessun check aggiuntivo (meteo via cron dedicati, calendario non configurato). Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK."
   }
 }
