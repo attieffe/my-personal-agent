@@ -21,6 +21,7 @@
     "12-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato pomeriggio: nessun check aggiuntivo (meteo gestito da cron dedicati, calendario non configurato). Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
     "12-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: nessun check aggiuntivo. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
     "12-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: nessun check aggiuntivo. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
-    "13-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica mattina: nessun check aggiuntivo (meteo via cron dedicati, calendario non configurato). Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK."
+    "13-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica mattina: nessun check aggiuntivo (meteo via cron dedicati, calendario non configurato). Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
+    "13-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica sera: nessun check aggiuntivo. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK."
   }
 }
