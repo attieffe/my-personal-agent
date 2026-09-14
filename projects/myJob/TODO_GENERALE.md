@@ -75,15 +75,23 @@
 
 ### [freelance · agenzia · get me digital]
 
+### freelance - rizzi
+- [ ] fare check di censimento dati e test
+### freelance - ballabio
+
+- [ ] problema giacomo PC connettersi er guardare log
+
 
 ### freelance - agenzia - sinapps 
 
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi [[FREELANCE/SINAPPS/SINAPPS_INDEX]]
  - [x] Sinapps / Nanosilk: pubblicre aggiornamenti con colonna spedizione
+ - [ ] problemi segnalati 10/09/26 da Andrea migliavacca OVERCUT
+	 - [ ] oridni doppi, rileggere bene messaggio
 ### [freelance · diretto · studio paladini]
 
 ### [freelance · diretto · unioncucine]
-- [ ] Aggiungere turni per CORNAREDO scadenza 01/09/2026
+- [ ] Aggiungere turni per CORNAREDO scadenza 15/09/2026
 ### [freelance · diretto · silvia migliaccio]
 - [x] Silvia Migliaccio: caricare cookie & privacy policy su WP (plugin Complianz confermato, policy già pronta) [scade 2026-05-31]
 	- [ ] inglese fatto
