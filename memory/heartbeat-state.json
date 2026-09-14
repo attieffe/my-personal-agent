@@ -16,6 +16,7 @@
     "aos-pending": "RISOLTO 09/09 22:03: cartella input/ non esiste piu', i 3 PDF segnalati (Fattura V112069139 + Invoice INV-9691595 + Receipt RCPT-9691595) non sono piu' presenti nell'albero aos (nessun PDF >06/09, archive solo .eml vecchi). Gestiti/rimossi esternamente."
   },
   "checks": {
+    "14-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' mattina: nessun check aggiuntivo (meteo via cron dedicati, calendario non configurato). Manutenzione memoria 12/09, non dovuta. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
     "11-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Stato invariato (cron email disabled in attesa decisione Atti, aos risolto). Sera: nessun check aggiuntivo. HEARTBEAT_OK.",
     "12-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Manutenzione memoria (ultima 06/09): consolidate lezioni 07/09 in MEMORY.md (ricaduta timeout meteo sab-dom 240s; nuova lezione segreti nei link firmati/GitHub Push Protection). Registrato TODO prevenzione sanitizzazione query-string in TODO_GENERALE.md [infrastruttura]. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
     "12-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato pomeriggio: nessun check aggiuntivo (meteo gestito da cron dedicati, calendario non configurato). Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
