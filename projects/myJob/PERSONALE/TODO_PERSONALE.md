@@ -11,6 +11,7 @@ Hub dei task personali di Attilio. Per dettagli vedere le sottocartelle.
   - Quantità: **40,01 L** · Totale: **€72,38**
   - Pagamento: Visa/Revolut
   - Numero scontrino: **255720** · Punto vendita: **1241**
+- [ ] **Controlink Pleiadis** — riferimenti per il check di Alessandro (stato, ordini già acquisiti, FBA): → [[TEAM/Alessandro_TODO]]
 - [ ] **Chiedere a Cristia Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
 - [ ] Fare documenti per cittadinanza francese bambini — prerequisito: ottenere prima atto di matrimonio di Attilio e Chiara
 
