@@ -6,7 +6,7 @@
     "projects": 1788419100,
     "memory": 1789526580
   },
-  "lastHeartbeat": 1789401780015,
+  "lastHeartbeat": 1789488211743,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati (nessun nuovo fetch, cron disabilitati; ultima mail aos msg_5 16:04 gia' gestita/signalata). Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -20,6 +20,7 @@
     "14-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' mattina: nessun check aggiuntivo (meteo via cron dedicati, calendario non configurato). Manutenzione memoria 12/09, non dovuta. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
     "14-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' pomeriggio: nessun check aggiuntivo (meteo via cron dedicati, calendario non configurato). Manutenzione memoria 12/09, non dovuta. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
     "14-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' sera: nessun check aggiuntivo. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto; memoria ok 12/09). HEARTBEAT_OK.",
-    "15-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Martedi' mattina: verificato che non ci sono daily memory file dopo 07/09 e nessun evento significativo dal 12/09 -> manutenzione MEMORY.md non necessaria. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK."
+    "15-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Martedi' mattina: verificato che non ci sono daily memory file dopo 07/09 e nessun evento significativo dal 12/09 -> manutenzione MEMORY.md non necessaria. Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK.",
+    "15-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Martedi' sera: nessun check aggiuntivo (meteo via cron dedicati, calendario non configurato, manutenzione memoria 12/09 non dovuta). Stato invariato (cron email disabled in attesa decisione Atti: non insistere; aos risolto). HEARTBEAT_OK."
   }
 }
