@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/TODO_GENERALE.md",
+                "file": "projects/myJob/FREELANCE/DIRETTI/Davide_Rizzi/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO_GENERALE"
+              "title": "README"
             }
           }
         ]
@@ -185,9 +185,10 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "d2add8721c4c5b31",
+  "active": "84d51d08d43903ca",
   "lastOpenFiles": [
     "memory/~syncthing~heartbeat-state.json.tmp",
+    "projects/myJob/TODO_GENERALE.md",
     "projects/myJob/PERSONALE/~syncthing~TODO_PERSONALE.md.tmp",
     "projects/myJob/FREELANCE/SINAPPS/PROGETTI/PROJ-Sinapps-overcut/20260908 Call plugin chamevo.md",
     "projects/myJob/PERSONALE/lavori_a_casa/procedure e documentazione interne/Backup.md",
@@ -201,14 +202,12 @@
     "projects/archiviazione-ottica-documenti/input/Receipt-RCPT-9691595-202609-0001.pdf",
     "projects/archiviazione-ottica-documenti/input/Invoice-INV-9691595-202609-0001.pdf",
     "projects/archiviazione-ottica-documenti/input/~syncthing~Receipt-RCPT-9691595-202609-0001.pdf.tmp",
-    "projects/archiviazione-ottica-documenti/input/~syncthing~Invoice-INV-9691595-202609-0001.pdf.tmp",
     "memory/2026-09-07.md",
     "memory/2026-09-07-1645.md",
     "memory/2026-09-07-0903.md",
     "memory/2026-09-03.md",
     "memory/2026-09-03-0739.md",
     "memory/2026-09-02-1220.md",
-    "projects/myJob/TODO_GENERALE.md",
     "memory/2026-08-31.md",
     "memory/2026-08-30-1209.md",
     "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/2026.md",

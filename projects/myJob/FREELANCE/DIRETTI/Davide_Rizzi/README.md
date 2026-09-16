@@ -53,6 +53,11 @@
 - [ ] 10/7/2026 aggiungere a video in acquisto
 - [ ] 10/7/2026 sistemare calcolo taglio: regola → **in lunghezza non si taglia mai**
 - [ ] 10/7/2026 stampa dedicata per fasce per ordine
+- [ ] 16/9/2026 
+	- [ ] ord 262296
+		- [ ] art A004539 Fascia - Dis.Capitoné H 30 - Microfibra Beige Fiori + Imb. 260 Gr. + Supp. Microfibra - Ml. 33 a Rotolo 
+			- [ ] ottenere 66 pz
+			- [ ] proposto taglio da 16,5 del A004795
 
 ## Note
 -
