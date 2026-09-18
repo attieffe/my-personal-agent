@@ -1,0 +1,24 @@
+## Moneyviz
+- Import conti:
+	- importato degiro secondo tutorial
+	- revolut crypto
+	- binance
+	- etoro
+	- exodus:
+		- esportati i vari portafogli wallet
+		- importiati uno ad uno in ptf diversi
+- Stato finale:
+	- 8 ptf
+		- etoro
+		- degiro
+		- reovlut
+		- binance
+		- bitcoin1 xpub6CubvwZ72LQDHU9ZdBc1ot6dBX1Dkvm85wF83s9qET7bQ2cTVAQVhyjhQRBMYnEnwqC9hYn5TwAF9jYLHZNNdvzjF2ak6xHfagmLQ1Gap3a
+		- bitcoin2 zpub6rdQ73WZpUCzda8rGPcFGkCyP5nF8Abx9QEDhRTXpGxWtG46juz58gXxEir2884SCmK7JXRF6ZqQHCRHttVProEU2RyhYZkjo1udRvPB6hL
+		- bsc 0x2606Fe5C2FB79713c5D34a648c5be5942C78fc0D
+		- tron TGVmm8x49PGsY5pdzc5aP8wG2ESJUMjAWp
+- Problemi:
+	- alcuni blocchi import transazioni
+		- ho dovuto cancellare i PTF vuoti che c'erano in EXODUS
+	- Prima del Precomiplato
+		- 1 prelievi da verificare: generano plusvalenze per 42,52 €
