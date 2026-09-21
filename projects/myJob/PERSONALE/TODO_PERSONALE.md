@@ -12,6 +12,8 @@ Hub dei task personali di Attilio. Per dettagli vedere le sottocartelle.
   - Pagamento: Visa/Revolut
   - Numero scontrino: **255720** · Punto vendita: **1241**
 - [ ] **Controlink Pleiadis** — riferimenti per il check di Alessandro (stato, ordini già acquisiti, FBA): → [[TEAM/Alessandro_TODO]]
+- [ ] **UnionCucine — avviare sviluppo Cornaredo** — scadenza: **venerdì 25/09/2026** [aggiunto 2026-09-21] → vedi [[FREELANCE/DIRETTI/Unioncucine/README|dossier UnionCucine]]
+- [ ] **Pagare assicurazione** — scadenza: **martedì 22/09/2026** [aggiunto 2026-09-21]
 - [ ] **Chiedere a Cristia Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
 - [ ] Fare documenti per cittadinanza francese bambini — prerequisito: ottenere prima atto di matrimonio di Attilio e Chiara
 

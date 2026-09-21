@@ -35,6 +35,8 @@
 	- [ ] Trasmettere XML  ISA per dichiarazione redditi 
 
 
+- [ ] **Pagare assicurazione** — scadenza: **martedì 22/09/2026** [aggiunta 2026-09-21]
+
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini 
 	- [x] Copia integrale atto di nascita del bambino Alessandro => Richiesto tramite serivzi online SPID 04/06/2026
@@ -91,6 +93,7 @@
 ### [freelance · diretto · studio paladini]
 
 ### [freelance · diretto · unioncucine]
+- [ ] **Avviare sviluppo Cornaredo (UnionCucine)** — scadenza: **venerdì 25/09/2026** [aggiunta 2026-09-21] → vedi [[FREELANCE/DIRETTI/Unioncucine/README|dossier UnionCucine]]
 - [ ] Aggiungere turni per CORNAREDO scadenza 15/09/2026
 ### [freelance · diretto · silvia migliaccio]
 - [x] Silvia Migliaccio: caricare cookie & privacy policy su WP (plugin Complianz confermato, policy già pronta) [scade 2026-05-31]
