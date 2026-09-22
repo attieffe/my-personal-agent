@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/FISCO/PERSONALE/dichiarazioni_anno_2025.md",
+                "file": "projects/myJob/TODO_GENERALE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dichiarazioni_anno_2025"
+              "title": "TODO_GENERALE"
             }
           }
         ]
@@ -187,9 +187,9 @@
   },
   "active": "84d51d08d43903ca",
   "lastOpenFiles": [
+    "projects/myJob/FISCO/PERSONALE/dichiarazioni_anno_2025.md",
     "memory/~syncthing~heartbeat-state.json.tmp",
     "projects/myJob/TODO_GENERALE.md",
-    "projects/myJob/FISCO/PERSONALE/dichiarazioni_anno_2025.md",
     "projects/myJob/FISCO/PERSONALE",
     "projects/myJob/FISCO",
     "projects/myJob/WORKFLOWS.md",
