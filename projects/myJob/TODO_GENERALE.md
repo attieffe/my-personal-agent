@@ -98,6 +98,9 @@
 
 Quadrifoglio non mi hai scritto nulla, rimane attivo come ora? si toglie? attualmente è:
 	attivo da lun a ven, no sabato domenica, prenotazione giorno prima
+Primo e giornata: tutti i giorni. escluso sabato, si prenota entro giorno prima 16.30, tranne per la domenica che si prenota entro ven 12.00
+Secondo: solo sabato e domenica, prenotando entro ven alle 12
+Notte: solo sabato e domenica, prenotando entro ven alle 12
 ### [freelance · diretto · silvia migliaccio]
 - [x] Silvia Migliaccio: caricare cookie & privacy policy su WP (plugin Complianz confermato, policy già pronta) [scade 2026-05-31]
 	- [ ] inglese fatto
