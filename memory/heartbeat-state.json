@@ -7,7 +7,7 @@
     "memory": 1789765380,
     "heartbeat": 1790431380000
   },
-  "lastHeartbeat": 1789819380000,
+  "lastHeartbeat": 1790157780000,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati (nessun nuovo fetch, cron disabilitati; ultima mail aos msg_5 16:04 gia' gestita/signalata). Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -43,6 +43,7 @@
     "21-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' sera: verificato nuovo memory/2026-09-21-1709.md = solo riepilogo sessione meteo (nessun task). Nessun check aggiuntivo (memoria ok, meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK.",
     "21-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' tarda sera: nessun check aggiuntivo (memoria ok, meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK.",
     "22-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Martedi' mattina: verificato memory/ - nessun nuovo file dopo 21/09 (gia' revisionato ieri sera), manutenzione memoria non dovuta. Nessun check aggiuntivo (meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK.",
-    "23-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' mattina: revisione memoria - letto memory/2026-09-22.md (solo partita padel 22/09 21:30 + cron one-shot 5314dcaf reminder 21:00, gia' scaduto/fired: nessun task residuo, niente per MEMORY.md). Nessun check aggiuntivo (meteo via cron, calendario non configurato). File ricostruito: JSON era malformato (blocco checks orfano) - ora valido, tutte le voci preservate. Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK."
+    "23-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' mattina: revisione memoria - letto memory/2026-09-22.md (solo partita padel 22/09 21:30 + cron one-shot 5314dcaf reminder 21:00, gia' scaduto/fired: nessun task residuo, niente per MEMORY.md). Nessun check aggiuntivo (meteo via cron, calendario non configurato). File ricostruito: JSON era malformato (blocco checks orfano) - ora valido, tutte le voci preservate. Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK.",
+    "23-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' mezzogiorno: verificato memory/ - nessun nuovo file dopo 22/09 (revisionato stamattina 09:03), manutenzione memoria non dovuta. Nessun check aggiuntivo (meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK."
   }
 }
