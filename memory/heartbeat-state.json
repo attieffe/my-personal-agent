@@ -5,7 +5,7 @@
     "weather": 1788759000,
     "projects": 1788419100,
     "memory": 1789765380,
-    "heartbeat": 1790165013462
+    "heartbeat": 1790233380025
   },
   "lastHeartbeat": 1790193802000,
   "notes": {
@@ -24,6 +24,7 @@
     "23-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' mattina: revisione memoria - letto memory/2026-09-22.md (solo partita padel 22/09 21:30 + cron one-shot 5314dcaf reminder 21:00, gia' scaduto/fired: nessun task residuo, niente per MEMORY.md). Nessun check aggiuntivo (meteo via cron, calendario non configurato). File ricostruito: JSON era malformato (blocco checks orfano) - ora valido, tutte le voci preservate. Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK.",
     "23-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' mezzogiorno: verificato memory/ - nessun nuovo file dopo 22/09 (revisionato stamattina 09:03), manutenzione memoria non dovuta. Nessun check aggiuntivo (meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK.",
     "23-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' pomeriggio: nessun check aggiuntivo (memoria ok, revisionata stamattina 09:03, meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK.",
-    "23-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' sera: verificato memory/ - nessun nuovo file dopo 22/09 (revisionata stamattina 09:03), manutenzione memoria non dovuta. Nessun check aggiuntivo (meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK."
+    "23-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' sera: verificato memory/ - nessun nuovo file dopo 22/09 (revisionata stamattina 09:03), manutenzione memoria non dovuta. Nessun check aggiuntivo (meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK.",
+    "24-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' mattina: verificato memory/ - nessun nuovo file dopo 22/09 (revisionata ieri 09:03), manutenzione memoria non dovuta. Nessun check aggiuntivo (meteo via cron, calendario non configurato). Stato invariato (cron email disabled: non insistere; aos risolto; sanitizzazione preview pending da 16/09: non insistere). HEARTBEAT_OK."
   }
 }
