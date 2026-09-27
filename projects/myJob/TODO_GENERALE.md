@@ -40,6 +40,7 @@
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini 
 	- [ ] **NOTE PROCEDURA (verificate 27/09/2026)** — niente appuntamento per i bambini: la transcription degli atti di nascita si invia SOLO PER POSTA, gratuita, ad Ambassade de France à Rome — Service de l'état civil, Piazza Farnese 67, 00186 Roma. Dossier incompleto = respinto. Checklist: https://it.diplomatie.gouv.fr/files/it/files/Rome/Etat%20civil/naissance-moins-de-dixhuit-ans-maries-v2025.pdf — Serve: formulari compilati e firmati (firma originale), atto nascita bambino in copia integrale ORIGINALE (no estratto per riassunto/certificato, no copie digitali), giustificativo nazionalità francese del padre: CNI o passaporto FRANCESE in corso di validità (oppure CNF, o atto nascita con menzione nazionalità) + fotocopia documento identità IN CORSO DI VALIDITÀ di ENTRAMBI i genitori (per il documento d'identità è ok anche la CNI italiana — l'esclusione «pas de carte d'identité italienne» vale SOLO per il giustificativo di nazionalità, che resta necessario a parte). Se manca il livret de famille français (caso nostro, matrimonio non ancora trascritto): aggiungere atto di matrimonio recente <3 mesi + atti di nascita integrale di ENTRAMBI i genitori <3 mesi. Nessuna apostille/traduzione richiesta per documenti italiani.
+	- [ ] ⚠️ **RI-RICHIESTE CARTACEE** (atti ricevuti in PDF digitale NON accettati dal consolato): Ale + Alice → chiedere ora in cartaceo (nessun vincolo <3 mesi per loro); Chiara + atto matrimonio Corbetta + atto Attilio francese → richiedere a inizio ottobre 2026 in cartaceo (vincolo <3 mesi alla spedizione). Formula da usare: «copia integrale su carta, timbro e firma originali, consegna cartacea»
 	- [x] Copia integrale atto di nascita del bambino Alessandro => Richiesto tramite serivzi online SPID 04/06/2026
 	- [x] Copia integrale atto di nascita del bambino Alice => Richiesto tramite email il 05/06/2026
 	- [x] Copia atto di nascita integrale Francese
@@ -58,7 +59,8 @@
 	- [x] Atto di nascita integrale Chiara => OK [confermato da Atti 27/09/2026]
 	- [x] Passaporto attilio fronte retro
 	- [x] Documento identità moglie fronte/retro
-	- [ ] Formulario https://it.diplomatie.gouv.fr/files/it/files/Rome/transcription_mariage_nulla_osta_1_ans_ou_pas_de_no_v2025_1.pdf
+	- [ ] Formulario https://it.diplomatie.gouv.fr/files/it/files/Rome/transcription_mariage_nulla_osta_1_ans_ou_pas_de_no_v2025_1.pdf — stampare, compilare e firmare A MANO
+	- [ ] ⚠️ REGOLA DOCUMENTI DOSSIER ROMA: gli ATTI (matrimonio, nascita genitori, nascita bambini) vanno in copia integrale CARTACEA con timbro e firma ORIGINALI del comune — NO fotocopie, NO PDF firmati digitalmente, NO stampe da email (espressamente rifiutati). Fotocopie ok SOLO per documenti d'identità e CNF. Gli atti originali inviati NON vengono restituiti (vengono archiviati dallo Stato civile francese)
 	- [ ] Livret de famille
 
 ### [personale · automobili]
