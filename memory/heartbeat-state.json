@@ -5,9 +5,9 @@
     "weather": 1788759000,
     "projects": 1788419100,
     "memory": 1789765380,
-    "heartbeat": 1790452980022
+    "heartbeat": 1790539380000
   },
-  "lastHeartbeat": 1790452980022,
+  "lastHeartbeat": 1790539380000,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati. Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -19,6 +19,7 @@
   "checks": {
     "27-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica mezzogiorno: nessun check dovuto (stato invariato rispetto 09:03). HEARTBEAT_OK.",
     "27-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica mattina: nessun check dovuto (memory 24/09, meteo via cron, calendario non configurato, cron email disabled). Stato invariato. HEARTBEAT_OK.",
-    "26-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: nessun check dovuto (memory revisionata 24/09, meteo via cron 8:30, calendario non configurato, cron email disabled: non insistere). Stato invariato. HEARTBEAT_OK."
+    "26-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: nessun check dovuto (memory revisionata 24/09, meteo via cron 8:30, calendario non configurato, cron email disabled: non insistere). Stato invariato. HEARTBEAT_OK.",
+    "27-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica sera: nessun check dovuto, stato invariato rispetto ai check di stamattina. HEARTBEAT_OK."
   }
 }
