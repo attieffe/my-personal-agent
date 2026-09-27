@@ -35,10 +35,11 @@
 	- [ ] Trasmettere XML  ISA per dichiarazione redditi 
 
 
-- [ ] **Pagare assicurazione** — scadenza: **martedì 22/09/2026** [aggiunta 2026-09-21]
+- [x] **Pagare assicurazione** — scadenza: **martedì 22/09/2026** [aggiunta 2026-09-21]
 
 ### [personale · famiglia · documenti]
 - [ ] Fare documenti per cittadinanza francese bambini 
+	- [ ] **NOTE PROCEDURA (verificate 27/09/2026)** — niente appuntamento per i bambini: la transcription degli atti di nascita si invia SOLO PER POSTA, gratuita, ad Ambassade de France à Rome — Service de l'état civil, Piazza Farnese 67, 00186 Roma. Dossier incompleto = respinto. Checklist: https://it.diplomatie.gouv.fr/files/it/files/Rome/Etat%20civil/naissance-moins-de-dixhuit-ans-maries-v2025.pdf — Serve: formulari compilati e firmati (firma originale), atto nascita bambino in copia integrale ORIGINALE (no estratto per riassunto/certificato, no copie digitali), giustificativo nazionalità francese del padre: CNI o passaporto FRANCESE in corso di validità (oppure CNF, o atto nascita con menzione nazionalità) + fotocopia documento identità IN CORSO DI VALIDITÀ di ENTRAMBI i genitori. Se manca il livret de famille français (caso nostro, matrimonio non ancora trascritto): aggiungere atto di matrimonio recente <3 mesi + atti di nascita integrale di ENTRAMBI i genitori <3 mesi. Nessuna apostille/traduzione richiesta per documenti italiani.
 	- [x] Copia integrale atto di nascita del bambino Alessandro => Richiesto tramite serivzi online SPID 04/06/2026
 	- [x] Copia integrale atto di nascita del bambino Alice => Richiesto tramite email il 05/06/2026
 	- [x] Copia atto di nascita integrale Francese
@@ -51,9 +52,9 @@
 	- [ ] **Modulo pre-domanda CNI** — compilare online su: [https://predemande-cni.ants.gouv.fr](https://predemande-cni.ants.gouv.fr/) prima dell'appuntamento (genera un numero di pre-domanda da portare stampato)
 	- [ ] https://consulat.gouv.fr/consulat-general-de-france-a-milan/rendez-vous Fissare appuntamento
 - [ ] Registrare atto di matrimonio in francia
-	- [x] Atto matrimonio: richiesto a comune di corbetta 04/06/2026 via email
+	- [x] Atto matrimonio: richiesto a comune di corbetta 04/06/2026 via email — ⚠️ verificare ricezione; per il dossier serve copia integrale <3 mesi al momento della spedizione
 	- [x] Atto di nascita integrale Attilio Francese => OK
-	- [ ] Atto di nascita integrale Chiara => Da richiedere al Comune di Mariano Comense
+	- [x] Atto di nascita integrale Chiara => OK [confermato da Atti 27/09/2026]
 	- [x] Passaporto attilio fronte retro
 	- [x] Documento identità moglie fronte/retro
 	- [ ] Formulario https://it.diplomatie.gouv.fr/files/it/files/Rome/transcription_mariage_nulla_osta_1_ans_ou_pas_de_no_v2025_1.pdf

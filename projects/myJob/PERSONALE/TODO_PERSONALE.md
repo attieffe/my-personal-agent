@@ -15,7 +15,7 @@ Hub dei task personali di Attilio. Per dettagli vedere le sottocartelle.
 - [ ] **UnionCucine — avviare sviluppo Cornaredo** — scadenza: **venerdì 25/09/2026** [aggiunto 2026-09-21] → vedi [[FREELANCE/DIRETTI/Unioncucine/README|dossier UnionCucine]]
 - [ ] **Pagare assicurazione** — scadenza: **martedì 22/09/2026** [aggiunto 2026-09-21]
 - [ ] **Chiedere a Cristia Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
-- [ ] Fare documenti per cittadinanza francese bambini — prerequisito: ottenere prima atto di matrimonio di Attilio e Chiara
+- [ ] Fare documenti per cittadinanza francese bambini — prerequisiti reali: documento francese VALIDO + transcription matrimonio (per il livret de famille). Dossier bambini: SOLO PER POSTA a Roma (no appuntamento) — dettagli in TODO_GENERALE [agg. 27/09/2026]
 
 - [ ] Prenotare attività ludica regalata dal fratello per il compleanno — da verificare sito nelle email
 - [ ] Prenotare cinema — scadenza: **18 giugno 2026**
