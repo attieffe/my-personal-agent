@@ -65,6 +65,36 @@ _da aggiungere_
 - **Modello completo:** Daikin Serie N
 - **Note:** Modello/seriale da aggiungere
 
+### Piano induzione AEG HKI85416IB
+- **Luogo:** Casa Seregno
+- **Posizione:** Cucina
+- **Tipologia:** Piano a induzione
+- **Modello completo:** AEG HKI85416IB
+- **Typ:** 60 GBD CB AT
+- **PNC:** 949 597 039 01
+- **Seriale:** da verificare sulla targhetta dell'apparecchio (nel manuale non compilato)
+- **Potenza:** 7.2 kW
+- **Alimentazione:** 220-240 V, 50-60 Hz
+- **Produzione:** Made in Germany
+- **Fonte dati:** pagina "9. TECHNICAL DATA — Rating plate" del manuale (2026-09-29)
+- **Note:** —
+
+### Lavastoviglie AEG (modello da confermare)
+- **Luogo:** Casa Seregno
+- **Posizione:** Cucina
+- **Tipologia:** Lavastoviglie
+- **Marca:** AEG
+- **Modello / PNC / Seriale:** ❗ da leggere sulla targhetta del manubrio o lato interno porta — lo screen inviato contiene solo la sezione "13. Dati tecnici" del manuale
+- **Dati tecnici (dal manuale):**
+  - Dimensioni L/A/P: 596 / 818-898 / 550 mm
+  - Capacità: 13 coperti
+  - Tensione: 200-240 V, 50/60 Hz
+  - Pressione acqua: min 0.5 bar / max 8 bar
+  - Collegamento acqua: fredda o calda (max 60°C)
+  - Consumo modalità acceso: 5.0 W — spento: 0.10 W
+- **Fonte dati:** pagina "13. DATI TECNICI" del manuale (2026-09-29)
+- **Note:** —
+
 ### Caldaia Beretta Meteo Green E 25
 - **Luogo:** Casa Seregno
 - **Tipologia:** Caldaia / impianto termico
