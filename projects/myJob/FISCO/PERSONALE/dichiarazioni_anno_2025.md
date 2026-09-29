@@ -20,5 +20,10 @@
 - Problemi:
 	- alcuni blocchi import transazioni
 		- ho dovuto cancellare i PTF vuoti che c'erano in EXODUS
-	- Prima del Precomiplato
-		- 1 prelievi da verificare: generano plusvalenze per 42,52 €
+	- Prima del Precompilato
+		- ~~1 prelievi da verificare: generano plusvalenze per 42,52 €~~
+			- ✅ VERIFICATO 2026-09-29: erano prelievi, non plusvalenze (verifica veloce fatta in data odierna) — chiuso
+- Pacchetto MoneyViz (2026-09-29):
+	- acquistato pacchetto CRYPTO base: 53 €
+	- pacchetto tax per DEGIRO in regalo (chiesto sconto come fatto anno scorso)
+	- ⏳ in attesa del loro OK per sbloccare il pacchetto (atteso in data odierna)
