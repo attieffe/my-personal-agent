@@ -35,8 +35,7 @@
               "title": "dispositivi_in_possesso"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,8 +200,9 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "453f0706dbadaebc",
+  "active": "84d51d08d43903ca",
   "lastOpenFiles": [
+    "projects/myJob/PERSONALE/casa/dispositivi_in_possesso.md",
     "projects/myJob/TODO_GENERALE.md",
     "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
     "projects/myJob/PERSONALE/~syncthing~TODO_PERSONALE.md.tmp",
