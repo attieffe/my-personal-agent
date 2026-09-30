@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/TODO_GENERALE.md",
+                "file": "projects/myJob/PERSONALE/casa/dispositivi_in_possesso.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO_GENERALE"
+              "title": "dispositivi_in_possesso"
             }
           }
         ],
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "induzione",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "title": "Segnalibri"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -202,11 +203,11 @@
   },
   "active": "453f0706dbadaebc",
   "lastOpenFiles": [
+    "projects/myJob/TODO_GENERALE.md",
     "projects/myJob/~syncthing~TODO_GENERALE.md.tmp",
     "projects/myJob/PERSONALE/~syncthing~TODO_PERSONALE.md.tmp",
     "progetti.md",
     "projects/myJob/FREELANCE/DIRETTI/Unioncucine/README.md",
-    "projects/myJob/TODO_GENERALE.md",
     "projects/myJob/FISCO/PERSONALE/dichiarazioni_anno_2025.md",
     "memory/~syncthing~heartbeat-state.json.tmp",
     "projects/myJob/FISCO/PERSONALE",
@@ -224,7 +225,6 @@
     "projects/email-ingestion/inboxes/aos/01_to-be-defined/~syncthing~INDEX.md.tmp",
     "projects/email-ingestion/inboxes/aos/01_to-be-defined/~syncthing~msg_5_20260907_160410.md.tmp",
     "projects/email-ingestion/inboxes/aos/01_to-be-defined",
-    "projects/archiviazione-ottica-documenti/input/Receipt-RCPT-9691595-202609-0001.pdf",
     "memory/2026-09-07.md",
     "memory/2026-09-07-1645.md",
     "memory/2026-09-07-0903.md",
