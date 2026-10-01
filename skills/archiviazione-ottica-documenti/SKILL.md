@@ -49,6 +49,7 @@ NON duplicare script o regole: esegui sempre gli script del progetto. Se una reg
   - CERTIFICATI_SANITARI → `Atti/Documenti/Sanità/`
   - SPESE_MEDICHE → `Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno+1}x{anno}/`
   - INGENIO_SOLUTION → `Ingenio/DOCUMENTI FISCALI/{ANNO}/`
+  - RIMBORSO → `Ingenio/DOCUMENTI FISCALI/{ANNO}/RIMBORSI DA RICHIEDERE/` (spese personali di Atti con rimborso da richiedere a una società; quando Atti parla di "rimborso" o "rimborso da società" → questa categoria, NON INGENIO_SOLUTION)
   - AUTO → `Atti/Documenti/AUTO/{targa} {modello}/`
   - SCUOLA_BAMBINI → `Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno+1}x{anno}/Bambini/{figlio}/`
   - ALTRO → solo primaria

@@ -677,6 +677,18 @@ Log cronologico di ogni documento archiviato.
 - **Note:** Fattura acquisto Samsung Galaxy S25 FE per Ingenio Solution - 3 foto unite
 ---
 
+## 2026-10-01 10:39 — 20261001 Servizi NO-ip dynamic dns.pdf
+- **Categoria:** RIMBORSO
+- **Data documento:** 20261001
+- **Mittente:** NO-IP (inoltro Atti)
+- **File originale:** `invoice.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20261001 Servizi NO-ip dynamic dns.pdf` ✅
+  - `gdrive:Ingenio/DOCUMENTI FISCALI/2026/RIMBORSI DA RICHIEDERE/20261001 Servizi NO-ip dynamic dns.pdf` ✅
+
+- **Note:** Spesa personale servizi NO-IP dynamic dns — rimborso da richiedere a Ingenio Solution. Istruzioni nel testo della mail di inoltro.
+---
+
 <!-- Esempio di record:
 ## 2026-06-03 — 20260603 fattura medico rossi.pdf
 - **Data documento:** 2026-05-28

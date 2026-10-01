@@ -100,6 +100,11 @@ def build_destinations(analysis: dict) -> list[dict]:
             "path": f"Ingenio/DOCUMENTI FISCALI/{anno}",
             "filename": filename,
         })
+    elif categoria == "RIMBORSO":
+        destinations.append({
+            "path": f"Ingenio/DOCUMENTI FISCALI/{anno}/RIMBORSI DA RICHIEDERE",
+            "filename": filename,
+        })
 
     return destinations
 

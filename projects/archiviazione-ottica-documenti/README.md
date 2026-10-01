@@ -32,6 +32,7 @@ Destinazioni specifiche per categoria (in aggiunta alla primaria):
 - `BANCA` -> `gdrive:Atti/Documenti/Banche/{sottocartella}/{ANNO}/{YYYYMMDD} {titolo}.{ext}`
 - `CERTIFICATI_SANITARI` -> `gdrive:Atti/Documenti/Sanità/{YYYYMMDD} {titolo}.{ext}`
 - `INGENIO_SOLUTION` -> `gdrive:Ingenio/DOCUMENTI FISCALI/{ANNO}/{YYYYMMDD} {titolo}.{ext}`
+- `RIMBORSO` -> `gdrive:Ingenio/DOCUMENTI FISCALI/{ANNO}/RIMBORSI DA RICHIEDERE/{YYYYMMDD} {titolo}.{ext}` (spese personali di Atti con rimborso da richiedere a una società — NON sono spese dirette Ingenio; quando Atti menziona "rimborso" o "rimborso da società" usare questa categoria)
 - `SPESE_MEDICHE` -> `gdrive:Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno+1}x{anno}/{YYYYMMDD} {titolo}.{ext}`
 - `AUTO` -> `gdrive:Atti/Documenti/AUTO/{targa} {modello}/{YYYYMMDD} {titolo}.{ext}`
 - `SCUOLA_BAMBINI` -> `gdrive:Atti/Documenti/DICHIARAZIONE DEI REDDITI/{anno+1}x{anno}/Bambini/{figlio}/{YYYYMMDD} {titolo}.{ext}`
