@@ -64,6 +64,14 @@
 	- [ ] Livret de famille
 
 ### [personale · automobili]
+- [ ] **⚠️ URGENTE — Richiedere fattura Q8 (Kuwait Petroleum) per rifornimento** — scadenza: **venerdì 02/10/2026** [aggiunta 2026-10-01]
+	- Punto vendita: **Q8EASY 1241** — Servizi e Gestioni Italia srl · Via Milano 20, 20831 Seregno (MB)
+	- N. transazione/ticket: **61304** · SERC 300812701878006 · AUT VGCFJU
+	- Data rifornimento: **oggi 01/10/2026 ore 12:50** · pompa 1
+	- Totale: **€ 89,74** · **45,12 L** benzina Verde (€ 1,989/L)
+	- Pagamento: carta Revolut (PAN ••8922)
+	- Come richiederla: portale **q8.it** → area "Richiedi Fattura" (registrazione/login azienda o P.IVA, inserire dati scontrino)
+	- Scontrino archiviato: [[_attachments/static/scontrino-q8easy-1241-20261001.jpg]]
 
 ### [personale · casa · manutenzione]
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
