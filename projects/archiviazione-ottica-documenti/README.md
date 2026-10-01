@@ -53,6 +53,8 @@ Destinazioni specifiche per categoria (in aggiunta alla primaria):
 
 ## Note operative
 
+- Se il testo o l'oggetto della mail contiene già l'indicazione di Attilio (titolo e/o data), non serve OCR nemmeno per la data: le istruzioni di Atti nella mail vincono su tutto.
+
 - Conferma di Atti obbligatoria prima di copiare su Drive.
 - I casi dubbi restano `ALTRO`.
 - Le ricette senza importo non sono `SPESE_MEDICHE`.

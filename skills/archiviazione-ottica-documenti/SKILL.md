@@ -35,6 +35,7 @@ NON duplicare script o regole: esegui sempre gli script del progetto. Se una reg
 - **`--drive-shared-with-me` SEMPRE** in ogni comando rclone verso `gdrive:Atti/` o `gdrive:Ingenio/`. Senza flag il file finisce nel My Drive dell'account di servizio (errore già successo il 2026-08-21). Gli script del progetto lo includono già; per rclone manuale aggiungerlo a mano.
 - **Conferma di Atti obbligatoria** prima di ogni upload su Drive.
 - **Filename-first**: OCR/vision solo se filename ambiguo, categoria incerta, o su richiesta di Atti.
+- **Contesto email = fonte di naming**: se il testo/oggetto della mail contiene già l'indicazione di Attilio (titolo e/o data), NON serve OCR nemmeno per la data. Le indicazioni scritte da Atti nella mail vincono su tutto (2026-10-01).
 - **Mai cancellare originali**: si spostano in `90_processed/` (mai rm).
 - **Naming**: `YYYYMMDD titolo.ext`. La data già presente nel filename vince. Non rinominare "per estetica". Se Atti fornisce data e titolo espliciti, quelli vincono su tutto.
 - Ricette senza importo NON sono SPESE_MEDICHE (categoria CERTIFICATI_SANITARI o ALTRO).
