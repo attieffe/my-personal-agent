@@ -17,6 +17,7 @@
     "aos-pending": "RISOLTO 09/09 22:03: PDF segnalati non piu' presenti nell'albero aos."
   },
   "checks": {
+    "01-10-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' sera: stato invariato. HEARTBEAT_OK.",
     "01-10-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' sera: stato invariato. HEARTBEAT_OK.",
     "01-10-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' mezzogiorno: stato invariato. HEARTBEAT_OK.",
     "01-10-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' mattina: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
