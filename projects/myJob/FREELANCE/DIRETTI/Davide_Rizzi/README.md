@@ -42,7 +42,7 @@
 			
 - [ ] generazione impegni per prodotto diretto, prodotto lavorato, e lavorazione iterativa (taglio+produzione)
 - [ ] 16/6/2026 preparato script generazione impegni ma da affinare, il TIPO e RIFERIMENTI non sono impsotato, andrebbe creato ORDINE DI PRODUZIONE. E andrebbe fatto script che inizialmente SVUOTA GLI IMPEGNI e li ricrea tutti
-- [ ] 7/7/2026 adeguare script Cerca articoli per estire caso in cui articolo non esiste
+- [ ] 7/7/2026 adeguare script Cerca articoli per gestire caso in cui articolo non esiste
 - [ ] Su ana temp locale 261776 
 	- [ ] A005905
 	- [ ] A005906
@@ -58,6 +58,10 @@
 		- [ ] art A004539 Fascia - Dis.Capitoné H 30 - Microfibra Beige Fiori + Imb. 260 Gr. + Supp. Microfibra - Ml. 33 a Rotolo 
 			- [ ] ottenere 66 pz
 			- [ ] proposto taglio da 16,5 del A004795
+- [ ] 2/10/2026
+	- [ ] davide si è reso conto che su alcuni tagli, sopratutto piccoli senza la lunghezza della pezza il sistema non sa se fissare prima il nr di tagli e ricavarne la lunghezza oppure fissare la lunghezza (come la giacenza) e ricavare il nr di tagli. Per ora proviamo a proporre i prodotti compatibili senza fare il calcolo
+		- [ ] quale art proporre, meno scarto script "ottieni proposta taglio", riga 97
+		- [ ] 
 
 ## Note
 -
