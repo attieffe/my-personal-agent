@@ -64,7 +64,7 @@
 	- [ ] Livret de famille
 
 ### [personale · automobili]
-- [ ] **⚠️ URGENTE — Richiedere fattura Q8 (Kuwait Petroleum) per rifornimento** — scadenza: **venerdì 02/10/2026** [aggiunta 2026-10-01]
+- [x] **⚠️ URGENTE — Richiedere fattura Q8 (Kuwait Petroleum) per rifornimento** — scadenza: **venerdì 02/10/2026** [aggiunta 2026-10-01]
 	- Punto vendita: **Q8EASY 1241** — Servizi e Gestioni Italia srl · Via Milano 20, 20831 Seregno (MB)
 	- N. transazione/ticket: **61304** · SERC 300812701878006 · AUT VGCFJU
 	- Data rifornimento: **oggi 01/10/2026 ore 12:50** · pompa 1
@@ -77,7 +77,7 @@
 - [ ] Trovare soluzione per pulire pergola bioclimatica sporca — ipotesi: cercare in gruppi Facebook; vedi ricerca IAcopo (2026-06-04) [aggiunto 2026-06-04]
 
 ### [personale · infrastruttura · backup]
-- [ ] email-ingestion: sanitizzare query-string URL nei preview (link firmati con credenziali, es. fatture Z.ai) — push bloccato da GitHub Push Protection il 07/09/2026 → [[projects/email-ingestion/_system/FLOW]]
+- [x] email-ingestion: sanitizzare query-string URL nei preview (link firmati con credenziali, es. fatture Z.ai) — push bloccato da GitHub Push Protection il 07/09/2026 → [[projects/email-ingestion/_system/FLOW]]
 - [x] Verifica backup NAS / OpenClaw / INTV
 - [x] [Bug #85314](https://github.com/openclaw/openclaw/issues/85314) — Telegram DM replies silently dropped — **CLOSED**
 
@@ -90,7 +90,7 @@
 ### [freelance · agenzia · get me digital]
 
 ### freelance - rizzi
-- [ ] fare check di censimento dati e test
+- [ ] sistemare report sottoscorta produzione
 ### freelance - ballabio
 
 - [ ] problema giacomo PC connettersi er guardare log
@@ -100,12 +100,14 @@
 
 - [ ] Sinapps: sentire Viga per lista ambienti, caricamento, pulizia automatica log nei miei plugin — vedi [[FREELANCE/SINAPPS/SINAPPS_INDEX]]
  - [x] Sinapps / Nanosilk: pubblicre aggiornamenti con colonna spedizione
- - [ ] problemi segnalati 10/09/26 da Andrea migliavacca OVERCUT
-	 - [ ] oridni doppi, rileggere bene messaggio
+ - [x] problemi segnalati 10/09/26 da Andrea migliavacca OVERCUT
+	 - [x] oridni doppi, rileggere bene messaggio
 ### [freelance · diretto · studio paladini]
 
 ### [freelance · diretto · unioncucine]
 - [ ] **Avviare sviluppo Cornaredo (UnionCucine)** — scadenza: **venerdì 25/09/2026** [aggiunta 2026-09-21] → vedi [[FREELANCE/DIRETTI/Unioncucine/README|dossier UnionCucine]]
+	- [ ] fatto aggiungendo anche sede 02/10/2026
+	- [ ] attesa feedback su capire quali turni su cornaredo/turnisti
 
 
 ### [freelance · diretto · silvia migliaccio]
@@ -121,17 +123,16 @@
 	- [x] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
 
 ### [getmedigital - grillosaverio]
-- [x] grillosaverio.it attualmetne in gestoine terzi il dominio
-	- [x] chiedere DNS attuali a fornitore
-	- [x] spostare dominio a hostingsolution? (ricevere accessi da grillo)
-	- [x] creare hosting e migrarlo su nostro GMDCLOUD
-	- [x] https://pdc.hostingsolutions.it/MasterCP/MasterLogin.pl 
+
 - [ ] grillorent.it già registrato su aruba
 	- [ ] creare sito
 
 ### [ingenio · amministrazione]
 - [x] **Fare fatture** [scade 2026-06-02]
-- [ ] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
+- [x] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
+- [ ] Verifica quadri ISA
+- [ ] Chiudere dichiarazione Moneyviz
+- [ ] Decidere concordato preventivo biennale
 
 ---
 
