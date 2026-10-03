@@ -4,7 +4,7 @@
 
 ## 🛋️ Arredo casa
 
-- [ ] Materassi — vedi anche eventuali note/brand da decidere
+- [x] Materassi — vedi anche eventuali note/brand da decidere
 - [ ] Letto matrimoniale — da acquistare
 - [ ] Comodini — da valutare
 - [ ] Mobile soggiorno (Mondo Convenienza) — da decidere: altezza 90 o 138 cm, e di conseguenza la lunghezza

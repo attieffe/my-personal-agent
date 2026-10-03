@@ -4,26 +4,19 @@
     "calendar": 1788451380,
     "weather": 1788759000,
     "projects": 1788419100,
-    "memory": 1789765380,
-    "heartbeat": 1790683380020
+    "memory": 1791010980017,
+    "heartbeat": 1791010980017
   },
-  "lastHeartbeat": 1790769780020,
+  "lastHeartbeat": 1791010980017,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati. Nulla di nuovo. Reminder riattivazione cron: non insistere.",
     "weather": "Gestito da cron dedicati (Meteo Seregno 7:30 lun-ven / 8:30 sab-dom) - non serve check heartbeat",
     "cron-email": "Job email myJob (01d3cd46) e AOS (52ac6a54) disabled da ~21 ago. Due reminder inviati (06+07/09). NON insistere.",
-    "memory": "2026-09-06: MEMORY.md ripristinato da MEMORY.md.old + lezioni 01-06/09. Revisione recenti file: 24/09 (prossima non dovuta).",
+    "memory": "2026-10-03: revisione file 27/09-02/10 fatta. Aggiunto a MEMORY.md: sezione 'Pratiche Famiglia' (dossier CNI francese + regole atti Roma, MoneyViz stato 29/09). Prossima revisione non dovuta a breve.",
     "aos-pending": "RISOLTO 09/09 22:03: PDF segnalati non piu' presenti nell'albero aos."
   },
   "checks": {
-    "02-10-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Venerdi' sera: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
-    "02-10-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Venerdi' pomeriggio: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
-    "02-10-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Venerdi' mattina: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
-    "01-10-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' sera: stato invariato. HEARTBEAT_OK.",
-    "01-10-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' sera: stato invariato. HEARTBEAT_OK.",
-    "01-10-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' mezzogiorno: stato invariato. HEARTBEAT_OK.",
-    "01-10-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Giovedi' mattina: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
     "30-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' sera: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
     "30-09-14-03": "Stato invariato rispetto al check 09:03. HEARTBEAT_OK.",
     "30-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' mattina: meteo via cron 7:30, calendario non configurato, cron email disabled (non insistere), memory revisionata 24/09 non dovuta. Reminder foto+CNI schedulato per 5/10 8:30. Stato invariato. HEARTBEAT_OK.",
@@ -31,7 +24,6 @@
     "29-09-14-03": "Stato invariato rispetto al check 12:03. HEARTBEAT_OK.",
     "29-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Martedi' mattina: meteo via cron 7:30, calendario non configurato, cron email disabled (non insistere), memory revisionata 24/09 non dovuta. Stato invariato. HEARTBEAT_OK.",
     "28-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' pomeriggio: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). HEARTBEAT_OK.",
-    "28-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' mezzogiorno: stato invariato rispetto al check 09:03. HEARTBEAT_OK.",
-    "28-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' mattina: meteo via cron 7:30, calendario non configurato, cron email disabled (non insistere), memory revisionata 24/09 non dovuta. Reminder foto+CNI gia' schedulato per 5/10 8:30. Stato invariato. HEARTBEAT_OK."
+    "28-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' mezzogiorno: stato invariato rispetto al check 09:03. HEARTBEAT_OK."
   }
 }

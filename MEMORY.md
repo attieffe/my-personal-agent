@@ -256,6 +256,21 @@ Procedura:
 
 ---
 
+## 🏠 Pratiche Famiglia
+
+### Dossier Stato Civile Francese (attivo 09-10/2026)
+- **CNI rinnovo**: appuntamento mar **6/10/2026 ore 11:00** Consolato Milano · pre-domanda ANTS **WMQRZ8M1N5** · foto 35×45mm, sfondo grigio/azzurro chiaro, no sorriso (scadenza foto 5/10, reminder schedulato 5/10 8:30)
+- **Regole dossier (checklist 2025)**: atto nascita francese da solo NON prova nazionalità (serve menzione a margine o CNF) · CNI italiana vale solo come doc identità genitori, NON come giustificativo nazionalità · atti per Roma SOLO copie integrali cartacee ORIGINALI con timbro+firma (PDF firmati digitalmente rifiutati; gli atti non tornano indietro) · atti Chiara + matrimonio Corbetta + atto francese Atti: vincolo <3 mesi alla spedizione
+- Spedizione raccomandata: Ambassade de France à Rome — Service de l'état civil, Piazza Farnese 67, 00186 Roma
+- Dettagli operativi e scadenze in TODO_GENERALE (sezione carta identità francese)
+
+### MoneyViz (dichiarazione redditi, aggiornato 29/09)
+- Pacchetto CRYPTO base acquistato **53€** + tax DEGIRO in omaggio (sconto chiesto come 2025) · in attesa loro OK sblocco
+- Presunte "plusvalenze 42,52€" erano prelievi — verificato 29/09, punto chiuso
+- Dettagli wallet/xpub: FISCO/PERSONALE/dichiarazioni_anno_2025
+
+---
+
 ## 🔄 Manutenzione
 
 ### Quando Aggiornare Questo File
