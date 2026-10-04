@@ -38,6 +38,25 @@ Raccoglitore prezzi macelleria per organizzare le grigliate. Aggiornare ad ogni 
 
 ---
 
+## 🔥 Registro grigliate
+
+### 02/10/2026 — Fiorentina (4 persone)
+
+- **Carne:** Fiorentina scottona 1,1 kg (dalla spesa del 02/10, ore 18:17)
+- **Tempi:** 35–40 minuti per arrivare a **52 °C al cuore**
+- **Nota cottura:** volendo si poteva dare un po' di cottura in più per evitare qualche punto rosso, per chi non lo apprezza
+
+### 04/10/2026 — Grigliata (5 adulti + 2 bambini) — 🔄 in corso
+
+- **Barbecue acceso:** ore 8:30
+- **Carne:** 3 brick di costine su 4, messe verso le 8:40
+- **Setup:** Weber Spirit 3 fuochi, cottura indiretta — solo bruciatore sinistro a fuoco basso, target 130–140 °C
+  - 2 brick sottili sulla griglia rialzata
+  - 1 brick più cicciotto sul lato destro (zona più fredda)
+- _Aggiornamenti in arrivo durante la giornata_
+
+---
+
 ## Storicizzo
 
 _(qui vanno i rilevamenti precedenti quando arrivano nuovi scontrini)_
