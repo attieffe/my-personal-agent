@@ -5,9 +5,9 @@
     "weather": 1788759000,
     "projects": 1788419100,
     "memory": 1791010980017,
-    "heartbeat": 1791057802326
+    "heartbeat": 1791115380
   },
-  "lastHeartbeat": 1791057802326,
+  "lastHeartbeat": 1791115380,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati. Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -17,18 +17,9 @@
     "aos-pending": "RISOLTO 09/09 22:03: PDF segnalati non piu' presenti nell'albero aos."
   },
   "checks": {
-    "30-09-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' sera: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
-    "30-09-14-03": "Stato invariato rispetto al check 09:03. HEARTBEAT_OK.",
-    "30-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Mercoledi' mattina: meteo via cron 7:30, calendario non configurato, cron email disabled (non insistere), memory revisionata 24/09 non dovuta. Reminder foto+CNI schedulato per 5/10 8:30. Stato invariato. HEARTBEAT_OK.",
-    "29-09-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Martedi' sera: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). HEARTBEAT_OK.",
-    "29-09-14-03": "Stato invariato rispetto al check 12:03. HEARTBEAT_OK.",
-    "29-09-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Martedi' mattina: meteo via cron 7:30, calendario non configurato, cron email disabled (non insistere), memory revisionata 24/09 non dovuta. Stato invariato. HEARTBEAT_OK.",
-    "28-09-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' pomeriggio: stato invariato (meteo via cron, calendario non configurato, cron email disabled: non insistere, memory revisionata 24/09 non dovuta). HEARTBEAT_OK.",
-    "28-09-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' mezzogiorno: stato invariato rispetto al check 09:03. HEARTBEAT_OK.",
-    "03-10-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: stato invariato rispetto a check 14:03 (meteo via cron weekend, calendario non configurato, cron email disabled: non insistere, memory revisionata oggi non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
-    "03-10-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato pomeriggio: stato invariato rispetto a check 12:03. HEARTBEAT_OK.",
-    "03-10-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato mezzogiorno: stato invariato (meteo via cron 8:30 weekend, calendario non configurato, cron email disabled: non insistere, memory revisionata oggi non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK.",
+    "04-10-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica pomeriggio: stato invariato rispetto a check 12:03 (meteo via cron weekend, calendario non configurato, cron email disabled: non insistere, memory revisionata 03/10 non dovuta). Reminder foto+CNI domani 8:30. HEARTBEAT_OK.",
+    "04-10-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica mezzogiorno: stato invariato rispetto a check 09:03. Reminder foto+CNI domani 8:30. HEARTBEAT_OK.",
     "04-10-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica mattina: stato invariato (meteo via cron 8:30 weekend, calendario non configurato, cron email disabled: non insistere, memory revisionata 03/10 non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30 (domani). HEARTBEAT_OK.",
-    "04-10-12-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica mezzogiorno: stato invariato rispetto a check 09:03. Reminder foto+CNI domani 8:30. HEARTBEAT_OK."
+    "03-10-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Sabato sera: stato invariato rispetto a check 14:03 (meteo via cron weekend, calendario non configurato, cron email disabled: non insistere, memory revisionata oggi non dovuta). Reminder foto+CNI gia' schedulato per 5/10 8:30. HEARTBEAT_OK."
   }
 }
