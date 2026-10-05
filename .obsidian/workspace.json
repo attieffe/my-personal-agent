@@ -76,8 +76,7 @@
               "title": "Segnalibri"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,8 +185,9 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "84d51d08d43903ca",
+  "active": "d2add8721c4c5b31",
   "lastOpenFiles": [
+    "memory/~syncthing~heartbeat-state.json.tmp",
     "projects/myJob/PERSONALE/famiglia/genitori/gaele_couetdic_mamma.md",
     "projects/myJob/TODO_GENERALE.md",
     "projects/myJob/PERSONALE/famiglia/genitori",
@@ -200,7 +200,6 @@
     "progetti.md",
     "projects/myJob/FREELANCE/DIRETTI/Unioncucine/README.md",
     "projects/myJob/FISCO/PERSONALE/dichiarazioni_anno_2025.md",
-    "memory/~syncthing~heartbeat-state.json.tmp",
     "projects/myJob/FISCO/PERSONALE",
     "projects/myJob/FISCO",
     "projects/myJob/WORKFLOWS.md",
@@ -223,7 +222,6 @@
     "memory/2026-08-30-1209.md",
     "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/2026.md",
     "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/Concordato preventivo.md",
-    "projects/myJob/INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025.md",
     "_attachments/temp/oauth_debug_password.png",
     "_attachments/temp/oauth_debug_after_email.png",
     "_attachments/temp/libretto_p1.png"
