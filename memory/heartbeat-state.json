@@ -5,9 +5,9 @@
     "weather": 1788759000,
     "projects": 1788419100,
     "memory": 1791010980017,
-    "heartbeat": 1791181860000
+    "heartbeat": 1791199380000
   },
-  "lastHeartbeat": 1791181860000,
+  "lastHeartbeat": 1791199380000,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati. Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -18,6 +18,7 @@
     "cni-reminder": "2026-10-05 08:31: job reminder foto+CNI (schedulato 5/10 8:30) non piu' in cron list e NESSUNA delivery in chat alle 08:31. Reminder inviato manualmente via heartbeat (scadenza foto oggi 5/10, appuntamento consolato 6/10 11:00). Da 6/10 pomeriggio: verificare esito appuntamento se Atti ne parla."
   },
   "checks": {
+    "05-10-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' pomeriggio: stato invariato rispetto a check 09:03. Reminder foto+CNI gia' consegnato 08:31; appuntamento consolato domani 6/10 11:00. HEARTBEAT_OK.",
     "05-10-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Reminder foto+CNI gia' inviato manualmente 08:31. Tutto invariato. HEARTBEAT_OK.",
     "05-10-08-31": "HEARTBEAT.md vuoto: nessun task attivo. 9 cron job tutti ok. Job foto+CNI sparito dalla lista ma reminder NON consegnato alle 08:31 → inviato manualmente in heartbeat. Meteo gia' partito 7:30. MEMORY_OK.",
     "04-10-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Domenica sera: stato invariato rispetto a check 18:03. Reminder foto+CNI domani 8:30. HEARTBEAT_OK.",
