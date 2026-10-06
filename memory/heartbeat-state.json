@@ -5,9 +5,9 @@
     "weather": 1788759000,
     "projects": 1788419100,
     "memory": 1791010980017,
-    "heartbeat": 1791230580019
+    "heartbeat": 1791280980017
   },
-  "lastHeartbeat": 1791230580019,
+  "lastHeartbeat": 1791280980017,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati. Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -15,12 +15,9 @@
     "cron-email": "Job email myJob (01d3cd46) e AOS (52ac6a54) disabled da ~21 ago. Due reminder inviati (06+07/09). NON insistere.",
     "memory": "2026-10-03: revisione file 27/09-02/10 fatta. Aggiunto a MEMORY.md: sezione 'Pratiche Famiglia' (dossier CNI francese + regole atti Roma, MoneyViz stato 29/09). Prossima revisione non dovuta a breve.",
     "aos-pending": "RISOLTO 09/09 22:03: PDF segnalati non piu' presenti nell'albero aos.",
-    "cni-reminder": "2026-10-05 08:31: job reminder foto+CNI (schedulato 5/10 8:30) non piu' in cron list e NESSUNA delivery in chat alle 08:31. Reminder inviato manualmente via heartbeat (scadenza foto oggi 5/10, appuntamento consolato 6/10 11:00). Da 6/10 pomeriggio: verificare esito appuntamento se Atti ne parla."
+    "cni-reminder": "2026-10-05 08:31: job reminder foto+CNI non piu' in cron list e nessuna delivery. Reminder inviato manualmente. Appuntamento consolato 6/10 11:00 -> 2026-10-06 12:03: primo check post-appuntamento, chiesto esito ad Atti in chat. NON ripetere la domanda nei prossimi heartbeat se non risponde."
   },
   "checks": {
-    "05-10-18-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' sera: stato invariato rispetto a check 14:03. Appuntamento consolato domani 6/10 11:00; da domani pomeriggio verificare esito se Atti ne parla. Log vecchi potati. HEARTBEAT_OK.",
-    "05-10-14-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' pomeriggio: stato invariato rispetto a check 09:03. Reminder foto+CNI gia' consegnato 08:31; appuntamento consolato domani 6/10 11:00. HEARTBEAT_OK.",
-    "05-10-09-03": "HEARTBEAT.md vuoto: nessun task attivo. Reminder foto+CNI gia' inviato manualmente 08:31. Tutto invariato. HEARTBEAT_OK.",
-    "05-10-22-03": "HEARTBEAT.md vuoto: nessun task attivo. Lunedi' sera: tutto invariato, appuntamento consolato domani 6/10 11:00. Niente da segnalare. HEARTBEAT_OK."
+    "06-10-12-03": "HEARTBEAT.md vuoto. Appuntamento consolato 11:00 oggi appena trascorso: inviato check-in singolo ad Atti per esito. Vecchi log 05-10 potati."
   }
 }
