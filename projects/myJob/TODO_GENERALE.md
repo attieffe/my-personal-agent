@@ -122,6 +122,12 @@
 	- [x] Installare e configurare Cookiebot
 	- [x] Gestione calendario (dynamic content): https://support.cookiebot.com/hc/en-us/articles/7441288811292-Filtering-out-dynamic-content
 
+### [freelance · diretto · cars center srl]
+- [ ] **Ripristino DNS/PEC carscentersrl.it** [aggiunta 2026-10-06] → vedi [[FREELANCE/DIRETTI/Cars_Center_SRL/00_index|dossier Cars Center]]
+	- [ ] PEC in entrata: non arrivano (probabile nameserver Cloudflare mal configurati dal 02/08; 06/10 rollback NS su Aruba)
+	- [ ] PEC in uscita: bloccate, non funziona nemmeno da webmail — indagare causa
+	- [ ] Verificare MX/SPF/DKIM su Aruba dopo rollback e propagazione NS
+
 ### [getmedigital - grillosaverio]
 
 - [ ] grillorent.it già registrato su aruba

@@ -11,6 +11,7 @@ Parti da:
 ## Clienti attivi
 
 - [[Ballabio_Cucine/00_index|Ballabio Cucine]]
+- [[Cars_Center_SRL/00_index|Cars Center SRL]]
 - [[Croce_Bianca_Genovese/00_index|Croce Bianca Genovese]]
 - [[Davide_Rizzi/00_index|Davide Rizzi]]
 - [[Silvia_Migliaccio/00_index|Silvia Migliaccio]]
