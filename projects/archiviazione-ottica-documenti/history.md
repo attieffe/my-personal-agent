@@ -689,6 +689,193 @@ Log cronologico di ogni documento archiviato.
 - **Note:** Spesa personale servizi NO-IP dynamic dns — rimborso da richiedere a Ingenio Solution. Istruzioni nel testo della mail di inoltro.
 ---
 
+## 2026-10-06 08:39 — 20260123 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260123
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2600068368_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260123 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2600068368 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:39 — 20260223 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260223
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2600249069_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260223 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2600249069 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:39 — 20260401 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260401
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2600465057_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260401 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2600465057 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:39 — 20260430 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260430
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2600761959_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260430 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2600761959 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:40 — 20260611 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260611
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2600970032_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260611 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2600970032 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:40 — 20260627 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260627
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2601198320_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260627 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2601198320 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:40 — 20260717 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260717
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2601435826_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260717 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2601435826 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:40 — 20260814 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260814
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2601712071_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260814 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2601712071 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:40 — 20260910 Fattura Energia Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260910
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AEL2601966552_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260910 Fattura Energia Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia ENERGIA nr. AEL2601966552 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:41 — 20260123 Fattura Gas Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260123
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AGL2600016359_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260123 Fattura Gas Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia GAS nr. AGL2600016359 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:41 — 20260306 Fattura Gas Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260306
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AGL2600071107_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260306 Fattura Gas Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia GAS nr. AGL2600071107 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:41 — 20260401 Fattura Gas Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260401
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AGL2600167245_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260401 Fattura Gas Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia GAS nr. AGL2600167245 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:41 — 20260501 Fattura Gas Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260501
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AGL2600247429_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260501 Fattura Gas Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia GAS nr. AGL2600247429 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:41 — 20260625 Fattura Gas Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260625
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AGL2600417983_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260625 Fattura Gas Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia GAS nr. AGL2600417983 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:41 — 20260724 Fattura Gas Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260724
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AGL2600526157_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260724 Fattura Gas Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia GAS nr. AGL2600526157 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:42 — 20260826 Fattura Gas Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260826
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AGL2600589868_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260826 Fattura Gas Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia GAS nr. AGL2600589868 — naming e data da istruzioni mail Atti (date email originali)
+---
+
+## 2026-10-06 08:42 — 20260923 Fattura Gas Alperia.pdf
+- **Categoria:** ALTRO
+- **Data documento:** 20260923
+- **Mittente:** Alperia (inoltro Atti)
+- **File originale:** `00KO_001_2026_AGL2600673191_DETAIL.pdf`
+- **Destinazioni:**
+  - `gdrive:Atti/Documenti/Archiviazione ottica/2026/20260923 Fattura Gas Alperia.pdf` ✅
+
+- **Note:** Fattura Alperia GAS nr. AGL2600673191 — naming e data da istruzioni mail Atti (date email originali)
+---
+
 <!-- Esempio di record:
 ## 2026-06-03 — 20260603 fattura medico rossi.pdf
 - **Data documento:** 2026-05-28

@@ -20,3 +20,11 @@ From: Attilio Fiumanò <ing.fiumano@gmail.com>
 Subject: Fattura no-ip
 EML: inboxes/aos/00_inbox/msg_6_20261001_080855.eml
 Preview: Aggiungiamo ai servizi di arhciviazione ottica sostitutiva, è destinata ai RIMBORSI DA RICHIEDERE a ingenio solution 20261001 come data descr "Servizi NO-ip dynamic dns" titolo
+
+---
+UID: 7
+Date: Tue, 06 Oct 2026 07:56:40 +0200
+From: Attilio <ralf00@gmail.com>
+Subject: Varie fatture alperia GAS/corrente da decodificare
+EML: inboxes/aos/00_inbox/msg_7_20261006_062526.eml
+Preview: Usa le date delle email originali per creare i documenti e chiamali "Fattura Gas Alperia" se oggetto nr fattura è AG* "Fattura Energia Alperia" se l'oggetto NR FATTURA è AE*
