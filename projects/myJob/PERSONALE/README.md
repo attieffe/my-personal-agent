@@ -23,6 +23,9 @@ Questa cartella è la tua “sfera personale + lavori a casa”.
 - `personale_tempo_libero/12_note_personali.md`
 - `personale_tempo_libero/13_gite_bambini.md`
 
+### Salute
+- [[Cronologia_Sanitaria|Cronologia sanitaria]] (`salute/Cronologia_Sanitaria.md`)
+
 ### Istruzione
 - `istruzione/00_index.md`
 
