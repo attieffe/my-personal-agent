@@ -20,6 +20,7 @@
   "checks": {
     "06-10-12-03": "HEARTBEAT.md vuoto. Appuntamento consolato 11:00 oggi appena trascorso: inviato check-in singolo ad Atti per esito. Vecchi log 05-10 potati.",
     "06-10-18-03": "Nessun task dovuto: HEARTBEAT.md vuoto, memory review non dovuta, CNI non ripetuto per nota. Nessuna azione.",
-    "07-10-09-03": "HEARTBEAT.md vuoto. Nulla di nuovo: email/cron silenziati per nota, weather delegato a cron dedicati, memory review non dovuta. Nessuna azione."
+    "07-10-09-03": "HEARTBEAT.md vuoto. Nulla di nuovo: email/cron silenziati per nota, weather delegato a cron dedicati, memory review non dovuta. Nessuna azione.",
+    "07-10-18-03": "HEARTBEAT.md vuoto. Nessun task dovuto, nessuna novita'. Nessuna azione."
   }
 }
