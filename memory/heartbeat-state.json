@@ -7,7 +7,7 @@
     "memory": 1791010980017,
     "heartbeat": 1791302580017
   },
-  "lastHeartbeat": 1791302580017,
+  "lastHeartbeat": 1791452580000,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "2026-09-08 09:03: check mattutino: 00_inbox myjob/aos invariati. Nulla di nuovo. Reminder riattivazione cron: non insistere.",
@@ -19,6 +19,7 @@
   },
   "checks": {
     "06-10-12-03": "HEARTBEAT.md vuoto. Appuntamento consolato 11:00 oggi appena trascorso: inviato check-in singolo ad Atti per esito. Vecchi log 05-10 potati.",
-    "06-10-18-03": "Nessun task dovuto: HEARTBEAT.md vuoto, memory review non dovuta, CNI non ripetuto per nota. Nessuna azione."
+    "06-10-18-03": "Nessun task dovuto: HEARTBEAT.md vuoto, memory review non dovuta, CNI non ripetuto per nota. Nessuna azione.",
+    "07-10-09-03": "HEARTBEAT.md vuoto. Nulla di nuovo: email/cron silenziati per nota, weather delegato a cron dedicati, memory review non dovuta. Nessuna azione."
   }
 }
