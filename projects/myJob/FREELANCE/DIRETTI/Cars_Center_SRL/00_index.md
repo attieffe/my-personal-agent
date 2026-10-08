@@ -1,8 +1,8 @@
 # Cars Center SRL — indice
 
 ## Stato
-- Stato: cliente attivo — **incident DNS/PEC in corso** (aperto 2026-10-06)
-- Ultimo aggiornamento: 2026-10-06
+- Stato: cliente attivo — **incident DNS/PEC: fase DNS RISOLTA** (aperto 2026-10-06 · DNS ok 2026-10-08 · resta test PEC funzionale)
+- Ultimo aggiornamento: 2026-10-08
 
 ## Anagrafica
 - Ragione sociale: Cars Center SRL
@@ -33,9 +33,23 @@
 - **Zona Aruba (post-propagazione):** @ → **62.149.189.55** (IP originario confermato ✓) · www → CNAME carscentersrl.it · ftp → CNAME www.carscentersrl.it → 62.149.189.55
 - ⚠️ Record A `188.114.97.7` su @ nella zona Aruba: inserito **manualmente da Atti** come ponte verso Cloudflare. Tecnicamente funziona solo finché la zona resta attiva su CF (routing per Host header su IP anycast condivisi); crea round-robin doppio binario (metà traffico proxy CF, metà diretto Aruba) e non copre FTP/mail/PEC. Da eliminare a propagazione completata se si resta su Aruba
 
+## Verifiche 08/10 ore 09:03 — propagazione COMPLETATA ✅
+- NS pubblici (default, 8.8.8.8, 1.1.1.1): **tutti su Aruba** (dns/dns2.technorail.com, dns3.arubadns.net, dns4.arubadns.cz) — Cloudflare joel/sandy spariti dalla vista pubblica
+- `@` → **62.149.189.55** su tutti i resolver E sulla zona autoritativa ✓
+- **Record sporco 188.114.97.7 NON più presente** nella zona Aruba (rimosso) ✓ — nessuna azione residua
+- `www` → CNAME → 62.149.189.55 ✓ · `ftp` → CNAME → www ✓ (FTP tornato funzionante in routing)
+- MX `pec.` → **10 mx.pec.aruba.it** visibile pubblicamente ✓ → causa PEC in entrata perse (02/08) eliminata a livello DNS
+- MX principale → 10 mx.carscentersrl.it ✓
+- **Sito attivo**: http/https 200 — il .it fa 301 → **carscentersrl.com** (.com su hosting WordPress.com, 192.0.78.x) → titolo corretto. Quindi il dominio vero del sito è il **.com**; il .it su Aruba fa solo redirect (comportamento pre-esistente, non un problema)
+
+**Rimane da fare (lato utente):**
+1. Test PEC in entrata (farsi mandare una PEC e verificare l'arrivo)
+2. Ritest PEC in uscita da webmail — se ancora KO, guardare pannello PEC Aruba (sospensione/quota)
+3. Zona Cloudflare ormai inerte: resta nell'account o si cancella, indifferente
+
 ## Problemi aperti
-- **PEC in entrata**: non arrivano — probabile causa: nameserver di carscentersrl.it su Cloudflare non configurati correttamente
-- **PEC in uscita**: non si possono mandare — causa non chiara, non funziona nemmeno da webmail
+- **PEC in entrata**: causa DNS risolta (08/10, MX pec pubblici su Aruba) → resta **test funzionale di consegna**
+- **PEC in uscita**: causa non chiara, da ritestare a DNS propagato — se KO da webmail il problema è nel servizio PEC, non nel DNS
 
 → Task attivi in [[TODO_GENERALE]] sezione freelance · diretto · cars center srl
 

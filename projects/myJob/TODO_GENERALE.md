@@ -124,9 +124,9 @@
 
 ### [freelance · diretto · cars center srl]
 - [ ] **Ripristino DNS/PEC carscentersrl.it** [aggiunta 2026-10-06] → vedi [[FREELANCE/DIRETTI/Cars_Center_SRL/00_index|dossier Cars Center]]
-	- [ ] PEC in entrata: non arrivano (probabile nameserver Cloudflare mal configurati dal 02/08; 06/10 rollback NS su Aruba)
-	- [ ] PEC in uscita: bloccate, non funziona nemmeno da webmail — indagare causa
-	- [ ] Verificare MX/SPF/DKIM su Aruba dopo rollback e propagazione NS
+	- [x] Verificare MX/SPF/DKIM su Aruba dopo rollback e propagazione NS → **08/10 propagazione COMPLETATA**: NS su Aruba ovunque, `@`→62.149.189.55, record sporco .7 rimosso dalla zona, MX pec pubblici ok, sito 200 (redirect → .com su WordPress.com)
+	- [ ] PEC in entrata: causa DNS risolta 08/10 → **resta test funzionale** (farsi mandare una PEC e verificare l'arrivo)
+	- [ ] PEC in uscita: ritestare da webmail (propagazione chiusa) — se ancora KO il problema è nel servizio PEC → pannello Aruba (sospensione/quota)
 
 ### [getmedigital - grillosaverio]
 

@@ -213,6 +213,18 @@ Mapping frequenti:
 - Voce default: `nova` (scelta da Atti)
 - Lingua: italiano
 
+### Cars Center SRL — incident DNS/PEC (10/2026)
+- 02/08: terzi misero Cloudflare sul dominio con zona incompleta (niente MX `pec.`) → PEC in entrata perse. 06/10: rollback NS su Aruba
+- **08/10: propagazione completata, zona pulita** — sito ok (il .it fa 301 → **carscentersrl.com** su WordPress.com), MX PEC pubblici corretti, record sporco 188.114.97.7 rimosso
+- Dossier: `projects/myJob/FREELANCE/DIRETTI/Cars_Center_SRL/00_index.md`
+- Aperto solo: test funzionale PEC in/out (lato Atti); uscita ancora KO → pannello PEC Aruba
+
+### Server IPTV — piano Tailscale (10/2026, in attesa)
+- Server contenuti IPTV con PM2: hang periodici (processo vivo ma bloccato) → oggi riavvio manuale da console provider
+- Deciso: server dentro tailnet `ralf00@`; gateway già connesso (100.107.134.2 "ubuntu"); chiave SSH dedicata `~/.ssh/id_ed25519_iptv` già generata
+- **In attesa di Atti**: su console provider → install Tailscale + `tailscale up` + aggiunta pubkey ad authorized_keys
+- Poi io: test SSH, mappa servizi PM2/porte, watchdog cron (health check, riavvio auto anti-loop max 3/h, notifica in chat)
+
 ---
 
 ## 📂 Progetti
