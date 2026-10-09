@@ -137,8 +137,8 @@
 ### [ingenio · amministrazione]
 - [x] **Fare fatture** [scade 2026-06-02]
 - [x] Registrare costi chiusura anno 2025 → [[INGENIO_SOLUTION/checklist_costi_chiusura_anno_2025]]
-- [ ] Verifica quadri ISA
-- [ ] Chiudere dichiarazione Moneyviz
+- [x] Verifica quadri ISA
+- [x] Chiudere dichiarazione Moneyviz
 - [ ] Decidere concordato preventivo biennale
 
 ---
