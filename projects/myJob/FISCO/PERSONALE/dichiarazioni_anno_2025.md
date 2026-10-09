@@ -26,4 +26,4 @@
 - Pacchetto MoneyViz (2026-09-29):
 	- acquistato pacchetto CRYPTO base: 53 €
 	- pacchetto tax per DEGIRO in regalo (chiesto sconto come fatto anno scorso)
-	- ⏳ in attesa del loro OK per sbloccare il pacchetto (atteso in data odierna)
+	- ok confermato un pacchetto solo

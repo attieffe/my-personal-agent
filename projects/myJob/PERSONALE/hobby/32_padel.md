@@ -6,6 +6,37 @@
 
 ---
 
+## Attrezzatura
+
+### Checklist cose da portare
+
+_Voci inserite il 2026-05-14._
+
+- [ ] Borsone
+- [ ] Bibita
+- [ ] Fascia braccio/spalle
+- [ ] Orologio
+
+### Scarpe
+
+**ASICS Gel-Resolution X Padel L.E.** — art. 1041A503, Black/Energy Aqua, da uomo
+- Acquistate il **15/07/2025** a **€ 115,50** (Maxi Sport Lissone)
+- Scelte perché indicate per **pronatore**
+
+**Alternative future:**
+- ASICS GEL-CHALLENGER 15 L.E. Padel (gialle) — **€ 84,95** (-35%) presso Maxi Sport _(rilevate il 09/10/2026)_
+
+**Note usura:**
+- [09/10/2026] Soletta **completamente usurata**, mentre la scarpa sembra "come nuova" sotto → valutare la sola sostituzione della soletta
+
+### Racchette
+
+**2× adidas Metalbone HRD+ 3.4**
+- **#1** — acquistata da Emanuele (Roma), **novembre 2025**
+- **#2** — acquistata da Fabrizio (Country), **aprile 2026**
+
+---
+
 ## Routine di preparazione / concentrazione (prima della partita)
 
 _Aggiungere voci con data inserimento. Ripassare prima di ogni partita/allenamento._

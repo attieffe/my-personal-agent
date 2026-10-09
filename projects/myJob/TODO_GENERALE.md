@@ -85,7 +85,7 @@
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
 
 ### [personale · ingenio · rimborsi]
-- [ ] **Chiedere a Cristina Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
+- [x] **Chiedere a Cristina Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
 
 ### [freelance · agenzia · get me digital]
 
@@ -106,8 +106,9 @@
 
 ### [freelance · diretto · unioncucine]
 - [ ] **Avviare sviluppo Cornaredo (UnionCucine)** — scadenza: **venerdì 25/09/2026** [aggiunta 2026-09-21] → vedi [[FREELANCE/DIRETTI/Unioncucine/README|dossier UnionCucine]]
-	- [ ] fatto aggiungendo anche sede 02/10/2026
-	- [ ] attesa feedback su capire quali turni su cornaredo/turnisti
+	- [x] fatto aggiungendo anche sede 02/10/2026
+	- [x] attesa feedback su capire quali turni su cornaredo/turnisti
+	- [ ] chiesto ultimo ok con nuova sede 9/10/2026 mattina su whatsapp
 
 
 ### [freelance · diretto · silvia migliaccio]
@@ -125,8 +126,8 @@
 ### [freelance · diretto · cars center srl]
 - [ ] **Ripristino DNS/PEC carscentersrl.it** [aggiunta 2026-10-06] → vedi [[FREELANCE/DIRETTI/Cars_Center_SRL/00_index|dossier Cars Center]]
 	- [x] Verificare MX/SPF/DKIM su Aruba dopo rollback e propagazione NS → **08/10 propagazione COMPLETATA**: NS su Aruba ovunque, `@`→62.149.189.55, record sporco .7 rimosso dalla zona, MX pec pubblici ok, sito 200 (redirect → .com su WordPress.com)
-	- [ ] PEC in entrata: causa DNS risolta 08/10 → **resta test funzionale** (farsi mandare una PEC e verificare l'arrivo)
-	- [ ] PEC in uscita: ritestare da webmail (propagazione chiusa) — se ancora KO il problema è nel servizio PEC → pannello Aruba (sospensione/quota)
+	- [x] PEC in entrata: causa DNS risolta 08/10 → **resta test funzionale** (farsi mandare una PEC e verificare l'arrivo)
+	- [x] PEC in uscita: ritestare da webmail (propagazione chiusa) — se ancora KO il problema è nel servizio PEC → pannello Aruba (sospensione/quota)
 
 ### [getmedigital - grillosaverio]
 
