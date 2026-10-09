@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/2025.md",
+                "file": "projects/myJob/TODO_GENERALE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025"
+              "title": "TODO_GENERALE"
             }
           }
         ]
@@ -187,9 +187,9 @@
   },
   "active": "84d51d08d43903ca",
   "lastOpenFiles": [
+    "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/Concordato preventivo.md",
     "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/2026.md",
     "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/2025.md",
-    "projects/myJob/INGENIO_SOLUTION/AMMINISTRAZIONE/Concordato preventivo.md",
     "projects/myJob/FISCO/PERSONALE/dichiarazioni_anno_2025.md",
     "projects/myJob/TODO_GENERALE.md",
     "memory/2026-10-09-1020.md",
