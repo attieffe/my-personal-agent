@@ -25,7 +25,7 @@ _Tutto vissuto in prima persona, anche tecnicamente: ho avuto i problemi e li ho
 Non posso essere super profondo su tutto → si vende **servizio completo ingegnerizzato**, non specialismo unico.
 
 ### Credenziali chiave
-- **15 anni** come team manager e responsabile di tutti i processi IT del cliente principale (dal 2011)
+- **15 anni** come team manager e responsabile di tutti i processi IT del cliente principale (dal 2011): **Gruppo Colzani** — 8-9 aziende (7 censite nel registro MCP). ⚠️ **NON nominabile online**: lo considerano un asset strategico interno, niente promozione col loro nome → credenziale anonimizzata: *"da 15 anni gestisco i processi IT di un gruppo industriale di 8-9 aziende"*
 - **Retention clienti eccezionale**: relazioni di business fidelizzate **15-20 anni** — i clienti non cambiano partner (verificato 2026-10-11). Mix: occasionali (contatto annuale / bassa frequenza), super continuativi, buona continuità
 - Laurea Magistrale Politecnico Milano (2012), abilitazione Ingegnere dell'Informazione (2014)
 - Attivo nel settore dal 2010; società fondata nel 2015 (Seregno, MB)
@@ -35,6 +35,8 @@ Non posso essere super profondo su tutto → si vende **servizio completo ingegn
 - **Target primario 2026**: PMI **medie più che piccole** (20-250 dip.), **tutta Italia** — mondo digitale, niente gabbia geografica sul posizionamento
 - **Clienti locali Brianza/Monza**: voluti (fidelizzazione, presenza) ma come *canale*, non come posizionamento chiuso
 - **Milano città**: fuori dal target attivo
+- **Apertura futura — Svizzera/Ticino** (emersa 11/10): attira per tariffe 100-150 CHF/h; fatturazione NON è un problema reale (esportazione servizi → fattura senza IVA, incasso CHF). Ostacoli soft: pricing percepito (tariffa italiana = sospetta, lì si tariffa svizzero), accesso via reti/referenze locali (il sito da solo non apre porte), formalità se si lavora fisicamente lì (distacco/prestatori di servizi, RC locale). Da approfondire in Fase 3 (validazione commercialista), fuori dal piano promozionale 2026
+  - **Piano operativo ricevuto da Atti 11/10 ore 10:16 → [[PIANO_CLIENTI_TICINO]]**: check-up digitale a PAGAMENTO (300-500 CHF), 12 settimane di outreach, lista 150 PMI (Mendrisiotto prima), canali AITI/Agire/ATED, clienti target 10-70 dipendenti. Giudizio IAcopo: piano solido e allineato; 3 aggiustamenti → ① sequenza: pilot parte DOPO il sito live (chi riceve il contatto ti googla); ② quote ridotte/adattate: IAcopo costruisce lista + bozze personalizzate, Atti invia/chiama 15-20 min/giorno; ③ dimensione clienti 10-70 OK in CH (meno competizione, progetti 3-10k CHF)
 - **Agenzie web** (tutta Italia): partnership/supporto — traccia sul sito, non focus promozionale adesso
 - Settori Brianza da validare in analisi mercato: arredamento/design (distretto Lissone-Meda-Giussano), meccanica di precisione, plastica, packaging, alimentare, logistica
 - **Pricing**: progetti diretti dimensionati su valore effettivo **60-80€/ora**, senza listino pubblico (pricing a progetto) — vs ~40€/h del lavoro da cliente storico/agenzie. Benchmark comunicabile: grandi consulenze 100-120€/h → "il servizio che serve, da una persona sola, a 70-80€/h"
@@ -52,17 +54,19 @@ Non posso essere super profondo su tutto → si vende **servizio completo ingegn
 
 ## 4. Referenze: come sembrare solidi con 1 solo cliente forte
 1. **Case study per problema, non per cliente** — 2-3 mini-studi anonimi ("azienda manifatturiera 60+ dipendenti: da moduli carta a processo digitale") valgono più di un muro di loghi
-2. **Il cliente storico = credenziale narrata**: "15 anni come responsabile processi IT di un'azienda" — chiedere se citabile col nome, altrimenti anonimo
-3. **Testimonial brevi dai clienti strategici**: 2-3 frasi (LinkedIn o testuali) — più facili da ottenere delle referenze formali; IAcopo prepara bozza della richiesta
+2. **Il cliente storico = credenziale narrata, SENZA nome** (confermato 11/10): *"15 anni come responsabile processi IT di un gruppo di 8-9 aziende"* — concreto e credibile senza rivelare nulla
+3. **Referenze LinkedIn = la "recensione" nativa del B2B** (chiarito con Atti 09:59): 2-3 frasi scritte da clienti contenti sul profilo LinkedIn — formato discreto, discreto per chi non vuole esposizione pubblica; IAcopo prepara bozza della richiesta
 4. **Riga generica** "progetti realizzati anche tramite agenzie partner" (senza nomi)
 5. **Numeri al posto dei nomi**: anni di gestione, utenti, processi automatizzati. **Killer stat già disponibile: retention clienti 15-20 anni** — pochi la possono dichiarare
 
 ## 5. Promozione (ordine di ROI, poco tempo a disposizione)
-1. **Google Business Profile** Brianza + recensioni clienti attuali (gratis, canale locale #1)
+
+**Modello operativo (vincolo: max 2 gg/sett, partenza 1-2 mattine):** IAcopo fa il lavoro pesante (struttura, copy, build pagine, SEO tecnica, bozza GBP, bozze post LinkedIn); Atti fa checkpoint da 30-60 min: validare copy, foto, accesso hosting, pubblicare. Ads differito: si valuta dopo 4-6 settimane di dati organici.
+1. **Google Business Profile** Brianza (gratis): serve soprattutto perché chi ti sente nominare dal passaparola ti **verifica su Google** (pannello, mappa, sito). ⚠️ Riorientato 09:59 su apertura Atti: le recensioni Google in B2B non sono naturali → **bonus opzionale** (2-3 frasi da 1-2 clienti occasionali, MAI Colzani); la prova B2B vera = referenze LinkedIn + case study anonimi
 2. **SEO on-page** nazionale + segnali locali soft
 3. **LinkedIn personale**: 1-2 post/settimana da case study anonimi
 4. **Google Ads test** 300-500€/mese × 2-3 mesi (query: "software su misura", "automazione processi aziendali", "consulente AI azienda")
-5. **Rete e territorio**: referenze clienti, **Assolombarda sede Monza-Brianza**, **PID CCIAA** (eventi gratuiti = lead caldi), **Bando SI4.0 2026** come gancio commerciale, partner (studi commercialisti/ingegneria)
+5. **Rete e territorio**: **sistematizzare il passaparola** (unico canale storicamente funzionante: recensioni Google + testimonial = passaparola scritto e cercabile), Assolombarda sede Monza-Brianza, **PID CCIAA** (eventi gratuiti = lead caldi), **Bando SI4.0 2026** come gancio commerciale, partner (studi commercialisti/ingegneria)
 
 Obiettivo realistico: 1-2 nuovi clienti l'anno → servono 10-15 contatti qualificati/anno, non una macchina da lead.
 
@@ -84,11 +88,11 @@ Obiettivo realistico: 1-2 nuovi clienti l'anno → servono 10-15 contatti qualif
 ## 7. Questionario Atti — risposte
 - [x] **Clientela** (risp. 09:05): numero contenuto di relazioni ma molto proficue e fidelizzate **15-20 anni**; non cambiano partner. Mix: occasionali (contatto annuale/bassa frequenza), super continuativi, buona continuità
 - [x] **Margine/pricing** (risp. 09:17): TUTTO tranne il cliente principale rende di più in margine. Cliente storico = 75-80% del fatturato a ~**40€/ora**. Obiettivo clienti diretti: progetti con valore effettivo **60-80€/ora**, senza dichiarare tariffa (pricing a progetto) → strategia deve attrarre cliente finale PMI ad alto margine; agenzie = filler a basso margine, non growth
-- [ ] Cliente storico (15 anni): settore e dimensione? citabile col nome o resta anonimo?
-- [ ] **Canale di acquisizione**: come sono arrivati i clienti attuali? (passaparola, agenzie, altro)
-- [ ] Cosa rende di più oggi in rapporto ore/margine? (dove puntare le landing)
-- [ ] Testimonial dai clienti strategici: fattibile?
-- [ ] Tempo dedicabile/settimana + budget Ads mensile accettabile?
+- [x] **Cliente storico** (risp. 09:17): **Gruppo Colzani** — 8-9 aziende (7 nel registro MCP). NON nominabile online (asset strategico interno) → credenziale anonima: "gruppo di 8-9 aziende"
+- [x] **Canale di acquisizione** (risp. 09:17): **passaparola**, quasi esclusivamente. Clienti sempre contenti, ma oggi poca visibilità ("né nel parlato né in altri contesti") → strategia = sistematizzare il passaparola, non sostituirlo
+- [x] **Tempo** (risp. 09:58): max **2 giornate/settimana** (rinunciando ad altro); partenza realistica **1-2 mattine/settimana** (anche 2 mattine ogni 2-3 settimane). Vuole cominciare da qualcosa e capire col tempo quanto far crescere. **Budget Ads: non specificato** → si riparte organico, Ads si valuta dopo i primi dati (4-6 settimane)
+
+**✅ Questionario chiuso 2026-10-11 ore 09:58.**
 - [ ] Foto professionale, logo/brand kit esistenti?
 - [ ] 2-3 problemi vissuti trasformabili in mini case study anonimi?
 
@@ -98,3 +102,7 @@ Obiettivo realistico: 1-2 nuovi clienti l'anno → servono 10-15 contatti qualif
 - **2026-10-11 ~09:15**: Fase 1 analisi mercato completata (report in [[ANALISI_MERCATO_2026-10]]). Spazio "provider completo processo→software" semi-libero; ente territorio corretto = Assolombarda sede MB (non "Confindustria MB"); 3 raccomandazioni proposte (promessa quantificata, gancio SI4.0, AI dentro il gestionale) — in attesa ok Atti.
 - **2026-10-11 09:17-09:18**: questionario — margine: tutto tranne cliente storico rende di più (storico ~40€/h su 75-80% fatturato; target diretti 60-80€/h effettivi, pricing a progetto senza listino). SI4.0 verificato su Unioncamere: sportello 2026 chiuso 25/9 ore 12 → giocata bandi = finestra 2027 + cercare bandi aperti ora (progetti 25-60k€, categorie = offerta Ingenio).
 - **2026-10-11 09:18**: posizionamento chiarito — Ingenio = **alternativa alle grandi società di consulenza** (Accenture, Capgemini, 100-120€/h): figura unica completa a 70-80€/h per PMI. Entra nel messaging home.
+- **2026-10-11 09:17 (2°)**: questionario — cliente storico = Gruppo Colzani (8-9 aziende, 7 in registro MCP), NON citabile online. Canale: passaparola quasi esclusivo, oggi poca visibilità. Credenziale anonima potenziata: "gruppo industriale 8-9 aziende".
+- **2026-10-11 09:58**: questionario CHIUSO — tempo: max 2 gg/sett, partenza 1-2 mattine; Ads differito (dati organici prima). Landing definitive: A automazione/carta (promessa quantificata), B AI-in-processo, C software custom/gestionali. Proposte 3 hero home (credenziale/pain/offer) — scelta ad Atti, poi build.
+- **2026-10-11 10:14**: Atti difende la fattibilità Svizzera ("basta la fattura giusta") → concordato: fatturazione non è il vero attrito; vere dinamiche = pricing svizzero, accesso via reti/referenze locali, formalità distacco se presenza fisica. Aggiunta come apertura futura in §2; analisi dedicata in Fase 3 (regole da validare col commercialista).
+- **2026-10-11 10:16**: Atti invia piano clienti Ticino già pronto (salvato in [[PIANO_CLIENTI_TICINO]]). Integrato in dossier: sequenza = dopo sito live; quote adattate al budget ore (IAcopo lista+bozze, Atti invii 15-20 min/giorno); canali AITI/Agire/ATED registrati per Fase 3. In attesa conferma sequenza da Atti.
