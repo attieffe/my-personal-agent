@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Ingenio Solution — Software su misura e automazione processi per PMI</title>
+<meta name="description" content="Bozza di lavoro — non pubblicare">
+<style>
+  :root{
+    --ink:#12283a; --ink-soft:#41576b; --line:#dfe7ee; --bg:#f7fafc;
+    --accent:#0e7c86; --accent-dark:#0a5e66; --paper:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+
+  /* preview banner */
+  .preview-banner{background:#b3541e;color:#fff;text-align:center;font-size:.82rem;padding:7px 12px;letter-spacing:.4px}
+
+  /* header */
+  header{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{font-weight:700;font-size:1.06rem;color:var(--ink);text-decoration:none;letter-spacing:.2px}
+  .brand span{color:var(--accent)}
+  .navlinks{display:flex;gap:22px;align-items:center;font-size:.93rem}
+  .navlinks a{color:var(--ink-soft);text-decoration:none}
+  .navlinks a:hover{color:var(--accent-dark)}
+  .btn{display:inline-block;background:var(--accent);color:#fff !important;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:600;border:none;cursor:pointer;font-size:.95rem}
+  .btn:hover{background:var(--accent-dark)}
+  .btn.ghost{background:transparent;color:var(--accent-dark) !important;border:1.5px solid var(--accent)}
+  .btn.big{padding:14px 26px;font-size:1.02rem}
+
+  /* hero */
+  .hero{background:linear-gradient(180deg,#eef4f7 0%,var(--bg) 100%);padding:72px 0 58px;text-align:left}
+  .hero h1{font-size:clamp(1.9rem,4.6vw,3.1rem);line-height:1.18;letter-spacing:-.5px;max-width:760px}
+  .hero p.sub{font-size:clamp(1.02rem,1.6vw,1.22rem);color:var(--ink-soft);max-width:680px;margin:20px 0 30px}
+  .cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+  .trustline{margin-top:18px;font-size:.88rem;color:var(--ink-soft)}
+
+  /* sections */
+  section{padding:58px 0}
+  section.alt{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .kicker{color:var(--accent-dark);font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:1.6px;margin-bottom:10px}
+  h2{font-size:clamp(1.45rem,2.6vw,1.95rem);line-height:1.25;letter-spacing:-.3px;margin-bottom:14px}
+  .lead{color:var(--ink-soft);max-width:720px;font-size:1.04rem}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;margin-top:34px}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:26px}
+  .card .ico{font-size:1.6rem}
+  .card h3{font-size:1.12rem;margin:12px 0 8px}
+  .card p{color:var(--ink-soft);font-size:.96rem}
+  .card a.more{display:inline-block;margin-top:14px;color:var(--accent-dark);font-weight:600;font-size:.93rem;text-decoration:none}
+  .card a.more:hover{text-decoration:underline}
+
+  .duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:34px}
+  .duo .box{border-radius:12px;padding:26px;background:var(--paper);border:1px solid var(--line)}
+  .duo .box.hi{background:var(--ink);color:#eaf2f5;border-color:var(--ink)}
+  .duo h3{font-size:1.1rem;margin-bottom:8px}
+  .duo p{font-size:.96rem;color:var(--ink-soft)}
+  .duo .box.hi p{color:#c4d5dd}
+
+  .proof{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:34px}
+  .proof .item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:22px}
+  .proof .big{font-size:1.5rem;font-weight:800;color:var(--accent-dark);letter-spacing:-.4px}
+  .proof .lbl{font-size:.92rem;color:var(--ink-soft);margin-top:6px}
+
+  .cta-block{background:var(--ink);color:#fff;border-radius:16px;padding:44px 38px;text-align:center;margin:20px 0}
+  .cta-block h2{color:#fff}
+  .cta-block p{color:#c4d5dd;max-width:640px;margin:0 auto 26px}
+  .cta-block .btn{background:var(--accent)}
+
+  .about{display:flex;gap:34px;align-items:flex-start;flex-wrap:wrap}
+  .photo-ph{flex:0 0 190px;height:230px;border-radius:14px;background:repeating-linear-gradient(45deg,#e7edf2,#e7edf2 12px,#f1f5f8 12px,#f1f5f8 24px);display:flex;align-items:center;justify-content:center;color:#8ba0b0;font-size:.85rem;text-align:center;padding:10px}
+  .about .bio{flex:1;min-width:280px}
+
+  footer{border-top:1px solid var(--line);background:var(--paper);padding:30px 0;margin-top:30px}
+  footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:.88rem;color:var(--ink-soft)}
+  footer a{color:var(--accent-dark);text-decoration:none}
+  .ph{background:#fdf0e6;border-bottom:1px dashed #d8a06a;padding:0 4px;border-radius:3px}
+
+  @media(max-width:720px){
+    .navlinks a:not(.btn){display:none}
+    .hero{padding:52px 0 44px}
+  }
+</style>
+</head>
+<body>
+
+<div class="preview-banner">BOZZA DI LAVORO v0.1 — bozza di anteprima, non indicizzata, non definitiva</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#">Ingenio<span>Solution</span></a>
+    <nav class="navlinks">
+      <a href="#servizi">Cosa faccio</a>
+      <a href="#modi">Come lavoro</a>
+      <a href="#perche">Perché me</a>
+      <a href="#chi">Chi sono</a>
+      <a class="btn" href="#analisi">Analisi gratuita</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Smetti di lavorare con carta, Excel e doppioni.</h1>
+    <p class="sub">Software su misura e automazioni per la tua PMI. Da 15 anni gestisco i processi IT di un gruppo industriale di 8–9 aziende: oggi metto quel metodo al servizio della tua.</p>
+    <div class="cta-row">
+      <a class="btn big" href="#analisi">Richiedi l'analisi gratuita dei processi</a>
+      <a class="btn big ghost" href="#servizi">Guarda cosa faccio</a>
+    </div>
+    <p class="trustline">Ingegnere informatico abilitato · Seregno (MB) · Da remoto in tutta Italia, di persona in Brianza e nord Milano</p>
+  </div>
+</div>
+
+<section id="servizi" class="alt">
+  <div class="wrap">
+    <div class="kicker">Cosa faccio</div>
+    <h2>Il problema quasi mai è la gente: è il processo.</h2>
+    <p class="lead">La maggior parte delle PMI perde ore ogni settimana in attività che potrebbero essere automatiche: moduli cartacei, dati passati a mano, sistemi che non si parlano. Io ristrutturo quei processi e costruisco il software che li regge.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="ico">🗂️</div>
+        <h3>Automazione processi &amp; addio carta</h3>
+        <p>Ordini, preventivi, report, moduli: porto i flussi dal cartaceo e dagli Excel al digitale, senza stravolgere il tuo modo di lavorare.</p>
+        <a class="more" href="#">Scopri di più →</a>
+      </div>
+      <div class="card">
+        <div class="ico">🤖</div>
+        <h3>AI dove serve davvero</h3>
+        <p>Integro l'intelligenza artificiale nei processi quando porta valore reale — e ho il coraggio di dirti quando <em>non</em> serve.</p>
+        <a class="more" href="#">Scopri di più →</a>
+      </div>
+      <div class="card">
+        <div class="ico">⚙️</div>
+        <h3>Software custom &amp; gestionali</h3>
+        <p>Applicazioni web e gestionali costruiti sul tuo modo di lavorare, integrati con ciò che usi già: e-commerce, WordPress, Shopify, gestionali esistenti.</p>
+        <a class="more" href="#">Scopri di più →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="modi">
+  <div class="wrap">
+    <div class="kicker">Come lavoro</div>
+    <h2>Due modi di lavorare insieme.</h2>
+    <div class="duo">
+      <div class="box hi">
+        <h3>A 360°</h3>
+        <p>Chi pensa il processo, lo disegna, lo sviluppa e lo mantiene. Se non hai un reparto IT interno, è la strada: una figura sola, dall'analisi al rilascio, senza squadre rotanti.</p>
+      </div>
+      <div class="box">
+        <h3>Verticale</h3>
+        <p>Un intervento mirato dove fa male: un'integrazione, un'automazione, un'applicazione web. Ingresso e uscita puliti, risultati misurabili.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="perche" class="alt">
+  <div class="wrap">
+    <div class="kicker">Perché Ingenio Solution</div>
+    <h2>La prova non la danno le promesse: la danno gli anni.</h2>
+    <div class="proof">
+      <div class="item"><div class="big">15 anni</div><div class="lbl">Responsabile dei processi IT di un gruppo industriale con 8–9 aziende. Processi veri, quotidiani — non consulenza da manuale.</div></div>
+      <div class="item"><div class="big">15–20 anni</div><div class="lbl">Durano le mie relazioni di lavoro. I clienti che funzionano non cambiano partner.</div></div>
+      <div class="item"><div class="big">2014</div><div class="lbl">Ingegnere informatico abilitato: Laurea Magistrale al Politecnico di Milano, Ordine degli Ingegneri.</div></div>
+      <div class="item"><div class="big">1</div><div class="lbl">Interlocutore, dall'analisi al rilascio. Il servizio che serve alla tua PMI senza i costi di una grande consulenza.</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="analisi">
+  <div class="wrap">
+    <div class="cta-block">
+      <h2>Il primo passo costa 30 minuti.</h2>
+      <p>Analisi gratuita dei tuoi processi: 30 minuti insieme e ti riporto <strong>3 candidate automazioni</strong> con una stima delle ore-anno che puoi recuperare. Senza impegno, senza gergo.</p>
+      <a class="btn big" href="mailto:PH-EMAIL?subject=Analisi%20gratuita%20dei%20processi">Richiedi l'analisi gratuita</a>
+    </div>
+  </div>
+</section>
+
+<section id="chi" class="alt">
+  <div class="wrap">
+    <div class="kicker">Chi sono</div>
+    <h2>Un ingegnere dietro la scrivania, non un venditore davanti.</h2>
+    <div class="about" style="margin-top:30px">
+      <div class="photo-ph">[ FOTO PROF<br>placeholder ]</div>
+      <div class="bio">
+        <p><strong>Attilio Fiumanò</strong> — ingegnere informatico, Seregno (MB).</p>
+        <p class="lead" style="margin-top:10px">Laurea Magistrale in Ingegneria Informatica al Politecnico di Milano (2012), abilitato all'esercizio della professione nel 2014. Nel mondo del software dal 2010; nel 2015 ho fondato Ingenio Solution. Da 15 anni gestisco processi e sistemi IT di un gruppo di aziende — il lavoro vero che sta dietro ai banner dei gestionali.</p>
+        <p class="lead" style="margin-top:10px">Lavoro con aziende di tutta Italia, e di persona con le PMI di Monza-Brianza e nord Milano.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <strong>Ingenio Solution</strong> — Consulenza e progettazione informatica<br>
+      Seregno (MB) · <span class="ph">P.IVA [___]</span>
+    </div>
+    <div>
+      <span class="ph">[email: ______@ingeniosolution.it]</span><br>
+      <span class="ph">[telefono: +39 ___]</span> · <span class="ph">[LinkedIn: ___]</span><br>
+      © 2026 Ingenio Solution — bozza v0.1
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

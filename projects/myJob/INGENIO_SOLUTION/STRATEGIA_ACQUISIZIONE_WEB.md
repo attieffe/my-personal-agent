@@ -49,12 +49,20 @@ Non posso essere super profondo su tutto → si vende **servizio completo ingegn
 - **Landing B — AI pratica in azienda** (assorbe la strategia già abbozzata in [[../FREELANCE/sviluppo_AI_MCP_PLATFORM|sviluppo AI MCP Platform]])
 - **Landing C — Software custom & gestionali web**
 - Sezione leggera **"Per agenzie web"** (WordPress/Shopify/integrazioni, white-label) — presente, promozione differita
-- **CTA unica ovunque**: "Analisi gratuita dei processi — 30 min"
+- **CTA unica ovunque**: "Incontro di fattibilità gratuito" (allude a 1-2 ore; formula scelta da Atti 10:40 al posto di "analisi 30 min", giudicata debole)
 - Tecnico: sitemap + Search Console, schema LocalBusiness/Service, title geo-soft, dominio typo `ingegniosolution.it` (doppia g) → redirect 301 (~10€/anno)
+
+### Linee guida copy & design (da feedback Atti 10:40 — valide per OGNI pagina futura)
+1. **Palette: solo blu + grigi** coordinati col brand (navy `#0B3762`, navy profondo `#072A4C`, steel `#3D6D9C`, grigi neutri). **Vietato il verde/teal** — gli accent speciali si faranno solo in banner dedicati, mai nella palette base
+2. **Mai numeri vaghi** (es. "8-9 aziende"): oppure cifre verificate, oppure il concetto. Scelta di Atti: **convey il concetto** → "15 anni alla guida dei processi IT di un gruppo industriale", "partnership pluriennali", "relazioni che durano"
+3. **Geografia professionale, non colloquiale**: "consulenza in remoto in tutta Italia, in presenza in Lombardia e nelle province limitrofe" (mai "di persona in Brianza, in Italia per il resto")
+4. **Tono consulenziale** (stratega di business/marketing, non chiacchiere da bar): espressioni concrete, benefici misurabili, zero gergo informatico, zero formuleda
+5. **Contatti footer = dati reali dal sito attuale** (S.a.s. di Fiumanò Attilio, via Pacini 77 Seregno, email/tel/P.IVA)
+6. **Doppia passata copy obbligatoria**: prima bozza → revisione con checklist (vaghezza, colloquialismi, numeri non verificabili) prima di mostrare ad Atti
 
 ## 4. Referenze: come sembrare solidi con 1 solo cliente forte
 1. **Case study per problema, non per cliente** — 2-3 mini-studi anonimi ("azienda manifatturiera 60+ dipendenti: da moduli carta a processo digitale") valgono più di un muro di loghi
-2. **Il cliente storico = credenziale narrata, SENZA nome** (confermato 11/10): *"15 anni come responsabile processi IT di un gruppo di 8-9 aziende"* — concreto e credibile senza rivelare nulla
+2. **Il cliente storico = credenziale narrata, SENZA nome** (confermato 11/10): *"15 anni come responsabile dei processi IT di un gruppo industriale"* — concreto e credibile senza rivelare nulla. ⚠️ **Mai il numero di aziende in pubblico** (feedback 10:40: "8-9" è vago → o numero vero o concetto; scelto il concetto). Il dettaglio resta per uso interno
 3. **Referenze LinkedIn = la "recensione" nativa del B2B** (chiarito con Atti 09:59): 2-3 frasi scritte da clienti contenti sul profilo LinkedIn — formato discreto, discreto per chi non vuole esposizione pubblica; IAcopo prepara bozza della richiesta
 4. **Riga generica** "progetti realizzati anche tramite agenzie partner" (senza nomi)
 5. **Numeri al posto dei nomi**: anni di gestione, utenti, processi automatizzati. **Killer stat già disponibile: retention clienti 15-20 anni** — pochi la possono dichiarare
@@ -105,4 +113,5 @@ Obiettivo realistico: 1-2 nuovi clienti l'anno → servono 10-15 contatti qualif
 - **2026-10-11 09:17 (2°)**: questionario — cliente storico = Gruppo Colzani (8-9 aziende, 7 in registro MCP), NON citabile online. Canale: passaparola quasi esclusivo, oggi poca visibilità. Credenziale anonima potenziata: "gruppo industriale 8-9 aziende".
 - **2026-10-11 09:58**: questionario CHIUSO — tempo: max 2 gg/sett, partenza 1-2 mattine; Ads differito (dati organici prima). Landing definitive: A automazione/carta (promessa quantificata), B AI-in-processo, C software custom/gestionali. Proposte 3 hero home (credenziale/pain/offer) — scelta ad Atti, poi build.
 - **2026-10-11 10:14**: Atti difende la fattibilità Svizzera ("basta la fattura giusta") → concordato: fatturazione non è il vero attrito; vere dinamiche = pricing svizzero, accesso via reti/referenze locali, formalità distacco se presenza fisica. Aggiunta come apertura futura in §2; analisi dedicata in Fase 3 (regole da validare col commercialista).
-- **2026-10-11 10:16**: Atti invia piano clienti Ticino già pronto (salvato in [[PIANO_CLIENTI_TICINO]]). Integrato in dossier: sequenza = dopo sito live; quote adattate al budget ore (IAcopo lista+bozze, Atti invii 15-20 min/giorno); canali AITI/Agire/ATED registrati per Fase 3. In attesa conferma sequenza da Atti.
+- **2026-10-11 10:31**: Indicazioni design da Atti: riusare colori/logo/foto esistenti (mantenere il volto = identità personale), sito one-page responsive moderno, preview su attibot. Eseguito v0.2: Bootstrap 5.3.3 + Bootstrap Icons + CSS custom su palette reale del brand (navy #0B3762 da logo), logo e ritratto originali riusati (foto in hero). Nessuna skill web-design nel toolkit: Bootstrap+CSS custom sufficiente. Pubblicata su attibot reports + verificata via screenshot (layout OK).
+- **2026-10-11 10:40**: FEEDBACK v0.2 → corrette in v0.3 (pubblicata 10:44, verificata): ① palette blu+grigi SENZA verde ② footer con dati reali dal sito attuale ③ CTA = "Incontro di fattibilità gratuito" (1-2 ore, non più "30 min") ④ via il "gruppo 8-9 aziende": numeri veri o concetto → scelto il concetto ("partnership pluriennali", "15 anni...") ⑤ geografia professionale ("in remoto in tutta Italia, in presenza in Lombardia e province limitrofe") ⑥ tono consulenziale. Aggiunta sezione "Linee guida copy & design" in §3 valide per tutte le pagine future. Domanda skill copywriting: nessuna skill dedicata disponibile; metodo = framework B2B + checklist vaghezza + (opzionale) passata di revisione con secondo modello
