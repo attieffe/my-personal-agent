@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EXk7k1XLNSeSMXVSDxUhSnZQvoYn8",
+  "object": "chat.completion",
+  "created": 1791710832,
+  "model": "gpt-5.5-2026-04-23",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"nav\": {\n    \"services\": \"Servizi\",\n    \"modes\": \"Modalità di collaborazione\",\n    \"why\": \"Perché Ingenio Solution\",\n    \"about\": \"Il fondatore\",\n    \"cta\": \"Incontro di fattibilità gratuito\"\n  },\n  \"hero\": {\n    \"h1\": \"Software su misura per PMI senza reparto IT\",\n    \"sub\": \"Automazione, integrazioni e applicazioni custom per PMI senza reparto IT strutturato, con un unico referente senior dall’analisi al mantenimento.\",\n    \"cta_primary\": \"Prenota l’incontro di fattibilità gratuito\",\n    \"cta_secondary\": \"Esamina le aree di intervento\",\n    \"trustline\": \"Ingegnere informatico abilitato · Consulenza in remoto in tutta Italia, in presenza in Lombardia e nelle province limitrofe\",\n    \"photo_cap\": \"Attilio Fiumanò — Ingegnere informatico, fondatore di Ingenio Solution\"\n  },\n  \"services\": {\n    \"kicker\": \"Aree di intervento\",\n    \"h2\": \"Processi più ordinati, dati affidabili, meno attività manuali\",\n    \"lead\": \"Quando informazioni, documenti e sistemi non sono allineati, la PMI perde tempo operativo e controllo. Ingenio Solution analizza i flussi, li semplifica e sviluppa il software necessario per sostenerli.\",\n    \"cards\": [\n      {\n        \"title\": \"Automazione processi e digitalizzazione documentale\",\n        \"text\": \"Ordini, preventivi, report e moduli vengono trasformati in flussi digitali controllabili, riducendo ridigitazioni, passaggi manuali e dipendenza da file non governati.\"\n      },\n      {\n        \"title\": \"Intelligenza artificiale applicata ai processi\",\n        \"text\": \"L’AI viene valutata solo quando può migliorare un’attività concreta: classificare, estrarre, assistere, controllare. Prima si analizza il processo, poi si sceglie la tecnologia.\"\n      },\n      {\n        \"title\": \"Software custom, gestionali e integrazioni\",\n        \"text\": \"Applicazioni web e gestionali su misura, progettati sul modo di lavorare dell’azienda e integrati con strumenti già in uso: e-commerce, WordPress, Shopify e sistemi gestionali esistenti.\"\n      }\n    ],\n    \"more\": \"Approfondisci le aree di intervento →\"\n  },\n  \"modes\": {\n    \"kicker\": \"Modalità di collaborazione\",\n    \"h2\": \"Interventi continuativi o progetti verticali\",\n    \"boxes\": [\n      {\n        \"tag\": \"Quando non esiste un reparto IT\",\n        \"title\": \"Gestione tecnica completa\",\n        \"text\": \"La stessa figura senior analizza il processo, progetta l’intervento, sviluppa il software e ne cura il mantenimento. Un modello accessibile per PMI che non vogliono gestire interlocutori multipli.\"\n      },\n      {\n        \"tag\": \"Quando serve un intervento mirato\",\n        \"title\": \"Progetto verticale\",\n        \"text\": \"Un’integrazione, un’automazione o un’applicazione web vengono definiti con obiettivi, perimetro e risultato atteso prima dell’avvio, così l’investimento resta controllabile.\"\n      }\n    ]\n  },\n  \"proof\": {\n    \"kicker\": \"Elementi di affidabilità\",\n    \"h2\": \"Esperienza operativa, continuità e responsabilità diretta\",\n    \"stats\": [\n      {\n        \"n\": \"15 anni\",\n        \"d\": \"Esperienza come responsabile dei processi IT di un gruppo industriale, con gestione quotidiana di sistemi, integrazioni e manutenzione.\"\n      },\n      {\n        \"n\": \"Dal 2015\",\n        \"d\": \"Ingenio Solution opera con un approccio orientato al mantenimento: software progettato per evolvere insieme ai processi aziendali.\"\n      },\n      {\n        \"n\": \"Pluriennali\",\n        \"d\": \"Le partnership con i clienti principali proseguono da anni, segno di continuità tecnica e capacità di seguire l’evoluzione dei processi.\"\n      },\n      {\n        \"n\": \"Un referente\",\n        \"d\": \"Analisi, sviluppo, rilascio e manutenzione sono affidati alla stessa figura senior, con responsabilità chiara su scelte tecniche e continuità.\"\n      }\n    ]\n  },\n  \"feasibility\": {\n    \"h2\": \"Prima di investire, valutiamo processo e ritorno atteso\",\n    \"text\": \"Incontro di fattibilità gratuito: in circa un’ora o due analizziamo un processo aziendale e forniamo una valutazione chiara su cosa migliorare, come intervenire e quale risultato attendersi. Senza impegno.\",\n    \"btn\": \"Prenota l’incontro di fattibilità gratuito\"\n  },\n  \"about\": {\n    \"kicker\": \"Il fondatore\",\n    \"h2\": \"Competenza tecnica e responsabilità personale\",\n    \"bio1\": \"Attilio Fiumanò è ingegnere informatico abilitato e fondatore di Ingenio Solution S.a.s., con sede a Seregno, in provincia di Monza e Brianza.\",\n    \"bio2\": \"Segue PMI italiane in remoto su tutto il territorio nazionale e in presenza in Lombardia e nelle province limitrofe. Le collaborazioni principali proseguono da anni grazie a continuità tecnica e responsabilità diretta.\",\n    \"timeline\": [\n      {\n        \"year\": \"2012\",\n        \"text\": \"Laurea Magistrale in Ingegneria Informatica, Politecnico di Milano\"\n      },\n      {\n        \"year\": \"2014\",\n        \"text\": \"Abilitazione all’esercizio della professione di Ingegnere dell’Informazione\"\n      },\n      {\n        \"year\": \"Dal 2010\",\n        \"text\": \"Attività nel settore dello sviluppo software: applicazioni, sistemi e integrazioni\"\n      },\n      {\n        \"year\": \"2015\",\n        \"text\": \"Fondazione di Ingenio Solution S.a.s. a Seregno, MB\"\n      },\n      {\n        \"year\": \"Oggi\",\n        \"text\": \"Quindici anni di esperienza sui processi IT di un gruppo industriale al servizio delle PMI\"\n      }\n    ]\n  }\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2221,
+    "completion_tokens": 2934,
+    "total_tokens": 5155,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1535,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Ingenio Solution — Software su misura e automazione processi per PMI</title>
+<meta name="description" content="Bozza di lavoro v0.4 — non pubblicare">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0b3762; --navy-deep:#072a4c; --steel:#3d6d9c; --steel-light:#9ec3e4;
+    --paper:#ffffff; --bg:#f4f6f8; --line:#e0e6ec;
+    --ink:#1c2b3a; --ink-soft:#55697c;
+  }
+  html{scroll-behavior:smooth}
+  body{color:var(--ink);background:var(--bg);line-height:1.65}
+  ::selection{background:var(--navy);color:#fff}
+
+  .preview-banner{background:#b3541e;color:#fff;text-align:center;font-size:.8rem;padding:6px 12px;letter-spacing:.4px}
+
+  /* NAVBAR */
+  .navbar{background:var(--navy);padding:.65rem 0}
+  .navbar .logo-img{height:46px;width:auto;border-radius:6px}
+  .navbar .nav-link{color:#c9d8e6;font-weight:500;font-size:.95rem}
+  .navbar .nav-link:hover,.navbar .nav-link:focus{color:#fff}
+  .btn-navy{background:var(--navy);border:1.5px solid var(--navy);color:#fff;font-weight:600;border-radius:.6rem}
+  .btn-navy:hover{background:var(--navy-deep);border-color:var(--navy-deep);color:#fff}
+  .btn-white{background:#fff;border:1.5px solid #fff;color:var(--navy);font-weight:700;border-radius:.6rem}
+  .btn-white:hover{background:#e6edf4;border-color:#e6edf4;color:var(--navy)}
+  .btn-ghost{background:transparent;border:1.5px solid rgba(255,255,255,.55);color:#fff;font-weight:600;border-radius:.6rem}
+  .btn-ghost:hover{border-color:#fff;color:#fff;background:rgba(255,255,255,.08)}
+
+  /* HERO */
+  .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-deep) 100%);color:#fff;padding:4.5rem 0 4rem;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;right:-140px;top:-140px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(61,109,156,.4),transparent 65%)}
+  .hero h1{font-size:clamp(2rem,4.4vw,3.15rem);font-weight:800;line-height:1.15;letter-spacing:-.02em}
+  .hero h1 .hl{color:var(--steel-light)}
+  .hero p.sub{color:#c9d8e6;font-size:clamp(1.02rem,1.5vw,1.18rem);max-width:660px;margin:1.1rem 0 1.8rem}
+  .hero .photo-card{background:#fff;padding:.55rem;border-radius:1rem;box-shadow:0 18px 44px rgba(3,20,38,.45);max-width:340px;margin:0 auto}
+  .hero .photo-card img{border-radius:.7rem;width:100%;display:block}
+  .hero .photo-cap{font-size:.8rem;color:var(--ink-soft);text-align:center;padding:.55rem .2rem .15rem}
+  .trustline{margin-top:1.1rem;font-size:.87rem;color:#9db6cd}
+  .trustline i{color:var(--steel-light);margin-right:.35rem}
+
+  .kicker{color:var(--steel);font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.14em;margin-bottom:.5rem}
+  h2.title{font-size:clamp(1.5rem,2.6vw,2rem);font-weight:800;letter-spacing:-.02em;margin-bottom:.6rem}
+  p.lead2{color:var(--ink-soft);max-width:730px;font-size:1.04rem}
+
+  section{padding:4rem 0}
+  .bg-paper{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+
+  .card-s{border:1px solid var(--line);border-radius:.9rem;background:#fff;transition:transform .15s ease, box-shadow .15s ease;height:100%}
+  .card-s:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(11,55,98,.12)}
+  .card-s .ico{width:52px;height:52px;border-radius:.7rem;background:linear-gradient(140deg,var(--navy),var(--steel));color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.45rem}
+  .card-s h3{font-size:1.12rem;font-weight:700;margin:1rem 0 .45rem}
+  .card-s p{color:var(--ink-soft);font-size:.95rem;margin-bottom:0}
+  .card-s .more{display:inline-block;margin-top:.9rem;color:var(--navy);font-weight:600;font-size:.92rem;text-decoration:none}
+  .card-s .more:hover{text-decoration:underline}
+
+  .box-mode{border:1px solid var(--line);border-radius:.9rem;background:#fff;padding:1.7rem;height:100%}
+  .box-mode.hi{background:var(--navy);border-color:var(--navy);color:#fff}
+  .box-mode h3{font-size:1.15rem;font-weight:700}
+  .box-mode p{color:var(--ink-soft);margin:0}
+  .box-mode.hi p{color:#c9d8e6}
+  .box-mode .tag{font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--steel);margin-bottom:.5rem}
+  .box-mode.hi .tag{color:var(--steel-light)}
+
+  .stat{background:#fff;border:1px solid var(--line);border-radius:.9rem;padding:1.4rem;height:100%}
+  .stat .n{font-size:1.9rem;font-weight:800;color:var(--navy);letter-spacing:-.03em;line-height:1.15}
+  .stat .n.n-sm{font-size:1.22rem}
+  .stat .d{font-size:.9rem;color:var(--ink-soft);margin-top:.4rem}
+
+  .cta-block{background:linear-gradient(140deg,var(--navy) 0%,var(--navy-deep) 100%);border-radius:1.1rem;color:#fff;padding:3rem 2rem;text-align:center}
+  .cta-block h2{font-weight:800;color:#fff}
+  .cta-block p{color:#c9d8e6;max-width:640px;margin:0 auto 1.6rem}
+  .cta-block .btn{background:#fff;color:var(--navy);border:none;font-weight:700}
+  .cta-block .btn:hover{background:#e6edf4}
+
+  .fact{display:flex;gap:.7rem;align-items:flex-start;margin-bottom:.9rem}
+  .fact i{color:var(--steel);font-size:1.15rem;margin-top:.15rem}
+  .fact p{margin:0;color:var(--ink-soft);font-size:.97rem}
+  .fact p strong{color:var(--ink)}
+
+  footer{background:var(--navy-deep);color:#9db6cd;padding:2.4rem 0;font-size:.9rem}
+  footer img{height:40px;border-radius:5px;opacity:.95}
+  footer a{color:#dce7f1;text-decoration:none}
+  footer a:hover{color:#fff}
+
+  @media(max-width:991px){ .hero{padding:3.4rem 0 3rem} .hero .photo-card{max-width:300px;margin-top:2.2rem} }
+</style>
+</head>
+<body>
+
+<div class="preview-banner">BOZZA DI LAVORO v0.4 — preview non indicizzata · copy GPT-5.5 + revisione IAcopo · da validare prima della pubblicazione</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt="Ingenio Solution" class="logo-img"></a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Apri menu">
+      <i class="bi bi-list text-white fs-2"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#servizi">Servizi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#modi">Modalità di collaborazione</a></li>
+        <li class="nav-item"><a class="nav-link" href="#perche">Perché Ingenio Solution</a></li>
+        <li class="nav-item"><a class="nav-link" href="#chi">Il fondatore</a></li>
+        <li class="nav-item ms-lg-3"><a class="btn btn-white px-3" href="#fattibilita">Incontro di fattibilità</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container position-relative" style="z-index:1">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <h1>Software <span class="hl">su misura</span> per PMI senza reparto IT</h1>
+        <p class="sub">Automazione dei processi, integrazioni e applicazioni web custom, con un unico referente senior: quindici anni alla guida dei processi IT di un gruppo industriale, oggi al servizio della tua azienda.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a class="btn btn-white btn-lg px-4" href="#fattibilita">Prenota l'incontro di fattibilità gratuito</a>
+          <a class="btn btn-ghost btn-lg px-4" href="#servizi">Scopri le aree di intervento</a>
+        </div>
+        <p class="trustline"><i class="bi bi-patch-check-fill"></i>Ingegnere informatico abilitato &nbsp;·&nbsp; <i class="bi bi-geo-alt-fill"></i>Consulenza in remoto in tutta Italia, in presenza in Lombardia e nelle province limitrofe</p>
+      </div>
+      <div class="col-lg-5">
+        <div class="photo-card">
+          <img src="assets/attilio.jpg" alt="Attilio Fiumanò, ingegnere informatico">
+          <div class="photo-cap"><strong>Attilio Fiumanò</strong> — Ingegnere informatico, fondatore di Ingenio Solution</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- SERVIZI -->
+<section id="servizi" class="bg-paper">
+  <div class="container">
+    <div class="kicker">Aree di intervento</div>
+    <h2 class="title">Processi più ordinati, dati affidabili, meno attività manuali</h2>
+    <p class="lead2">Quando informazioni, documenti e sistemi non sono allineati, l'azienda perde tempo operativo e controllo. Ingenio Solution analizza i flussi, li semplifica e sviluppa il software necessario per sostenerli.</p>
+    <div class="row g-4 mt-2">
+      <div class="col-md-4">
+        <div class="card-s p-4">
+          <div class="ico"><i class="bi bi-folder2-open"></i></div>
+          <h3>Automazione processi e digitalizzazione documentale</h3>
+          <p>Ordini, preventivi, report e moduli vengono trasformati in flussi digitali controllabili, riducendo ridigitazioni, passaggi manuali e dipendenza da file non governati.</p>
+          <a class="more" href="#">Approfondisci →</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-s p-4">
+          <div class="ico"><i class="bi bi-cpu"></i></div>
+          <h3>Intelligenza artificiale applicata ai processi</h3>
+          <p>L'AI viene valutata solo quando può migliorare un'attività concreta: classificare, estrarre, assistere, controllare. Prima si analizza il processo, poi si sceglie la tecnologia.</p>
+          <a class="more" href="#">Approfondisci →</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-s p-4">
+          <div class="ico"><i class="bi bi-code-square"></i></div>
+          <h3>Software custom, gestionali e integrazioni</h3>
+          <p>Applicazioni web e gestionali su misura, progettati sul modo di lavorare dell'azienda e integrati con gli strumenti già in uso: e-commerce, WordPress, Shopify e sistemi gestionali esistenti.</p>
+          <a class="more" href="#">Approfondisci →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODALITA -->
+<section id="modi">
+  <div class="container">
+    <div class="kicker">Modalità di collaborazione</div>
+    <h2 class="title">Interventi continuativi o progetti verticali</h2>
+    <div class="row g-4 mt-2">
+      <div class="col-md-6">
+        <div class="box-mode hi">
+          <div class="tag">Quando non esiste un reparto IT</div>
+          <h3>Gestione tecnica completa</h3>
+          <p>La stessa figura senior analizza il processo, progetta l'intervento, sviluppa il software e ne cura il mantenimento. Un modello accessibile per le PMI che non vogliono gestire interlocutori multipli.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="box-mode">
+          <div class="tag">Quando serve un intervento mirato</div>
+          <h3>Progetto verticale</h3>
+          <p>Un'integrazione, un'automazione o un'applicazione web vengono definiti con obiettivi, perimetro e risultato atteso prima dell'avvio, così l'investimento resta controllabile.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PERCHE -->
+<section id="perche" class="bg-paper">
+  <div class="container">
+    <div class="kicker">Elementi di affidabilità</div>
+    <h2 class="title">Esperienza operativa, continuità e responsabilità diretta</h2>
+    <div class="row g-4 mt-2">
+      <div class="col-sm-6 col-lg-3"><div class="stat"><div class="n">15 anni</div><div class="d">Esperienza come responsabile dei processi IT di un gruppo industriale, con gestione quotidiana di sistemi, integrazioni e manutenzione.</div></div></div>
+      <div class="col-sm-6 col-lg-3"><div class="stat"><div class="n">Dal 2015</div><div class="d">Ingenio Solution opera con un approccio orientato al mantenimento: software progettato per evolvere insieme ai processi aziendali.</div></div></div>
+      <div class="col-sm-6 col-lg-3"><div class="stat"><div class="n n-sm">Partnership pluriennali</div><div class="d">Le collaborazioni con i clienti principali proseguono da anni: continuità tecnica e capacità di accompagnare l'evoluzione dei processi.</div></div></div>
+      <div class="col-sm-6 col-lg-3"><div class="stat"><div class="n n-sm">Un referente</div><div class="d">Analisi, sviluppo, rilascio e manutenzione sono affidati alla stessa figura senior, con responsabilità chiara sulle scelte tecniche.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FATTIBILITA -->
+<section id="fattibilita">
+  <div class="container">
+    <div class="cta-block">
+      <h2>Prima di investire, valutiamo processo e ritorno atteso</h2>
+      <p><strong>Incontro di fattibilità gratuito</strong>: in circa un'ora o due analizziamo un processo aziendale e forniamo una valutazione chiara su cosa migliorare, come intervenire e quale risultato attendersi. Senza impegno.</p>
+      <a class="btn btn-lg px-4" href="mailto:[email protected]?subject=Richiesta%20incontro%20di%20fattibilit%C3%A0">Prenota l'incontro di fattibilità gratuito</a>
+    </div>
+  </div>
+</section>
+
+<!-- CHI SONO -->
+<section id="chi" class="bg-paper">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <div class="kicker">Il fondatore</div>
+        <h2 class="title">Competenza tecnica e responsabilità personale</h2>
+        <p class="lead2 mt-3"><strong>Attilio Fiumanò</strong> è ingegnere informatico abilitato e fondatore di Ingenio Solution S.a.s., con sede a Seregno, in provincia di Monza e Brianza.</p>
+        <p class="lead2">Segue PMI italiane in remoto su tutto il territorio nazionale e in presenza in Lombardia e nelle province limitrofe. Le collaborazioni principali proseguono da anni grazie a continuità tecnica e responsabilità diretta.</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="fact"><i class="bi bi-mortarboard-fill"></i><p><strong>2012</strong> — Laurea Magistrale in Ingegneria Informatica, Politecnico di Milano</p></div>
+        <div class="fact"><i class="bi bi-patch-check-fill"></i><p><strong>2014</strong> — Abilitazione all'esercizio della professione di Ingegnere dell'Informazione</p></div>
+        <div class="fact"><i class="bi bi-code-slash"></i><p><strong>Dal 2010</strong> — Attività nel settore dello sviluppo software: applicazioni, sistemi e integrazioni</p></div>
+        <div class="fact"><i class="bi bi-building"></i><p><strong>2015</strong> — Fondazione di Ingenio Solution S.a.s., Seregno (MB)</p></div>
+        <div class="fact"><i class="bi bi-diagram-3-fill"></i><p><strong>Oggi</strong> — Quindici anni di esperienza sui processi IT di un gruppo industriale, al servizio delle PMI</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <img src="assets/logo.jpg" alt="Ingenio Solution"><br><br>
+        <strong>Ingenio Solution S.a.s. di Fiumanò Attilio</strong><br>
+        via Pacini 77, 20831 Seregno (MB)
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="mailto:[email protected]">[email protected]</a> · <a href="tel:+3903621636590">+39 0362 1636590</a><br>
+        P.IVA e C.F. 08971020964<br>
+        © 2016–2026 Ingenio Solution S.a.s.
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

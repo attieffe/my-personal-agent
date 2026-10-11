@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "services": "Servizi",
+    "modes": "Modalità di collaborazione",
+    "why": "Perché Ingenio Solution",
+    "about": "Il fondatore",
+    "cta": "Incontro di fattibilità gratuito"
+  },
+  "hero": {
+    "h1": "Software su misura per PMI senza reparto IT",
+    "sub": "Automazione, integrazioni e applicazioni custom per PMI senza reparto IT strutturato, con un unico referente senior dall’analisi al mantenimento.",
+    "cta_primary": "Prenota l’incontro di fattibilità gratuito",
+    "cta_secondary": "Esamina le aree di intervento",
+    "trustline": "Ingegnere informatico abilitato · Consulenza in remoto in tutta Italia, in presenza in Lombardia e nelle province limitrofe",
+    "photo_cap": "Attilio Fiumanò — Ingegnere informatico, fondatore di Ingenio Solution"
+  },
+  "services": {
+    "kicker": "Aree di intervento",
+    "h2": "Processi più ordinati, dati affidabili, meno attività manuali",
+    "lead": "Quando informazioni, documenti e sistemi non sono allineati, la PMI perde tempo operativo e controllo. Ingenio Solution analizza i flussi, li semplifica e sviluppa il software necessario per sostenerli.",
+    "cards": [
+      {
+        "title": "Automazione processi e digitalizzazione documentale",
+        "text": "Ordini, preventivi, report e moduli vengono trasformati in flussi digitali controllabili, riducendo ridigitazioni, passaggi manuali e dipendenza da file non governati."
+      },
+      {
+        "title": "Intelligenza artificiale applicata ai processi",
+        "text": "L’AI viene valutata solo quando può migliorare un’attività concreta: classificare, estrarre, assistere, controllare. Prima si analizza il processo, poi si sceglie la tecnologia."
+      },
+      {
+        "title": "Software custom, gestionali e integrazioni",
+        "text": "Applicazioni web e gestionali su misura, progettati sul modo di lavorare dell’azienda e integrati con strumenti già in uso: e-commerce, WordPress, Shopify e sistemi gestionali esistenti."
+      }
+    ],
+    "more": "Approfondisci le aree di intervento →"
+  },
+  "modes": {
+    "kicker": "Modalità di collaborazione",
+    "h2": "Interventi continuativi o progetti verticali",
+    "boxes": [
+      {
+        "tag": "Quando non esiste un reparto IT",
+        "title": "Gestione tecnica completa",
+        "text": "La stessa figura senior analizza il processo, progetta l’intervento, sviluppa il software e ne cura il mantenimento. Un modello accessibile per PMI che non vogliono gestire interlocutori multipli."
+      },
+      {
+        "tag": "Quando serve un intervento mirato",
+        "title": "Progetto verticale",
+        "text": "Un’integrazione, un’automazione o un’applicazione web vengono definiti con obiettivi, perimetro e risultato atteso prima dell’avvio, così l’investimento resta controllabile."
+      }
+    ]
+  },
+  "proof": {
+    "kicker": "Elementi di affidabilità",
+    "h2": "Esperienza operativa, continuità e responsabilità diretta",
+    "stats": [
+      {
+        "n": "15 anni",
+        "d": "Esperienza come responsabile dei processi IT di un gruppo industriale, con gestione quotidiana di sistemi, integrazioni e manutenzione."
+      },
+      {
+        "n": "Dal 2015",
+        "d": "Ingenio Solution opera con un approccio orientato al mantenimento: software progettato per evolvere insieme ai processi aziendali."
+      },
+      {
+        "n": "Pluriennali",
+        "d": "Le partnership con i clienti principali proseguono da anni, segno di continuità tecnica e capacità di seguire l’evoluzione dei processi."
+      },
+      {
+        "n": "Un referente",
+        "d": "Analisi, sviluppo, rilascio e manutenzione sono affidati alla stessa figura senior, con responsabilità chiara su scelte tecniche e continuità."
+      }
+    ]
+  },
+  "feasibility": {
+    "h2": "Prima di investire, valutiamo processo e ritorno atteso",
+    "text": "Incontro di fattibilità gratuito: in circa un’ora o due analizziamo un processo aziendale e forniamo una valutazione chiara su cosa migliorare, come intervenire e quale risultato attendersi. Senza impegno.",
+    "btn": "Prenota l’incontro di fattibilità gratuito"
+  },
+  "about": {
+    "kicker": "Il fondatore",
+    "h2": "Competenza tecnica e responsabilità personale",
+    "bio1": "Attilio Fiumanò è ingegnere informatico abilitato e fondatore di Ingenio Solution S.a.s., con sede a Seregno, in provincia di Monza e Brianza.",
+    "bio2": "Segue PMI italiane in remoto su tutto il territorio nazionale e in presenza in Lombardia e nelle province limitrofe. Le collaborazioni principali proseguono da anni grazie a continuità tecnica e responsabilità diretta.",
+    "timeline": [
+      {
+        "year": "2012",
+        "text": "Laurea Magistrale in Ingegneria Informatica, Politecnico di Milano"
+      },
+      {
+        "year": "2014",
+        "text": "Abilitazione all’esercizio della professione di Ingegnere dell’Informazione"
+      },
+      {
+        "year": "Dal 2010",
+        "text": "Attività nel settore dello sviluppo software: applicazioni, sistemi e integrazioni"
+      },
+      {
+        "year": "2015",
+        "text": "Fondazione di Ingenio Solution S.a.s. a Seregno, MB"
+      },
+      {
+        "year": "Oggi",
+        "text": "Quindici anni di esperienza sui processi IT di un gruppo industriale al servizio delle PMI"
+      }
+    ]
+  }
+}
