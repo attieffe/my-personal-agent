@@ -8,6 +8,12 @@
 
 ## Idee / Iniziative
 
+### Rinnovamento sito + acquisizione clienti Ingenio Solution
+- **Concept:** home nazionale + landing specializzate (automazione, AI, software custom) + promozione SEO/GBP/Ads
+- **Stato:** dossier strategia attivo, analisi di mercato Fase 1 in corso
+- **Priorità:** alta
+- **Dettagli:** [[../INGENIO_SOLUTION/STRATEGIA_ACQUISIZIONE_WEB]]
+
 ### Piattaforma AI MCP Knowledge
 - **Concept:** Portare AI in azienda step-by-step via MCP Knowledge Platform
 - **Differenziatori:** MCP-native (no vendor lock-in), consulenza personalizzata, "so quando AI NON serve"
