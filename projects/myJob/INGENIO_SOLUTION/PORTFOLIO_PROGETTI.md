@@ -10,6 +10,32 @@
 
 ---
 
+## 🗂️ Indice voci (per anno)
+
+| # | Anno | Cliente | Progetto (sintesi) | Target |
+|---|------|---------|--------------------|--------|
+| 1 | 2020 | Mannarino | Sito web + Ticket Restaurant | C |
+| 8 | 2020-2026 | [Colzani?] | Ciclo ordine→fattura automatizzato | A/C |
+| 6 | 2022 | [?] | Inventario magazzino responsive+Android | A/C |
+| 9 | 2022 | [?] | Corrispettivi cassa (retail) | A |
+| 4 | 2023 | Colzani/Brico Sport ⚠️ | Migrazione ERP + WMS | credenziale |
+| 2 | 2025 | [?] | Portale benefit WordPress+SSO | C |
+| 5 | 2025 | Autoscuola Susa | Web app gestione guide (React) | C |
+| 3 | 2026 | Davide Rizzi | Produzione tessile, distinte per attributi | C + case study |
+| 7 | 2026 | Colzani ⚠️ | Piattaforma MCP "second brain" | B |
+| 10 | [?] | [?] | Report dinamici web + KPI | C |
+| 11 | [?] | [?] | Riordino automatico merci | A |
+
+## 🎯 Mappa per le landing
+
+- **Landing A — Automazione processi & addio carta**: #8 (ciclo ordine→magazzino→fattura end-to-end), #11 (riordino automatico), #9 (corrispettivi cassa), #6 (inventario digitale)
+- **Landing B — AI dove serve davvero**: #7 (piattaforma MCP: l'AI la usiamo noi per primi, prima di venderla)
+- **Landing C — Software custom & gestionali**: #3 (tessile, distinte per attributi), #5 (autoscuola), #2 (benefit SSO), #1 (Mannarino), #10 (report KPI)
+- **Credenziale anonima (mai nominare)**: #4 (ERP+WMS gruppo industriale)
+- **Case study candidati** (da sviluppare anonimi): #3 ("distinte base per attributi" — complessità reale), #2 (SSO + shop riservato), #8 ("addio carta" in versione enterprise)
+
+---
+
 ## 1. 2020 — Mannarino: sito web + integrazione Ticket Restaurant
 
 - **Cliente:** Mannarino *(settore: da chiedere)*
