@@ -62,6 +62,12 @@
 	- [ ] davide si è reso conto che su alcuni tagli, sopratutto piccoli senza la lunghezza della pezza il sistema non sa se fissare prima il nr di tagli e ricavarne la lunghezza oppure fissare la lunghezza (come la giacenza) e ricavare il nr di tagli. Per ora proviamo a proporre i prodotti compatibili senza fare il calcolo
 		- [ ] quale art proporre, meno scarto script "ottieni proposta taglio", riga 97
 		- [ ] 
+- [ ] 12/10/2026 — call con Davide: evoluzione della stampa di produzione in **pagina interattiva di lancio/configurazione della produzione** (non più solo una stampa)
+	- [ ] schermata di lancio dove scegliere quali righe di una specifica produzione attivare
+	- [ ] predisporre il lancio delle stampe (generazione automatica delle stampe)
+	- [ ] scegliere il tipo di algoritmo di calcolo per il taglio da eseguire
+	- [ ] indicizzare in tabelle dedicate le elaborazioni proposte
+	- [ ] raccogliere tutti gli opportuni dati e agevolare la fase successiva di codifica prodotto
 
 ## Note
 -
