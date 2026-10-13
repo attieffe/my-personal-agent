@@ -12,6 +12,8 @@
 - Test carico: in appoggio su un solo piede (gamba destra) compare fastidio — non dolore vero e proprio, ma **percezione della gamba/ginocchio modificata**.
 - Padel post-trattamento: partita giocata senza problemi nei movimenti normali, ma sotto **pressione specifica** sulla gamba destra si può innescare una sensazione di **bruciore**.
 - **13/10 pomeriggio: nuovo appuntamento fisioterapista** — riferiti i punti sopra (mismatch zona trattata/sintomo). Da valutare con ortopedista se non migliora.
+- **Esito sessione 13/10**: il fisio ha individuato una **contrattura muscolare nella parte posteriore del ginocchio** — muscolo che inizia con "P" (quasi certamente **popliteo**; alternativa possibile: **plantare** — da confermare col fisio). Contrattura trattata → riferito **beneficio generale**.
+- Sintomo residuo post-trattamento: in flessione con carico, ogni tanto un **bruciore tipo "lampo" veloce nella fase di transizione** (piego/mi rialzo), intermittente — non sempre riproducibile. **Precisazione (18:33): è la stessa identica sensazione avvertita a fine partita di padel** → sintomo coerente tra flessione sotto carico e fine partita. Sospetto da valutare: irritazione nervosa vs scorrimento tendine/muscolo contratto. Monitorare 48-72h; se persiste → ecografia (già concordata come prossimo passo).
 
 ### Mer 7 ottobre 2026 — Fisioterapista ginocchio destro (trattamento strumentale)
 - Visita dal **fisioterapista** per la zona del ginocchio destro (segue dolore del 02/10).
