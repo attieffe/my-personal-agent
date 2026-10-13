@@ -1,180 +1,79 @@
 # MEMORY.md - Long-Term Memory
 
-_Your curated memory. The distilled essence of what you've learned._
+_Memoria curata — distillato di ciò che ho imparato. Le prime 200 righe vengono auto-caricate in ogni sessione principale._
 
-Le prime 200 righe di questo file vengono caricate automaticamente in ogni sessione principale. Mantienilo conciso.
-
-Per dettagli giornalieri raw → vedi `memory/YYYY-MM-DD.md`  
-Per progetti specifici → vedi [progetti.md](progetti.md)
+Dettagli giornalieri raw → `memory/YYYY-MM-DD.md` · Progetti → [progetti.md](progetti.md)
 
 ---
 
 ## 🎯 Lezioni Critiche
 
-### Cron — Timeout agentTurn
-- Job cron `agentTurn` che fanno chiamate al modello/web_fetch: timeout **generoso** (300s+)
-- **Caso 2026-09-02/03**: meteo 7:30 con timeout 60s → 2 timeout → auto-retry → doppio messaggio + errori in chat. Fix: 60→300s
-- **Ricaduta 2026-09-07**: meteo Sab-Dom 8:30 stesso pattern (60s → 3 retry falliti). Fix: 60→240s. Entrambi i job meteo ora ≥240s
-- Stesso pattern "TODO scadenze light": timeout 20s → 120s
-- Job `systemEvent` su main session: ~10-30ms, nessun rischio timeout
-- Sintomo tipico: messaggi doppi + notifiche errore = run scaduto che completa comunque in background + retry riuscito
+### Cron
+- Job `agentTurn` con chiamate modello/web_fetch: timeout **generoso** (240-300s+). Casi 09/2026 (meteo 60s → doppio messaggio + retry): ora tutti ≥240s; "TODO scadenze light" 20→120s
+- `systemEvent` su main: ~10-30ms, nessun rischio
+- Sintomo timeout: messaggi doppi + notifiche errore = run scaduto che completa comunque + retry riuscito
+- **Caso 09/10**: cron "ToDo Colzani" falliva sempre — `toolsAllow` senza `read` → nella allowlist mettere TUTTI gli strumenti che il prompt usa
 
-### mio-tesoro — Naming varianti
-- Nomi canonici delle proposte: `mio-tesoro-file` (full privacy), `mio-tesoro-paas` (full service), `mio-tesoro-cloud` (cloud personale ibrido), `mio-tesoro-sheet` (Google Sheet senza webapp HTML)
+### Regole Ferree
+- **SEMPRE `Europe/Rome`** per date/ora (mai UTC)
+- Verificare conti su Sheet specifici: **CASA ≠ PERSONALE** (piani dei conti diversi); aggiornare sia file locali che Sheet
+- **MAI azioni distruttive** senza permesso esplicito; `trash` > `rm`
+- **⭐ LEGGI PRIMA DI CREARE**: cercare sempre il file `.md` esistente più adatto → aggiornarlo; se non esiste → chiedere conferma ad Atti con path proposto. (Caso BMW_X1: creato duplicato ignorando file esistente. Mai più.)
+- **Segreti nei link firmati** (09/2026): parametri `q-ak` di link COS/fatture Z.ai contengono credenziali → mai incollarli integri in file tracciati da git; `.md` preview vanno sanitizzati
+- **COLZANI = workspace separato** — non esiste in myOcSync
+- Transcript vocale sbaglia nomi ("Colsanit"=Colzani, "Sportit"→Brico Sport) — normalizzare SEMPRE e confermare
 
-### Date e Timezone
-- **SEMPRE usare `Europe/Rome`** per campi data/ora creazione/modifica
-- **MAI UTC** (offset di 2 ore in estate causa confusione per Atti)
+### Naming mio-tesoro
+- `mio-tesoro-file` (full privacy) · `mio-tesoro-paas` (full service) · `mio-tesoro-cloud` (cloud ibrido) · `mio-tesoro-sheet` (Google Sheet senza webapp)
 
-### Validazione Dati
-- Verificare SEMPRE conti su Google Sheet specifici: **CASA ≠ PERSONALE**
-- Hanno piani dei conti differenti, non sono intercambiabili
-- Aggiornare sia file locali che Google Sheet (non solo uno dei due)
-
-### Sicurezza Operativa
-- **MAI azioni distruttive** senza permesso esplicito
-- `trash` > `rm` (recoverable beats gone forever)
-
-### Sicurezza Git — Segreti nei link firmati
-- **2026-09-07**: push bloccato da GitHub Push Protection — "Tencent Cloud Secret ID" nel preview email (fattura Z.ai): i parametri `q-ak` di link COS firmati contengono credenziali
-- Link firmati ricorrenti (query-string con token): fatture Z.ai mensili, cloud storage → **mai incollarli integri nei file tracciati da git**
-- `.eml` non tracciati (gitignore) OK; i file `.md` di preview vanno sanitizzati — TODO prevenzione attivo in [[projects/myJob/TODO_GENERALE]]
-
-### ⭐ File Esistenti — LEGGI PRIMA DI CREARE
-**REGOLA ASSOLUTA:** Prima di creare **qualsiasi** file `.md`:
-1. **Cerca sempre** il file `.md` esistente più adatto (per tema, cartella, tipo di dato)
-2. Se esiste → **aggiorna quello**, non crearne uno nuovo
-3. Se non esiste → **chiedi conferma** a Atti prima di crearne uno nuovo, proponendo il path
-
-**Perché:** Un file aggiornato vale più di dieci file sparsi. Riduci proliferazione. Atti legge i file canonici; nuovi file vengono ignorati.
-
-**Caso di studio:** Ho creato `BMW_X1_GA258HL.md` ignorando `BMW_X1_2020.md` che c'era già. Atti ha dovuto correggere. Mai più.
-
-### Struttura Idee vs Implementazione
-- **Idee/brainstorming progetti** → [idee_progetti](projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/INDEX) (indice + una cartella per idea)
-- **Implementazione operativa** → `projects/<nomeprogetto>/` (il progetto vero e proprio)
-- Ogni idea può linkare al progetto `projects/` corrispondente quando esiste già un'implementazione
-
-### Routing Organizzativo myJob
-- **REGOLA FERREA:** `COLZANI/` workspace separato — non esiste in myOcSync
-- Clienti diretti, agenzie, famiglia, impegni personali → questo workspace (myOcSync)
-- TODO cliente [AGENZIA o DIRETTO] → **SEMPRE in TODO_GENERALE.md** + opzionale in file specifico
-- **Parole chiave:** agenzie freelance (GMD, Sinapps, Newu, Studio Visual), famiglia/hobby → `PERSONALE/`
-- **Sinapps e GET_ME_DIGITAL = lavoro da CASA** → TODO agenzie in `TODO_GENERALE.md` + opzionale sezione TODO in `FREELANCE/<AGENZIA>/<AGENZIA>_INDEX.md` + registro in [[PERSONALE/lavori_a_casa/41_clienti_agenzie]]
+### Routing myJob
+- Idee/brainstorming → `PERSONALE/lavori_a_casa/idee_progetti/INDEX` · Implementazione → `projects/<nome>/`
+- TODO: **SEMPRE in `TODO_GENERALE.md`** (fonte unica) + opzionale file specifico (agenzia: `FREELANCE/<AGENZIA>/<AGENZIA>_INDEX.md`; personale: `PERSONALE/TODO_PERSONALE.md`)
+- Prima di modificare TODO leggere [[projects/myJob/ROUTING]] · ambiguo → chiedere ad Atti · MAI toccare `_TEMPLATE/`
+- Cliente diretto → aggiornare file cliente + `PERSONALE/README.md` · Sinapps e GMD = lavoro da CASA · registro agenzie: [[PERSONALE/lavori_a_casa/41_clienti_agenzie]]
 
 ---
 
 ## 🏗️ Decisioni Architetturali
 
 ### myOCcall — Pipeline Audio
-- Audio segmentato: `ffmpeg` chunk ogni **300 secondi** → `audio/segments/*.mp3`
-- `audio/manifest.tsv` per tracciare segmenti validi
-- Trascrizione multi-segmento → `transcripts/` → merge in `trascrizione.txt`
-- Controlli anti-trascrizione falsa prima della sintesi
-- Stack: PulseAudio + ffmpeg + null sink (`virtual_out`) + Whisper API
-- Path call: `/home/openclaw/.openclaw/workspace/projects/myOCcall/data/YYYYMMDD HHMM <platform>/`
+ffmpeg chunk 300s → `audio/segments/` + `manifest.tsv` → Whisper multi-segmento → merge `trascrizione.txt` → controlli anti-falsa-trascrizione prima della sintesi. Stack: PulseAudio+ffmpeg+null sink+Whisper API. Path: `projects/myOCcall/data/YYYYMMDD HHMM <platform>/`
 
 ### AttiBot — File intake
-- Pagina riusabile: `https://attibot.ingeniosolution.it/upload`
-- Ogni upload genera un ref tipo `UP-YYYYMMDD-HHMMSS-XXXXXX`
-- I pacchetti finiscono in `/home/openclaw/attibot/uploads/<ref>/` con `manifest.json`
+`https://attibot.ingeniosolution.it/upload` → ref `UP-YYYYMMDD-HHMMSS-XXXXXX` → `/home/openclaw/attibot/uploads/<ref>/` con `manifest.json`
 
-### myJob — Routing TODO ⚠️ LEGGERE PRIMA DI QUALSIASI OPERAZIONE SU TODO
-**REGOLA PRIMARIA:** Ogni task va SEMPRE in `projects/myJob/TODO_GENERALE.md` (fonte di verità unica).  
-File specifici (TODO_PERSONALE, sezioni agenzie) sono opzionali per organizzazione.
-
-**REGOLA SECONDARIA:** Prima di aggiungere/modificare qualsiasi task, leggere [[projects/myJob/ROUTING]] per mappa completa contesti.
-
-Workflow corretto:
-1. **SEMPRE** inserire in `TODO_GENERALE.md`
-2. **OPZIONALE** duplicare/linkare in file specifico per organizzazione dettagliata
-
-Routing rapido (tutti + TODO_GENERALE obbligatorio):
-- Task freelance/ingenio → `TODO_GENERALE.md` + opzionale sezione TODO in `FREELANCE/<AGENZIA>/<AGENZIA>_INDEX.md`
-- Task personali/hobby/famiglia → `TODO_GENERALE.md` + opzionale `PERSONALE/TODO_PERSONALE.md`
-- **Se ambiguo → CHIEDERE AD ATTI prima di scrivere**
-- **MAI toccare file in `_TEMPLATE/`** per task reali
-- **COLZANI è workspace separato** — non gestito in questo workspace myOcSync
-
-### myJob — Struttura Progetti
+### myJob — Struttura
 ```
-FREELANCE/
-  GET_ME_DIGITAL/   → agenzia (socio dal 2017 — riunioni settimanali) — GMD_INDEX.md
-  SINAPPS/          → agenzia T PROJECT SRL (Marco Viganò) — BLANCONE, GOSETUPS, NANOSILK — SINAPPS_INDEX.md
-  NEWU_SRL/         → agenzia (dal 2023 — landing page + QR, Plenitude) — NEWU_INDEX.md
-  STUDIO_VISUAL/    → collaborazione occasionale (Mario Maglie) — STUDIO_VISUAL_INDEX.md
-  DIRETTI/          → clienti diretti freelance
-PERSONALE/          → personale/famiglia (ex ATTILIO_A_CASA) — TODO_PERSONALE.md
-INGENIO_SOLUTION/   → società di Atti (non cliente)
-EMAIL/              → gestione IMAP myjob@ingeniosolution.it
+FREELANCE/ (GET_ME_DIGITAL socio 2017 · SINAPPS T PROJECT SRL · NEWU_SRL 2023 Plenitude · STUDIO_VISUAL occasionale · DIRETTI/)
+PERSONALE/ (famiglia/hobby, ex ATTILIO_A_CASA) · INGENIO_SOLUTION/ (società di Atti) · EMAIL/ (IMAP)
 ```
-
-**NOTA:** COLZANI è gestito in workspace separato (non in myOcSync)
-
-Registro agenzie: [[PERSONALE/lavori_a_casa/41_clienti_agenzie]]  
-Convenzione creazione nuova agenzia: [[projects/myJob/CONVENTIONS]] sezione 10
+Convenzione nuova agenzia: [[projects/myJob/CONVENTIONS]] §10
 
 ### myJob — Email IMAP Workflow
-- Cron **ogni ora** (solo lettura UNSEEN)
-- Notifica esiti in **chat Telegram** (formato non tecnico, sintetico)
-- Workflow: `00_inbox/` → `incoming_untriaged.md` (proposta) → conferma Atti → azione eseguita → `90_archive/`
-- **REGOLA POST-CONFERMA:** dopo che Atti conferma un'azione e la si esegue → email in `90_archive/`, rimossa da `incoming_untriaged.md`, link all'eml archiviato nel task creato
-- Non devono mai restare email in `incoming_untriaged.md` con azione già eseguita
-- File `INBOX_WORKFLOW.md` con regole operative
-- Format notifica: `Nuovo check email. Email nuove: N. Email in attesa: xxx`
-- Quando sintetizzo azioni da fare, aggiungo sempre un link al contenuto originale della email e una % di confidenza sull'azione proposta; la useremo come metrica da migliorare prima dell'automatico.
+- Cron oraria (solo UNSEEN) → notifica Telegram non tecnica/sintetica: mittente reale + azione proposta + link originale + % confidenza (no UID)
+- Flow: `00_inbox/` → `incoming_untriaged.md` → conferma Atti → azione → `90_archive/` + rimozione da untriaged (mai email con azione già eseguita lì)
+- Regole operative: `INBOX_WORKFLOW.md`
 
-### Stato Servizi (2026-09-06)
-- **Cron email myJob** (`01d3cd46`): **disabled** da ~21 ago (rate limit, reset 27 ago). In attesa conferma Atti per riattivazione. Check manuali in attesa.
-- **google_meet calendar_events**: non configurato (OAuth mancante) — check calendario via heartbeat in skip fino a configurazione.
+### Stato Servizi (2026-10)
+- Cron email myJob (`01d3cd46`) + AOS (`52ac6a54`): **disabled** da ~21 ago, in attesa Atti — NON insistere
+- google_meet calendar_events: OAuth mancante — calendario in skip
 
-### Modelli AI (aggiornato 2026-09-06)
-- Runtime corrente: **zai/glm-4.7** (default_model)
-- Cron `agentTurn`: modelli leggeri/nano preferiti per costi e tempi (vedi lezione timeout)
-- Chat Telegram: modello di sessione corrente
-- Messaggi vocali: OpenAI API
-- myJob specifico: vedi `projects/myJob/` per override
-- ⚠️ Sezione storicizzata (pre-2026-09): default "Claude Sonnet 4.6", fallback GPT nano/mini/5.5 — verificare se ancora validi prima di riusarli
+### Modelli AI
+- Runtime: **zai/glm-4.7** · cron agentTurn: modelli leggeri/nano · vocali: OpenAI API
+- Claude Code: account Pro (`sonnet`/`opus`/`haiku`); default non-Colzani `anthropic/claude-sonnet-4-6`, Colzani `github-copilot/claude-sonnet-4.6`
 
 ---
 
 ## 👤 Preferenze Operative (Atti)
 
-### Identità Assistente
-- Nome: **IAcopo** (ingegnere informatico, simpatico, preciso, sicuro di sé)
-- Lingua: **italiano**
-- Timezone: **Europe/Rome** (UTC+1 inverno, UTC+2 estate)
-
-### Comunicazione
-- Email myJob: messaggi **non tecnici, sintetici**
-- No UID nei riepiloghi, solo: mittente reale + azione proposta
-- Telegram: diretto e collaborativo, no fumo
-- Quando invio routine padel via cron, la formatto in modo **Telegram-friendly** (non flat file)
-
-### MyAgenda — Slot liberi
-- Quando Atti chiede uno slot libero, deve specificare se la verifica è per una call o per una città specifica.
-- Se è una call, il luogo di partenza non conta molto.
-- Se è una città specifica, devo considerare anche spostamenti e durata degli eventi successivi.
-- Per slot nel calendario Colzani: parto dagli orari base Colzani, li incrocio col calendario Colzani e propongo solo slot interni a quegli orari, evitando eventi già presenti.
-- Per slot personali: considero solo i giorni/slot dedicati al personale, ignorando gli orari Colzani e le attività già previste altrove.
-- In generale, per attività lavorative l'orario di inizio di default difficilmente può andare oltre le 18.
-
-### Workflow TODO
-- Cliente diretto → aggiornare sia file cliente che `PERSONALE/README.md`
-- Progetto agenzia (es. CEAM) → cartella agenzia (`FREELANCE/GET_ME_DIGITAL/`), non `DIRETTI/`
-- Per i file personali di myJob vuole una riorganizzazione migliore: separare chiaramente lavoro Colzani, casa/tempo libero, hobby e checklist operative.
-- Cron OpenClaw update check: ogni giorno alle 20:00, se c'è una nuova release, aggiorna/crea il TODO in `projects/myJob/TODO_GENERALE.md`.
-- Scontrini benzinaio: quando arriva un audio/foto di uno scontrino del distributore, estrarre e annotare almeno distributore/codice punto vendita, nome stazione, indirizzo, numero scontrino o post number, data, orario, importo, volume e tipo di benzina; poi creare il TODO con scadenza **domani**.
-- Checklist padel da censire: borsone, bibita, fascia braccio/spalla, orologio.
-- Vuole anche una checklist padel separata per cose da ricordare prima di partita/torneo/allenamento, con data e ora di inserimento per ogni voce.
-- Voci già dette per la checklist padel mentale: vibora con palla davanti, impugnatura continental, palla profonda che rimbalza dopo la linea; se è lontano dalla rete, a volte usare palla lenta per riconquistarla invece di tirare sempre forte.
-- Vuole aggiungere una routine di allenamento individuale padel per dare continuità a smash, 3, volée, smorzata, risposta di rovescio, vibora e altri colpi.
-- Nella checklist di concentrazione/preparazione partita padel vuole includere anche: provare i rovesci piatti forti.
-- La routine padel inviata via cron va riformattata per Telegram, non incollata come file grezzo.
-
-### Sessioni Telegram
-- Stessa chat = stesso contesto (no reset automatico)
-- Per separare: esplicito `NUOVO CONTESTO: <tema>` / `USA FILO: <tema>`
+- **IAcopo**: ingegnere informatico, simpatico, preciso, sicuro · italiano · Europe/Rome
+- Email myJob: non tecnico, sintetico · Telegram: diretto, no fumo · routine padel via cron: formattata Telegram-friendly
+- **Slot liberi (MyAgenda)**: chiedere se per call o città specifica (città → considerare spostamenti/durata eventi successivi) · Colzani: solo slot negli orari base Colzani incrociati col calendario · personali: ignorare orari Colzani · lavoro: inizio non oltre le 18
+- **Scontrini benzinaio** (audio/foto): estrarre distributore/stazione/indirizzo/numero/data/ora/importo/volume/tipo benzina → TODO con scadenza domani
+- Cron OpenClaw update check 20:00: nuova release → TODO in TODO_GENERALE.md
+- **Padel**: checklist (borsone, bibita, fascia, orologio) + checklist mentale pre-partita con data/ora inserimento (vibora palla davanti, impugnatura continental, palla profonda, palla lenta se lontano da rete, rovesci piatti forti) + routine individuale (smash, 3, volée, smorzata, rovescio, vibora) — dettagli in `hobby/32_padel.md`
+- Attrezzatura censita in `32_padel.md`: ASICS Gel-Resolution X (07/2025, da pronatore) + 2× adidas Metalbone HRD+ 3.4 · 09/10/2026 soletta usurata ma scarpa ok → valutare sola sostituzione soletta
+- Sessioni Telegram: stessa chat = stesso contesto · separare con `NUOVO CONTESTO: <tema>` / `USA FILO: <tema>`
 
 ---
 
@@ -182,129 +81,66 @@ Convenzione creazione nuova agenzia: [[projects/myJob/CONVENTIONS]] sezione 10
 
 ### myJob Email
 ```
-Host: mail.ingsoftware.it
-IMAP: 993 | SMTP: 465
-User: myjob@ingeniosolution.it
-Pass: [in .env privato]
+Host: mail.ingsoftware.it · IMAP 993 | SMTP 465 · User: myjob@ingeniosolution.it · Pass: in .env
 ```
 
-### Miotesoro — Vendor Mapping Critici
-File: `projects/miotesoro-sheet-agent/docs/vendor-mapping.md` + Google Sheet CASA/PERSONALE
-
-Mapping frequenti:
-- Acqua & Sapone → Supermercati vari
-- Osteria del Gelato → Uscite
-- Alperia ~90-100€ → Corrente, altrimenti Gas
-- OVS/D115 Carugo → Abbigliamento (Cura persona)
-- Corsico HFB → Arredamento (IKEA)
-- Pepco Cantù / Max Factory → Supermercati vari
-- Shopsi Srl → Alimenti qualità (NaturaSì)
-- Tri Malnatt → Alimenti qualità
-
-### Claude Code
-- Autenticato: account Pro
-- Modelli: `sonnet` (4.6), `opus`, `haiku`
-- CLI: `claude --model <model>`
-- Default agenti non-Colzani: `anthropic/claude-sonnet-4-6`
-- Agente Colzani: `github-copilot/claude-sonnet-4.6`
+### Miotesoro — Vendor Mapping frequenti (dettagli: `docs/vendor-mapping.md`)
+Acqua & Sapone → Supermercati · Osteria del Gelato → Uscite · Alperia ~90-100€ → Corrente (altrimenti Gas) · OVS/D115 Carugo → Abbigliamento · Corsico HFB → Arredamento (IKEA) · Pepco/Max Factory → Supermercati · Shopsi Srl e Tri Malnatt → Alimenti qualità
 
 ### TTS
-- Provider: OpenAI TTS (`tts-1`)
-- Voce default: `nova` (scelta da Atti)
-- Lingua: italiano
+OpenAI TTS (`tts-1`) · voce `nova` · italiano · dopo invio del file in chat, cancellarlo dal filesystem
 
-### Cars Center SRL — incident DNS/PEC (10/2026)
-- 02/08: terzi misero Cloudflare sul dominio con zona incompleta (niente MX `pec.`) → PEC in entrata perse. 06/10: rollback NS su Aruba
-- **08/10: propagazione completata, zona pulita** — sito ok (il .it fa 301 → **carscentersrl.com** su WordPress.com), MX PEC pubblici corretti, record sporco 188.114.97.7 rimosso
-- Dossier: `projects/myJob/FREELANCE/DIRETTI/Cars_Center_SRL/00_index.md`
-- Aperto solo: test funzionale PEC in/out (lato Atti); uscita ancora KO → pannello PEC Aruba
+### Cars Center SRL — DNS/PEC (10/2026)
+- 02/08: Cloudflare di terzi con zona incompleta → PEC perse · 06/10 rollback NS Aruba · **08/10 propagazione completata, zona pulita** (sito .it→301 carscentersrl.com, MX PEC ok)
+- Resta SOLO test PEC funzionale (lato Atti); uscita KO → pannello PEC Aruba · Dossier: `FREELANCE/DIRETTI/Cars_Center_SRL/00_index.md`
 
-### Server IPTV — piano Tailscale (10/2026, in attesa)
-- Server contenuti IPTV con PM2: hang periodici (processo vivo ma bloccato) → oggi riavvio manuale da console provider
-- Deciso: server dentro tailnet `ralf00@`; gateway già connesso (100.107.134.2 "ubuntu"); chiave SSH dedicata `~/.ssh/id_ed25519_iptv` già generata
-- **In attesa di Atti**: su console provider → install Tailscale + `tailscale up` + aggiunta pubkey ad authorized_keys
-- Poi io: test SSH, mappa servizi PM2/porte, watchdog cron (health check, riavvio auto anti-loop max 3/h, notifica in chat)
+### Server IPTV — Tailscale (in attesa Atti)
+- Server PM2 con hang periodici → piano: dentro tailnet `ralf00@` (gateway già connesso, 100.107.134.2 "ubuntu"; chiave `~/.ssh/id_ed25519_iptv` pronta)
+- Atti da console provider: install Tailscale + `tailscale up` + pubkey in authorized_keys → poi io: test SSH, mappa PM2/porte, watchdog cron (health check, riavvio anti-loop max 3/h)
+
+### Ingenio Solution — strategia web (10/2026)
+- Home **v0.4** in preview (`attibot.ingeniosolution.it/reports/20261011_ingenio_home`) · CTA "Incontro di fattibilità gratuito" (mai "30 min", veto)
+- **v0.5 IN ATTESA DEL VIA** — input pronti in `STRATEGIA_ACQUISIZIONE_WEB.md` §3
+- **Doppia passata copy = STANDARD**: GPT-5.5 (chiave OpenAI env) → revisione IAcopo · brief: `WEBSITE/gpt5_copy_brief.json`
+- Portfolio: `PORTFOLIO_PROGETTI.md` (11 voci, [?] per dettagli mancanti, mappa → landing A automazione/B MCP/C custom)
 
 ---
 
 ## 📂 Progetti
 
-I **progetti** sono contesti di lavoro separati con documentazione dedicata in `projects/<nome>/`.
+Registro canonico: [progetti.md](progetti.md) · Nuovo progetto solo se: ambito distinto + config dedicata + ciclo autonomo → cartella `projects/<nome>/` + file (CHANGELOG, TODO, TECNICO, SINTESI, APPUNTI) + voce in registro.
 
-**Registro canonico:** [progetti.md](progetti.md)
+- **miotesoro-sheet-agent**: finanze personali su Google Sheets (CASA/PERSONALE) → spese/entrate, movimenti bancari
+- **myOCcall**: auto-join videocall + trascrizione Whisper + sintesi → call/trascrizioni
+- **myJob**: TODO, clienti (GMD/Sinapps/Newu/StudioVisual/diretti), famiglia, INGENIO_SOLUTION, email → TODO/clienti/email
 
-### Progetti Attivi
-
-**miotesoro-sheet-agent** (`projects/miotesoro-sheet-agent/`)  
-Copilot AI per gestione finanziaria personale. Registra entrate/uscite su Google Sheets (PERSONALE e CASA) con validazione automatica, controllo duplicati, integrità partita doppia.  
-→ Usare per: registrazioni finanziarie, movimenti bancari, categorizzazione spese
-
-**myOCcall** (`projects/myOCcall/`)  
-Sistema per entrare automaticamente in videochiamate (Meet, Zoom, Teams), catturare audio, trascrivere con Whisper, produrre riassunto strutturato.  
-→ Usare per: join automatico call, trascrizioni, sintesi meeting
-
-**myJob** (`projects/myJob/`)  
-Gestione task lavorativi e personali. Include: clienti (COLZANI, GMD, Sinapps, diretti), famiglia (ATTILIO_A_CASA), società di Atti (INGENIO_SOLUTION), email IMAP.  
-→ Usare per: TODO generiche, clienti, azioni famiglia/lavoro, email triage
-
-### Routing Richieste
-
-- **"Registra spesa/entrata"** → miotesoro-sheet-agent
-- **"Trascrivi questa call"** → myOCcall
-- **"TODO" / "cliente X" / "email"** → myJob
-- **Dubbio?** → Chiedere o consultare [progetti.md](progetti.md)
-
-### Convenzioni Nuovi Progetti
-
-Quando creare nuovo progetto:
-1. Ambito distinto dai 3 esistenti
-2. Richiede file di configurazione dedicati
-3. Ha ciclo di vita autonomo
-
-Procedura:
-1. Creare cartella `projects/nomeprogetto/`
-2. File obbligatori: `CHANGELOG.md`, `TODO.md`, `TECNICO.md`, `SINTESI.md`, `APPUNTI.md`
-3. Aggiungere voce in [progetti.md](progetti.md)
+Routing: "registra spesa" → miotesoro · "trascrivi call" → myOCcall · "TODO/cliente/email" → myJob · dubbio → progetti.md
 
 ---
 
 ## 🏠 Pratiche Famiglia
 
-### Dossier Stato Civile Francese (attivo 09-10/2026)
-- **CNI rinnovo**: appuntamento mar **6/10/2026 ore 11:00** Consolato Milano · pre-domanda ANTS **WMQRZ8M1N5** · foto 35×45mm, sfondo grigio/azzurro chiaro, no sorriso (scadenza foto 5/10, reminder schedulato 5/10 8:30)
-- **Regole dossier (checklist 2025)**: atto nascita francese da solo NON prova nazionalità (serve menzione a margine o CNF) · CNI italiana vale solo come doc identità genitori, NON come giustificativo nazionalità · atti per Roma SOLO copie integrali cartacee ORIGINALI con timbro+firma (PDF firmati digitalmente rifiutati; gli atti non tornano indietro) · atti Chiara + matrimonio Corbetta + atto francese Atti: vincolo <3 mesi alla spedizione
-- Spedizione raccomandata: Ambassade de France à Rome — Service de l'état civil, Piazza Farnese 67, 00186 Roma
-- Dettagli operativi e scadenze in TODO_GENERALE (sezione carta identità francese)
+### Dossier Stato Civile Francese
+- CNI rinnovo: pre-domanda ANTS **WMQRZ8M1N5** · appuntamento consolato 06/10 passato, esito non ancora comunicato (NON ripetere domanda spontaneamente)
+- Regole: atto nascita francese da solo NON prova nazionalità (serve menzione a margine o CNF) · CNI italiana = solo doc identità genitori · atti per Roma SOLO copie integrali cartacee ORIGINALI timbro+firma (PDF digitali rifiutati, atti non tornano) · atti Chiara+matrimonio Corbetta+atto francese Atti: vincolo <3 mesi alla spedizione
+- Spedizione: Ambassade de France à Rome — Service de l'état civil, Piazza Farnese 67, 00186 Roma · dettagli in TODO_GENERALE
 
-### MoneyViz (dichiarazione redditi, aggiornato 29/09)
-- Pacchetto CRYPTO base acquistato **53€** + tax DEGIRO in omaggio (sconto chiesto come 2025) · in attesa loro OK sblocco
-- Presunte "plusvalenze 42,52€" erano prelievi — verificato 29/09, punto chiuso
-- Dettagli wallet/xpub: FISCO/PERSONALE/dichiarazioni_anno_2025
+### Salute
+- Cronologia: `projects/myJob/PERSONALE/salute/Cronologia_Sanitaria.md`
+- **02/10/2026 ginocchio destro padel: dolore sotto carico — DA MONITORARE** · contesto: 16/08 punti PS (scogli) · 28/08 torcicollo→schiena
+
+### MoneyViz (aggiornato 29/09)
+Pacchetto CRYPTO 53€ + tax DEGIRO omaggio (in attesa OK sblocco) · "plusvalenze 42,52€" erano prelievi (chiuso) · wallet/xpub: FISCO/PERSONALE/dichiarazioni_anno_2025
+
+### Concordato Preventivo Biennale 2026-27 (Ingenio)
+Proposta Buraschi (24/6): 2026 reddito **61.573€**/IRAP 48.376€ · 2027 62.809€/49.585€ — fattibile · **Adesione entro 30/11/2026** · `INGENIO_SOLUTION/AMMINISTRAZIONE/Concordato preventivo.md`
 
 ---
 
 ## 🔄 Manutenzione
 
-### Quando Aggiornare Questo File
-- Lezioni importanti apprese (errori critici, pattern ripetuti)
-- Nuove decisioni architetturali sui progetti
-- Cambiamenti nelle preferenze di Atti
-- Info tecniche che servono spesso
-
-### Quando Usare File Giornalieri
-- Log sessioni (`memory/YYYY-MM-DD-HHMM.md`)
-- Note temporanee, work-in-progress
-- Dettagli che non servono a lungo termine
-
-### Heartbeat Review
-Durante heartbeats periodici:
-1. Leggere file giornalieri recenti
-2. Identificare cosa va conservato a lungo termine
-3. Aggiornare MEMORY.md con distillato
-4. Rimuovere info obsolete
-
-**Limite righe:** mantenere sotto 200 righe (auto-caricamento)
+Heartbeat review (~ogni 5 giorni): leggere file giornalieri recenti → distillare qui → rimuovere obsoleto. **Limite: 200 righe.**
 
 ---
 
-_Ultimo aggiornamento: 2026-09-12 (consolidate lezioni 07/09: timeout meteo sab-dom, segreti nei link firmati)_
+_Ultimo aggiornamento: 2026-10-13 (revisione 09-12/10: lesson cron toolsAllow, web Ingenio v0.4/v0.5, salute, concordato CPB)_
