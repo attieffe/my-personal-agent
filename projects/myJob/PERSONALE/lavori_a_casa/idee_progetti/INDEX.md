@@ -20,3 +20,4 @@ Area dedicata a idee e progetti futuri ancora da esplorare — non progetti già
 | [[projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/padel_tracker_statistiche/README\|Padel — Tracker statistiche post-partita]] | 💡 Idea grezza | 2026-05-14 |
 | [[projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/openclaw_ottimizzazioni/README\|OpenClaw — Ottimizzazioni e sviluppo futuro]] | 💡 Idea grezza | 2026-05-14 |
 | [[projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/miotesoro_futuro/README\|MioTesoro — Evoluzione futura e distribuzione]] | 🔍 Da analizzare | 2026-05-14 |
+| [[projects/myJob/PERSONALE/lavori_a_casa/idee_progetti/youtube_tech/README\|Canale YouTube Tech — IA (OpenClaw) controlla device via Tailscale/ADB]] | 💡 Idea grezza | 2026-10-14 |
