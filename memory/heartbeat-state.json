@@ -6,16 +6,17 @@
     "projects": 1788419100,
     "memory": 1791875356986,
     "dns-carscenter": 1791443339000,
-    "heartbeat": 1791875356986,
+    "heartbeat": 1791972199422,
     "heartbeat-1403": 1791633803324,
     "heartbeat-1803": 1791475380016,
     "heartbeat-1203": 1791540180019,
     "heartbeat-0903": 1791875356986,
     "heartbeat-1203-12": 1791788580018,
     "heartbeat-1203-12b": 1791799405630,
-    "heartbeat-2203": 1791835380024
+    "heartbeat-2203": 1791835380024,
+    "heartbeat-1403-1203": 1791972199422
   },
-  "lastHeartbeat": 1791875356986,
+  "lastHeartbeat": 1791972199422,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "Cron email myJob/AOS disabled da ~21 ago. Non insistere.",
@@ -51,6 +52,7 @@
     "13-10-09-03": "HEARTBEAT.md vuoto. Eseguita revisione memoria pianificata ~13/10: file 09-12/10 distillati in MEMORY.md e file condensato 305->146 righe (era sopra limite 200 auto-load). Nessun messaggio ad Atti (routine).",
     "13-10-12-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria gia' fatta stamani 09:03. PEC/IPTV in attesa Atti. Nessuna azione.",
     "13-10-18-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta stamani. PEC/IPTV in attesa Atti. Nessuna azione.",
-    "13-10-22-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta stamani (prossima ~18/10). PEC/IPTV in attesa Atti. Sera: nessuna azione."
+    "13-10-22-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta stamani (prossima ~18/10). PEC/IPTV in attesa Atti. Sera: nessuna azione.",
+    "14-10-12-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta 13/10 (prossima ~18/10). PEC/IPTV in attesa Atti. Nessuna azione."
   }
 }
