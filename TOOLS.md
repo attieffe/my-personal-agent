@@ -95,3 +95,12 @@ pip install patchright
 ```
 
 **Nota:** Patchright è un fork di Playwright con anti-detection per bypassare protezioni anti-bot.
+
+## ADB (Android)
+
+- **Binario:** `~/tools/platform-tools/adb` (zip ufficiale Google, no sudo)
+- **S23 di Atti via Tailscale:** `100.97.50.126` (nome tailscale: `s23-di-attilio`)
+- **Connessione:** script `~/tools/s23connect.sh` → auto-scan porte, ritorna `PORT=<n>` (la porta Debug wireless cambia a ogni toggle/riavvio)
+- **Pairing:** già fatto il 14/10/2026, persistente — NO re-pairing (se mai servisse: vista divisa Impostazioni+Telegram per tenere vivo il dialogo)
+- **tcpip 5555:** attivo dal 14/10/2026 → `adb connect 100.97.50.126:5555` stabile anche a schermo spento (fino a riavvio del telefono)
+- **Install APK:** `pm install` NON legge da /sdcard (FUSE) → `cp` in `/data/local/tmp/` prima · APK con target SDK vecchio: aggiungere `--bypass-low-target-sdk-block`

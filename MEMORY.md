@@ -84,6 +84,12 @@ Convenzione nuova agenzia: [[projects/myJob/CONVENTIONS]] §10
 Host: mail.ingsoftware.it · IMAP 993 | SMTP 465 · User: myjob@ingeniosolution.it · Pass: in .env
 ```
 
+### ADB wireless → S23 (Tailscale) ✅
+- `~/tools/s23connect.sh` auto-connette · telefono `s23-di-attilio` = 100.97.50.126 (SM-S916B S23 Ultra, Android 16)
+- Pairing persistente dal 14/10/2026 — NO re-pairing · **tcpip 5555 attivo dal 14/10** (stabile anche a schermo spento, fino a riavvio; dopo riavvio: Debug wireless ON + script)
+- pm install da /sdcard bloccato (FUSE) → copiare APK in /data/local/tmp · APK vecchi: `--bypass-low-target-sdk-block`
+- Lezione pairing: dialogo muore se esci dalla schermata → vista divisa Impostazioni+Telegram
+
 ### Miotesoro — Vendor Mapping frequenti (dettagli: `docs/vendor-mapping.md`)
 Acqua & Sapone → Supermercati · Osteria del Gelato → Uscite · Alperia ~90-100€ → Corrente (altrimenti Gas) · OVS/D115 Carugo → Abbigliamento · Corsico HFB → Arredamento (IKEA) · Pepco/Max Factory → Supermercati · Shopsi Srl e Tri Malnatt → Alimenti qualità
 
