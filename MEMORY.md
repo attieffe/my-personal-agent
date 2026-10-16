@@ -100,9 +100,11 @@ OpenAI TTS (`tts-1`) · voce `nova` · italiano · dopo invio del file in chat, 
 - 02/08: Cloudflare di terzi con zona incompleta → PEC perse · 06/10 rollback NS Aruba · **08/10 propagazione completata, zona pulita** (sito .it→301 carscentersrl.com, MX PEC ok)
 - Resta SOLO test PEC funzionale (lato Atti); uscita KO → pannello PEC Aruba · Dossier: `FREELANCE/DIRETTI/Cars_Center_SRL/00_index.md`
 
-### Server IPTV — Tailscale (in attesa Atti)
-- Server PM2 con hang periodici → piano: dentro tailnet `ralf00@` (gateway già connesso, 100.107.134.2 "ubuntu"; chiave `~/.ssh/id_ed25519_iptv` pronta)
-- Atti da console provider: install Tailscale + `tailscale up` + pubkey in authorized_keys → poi io: test SSH, mappa PM2/porte, watchdog cron (health check, riavvio anti-loop max 3/h)
+### Server IPTV — intv-server (skill `iptv-server`)
+- In tailnet `ralf00@`: `intv-server` 100.117.206.109 · Tailscale SSH ACL `accept` → `ssh root@100.117.206.109` (chiave id_ed25519_iptv inutilizzata: port 22 = Tailscale SSH)
+- PM2 v5.4.3 come utente `ubuntu` (SEMPRE `sudo -u ubuntu pm2`, mai pm2 da root): index :8080 · record :8081 · sync_lines · source_monitor · app in /home/ubuntu/nodeapp
+- Skill `iptv-server`: controllo ON-DEMAND (status/health/logs/restart) · **MAI azioni non richieste, restart solo con OK esplicito** (feedback Atti 16/10) · watchdog NON armato (non richiesto)
+- GET / su :8080 non risponde by design ("streaming ignorata") → NON è un hang, non usare come health check
 
 ### Ingenio Solution — strategia web (10/2026)
 - Home **v0.4** in preview (`attibot.ingeniosolution.it/reports/20261011_ingenio_home`) · CTA "Incontro di fattibilità gratuito" (mai "30 min", veto)
