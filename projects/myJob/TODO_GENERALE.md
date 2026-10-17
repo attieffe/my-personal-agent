@@ -84,6 +84,9 @@
 ### [personale · networking · luca benzoni]
 - [ ] Capire da Luca Benzoni se ci sono possibilità di miglioramento gestionale con l'informatica
 
+### [personale · rimborsi]
+- [ ] **Contattare Nexi per rimborso €33** [aggiunta 2026-10-17]
+
 ### [personale · ingenio · rimborsi]
 - [x] **Chiedere a Cristina Rizzetto rimborso spese acquisto certificato centralino** — spese già rendicontate [aggiunto 2026-08-02]
 
