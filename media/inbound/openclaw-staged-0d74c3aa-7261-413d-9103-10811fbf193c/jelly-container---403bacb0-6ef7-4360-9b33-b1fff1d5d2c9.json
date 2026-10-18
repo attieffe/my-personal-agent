@@ -1,0 +1,130 @@
+{
+   "CapAdd" : null,
+   "CapDrop" : null,
+   "cmd" : "",
+   "cmd_v2" : "",
+   "cpu_priority" : 50,
+   "devices" : [],
+   "enable_publish_all_ports" : false,
+   "enable_restart_policy" : false,
+   "enable_service_portal" : false,
+   "enabled" : false,
+   "env_variables" : [
+      {
+         "key" : "PATH",
+         "value" : "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      },
+      {
+         "key" : "HEALTHCHECK_URL",
+         "value" : "http://localhost:8096/health"
+      },
+      {
+         "key" : "DEBIAN_FRONTEND",
+         "value" : "noninteractive"
+      },
+      {
+         "key" : "LC_ALL",
+         "value" : "en_US.UTF-8"
+      },
+      {
+         "key" : "LANG",
+         "value" : "en_US.UTF-8"
+      },
+      {
+         "key" : "LANGUAGE",
+         "value" : "en_US:en"
+      },
+      {
+         "key" : "JELLYFIN_DATA_DIR",
+         "value" : "/config"
+      },
+      {
+         "key" : "JELLYFIN_CACHE_DIR",
+         "value" : "/cache"
+      },
+      {
+         "key" : "JELLYFIN_CONFIG_DIR",
+         "value" : "/config/config"
+      },
+      {
+         "key" : "JELLYFIN_LOG_DIR",
+         "value" : "/config/log"
+      },
+      {
+         "key" : "JELLYFIN_WEB_DIR",
+         "value" : "/jellyfin/jellyfin-web"
+      },
+      {
+         "key" : "JELLYFIN_FFMPEG",
+         "value" : "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+      },
+      {
+         "key" : "XDG_CACHE_HOME",
+         "value" : "/cache"
+      },
+      {
+         "key" : "MALLOC_TRIM_THRESHOLD_",
+         "value" : "131072"
+      },
+      {
+         "key" : "NVIDIA_VISIBLE_DEVICES",
+         "value" : "all"
+      },
+      {
+         "key" : "NVIDIA_DRIVER_CAPABILITIES",
+         "value" : "compute,video,utility"
+      },
+      {
+         "key" : "LD_PRELOAD",
+         "value" : "/usr/lib/jellyfin/libjemalloc.so.2"
+      }
+   ],
+   "exporting" : false,
+   "id" : "ed3e8db8ef16a209648f29d0ab16e086482417200689322efdec8b8f54997b9a",
+   "image" : "jellyfin/jellyfin:latest",
+   "is_ddsm" : false,
+   "is_package" : false,
+   "labels" : {
+      "org.opencontainers.image.description" : "The Free Software Media System",
+      "org.opencontainers.image.documentation" : "https://jellyfin.org/docs/",
+      "org.opencontainers.image.source" : "https://github.com/jellyfin/jellyfin-packaging",
+      "org.opencontainers.image.title" : "Jellyfin",
+      "org.opencontainers.image.url" : "https://jellyfin.org",
+      "org.opencontainers.image.version" : "12.2"
+   },
+   "links" : [],
+   "memory_limit" : 0,
+   "name" : "jelly-container",
+   "network" : [
+      {
+         "driver" : "bridge",
+         "name" : "bridge"
+      }
+   ],
+   "network_mode" : "bridge",
+   "port_bindings" : [
+      {
+         "container_port" : 8096,
+         "host_port" : 8096,
+         "type" : "tcp"
+      }
+   ],
+   "privileged" : false,
+   "service_portals" : [],
+   "shortcut" : {
+      "enable_shortcut" : false,
+      "enable_status_page" : false,
+      "enable_web_page" : false,
+      "web_page_url" : ""
+   },
+   "use_host_network" : false,
+   "version" : 2,
+   "volume_bindings" : [
+      {
+         "host_volume_file" : "/docker/jellyfin",
+         "is_directory" : true,
+         "mount_point" : "/jellyvolume",
+         "type" : "rw"
+      }
+   ]
+}

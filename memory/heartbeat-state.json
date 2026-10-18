@@ -4,7 +4,7 @@
     "calendar": 1788451380,
     "weather": 1788759000,
     "projects": 1788419100,
-    "memory": 1791875356986,
+    "memory": 1792317780000,
     "dns-carscenter": 1791443339000,
     "heartbeat": 1792065803251,
     "heartbeat-1403": 1792065803251,
@@ -24,9 +24,9 @@
     "email": "Cron email myJob/AOS disabled da ~21 ago. Non insistere.",
     "weather": "Gestito da cron dedicati (Meteo Seregno 7:30 lun-ven / 8:30 sab-dom) - non serve check heartbeat",
     "cron-email": "Job email myJob (01d3cd46) e AOS (52ac6a54) disabled da ~21 ago. NON insistere.",
-    "memory": "2026-10-13: revisione file 09/10-12/10 fatta. MEMORY.md condensato da 305 a 146 righe (era sopra limite 200 auto-load). Aggiornato con: lezione cron toolsAllow (ToDo Colzani), stato web Ingenio (home v0.4, v0.5 in attesa via, portfolio 11 voci), cronologia sanitaria (ginocchio 02/10 da monitorare), concordato CPB 2026-27 (deadline 30/11), attrezzatura padel. Prossima revisione ~18/10.",
+    "memory": "2026-10-18: revisione file 14-18/10 fatta. MEMORY.md aggiornato: CNI arrivata in consolato (ritiro entro 13/01/2027 + France Identité post-ritiro), piano ginocchio (contrattura popliteo, red flags), canale YouTube tech (struttura + stack), Jellyfin/Synology (setup + piano HTTPS :2097 + DA FARE). Prossima revisione ~23/10.",
     "aos-pending": "RISOLTO 09/09: PDF segnalati non piu' presenti.",
-    "cni-reminder": "Appuntamento consolato 06/10 11:00 passato. Esito non ancora comunicato: NON ripetere la domanda se non risponde.",
+    "cni-reminder": "CNI ARRIVATA in consolato (16/10): ritiro senza appuntamento entro 13/01/2027 (Lun-Gio 9-12/14-16, Ven 9-12). France Identité si completa solo dopo il ritiro fisico. Se Atti segnala ritiro fatto -> aggiornare stato + ricordare finalizzazione app.",
     "dns-carscenter": "2026-10-08 09:03: propagazione DNS completata e verificata (NS Aruba ovunque, zona pulita, sito 200, MX pec pubblici). Status inviato ad Atti in chat. Resta SOLO test PEC funzionale (lato Atti). NON ripetere lo status nei prossimi heartbeat; se Atti riporta PEC ancora KO in uscita -> pannello PEC Aruba.",
     "iptv-tailscale": "In attesa che Atti esegua su console provider: install tailscale + tailscale up + pubkey in authorized_keys. Menzionato 1 volta 08/10. Non ripetere a breve."
   },
@@ -66,6 +66,7 @@
     "16-10-14-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta 13/10 (prossima ~18/10). PEC/IPTV in attesa Atti. Nessuna azione.",
     "16-10-22-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta 13/10 (prossima ~18/10). PEC/IPTV in attesa Atti. Sera: nessuna azione.",
     "17-10-12-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria pianificata ~18/10 (domani). PEC/IPTV in attesa Atti. Nessuna azione.",
-    "17-10-22-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria pianificata ~18/10 (domani). PEC/IPTV in attesa Atti. Sera: nessuna azione."
+    "17-10-22-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria pianificata ~18/10 (domani). PEC/IPTV in attesa Atti. Sera: nessuna azione.",
+    "18-10-12-03": "HEARTBEAT.md vuoto. Eseguita revisione memoria pianificata ~18/10: file 14-18/10 distillati in MEMORY.md (CNI ritirabile, ginocchio, YouTube, Jellyfin). PEC/IPTV in attesa Atti. Nessun messaggio ad Atti (routine)."
   }
 }

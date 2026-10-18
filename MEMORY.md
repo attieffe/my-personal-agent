@@ -106,6 +106,16 @@ OpenAI TTS (`tts-1`) · voce `nova` · italiano · dopo invio del file in chat, 
 - Skill `iptv-server`: controllo ON-DEMAND (status/health/logs/restart) · **MAI azioni non richieste, restart solo con OK esplicito** (feedback Atti 16/10) · watchdog NON armato (non richiesto)
 - GET / su :8080 non risponde by design ("streaming ignorata") → NON è un hang, non usare come health check
 
+### Canale YouTube tech (ideazione 15/10)
+- Struttura: `PERSONALE/lavori_a_casa/idee_progetti/canale_youtube_tech/` → piano_editoriale (16 titoli) · analisi_mercato · creazione_video/{strumentazione,software_utili,montaggio}
+- Stack scelto: DaVinci Resolve free (principale, CapCut solo verticali) · Auto-Editor (taglio silenzi) · ffmpeg (automatismi) · Remotion/Jitter/Flourish (infografiche animate)
+
+### Synology NAS DS220+ (10/2026)
+- **Jellyfin** via Container Manager (network host, /dev/dri Quick Sync) · media read-only: /volume1/homes/{attilio,chiara}/Photos · config in /volume1/docker/jellyfin · vecchio contenitore manuale "jelly-container" da eliminare
+- Cast su Chromecast vecchia (solo-cast): richiede **HTTPS con certificato pubblico anche in LAN** → piano: record A su dominio → ACME :80 → reverse proxy DSM **:2097** → localhost:8096 · remoto via OpenVPN NAS esistente (niente Tailscale) · telefono = solo telecomando
+- Synology Photos video remoto KO: fix = DSM Accesso esterno → Porta esterna (DDNS) HTTP **2095** / HTTPS **2096**
+- DA FARE: ffmpeg verticali (bruciare rotazione), marca/modello TV (app nativa?), chi gestisce DNS ingeniosolution.it, guida OpenVPN+Jellyfin per suoceri
+
 ### Ingenio Solution — strategia web (10/2026)
 - Home **v0.4** in preview (`attibot.ingeniosolution.it/reports/20261011_ingenio_home`) · CTA "Incontro di fattibilità gratuito" (mai "30 min", veto)
 - **v0.5 IN ATTESA DEL VIA** — input pronti in `STRATEGIA_ACQUISIZIONE_WEB.md` §3
@@ -129,13 +139,13 @@ Routing: "registra spesa" → miotesoro · "trascrivi call" → myOCcall · "TOD
 ## 🏠 Pratiche Famiglia
 
 ### Dossier Stato Civile Francese
-- CNI rinnovo: pre-domanda ANTS **WMQRZ8M1N5** · appuntamento consolato 06/10 passato, esito non ancora comunicato (NON ripetere domanda spontaneamente)
+- CNI rinnovo: pre-domanda ANTS **WMQRZ8M1N5** · **CNI arrivata in consolato (16/10)** — ritiro senza appuntamento Lun-Gio 9-12/14-16, Ven 9-12, entro **13/01/2027** · France Identité: link monouso già consumato, pratica vive nell'app (QR); finalizzazione (NFC + fronte carta) solo DOPO il ritiro · porta la vecchia CNI, va restituita
 - Regole: atto nascita francese da solo NON prova nazionalità (serve menzione a margine o CNF) · CNI italiana = solo doc identità genitori · atti per Roma SOLO copie integrali cartacee ORIGINALI timbro+firma (PDF digitali rifiutati, atti non tornano) · atti Chiara+matrimonio Corbetta+atto francese Atti: vincolo <3 mesi alla spedizione
 - Spedizione: Ambassade de France à Rome — Service de l'état civil, Piazza Farnese 67, 00186 Roma · dettagli in TODO_GENERALE
 
 ### Salute
 - Cronologia: `projects/myJob/PERSONALE/salute/Cronologia_Sanitaria.md`
-- **02/10/2026 ginocchio destro padel: dolore sotto carico — DA MONITORARE** · contesto: 16/08 punti PS (scogli) · 28/08 torcicollo→schiena
+- **02/10/2026 ginocchio destro padel: contrattura popliteo (fisio 14/10) — DA MONITORARE** · piano: carico modulato (no padel finché lampo in flessione), max 1 test/giorno, no FANS orale, crema FANS ok, NO infiltrazioni · red flags → ecografia: gonfiore, cedimento senza dolore, blocco estensione · contesto: 16/08 punti PS (scogli) · 28/08 torcicollo→schiena
 
 ### MoneyViz (aggiornato 29/09)
 Pacchetto CRYPTO 53€ + tax DEGIRO omaggio (in attesa OK sblocco) · "plusvalenze 42,52€" erano prelievi (chiuso) · wallet/xpub: FISCO/PERSONALE/dichiarazioni_anno_2025
@@ -151,4 +161,4 @@ Heartbeat review (~ogni 5 giorni): leggere file giornalieri recenti → distilla
 
 ---
 
-_Ultimo aggiornamento: 2026-10-13 (revisione 09-12/10: lesson cron toolsAllow, web Ingenio v0.4/v0.5, salute, concordato CPB)_
+_Ultimo aggiornamento: 2026-10-18 (revisione 14-18/10: CNI ritirabile 13/01/2027, piano ginocchio, canale YouTube, Jellyfin/Synology)_
