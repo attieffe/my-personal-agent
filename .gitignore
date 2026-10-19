@@ -14,3 +14,7 @@ projects/myAgenda/_credentials/
 projects/miotesoro-sheet-agent/.env
 output/
 youtube_token.json
+
+# binari compilati — mai tracciati (incidente token 19/10/2026)
+__pycache__/
+*.pyc

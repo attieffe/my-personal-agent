@@ -19,7 +19,10 @@ ICS_URLS = [
 PADEL_FILE = "/home/openclaw/.openclaw/workspace/projects/myJob/PERSONALE/hobby/32_padel.md"
 STATE_FILE = f"{BASE}/_state/padel_notified.json"
 
-BOT_TOKEN = "8699275494:AAE13PcCiRgMr5ELrAtJMHodaCHCcbtQM3A"
+# Token letto da openclaw.json — quello hardcoded è morto col reset 06/2026 (le notifiche non partivano più!)
+import json as _json
+with open("/home/openclaw/.openclaw/openclaw.json") as _f:
+    BOT_TOKEN = _json.load(_f)["channels"]["telegram"]["accounts"]["default"]["botToken"]
 CHAT_ID   = "-1003877516285"
 TOPIC_ID  = 1125
 

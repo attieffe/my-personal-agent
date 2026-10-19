@@ -152,7 +152,7 @@ Se GitHub blocca il push per secrets rilevati:
 
 1. **Test connettività API:**
    ```bash
-   curl -s "https://api.telegram.org/bot8699275494:AAFKX13Y_tAJxezbV_pUBtnuuybyerFp0rI/getMe"
+   curl -s "https://api.telegram.org/bot$(jq -r '.channels.telegram.accounts.default.botToken' /home/openclaw/.openclaw/openclaw.json)/getMe"
    ```
 
 2. **Verifica bot token:**
@@ -210,7 +210,7 @@ Helper riutilizzabile per inviare notifiche Telegram via API HTTP.
 ```
 
 **Parametri hardcoded:**
-- Bot Token: `8699275494:AAFKX13Y_tAJxezbV_pUBtnuuybyerFp0rI`
+- Bot Token: letto da `openclaw.json` — MAI in chiaro nei file tracciati da git (incidente 19/10/2026)
 - Chat ID: `506258994`
 
 ---

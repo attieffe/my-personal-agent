@@ -24,10 +24,14 @@ import zoneinfo
 # --- CONFIG ---
 ATTIBOT = "/home/openclaw/attibot"
 OPENCLAW_CMD = "/home/openclaw/.npm-global/bin/openclaw"  # path assoluto per cron
-FTP_HOST = "93.151.207.173"
-FTP_PORT = 221
-FTP_USER = "backupAtti"
-FTP_PASS = "FhHuK%IMItBm07nc#"
+# Credenziali FTP in file esterno NON tracciato da git (incidente 19/10/2026: mai più segreti in chiaro)
+import json as _json
+with open("/home/openclaw/.openclaw/scripts/backup_secrets.json") as _sf:
+    _sec = _json.load(_sf)
+FTP_HOST = _sec["ftp_host"]
+FTP_PORT = int(_sec.get("ftp_port", 221))
+FTP_USER = _sec["ftp_user"]
+FTP_PASS = _sec["ftp_pass"]
 FTP_DIR = "/home/backupAtti/Openclaw"
 
 TZ = zoneinfo.ZoneInfo("Europe/Rome")
@@ -37,7 +41,9 @@ BACKUP_FILENAME = f"{DATE_STR} openclaw backup.tar.gz"
 LOCAL_TMP_FINAL = f"/tmp/{BACKUP_FILENAME}"
 WORK_DIR = "/tmp/openclaw_backup_work"
 
-TELEGRAM_TOKEN = "8699275494:AAFKX13Y_tAJxezbV_pUBtnuuybyerFp0rI"
+# Token Telegram letto da openclaw.json (sempre quello valido anche dopo rotazioni)
+with open("/home/openclaw/.openclaw/openclaw.json") as _oc:
+    TELEGRAM_TOKEN = _json.load(_oc)["channels"]["telegram"]["accounts"]["default"]["botToken"]
 TELEGRAM_CHAT_ID = "506258994"
 TELEGRAM_TOPIC_ID = None
 
