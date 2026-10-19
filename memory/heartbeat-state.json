@@ -19,7 +19,7 @@
     "heartbeat-1203-17": 1792231380000,
     "heartbeat-2203-18": 1792353780018
   },
-  "lastHeartbeat": 1792353780018,
+  "lastHeartbeat": 1792393380021,
   "notes": {
     "calendar": "google_meet calendar_events non configurato (OAuth mancante) - skip fino a configurazione",
     "email": "Cron email myJob/AOS disabled da ~21 ago. Non insistere.",
@@ -71,6 +71,7 @@
     "18-10-12-03": "HEARTBEAT.md vuoto. Eseguita revisione memoria pianificata ~18/10: file 14-18/10 distillati in MEMORY.md (CNI ritirabile, ginocchio, YouTube, Jellyfin). PEC/IPTV in attesa Atti. Nessun messaggio ad Atti (routine).",
     "18-10-14-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta stamani. PEC/IPTV in attesa Atti. Nessuna azione.",
     "18-10-18-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta stamani (prossima ~23/10). PEC/IPTV in attesa Atti. Nessuna azione.",
-    "18-10-22-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta stamani (prossima ~23/10). PEC/IPTV in attesa Atti. Sera: nessuna azione."
+    "18-10-22-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta stamani (prossima ~23/10). PEC/IPTV in attesa Atti. Sera: nessuna azione.",
+    "19-10-09-03": "HEARTBEAT.md vuoto. Nessun task dovuto. Revisione memoria fatta 18/10 (prossima ~23/10). PEC/IPTV in attesa Atti. Nessuna azione."
   }
 }
