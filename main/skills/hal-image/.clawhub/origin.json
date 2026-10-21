@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "hal-image",
+  "ownerHandle": "ofoxai",
+  "installedAt": 1792489600757,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "9f7615c9fdbecb4f1184dd99558e101d2e62d310cff868de1b9455e646c69399",
+    "integrity": "sha256-n3YVyf2+y08RhN2ZVY4QHS5i0xDP+GjeG5RV5kbGk5k="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "c8a8400444263d63105db1088f4bc3993a8b8f832e45b12e475cb9c9f09d6698"
+  },
+  "fileTreeSha256": "sha256:014589be62a8e11c5c383691eee912306abc2f3f2d3069a3e1264ea8f8be00a0",
+  "installedVersion": "1.1.0"
+}

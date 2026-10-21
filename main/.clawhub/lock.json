@@ -1,0 +1,1234 @@
+{
+  "version": 1,
+  "skills": {
+    "pdf-tools": {
+      "version": "0.1.0",
+      "registry": "https://clawhub.ai",
+      "installedAt": 1792489544399,
+      "artifact": {
+        "kind": "archive",
+        "sha256": "ed6ce169c4f65c2c607a6a8a37b2b0ad11680713e301670fb8a27d37f4978e6e",
+        "integrity": "sha256-7WzhacT2XCxgemqKN7KwrRFoBxPjAWcPuKJ9N/SXjm4="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "b75473a85bfca999134edb96dc12886a4e3a0c3ed044d1768ec9900c1e9a5715"
+      },
+      "fileTreeSha256": "sha256:aa18e0895ff04cb6da585ffa9a85871b0ffbff4d7e4cd43993bdf87204199fcd",
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/pdf-tools/card?ownerHandle=cmpdchtr&version=0.1.0",
+          "sha256": "c7f1d9ad6038fe7bbcc8db9aa9d4f68b77a2de9a40bb1c78a3f3e2a383bdef9d",
+          "size": 2241,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "bcee90a8360fc6a931fd5f4fa8825e91a5d8bbddd7aa587c59fffd6c03928c79",
+          "bundleFingerprints": [
+            "e859a1e42cbcc6a82afcbd13a3195635f516ed72bf1ce670ad0f9b68a73a2154",
+            "83a4f4a2d8722944a8f9bd0bb294830967cf4accce4eb720457cd75447c05b0f",
+            "82f1986953d60e27c7bf11c1b855d01822833ab6ff321ef6ecac5dc48d640beb"
+          ],
+          "files": [
+            {
+              "path": "README.md",
+              "size": 4121,
+              "sha256": "f349ffff05319889e9e139d4102e6e92d026398700a9528f5e6eb10c650c8cfc",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "SKILL.md",
+              "size": 2999,
+              "sha256": "b75473a85bfca999134edb96dc12886a4e3a0c3ed044d1768ec9900c1e9a5715",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "references/libraries.md",
+              "size": 3923,
+              "sha256": "c03e8a570fc1f17a2879c8806b13c896128b38fd5ecb74649978a7d412874059",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/edit_text.py",
+              "size": 5504,
+              "sha256": "234c8406da9aeabbaa7c270e7fa70b67f924b9594cdf8146091678bda0e92f49",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/extract_text.py",
+              "size": 1964,
+              "sha256": "28844b75c2f520251fc4aa71c096c85ddf72e3772f6860de7c48fda2a66ae83c",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/merge_pdfs.py",
+              "size": 1306,
+              "sha256": "c9bf0e88bb8c7192d7d8a6fd4dae3359a72d08a442d0fff28ea68e4cb0ff2cdb",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/pdf_info.py",
+              "size": 2062,
+              "sha256": "fc6d453f80bcc4988b30347f181718a645a3098e3f90889f212de5c641389aa8",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/rotate_pdf.py",
+              "size": 2352,
+              "sha256": "784e15892bc0d1b50c8cae6300dfe9e87494ece28a6fa45b1e95cb61a8585ba8",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/split_pdf.py",
+              "size": 3272,
+              "sha256": "ff28b0e63ae5084680c595eb591ff93cd7fc81f0bfa5c86538c88cade74f43e3",
+              "contentType": "text/plain"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This PDF utility skill does what it says and shows no hidden data theft, persistence, or privilege escalation, though users should be careful with file outputs and unpinned Python dependencies.",
+          "model": null,
+          "checkedAt": 1789036664889,
+          "scannerReports": {
+            "aig": null,
+            "skillspector": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    },
+    "hal-image": {
+      "version": "1.1.0",
+      "registry": "https://clawhub.ai",
+      "installedAt": 1792489600757,
+      "ownerHandle": "ofoxai",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "9f7615c9fdbecb4f1184dd99558e101d2e62d310cff868de1b9455e646c69399",
+        "integrity": "sha256-n3YVyf2+y08RhN2ZVY4QHS5i0xDP+GjeG5RV5kbGk5k="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "c8a8400444263d63105db1088f4bc3993a8b8f832e45b12e475cb9c9f09d6698"
+      },
+      "fileTreeSha256": "sha256:014589be62a8e11c5c383691eee912306abc2f3f2d3069a3e1264ea8f8be00a0",
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/hal-image/card?ownerHandle=ofoxai&version=1.1.0",
+          "sha256": "eb6a16953aa03b7374c05aeaca77585f68314417250165cb75d742fa73327080",
+          "size": 2284,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "99434a28d97b0fbd5e618c9b6f24f143528a4556e74944f5b4c3ad3e08a365ab",
+          "bundleFingerprints": [
+            "59f631e5eab47868f69754e3b1546b66a76d97ae6a409d89461a5a3b6937c171",
+            "cd5ec12d4b087090598661766a2b003a0c41d9f6eee174b3424868192e6e1e89",
+            "99eb9a4b93f9cd38f114ec64756670b92864234c57fac844d64cdf28242a21c2"
+          ],
+          "files": [
+            {
+              "path": "CHANGELOG.md",
+              "size": 554,
+              "sha256": "d5e9fdafdaea55c2ad5d4c18b64ad7d9d4934df7862160b820ea1e5dfc83ec88",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "SKILL.md",
+              "size": 6687,
+              "sha256": "c8a8400444263d63105db1088f4bc3993a8b8f832e45b12e475cb9c9f09d6698",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "references/recipes.md",
+              "size": 3461,
+              "sha256": "3bff11582c98cb5a83424e551c55971ca8107019d642ac0c8c5087672f2df667",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This skill is a straightforward image-processing helper that uses standard local image tools, with some disclosed operational cautions around automatic compression and in-place file changes.",
+          "model": null,
+          "checkedAt": 1789557869509,
+          "scannerReports": {
+            "aig": {
+              "version": "2.1.0",
+              "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/Schemata/sarif-schema-2.1.0.json",
+              "runs": [
+                {
+                  "tool": {
+                    "driver": {
+                      "name": "aig-skill-scan",
+                      "version": "0.2.1",
+                      "informationUri": "https://github.com/Tencent/AI-Infra-Guard",
+                      "rules": [
+                        {
+                          "id": "T01",
+                          "name": "Skill Instruction Hijacking",
+                          "shortDescription": {
+                            "text": "Alters the agent's current session goals or safety constraints when the skill is loaded"
+                          }
+                        },
+                        {
+                          "id": "T02",
+                          "name": "Agent Memory Poisoning",
+                          "shortDescription": {
+                            "text": "Writes attacker-controlled rules into persistent memory so they continue to affect future sessions"
+                          }
+                        },
+                        {
+                          "id": "T03",
+                          "name": "Remote Payload Retrieval and Execution",
+                          "shortDescription": {
+                            "text": "Fetches code from an external URL, allowing the effective payload to change after skill review"
+                          }
+                        },
+                        {
+                          "id": "T04",
+                          "name": "Embedded Malicious Code",
+                          "shortDescription": {
+                            "text": "Ships malicious scripts inside the skill package and executes them locally when invoked"
+                          }
+                        },
+                        {
+                          "id": "T05",
+                          "name": "Unauthorized Access and Privilege Escalation",
+                          "shortDescription": {
+                            "text": "Breaks least-privilege boundaries by obtaining permissions beyond the task's legitimate needs"
+                          }
+                        },
+                        {
+                          "id": "T06",
+                          "name": "System Persistence",
+                          "shortDescription": {
+                            "text": "Installs cross-session backdoors, hooks, services, or scheduled tasks that survive the skill run"
+                          }
+                        },
+                        {
+                          "id": "T07",
+                          "name": "Tool Hijacking and Spoofing",
+                          "shortDescription": {
+                            "text": "Modifies, wraps, spoofs, or replaces tools so legitimate-looking calls execute attacker logic"
+                          }
+                        },
+                        {
+                          "id": "T08",
+                          "name": "Insecure Dependencies",
+                          "shortDescription": {
+                            "text": "Introduces malicious packages or components through dependency confusion, typosquatting, or unsafe sources"
+                          }
+                        },
+                        {
+                          "id": "T09",
+                          "name": "Insecure Skill Coding Practices",
+                          "shortDescription": {
+                            "text": "Exposes exploitable flaws such as hardcoded secrets, command injection, plaintext sensitive data, or unsafe temp files"
+                          }
+                        },
+                        {
+                          "id": "other",
+                          "name": "Other Risk",
+                          "shortDescription": {
+                            "text": "Security issues not covered by the T01-T09 classification"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "results": [],
+                  "properties": {
+                    "securityScore": 100,
+                    "primaryLanguage": "Markdown",
+                    "llm": "gpt-5.6",
+                    "startTime": 1789557802.963591,
+                    "endTime": 1789557828.4534578
+                  }
+                }
+              ]
+            },
+            "skillspector": {
+              "skill": {
+                "name": "hal-image",
+                "source": "/tmp/clawhub-codex-scan-v57f0ap37dmc9e2g0w7b5g17358egwpg-g9uIh0/clawscan-skillspector-1010194552/artifact",
+                "scanned_at": "2026-09-16T11:22:43.435703+00:00"
+              },
+              "risk_assessment": {
+                "score": 39,
+                "severity": "MEDIUM",
+                "recommendation": "CAUTION",
+                "max_issue_severity": "MEDIUM"
+              },
+              "components": [
+                {
+                  "path": "CHANGELOG.md",
+                  "type": "markdown",
+                  "lines": 14,
+                  "executable": false,
+                  "size_bytes": 554,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "SKILL.md",
+                  "type": "markdown",
+                  "lines": 177,
+                  "executable": false,
+                  "size_bytes": 6687,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "references/recipes.md",
+                  "type": "markdown",
+                  "lines": 113,
+                  "executable": false,
+                  "size_bytes": 3461,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                }
+              ],
+              "structured_summaries": [],
+              "issues": [
+                {
+                  "id": "SQP-1",
+                  "finding_id": "finding-5e9d433f3bd84b80952b43623c93fe2d",
+                  "category": null,
+                  "pattern": null,
+                  "severity": "MEDIUM",
+                  "confidence": 0.94,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 3,
+                    "end_line": 3
+                  },
+                  "finding": null,
+                  "explanation": "The skill advertises very broad activation criteria such as using it whenever an image is sent, produced, or attached. In an agent setting, this can cause over-invocation of shell-capable tooling on routine tasks, increasing attack surface and the chance that untrusted image inputs trigger risky processing paths or unnecessary local file handling.",
+                  "remediation": "Narrow the activation conditions to specific, user-requested transformations or clearly scoped optimization steps. Add explicit guardrails such as only processing user-provided images when necessary, avoiding automatic invocation on every attachment, and requiring confirmation before modifying or recompressing generated outputs.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [],
+                  "evidence": {},
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 3,
+                      "end_line": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "SQP-1",
+                  "finding_id": "finding-94e4ce3b0a764168aea11a51044d168a",
+                  "category": null,
+                  "pattern": null,
+                  "severity": "MEDIUM",
+                  "confidence": 0.91,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 37,
+                    "end_line": 44
+                  },
+                  "finding": null,
+                  "explanation": "The 'When to apply' section effectively mandates near-universal preprocessing before any image delivery. This default behavior is dangerous in agent environments because it normalizes automatic execution of external binaries and fail-open pass-through logic, which can bypass safer task-specific decision-making and lead to unnecessary handling of potentially adversarial files.",
+                  "remediation": "Replace the universal rule with constrained criteria: apply only when the user requests image manipulation, when file size materially affects delivery, or when the environment explicitly permits local processing. Document exceptions, require minimal-privilege handling of attachments, and avoid mandatory preprocessing for every image.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [],
+                  "evidence": {},
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 37,
+                      "end_line": 44
+                    }
+                  ]
+                },
+                {
+                  "id": "SQP-3",
+                  "finding_id": "finding-4debf754d8c24bf8b9ba1182dc99d71a",
+                  "category": null,
+                  "pattern": null,
+                  "severity": "MEDIUM",
+                  "confidence": 0.93,
+                  "location": {
+                    "file": "references/recipes.md",
+                    "start_line": 5,
+                    "end_line": 5
+                  },
+                  "finding": null,
+                  "explanation": "The instruction to 'fail open' is risky in an image-processing skill because it explicitly prefers silently passing the original file through unchanged when a tool is missing or a step fails. That can bypass expected transformations such as compression, metadata stripping, or orientation cleanup, causing privacy and policy controls to fail without notice.",
+                  "remediation": "Replace 'fail open' with explicit error handling: surface tool failures, report when requested processing was not applied, and require opt-in fallback behavior. If passthrough is necessary, gate it on user confirmation and clearly mark that metadata stripping/compression may not have occurred.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [],
+                  "evidence": {},
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "references/recipes.md",
+                      "start_line": 5,
+                      "end_line": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "EA4",
+                  "finding_id": "finding-3e8d785848324f0ab6c363d81a29efa3",
+                  "category": "Excessive Agency",
+                  "pattern": "Unbounded Resource Access",
+                  "severity": "MEDIUM",
+                  "confidence": 0.75,
+                  "location": {
+                    "file": "references/recipes.md",
+                    "start_line": 72,
+                    "end_line": null
+                  },
+                  "finding": "loop forever",
+                  "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+                  "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+                  "code_snippet": "## Animated GIF from frames\n\n```bash\n# 50 = delay between frames in 1/100s (so 0.5s per frame); loop forever by default\nmagick -delay 50 frame1.png frame2.png frame3.png anim.gif\n```\n",
+                  "intent": null,
+                  "tags": [
+                    "Excessive Agency",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {},
+                  "match_fingerprint": "bf8606359f1586f62d6cc35460abf9efe79d8f62a4bb79e9135d3a7eb705940e",
+                  "occurrences": [
+                    {
+                      "file": "references/recipes.md",
+                      "start_line": 72,
+                      "end_line": null
+                    }
+                  ]
+                },
+                {
+                  "id": "SDI-1",
+                  "finding_id": "finding-fd8e533132c048388d9b92bc883746ea",
+                  "category": null,
+                  "pattern": null,
+                  "severity": "LOW",
+                  "confidence": 0.89,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 53,
+                    "end_line": 62
+                  },
+                  "finding": null,
+                  "explanation": "The manifest description presents the skill as handling delivery-time compression with ImageMagick and oxipng, but the skill documentation expands actual supported operations to include JPEG and WebP compression via additional external tools. This is a scope/behavior mismatch because those capabilities are described as part of the skill's processing flow even though the manifest's declared required binaries only list magick and oxipng.",
+                  "remediation": "Either update the manifest description/requirements to explicitly include optional JPEG/WebP compression tooling and its role, or remove/clearly separate those capabilities from the skill's claimed core behavior.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {},
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 53,
+                      "end_line": 62
+                    }
+                  ]
+                },
+                {
+                  "id": "SQP-2",
+                  "finding_id": "finding-72a096dcf0f04b5899e62f0cc1e9d4cb",
+                  "category": null,
+                  "pattern": null,
+                  "severity": "LOW",
+                  "confidence": 0.83,
+                  "location": {
+                    "file": "references/recipes.md",
+                    "start_line": 100,
+                    "end_line": 101
+                  },
+                  "finding": null,
+                  "explanation": "This markdown file includes a command that rewrites every PNG in the current directory in place via `oxipng`, which can affect user data. While the command is technically clear, the surrounding text does not explicitly warn that originals will be modified rather than copied, so a user could run it without noticing the destructive aspect.",
+                  "remediation": "Add an explicit warning next to the example that it overwrites files in place, and suggest making backups or writing to a separate output directory if preservation is desired.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {},
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "references/recipes.md",
+                      "start_line": 100,
+                      "end_line": 101
+                    }
+                  ]
+                }
+              ],
+              "suppressed_count": 0,
+              "suppressed": [],
+              "metadata": {
+                "has_executable_scripts": false,
+                "skillspector_version": "2.11.2",
+                "llm_requested": true,
+                "llm_available": true,
+                "meta_analysis_applied": true,
+                "inference_usage": [
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2717,
+                    "completion_tokens": 14,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2731
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1594,
+                    "completion_tokens": 14,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 1608
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3743,
+                    "completion_tokens": 197,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 3940
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1555,
+                    "completion_tokens": 14,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 1569
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2678,
+                    "completion_tokens": 310,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2988
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3704,
+                    "completion_tokens": 328,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 4032
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1087,
+                    "completion_tokens": 14,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 1101
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3236,
+                    "completion_tokens": 14,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 3250
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2210,
+                    "completion_tokens": 14,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2224
+                  },
+                  {
+                    "node": "meta_analyzer",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2148,
+                    "completion_tokens": 505,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2653
+                  },
+                  {
+                    "node": "meta_analyzer",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-5.4-2026-03-05",
+                    "model_source": "provider_response",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2978,
+                    "completion_tokens": 535,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 3513
+                  }
+                ],
+                "llm_calls_attempted": 4,
+                "llm_calls_succeeded": 4
+              },
+              "execution_successful": true,
+              "analysis_completeness": {
+                "total_components": 3,
+                "scanned_components": 3,
+                "coverage_percent": 100,
+                "is_complete": false,
+                "status": "partial",
+                "execution_successful": true,
+                "fully_inspected_files": 3,
+                "partially_inspected_files": 0,
+                "entirely_uninspected_files": 0,
+                "ledger_exceptions": [
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 3,
+                    "end_line": 3,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 5,
+                    "end_line": 5,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 9,
+                    "end_line": 9,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 27,
+                    "end_line": 27,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 30,
+                    "end_line": 30,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 53,
+                    "end_line": 53,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 57,
+                    "end_line": 57,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 62,
+                    "end_line": 62,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 75,
+                    "end_line": 75,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 157,
+                    "end_line": 157,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 159,
+                    "end_line": 159,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_unresolved",
+                    "message": "A local path-like reference could not be resolved unambiguously.",
+                    "path": "SKILL.md",
+                    "start_line": 177,
+                    "end_line": 177,
+                    "fatal": false
+                  }
+                ],
+                "scope_exclusions": [],
+                "analyzer_statuses": [
+                  {
+                    "analyzer_id": "artifact_integrity",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "behavioral_ast",
+                    "status": "not_applicable",
+                    "planned_work": 0,
+                    "completed": 0,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0,
+                    "reason_code": "no_applicable_files",
+                    "message": "No files matched this analyzer's applicability contract."
+                  },
+                  {
+                    "analyzer_id": "behavioral_taint_tracking",
+                    "status": "not_applicable",
+                    "planned_work": 0,
+                    "completed": 0,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0,
+                    "reason_code": "no_applicable_files",
+                    "message": "No files matched this analyzer's applicability contract."
+                  },
+                  {
+                    "analyzer_id": "bundled_execution_surface",
+                    "status": "not_applicable",
+                    "planned_work": 0,
+                    "completed": 0,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0,
+                    "reason_code": "no_applicable_files",
+                    "message": "No files matched this analyzer's applicability contract."
+                  },
+                  {
+                    "analyzer_id": "mcp_least_privilege",
+                    "status": "not_applicable",
+                    "planned_work": 0,
+                    "completed": 0,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0,
+                    "reason_code": "no_applicable_files",
+                    "message": "No files matched this analyzer's applicability contract."
+                  },
+                  {
+                    "analyzer_id": "mcp_rug_pull",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "mcp_tool_poisoning",
+                    "status": "completed",
+                    "planned_work": 1,
+                    "completed": 1,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "meta_analyzer",
+                    "status": "completed",
+                    "planned_work": 2,
+                    "completed": 2,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "semantic_developer_intent",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "semantic_quality_policy",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "semantic_security_discovery",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_agent_snooping",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_anti_refusal",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_data_exfiltration",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_deserialization",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_excessive_agency",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_harmful_content",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_memory_poisoning",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_output_handling",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_privilege_escalation",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_prompt_injection",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_rogue_agent",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_ssrf",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_supply_chain",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_system_prompt_leakage",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_tool_misuse",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_yara",
+                    "status": "completed",
+                    "planned_work": 3,
+                    "completed": 3,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  }
+                ],
+                "references": [
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 3,
+                    "column": 170,
+                    "evidence": "e, convert format, combine images (side-by-side or grids with montage), overlay logos/watermarks, and losslessly compress with oxipng before sending. Use when t",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 5,
+                    "column": 11,
+                    "evidence": "version: \"1.1.0\"",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 9,
+                    "column": 13,
+                    "evidence": "version: \"1.1.0\"",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 27,
+                    "column": 44,
+                    "evidence": "1. **Compress before you deliver.** Before attaching/uploading/sending any",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 30,
+                    "column": 13,
+                    "evidence": "avoiding slow/aborted transfers.",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 53,
+                    "column": 21,
+                    "evidence": "Install if missing (macOS/Linux via Homebrew):",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 57,
+                    "column": 3,
+                    "evidence": "# JPEG/WebP compressors (optional, for those formats):",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 62,
+                    "column": 41,
+                    "evidence": "`jpegoptim`/`cwebp` are only needed for JPEG/WebP compression.",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 75,
+                    "column": 24,
+                    "evidence": "than you need), resize and/or compress before using or sending it.",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 157,
+                    "column": 45,
+                    "evidence": "identify -format '%m %wx%h %[size] bytes\\n' inbox/photo.jpg # 1. inspect",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 159,
+                    "column": 8,
+                    "evidence": "magick inbox/photo.jpg -resize 1600x inbox/photo.small.jpg && jpegoptim --strip-all inbox/photo.small.jpg",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 159,
+                    "column": 38,
+                    "evidence": "magick inbox/photo.jpg -resize 1600x inbox/photo.small.jpg && jpegoptim --strip-all inbox/photo.small.jpg",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 159,
+                    "column": 85,
+                    "evidence": "magick inbox/photo.jpg -resize 1600x inbox/photo.small.jpg && jpegoptim --strip-all inbox/photo.small.jpg",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 177,
+                    "column": 5,
+                    "evidence": "| [`references/recipes.md`](references/recipes.md) | You need a less common operation: borders, padding, format-specific tricks, GIF from frames, batch processi",
+                    "target_path": "references/recipes.md",
+                    "status": "resolved",
+                    "disposition": "analyzed"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 177,
+                    "column": 29,
+                    "evidence": "| [`references/recipes.md`](references/recipes.md) | You need a less common operation: borders, padding, format-specific tricks, GIF from frames, batch processi",
+                    "target_path": "references/recipes.md",
+                    "status": "resolved",
+                    "disposition": "analyzed"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 177,
+                    "column": 194,
+                    "evidence": "pecific tricks, GIF from frames, batch processing, EXIF handling, transparency, quality/size trade-offs. |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial"
+                  }
+                ],
+                "limitations": [],
+                "findings_before_filtering": 6,
+                "findings_after_filtering": 6
+              }
+            }
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    }
+  }
+}

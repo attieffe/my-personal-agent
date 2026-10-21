@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "pdf-tools",
+  "installedAt": 1792489544399,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "ed6ce169c4f65c2c607a6a8a37b2b0ad11680713e301670fb8a27d37f4978e6e",
+    "integrity": "sha256-7WzhacT2XCxgemqKN7KwrRFoBxPjAWcPuKJ9N/SXjm4="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "b75473a85bfca999134edb96dc12886a4e3a0c3ed044d1768ec9900c1e9a5715"
+  },
+  "fileTreeSha256": "sha256:aa18e0895ff04cb6da585ffa9a85871b0ffbff4d7e4cd43993bdf87204199fcd",
+  "installedVersion": "0.1.0"
+}

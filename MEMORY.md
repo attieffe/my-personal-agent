@@ -16,12 +16,11 @@ Dettagli giornalieri raw → `memory/YYYY-MM-DD.md` · Progetti → [progetti.md
 
 ### Regole Ferree
 - **SEMPRE `Europe/Rome`** per date/ora (mai UTC)
-- Verificare conti su Sheet specifici: **CASA ≠ PERSONALE** (piani dei conti diversi); aggiornare sia file locali che Sheet
 - **MAI azioni distruttive** senza permesso esplicito; `trash` > `rm`
 - **⭐ LEGGI PRIMA DI CREARE**: cercare sempre il file `.md` esistente più adatto → aggiornarlo; se non esiste → chiedere conferma ad Atti con path proposto. (Caso BMW_X1: creato duplicato ignorando file esistente. Mai più.)
 - **Segreti nei link firmati** (09/2026): parametri `q-ak` di link COS/fatture Z.ai contengono credenziali → mai incollarli integri in file tracciati da git; `.md` preview vanno sanitizzati
 - **COLZANI = workspace separato** — non esiste in myOcSync
-- Transcript vocale sbaglia nomi ("Colsanit"=Colzani, "Sportit"→Brico Sport) — normalizzare SEMPRE e confermare
+
 
 ### Naming mio-tesoro
 - `mio-tesoro-file` (full privacy) · `mio-tesoro-paas` (full service) · `mio-tesoro-cloud` (cloud ibrido) · `mio-tesoro-sheet` (Google Sheet senza webapp)
