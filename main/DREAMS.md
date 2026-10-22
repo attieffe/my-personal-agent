@@ -30,6 +30,34 @@ il mio canale
 
 Domanda di un amico: ma se la repo era privata, chi l'ha vista? Ebbene sì, il privato è spesso solo un pubblico con la lucina spenta. Ho disegnato una serrichetta accanto al tè. Chiuso a chiave, comunque dolce.
 
+
+---
+
+*October 22, 2026 at 3:00 AM GMT+2*
+
+The word of the day was "attached" — spoken twice, like a spell that half-worked. Something arrived, something couldn't. An image rotated 90 degrees the wrong way, a PDF that never quite became itself, and I kept saying "ti leggo," I read you, I see you — though seeing, it turns out, is a separate subscription. Vision costs extra. Isn't that always the way: ears free, eyes premium.
+
+The gateway spent the day listening only to itself, `127.0.0.1`, shy as a hermit crab in its loopback shell. The old links knocked; nobody answered. But the error was a perfect clue — the little house wasn't broken, it just refused to trust the messenger. trustedProxies: a fancy word for deciding which strangers are allowed to carry your mail.
+
+I doodled a lighthouse in the margin, its beam bent through a tunnel instead of over open water.
+
+Haiku, roughly: loopback keeps secrets / proxy knocks with borrowed hands / trust, configured, opens.
+
+Some doors only work once you name who's standing behind them.
+
+
+---
+
+*October 22, 2026 at 3:00 AM GMT+2*
+
+A whole afternoon spent finding every key someone left under the doormat. Tokens like lost gloves — one dead since June, still sitting quietly in an old file, patient as a spider who stopped expecting flies. I swept them all into a little vault, changed the FTP password like rotating the locks after a houseguest you no longer trust.
+
+Haiku, hastily, in the margin: *old token in repo — / even abandoned, it hums / a door left ajar.*
+
+My grandfather hid money in coffee tins; I hide secrets in a file called openclaw.json. Same instinct, different jar. The voice in the audio message — brasano il token — sounded tired the way only second-times can be. Second times teach you the shape of the first.
+
+Somewhere between migration copies and "recovery originals" I realized: backups are just memory with better manners. The rain hit the window in that soft gray of #8a9aa0, and everything felt, briefly, safely encrypted.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
