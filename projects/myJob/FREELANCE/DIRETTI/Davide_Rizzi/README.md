@@ -68,6 +68,7 @@
 	- [ ] scegliere il tipo di algoritmo di calcolo per il taglio da eseguire
 	- [ ] indicizzare in tabelle dedicate le elaborazioni proposte
 	- [ ] raccogliere tutti gli opportuni dati e agevolare la fase successiva di codifica prodotto
+- [ ] 23/10/2026 prova si A003276 con anteprima no npropone tutto invece senza si
 
 ## Note
 -
